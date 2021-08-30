@@ -2,13 +2,17 @@ import Button from "../Button/Button";
 import HStack from "./HStack";
 
 export default {
-	component: HStack,
-	title: "UI/HStack",
+    component: HStack,
+    title: "UI/HStack",
 };
 
 export const Default = () => (
-	<HStack>
-		<Button>Button</Button>
-		<Button>Button</Button>
-	</HStack>
+    <HStack>
+        <Button px={4} py={2}>
+            Button
+        </Button>
+        <Button px={4} py={2}>
+            Button
+        </Button>
+    </HStack>
 );
