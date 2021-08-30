@@ -8,7 +8,7 @@ export default {
 
 export const Default = () => (
 	<HStack>
-		<Button>HStack</Button>
-		<Button>HStack</Button>
+		<Button>Button</Button>
+		<Button>Button</Button>
 	</HStack>
 );
