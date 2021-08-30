@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"strict": true,
+		"jsx": "preserve",
+		"jsxImportSource": "solid-js",
+		"sourceMap": true,
+		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"lib": ["esnext", "dom"],
+		"types": ["vite/client"]
+	},
+	"include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx"]
+}
