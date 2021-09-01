@@ -6,7 +6,17 @@ export default {
 };
 
 export const Default = () => (
-    <Button px={4} py={2}>
+    <Button
+        _hover={{
+            bg: "yellow.800",
+        }}
+        _active={{
+            bg: "yellow.900",
+        }}
+        bg="yellow.600"
+        px={4}
+        py={2}
+    >
         Button
     </Button>
 );

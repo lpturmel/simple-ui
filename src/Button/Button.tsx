@@ -7,10 +7,11 @@ interface ButtonProps
 
 const Button: Component<ButtonProps> = (props) => {
     const tw = mapPropsToTw<PropsWithChildren<ButtonProps>>(props);
+    console.log(tw);
     return (
         <button
             {...props}
-            class={`${tw} transition-colors p duration-200 ease-in-out bg-red-500 active:bg-red-800 border border-transparent focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent font-semibold hover:bg-red-700 rounded-lg text-white`}
+            class={`${tw} transition-colors duration-200 ease-in-out border border-transparent focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent font-semibold rounded-lg`}
         >
             {props.children}
         </button>

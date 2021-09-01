@@ -1,10 +1,58 @@
+import { parseStateProps } from "./states";
+
 export function mapPropsToTw<T>(props: T) {
     // This type annotation is to have the proper types returned from Object.keys(x)
     // By design it returns a string[]
     let classString = "";
     (Object.keys(props) as Array<keyof T>).forEach((prop) => {
-        classString += `${prop}-${props[prop]} `;
+        let newPropName = prop.toString();
+
+        switch (prop) {
+            /**
+             * Colors
+             */
+            case "color":
+                newPropName = "text";
+                break;
+            case "bg":
+                newPropName = "bg";
+                break;
+            case "backgroundColor":
+                newPropName = "bg";
+                break;
+
+            /**
+             * States
+             */
+
+            case "_active":
+                const activeProps = mapPropsToTw<T>(
+                    (props[prop] as unknown) as T
+                );
+                newPropName = parseStateProps(activeProps, "active");
+
+                break;
+            case "_focus":
+                const focusProps = mapPropsToTw<T>(
+                    (props[prop] as unknown) as T
+                );
+
+                newPropName = parseStateProps(focusProps, "focus");
+
+                break;
+
+            case "_hover":
+                const hoverProps = mapPropsToTw<T>(
+                    (props[prop] as unknown) as T
+                );
+
+                newPropName = parseStateProps(hoverProps, "hover");
+
+                break;
+        }
+        classString += `${newPropName}-${props[prop]} `.replace(".", "-");
     });
+
     return classString;
 }
 
