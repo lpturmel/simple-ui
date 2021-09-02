@@ -1,10 +1,34 @@
 export interface HeightProps {
 	h?: HeightValues;
 	height?: HeightValues;
-	maxHeight?: HeightValues;
-	minHeight?: HeightValues;
+	maxHeight?: MaxHeightValues;
+	minHeight?: MinHeightValues;
 }
 
+export type MinHeightValues = 0 | "full" | "min" | "max";
+export type MaxHeightValues =
+	| 0
+	| "none	"
+	| "xs"
+	| "sm"
+	| "md"
+	| "lg"
+	| "xl"
+	| "2xl"
+	| "3xl"
+	| "4xl"
+	| "5xl"
+	| "6xl"
+	| "7xl"
+	| "full"
+	| "min"
+	| "max"
+	| "prose"
+	| "screen-sm"
+	| "screen-md"
+	| "screen-lg"
+	| "screen-xl"
+	| "screen-2xl";
 export type HeightValues =
 	| 0
 	| 0.5
