@@ -1,7 +1,13 @@
 import { ColorProps } from "./colors";
-import margin from "./margin";
-import padding from "./padding";
+import { MarginProps } from "./margin";
+import { PaddingProps } from "./padding";
+import { FontProps } from "./font";
 import { StateProps } from "./states";
 
-type MainProps<T = {}> = padding & margin & ColorProps & StateProps & T;
+type MainProps<T = {}> = PaddingProps &
+	MarginProps &
+	ColorProps &
+	StateProps &
+	FontProps &
+	T;
 export default MainProps;
