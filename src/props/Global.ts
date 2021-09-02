@@ -3,11 +3,33 @@ import { parseStateProps } from "./states";
 export function mapPropsToTw<T>(props: T) {
 	// This type annotation is to have the proper types returned from Object.keys(x)
 	// By design it returns a string[]
+	const startTime = performance.now();
 	let classString = "";
 	(Object.keys(props) as Array<keyof T>).forEach((prop) => {
 		let newPropName = prop.toString();
 
 		switch (prop) {
+			/**
+			 * Sizing
+			 */
+			case "width":
+				newPropName = "w";
+				break;
+			case "maxWidth":
+				newPropName = "max-w";
+				break;
+			case "minWidth":
+				newPropName = "min-w";
+				break;
+			case "height":
+				newPropName = "h";
+				break;
+			case "maxHeight":
+				newPropName = "max-h";
+				break;
+			case "minHeight":
+				newPropName = "min-h";
+				break;
 			/**
 			 * Colors
 			 */
@@ -66,7 +88,9 @@ export function mapPropsToTw<T>(props: T) {
 		}
 		classString += `${newPropName}-${props[prop]} `.replace(".", "-");
 	});
-	console.log(classString);
+	const endTime = performance.now();
+
+	console.log("Mapping took: ", endTime - startTime);
 	return classString;
 }
 
