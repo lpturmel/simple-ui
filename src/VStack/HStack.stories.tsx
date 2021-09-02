@@ -7,8 +7,12 @@ export default {
 };
 
 export const Default = () => (
-	<VStack>
-		<Button>VStack</Button>
-		<Button>VStack</Button>
+	<VStack w="2/12" class="max-w-2">
+		<Button px={4} py={2}>
+			VStack Child 1
+		</Button>
+		<Button px={4} py={2}>
+			VStack Child 2
+		</Button>
 	</VStack>
 );
