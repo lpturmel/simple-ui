@@ -1,10 +1,34 @@
 export interface WidthProps {
 	w?: WidthValues;
 	width?: WidthValues;
-	maxWidth?: WidthValues;
-	minWidth?: WidthValues;
+	maxWidth?: MaxWidthValues;
+	minWidth?: MinWidthValues;
 }
 
+export type MinWidthValues = 0 | "full" | "min" | "max";
+export type MaxWidthValues =
+	| 0
+	| "none	"
+	| "xs"
+	| "sm"
+	| "md"
+	| "lg"
+	| "xl"
+	| "2xl"
+	| "3xl"
+	| "4xl"
+	| "5xl"
+	| "6xl"
+	| "7xl"
+	| "full"
+	| "min"
+	| "max"
+	| "prose"
+	| "screen-sm"
+	| "screen-md"
+	| "screen-lg"
+	| "screen-xl"
+	| "screen-2xl";
 export type WidthValues =
 	| 0
 	| 0.5
