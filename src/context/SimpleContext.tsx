@@ -1,5 +1,11 @@
 import { Component, createContext } from "solid-js";
 import { createStore } from "solid-js/store";
+import "../props/sizing/width/index.css";
+import "../props/sizing/height/index.css";
+import "../props/background/colors/index.css";
+import "../props/text/colors/index.css";
+import "../props/colors/index.css";
+
 export const SimpleContext = createContext();
 
 export const SimpleProvider: Component = (props) => {
@@ -11,8 +17,13 @@ export const SimpleProvider: Component = (props) => {
 
 	return (
 		<SimpleContext.Provider value={[state, setState]}>
-			<div ref={(el) => setState("portal", el)} id="simple-ui-portal" />
-			{props.children}
+			<div>
+				<div
+					ref={(el) => setState("portal", el)}
+					id="simple-ui-portal"
+				/>
+				{props.children}
+			</div>
 		</SimpleContext.Provider>
 	);
 };

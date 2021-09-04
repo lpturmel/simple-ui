@@ -2,9 +2,9 @@ import ModalOverlay from "./ModalOverlay/ModalOverlay";
 import ModalBody from "./ModalBody/ModalBody";
 import Modal from "./Modal";
 import ModalHeader from "./ModalHeader/ModalHeader";
-import { SimpleProvider } from "../context/SimpleContext";
+import { SimpleProvider } from "../../context/SimpleContext";
 import ModalContent from "./ModalContent/ModalContent";
-import createControls from "../apis/createControls";
+import createControls from "../../apis/createControls";
 import Button from "../Button/Button";
 
 export default {

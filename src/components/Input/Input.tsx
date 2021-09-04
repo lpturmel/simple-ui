@@ -1,6 +1,6 @@
 import { Component, JSX, PropsWithChildren } from "solid-js";
-import MainProps from "../props";
-import { mapPropsToTw } from "../props/Global";
+import MainProps from "../../props";
+import { mapPropsToTw } from "../../props/Global";
 
 interface InputProps
 	extends MainProps<JSX.InputHTMLAttributes<HTMLInputElement>> {}

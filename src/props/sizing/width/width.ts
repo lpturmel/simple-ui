@@ -8,7 +8,7 @@ export interface WidthProps {
 export type MinWidthValues = 0 | "full" | "min" | "max";
 export type MaxWidthValues =
 	| 0
-	| "none	"
+	| "none"
 	| "xs"
 	| "sm"
 	| "md"

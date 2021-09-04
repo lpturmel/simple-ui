@@ -1,10 +1,10 @@
-import { ColorProps } from "./colors";
-import { MarginProps } from "./margin";
-import { PaddingProps } from "./padding";
-import { FontProps } from "./font";
+import { ColorProps } from "./text/colors/colors";
+import { MarginProps } from "./spacing/margin/margin";
+import { PaddingProps } from "./spacing/padding/padding";
+import { FontProps } from "./text/font/font";
 import { StateProps } from "./states";
-import { WidthProps } from "./width";
-import { HeightProps } from "./height";
+import { WidthProps } from "./sizing/width/width";
+import { HeightProps } from "./sizing/height/height";
 
 type MainProps<T = {}> = PaddingProps &
 	MarginProps &

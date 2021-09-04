@@ -23,7 +23,6 @@ export const Default = () => (
 				color: "red.800",
 			}}
 			bg={"blue.400"}
-			color="black"
 			px={4}
 			py={2}
 		>

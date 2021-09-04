@@ -1,7 +1,7 @@
 import { Component, JSX, useContext } from "solid-js";
 import { Portal } from "solid-js/web";
-import { SimpleContext } from "../context/SimpleContext";
-import MainProps from "../props";
+import { SimpleContext } from "../../context/SimpleContext";
+import MainProps from "../../props";
 
 interface ModalProps extends MainProps<JSX.HTMLAttributes<HTMLDivElement>> {
 	isOpen: boolean;
