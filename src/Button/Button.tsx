@@ -6,8 +6,12 @@ interface ButtonProps
 	extends MainProps<JSX.ButtonHTMLAttributes<HTMLButtonElement>> {}
 
 const Button: Component<ButtonProps> = (props) => {
+	const startTime = performance.now();
 	const tw = mapPropsToTw<PropsWithChildren<ButtonProps>>(props);
 
+	const endTime = performance.now();
+
+	//console.log("Button took: ", endTime - startTime);
 	return (
 		<button
 			{...props}

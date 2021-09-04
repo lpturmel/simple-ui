@@ -7,7 +7,7 @@ interface ModalProps extends MainProps<JSX.HTMLAttributes<HTMLDivElement>> {
 	isOpen: boolean;
 }
 const Modal: Component<ModalProps> = (props) => {
-	const [state, setState]: any = useContext(SimpleContext);
+	const [state]: any = useContext(SimpleContext);
 
 	return (
 		<>

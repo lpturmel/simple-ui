@@ -8,13 +8,19 @@ export default {
 export const Default = () => (
 	<Button
 		_hover={{
-			bg: "yellow.500",
+			bg: "blue.500",
+			fontSize: "8xl",
+			fontWeight: "bold",
+			color: "red.600",
 		}}
 		_active={{
-			bg: "yellow.600",
+			bg: "blue.600",
+			fontSize: "xs",
+			fontWeight: "thin",
+			color: "red.800",
 		}}
-		fontWeight="normal"
-		bg="yellow.400"
+		bg={"blue.400"}
+		color="black"
 		px={4}
 		py={2}
 	>

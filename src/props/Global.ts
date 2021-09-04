@@ -3,10 +3,10 @@ import { parseStateProps } from "./states";
 export function mapPropsToTw<T>(props: T) {
 	// This type annotation is to have the proper types returned from Object.keys(x)
 	// By design it returns a string[]
-	const startTime = performance.now();
 	let classString = "";
+
 	(Object.keys(props) as Array<keyof T>).forEach((prop) => {
-		let newPropName = prop.toString();
+		let newPropName: any = prop;
 
 		switch (prop) {
 			/**
@@ -15,82 +15,89 @@ export function mapPropsToTw<T>(props: T) {
 			case "width":
 				newPropName = "w";
 				break;
+
 			case "maxWidth":
 				newPropName = "max-w";
 				break;
+
 			case "minWidth":
 				newPropName = "min-w";
 				break;
+
 			case "height":
 				newPropName = "h";
 				break;
+
 			case "maxHeight":
 				newPropName = "max-h";
 				break;
+
 			case "minHeight":
 				newPropName = "min-h";
 				break;
+
 			/**
 			 * Colors
 			 */
 			case "color":
 				newPropName = "text";
 				break;
-			case "bg":
-				newPropName = "bg";
-				break;
+
 			case "backgroundColor":
 				newPropName = "bg";
 				break;
+
 			/**
 			 * Font
 			 */
 			case "fontSize":
 				newPropName = "text";
 				break;
+
 			case "fontWeight":
 				newPropName = "font";
 				break;
+
 			/**
 			 * Utils
 			 */
 			case "placeholder":
-				return;
+				break;
 
 			/**
 			 * States
 			 */
-
 			case "_active":
+				console.log("entered active");
 				const activeProps = mapPropsToTw<T>(
 					(props[prop] as unknown) as T
 				);
 				newPropName = parseStateProps(activeProps, "active");
-
 				break;
+
 			case "_focus":
+				console.log("entered _focus");
+
 				const focusProps = mapPropsToTw<T>(
 					(props[prop] as unknown) as T
 				);
 
 				newPropName = parseStateProps(focusProps, "focus");
-
 				break;
 
 			case "_hover":
+				console.log("entered _hover");
+
 				const hoverProps = mapPropsToTw<T>(
 					(props[prop] as unknown) as T
 				);
 
 				newPropName = parseStateProps(hoverProps, "hover");
-
 				break;
 		}
+
 		classString += `${newPropName}-${props[prop]} `.replace(".", "-");
 	});
-	const endTime = performance.now();
-
-	console.log("Mapping took: ", endTime - startTime);
 	return classString;
 }
 
