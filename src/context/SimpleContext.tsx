@@ -4,7 +4,6 @@ import "../props/sizing/width/index.css";
 import "../props/sizing/height/index.css";
 import "../props/background/colors/index.css";
 import "../props/text/colors/index.css";
-import "../props/colors/index.css";
 
 export const SimpleContext = createContext();
 
