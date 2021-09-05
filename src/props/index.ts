@@ -8,6 +8,8 @@ import { HeightProps } from "./sizing/height/height";
 import { FontWeightProps } from "./text/fontWeight";
 import { BorderRadiusProps } from "./borders/borderRadius";
 import { SpacingProps } from "./spacing/spaceBetween";
+import { DisplayProps } from "./layout/display";
+import { PositionProps } from "./layout/position";
 
 type MainProps<T = {}> = PaddingProps &
 	MarginProps &
@@ -19,5 +21,7 @@ type MainProps<T = {}> = PaddingProps &
 	HeightProps &
 	BorderRadiusProps &
 	SpacingProps &
+	DisplayProps &
+	PositionProps &
 	T;
 export default MainProps;
