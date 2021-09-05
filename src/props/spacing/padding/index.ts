@@ -10,8 +10,8 @@ export interface PaddingProps {
 	pb?: SimpleRemValues;
 	paddingX?: SimpleRemValues;
 	paddingY?: SimpleRemValues;
-	"padding-left"?: SimpleRemValues;
-	"padding-top"?: SimpleRemValues;
-	"padding-right"?: SimpleRemValues;
-	"padding-bottom"?: SimpleRemValues;
+	paddingL?: SimpleRemValues;
+	paddingT?: SimpleRemValues;
+	paddingR?: SimpleRemValues;
+	paddingB?: SimpleRemValues;
 }
