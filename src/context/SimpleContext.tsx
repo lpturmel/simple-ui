@@ -7,6 +7,8 @@ import "../props/text/colors/index.css";
 import "../props/text/fontSize/index.css";
 import "../props/text/fontWeight/index.css";
 import "../props/borders/borderRadius/index.css";
+import "../props/spacing/margin/index.css";
+import "../props/spacing/padding/index.css";
 
 export const SimpleContext = createContext();
 
