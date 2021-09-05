@@ -9,6 +9,9 @@ import "../props/text/fontWeight/index.css";
 import "../props/borders/borderRadius/index.css";
 import "../props/spacing/margin/index.css";
 import "../props/spacing/padding/index.css";
+import "../props/spacing/spaceBetween/index.css";
+import "../props/layout/display/index.css";
+import "../props/layout/position/index.css";
 
 export const SimpleContext = createContext();
 
