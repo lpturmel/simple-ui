@@ -1,10 +1,21 @@
+import { parseStateProps } from "./states";
+
 export function mapPropsToTw<T>(props: T) {
 	// This type annotation is to have the proper types returned from Object.keys(x)
 	// By design it returns a string[]
 	let classString = "";
 
 	(Object.keys(props) as Array<keyof T>).forEach((prop) => {
-		classString += `${prop}-${props[prop]} `.replace(".", "-");
+		if (typeof props[prop] === "object") {
+			const stateProps = mapPropsToTw(props[prop]);
+
+			classString += parseStateProps(
+				stateProps,
+				(prop as string).replace("_", "")
+			);
+		} else {
+			classString += `${prop}-${props[prop]} `.replace(".", "-");
+		}
 	});
 	return classString;
 }
