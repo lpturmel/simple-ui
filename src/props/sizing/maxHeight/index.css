@@ -1,0 +1,406 @@
+.maxH-0,
+.hover\:maxH-0,
+.active\:maxH-0,
+.focus\:maxH-0,
+.maxHeight-0,
+.hover\:maxHeight-0,
+.active\:maxHeight-0,
+.focus\:maxHeight-0 {
+  height: 0px;
+}
+
+.maxH-px,
+.hover\:maxH-px,
+.active\:maxH-px,
+.focus\:maxH-px,
+.maxHeight-px,
+.hover\:maxHeight-px,
+.active\:maxHeight-px,
+.focus\:maxHeight-px {
+  height: 1px;
+}
+
+.maxH-0\.5,
+.hover\:maxH-0\.5,
+.active\:maxH-0\.5,
+.focus\:maxH-0\.5,
+.maxHeight-0\.5,
+.hover\:maxHeight-0\.5,
+.active\:maxHeight-0\.5,
+.focus\:maxHeight-0\.5 {
+  height: 0.125rem;
+}
+
+.maxH-1,
+.hover\:maxH-1,
+.active\:maxH-1,
+.focus\:maxH-1,
+.maxHeight-1,
+.hover\:maxHeight-1,
+.active\:maxHeight-1,
+.focus\:maxHeight-1 {
+  height: 0.25rem;
+}
+
+.maxH-1\.5,
+.hover\:maxH-1\.5,
+.active\:maxH-1\.5,
+.focus\:maxH-1\.5,
+.maxHeight-1\.5,
+.hover\:maxHeight-1\.5,
+.active\:maxHeight-1\.5,
+.focus\:maxHeight-1\.5 {
+  height: 0.375rem;
+}
+
+.maxH-2,
+.hover\:maxH-2,
+.active\:maxH-2,
+.focus\:maxH-2,
+.maxHeight-2,
+.hover\:maxHeight-2,
+.active\:maxHeight-2,
+.focus\:maxHeight-2 {
+  height: 0.5rem;
+}
+
+.maxH-2\.5,
+.hover\:maxH-2\.5,
+.active\:maxH-2\.5,
+.focus\:maxH-2\.5,
+.maxHeight-2\.5,
+.hover\:maxHeight-2\.5,
+.active\:maxHeight-2\.5,
+.focus\:maxHeight-2\.5 {
+  height: 0.625rem;
+}
+
+.maxH-3,
+.hover\:maxH-3,
+.active\:maxH-3,
+.focus\:maxH-3,
+.maxHeight-3,
+.hover\:maxHeight-3,
+.active\:maxHeight-3,
+.focus\:maxHeight-3 {
+  height: 0.75rem;
+}
+
+.maxH-3\.5,
+.hover\:maxH-3\.5,
+.active\:maxH-3\.5,
+.focus\:maxH-3\.5,
+.maxHeight-3\.5,
+.hover\:maxHeight-3\.5,
+.active\:maxHeight-3\.5,
+.focus\:maxHeight-3\.5 {
+  height: 0.875rem;
+}
+
+.maxH-4,
+.hover\:maxH-4,
+.active\:maxH-4,
+.focus\:maxH-4,
+.maxHeight-4,
+.hover\:maxHeight-4,
+.active\:maxHeight-4,
+.focus\:maxHeight-4 {
+  height: 1rem;
+}
+
+.maxH-5,
+.hover\:maxH-5,
+.active\:maxH-5,
+.focus\:maxH-5,
+.maxHeight-5,
+.hover\:maxHeight-5,
+.active\:maxHeight-5,
+.focus\:maxHeight-5 {
+  height: 1.25rem;
+}
+
+.maxH-6,
+.hover\:maxH-6,
+.active\:maxH-6,
+.focus\:maxH-6,
+.maxHeight-6,
+.hover\:maxHeight-6,
+.active\:maxHeight-6,
+.focus\:maxHeight-6 {
+  height: 1.5rem;
+}
+
+.maxH-7,
+.hover\:maxH-7,
+.active\:maxH-7,
+.focus\:maxH-7,
+.maxHeight-7,
+.hover\:maxHeight-7,
+.active\:maxHeight-7,
+.focus\:maxHeight-7 {
+  height: 1.75rem;
+}
+
+.maxH-8,
+.hover\:maxH-8,
+.active\:maxH-8,
+.focus\:maxH-8,
+.maxHeight-8,
+.hover\:maxHeight-8,
+.active\:maxHeight-8,
+.focus\:maxHeight-8 {
+  height: 2rem;
+}
+
+.maxH-9,
+.hover\:maxH-9,
+.active\:maxH-9,
+.focus\:maxH-9,
+.maxHeight-9,
+.hover\:maxHeight-9,
+.active\:maxHeight-9,
+.focus\:maxHeight-9 {
+  height: 2.25rem;
+}
+
+.maxH-10,
+.hover\:maxH-10,
+.active\:maxH-10,
+.focus\:maxH-10,
+.maxHeight-10,
+.hover\:maxHeight-10,
+.active\:maxHeight-10,
+.focus\:maxHeight-10 {
+  height: 2.5rem;
+}
+
+.maxH-11,
+.hover\:maxH-11,
+.active\:maxH-11,
+.focus\:maxH-11,
+.maxHeight-11,
+.hover\:maxHeight-11,
+.active\:maxHeight-11,
+.focus\:maxHeight-11 {
+  height: 2.75rem;
+}
+
+.maxH-12,
+.hover\:maxH-12,
+.active\:maxH-12,
+.focus\:maxH-12,
+.maxHeight-12,
+.hover\:maxHeight-12,
+.active\:maxHeight-12,
+.focus\:maxHeight-12 {
+  height: 3rem;
+}
+
+.maxH-14,
+.hover\:maxH-14,
+.active\:maxH-14,
+.focus\:maxH-14,
+.maxHeight-14,
+.hover\:maxHeight-14,
+.active\:maxHeight-14,
+.focus\:maxHeight-14 {
+  height: 3.5rem;
+}
+
+.maxH-16,
+.hover\:maxH-16,
+.active\:maxH-16,
+.focus\:maxH-16,
+.maxHeight-16,
+.hover\:maxHeight-16,
+.active\:maxHeight-16,
+.focus\:maxHeight-16 {
+  height: 4rem;
+}
+
+.maxH-20,
+.hover\:maxH-20,
+.active\:maxH-20,
+.focus\:maxH-20,
+.maxHeight-20,
+.hover\:maxHeight-20,
+.active\:maxHeight-20,
+.focus\:maxHeight-20 {
+  height: 5rem;
+}
+
+.maxH-24,
+.hover\:maxH-24,
+.active\:maxH-24,
+.focus\:maxH-24,
+.maxHeight-24,
+.hover\:maxHeight-24,
+.active\:maxHeight-24,
+.focus\:maxHeight-24 {
+  height: 6rem;
+}
+
+.maxH-28,
+.hover\:maxH-28,
+.active\:maxH-28,
+.focus\:maxH-28,
+.maxHeight-28,
+.hover\:maxHeight-28,
+.active\:maxHeight-28,
+.focus\:maxHeight-28 {
+  height: 7rem;
+}
+
+.maxH-32,
+.hover\:maxH-32,
+.active\:maxH-32,
+.focus\:maxH-32,
+.maxHeight-32,
+.hover\:maxHeight-32,
+.active\:maxHeight-32,
+.focus\:maxHeight-32 {
+  height: 8rem;
+}
+
+.maxH-36,
+.hover\:maxH-36,
+.active\:maxH-36,
+.focus\:maxH-36,
+.maxHeight-36,
+.hover\:maxHeight-36,
+.active\:maxHeight-36,
+.focus\:maxHeight-36 {
+  height: 9rem;
+}
+
+.maxH-40,
+.hover\:maxH-40,
+.active\:maxH-40,
+.focus\:maxH-40,
+.maxHeight-40,
+.hover\:maxHeight-40,
+.active\:maxHeight-40,
+.focus\:maxHeight-40 {
+  height: 10rem;
+}
+
+.maxH-44,
+.hover\:maxH-44,
+.active\:maxH-44,
+.focus\:maxH-44,
+.maxHeight-44,
+.hover\:maxHeight-44,
+.active\:maxHeight-44,
+.focus\:maxHeight-44 {
+  height: 11rem;
+}
+
+.maxH-48,
+.hover\:maxH-48,
+.active\:maxH-48,
+.focus\:maxH-48,
+.maxHeight-48,
+.hover\:maxHeight-48,
+.active\:maxHeight-48,
+.focus\:maxHeight-48 {
+  height: 12rem;
+}
+
+.maxH-52,
+.hover\:maxH-52,
+.active\:maxH-52,
+.focus\:maxH-52,
+.maxHeight-52,
+.hover\:maxHeight-52,
+.active\:maxHeight-52,
+.focus\:maxHeight-52 {
+  height: 13rem;
+}
+
+.maxH-56,
+.hover\:maxH-56,
+.active\:maxH-56,
+.focus\:maxH-56,
+.maxHeight-56,
+.hover\:maxHeight-56,
+.active\:maxHeight-56,
+.focus\:maxHeight-56 {
+  height: 14rem;
+}
+
+.maxH-60,
+.hover\:maxH-60,
+.active\:maxH-60,
+.focus\:maxH-60,
+.maxHeight-60,
+.hover\:maxHeight-60,
+.active\:maxHeight-60,
+.focus\:maxHeight-60 {
+  height: 15rem;
+}
+
+.maxH-64,
+.hover\:maxH-64,
+.active\:maxH-64,
+.focus\:maxH-64,
+.maxHeight-64,
+.hover\:maxHeight-64,
+.active\:maxHeight-64,
+.focus\:maxHeight-64 {
+  height: 16rem;
+}
+
+.maxH-72,
+.hover\:maxH-72,
+.active\:maxH-72,
+.focus\:maxH-72,
+.maxHeight-72,
+.hover\:maxHeight-72,
+.active\:maxHeight-72,
+.focus\:maxHeight-72 {
+  height: 18rem;
+}
+
+.maxH-80,
+.hover\:maxH-80,
+.active\:maxH-80,
+.focus\:maxH-80,
+.maxHeight-80,
+.hover\:maxHeight-80,
+.active\:maxHeight-80,
+.focus\:maxHeight-80 {
+  height: 20rem;
+}
+
+.maxH-96,
+.hover\:maxH-96,
+.active\:maxH-96,
+.focus\:maxH-96,
+.maxHeight-96,
+.hover\:maxHeight-96,
+.active\:maxHeight-96,
+.focus\:maxHeight-96 {
+  height: 24rem;
+}
+
+.maxH-full,
+.hover\:maxH-full,
+.active\:maxH-full,
+.focus\:maxH-full,
+.maxHeight-full,
+.hover\:maxHeight-full,
+.active\:maxHeight-full,
+.focus\:maxHeight-full {
+  height: 100%;
+}
+
+.maxH-screen,
+.hover\:maxH-screen,
+.active\:maxH-screen,
+.focus\:maxH-screen,
+.maxHeight-screen,
+.hover\:maxHeight-screen,
+.active\:maxHeight-screen,
+.focus\:maxHeight-screen {
+  height: 100vh;
+}
