@@ -1,0 +1,27 @@
+.fontWeight-thin {
+    font-weight: 100;
+}
+.fontWeight-extralight {
+    font-weight: 200;
+}
+.fontWeight-light {
+    font-weight: 300;
+}
+.fontWeight-normal {
+    font-weight: 400;
+}
+.fontWeight-medium {
+    font-weight: 500;
+}
+.fontWeight-semibold {
+    font-weight: 600;
+}
+.fontWeight-bold {
+    font-weight: 700;
+}
+.fontWeight-extrabold {
+    font-weight: 800;
+}
+.fontWeight-black {
+    font-weight: 900;
+}

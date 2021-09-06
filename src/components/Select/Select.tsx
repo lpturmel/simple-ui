@@ -2,7 +2,7 @@ import { Component, createSignal, JSX, PropsWithChildren } from "solid-js";
 import MainProps from "../../props";
 import { mapPropsToTw } from "../../props/Global";
 
-interface SelectProps
+export interface SelectProps
 	extends MainProps<JSX.SelectHTMLAttributes<HTMLSelectElement>> {
 	defaultValue: string;
 }

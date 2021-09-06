@@ -2,19 +2,21 @@ import { Component, JSX, PropsWithChildren } from "solid-js";
 import MainProps from "../../props";
 import { mapPropsToTw } from "../../props/Global";
 
-interface HStackProps extends MainProps<JSX.HTMLAttributes<HTMLDivElement>> {}
+export interface HStackProps
+	extends MainProps<JSX.HTMLAttributes<HTMLDivElement>> {}
 
-const HStack: Component<HStackProps> = (props) => {
-	console.log(props);
-	const startTime = performance.now();
-	const tw = mapPropsToTw<PropsWithChildren<HStackProps>>(props);
-	const endTime = performance.now();
+export const HStack: Component<HStackProps> = (props) => {
+	const defaultProps: PropsWithChildren<HStackProps> = {
+		display: "flex",
+	};
+	(Object.keys(props) as Array<keyof MainProps>).forEach((prop) => {
+		(defaultProps as any)[prop] = props[prop];
+	});
+	const tw = mapPropsToTw<PropsWithChildren<HStackProps>>(defaultProps);
 
-	console.log("HStack took: ", endTime - startTime);
 	return (
-		<div {...props} class={`${tw} w-4 flex flex-row space-x-2`}>
+		<div {...props} class={tw}>
 			{props.children}
 		</div>
 	);
 };
-export default HStack;

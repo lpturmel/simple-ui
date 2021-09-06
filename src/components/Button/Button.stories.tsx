@@ -1,5 +1,5 @@
 import { SimpleProvider } from "../../context/SimpleContext";
-import Button from "./Button";
+import { Button } from "./Button";
 
 export default {
 	component: Button,
@@ -8,7 +8,11 @@ export default {
 
 export const Default = () => (
 	<SimpleProvider>
-		<Button width="1/4" bg="red.500" color="blue.700">
+		<Button
+			_hover={{ bg: "red.700" }}
+			_active={{ bg: "red.900" }}
+			bg="red.600"
+		>
 			Button
 		</Button>
 	</SimpleProvider>

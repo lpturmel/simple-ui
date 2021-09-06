@@ -2,9 +2,9 @@ import { Component, JSX, PropsWithChildren } from "solid-js";
 import MainProps from "../../props";
 import { mapPropsToTw } from "../../props/Global";
 
-interface InputProps
+export interface InputProps
 	extends MainProps<JSX.InputHTMLAttributes<HTMLInputElement>> {}
-const Input: Component<InputProps> = (props) => {
+export const Input: Component<InputProps> = (props) => {
 	const tw = mapPropsToTw<PropsWithChildren<InputProps>>(props);
 	return (
 		<input
@@ -13,4 +13,3 @@ const Input: Component<InputProps> = (props) => {
 		/>
 	);
 };
-export default Input;

@@ -1,9 +1,6 @@
 import MainProps from ".";
 
-export function parseStateProps(
-	state: string,
-	stateType: "hover" | "focus" | "active"
-) {
+export function parseStateProps(state: string, stateType: string) {
 	let returnString = "";
 
 	const items = state.trim().split(" ");

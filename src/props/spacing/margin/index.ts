@@ -10,8 +10,8 @@ export interface MarginProps {
 	mb?: SimpleRemValues;
 	marginX?: SimpleRemValues;
 	marginY?: SimpleRemValues;
-	"margin-left"?: SimpleRemValues;
-	"margin-top"?: SimpleRemValues;
-	"margin-right"?: SimpleRemValues;
-	"margin-bottom"?: SimpleRemValues;
+	marginL?: SimpleRemValues;
+	marginT?: SimpleRemValues;
+	marginR?: SimpleRemValues;
+	marginB?: SimpleRemValues;
 }

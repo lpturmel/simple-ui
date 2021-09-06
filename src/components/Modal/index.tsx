@@ -3,10 +3,11 @@ import { Portal } from "solid-js/web";
 import { SimpleContext } from "../../context/SimpleContext";
 import MainProps from "../../props";
 
-interface ModalProps extends MainProps<JSX.HTMLAttributes<HTMLDivElement>> {
+export interface ModalProps
+	extends MainProps<JSX.HTMLAttributes<HTMLDivElement>> {
 	isOpen: boolean;
 }
-const Modal: Component<ModalProps> = (props) => {
+export const Modal: Component<ModalProps> = (props) => {
 	const [state]: any = useContext(SimpleContext);
 
 	return (
@@ -21,4 +22,3 @@ const Modal: Component<ModalProps> = (props) => {
 		</>
 	);
 };
-export default Modal;

@@ -2,25 +2,29 @@ import { Component, JSX, PropsWithChildren } from "solid-js";
 import MainProps from "../../props";
 import { mapPropsToTw } from "../../props/Global";
 
-interface ButtonProps
+export interface ButtonProps
 	extends MainProps<JSX.ButtonHTMLAttributes<HTMLButtonElement>> {}
 
-const Button: Component<ButtonProps> = (props) => {
-	const defaultProps: any = {
-		w: 44,
+export const Button: Component<ButtonProps> = (props) => {
+	const startTime = performance.now();
+	const defaultProps: PropsWithChildren<ButtonProps> = {
 		px: 4,
 		py: 2,
+		borderRadius: "md",
+		fontSize: "lg",
+		fontWeight: "semibold",
+		color: "white",
 	};
 	(Object.keys(props) as Array<keyof MainProps>).forEach((prop) => {
-		defaultProps[prop] = props[prop];
+		(defaultProps as any)[prop] = props[prop];
 	});
 
 	const tw = mapPropsToTw<PropsWithChildren<ButtonProps>>(defaultProps);
-	console.log(tw);
+	const endtime = performance.now();
+	console.log(`Button took ${endtime - startTime}ms`);
 	return (
 		<button {...props} class={tw}>
 			{props.children}
 		</button>
 	);
 };
-export default Button;

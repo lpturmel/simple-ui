@@ -1,5 +1,5 @@
-import Button from "../Button/Button";
-import VStack from "./VStack";
+import { Button } from "../Button/Button";
+import { VStack } from "./VStack";
 
 export default {
 	component: VStack,
