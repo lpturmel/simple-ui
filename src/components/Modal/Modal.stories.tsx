@@ -1,11 +1,11 @@
-import ModalOverlay from "./ModalOverlay/ModalOverlay";
-import ModalBody from "./ModalBody/ModalBody";
-import Modal from "./Modal";
-import ModalHeader from "./ModalHeader/ModalHeader";
+import ModalOverlay from "./ModalOverlay";
+import ModalBody from "./ModalBody";
+import { Modal } from ".";
+import ModalHeader from "./ModalHeader";
 import { SimpleProvider } from "../../context/SimpleContext";
-import ModalContent from "./ModalContent/ModalContent";
+import ModalContent from "./ModalContent";
 import createControls from "../../apis/createControls";
-import Button from "../Button/Button";
+import { Button } from "../Button/Button";
 
 export default {
 	component: Modal,
