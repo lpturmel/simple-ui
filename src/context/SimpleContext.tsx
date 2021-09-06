@@ -1,5 +1,6 @@
 import { Component, createContext } from "solid-js";
 import { createStore } from "solid-js/store";
+import "../index.css";
 import "../props/sizing/width/index.css";
 import "../props/sizing/height/index.css";
 import "../props/background/colors/index.css";
