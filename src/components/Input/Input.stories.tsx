@@ -1,5 +1,4 @@
-import Button from "../Button/Button";
-import Input from "./Input";
+import { Input } from "./Input";
 
 export default {
 	component: Input,
