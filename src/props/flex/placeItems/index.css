@@ -1,0 +1,27 @@
+.placeItems-center,
+.hover\:placeItems-center:hover,
+.focus\:placeItems-center:focus,
+.active\:placeItems-center:active {
+	place-items: center;
+}
+
+.placeItems-start,
+.hover\:placeItems-start:hover,
+.focus\:placeItems-start:focus,
+.active\:placeItems-start:active {
+	place-items: start;
+}
+
+.placeItems-end,
+.hover\:placeItems-end:hover,
+.focus\:placeItems-end:focus,
+.active\:placeItems-end:active {
+	place-items: end;
+}
+
+.placeItems-stretch,
+.hover\:placeItems-stretch:hover,
+.focus\:placeItems-stretch:focus,
+.active\:placeItems-stretch:active {
+	place-items: stretch;
+}
