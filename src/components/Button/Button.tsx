@@ -6,7 +6,6 @@ export interface ButtonProps
 	extends MainProps<JSX.ButtonHTMLAttributes<HTMLButtonElement>> {}
 
 export const Button: Component<ButtonProps> = (props) => {
-	const startTime = performance.now();
 	const defaultProps: PropsWithChildren<ButtonProps> = {
 		px: 4,
 		py: 2,
@@ -15,13 +14,12 @@ export const Button: Component<ButtonProps> = (props) => {
 		fontWeight: "semibold",
 		color: "white",
 	};
-	(Object.keys(props) as Array<keyof MainProps>).forEach((prop) => {
+	(Object.keys(props) as Array<keyof ButtonProps>).forEach((prop) => {
 		(defaultProps as any)[prop] = props[prop];
 	});
 
 	const tw = mapPropsToTw<PropsWithChildren<ButtonProps>>(defaultProps);
-	const endtime = performance.now();
-	console.log(`Button took ${endtime - startTime}ms`);
+
 	return (
 		<button {...props} class={tw}>
 			{props.children}
