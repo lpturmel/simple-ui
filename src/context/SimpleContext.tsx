@@ -22,6 +22,7 @@ import "../props/flex/gap/index.css";
 import "../props/flex/order/index.css";
 import "../props/flex/justifyContent/index.css";
 import "../props/flex/justifyItems/index.css";
+import "../props/flex/justifySelf/index.css";
 import "../props/grid/gridTemplateColumns/index.css";
 import "../props/grid/gridTemplateRows/index.css";
 import "../props/grid/gridColSpan/index.css";
