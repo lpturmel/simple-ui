@@ -1,0 +1,210 @@
+.col-span-7,
+.hover\:col-span-7:hover,
+.focus\:col-span-7:focus,
+.active\:col-span-7:active {
+	grid-column: span 7 / span 7;
+}
+.col-span-8,
+.hover\:col-span-8:hover,
+.focus\:col-span-8:focus,
+.active\:col-span-8:active {
+	grid-column: span 8 / span 8;
+}
+.col-span-9,
+.hover\:col-span-9:hover,
+.focus\:col-span-9:focus,
+.active\:col-span-9:active {
+	grid-column: span 9 / span 9;
+}
+.col-span-10,
+.hover\:col-span-10:hover,
+.focus\:col-span-10:focus,
+.active\:col-span-10:active {
+	grid-column: span 10 / span 10;
+}
+.col-span-11,
+.hover\:col-span-11:hover,
+.focus\:col-span-11:focus,
+.active\:col-span-11:active {
+	grid-column: span 11 / span 11;
+}
+.col-span-12,
+.hover\:col-span-12:hover,
+.focus\:col-span-12:focus,
+.active\:col-span-12:active {
+	grid-column: span 12 / span 12;
+}
+.col-span-full,
+.hover\:col-span-full:hover,
+.focus\:col-span-full:focus,
+.active\:col-span-full:active {
+	grid-column: 1 / -1;
+}
+.col-start-1,
+.hover\:col-start-1:hover,
+.focus\:col-start-1:focus,
+.active\:col-start-1:active {
+	grid-column-start: 1;
+}
+.col-start-2,
+.hover\:col-start-2:hover,
+.focus\:col-start-2:focus,
+.active\:col-start-2:active {
+	grid-column-start: 2;
+}
+.col-start-3,
+.hover\:col-start-3:hover,
+.focus\:col-start-3:focus,
+.active\:col-start-3:active {
+	grid-column-start: 3;
+}
+.col-start-4,
+.hover\:col-start-4:hover,
+.focus\:col-start-4:focus,
+.active\:col-start-4:active {
+	grid-column-start: 4;
+}
+.col-start-5,
+.hover\:col-start-5:hover,
+.focus\:col-start-5:focus,
+.active\:col-start-5:active {
+	grid-column-start: 5;
+}
+.col-start-6,
+.hover\:col-start-6:hover,
+.focus\:col-start-6:focus,
+.active\:col-start-6:active {
+	grid-column-start: 6;
+}
+.col-start-7,
+.hover\:col-start-7:hover,
+.focus\:col-start-7:focus,
+.active\:col-start-7:active {
+	grid-column-start: 7;
+}
+.col-start-8,
+.hover\:col-start-8:hover,
+.focus\:col-start-8:focus,
+.active\:col-start-8:active {
+	grid-column-start: 8;
+}
+.col-start-9,
+.hover\:col-start-9:hover,
+.focus\:col-start-9:focus,
+.active\:col-start-9:active {
+	grid-column-start: 9;
+}
+.col-start-10,
+.hover\:col-start-10:hover,
+.focus\:col-start-10:focus,
+.active\:col-start-10:active {
+	grid-column-start: 10;
+}
+.col-start-11,
+.hover\:col-start-11:hover,
+.focus\:col-start-11:focus,
+.active\:col-start-11:active {
+	grid-column-start: 11;
+}
+.col-start-12,
+.hover\:col-start-12:hover,
+.focus\:col-start-12:focus,
+.active\:col-start-12:active {
+	grid-column-start: 12;
+}
+.col-start-13,
+.hover\:col-start-13:hover,
+.focus\:col-start-13:focus,
+.active\:col-start-13:active {
+	grid-column-start: 13;
+}
+.col-start-auto,
+.hover\:col-start-auto:hover,
+.focus\:col-start-auto:focus,
+.active\:col-start-auto:active {
+	grid-column-start: auto;
+}
+.col-end-1,
+.hover\:col-end-1:hover,
+.focus\:col-end-1:focus,
+.active\:col-end-1:active {
+	grid-column-end: 1;
+}
+.col-end-2,
+.hover\:col-end-2:hover,
+.focus\:col-end-2:focus,
+.active\:col-end-2:active {
+	grid-column-end: 2;
+}
+.col-end-3,
+.hover\:col-end-3:hover,
+.focus\:col-end-3:focus,
+.active\:col-end-3:active {
+	grid-column-end: 3;
+}
+.col-end-4,
+.hover\:col-end-4:hover,
+.focus\:col-end-4:focus,
+.active\:col-end-4:active {
+	grid-column-end: 4;
+}
+.col-end-5,
+.hover\:col-end-5:hover,
+.focus\:col-end-5:focus,
+.active\:col-end-5:active {
+	grid-column-end: 5;
+}
+.col-end-6,
+.hover\:col-end-6:hover,
+.focus\:col-end-6:focus,
+.active\:col-end-6:active {
+	grid-column-end: 6;
+}
+.col-end-7,
+.hover\:col-end-7:hover,
+.focus\:col-end-7:focus,
+.active\:col-end-7:active {
+	grid-column-end: 7;
+}
+.col-end-8,
+.hover\:col-end-8:hover,
+.focus\:col-end-8:focus,
+.active\:col-end-8:active {
+	grid-column-end: 8;
+}
+.col-end-9,
+.hover\:col-end-9:hover,
+.focus\:col-end-9:focus,
+.active\:col-end-9:active {
+	grid-column-end: 9;
+}
+.col-end-10,
+.hover\:col-end-10:hover,
+.focus\:col-end-10:focus,
+.active\:col-end-10:active {
+	grid-column-end: 10;
+}
+.col-end-11,
+.hover\:col-end-11:hover,
+.focus\:col-end-11:focus,
+.active\:col-end-11:active {
+	grid-column-end: 11;
+}
+.col-end-12,
+.hover\:col-end-12:hover,
+.focus\:col-end-12:focus,
+.active\:col-end-12:active {
+	grid-column-end: 12;
+}
+.col-end-13,
+.hover\:col-end-13:hover,
+.focus\:col-end-13:focus,
+.active\:col-end-13:active {
+	grid-column-end: 13;
+}
+.col-end-auto,
+.hover\:col-end-auto:hover,
+.focus\:col-end-auto:focus,
+.active\:col-end-auto:active {
+	grid-column-end: auto;
+}
