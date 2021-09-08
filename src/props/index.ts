@@ -16,6 +16,7 @@ import { FlexWrapProps } from "./flex/flexWrap";
 import { FlexGrowProps } from "./flex/flexGrow";
 import { FlexShrinkProps } from "./flex/flexShrink";
 import { GridTemplateColumnProps } from "./grid/gridTemplateColumns";
+import { GridColSpanProps } from "./grid/gridColSpan";
 
 type MainProps<T = {}> = PaddingProps &
 	MarginProps &
@@ -35,5 +36,6 @@ type MainProps<T = {}> = PaddingProps &
 	FlexShrinkProps &
 	FlexWrapProps &
 	GridTemplateColumnProps &
+	GridColSpanProps &
 	T;
 export default MainProps;
