@@ -1,0 +1,30 @@
+.justifySelf-auto,
+.hover\:justifySelf-auto:hover,
+.focus\:justifySelf-auto:focus,
+.active\:justifySelf-auto:active {
+	justify-items: auto;
+}
+.justifySelf-start,
+.hover\:justifySelf-start:hover,
+.focus\:justifySelf-start:focus,
+.active\:justifySelf-start:active {
+	justify-self: start;
+}
+.justifySelf-end,
+.hover\:justifySelf-end:hover,
+.focus\:justifySelf-end:focus,
+.active\:justifySelf-end:active {
+	justify-self: end;
+}
+.justifySelf-center,
+.hover\:justifySelf-center:hover,
+.focus\:justifySelf-center:focus,
+.active\:justifySelf-center:active {
+	justify-self: center;
+}
+.justifySelf-stretch,
+.hover\:justifySelf-stretch:hover,
+.focus\:justifySelf-stretch:focus,
+.active\:justifySelf-stretch:active {
+	justify-self: stretch;
+}
