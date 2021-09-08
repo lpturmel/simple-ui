@@ -1,0 +1,41 @@
+.justify-start,
+.hover\:justify-start:hover,
+.focus\:justify-start:focus,
+.active\:justify-start:active {
+	justify-content: flex-start;
+}
+
+.justify-end,
+.hover\:justify-end:hover,
+.focus\:justify-end:focus,
+.active\:justify-end:active {
+	justify-content: flex-end;
+}
+
+.justify-center,
+.hover\:justify-center:hover,
+.focus\:justify-center:focus,
+.active\:justify-center:active {
+	justify-content: center;
+}
+
+.justify-between,
+.hover\:justify-between:hover,
+.focus\:justify-between:focus,
+.active\:justify-between:active {
+	justify-content: space-between;
+}
+
+.justify-around,
+.hover\:justify-around:hover,
+.focus\:justify-around:focus,
+.active\:justify-around:active {
+	justify-content: space-around;
+}
+
+.justify-evenly,
+.hover\:justify-evenly:hover,
+.focus\:justify-evenly:focus,
+.active\:justify-evenly:active {
+	justify-content: space-evenly;
+}
