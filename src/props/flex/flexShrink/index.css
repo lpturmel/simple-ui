@@ -1,24 +1,24 @@
-.flex-1,
-.hover\:flex-1:hover,
-.active\:flex-1:active,
-.focus\:flex-1:focus {
+.flexShrink-1,
+.hover\:flexShrink-1:hover,
+.active\:flexShrink-1:active,
+.focus\:flexShrink-1:focus {
 	flex: 1 1 0%;
 }
-.flex-auto,
-.hover\:flex-auto:hover,
-.active\:flex-auto:active,
-.focus\:flex-auto:focus {
+.flexShrink-auto,
+.hover\:flexShrink-auto:hover,
+.active\:flexShrink-auto:active,
+.focus\:flexShrink-auto:focus {
 	flex: 1 1 auto;
 }
-.flex-initial,
-.hover\:flex-initial:hover,
-.active\:flex-initial:active,
-.focus\:flex-initial:focus {
+.flexShrink-initial,
+.hover\:flexShrink-initial:hover,
+.active\:flexShrink-initial:active,
+.focus\:flexShrink-initial:focus {
 	flex: 0 1 auto;
 }
-.flex-none,
-.hover\:flex-none:hover,
-.active\:flex-none:active,
-.focus\:flex-none:focus {
+.flexShrink-none,
+.hover\:flexShrink-none:hover,
+.active\:flexShrink-none:active,
+.focus\:flexShrink-none:focus {
 	flex: none;
 }
