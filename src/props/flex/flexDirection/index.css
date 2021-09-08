@@ -1,24 +1,24 @@
-.flex-row,
-.hover\:flex-row:hover,
-.focus\:flex-row:focus,
-.active\:flex-row:active {
+.flexDirection-row,
+.hover\:flexDirection-row:hover,
+.focus\:flexDirection-row:focus,
+.active\:flexDirection-row:active {
 	flex-direction: row;
 }
-.flex-row-reverse,
-.hover\:flex-row-reverse:hover,
-.focus\:flex-row-reverse:focus,
-.active\:flex-row-reverse:active {
+.flexDirection-row-reverse,
+.hover\:flexDirection-row-reverse:hover,
+.focus\:flexDirection-row-reverse:focus,
+.active\:flexDirection-row-reverse:active {
 	flex-direction: row-reverse;
 }
-.flex-col,
-.hover\:flex-col:hover,
-.focus\:flex-col:focus,
-.active\:flex-col:active {
+.flexDirection-col,
+.hover\:flexDirection-col:hover,
+.focus\:flexDirection-col:focus,
+.active\:flexDirection-col:active {
 	flex-direction: column;
 }
-.flex-col-reverse,
-.hover\:flex-col-reverse:hover,
-.focus\:flex-col-reverse:focus,
-.active\:flex-col-reverse:active {
+.flexDirection-col-reverse,
+.hover\:flexDirection-col-reverse:hover,
+.focus\:flexDirection-col-reverse:focus,
+.active\:flexDirection-col-reverse:active {
 	flex-direction: column-reverse;
 }
