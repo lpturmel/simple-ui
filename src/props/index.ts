@@ -21,6 +21,7 @@ import { GridTemplateRowsProps } from "./grid/gridTemplateRows";
 import { GridRowSpanProps } from "./grid/gridRowSpan";
 import { AutoColumnsProps } from "./grid/autoColumns/index";
 import { GridFlowProps } from "./grid/gridFlow";
+import { AutoRowsProps } from "./grid/autoRows";
 
 type MainProps<T = {}> = PaddingProps &
 	MarginProps &
@@ -45,5 +46,6 @@ type MainProps<T = {}> = PaddingProps &
 	GridRowSpanProps &
 	GridFlowProps &
 	AutoColumnsProps &
+	AutoRowsProps &
 	T;
 export default MainProps;
