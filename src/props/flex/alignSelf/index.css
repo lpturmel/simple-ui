@@ -1,0 +1,41 @@
+.alignSelf-auto,
+.hover\:alignSelf-auto:hover,
+.focus\:alignSelf-auto:focus,
+.active\:alignSelf-auto:active {
+	align-self: auto;
+}
+
+.alignSelf-start,
+.hover\:alignSelf-start:hover,
+.focus\:alignSelf-start:focus,
+.active\:alignSelf-start:active {
+	align-self: flex-start;
+}
+
+.alignSelf-end,
+.hover\:alignSelf-end:hover,
+.focus\:alignSelf-end:focus,
+.active\:alignSelf-end:active {
+	align-self: flex-end;
+}
+
+.alignSelf-center,
+.hover\:alignSelf-center:hover,
+.focus\:alignSelf-center:focus,
+.active\:alignSelf-center:active {
+	align-self: center;
+}
+
+.alignSelf-stretch,
+.hover\:alignSelf-stretch:hover,
+.focus\:alignSelf-stretch:focus,
+.active\:alignSelf-stretch:active {
+	align-self: stretch;
+}
+
+.alignSelf-baseline,
+.hover\:alignSelf-baseline:hover,
+.focus\:alignSelf-baseline:focus,
+.active\:alignSelf-baseline:active {
+	align-self: baseline;
+}
