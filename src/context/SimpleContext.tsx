@@ -13,22 +13,30 @@ import "../props/spacing/padding/index.css";
 import "../props/spacing/spaceBetween/index.css";
 import "../props/layout/display/index.css";
 import "../props/layout/position/index.css";
+import "../props/flex/flex/index.css";
+import "../props/flex/flexDirection/index.css";
+import "../props/flex/flexGrow/index.css";
+import "../props/flex/flexShrink/index.css";
+import "../props/flex/flexWrap/index.css";
 
 export const SimpleContext = createContext();
 
 export const SimpleProvider: Component = (props) => {
-  const [state, setState] = createStore<{
-    portal: null | HTMLDivElement;
-  }>({
-    portal: null,
-  });
+	const [state, setState] = createStore<{
+		portal: null | HTMLDivElement;
+	}>({
+		portal: null,
+	});
 
-  return (
-    <SimpleContext.Provider value={[state, setState]}>
-      <div>
-        <div ref={(el) => setState("portal", el)} id="simple-ui-portal" />
-        {props.children}
-      </div>
-    </SimpleContext.Provider>
-  );
+	return (
+		<SimpleContext.Provider value={[state, setState]}>
+			<div>
+				<div
+					ref={(el) => setState("portal", el)}
+					id="simple-ui-portal"
+				/>
+				{props.children}
+			</div>
+		</SimpleContext.Provider>
+	);
 };
