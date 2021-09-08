@@ -23,6 +23,7 @@ import { AutoColumnsProps } from "./grid/autoColumns/index";
 import { GridFlowProps } from "./grid/gridFlow";
 import { AutoRowsProps } from "./grid/autoRows";
 import { GapProps } from "./flex/gap";
+import { JustifyContentProps } from "./flex/justifyContent";
 
 type MainProps<T = {}> = PaddingProps &
 	MarginProps &
@@ -41,6 +42,7 @@ type MainProps<T = {}> = PaddingProps &
 	FlexGrowProps &
 	FlexShrinkProps &
 	FlexWrapProps &
+	JustifyContentProps &
 	GridTemplateColumnProps &
 	GridColSpanProps &
 	GridTemplateRowsProps &
