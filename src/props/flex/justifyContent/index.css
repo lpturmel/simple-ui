@@ -1,41 +1,41 @@
-.justify-start,
-.hover\:justify-start:hover,
-.focus\:justify-start:focus,
-.active\:justify-start:active {
+.justifyContent-start,
+.hover\:justifyContent-start:hover,
+.focus\:justifyContent-start:focus,
+.active\:justifyContent-start:active {
 	justify-content: flex-start;
 }
 
-.justify-end,
-.hover\:justify-end:hover,
-.focus\:justify-end:focus,
-.active\:justify-end:active {
+.justifyContent-end,
+.hover\:justifyContent-end:hover,
+.focus\:justifyContent-end:focus,
+.active\:justifyContent-end:active {
 	justify-content: flex-end;
 }
 
-.justify-center,
-.hover\:justify-center:hover,
-.focus\:justify-center:focus,
-.active\:justify-center:active {
+.justifyContent-center,
+.hover\:justifyContent-center:hover,
+.focus\:justifyContent-center:focus,
+.active\:justifyContent-center:active {
 	justify-content: center;
 }
 
-.justify-between,
-.hover\:justify-between:hover,
-.focus\:justify-between:focus,
-.active\:justify-between:active {
+.justifyContent-between,
+.hover\:justifyContent-between:hover,
+.focus\:justifyContent-between:focus,
+.active\:justifyContent-between:active {
 	justify-content: space-between;
 }
 
-.justify-around,
-.hover\:justify-around:hover,
-.focus\:justify-around:focus,
-.active\:justify-around:active {
+.justifyContent-around,
+.hover\:justifyContent-around:hover,
+.focus\:justifyContent-around:focus,
+.active\:justifyContent-around:active {
 	justify-content: space-around;
 }
 
-.justify-evenly,
-.hover\:justify-evenly:hover,
-.focus\:justify-evenly:focus,
-.active\:justify-evenly:active {
+.justifyContent-evenly,
+.hover\:justifyContent-evenly:hover,
+.focus\:justifyContent-evenly:focus,
+.active\:justifyContent-evenly:active {
 	justify-content: space-evenly;
 }
