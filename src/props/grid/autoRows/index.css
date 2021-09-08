@@ -1,0 +1,27 @@
+.autoRows-auto,
+.hover\:autoRows-auto:hover,
+.focus\:autoRows-auto:focus,
+.active\:autoRows-auto:active {
+	grid-auto-rows: auto;
+}
+
+.autoRows-min,
+.hover\:autoRows-min:hover,
+.focus\:autoRows-min:focus,
+.active\:autoRows-min:active {
+	grid-auto-rows: min-content;
+}
+
+.autoRows-max,
+.hover\:autoRows-max:hover,
+.focus\:autoRows-max:focus,
+.active\:autoRows-max:active {
+	grid-auto-rows: max-content;
+}
+
+.autoRows-fr,
+.hover\:autoRows-fr:hover,
+.focus\:autoRows-fr:focus,
+.active\:autoRows-fr:active {
+	grid-auto-rows: minmax(0, 1fr);
+}
