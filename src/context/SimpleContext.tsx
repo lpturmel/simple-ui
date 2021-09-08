@@ -19,6 +19,7 @@ import "../props/flex/flexGrow/index.css";
 import "../props/flex/flexShrink/index.css";
 import "../props/flex/flexWrap/index.css";
 import "../props/flex/gap/index.css";
+import "../props/flex/order/index.css";
 import "../props/flex/justifyContent/index.css";
 import "../props/flex/justifyItems/index.css";
 import "../props/grid/gridTemplateColumns/index.css";
