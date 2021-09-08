@@ -1,0 +1,34 @@
+.alignItems-start,
+.hover\:alignItems-start:hover,
+.focus\:alignItems-start:focus,
+.active\:alignItems-start:active {
+	align-items: flex-start;
+}
+
+.alignItems-end,
+.hover\:alignItems-end:hover,
+.focus\:alignItems-end:focus,
+.active\:alignItems-end:active {
+	align-items: flex-end;
+}
+
+.alignItems-center,
+.hover\:alignItems-center:hover,
+.focus\:alignItems-center:focus,
+.active\:alignItems-center:active {
+	align-items: center;
+}
+
+.alignItems-baseline,
+.hover\:alignItems-baseline:hover,
+.focus\:alignItems-baseline:focus,
+.active\:alignItems-baseline:active {
+	align-items: baseline;
+}
+
+.alignItems-stretch,
+.hover\:alignItems-stretch:hover,
+.focus\:alignItems-stretch:focus,
+.active\:alignItems-stretch:active {
+	align-items: stretch;
+}
