@@ -27,6 +27,7 @@ import "../props/flex/alignContent/index.css";
 import "../props/flex/alignItems/index.css";
 import "../props/flex/alignSelf/index.css";
 import "../props/flex/placeContent/index.css";
+import "../props/flex/placeItems/index.css";
 import "../props/grid/gridTemplateColumns/index.css";
 import "../props/grid/gridTemplateRows/index.css";
 import "../props/grid/gridColSpan/index.css";
