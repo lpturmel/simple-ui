@@ -18,6 +18,8 @@ import "../props/flex/flexDirection/index.css";
 import "../props/flex/flexGrow/index.css";
 import "../props/flex/flexShrink/index.css";
 import "../props/flex/flexWrap/index.css";
+import "../props/grid/gridTemplateColumns/index.css";
+import "../props/grid/gridColSpan/index.css";
 
 export const SimpleContext = createContext();
 
