@@ -1,0 +1,48 @@
+.placeContent-center,
+.hover\:placeContent-center:hover,
+.focus\:placeContent-center:focus,
+.active\:placeContent-center:active {
+	place-content: center;
+}
+
+.placeContent-start,
+.hover\:placeContent-start:hover,
+.focus\:placeContent-start:focus,
+.active\:placeContent-start:active {
+	place-content: start;
+}
+
+.placeContent-end,
+.hover\:placeContent-end:hover,
+.focus\:placeContent-end:focus,
+.active\:placeContent-end:active {
+	place-content: end;
+}
+
+.placeContent-between,
+.hover\:placeContent-between:hover,
+.focus\:placeContent-between:focus,
+.active\:placeContent-between:active {
+	place-content: space-between;
+}
+
+.placeContent-around,
+.hover\:placeContent-around:hover,
+.focus\:placeContent-around:focus,
+.active\:placeContent-around:active {
+	place-content: space-around;
+}
+
+.placeContent-evenly,
+.hover\:placeContent-evenly:hover,
+.focus\:placeContent-evenly:focus,
+.active\:placeContent-evenly:active {
+	place-content: space-evenly;
+}
+
+.placeContent-stretch,
+.hover\:placeContent-stretch:hover,
+.focus\:placeContent-stretch:focus,
+.active\:placeContent-stretch:active {
+	place-content: stretch;
+}
