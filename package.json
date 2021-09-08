@@ -1,6 +1,6 @@
 {
 	"name": "simple-ui-solid",
-	"version": "0.0.10",
+	"version": "0.0.11",
 	"description": "SolidJS Component Library",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -12,7 +12,7 @@
 		"serve": "vite preview",
 		"storybook": "start-storybook -p 6006",
 		"build-storybook": "build-storybook",
-		"build-types": "tsc --emitDeclarationOnly --declaration --declarationDir dist/",
+		"build-types": "tsc --emitDeclarationOnly --declaration --declarationDir dist/ --excludeFiles src/**/*.stories.tsx",
 		"build-babel": "babel src --extensions .ts,.tsx -d dist/ --source-maps --ignore '**/*.stories.tsx'",
 		"build-css": "node ./scripts/package-css.js",
 		"build-lib": "yarn build-babel && yarn build-types && yarn build-css"
@@ -26,10 +26,11 @@
 		"@storybook/addon-essentials": "^6.3.4",
 		"@storybook/addon-links": "^6.3.4",
 		"@storybook/html": "^6.3.4",
+		"@types/node": "^16.7.10",
 		"babel-loader": "^8.2.2",
 		"babel-preset-solid": "^1.1.2",
 		"storybook-dark-mode": "^1.0.8",
-		"typescript": "^4.3.2",
+		"typescript": "^4.4.2",
 		"vite": "^2.4.0",
 		"vite-plugin-solid": "^2.0.0"
 	},
@@ -50,5 +51,8 @@
 	},
 	"peerDependencies": {
 		"solid-js": "^1.1.1"
+	},
+	"dependencies": {
+		"global": "^4.4.0"
 	}
 }
