@@ -1,0 +1,12 @@
+.flex-grow-0,
+.hover\:flex-grow-0:hover,
+.focus\:flex-grow-0:focus,
+.active\:flex-grow-0:active {
+	flex-grow: 0;
+}
+.flex-grow,
+.hover\:flex-grow:hover,
+.focus\:flex-grow:focus,
+.active\:flex-grow:active {
+	flex-grow: 1;
+}
