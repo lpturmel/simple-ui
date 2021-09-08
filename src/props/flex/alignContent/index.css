@@ -1,0 +1,41 @@
+.alignContent-center,
+.hover\:alignContent-center:hover,
+.focus\:alignContent-center:focus,
+.active\:alignContent-center:active {
+	align-content: center;
+}
+
+.alignContent-start,
+.hover\:alignContent-start:hover,
+.focus\:alignContent-start:focus,
+.active\:alignContent-start:active {
+	align-content: flex-start;
+}
+
+.alignContent-end,
+.hover\:alignContent-end:hover,
+.focus\:alignContent-end:focus,
+.active\:alignContent-end:active {
+	align-content: flex-end;
+}
+
+.alignContent-between,
+.hover\:alignContent-between:hover,
+.focus\:alignContent-between:focus,
+.active\:alignContent-between:active {
+	align-content: space-between;
+}
+
+.alignContent-around,
+.hover\:alignContent-around:hover,
+.focus\:alignContent-around:focus,
+.active\:alignContent-around:active {
+	align-content: space-around;
+}
+
+.alignContent-evenly,
+.hover\:alignContent-evenly:hover,
+.focus\:alignContent-evenly:focus,
+.active\:alignContent-evenly:active {
+	align-content: space-evenly;
+}
