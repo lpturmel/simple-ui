@@ -1,0 +1,34 @@
+.placeSelf-auto,
+.hover\:placeSelf-auto:hover,
+.focus\:placeSelf-auto:focus,
+.active\:placeSelf-auto:active {
+	place-self: auto;
+}
+
+.placeSelf-center,
+.hover\:placeSelf-center:hover,
+.focus\:placeSelf-center:focus,
+.active\:placeSelf-center:active {
+	place-self: center;
+}
+
+.placeSelf-start,
+.hover\:placeSelf-start:hover,
+.focus\:placeSelf-start:focus,
+.active\:placeSelf-start:active {
+	place-self: start;
+}
+
+.placeSelf-end,
+.hover\:placeSelf-end:hover,
+.focus\:placeSelf-end:focus,
+.active\:placeSelf-end:active {
+	place-self: end;
+}
+
+.placeSelf-stretch,
+.hover\:placeSelf-stretch:hover,
+.focus\:placeSelf-stretch:focus,
+.active\:placeSelf-stretch:active {
+	place-self: stretch;
+}
