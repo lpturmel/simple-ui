@@ -10,6 +10,11 @@ import { BorderRadiusProps } from "./borders/borderRadius";
 import { SpacingProps } from "./spacing/spaceBetween";
 import { DisplayProps } from "./layout/display";
 import { PositionProps } from "./layout/position";
+import { FlexProps } from "./flex/flex";
+import { FlexDirectionProps } from "./flex/flexDirection";
+import { FlexWrapProps } from "./flex/flexWrap";
+import { FlexGrowProps } from "./flex/flexGrow";
+import { FlexShrinkProps } from "./flex/flexShrink";
 
 type MainProps<T = {}> = PaddingProps &
 	MarginProps &
@@ -23,5 +28,10 @@ type MainProps<T = {}> = PaddingProps &
 	SpacingProps &
 	DisplayProps &
 	PositionProps &
+	FlexProps &
+	FlexDirectionProps &
+	FlexGrowProps &
+	FlexShrinkProps &
+	FlexWrapProps &
 	T;
 export default MainProps;
