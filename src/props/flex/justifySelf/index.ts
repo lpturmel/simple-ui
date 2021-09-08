@@ -1,5 +1,5 @@
 export interface JustifySelfProps {
-	justifySelf: JustifySelfValues;
+	justifySelf?: JustifySelfValues;
 }
 
 export type JustifySelfValues = "auto" | "start" | "end" | "center" | "stretch";

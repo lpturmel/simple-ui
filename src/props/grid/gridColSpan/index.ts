@@ -1,5 +1,5 @@
 export interface GridColSpanProps {
-	col: GridColSpanValues;
+	col?: GridColSpanValues;
 }
 
 export type GridColSpanValues =

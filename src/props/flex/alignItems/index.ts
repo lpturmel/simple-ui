@@ -1,5 +1,5 @@
 export interface AlignItemsProps {
-	alignItems: AlignItemsValues;
+	alignItems?: AlignItemsValues;
 }
 
 export type AlignItemsValues =

@@ -1,5 +1,5 @@
 export interface JustifyContentProps {
-	justifyContent: JustifyContentValues;
+	justifyContent?: JustifyContentValues;
 }
 
 export type JustifyContentValues =

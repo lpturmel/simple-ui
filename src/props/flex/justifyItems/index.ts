@@ -1,5 +1,5 @@
 export interface JustifyItemsProps {
-	justifyItems: JustifyItemsValues;
+	justifyItems?: JustifyItemsValues;
 }
 
 export type JustifyItemsValues = "start" | "end" | "center" | "stretch";

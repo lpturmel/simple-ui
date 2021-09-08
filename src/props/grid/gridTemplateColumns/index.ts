@@ -1,5 +1,5 @@
 export interface GridTemplateColumnProps {
-	gridCols: GridTemplateColumnValues;
+	gridCols?: GridTemplateColumnValues;
 }
 
 export type GridTemplateColumnValues =

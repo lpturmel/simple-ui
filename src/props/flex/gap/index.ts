@@ -1,5 +1,5 @@
 export interface GapProps {
-	gap: GapValues;
+	gap?: GapValues;
 }
 
 export type GapValues =

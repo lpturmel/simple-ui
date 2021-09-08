@@ -1,5 +1,5 @@
 export interface AlignContentProps {
-	alignContent: AlignContentValues;
+	alignContent?: AlignContentValues;
 }
 
 export type AlignContentValues =

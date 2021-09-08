@@ -1,5 +1,5 @@
 export interface PlaceItemsProps {
-	placeItems: PlaceItemsValues;
+	placeItems?: PlaceItemsValues;
 }
 
 export type PlaceItemsValues = "center" | "start" | "end" | "stretch";

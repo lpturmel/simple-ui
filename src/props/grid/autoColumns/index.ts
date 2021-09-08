@@ -1,5 +1,5 @@
 export interface AutoColumnsProps {
-	autoCols: AutoColumnsValues;
+	autoCols?: AutoColumnsValues;
 }
 
 export type AutoColumnsValues = "auto" | "min" | "max" | "fr";

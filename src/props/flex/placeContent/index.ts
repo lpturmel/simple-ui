@@ -1,5 +1,5 @@
 export interface PlaceContentProps {
-	placeContent: PlaceContentValues;
+	placeContent?: PlaceContentValues;
 }
 
 export type PlaceContentValues =

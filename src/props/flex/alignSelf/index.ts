@@ -1,5 +1,5 @@
 export interface AlignSelfProps {
-	alignSelf: AlignSelfValues;
+	alignSelf?: AlignSelfValues;
 }
 
 export type AlignSelfValues =
