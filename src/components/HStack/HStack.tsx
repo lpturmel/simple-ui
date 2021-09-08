@@ -9,7 +9,7 @@ export const HStack: Component<HStackProps> = (props) => {
 	const defaultProps: PropsWithChildren<HStackProps> = {
 		display: "flex",
 	};
-	(Object.keys(props) as Array<keyof MainProps>).forEach((prop) => {
+	(Object.keys(props) as Array<keyof HStackProps>).forEach((prop) => {
 		(defaultProps as any)[prop] = props[prop];
 	});
 	const tw = mapPropsToTw<PropsWithChildren<HStackProps>>(defaultProps);
