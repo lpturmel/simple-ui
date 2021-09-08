@@ -8,7 +8,7 @@ export const VStack: Component<VStackProps> = (props) => {
 	const tw = mapPropsToTw<PropsWithChildren<VStackProps>>(props);
 
 	return (
-		<div bg="" {...props} class={`${tw} flex flex-col space-y-2`}>
+		<div {...props} class={tw}>
 			{props.children}
 		</div>
 	);
