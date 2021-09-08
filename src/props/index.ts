@@ -31,6 +31,7 @@ import { AlignContentProps } from "./flex/alignContent";
 import { AlignItemsProps } from "./flex/alignItems";
 import { AlignSelfProps } from "./flex/alignSelf";
 import { PlaceContentProps } from "./flex/placeContent";
+import { PlaceItemsProps } from "./flex/placeItems";
 
 type MainProps<T = {}> = PaddingProps &
 	MarginProps &
@@ -57,6 +58,7 @@ type MainProps<T = {}> = PaddingProps &
 	AlignItemsProps &
 	AlignSelfProps &
 	PlaceContentProps &
+	PlaceItemsProps &
 	GridTemplateColumnProps &
 	GridColSpanProps &
 	GridTemplateRowsProps &
