@@ -24,6 +24,7 @@ import "../props/grid/gridColSpan/index.css";
 import "../props/grid/gridRowSpan/index.css";
 import "../props/grid/gridFlow/index.css";
 import "../props/grid/autoColumns/index.css";
+import "../props/grid/autoRows/index.css";
 
 export const SimpleContext = createContext();
 
