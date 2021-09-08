@@ -1,0 +1,24 @@
+.flex-1,
+.hover\:flex-1:hover,
+.active\:flex-1:active,
+.focus\:flex-1:focus {
+	flex: 1 1 0%;
+}
+.flex-auto,
+.hover\:flex-auto:hover,
+.active\:flex-auto:active,
+.focus\:flex-auto:focus {
+	flex: 1 1 auto;
+}
+.flex-initial,
+.hover\:flex-initial:hover,
+.active\:flex-initial:active,
+.focus\:flex-initial:focus {
+	flex: 0 1 auto;
+}
+.flex-none,
+.hover\:flex-none:hover,
+.active\:flex-none:active,
+.focus\:flex-none:focus {
+	flex: none;
+}
