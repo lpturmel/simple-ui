@@ -1,0 +1,24 @@
+.justify-items-start,
+.hover\:justify-items-start:hover,
+.focus\:justify-items-start:focus,
+.active\:justify-items-start:active {
+	justify-items: start;
+}
+.justify-items-end,
+.hover\:justify-items-end:hover,
+.focus\:justify-items-end:focus,
+.active\:justify-items-end:active {
+	justify-items: end;
+}
+.justify-items-center,
+.hover\:justify-items-center:hover,
+.focus\:justify-items-center:focus,
+.active\:justify-items-center:active {
+	justify-items: center;
+}
+.justify-items-stretch,
+.hover\:justify-items-stretch:hover,
+.focus\:justify-items-stretch:focus,
+.active\:justify-items-stretch:active {
+	justify-items: stretch;
+}
