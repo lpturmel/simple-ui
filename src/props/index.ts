@@ -26,6 +26,7 @@ import { GapProps } from "./flex/gap";
 import { JustifyContentProps } from "./flex/justifyContent";
 import { JustifyItemsProps } from "./flex/justifyItems";
 import { OrderProps } from "./flex/order";
+import { JustifySelfProps } from "./flex/justifySelf";
 
 type MainProps<T = {}> = PaddingProps &
 	MarginProps &
@@ -47,6 +48,7 @@ type MainProps<T = {}> = PaddingProps &
 	OrderProps &
 	JustifyContentProps &
 	JustifyItemsProps &
+	JustifySelfProps &
 	GridTemplateColumnProps &
 	GridColSpanProps &
 	GridTemplateRowsProps &
