@@ -1,0 +1,27 @@
+.gridFlow-row,
+.hover\:gridFlow-row:hover,
+.focus\:gridFlow-row:focus,
+.active\:gridFlow-row:active {
+	grid-auto-flow: row;
+}
+
+.gridFlow-col,
+.hover\:gridFlow-col:hover,
+.focus\:gridFlow-col:focus,
+.active\:gridFlow-col:active {
+	grid-auto-flow: column;
+}
+
+.gridFlow-row-dense,
+.hover\:gridFlow-row-dense:hover,
+.focus\:gridFlow-row-dense:focus,
+.active\:gridFlow-row-dense:active {
+	grid-auto-flow: row dense;
+}
+
+.gridFlow-col-dense,
+.hover\:gridFlow-col-dense:hover,
+.focus\:gridFlow-col-dense:focus,
+.active\:gridFlow-col-dense:active {
+	grid-auto-flow: column dense;
+}
