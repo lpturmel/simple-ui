@@ -1,5 +1,5 @@
 export interface OrderProps {
-	order: OrderValues;
+	order?: OrderValues;
 }
 
 export type OrderValues =
