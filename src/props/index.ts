@@ -25,6 +25,7 @@ import { AutoRowsProps } from "./grid/autoRows";
 import { GapProps } from "./flex/gap";
 import { JustifyContentProps } from "./flex/justifyContent";
 import { JustifyItemsProps } from "./flex/justifyItems";
+import { OrderProps } from "./flex/order";
 
 type MainProps<T = {}> = PaddingProps &
 	MarginProps &
@@ -43,6 +44,7 @@ type MainProps<T = {}> = PaddingProps &
 	FlexGrowProps &
 	FlexShrinkProps &
 	FlexWrapProps &
+	OrderProps &
 	JustifyContentProps &
 	JustifyItemsProps &
 	GridTemplateColumnProps &
