@@ -1,4 +1,5 @@
-.inset-0 .hover\:inset-0:hover,
+.inset-0,
+.hover\:inset-0:hover,
 .focus\:inset-0:focus,
 .active\:inset-0:active {
 	top: 0px;
@@ -6,7 +7,8 @@
 	bottom: 0px;
 	left: 0px;
 }
-.inset--0 .hover\:inset--0:hover,
+.inset--0,
+.hover\:inset--0:hover,
 .focus\:inset--0:focus,
 .active\:inset--0:active {
 	top: 0px;
@@ -14,71 +16,84 @@
 	bottom: 0px;
 	left: 0px;
 }
-.insetX-0 .hover\:insetX-0:hover,
+.insetX-0,
+.hover\:insetX-0:hover,
 .focus\:insetX-0:focus,
 .active\:insetX-0:active {
 	left: 0px;
 	right: 0px;
 }
-.insetX--0 .hover\:insetX--0:hover,
+.insetX--0,
+.hover\:insetX--0:hover,
 .focus\:insetX--0:focus,
 .active\:insetX--0:active {
 	left: 0px;
 	right: 0px;
 }
-.insetY-0 .hover\:insetY-0:hover,
+.insetY-0,
+.hover\:insetY-0:hover,
 .focus\:insetY-0:focus,
 .active\:insetY-0:active {
 	top: 0px;
 	bottom: 0px;
 }
-.insetY--0 .hover\:insetY--0:hover,
+.insetY--0,
+.hover\:insetY--0:hover,
 .focus\:insetY--0:focus,
 .active\:insetY--0:active {
 	top: 0px;
 	bottom: 0px;
 }
-.top-0 .hover\:top-0:hover,
+.top-0,
+.hover\:top-0:hover,
 .focus\:top-0:focus,
 .active\:top-0:active {
 	top: 0px;
 }
-.top--0 .hover\:top--0:hover,
+.top--0,
+.hover\:top--0:hover,
 .focus\:top--0:focus,
 .active\:top--0:active {
 	top: 0px;
 }
-.right-0 .hover\:right-0:hover,
+.right-0,
+.hover\:right-0:hover,
 .focus\:right-0:focus,
 .active\:right-0:active {
 	right: 0px;
 }
-.right--0 .hover\:right--0:hover,
+.right--0,
+.hover\:right--0:hover,
 .focus\:right--0:focus,
 .active\:right--0:active {
 	right: 0px;
 }
-.bottom-0 .hover\:bottom-0:hover,
+.bottom-0,
+.hover\:bottom-0:hover,
 .focus\:bottom-0:focus,
 .active\:bottom-0:active {
 	bottom: 0px;
 }
-.bottom--0 .hover\:bottom--0:hover,
+.bottom--0,
+.hover\:bottom--0:hover,
 .focus\:bottom--0:focus,
 .active\:bottom--0:active {
 	bottom: 0px;
 }
-.left-0 .hover\:left-0:hover,
+.left-0,
+.hover\:left-0:hover,
 .focus\:left-0:focus,
 .active\:left-0:active {
 	left: 0px;
 }
-.left--0 .hover\:left--0:hover,
+.left--0,
+.hover\:left--0:hover,
 .focus\:left--0:focus,
 .active\:left--0:active {
 	left: 0px;
 }
-.inset-px .hover\:inset-px:hover,
+.inset-px,
+.hover\:inset-px:hover,
 .focus\:inset-px:focus,
 .active\:inset-px:active {
 	top: 1px;
@@ -86,7 +101,8 @@
 	bottom: 1px;
 	left: 1px;
 }
-.inset--px .hover\:inset--px:hover,
+.inset--px,
+.hover\:inset--px:hover,
 .focus\:inset--px:focus,
 .active\:inset--px:active {
 	top: -1px;
@@ -94,71 +110,84 @@
 	bottom: -1px;
 	left: -1px;
 }
-.insetX-px .hover\:insetX-px:hover,
+.insetX-px,
+.hover\:insetX-px:hover,
 .focus\:insetX-px:focus,
 .active\:insetX-px:active {
 	left: 1px;
 	right: 1px;
 }
-.insetX--px .hover\:insetX--px:hover,
+.insetX--px,
+.hover\:insetX--px:hover,
 .focus\:insetX--px:focus,
 .active\:insetX--px:active {
 	left: -1px;
 	right: -1px;
 }
-.insetY-px .hover\:insetY-px:hover,
+.insetY-px,
+.hover\:insetY-px:hover,
 .focus\:insetY-px:focus,
 .active\:insetY-px:active {
 	top: 1px;
 	bottom: 1px;
 }
-.insetY--px .hover\:insetY--px:hover,
+.insetY--px,
+.hover\:insetY--px:hover,
 .focus\:insetY--px:focus,
 .active\:insetY--px:active {
 	top: -1px;
 	bottom: -1px;
 }
-.top-px .hover\:top-px:hover,
+.top-px,
+.hover\:top-px:hover,
 .focus\:top-px:focus,
 .active\:top-px:active {
 	top: 1px;
 }
-.top--px .hover\:top--px:hover,
+.top--px,
+.hover\:top--px:hover,
 .focus\:top--px:focus,
 .active\:top--px:active {
 	top: -1px;
 }
-.right-px .hover\:right-px:hover,
+.right-px,
+.hover\:right-px:hover,
 .focus\:right-px:focus,
 .active\:right-px:active {
 	right: 1px;
 }
-.right--px .hover\:right--px:hover,
+.right--px,
+.hover\:right--px:hover,
 .focus\:right--px:focus,
 .active\:right--px:active {
 	right: -1px;
 }
-.bottom-px .hover\:bottom-px:hover,
+.bottom-px,
+.hover\:bottom-px:hover,
 .focus\:bottom-px:focus,
 .active\:bottom-px:active {
 	bottom: 1px;
 }
-.bottom--px .hover\:bottom--px:hover,
+.bottom--px,
+.hover\:bottom--px:hover,
 .focus\:bottom--px:focus,
 .active\:bottom--px:active {
 	bottom: -1px;
 }
-.left-px .hover\:left-px:hover,
+.left-px,
+.hover\:left-px:hover,
 .focus\:left-px:focus,
 .active\:left-px:active {
 	left: 1px;
 }
-.left--px .hover\:left--px:hover,
+.left--px,
+.hover\:left--px:hover,
 .focus\:left--px:focus,
 .active\:left--px:active {
 	left: -1px;
 }
-.inset-0\.5 .hover\:inset-0\.5:hover,
+.inset-0\.5,
+.hover\:inset-0\.5:hover,
 .focus\:inset-0\.5:focus,
 .active\:inset-0\.5:active {
 	top: 0.125rem;
@@ -166,7 +195,8 @@
 	bottom: 0.125rem;
 	left: 0.125rem;
 }
-.inset--0\.5 .hover\:inset--0\.5:hover,
+.inset--0\.5,
+.hover\:inset--0\.5:hover,
 .focus\:inset--0\.5:focus,
 .active\:inset--0\.5:active {
 	top: -0.125rem;
@@ -174,71 +204,84 @@
 	bottom: -0.125rem;
 	left: -0.125rem;
 }
-.insetX-0\.5 .hover\:insetX-0\.5:hover,
+.insetX-0\.5,
+.hover\:insetX-0\.5:hover,
 .focus\:insetX-0\.5:focus,
 .active\:insetX-0\.5:active {
 	left: 0.125rem;
 	right: 0.125rem;
 }
-.insetX--0\.5 .hover\:insetX--0\.5:hover,
+.insetX--0\.5,
+.hover\:insetX--0\.5:hover,
 .focus\:insetX--0\.5:focus,
 .active\:insetX--0\.5:active {
 	left: -0.125rem;
 	right: -0.125rem;
 }
-.insetY-0\.5 .hover\:insetY-0\.5:hover,
+.insetY-0\.5,
+.hover\:insetY-0\.5:hover,
 .focus\:insetY-0\.5:focus,
 .active\:insetY-0\.5:active {
 	top: 0.125rem;
 	bottom: 0.125rem;
 }
-.insetY--0\.5 .hover\:insetY--0\.5:hover,
+.insetY--0\.5,
+.hover\:insetY--0\.5:hover,
 .focus\:insetY--0\.5:focus,
 .active\:insetY--0\.5:active {
 	top: -0.125rem;
 	bottom: -0.125rem;
 }
-.top-0\.5 .hover\:top-0\.5:hover,
+.top-0\.5,
+.hover\:top-0\.5:hover,
 .focus\:top-0\.5:focus,
 .active\:top-0\.5:active {
 	top: 0.125rem;
 }
-.top--0\.5 .hover\:top--0\.5:hover,
+.top--0\.5,
+.hover\:top--0\.5:hover,
 .focus\:top--0\.5:focus,
 .active\:top--0\.5:active {
 	top: -0.125rem;
 }
-.right-0\.5 .hover\:right-0\.5:hover,
+.right-0\.5,
+.hover\:right-0\.5:hover,
 .focus\:right-0\.5:focus,
 .active\:right-0\.5:active {
 	right: 0.125rem;
 }
-.right--0\.5 .hover\:right--0\.5:hover,
+.right--0\.5,
+.hover\:right--0\.5:hover,
 .focus\:right--0\.5:focus,
 .active\:right--0\.5:active {
 	right: -0.125rem;
 }
-.bottom-0\.5 .hover\:bottom-0\.5:hover,
+.bottom-0\.5,
+.hover\:bottom-0\.5:hover,
 .focus\:bottom-0\.5:focus,
 .active\:bottom-0\.5:active {
 	bottom: 0.125rem;
 }
-.bottom--0\.5 .hover\:bottom--0\.5:hover,
+.bottom--0\.5,
+.hover\:bottom--0\.5:hover,
 .focus\:bottom--0\.5:focus,
 .active\:bottom--0\.5:active {
 	bottom: -0.125rem;
 }
-.left-0\.5 .hover\:left-0\.5:hover,
+.left-0\.5,
+.hover\:left-0\.5:hover,
 .focus\:left-0\.5:focus,
 .active\:left-0\.5:active {
 	left: 0.125rem;
 }
-.left--0\.5 .hover\:left--0\.5:hover,
+.left--0\.5,
+.hover\:left--0\.5:hover,
 .focus\:left--0\.5:focus,
 .active\:left--0\.5:active {
 	left: -0.125rem;
 }
-.inset-1 .hover\:inset-1:hover,
+.inset-1,
+.hover\:inset-1:hover,
 .focus\:inset-1:focus,
 .active\:inset-1:active {
 	top: 0.25rem;
@@ -246,7 +289,8 @@
 	bottom: 0.25rem;
 	left: 0.25rem;
 }
-.inset--1 .hover\:inset--1:hover,
+.inset--1,
+.hover\:inset--1:hover,
 .focus\:inset--1:focus,
 .active\:inset--1:active {
 	top: -0.25rem;
@@ -254,71 +298,84 @@
 	bottom: -0.25rem;
 	left: -0.25rem;
 }
-.insetX-1 .hover\:insetX-1:hover,
+.insetX-1,
+.hover\:insetX-1:hover,
 .focus\:insetX-1:focus,
 .active\:insetX-1:active {
 	left: 0.25rem;
 	right: 0.25rem;
 }
-.insetX--1 .hover\:insetX--1:hover,
+.insetX--1,
+.hover\:insetX--1:hover,
 .focus\:insetX--1:focus,
 .active\:insetX--1:active {
 	left: -0.25rem;
 	right: -0.25rem;
 }
-.insetY-1 .hover\:insetY-1:hover,
+.insetY-1,
+.hover\:insetY-1:hover,
 .focus\:insetY-1:focus,
 .active\:insetY-1:active {
 	top: 0.25rem;
 	bottom: 0.25rem;
 }
-.insetY--1 .hover\:insetY--1:hover,
+.insetY--1,
+.hover\:insetY--1:hover,
 .focus\:insetY--1:focus,
 .active\:insetY--1:active {
 	top: -0.25rem;
 	bottom: -0.25rem;
 }
-.top-1 .hover\:top-1:hover,
+.top-1,
+.hover\:top-1:hover,
 .focus\:top-1:focus,
 .active\:top-1:active {
 	top: 0.25rem;
 }
-.top--1 .hover\:top--1:hover,
+.top--1,
+.hover\:top--1:hover,
 .focus\:top--1:focus,
 .active\:top--1:active {
 	top: -0.25rem;
 }
-.right-1 .hover\:right-1:hover,
+.right-1,
+.hover\:right-1:hover,
 .focus\:right-1:focus,
 .active\:right-1:active {
 	right: 0.25rem;
 }
-.right--1 .hover\:right--1:hover,
+.right--1,
+.hover\:right--1:hover,
 .focus\:right--1:focus,
 .active\:right--1:active {
 	right: -0.25rem;
 }
-.bottom-1 .hover\:bottom-1:hover,
+.bottom-1,
+.hover\:bottom-1:hover,
 .focus\:bottom-1:focus,
 .active\:bottom-1:active {
 	bottom: 0.25rem;
 }
-.bottom--1 .hover\:bottom--1:hover,
+.bottom--1,
+.hover\:bottom--1:hover,
 .focus\:bottom--1:focus,
 .active\:bottom--1:active {
 	bottom: -0.25rem;
 }
-.left-1 .hover\:left-1:hover,
+.left-1,
+.hover\:left-1:hover,
 .focus\:left-1:focus,
 .active\:left-1:active {
 	left: 0.25rem;
 }
-.left--1 .hover\:left--1:hover,
+.left--1,
+.hover\:left--1:hover,
 .focus\:left--1:focus,
 .active\:left--1:active {
 	left: -0.25rem;
 }
-.inset-1\.5 .hover\:inset-1\.5:hover,
+.inset-1\.5,
+.hover\:inset-1\.5:hover,
 .focus\:inset-1\.5:focus,
 .active\:inset-1\.5:active {
 	top: 0.375rem;
@@ -326,7 +383,8 @@
 	bottom: 0.375rem;
 	left: 0.375rem;
 }
-.inset--1\.5 .hover\:inset--1\.5:hover,
+.inset--1\.5,
+.hover\:inset--1\.5:hover,
 .focus\:inset--1\.5:focus,
 .active\:inset--1\.5:active {
 	top: -0.375rem;
@@ -334,71 +392,84 @@
 	bottom: -0.375rem;
 	left: -0.375rem;
 }
-.insetX-1\.5 .hover\:insetX-1\.5:hover,
+.insetX-1\.5,
+.hover\:insetX-1\.5:hover,
 .focus\:insetX-1\.5:focus,
 .active\:insetX-1\.5:active {
 	left: 0.375rem;
 	right: 0.375rem;
 }
-.insetX--1\.5 .hover\:insetX--1\.5:hover,
+.insetX--1\.5,
+.hover\:insetX--1\.5:hover,
 .focus\:insetX--1\.5:focus,
 .active\:insetX--1\.5:active {
 	left: -0.375rem;
 	right: -0.375rem;
 }
-.insetY-1\.5 .hover\:insetY-1\.5:hover,
+.insetY-1\.5,
+.hover\:insetY-1\.5:hover,
 .focus\:insetY-1\.5:focus,
 .active\:insetY-1\.5:active {
 	top: 0.375rem;
 	bottom: 0.375rem;
 }
-.insetY--1\.5 .hover\:insetY--1\.5:hover,
+.insetY--1\.5,
+.hover\:insetY--1\.5:hover,
 .focus\:insetY--1\.5:focus,
 .active\:insetY--1\.5:active {
 	top: -0.375rem;
 	bottom: -0.375rem;
 }
-.top-1\.5 .hover\:top-1\.5:hover,
+.top-1\.5,
+.hover\:top-1\.5:hover,
 .focus\:top-1\.5:focus,
 .active\:top-1\.5:active {
 	top: 0.375rem;
 }
-.top--1\.5 .hover\:top--1\.5:hover,
+.top--1\.5,
+.hover\:top--1\.5:hover,
 .focus\:top--1\.5:focus,
 .active\:top--1\.5:active {
 	top: -0.375rem;
 }
-.right-1\.5 .hover\:right-1\.5:hover,
+.right-1\.5,
+.hover\:right-1\.5:hover,
 .focus\:right-1\.5:focus,
 .active\:right-1\.5:active {
 	right: 0.375rem;
 }
-.right--1\.5 .hover\:right--1\.5:hover,
+.right--1\.5,
+.hover\:right--1\.5:hover,
 .focus\:right--1\.5:focus,
 .active\:right--1\.5:active {
 	right: -0.375rem;
 }
-.bottom-1\.5 .hover\:bottom-1\.5:hover,
+.bottom-1\.5,
+.hover\:bottom-1\.5:hover,
 .focus\:bottom-1\.5:focus,
 .active\:bottom-1\.5:active {
 	bottom: 0.375rem;
 }
-.bottom--1\.5 .hover\:bottom--1\.5:hover,
+.bottom--1\.5,
+.hover\:bottom--1\.5:hover,
 .focus\:bottom--1\.5:focus,
 .active\:bottom--1\.5:active {
 	bottom: -0.375rem;
 }
-.left-1\.5 .hover\:left-1\.5:hover,
+.left-1\.5,
+.hover\:left-1\.5:hover,
 .focus\:left-1\.5:focus,
 .active\:left-1\.5:active {
 	left: 0.375rem;
 }
-.left--1\.5 .hover\:left--1\.5:hover,
+.left--1\.5,
+.hover\:left--1\.5:hover,
 .focus\:left--1\.5:focus,
 .active\:left--1\.5:active {
 	left: -0.375rem;
 }
-.inset-2 .hover\:inset-2:hover,
+.inset-2,
+.hover\:inset-2:hover,
 .focus\:inset-2:focus,
 .active\:inset-2:active {
 	top: 0.5rem;
@@ -406,7 +477,8 @@
 	bottom: 0.5rem;
 	left: 0.5rem;
 }
-.inset--2 .hover\:inset--2:hover,
+.inset--2,
+.hover\:inset--2:hover,
 .focus\:inset--2:focus,
 .active\:inset--2:active {
 	top: -0.5rem;
@@ -414,71 +486,84 @@
 	bottom: -0.5rem;
 	left: -0.5rem;
 }
-.insetX-2 .hover\:insetX-2:hover,
+.insetX-2,
+.hover\:insetX-2:hover,
 .focus\:insetX-2:focus,
 .active\:insetX-2:active {
 	left: 0.5rem;
 	right: 0.5rem;
 }
-.insetX--2 .hover\:insetX--2:hover,
+.insetX--2,
+.hover\:insetX--2:hover,
 .focus\:insetX--2:focus,
 .active\:insetX--2:active {
 	left: -0.5rem;
 	right: -0.5rem;
 }
-.insetY-2 .hover\:insetY-2:hover,
+.insetY-2,
+.hover\:insetY-2:hover,
 .focus\:insetY-2:focus,
 .active\:insetY-2:active {
 	top: 0.5rem;
 	bottom: 0.5rem;
 }
-.insetY--2 .hover\:insetY--2:hover,
+.insetY--2,
+.hover\:insetY--2:hover,
 .focus\:insetY--2:focus,
 .active\:insetY--2:active {
 	top: -0.5rem;
 	bottom: -0.5rem;
 }
-.top-2 .hover\:top-2:hover,
+.top-2,
+.hover\:top-2:hover,
 .focus\:top-2:focus,
 .active\:top-2:active {
 	top: 0.5rem;
 }
-.top--2 .hover\:top--2:hover,
+.top--2,
+.hover\:top--2:hover,
 .focus\:top--2:focus,
 .active\:top--2:active {
 	top: -0.5rem;
 }
-.right-2 .hover\:right-2:hover,
+.right-2,
+.hover\:right-2:hover,
 .focus\:right-2:focus,
 .active\:right-2:active {
 	right: 0.5rem;
 }
-.right--2 .hover\:right--2:hover,
+.right--2,
+.hover\:right--2:hover,
 .focus\:right--2:focus,
 .active\:right--2:active {
 	right: -0.5rem;
 }
-.bottom-2 .hover\:bottom-2:hover,
+.bottom-2,
+.hover\:bottom-2:hover,
 .focus\:bottom-2:focus,
 .active\:bottom-2:active {
 	bottom: 0.5rem;
 }
-.bottom--2 .hover\:bottom--2:hover,
+.bottom--2,
+.hover\:bottom--2:hover,
 .focus\:bottom--2:focus,
 .active\:bottom--2:active {
 	bottom: -0.5rem;
 }
-.left-2 .hover\:left-2:hover,
+.left-2,
+.hover\:left-2:hover,
 .focus\:left-2:focus,
 .active\:left-2:active {
 	left: 0.5rem;
 }
-.left--2 .hover\:left--2:hover,
+.left--2,
+.hover\:left--2:hover,
 .focus\:left--2:focus,
 .active\:left--2:active {
 	left: -0.5rem;
 }
-.inset-2\.5 .hover\:inset-2\.5:hover,
+.inset-2\.5,
+.hover\:inset-2\.5:hover,
 .focus\:inset-2\.5:focus,
 .active\:inset-2\.5:active {
 	top: 0.625rem;
@@ -486,7 +571,8 @@
 	bottom: 0.625rem;
 	left: 0.625rem;
 }
-.inset--2\.5 .hover\:inset--2\.5:hover,
+.inset--2\.5,
+.hover\:inset--2\.5:hover,
 .focus\:inset--2\.5:focus,
 .active\:inset--2\.5:active {
 	top: -0.625rem;
@@ -494,71 +580,84 @@
 	bottom: -0.625rem;
 	left: -0.625rem;
 }
-.insetX-2\.5 .hover\:insetX-2\.5:hover,
+.insetX-2\.5,
+.hover\:insetX-2\.5:hover,
 .focus\:insetX-2\.5:focus,
 .active\:insetX-2\.5:active {
 	left: 0.625rem;
 	right: 0.625rem;
 }
-.insetX--2\.5 .hover\:insetX--2\.5:hover,
+.insetX--2\.5,
+.hover\:insetX--2\.5:hover,
 .focus\:insetX--2\.5:focus,
 .active\:insetX--2\.5:active {
 	left: -0.625rem;
 	right: -0.625rem;
 }
-.insetY-2\.5 .hover\:insetY-2\.5:hover,
+.insetY-2\.5,
+.hover\:insetY-2\.5:hover,
 .focus\:insetY-2\.5:focus,
 .active\:insetY-2\.5:active {
 	top: 0.625rem;
 	bottom: 0.625rem;
 }
-.insetY--2\.5 .hover\:insetY--2\.5:hover,
+.insetY--2\.5,
+.hover\:insetY--2\.5:hover,
 .focus\:insetY--2\.5:focus,
 .active\:insetY--2\.5:active {
 	top: -0.625rem;
 	bottom: -0.625rem;
 }
-.top-2\.5 .hover\:top-2\.5:hover,
+.top-2\.5,
+.hover\:top-2\.5:hover,
 .focus\:top-2\.5:focus,
 .active\:top-2\.5:active {
 	top: 0.625rem;
 }
-.top--2\.5 .hover\:top--2\.5:hover,
+.top--2\.5,
+.hover\:top--2\.5:hover,
 .focus\:top--2\.5:focus,
 .active\:top--2\.5:active {
 	top: -0.625rem;
 }
-.right-2\.5 .hover\:right-2\.5:hover,
+.right-2\.5,
+.hover\:right-2\.5:hover,
 .focus\:right-2\.5:focus,
 .active\:right-2\.5:active {
 	right: 0.625rem;
 }
-.right--2\.5 .hover\:right--2\.5:hover,
+.right--2\.5,
+.hover\:right--2\.5:hover,
 .focus\:right--2\.5:focus,
 .active\:right--2\.5:active {
 	right: -0.625rem;
 }
-.bottom-2\.5 .hover\:bottom-2\.5:hover,
+.bottom-2\.5,
+.hover\:bottom-2\.5:hover,
 .focus\:bottom-2\.5:focus,
 .active\:bottom-2\.5:active {
 	bottom: 0.625rem;
 }
-.bottom--2\.5 .hover\:bottom--2\.5:hover,
+.bottom--2\.5,
+.hover\:bottom--2\.5:hover,
 .focus\:bottom--2\.5:focus,
 .active\:bottom--2\.5:active {
 	bottom: -0.625rem;
 }
-.left-2\.5 .hover\:left-2\.5:hover,
+.left-2\.5,
+.hover\:left-2\.5:hover,
 .focus\:left-2\.5:focus,
 .active\:left-2\.5:active {
 	left: 0.625rem;
 }
-.left--2\.5 .hover\:left--2\.5:hover,
+.left--2\.5,
+.hover\:left--2\.5:hover,
 .focus\:left--2\.5:focus,
 .active\:left--2\.5:active {
 	left: -0.625rem;
 }
-.inset-3 .hover\:inset-3:hover,
+.inset-3,
+.hover\:inset-3:hover,
 .focus\:inset-3:focus,
 .active\:inset-3:active {
 	top: 0.75rem;
@@ -566,7 +665,8 @@
 	bottom: 0.75rem;
 	left: 0.75rem;
 }
-.inset--3 .hover\:inset--3:hover,
+.inset--3,
+.hover\:inset--3:hover,
 .focus\:inset--3:focus,
 .active\:inset--3:active {
 	top: -0.75rem;
@@ -574,71 +674,84 @@
 	bottom: -0.75rem;
 	left: -0.75rem;
 }
-.insetX-3 .hover\:insetX-3:hover,
+.insetX-3,
+.hover\:insetX-3:hover,
 .focus\:insetX-3:focus,
 .active\:insetX-3:active {
 	left: 0.75rem;
 	right: 0.75rem;
 }
-.insetX--3 .hover\:insetX--3:hover,
+.insetX--3,
+.hover\:insetX--3:hover,
 .focus\:insetX--3:focus,
 .active\:insetX--3:active {
 	left: -0.75rem;
 	right: -0.75rem;
 }
-.insetY-3 .hover\:insetY-3:hover,
+.insetY-3,
+.hover\:insetY-3:hover,
 .focus\:insetY-3:focus,
 .active\:insetY-3:active {
 	top: 0.75rem;
 	bottom: 0.75rem;
 }
-.insetY--3 .hover\:insetY--3:hover,
+.insetY--3,
+.hover\:insetY--3:hover,
 .focus\:insetY--3:focus,
 .active\:insetY--3:active {
 	top: -0.75rem;
 	bottom: -0.75rem;
 }
-.top-3 .hover\:top-3:hover,
+.top-3,
+.hover\:top-3:hover,
 .focus\:top-3:focus,
 .active\:top-3:active {
 	top: 0.75rem;
 }
-.top--3 .hover\:top--3:hover,
+.top--3,
+.hover\:top--3:hover,
 .focus\:top--3:focus,
 .active\:top--3:active {
 	top: -0.75rem;
 }
-.right-3 .hover\:right-3:hover,
+.right-3,
+.hover\:right-3:hover,
 .focus\:right-3:focus,
 .active\:right-3:active {
 	right: 0.75rem;
 }
-.right--3 .hover\:right--3:hover,
+.right--3,
+.hover\:right--3:hover,
 .focus\:right--3:focus,
 .active\:right--3:active {
 	right: -0.75rem;
 }
-.bottom-3 .hover\:bottom-3:hover,
+.bottom-3,
+.hover\:bottom-3:hover,
 .focus\:bottom-3:focus,
 .active\:bottom-3:active {
 	bottom: 0.75rem;
 }
-.bottom--3 .hover\:bottom--3:hover,
+.bottom--3,
+.hover\:bottom--3:hover,
 .focus\:bottom--3:focus,
 .active\:bottom--3:active {
 	bottom: -0.75rem;
 }
-.left-3 .hover\:left-3:hover,
+.left-3,
+.hover\:left-3:hover,
 .focus\:left-3:focus,
 .active\:left-3:active {
 	left: 0.75rem;
 }
-.left--3 .hover\:left--3:hover,
+.left--3,
+.hover\:left--3:hover,
 .focus\:left--3:focus,
 .active\:left--3:active {
 	left: -0.75rem;
 }
-.inset-3\.5 .hover\:inset-3\.5:hover,
+.inset-3\.5,
+.hover\:inset-3\.5:hover,
 .focus\:inset-3\.5:focus,
 .active\:inset-3\.5:active {
 	top: 0.875rem;
@@ -646,7 +759,8 @@
 	bottom: 0.875rem;
 	left: 0.875rem;
 }
-.inset--3\.5 .hover\:inset--3\.5:hover,
+.inset--3\.5,
+.hover\:inset--3\.5:hover,
 .focus\:inset--3\.5:focus,
 .active\:inset--3\.5:active {
 	top: -0.875rem;
@@ -654,71 +768,84 @@
 	bottom: -0.875rem;
 	left: -0.875rem;
 }
-.insetX-3\.5 .hover\:insetX-3\.5:hover,
+.insetX-3\.5,
+.hover\:insetX-3\.5:hover,
 .focus\:insetX-3\.5:focus,
 .active\:insetX-3\.5:active {
 	left: 0.875rem;
 	right: 0.875rem;
 }
-.insetX--3\.5 .hover\:insetX--3\.5:hover,
+.insetX--3\.5,
+.hover\:insetX--3\.5:hover,
 .focus\:insetX--3\.5:focus,
 .active\:insetX--3\.5:active {
 	left: -0.875rem;
 	right: -0.875rem;
 }
-.insetY-3\.5 .hover\:insetY-3\.5:hover,
+.insetY-3\.5,
+.hover\:insetY-3\.5:hover,
 .focus\:insetY-3\.5:focus,
 .active\:insetY-3\.5:active {
 	top: 0.875rem;
 	bottom: 0.875rem;
 }
-.insetY--3\.5 .hover\:insetY--3\.5:hover,
+.insetY--3\.5,
+.hover\:insetY--3\.5:hover,
 .focus\:insetY--3\.5:focus,
 .active\:insetY--3\.5:active {
 	top: -0.875rem;
 	bottom: -0.875rem;
 }
-.top-3\.5 .hover\:top-3\.5:hover,
+.top-3\.5,
+.hover\:top-3\.5:hover,
 .focus\:top-3\.5:focus,
 .active\:top-3\.5:active {
 	top: 0.875rem;
 }
-.top--3\.5 .hover\:top--3\.5:hover,
+.top--3\.5,
+.hover\:top--3\.5:hover,
 .focus\:top--3\.5:focus,
 .active\:top--3\.5:active {
 	top: -0.875rem;
 }
-.right-3\.5 .hover\:right-3\.5:hover,
+.right-3\.5,
+.hover\:right-3\.5:hover,
 .focus\:right-3\.5:focus,
 .active\:right-3\.5:active {
 	right: 0.875rem;
 }
-.right--3\.5 .hover\:right--3\.5:hover,
+.right--3\.5,
+.hover\:right--3\.5:hover,
 .focus\:right--3\.5:focus,
 .active\:right--3\.5:active {
 	right: -0.875rem;
 }
-.bottom-3\.5 .hover\:bottom-3\.5:hover,
+.bottom-3\.5,
+.hover\:bottom-3\.5:hover,
 .focus\:bottom-3\.5:focus,
 .active\:bottom-3\.5:active {
 	bottom: 0.875rem;
 }
-.bottom--3\.5 .hover\:bottom--3\.5:hover,
+.bottom--3\.5,
+.hover\:bottom--3\.5:hover,
 .focus\:bottom--3\.5:focus,
 .active\:bottom--3\.5:active {
 	bottom: -0.875rem;
 }
-.left-3\.5 .hover\:left-3\.5:hover,
+.left-3\.5,
+.hover\:left-3\.5:hover,
 .focus\:left-3\.5:focus,
 .active\:left-3\.5:active {
 	left: 0.875rem;
 }
-.left--3\.5 .hover\:left--3\.5:hover,
+.left--3\.5,
+.hover\:left--3\.5:hover,
 .focus\:left--3\.5:focus,
 .active\:left--3\.5:active {
 	left: -0.875rem;
 }
-.inset-4 .hover\:inset-4:hover,
+.inset-4,
+.hover\:inset-4:hover,
 .focus\:inset-4:focus,
 .active\:inset-4:active {
 	top: 1rem;
@@ -726,7 +853,8 @@
 	bottom: 1rem;
 	left: 1rem;
 }
-.inset--4 .hover\:inset--4:hover,
+.inset--4,
+.hover\:inset--4:hover,
 .focus\:inset--4:focus,
 .active\:inset--4:active {
 	top: -1rem;
@@ -734,71 +862,84 @@
 	bottom: -1rem;
 	left: -1rem;
 }
-.insetX-4 .hover\:insetX-4:hover,
+.insetX-4,
+.hover\:insetX-4:hover,
 .focus\:insetX-4:focus,
 .active\:insetX-4:active {
 	left: 1rem;
 	right: 1rem;
 }
-.insetX--4 .hover\:insetX--4:hover,
+.insetX--4,
+.hover\:insetX--4:hover,
 .focus\:insetX--4:focus,
 .active\:insetX--4:active {
 	left: -1rem;
 	right: -1rem;
 }
-.insetY-4 .hover\:insetY-4:hover,
+.insetY-4,
+.hover\:insetY-4:hover,
 .focus\:insetY-4:focus,
 .active\:insetY-4:active {
 	top: 1rem;
 	bottom: 1rem;
 }
-.insetY--4 .hover\:insetY--4:hover,
+.insetY--4,
+.hover\:insetY--4:hover,
 .focus\:insetY--4:focus,
 .active\:insetY--4:active {
 	top: -1rem;
 	bottom: -1rem;
 }
-.top-4 .hover\:top-4:hover,
+.top-4,
+.hover\:top-4:hover,
 .focus\:top-4:focus,
 .active\:top-4:active {
 	top: 1rem;
 }
-.top--4 .hover\:top--4:hover,
+.top--4,
+.hover\:top--4:hover,
 .focus\:top--4:focus,
 .active\:top--4:active {
 	top: -1rem;
 }
-.right-4 .hover\:right-4:hover,
+.right-4,
+.hover\:right-4:hover,
 .focus\:right-4:focus,
 .active\:right-4:active {
 	right: 1rem;
 }
-.right--4 .hover\:right--4:hover,
+.right--4,
+.hover\:right--4:hover,
 .focus\:right--4:focus,
 .active\:right--4:active {
 	right: -1rem;
 }
-.bottom-4 .hover\:bottom-4:hover,
+.bottom-4,
+.hover\:bottom-4:hover,
 .focus\:bottom-4:focus,
 .active\:bottom-4:active {
 	bottom: 1rem;
 }
-.bottom--4 .hover\:bottom--4:hover,
+.bottom--4,
+.hover\:bottom--4:hover,
 .focus\:bottom--4:focus,
 .active\:bottom--4:active {
 	bottom: -1rem;
 }
-.left-4 .hover\:left-4:hover,
+.left-4,
+.hover\:left-4:hover,
 .focus\:left-4:focus,
 .active\:left-4:active {
 	left: 1rem;
 }
-.left--4 .hover\:left--4:hover,
+.left--4,
+.hover\:left--4:hover,
 .focus\:left--4:focus,
 .active\:left--4:active {
 	left: -1rem;
 }
-.inset-5 .hover\:inset-5:hover,
+.inset-5,
+.hover\:inset-5:hover,
 .focus\:inset-5:focus,
 .active\:inset-5:active {
 	top: 1.25rem;
@@ -806,7 +947,8 @@
 	bottom: 1.25rem;
 	left: 1.25rem;
 }
-.inset--5 .hover\:inset--5:hover,
+.inset--5,
+.hover\:inset--5:hover,
 .focus\:inset--5:focus,
 .active\:inset--5:active {
 	top: -1.25rem;
@@ -814,71 +956,84 @@
 	bottom: -1.25rem;
 	left: -1.25rem;
 }
-.insetX-5 .hover\:insetX-5:hover,
+.insetX-5,
+.hover\:insetX-5:hover,
 .focus\:insetX-5:focus,
 .active\:insetX-5:active {
 	left: 1.25rem;
 	right: 1.25rem;
 }
-.insetX--5 .hover\:insetX--5:hover,
+.insetX--5,
+.hover\:insetX--5:hover,
 .focus\:insetX--5:focus,
 .active\:insetX--5:active {
 	left: -1.25rem;
 	right: -1.25rem;
 }
-.insetY-5 .hover\:insetY-5:hover,
+.insetY-5,
+.hover\:insetY-5:hover,
 .focus\:insetY-5:focus,
 .active\:insetY-5:active {
 	top: 1.25rem;
 	bottom: 1.25rem;
 }
-.insetY--5 .hover\:insetY--5:hover,
+.insetY--5,
+.hover\:insetY--5:hover,
 .focus\:insetY--5:focus,
 .active\:insetY--5:active {
 	top: -1.25rem;
 	bottom: -1.25rem;
 }
-.top-5 .hover\:top-5:hover,
+.top-5,
+.hover\:top-5:hover,
 .focus\:top-5:focus,
 .active\:top-5:active {
 	top: 1.25rem;
 }
-.top--5 .hover\:top--5:hover,
+.top--5,
+.hover\:top--5:hover,
 .focus\:top--5:focus,
 .active\:top--5:active {
 	top: -1.25rem;
 }
-.right-5 .hover\:right-5:hover,
+.right-5,
+.hover\:right-5:hover,
 .focus\:right-5:focus,
 .active\:right-5:active {
 	right: 1.25rem;
 }
-.right--5 .hover\:right--5:hover,
+.right--5,
+.hover\:right--5:hover,
 .focus\:right--5:focus,
 .active\:right--5:active {
 	right: -1.25rem;
 }
-.bottom-5 .hover\:bottom-5:hover,
+.bottom-5,
+.hover\:bottom-5:hover,
 .focus\:bottom-5:focus,
 .active\:bottom-5:active {
 	bottom: 1.25rem;
 }
-.bottom--5 .hover\:bottom--5:hover,
+.bottom--5,
+.hover\:bottom--5:hover,
 .focus\:bottom--5:focus,
 .active\:bottom--5:active {
 	bottom: -1.25rem;
 }
-.left-5 .hover\:left-5:hover,
+.left-5,
+.hover\:left-5:hover,
 .focus\:left-5:focus,
 .active\:left-5:active {
 	left: 1.25rem;
 }
-.left--5 .hover\:left--5:hover,
+.left--5,
+.hover\:left--5:hover,
 .focus\:left--5:focus,
 .active\:left--5:active {
 	left: -1.25rem;
 }
-.inset-6 .hover\:inset-6:hover,
+.inset-6,
+.hover\:inset-6:hover,
 .focus\:inset-6:focus,
 .active\:inset-6:active {
 	top: 1.5rem;
@@ -886,7 +1041,8 @@
 	bottom: 1.5rem;
 	left: 1.5rem;
 }
-.inset--6 .hover\:inset--6:hover,
+.inset--6,
+.hover\:inset--6:hover,
 .focus\:inset--6:focus,
 .active\:inset--6:active {
 	top: -1.5rem;
@@ -894,71 +1050,84 @@
 	bottom: -1.5rem;
 	left: -1.5rem;
 }
-.insetX-6 .hover\:insetX-6:hover,
+.insetX-6,
+.hover\:insetX-6:hover,
 .focus\:insetX-6:focus,
 .active\:insetX-6:active {
 	left: 1.5rem;
 	right: 1.5rem;
 }
-.insetX--6 .hover\:insetX--6:hover,
+.insetX--6,
+.hover\:insetX--6:hover,
 .focus\:insetX--6:focus,
 .active\:insetX--6:active {
 	left: -1.5rem;
 	right: -1.5rem;
 }
-.insetY-6 .hover\:insetY-6:hover,
+.insetY-6,
+.hover\:insetY-6:hover,
 .focus\:insetY-6:focus,
 .active\:insetY-6:active {
 	top: 1.5rem;
 	bottom: 1.5rem;
 }
-.insetY--6 .hover\:insetY--6:hover,
+.insetY--6,
+.hover\:insetY--6:hover,
 .focus\:insetY--6:focus,
 .active\:insetY--6:active {
 	top: -1.5rem;
 	bottom: -1.5rem;
 }
-.top-6 .hover\:top-6:hover,
+.top-6,
+.hover\:top-6:hover,
 .focus\:top-6:focus,
 .active\:top-6:active {
 	top: 1.5rem;
 }
-.top--6 .hover\:top--6:hover,
+.top--6,
+.hover\:top--6:hover,
 .focus\:top--6:focus,
 .active\:top--6:active {
 	top: -1.5rem;
 }
-.right-6 .hover\:right-6:hover,
+.right-6,
+.hover\:right-6:hover,
 .focus\:right-6:focus,
 .active\:right-6:active {
 	right: 1.5rem;
 }
-.right--6 .hover\:right--6:hover,
+.right--6,
+.hover\:right--6:hover,
 .focus\:right--6:focus,
 .active\:right--6:active {
 	right: -1.5rem;
 }
-.bottom-6 .hover\:bottom-6:hover,
+.bottom-6,
+.hover\:bottom-6:hover,
 .focus\:bottom-6:focus,
 .active\:bottom-6:active {
 	bottom: 1.5rem;
 }
-.bottom--6 .hover\:bottom--6:hover,
+.bottom--6,
+.hover\:bottom--6:hover,
 .focus\:bottom--6:focus,
 .active\:bottom--6:active {
 	bottom: -1.5rem;
 }
-.left-6 .hover\:left-6:hover,
+.left-6,
+.hover\:left-6:hover,
 .focus\:left-6:focus,
 .active\:left-6:active {
 	left: 1.5rem;
 }
-.left--6 .hover\:left--6:hover,
+.left--6,
+.hover\:left--6:hover,
 .focus\:left--6:focus,
 .active\:left--6:active {
 	left: -1.5rem;
 }
-.inset-7 .hover\:inset-7:hover,
+.inset-7,
+.hover\:inset-7:hover,
 .focus\:inset-7:focus,
 .active\:inset-7:active {
 	top: 1.75rem;
@@ -966,7 +1135,8 @@
 	bottom: 1.75rem;
 	left: 1.75rem;
 }
-.inset--7 .hover\:inset--7:hover,
+.inset--7,
+.hover\:inset--7:hover,
 .focus\:inset--7:focus,
 .active\:inset--7:active {
 	top: -1.75rem;
@@ -974,71 +1144,84 @@
 	bottom: -1.75rem;
 	left: -1.75rem;
 }
-.insetX-7 .hover\:insetX-7:hover,
+.insetX-7,
+.hover\:insetX-7:hover,
 .focus\:insetX-7:focus,
 .active\:insetX-7:active {
 	left: 1.75rem;
 	right: 1.75rem;
 }
-.insetX--7 .hover\:insetX--7:hover,
+.insetX--7,
+.hover\:insetX--7:hover,
 .focus\:insetX--7:focus,
 .active\:insetX--7:active {
 	left: -1.75rem;
 	right: -1.75rem;
 }
-.insetY-7 .hover\:insetY-7:hover,
+.insetY-7,
+.hover\:insetY-7:hover,
 .focus\:insetY-7:focus,
 .active\:insetY-7:active {
 	top: 1.75rem;
 	bottom: 1.75rem;
 }
-.insetY--7 .hover\:insetY--7:hover,
+.insetY--7,
+.hover\:insetY--7:hover,
 .focus\:insetY--7:focus,
 .active\:insetY--7:active {
 	top: -1.75rem;
 	bottom: -1.75rem;
 }
-.top-7 .hover\:top-7:hover,
+.top-7,
+.hover\:top-7:hover,
 .focus\:top-7:focus,
 .active\:top-7:active {
 	top: 1.75rem;
 }
-.top--7 .hover\:top--7:hover,
+.top--7,
+.hover\:top--7:hover,
 .focus\:top--7:focus,
 .active\:top--7:active {
 	top: -1.75rem;
 }
-.right-7 .hover\:right-7:hover,
+.right-7,
+.hover\:right-7:hover,
 .focus\:right-7:focus,
 .active\:right-7:active {
 	right: 1.75rem;
 }
-.right--7 .hover\:right--7:hover,
+.right--7,
+.hover\:right--7:hover,
 .focus\:right--7:focus,
 .active\:right--7:active {
 	right: -1.75rem;
 }
-.bottom-7 .hover\:bottom-7:hover,
+.bottom-7,
+.hover\:bottom-7:hover,
 .focus\:bottom-7:focus,
 .active\:bottom-7:active {
 	bottom: 1.75rem;
 }
-.bottom--7 .hover\:bottom--7:hover,
+.bottom--7,
+.hover\:bottom--7:hover,
 .focus\:bottom--7:focus,
 .active\:bottom--7:active {
 	bottom: -1.75rem;
 }
-.left-7 .hover\:left-7:hover,
+.left-7,
+.hover\:left-7:hover,
 .focus\:left-7:focus,
 .active\:left-7:active {
 	left: 1.75rem;
 }
-.left--7 .hover\:left--7:hover,
+.left--7,
+.hover\:left--7:hover,
 .focus\:left--7:focus,
 .active\:left--7:active {
 	left: -1.75rem;
 }
-.inset-8 .hover\:inset-8:hover,
+.inset-8,
+.hover\:inset-8:hover,
 .focus\:inset-8:focus,
 .active\:inset-8:active {
 	top: 2rem;
@@ -1046,7 +1229,8 @@
 	bottom: 2rem;
 	left: 2rem;
 }
-.inset--8 .hover\:inset--8:hover,
+.inset--8,
+.hover\:inset--8:hover,
 .focus\:inset--8:focus,
 .active\:inset--8:active {
 	top: -2rem;
@@ -1054,71 +1238,84 @@
 	bottom: -2rem;
 	left: -2rem;
 }
-.insetX-8 .hover\:insetX-8:hover,
+.insetX-8,
+.hover\:insetX-8:hover,
 .focus\:insetX-8:focus,
 .active\:insetX-8:active {
 	left: 2rem;
 	right: 2rem;
 }
-.insetX--8 .hover\:insetX--8:hover,
+.insetX--8,
+.hover\:insetX--8:hover,
 .focus\:insetX--8:focus,
 .active\:insetX--8:active {
 	left: -2rem;
 	right: -2rem;
 }
-.insetY-8 .hover\:insetY-8:hover,
+.insetY-8,
+.hover\:insetY-8:hover,
 .focus\:insetY-8:focus,
 .active\:insetY-8:active {
 	top: 2rem;
 	bottom: 2rem;
 }
-.insetY--8 .hover\:insetY--8:hover,
+.insetY--8,
+.hover\:insetY--8:hover,
 .focus\:insetY--8:focus,
 .active\:insetY--8:active {
 	top: -2rem;
 	bottom: -2rem;
 }
-.top-8 .hover\:top-8:hover,
+.top-8,
+.hover\:top-8:hover,
 .focus\:top-8:focus,
 .active\:top-8:active {
 	top: 2rem;
 }
-.top--8 .hover\:top--8:hover,
+.top--8,
+.hover\:top--8:hover,
 .focus\:top--8:focus,
 .active\:top--8:active {
 	top: -2rem;
 }
-.right-8 .hover\:right-8:hover,
+.right-8,
+.hover\:right-8:hover,
 .focus\:right-8:focus,
 .active\:right-8:active {
 	right: 2rem;
 }
-.right--8 .hover\:right--8:hover,
+.right--8,
+.hover\:right--8:hover,
 .focus\:right--8:focus,
 .active\:right--8:active {
 	right: -2rem;
 }
-.bottom-8 .hover\:bottom-8:hover,
+.bottom-8,
+.hover\:bottom-8:hover,
 .focus\:bottom-8:focus,
 .active\:bottom-8:active {
 	bottom: 2rem;
 }
-.bottom--8 .hover\:bottom--8:hover,
+.bottom--8,
+.hover\:bottom--8:hover,
 .focus\:bottom--8:focus,
 .active\:bottom--8:active {
 	bottom: -2rem;
 }
-.left-8 .hover\:left-8:hover,
+.left-8,
+.hover\:left-8:hover,
 .focus\:left-8:focus,
 .active\:left-8:active {
 	left: 2rem;
 }
-.left--8 .hover\:left--8:hover,
+.left--8,
+.hover\:left--8:hover,
 .focus\:left--8:focus,
 .active\:left--8:active {
 	left: -2rem;
 }
-.inset-9 .hover\:inset-9:hover,
+.inset-9,
+.hover\:inset-9:hover,
 .focus\:inset-9:focus,
 .active\:inset-9:active {
 	top: 2.25rem;
@@ -1126,7 +1323,8 @@
 	bottom: 2.25rem;
 	left: 2.25rem;
 }
-.inset--9 .hover\:inset--9:hover,
+.inset--9,
+.hover\:inset--9:hover,
 .focus\:inset--9:focus,
 .active\:inset--9:active {
 	top: -2.25rem;
@@ -1134,71 +1332,84 @@
 	bottom: -2.25rem;
 	left: -2.25rem;
 }
-.insetX-9 .hover\:insetX-9:hover,
+.insetX-9,
+.hover\:insetX-9:hover,
 .focus\:insetX-9:focus,
 .active\:insetX-9:active {
 	left: 2.25rem;
 	right: 2.25rem;
 }
-.insetX--9 .hover\:insetX--9:hover,
+.insetX--9,
+.hover\:insetX--9:hover,
 .focus\:insetX--9:focus,
 .active\:insetX--9:active {
 	left: -2.25rem;
 	right: -2.25rem;
 }
-.insetY-9 .hover\:insetY-9:hover,
+.insetY-9,
+.hover\:insetY-9:hover,
 .focus\:insetY-9:focus,
 .active\:insetY-9:active {
 	top: 2.25rem;
 	bottom: 2.25rem;
 }
-.insetY--9 .hover\:insetY--9:hover,
+.insetY--9,
+.hover\:insetY--9:hover,
 .focus\:insetY--9:focus,
 .active\:insetY--9:active {
 	top: -2.25rem;
 	bottom: -2.25rem;
 }
-.top-9 .hover\:top-9:hover,
+.top-9,
+.hover\:top-9:hover,
 .focus\:top-9:focus,
 .active\:top-9:active {
 	top: 2.25rem;
 }
-.top--9 .hover\:top--9:hover,
+.top--9,
+.hover\:top--9:hover,
 .focus\:top--9:focus,
 .active\:top--9:active {
 	top: -2.25rem;
 }
-.right-9 .hover\:right-9:hover,
+.right-9,
+.hover\:right-9:hover,
 .focus\:right-9:focus,
 .active\:right-9:active {
 	right: 2.25rem;
 }
-.right--9 .hover\:right--9:hover,
+.right--9,
+.hover\:right--9:hover,
 .focus\:right--9:focus,
 .active\:right--9:active {
 	right: -2.25rem;
 }
-.bottom-9 .hover\:bottom-9:hover,
+.bottom-9,
+.hover\:bottom-9:hover,
 .focus\:bottom-9:focus,
 .active\:bottom-9:active {
 	bottom: 2.25rem;
 }
-.bottom--9 .hover\:bottom--9:hover,
+.bottom--9,
+.hover\:bottom--9:hover,
 .focus\:bottom--9:focus,
 .active\:bottom--9:active {
 	bottom: -2.25rem;
 }
-.left-9 .hover\:left-9:hover,
+.left-9,
+.hover\:left-9:hover,
 .focus\:left-9:focus,
 .active\:left-9:active {
 	left: 2.25rem;
 }
-.left--9 .hover\:left--9:hover,
+.left--9,
+.hover\:left--9:hover,
 .focus\:left--9:focus,
 .active\:left--9:active {
 	left: -2.25rem;
 }
-.inset-10 .hover\:inset-10:hover,
+.inset-10,
+.hover\:inset-10:hover,
 .focus\:inset-10:focus,
 .active\:inset-10:active {
 	top: 2.5rem;
@@ -1206,7 +1417,8 @@
 	bottom: 2.5rem;
 	left: 2.5rem;
 }
-.inset--10 .hover\:inset--10:hover,
+.inset--10,
+.hover\:inset--10:hover,
 .focus\:inset--10:focus,
 .active\:inset--10:active {
 	top: -2.5rem;
@@ -1214,71 +1426,84 @@
 	bottom: -2.5rem;
 	left: -2.5rem;
 }
-.insetX-10 .hover\:insetX-10:hover,
+.insetX-10,
+.hover\:insetX-10:hover,
 .focus\:insetX-10:focus,
 .active\:insetX-10:active {
 	left: 2.5rem;
 	right: 2.5rem;
 }
-.insetX--10 .hover\:insetX--10:hover,
+.insetX--10,
+.hover\:insetX--10:hover,
 .focus\:insetX--10:focus,
 .active\:insetX--10:active {
 	left: -2.5rem;
 	right: -2.5rem;
 }
-.insetY-10 .hover\:insetY-10:hover,
+.insetY-10,
+.hover\:insetY-10:hover,
 .focus\:insetY-10:focus,
 .active\:insetY-10:active {
 	top: 2.5rem;
 	bottom: 2.5rem;
 }
-.insetY--10 .hover\:insetY--10:hover,
+.insetY--10,
+.hover\:insetY--10:hover,
 .focus\:insetY--10:focus,
 .active\:insetY--10:active {
 	top: -2.5rem;
 	bottom: -2.5rem;
 }
-.top-10 .hover\:top-10:hover,
+.top-10,
+.hover\:top-10:hover,
 .focus\:top-10:focus,
 .active\:top-10:active {
 	top: 2.5rem;
 }
-.top--10 .hover\:top--10:hover,
+.top--10,
+.hover\:top--10:hover,
 .focus\:top--10:focus,
 .active\:top--10:active {
 	top: -2.5rem;
 }
-.right-10 .hover\:right-10:hover,
+.right-10,
+.hover\:right-10:hover,
 .focus\:right-10:focus,
 .active\:right-10:active {
 	right: 2.5rem;
 }
-.right--10 .hover\:right--10:hover,
+.right--10,
+.hover\:right--10:hover,
 .focus\:right--10:focus,
 .active\:right--10:active {
 	right: -2.5rem;
 }
-.bottom-10 .hover\:bottom-10:hover,
+.bottom-10,
+.hover\:bottom-10:hover,
 .focus\:bottom-10:focus,
 .active\:bottom-10:active {
 	bottom: 2.5rem;
 }
-.bottom--10 .hover\:bottom--10:hover,
+.bottom--10,
+.hover\:bottom--10:hover,
 .focus\:bottom--10:focus,
 .active\:bottom--10:active {
 	bottom: -2.5rem;
 }
-.left-10 .hover\:left-10:hover,
+.left-10,
+.hover\:left-10:hover,
 .focus\:left-10:focus,
 .active\:left-10:active {
 	left: 2.5rem;
 }
-.left--10 .hover\:left--10:hover,
+.left--10,
+.hover\:left--10:hover,
 .focus\:left--10:focus,
 .active\:left--10:active {
 	left: -2.5rem;
 }
-.inset-11 .hover\:inset-11:hover,
+.inset-11,
+.hover\:inset-11:hover,
 .focus\:inset-11:focus,
 .active\:inset-11:active {
 	top: 2.75rem;
@@ -1286,7 +1511,8 @@
 	bottom: 2.75rem;
 	left: 2.75rem;
 }
-.inset--11 .hover\:inset--11:hover,
+.inset--11,
+.hover\:inset--11:hover,
 .focus\:inset--11:focus,
 .active\:inset--11:active {
 	top: -2.75rem;
@@ -1294,71 +1520,84 @@
 	bottom: -2.75rem;
 	left: -2.75rem;
 }
-.insetX-11 .hover\:insetX-11:hover,
+.insetX-11,
+.hover\:insetX-11:hover,
 .focus\:insetX-11:focus,
 .active\:insetX-11:active {
 	left: 2.75rem;
 	right: 2.75rem;
 }
-.insetX--11 .hover\:insetX--11:hover,
+.insetX--11,
+.hover\:insetX--11:hover,
 .focus\:insetX--11:focus,
 .active\:insetX--11:active {
 	left: -2.75rem;
 	right: -2.75rem;
 }
-.insetY-11 .hover\:insetY-11:hover,
+.insetY-11,
+.hover\:insetY-11:hover,
 .focus\:insetY-11:focus,
 .active\:insetY-11:active {
 	top: 2.75rem;
 	bottom: 2.75rem;
 }
-.insetY--11 .hover\:insetY--11:hover,
+.insetY--11,
+.hover\:insetY--11:hover,
 .focus\:insetY--11:focus,
 .active\:insetY--11:active {
 	top: -2.75rem;
 	bottom: -2.75rem;
 }
-.top-11 .hover\:top-11:hover,
+.top-11,
+.hover\:top-11:hover,
 .focus\:top-11:focus,
 .active\:top-11:active {
 	top: 2.75rem;
 }
-.top--11 .hover\:top--11:hover,
+.top--11,
+.hover\:top--11:hover,
 .focus\:top--11:focus,
 .active\:top--11:active {
 	top: -2.75rem;
 }
-.right-11 .hover\:right-11:hover,
+.right-11,
+.hover\:right-11:hover,
 .focus\:right-11:focus,
 .active\:right-11:active {
 	right: 2.75rem;
 }
-.right--11 .hover\:right--11:hover,
+.right--11,
+.hover\:right--11:hover,
 .focus\:right--11:focus,
 .active\:right--11:active {
 	right: -2.75rem;
 }
-.bottom-11 .hover\:bottom-11:hover,
+.bottom-11,
+.hover\:bottom-11:hover,
 .focus\:bottom-11:focus,
 .active\:bottom-11:active {
 	bottom: 2.75rem;
 }
-.bottom--11 .hover\:bottom--11:hover,
+.bottom--11,
+.hover\:bottom--11:hover,
 .focus\:bottom--11:focus,
 .active\:bottom--11:active {
 	bottom: -2.75rem;
 }
-.left-11 .hover\:left-11:hover,
+.left-11,
+.hover\:left-11:hover,
 .focus\:left-11:focus,
 .active\:left-11:active {
 	left: 2.75rem;
 }
-.left--11 .hover\:left--11:hover,
+.left--11,
+.hover\:left--11:hover,
 .focus\:left--11:focus,
 .active\:left--11:active {
 	left: -2.75rem;
 }
-.inset-12 .hover\:inset-12:hover,
+.inset-12,
+.hover\:inset-12:hover,
 .focus\:inset-12:focus,
 .active\:inset-12:active {
 	top: 3rem;
@@ -1366,7 +1605,8 @@
 	bottom: 3rem;
 	left: 3rem;
 }
-.inset--12 .hover\:inset--12:hover,
+.inset--12,
+.hover\:inset--12:hover,
 .focus\:inset--12:focus,
 .active\:inset--12:active {
 	top: -3rem;
@@ -1374,71 +1614,84 @@
 	bottom: -3rem;
 	left: -3rem;
 }
-.insetX-12 .hover\:insetX-12:hover,
+.insetX-12,
+.hover\:insetX-12:hover,
 .focus\:insetX-12:focus,
 .active\:insetX-12:active {
 	left: 3rem;
 	right: 3rem;
 }
-.insetX--12 .hover\:insetX--12:hover,
+.insetX--12,
+.hover\:insetX--12:hover,
 .focus\:insetX--12:focus,
 .active\:insetX--12:active {
 	left: -3rem;
 	right: -3rem;
 }
-.insetY-12 .hover\:insetY-12:hover,
+.insetY-12,
+.hover\:insetY-12:hover,
 .focus\:insetY-12:focus,
 .active\:insetY-12:active {
 	top: 3rem;
 	bottom: 3rem;
 }
-.insetY--12 .hover\:insetY--12:hover,
+.insetY--12,
+.hover\:insetY--12:hover,
 .focus\:insetY--12:focus,
 .active\:insetY--12:active {
 	top: -3rem;
 	bottom: -3rem;
 }
-.top-12 .hover\:top-12:hover,
+.top-12,
+.hover\:top-12:hover,
 .focus\:top-12:focus,
 .active\:top-12:active {
 	top: 3rem;
 }
-.top--12 .hover\:top--12:hover,
+.top--12,
+.hover\:top--12:hover,
 .focus\:top--12:focus,
 .active\:top--12:active {
 	top: -3rem;
 }
-.right-12 .hover\:right-12:hover,
+.right-12,
+.hover\:right-12:hover,
 .focus\:right-12:focus,
 .active\:right-12:active {
 	right: 3rem;
 }
-.right--12 .hover\:right--12:hover,
+.right--12,
+.hover\:right--12:hover,
 .focus\:right--12:focus,
 .active\:right--12:active {
 	right: -3rem;
 }
-.bottom-12 .hover\:bottom-12:hover,
+.bottom-12,
+.hover\:bottom-12:hover,
 .focus\:bottom-12:focus,
 .active\:bottom-12:active {
 	bottom: 3rem;
 }
-.bottom--12 .hover\:bottom--12:hover,
+.bottom--12,
+.hover\:bottom--12:hover,
 .focus\:bottom--12:focus,
 .active\:bottom--12:active {
 	bottom: -3rem;
 }
-.left-12 .hover\:left-12:hover,
+.left-12,
+.hover\:left-12:hover,
 .focus\:left-12:focus,
 .active\:left-12:active {
 	left: 3rem;
 }
-.left--12 .hover\:left--12:hover,
+.left--12,
+.hover\:left--12:hover,
 .focus\:left--12:focus,
 .active\:left--12:active {
 	left: -3rem;
 }
-.inset-14 .hover\:inset-14:hover,
+.inset-14,
+.hover\:inset-14:hover,
 .focus\:inset-14:focus,
 .active\:inset-14:active {
 	top: 3.5rem;
@@ -1446,7 +1699,8 @@
 	bottom: 3.5rem;
 	left: 3.5rem;
 }
-.inset--14 .hover\:inset--14:hover,
+.inset--14,
+.hover\:inset--14:hover,
 .focus\:inset--14:focus,
 .active\:inset--14:active {
 	top: -3.5rem;
@@ -1454,71 +1708,84 @@
 	bottom: -3.5rem;
 	left: -3.5rem;
 }
-.insetX-14 .hover\:insetX-14:hover,
+.insetX-14,
+.hover\:insetX-14:hover,
 .focus\:insetX-14:focus,
 .active\:insetX-14:active {
 	left: 3.5rem;
 	right: 3.5rem;
 }
-.insetX--14 .hover\:insetX--14:hover,
+.insetX--14,
+.hover\:insetX--14:hover,
 .focus\:insetX--14:focus,
 .active\:insetX--14:active {
 	left: -3.5rem;
 	right: -3.5rem;
 }
-.insetY-14 .hover\:insetY-14:hover,
+.insetY-14,
+.hover\:insetY-14:hover,
 .focus\:insetY-14:focus,
 .active\:insetY-14:active {
 	top: 3.5rem;
 	bottom: 3.5rem;
 }
-.insetY--14 .hover\:insetY--14:hover,
+.insetY--14,
+.hover\:insetY--14:hover,
 .focus\:insetY--14:focus,
 .active\:insetY--14:active {
 	top: -3.5rem;
 	bottom: -3.5rem;
 }
-.top-14 .hover\:top-14:hover,
+.top-14,
+.hover\:top-14:hover,
 .focus\:top-14:focus,
 .active\:top-14:active {
 	top: 3.5rem;
 }
-.top--14 .hover\:top--14:hover,
+.top--14,
+.hover\:top--14:hover,
 .focus\:top--14:focus,
 .active\:top--14:active {
 	top: -3.5rem;
 }
-.right-14 .hover\:right-14:hover,
+.right-14,
+.hover\:right-14:hover,
 .focus\:right-14:focus,
 .active\:right-14:active {
 	right: 3.5rem;
 }
-.right--14 .hover\:right--14:hover,
+.right--14,
+.hover\:right--14:hover,
 .focus\:right--14:focus,
 .active\:right--14:active {
 	right: -3.5rem;
 }
-.bottom-14 .hover\:bottom-14:hover,
+.bottom-14,
+.hover\:bottom-14:hover,
 .focus\:bottom-14:focus,
 .active\:bottom-14:active {
 	bottom: 3.5rem;
 }
-.bottom--14 .hover\:bottom--14:hover,
+.bottom--14,
+.hover\:bottom--14:hover,
 .focus\:bottom--14:focus,
 .active\:bottom--14:active {
 	bottom: -3.5rem;
 }
-.left-14 .hover\:left-14:hover,
+.left-14,
+.hover\:left-14:hover,
 .focus\:left-14:focus,
 .active\:left-14:active {
 	left: 3.5rem;
 }
-.left--14 .hover\:left--14:hover,
+.left--14,
+.hover\:left--14:hover,
 .focus\:left--14:focus,
 .active\:left--14:active {
 	left: -3.5rem;
 }
-.inset-16 .hover\:inset-16:hover,
+.inset-16,
+.hover\:inset-16:hover,
 .focus\:inset-16:focus,
 .active\:inset-16:active {
 	top: 4rem;
@@ -1526,7 +1793,8 @@
 	bottom: 4rem;
 	left: 4rem;
 }
-.inset--16 .hover\:inset--16:hover,
+.inset--16,
+.hover\:inset--16:hover,
 .focus\:inset--16:focus,
 .active\:inset--16:active {
 	top: -4rem;
@@ -1534,71 +1802,84 @@
 	bottom: -4rem;
 	left: -4rem;
 }
-.insetX-16 .hover\:insetX-16:hover,
+.insetX-16,
+.hover\:insetX-16:hover,
 .focus\:insetX-16:focus,
 .active\:insetX-16:active {
 	left: 4rem;
 	right: 4rem;
 }
-.insetX--16 .hover\:insetX--16:hover,
+.insetX--16,
+.hover\:insetX--16:hover,
 .focus\:insetX--16:focus,
 .active\:insetX--16:active {
 	left: -4rem;
 	right: -4rem;
 }
-.insetY-16 .hover\:insetY-16:hover,
+.insetY-16,
+.hover\:insetY-16:hover,
 .focus\:insetY-16:focus,
 .active\:insetY-16:active {
 	top: 4rem;
 	bottom: 4rem;
 }
-.insetY--16 .hover\:insetY--16:hover,
+.insetY--16,
+.hover\:insetY--16:hover,
 .focus\:insetY--16:focus,
 .active\:insetY--16:active {
 	top: -4rem;
 	bottom: -4rem;
 }
-.top-16 .hover\:top-16:hover,
+.top-16,
+.hover\:top-16:hover,
 .focus\:top-16:focus,
 .active\:top-16:active {
 	top: 4rem;
 }
-.top--16 .hover\:top--16:hover,
+.top--16,
+.hover\:top--16:hover,
 .focus\:top--16:focus,
 .active\:top--16:active {
 	top: -4rem;
 }
-.right-16 .hover\:right-16:hover,
+.right-16,
+.hover\:right-16:hover,
 .focus\:right-16:focus,
 .active\:right-16:active {
 	right: 4rem;
 }
-.right--16 .hover\:right--16:hover,
+.right--16,
+.hover\:right--16:hover,
 .focus\:right--16:focus,
 .active\:right--16:active {
 	right: -4rem;
 }
-.bottom-16 .hover\:bottom-16:hover,
+.bottom-16,
+.hover\:bottom-16:hover,
 .focus\:bottom-16:focus,
 .active\:bottom-16:active {
 	bottom: 4rem;
 }
-.bottom--16 .hover\:bottom--16:hover,
+.bottom--16,
+.hover\:bottom--16:hover,
 .focus\:bottom--16:focus,
 .active\:bottom--16:active {
 	bottom: -4rem;
 }
-.left-16 .hover\:left-16:hover,
+.left-16,
+.hover\:left-16:hover,
 .focus\:left-16:focus,
 .active\:left-16:active {
 	left: 4rem;
 }
-.left--16 .hover\:left--16:hover,
+.left--16,
+.hover\:left--16:hover,
 .focus\:left--16:focus,
 .active\:left--16:active {
 	left: -4rem;
 }
-.inset-20 .hover\:inset-20:hover,
+.inset-20,
+.hover\:inset-20:hover,
 .focus\:inset-20:focus,
 .active\:inset-20:active {
 	top: 5rem;
@@ -1606,7 +1887,8 @@
 	bottom: 5rem;
 	left: 5rem;
 }
-.inset--20 .hover\:inset--20:hover,
+.inset--20,
+.hover\:inset--20:hover,
 .focus\:inset--20:focus,
 .active\:inset--20:active {
 	top: -5rem;
@@ -1614,71 +1896,84 @@
 	bottom: -5rem;
 	left: -5rem;
 }
-.insetX-20 .hover\:insetX-20:hover,
+.insetX-20,
+.hover\:insetX-20:hover,
 .focus\:insetX-20:focus,
 .active\:insetX-20:active {
 	left: 5rem;
 	right: 5rem;
 }
-.insetX--20 .hover\:insetX--20:hover,
+.insetX--20,
+.hover\:insetX--20:hover,
 .focus\:insetX--20:focus,
 .active\:insetX--20:active {
 	left: -5rem;
 	right: -5rem;
 }
-.insetY-20 .hover\:insetY-20:hover,
+.insetY-20,
+.hover\:insetY-20:hover,
 .focus\:insetY-20:focus,
 .active\:insetY-20:active {
 	top: 5rem;
 	bottom: 5rem;
 }
-.insetY--20 .hover\:insetY--20:hover,
+.insetY--20,
+.hover\:insetY--20:hover,
 .focus\:insetY--20:focus,
 .active\:insetY--20:active {
 	top: -5rem;
 	bottom: -5rem;
 }
-.top-20 .hover\:top-20:hover,
+.top-20,
+.hover\:top-20:hover,
 .focus\:top-20:focus,
 .active\:top-20:active {
 	top: 5rem;
 }
-.top--20 .hover\:top--20:hover,
+.top--20,
+.hover\:top--20:hover,
 .focus\:top--20:focus,
 .active\:top--20:active {
 	top: -5rem;
 }
-.right-20 .hover\:right-20:hover,
+.right-20,
+.hover\:right-20:hover,
 .focus\:right-20:focus,
 .active\:right-20:active {
 	right: 5rem;
 }
-.right--20 .hover\:right--20:hover,
+.right--20,
+.hover\:right--20:hover,
 .focus\:right--20:focus,
 .active\:right--20:active {
 	right: -5rem;
 }
-.bottom-20 .hover\:bottom-20:hover,
+.bottom-20,
+.hover\:bottom-20:hover,
 .focus\:bottom-20:focus,
 .active\:bottom-20:active {
 	bottom: 5rem;
 }
-.bottom--20 .hover\:bottom--20:hover,
+.bottom--20,
+.hover\:bottom--20:hover,
 .focus\:bottom--20:focus,
 .active\:bottom--20:active {
 	bottom: -5rem;
 }
-.left-20 .hover\:left-20:hover,
+.left-20,
+.hover\:left-20:hover,
 .focus\:left-20:focus,
 .active\:left-20:active {
 	left: 5rem;
 }
-.left--20 .hover\:left--20:hover,
+.left--20,
+.hover\:left--20:hover,
 .focus\:left--20:focus,
 .active\:left--20:active {
 	left: -5rem;
 }
-.inset-24 .hover\:inset-24:hover,
+.inset-24,
+.hover\:inset-24:hover,
 .focus\:inset-24:focus,
 .active\:inset-24:active {
 	top: 6rem;
@@ -1686,7 +1981,8 @@
 	bottom: 6rem;
 	left: 6rem;
 }
-.inset--24 .hover\:inset--24:hover,
+.inset--24,
+.hover\:inset--24:hover,
 .focus\:inset--24:focus,
 .active\:inset--24:active {
 	top: -6rem;
@@ -1694,71 +1990,84 @@
 	bottom: -6rem;
 	left: -6rem;
 }
-.insetX-24 .hover\:insetX-24:hover,
+.insetX-24,
+.hover\:insetX-24:hover,
 .focus\:insetX-24:focus,
 .active\:insetX-24:active {
 	left: 6rem;
 	right: 6rem;
 }
-.insetX--24 .hover\:insetX--24:hover,
+.insetX--24,
+.hover\:insetX--24:hover,
 .focus\:insetX--24:focus,
 .active\:insetX--24:active {
 	left: -6rem;
 	right: -6rem;
 }
-.insetY-24 .hover\:insetY-24:hover,
+.insetY-24,
+.hover\:insetY-24:hover,
 .focus\:insetY-24:focus,
 .active\:insetY-24:active {
 	top: 6rem;
 	bottom: 6rem;
 }
-.insetY--24 .hover\:insetY--24:hover,
+.insetY--24,
+.hover\:insetY--24:hover,
 .focus\:insetY--24:focus,
 .active\:insetY--24:active {
 	top: -6rem;
 	bottom: -6rem;
 }
-.top-24 .hover\:top-24:hover,
+.top-24,
+.hover\:top-24:hover,
 .focus\:top-24:focus,
 .active\:top-24:active {
 	top: 6rem;
 }
-.top--24 .hover\:top--24:hover,
+.top--24,
+.hover\:top--24:hover,
 .focus\:top--24:focus,
 .active\:top--24:active {
 	top: -6rem;
 }
-.right-24 .hover\:right-24:hover,
+.right-24,
+.hover\:right-24:hover,
 .focus\:right-24:focus,
 .active\:right-24:active {
 	right: 6rem;
 }
-.right--24 .hover\:right--24:hover,
+.right--24,
+.hover\:right--24:hover,
 .focus\:right--24:focus,
 .active\:right--24:active {
 	right: -6rem;
 }
-.bottom-24 .hover\:bottom-24:hover,
+.bottom-24,
+.hover\:bottom-24:hover,
 .focus\:bottom-24:focus,
 .active\:bottom-24:active {
 	bottom: 6rem;
 }
-.bottom--24 .hover\:bottom--24:hover,
+.bottom--24,
+.hover\:bottom--24:hover,
 .focus\:bottom--24:focus,
 .active\:bottom--24:active {
 	bottom: -6rem;
 }
-.left-24 .hover\:left-24:hover,
+.left-24,
+.hover\:left-24:hover,
 .focus\:left-24:focus,
 .active\:left-24:active {
 	left: 6rem;
 }
-.left--24 .hover\:left--24:hover,
+.left--24,
+.hover\:left--24:hover,
 .focus\:left--24:focus,
 .active\:left--24:active {
 	left: -6rem;
 }
-.inset-28 .hover\:inset-28:hover,
+.inset-28,
+.hover\:inset-28:hover,
 .focus\:inset-28:focus,
 .active\:inset-28:active {
 	top: 7rem;
@@ -1766,7 +2075,8 @@
 	bottom: 7rem;
 	left: 7rem;
 }
-.inset--28 .hover\:inset--28:hover,
+.inset--28,
+.hover\:inset--28:hover,
 .focus\:inset--28:focus,
 .active\:inset--28:active {
 	top: -7rem;
@@ -1774,71 +2084,84 @@
 	bottom: -7rem;
 	left: -7rem;
 }
-.insetX-28 .hover\:insetX-28:hover,
+.insetX-28,
+.hover\:insetX-28:hover,
 .focus\:insetX-28:focus,
 .active\:insetX-28:active {
 	left: 7rem;
 	right: 7rem;
 }
-.insetX--28 .hover\:insetX--28:hover,
+.insetX--28,
+.hover\:insetX--28:hover,
 .focus\:insetX--28:focus,
 .active\:insetX--28:active {
 	left: -7rem;
 	right: -7rem;
 }
-.insetY-28 .hover\:insetY-28:hover,
+.insetY-28,
+.hover\:insetY-28:hover,
 .focus\:insetY-28:focus,
 .active\:insetY-28:active {
 	top: 7rem;
 	bottom: 7rem;
 }
-.insetY--28 .hover\:insetY--28:hover,
+.insetY--28,
+.hover\:insetY--28:hover,
 .focus\:insetY--28:focus,
 .active\:insetY--28:active {
 	top: -7rem;
 	bottom: -7rem;
 }
-.top-28 .hover\:top-28:hover,
+.top-28,
+.hover\:top-28:hover,
 .focus\:top-28:focus,
 .active\:top-28:active {
 	top: 7rem;
 }
-.top--28 .hover\:top--28:hover,
+.top--28,
+.hover\:top--28:hover,
 .focus\:top--28:focus,
 .active\:top--28:active {
 	top: -7rem;
 }
-.right-28 .hover\:right-28:hover,
+.right-28,
+.hover\:right-28:hover,
 .focus\:right-28:focus,
 .active\:right-28:active {
 	right: 7rem;
 }
-.right--28 .hover\:right--28:hover,
+.right--28,
+.hover\:right--28:hover,
 .focus\:right--28:focus,
 .active\:right--28:active {
 	right: -7rem;
 }
-.bottom-28 .hover\:bottom-28:hover,
+.bottom-28,
+.hover\:bottom-28:hover,
 .focus\:bottom-28:focus,
 .active\:bottom-28:active {
 	bottom: 7rem;
 }
-.bottom--28 .hover\:bottom--28:hover,
+.bottom--28,
+.hover\:bottom--28:hover,
 .focus\:bottom--28:focus,
 .active\:bottom--28:active {
 	bottom: -7rem;
 }
-.left-28 .hover\:left-28:hover,
+.left-28,
+.hover\:left-28:hover,
 .focus\:left-28:focus,
 .active\:left-28:active {
 	left: 7rem;
 }
-.left--28 .hover\:left--28:hover,
+.left--28,
+.hover\:left--28:hover,
 .focus\:left--28:focus,
 .active\:left--28:active {
 	left: -7rem;
 }
-.inset-32 .hover\:inset-32:hover,
+.inset-32,
+.hover\:inset-32:hover,
 .focus\:inset-32:focus,
 .active\:inset-32:active {
 	top: 8rem;
@@ -1846,7 +2169,8 @@
 	bottom: 8rem;
 	left: 8rem;
 }
-.inset--32 .hover\:inset--32:hover,
+.inset--32,
+.hover\:inset--32:hover,
 .focus\:inset--32:focus,
 .active\:inset--32:active {
 	top: -8rem;
@@ -1854,71 +2178,84 @@
 	bottom: -8rem;
 	left: -8rem;
 }
-.insetX-32 .hover\:insetX-32:hover,
+.insetX-32,
+.hover\:insetX-32:hover,
 .focus\:insetX-32:focus,
 .active\:insetX-32:active {
 	left: 8rem;
 	right: 8rem;
 }
-.insetX--32 .hover\:insetX--32:hover,
+.insetX--32,
+.hover\:insetX--32:hover,
 .focus\:insetX--32:focus,
 .active\:insetX--32:active {
 	left: -8rem;
 	right: -8rem;
 }
-.insetY-32 .hover\:insetY-32:hover,
+.insetY-32,
+.hover\:insetY-32:hover,
 .focus\:insetY-32:focus,
 .active\:insetY-32:active {
 	top: 8rem;
 	bottom: 8rem;
 }
-.insetY--32 .hover\:insetY--32:hover,
+.insetY--32,
+.hover\:insetY--32:hover,
 .focus\:insetY--32:focus,
 .active\:insetY--32:active {
 	top: -8rem;
 	bottom: -8rem;
 }
-.top-32 .hover\:top-32:hover,
+.top-32,
+.hover\:top-32:hover,
 .focus\:top-32:focus,
 .active\:top-32:active {
 	top: 8rem;
 }
-.top--32 .hover\:top--32:hover,
+.top--32,
+.hover\:top--32:hover,
 .focus\:top--32:focus,
 .active\:top--32:active {
 	top: -8rem;
 }
-.right-32 .hover\:right-32:hover,
+.right-32,
+.hover\:right-32:hover,
 .focus\:right-32:focus,
 .active\:right-32:active {
 	right: 8rem;
 }
-.right--32 .hover\:right--32:hover,
+.right--32,
+.hover\:right--32:hover,
 .focus\:right--32:focus,
 .active\:right--32:active {
 	right: -8rem;
 }
-.bottom-32 .hover\:bottom-32:hover,
+.bottom-32,
+.hover\:bottom-32:hover,
 .focus\:bottom-32:focus,
 .active\:bottom-32:active {
 	bottom: 8rem;
 }
-.bottom--32 .hover\:bottom--32:hover,
+.bottom--32,
+.hover\:bottom--32:hover,
 .focus\:bottom--32:focus,
 .active\:bottom--32:active {
 	bottom: -8rem;
 }
-.left-32 .hover\:left-32:hover,
+.left-32,
+.hover\:left-32:hover,
 .focus\:left-32:focus,
 .active\:left-32:active {
 	left: 8rem;
 }
-.left--32 .hover\:left--32:hover,
+.left--32,
+.hover\:left--32:hover,
 .focus\:left--32:focus,
 .active\:left--32:active {
 	left: -8rem;
 }
-.inset-36 .hover\:inset-36:hover,
+.inset-36,
+.hover\:inset-36:hover,
 .focus\:inset-36:focus,
 .active\:inset-36:active {
 	top: 9rem;
@@ -1926,7 +2263,8 @@
 	bottom: 9rem;
 	left: 9rem;
 }
-.inset--36 .hover\:inset--36:hover,
+.inset--36,
+.hover\:inset--36:hover,
 .focus\:inset--36:focus,
 .active\:inset--36:active {
 	top: -9rem;
@@ -1934,71 +2272,84 @@
 	bottom: -9rem;
 	left: -9rem;
 }
-.insetX-36 .hover\:insetX-36:hover,
+.insetX-36,
+.hover\:insetX-36:hover,
 .focus\:insetX-36:focus,
 .active\:insetX-36:active {
 	left: 9rem;
 	right: 9rem;
 }
-.insetX--36 .hover\:insetX--36:hover,
+.insetX--36,
+.hover\:insetX--36:hover,
 .focus\:insetX--36:focus,
 .active\:insetX--36:active {
 	left: -9rem;
 	right: -9rem;
 }
-.insetY-36 .hover\:insetY-36:hover,
+.insetY-36,
+.hover\:insetY-36:hover,
 .focus\:insetY-36:focus,
 .active\:insetY-36:active {
 	top: 9rem;
 	bottom: 9rem;
 }
-.insetY--36 .hover\:insetY--36:hover,
+.insetY--36,
+.hover\:insetY--36:hover,
 .focus\:insetY--36:focus,
 .active\:insetY--36:active {
 	top: -9rem;
 	bottom: -9rem;
 }
-.top-36 .hover\:top-36:hover,
+.top-36,
+.hover\:top-36:hover,
 .focus\:top-36:focus,
 .active\:top-36:active {
 	top: 9rem;
 }
-.top--36 .hover\:top--36:hover,
+.top--36,
+.hover\:top--36:hover,
 .focus\:top--36:focus,
 .active\:top--36:active {
 	top: -9rem;
 }
-.right-36 .hover\:right-36:hover,
+.right-36,
+.hover\:right-36:hover,
 .focus\:right-36:focus,
 .active\:right-36:active {
 	right: 9rem;
 }
-.right--36 .hover\:right--36:hover,
+.right--36,
+.hover\:right--36:hover,
 .focus\:right--36:focus,
 .active\:right--36:active {
 	right: -9rem;
 }
-.bottom-36 .hover\:bottom-36:hover,
+.bottom-36,
+.hover\:bottom-36:hover,
 .focus\:bottom-36:focus,
 .active\:bottom-36:active {
 	bottom: 9rem;
 }
-.bottom--36 .hover\:bottom--36:hover,
+.bottom--36,
+.hover\:bottom--36:hover,
 .focus\:bottom--36:focus,
 .active\:bottom--36:active {
 	bottom: -9rem;
 }
-.left-36 .hover\:left-36:hover,
+.left-36,
+.hover\:left-36:hover,
 .focus\:left-36:focus,
 .active\:left-36:active {
 	left: 9rem;
 }
-.left--36 .hover\:left--36:hover,
+.left--36,
+.hover\:left--36:hover,
 .focus\:left--36:focus,
 .active\:left--36:active {
 	left: -9rem;
 }
-.inset-40 .hover\:inset-40:hover,
+.inset-40,
+.hover\:inset-40:hover,
 .focus\:inset-40:focus,
 .active\:inset-40:active {
 	top: 10rem;
@@ -2006,7 +2357,8 @@
 	bottom: 10rem;
 	left: 10rem;
 }
-.inset--40 .hover\:inset--40:hover,
+.inset--40,
+.hover\:inset--40:hover,
 .focus\:inset--40:focus,
 .active\:inset--40:active {
 	top: -10rem;
@@ -2014,71 +2366,84 @@
 	bottom: -10rem;
 	left: -10rem;
 }
-.insetX-40 .hover\:insetX-40:hover,
+.insetX-40,
+.hover\:insetX-40:hover,
 .focus\:insetX-40:focus,
 .active\:insetX-40:active {
 	left: 10rem;
 	right: 10rem;
 }
-.insetX--40 .hover\:insetX--40:hover,
+.insetX--40,
+.hover\:insetX--40:hover,
 .focus\:insetX--40:focus,
 .active\:insetX--40:active {
 	left: -10rem;
 	right: -10rem;
 }
-.insetY-40 .hover\:insetY-40:hover,
+.insetY-40,
+.hover\:insetY-40:hover,
 .focus\:insetY-40:focus,
 .active\:insetY-40:active {
 	top: 10rem;
 	bottom: 10rem;
 }
-.insetY--40 .hover\:insetY--40:hover,
+.insetY--40,
+.hover\:insetY--40:hover,
 .focus\:insetY--40:focus,
 .active\:insetY--40:active {
 	top: -10rem;
 	bottom: -10rem;
 }
-.top-40 .hover\:top-40:hover,
+.top-40,
+.hover\:top-40:hover,
 .focus\:top-40:focus,
 .active\:top-40:active {
 	top: 10rem;
 }
-.top--40 .hover\:top--40:hover,
+.top--40,
+.hover\:top--40:hover,
 .focus\:top--40:focus,
 .active\:top--40:active {
 	top: -10rem;
 }
-.right-40 .hover\:right-40:hover,
+.right-40,
+.hover\:right-40:hover,
 .focus\:right-40:focus,
 .active\:right-40:active {
 	right: 10rem;
 }
-.right--40 .hover\:right--40:hover,
+.right--40,
+.hover\:right--40:hover,
 .focus\:right--40:focus,
 .active\:right--40:active {
 	right: -10rem;
 }
-.bottom-40 .hover\:bottom-40:hover,
+.bottom-40,
+.hover\:bottom-40:hover,
 .focus\:bottom-40:focus,
 .active\:bottom-40:active {
 	bottom: 10rem;
 }
-.bottom--40 .hover\:bottom--40:hover,
+.bottom--40,
+.hover\:bottom--40:hover,
 .focus\:bottom--40:focus,
 .active\:bottom--40:active {
 	bottom: -10rem;
 }
-.left-40 .hover\:left-40:hover,
+.left-40,
+.hover\:left-40:hover,
 .focus\:left-40:focus,
 .active\:left-40:active {
 	left: 10rem;
 }
-.left--40 .hover\:left--40:hover,
+.left--40,
+.hover\:left--40:hover,
 .focus\:left--40:focus,
 .active\:left--40:active {
 	left: -10rem;
 }
-.inset-44 .hover\:inset-44:hover,
+.inset-44,
+.hover\:inset-44:hover,
 .focus\:inset-44:focus,
 .active\:inset-44:active {
 	top: 11rem;
@@ -2086,7 +2451,8 @@
 	bottom: 11rem;
 	left: 11rem;
 }
-.inset--44 .hover\:inset--44:hover,
+.inset--44,
+.hover\:inset--44:hover,
 .focus\:inset--44:focus,
 .active\:inset--44:active {
 	top: -11rem;
@@ -2094,71 +2460,84 @@
 	bottom: -11rem;
 	left: -11rem;
 }
-.insetX-44 .hover\:insetX-44:hover,
+.insetX-44,
+.hover\:insetX-44:hover,
 .focus\:insetX-44:focus,
 .active\:insetX-44:active {
 	left: 11rem;
 	right: 11rem;
 }
-.insetX--44 .hover\:insetX--44:hover,
+.insetX--44,
+.hover\:insetX--44:hover,
 .focus\:insetX--44:focus,
 .active\:insetX--44:active {
 	left: -11rem;
 	right: -11rem;
 }
-.insetY-44 .hover\:insetY-44:hover,
+.insetY-44,
+.hover\:insetY-44:hover,
 .focus\:insetY-44:focus,
 .active\:insetY-44:active {
 	top: 11rem;
 	bottom: 11rem;
 }
-.insetY--44 .hover\:insetY--44:hover,
+.insetY--44,
+.hover\:insetY--44:hover,
 .focus\:insetY--44:focus,
 .active\:insetY--44:active {
 	top: -11rem;
 	bottom: -11rem;
 }
-.top-44 .hover\:top-44:hover,
+.top-44,
+.hover\:top-44:hover,
 .focus\:top-44:focus,
 .active\:top-44:active {
 	top: 11rem;
 }
-.top--44 .hover\:top--44:hover,
+.top--44,
+.hover\:top--44:hover,
 .focus\:top--44:focus,
 .active\:top--44:active {
 	top: -11rem;
 }
-.right-44 .hover\:right-44:hover,
+.right-44,
+.hover\:right-44:hover,
 .focus\:right-44:focus,
 .active\:right-44:active {
 	right: 11rem;
 }
-.right--44 .hover\:right--44:hover,
+.right--44,
+.hover\:right--44:hover,
 .focus\:right--44:focus,
 .active\:right--44:active {
 	right: -11rem;
 }
-.bottom-44 .hover\:bottom-44:hover,
+.bottom-44,
+.hover\:bottom-44:hover,
 .focus\:bottom-44:focus,
 .active\:bottom-44:active {
 	bottom: 11rem;
 }
-.bottom--44 .hover\:bottom--44:hover,
+.bottom--44,
+.hover\:bottom--44:hover,
 .focus\:bottom--44:focus,
 .active\:bottom--44:active {
 	bottom: -11rem;
 }
-.left-44 .hover\:left-44:hover,
+.left-44,
+.hover\:left-44:hover,
 .focus\:left-44:focus,
 .active\:left-44:active {
 	left: 11rem;
 }
-.left--44 .hover\:left--44:hover,
+.left--44,
+.hover\:left--44:hover,
 .focus\:left--44:focus,
 .active\:left--44:active {
 	left: -11rem;
 }
-.inset-48 .hover\:inset-48:hover,
+.inset-48,
+.hover\:inset-48:hover,
 .focus\:inset-48:focus,
 .active\:inset-48:active {
 	top: 12rem;
@@ -2166,7 +2545,8 @@
 	bottom: 12rem;
 	left: 12rem;
 }
-.inset--48 .hover\:inset--48:hover,
+.inset--48,
+.hover\:inset--48:hover,
 .focus\:inset--48:focus,
 .active\:inset--48:active {
 	top: -12rem;
@@ -2174,71 +2554,84 @@
 	bottom: -12rem;
 	left: -12rem;
 }
-.insetX-48 .hover\:insetX-48:hover,
+.insetX-48,
+.hover\:insetX-48:hover,
 .focus\:insetX-48:focus,
 .active\:insetX-48:active {
 	left: 12rem;
 	right: 12rem;
 }
-.insetX--48 .hover\:insetX--48:hover,
+.insetX--48,
+.hover\:insetX--48:hover,
 .focus\:insetX--48:focus,
 .active\:insetX--48:active {
 	left: -12rem;
 	right: -12rem;
 }
-.insetY-48 .hover\:insetY-48:hover,
+.insetY-48,
+.hover\:insetY-48:hover,
 .focus\:insetY-48:focus,
 .active\:insetY-48:active {
 	top: 12rem;
 	bottom: 12rem;
 }
-.insetY--48 .hover\:insetY--48:hover,
+.insetY--48,
+.hover\:insetY--48:hover,
 .focus\:insetY--48:focus,
 .active\:insetY--48:active {
 	top: -12rem;
 	bottom: -12rem;
 }
-.top-48 .hover\:top-48:hover,
+.top-48,
+.hover\:top-48:hover,
 .focus\:top-48:focus,
 .active\:top-48:active {
 	top: 12rem;
 }
-.top--48 .hover\:top--48:hover,
+.top--48,
+.hover\:top--48:hover,
 .focus\:top--48:focus,
 .active\:top--48:active {
 	top: -12rem;
 }
-.right-48 .hover\:right-48:hover,
+.right-48,
+.hover\:right-48:hover,
 .focus\:right-48:focus,
 .active\:right-48:active {
 	right: 12rem;
 }
-.right--48 .hover\:right--48:hover,
+.right--48,
+.hover\:right--48:hover,
 .focus\:right--48:focus,
 .active\:right--48:active {
 	right: -12rem;
 }
-.bottom-48 .hover\:bottom-48:hover,
+.bottom-48,
+.hover\:bottom-48:hover,
 .focus\:bottom-48:focus,
 .active\:bottom-48:active {
 	bottom: 12rem;
 }
-.bottom--48 .hover\:bottom--48:hover,
+.bottom--48,
+.hover\:bottom--48:hover,
 .focus\:bottom--48:focus,
 .active\:bottom--48:active {
 	bottom: -12rem;
 }
-.left-48 .hover\:left-48:hover,
+.left-48,
+.hover\:left-48:hover,
 .focus\:left-48:focus,
 .active\:left-48:active {
 	left: 12rem;
 }
-.left--48 .hover\:left--48:hover,
+.left--48,
+.hover\:left--48:hover,
 .focus\:left--48:focus,
 .active\:left--48:active {
 	left: -12rem;
 }
-.inset-52 .hover\:inset-52:hover,
+.inset-52,
+.hover\:inset-52:hover,
 .focus\:inset-52:focus,
 .active\:inset-52:active {
 	top: 13rem;
@@ -2246,7 +2639,8 @@
 	bottom: 13rem;
 	left: 13rem;
 }
-.inset--52 .hover\:inset--52:hover,
+.inset--52,
+.hover\:inset--52:hover,
 .focus\:inset--52:focus,
 .active\:inset--52:active {
 	top: -13rem;
@@ -2254,71 +2648,84 @@
 	bottom: -13rem;
 	left: -13rem;
 }
-.insetX-52 .hover\:insetX-52:hover,
+.insetX-52,
+.hover\:insetX-52:hover,
 .focus\:insetX-52:focus,
 .active\:insetX-52:active {
 	left: 13rem;
 	right: 13rem;
 }
-.insetX--52 .hover\:insetX--52:hover,
+.insetX--52,
+.hover\:insetX--52:hover,
 .focus\:insetX--52:focus,
 .active\:insetX--52:active {
 	left: -13rem;
 	right: -13rem;
 }
-.insetY-52 .hover\:insetY-52:hover,
+.insetY-52,
+.hover\:insetY-52:hover,
 .focus\:insetY-52:focus,
 .active\:insetY-52:active {
 	top: 13rem;
 	bottom: 13rem;
 }
-.insetY--52 .hover\:insetY--52:hover,
+.insetY--52,
+.hover\:insetY--52:hover,
 .focus\:insetY--52:focus,
 .active\:insetY--52:active {
 	top: -13rem;
 	bottom: -13rem;
 }
-.top-52 .hover\:top-52:hover,
+.top-52,
+.hover\:top-52:hover,
 .focus\:top-52:focus,
 .active\:top-52:active {
 	top: 13rem;
 }
-.top--52 .hover\:top--52:hover,
+.top--52,
+.hover\:top--52:hover,
 .focus\:top--52:focus,
 .active\:top--52:active {
 	top: -13rem;
 }
-.right-52 .hover\:right-52:hover,
+.right-52,
+.hover\:right-52:hover,
 .focus\:right-52:focus,
 .active\:right-52:active {
 	right: 13rem;
 }
-.right--52 .hover\:right--52:hover,
+.right--52,
+.hover\:right--52:hover,
 .focus\:right--52:focus,
 .active\:right--52:active {
 	right: -13rem;
 }
-.bottom-52 .hover\:bottom-52:hover,
+.bottom-52,
+.hover\:bottom-52:hover,
 .focus\:bottom-52:focus,
 .active\:bottom-52:active {
 	bottom: 13rem;
 }
-.bottom--52 .hover\:bottom--52:hover,
+.bottom--52,
+.hover\:bottom--52:hover,
 .focus\:bottom--52:focus,
 .active\:bottom--52:active {
 	bottom: -13rem;
 }
-.left-52 .hover\:left-52:hover,
+.left-52,
+.hover\:left-52:hover,
 .focus\:left-52:focus,
 .active\:left-52:active {
 	left: 13rem;
 }
-.left--52 .hover\:left--52:hover,
+.left--52,
+.hover\:left--52:hover,
 .focus\:left--52:focus,
 .active\:left--52:active {
 	left: -13rem;
 }
-.inset-56 .hover\:inset-56:hover,
+.inset-56,
+.hover\:inset-56:hover,
 .focus\:inset-56:focus,
 .active\:inset-56:active {
 	top: 14rem;
@@ -2326,7 +2733,8 @@
 	bottom: 14rem;
 	left: 14rem;
 }
-.inset--56 .hover\:inset--56:hover,
+.inset--56,
+.hover\:inset--56:hover,
 .focus\:inset--56:focus,
 .active\:inset--56:active {
 	top: -14rem;
@@ -2334,71 +2742,84 @@
 	bottom: -14rem;
 	left: -14rem;
 }
-.insetX-56 .hover\:insetX-56:hover,
+.insetX-56,
+.hover\:insetX-56:hover,
 .focus\:insetX-56:focus,
 .active\:insetX-56:active {
 	left: 14rem;
 	right: 14rem;
 }
-.insetX--56 .hover\:insetX--56:hover,
+.insetX--56,
+.hover\:insetX--56:hover,
 .focus\:insetX--56:focus,
 .active\:insetX--56:active {
 	left: -14rem;
 	right: -14rem;
 }
-.insetY-56 .hover\:insetY-56:hover,
+.insetY-56,
+.hover\:insetY-56:hover,
 .focus\:insetY-56:focus,
 .active\:insetY-56:active {
 	top: 14rem;
 	bottom: 14rem;
 }
-.insetY--56 .hover\:insetY--56:hover,
+.insetY--56,
+.hover\:insetY--56:hover,
 .focus\:insetY--56:focus,
 .active\:insetY--56:active {
 	top: -14rem;
 	bottom: -14rem;
 }
-.top-56 .hover\:top-56:hover,
+.top-56,
+.hover\:top-56:hover,
 .focus\:top-56:focus,
 .active\:top-56:active {
 	top: 14rem;
 }
-.top--56 .hover\:top--56:hover,
+.top--56,
+.hover\:top--56:hover,
 .focus\:top--56:focus,
 .active\:top--56:active {
 	top: -14rem;
 }
-.right-56 .hover\:right-56:hover,
+.right-56,
+.hover\:right-56:hover,
 .focus\:right-56:focus,
 .active\:right-56:active {
 	right: 14rem;
 }
-.right--56 .hover\:right--56:hover,
+.right--56,
+.hover\:right--56:hover,
 .focus\:right--56:focus,
 .active\:right--56:active {
 	right: -14rem;
 }
-.bottom-56 .hover\:bottom-56:hover,
+.bottom-56,
+.hover\:bottom-56:hover,
 .focus\:bottom-56:focus,
 .active\:bottom-56:active {
 	bottom: 14rem;
 }
-.bottom--56 .hover\:bottom--56:hover,
+.bottom--56,
+.hover\:bottom--56:hover,
 .focus\:bottom--56:focus,
 .active\:bottom--56:active {
 	bottom: -14rem;
 }
-.left-56 .hover\:left-56:hover,
+.left-56,
+.hover\:left-56:hover,
 .focus\:left-56:focus,
 .active\:left-56:active {
 	left: 14rem;
 }
-.left--56 .hover\:left--56:hover,
+.left--56,
+.hover\:left--56:hover,
 .focus\:left--56:focus,
 .active\:left--56:active {
 	left: -14rem;
 }
-.inset-60 .hover\:inset-60:hover,
+.inset-60,
+.hover\:inset-60:hover,
 .focus\:inset-60:focus,
 .active\:inset-60:active {
 	top: 15rem;
@@ -2406,7 +2827,8 @@
 	bottom: 15rem;
 	left: 15rem;
 }
-.inset--60 .hover\:inset--60:hover,
+.inset--60,
+.hover\:inset--60:hover,
 .focus\:inset--60:focus,
 .active\:inset--60:active {
 	top: -15rem;
@@ -2414,71 +2836,84 @@
 	bottom: -15rem;
 	left: -15rem;
 }
-.insetX-60 .hover\:insetX-60:hover,
+.insetX-60,
+.hover\:insetX-60:hover,
 .focus\:insetX-60:focus,
 .active\:insetX-60:active {
 	left: 15rem;
 	right: 15rem;
 }
-.insetX--60 .hover\:insetX--60:hover,
+.insetX--60,
+.hover\:insetX--60:hover,
 .focus\:insetX--60:focus,
 .active\:insetX--60:active {
 	left: -15rem;
 	right: -15rem;
 }
-.insetY-60 .hover\:insetY-60:hover,
+.insetY-60,
+.hover\:insetY-60:hover,
 .focus\:insetY-60:focus,
 .active\:insetY-60:active {
 	top: 15rem;
 	bottom: 15rem;
 }
-.insetY--60 .hover\:insetY--60:hover,
+.insetY--60,
+.hover\:insetY--60:hover,
 .focus\:insetY--60:focus,
 .active\:insetY--60:active {
 	top: -15rem;
 	bottom: -15rem;
 }
-.top-60 .hover\:top-60:hover,
+.top-60,
+.hover\:top-60:hover,
 .focus\:top-60:focus,
 .active\:top-60:active {
 	top: 15rem;
 }
-.top--60 .hover\:top--60:hover,
+.top--60,
+.hover\:top--60:hover,
 .focus\:top--60:focus,
 .active\:top--60:active {
 	top: -15rem;
 }
-.right-60 .hover\:right-60:hover,
+.right-60,
+.hover\:right-60:hover,
 .focus\:right-60:focus,
 .active\:right-60:active {
 	right: 15rem;
 }
-.right--60 .hover\:right--60:hover,
+.right--60,
+.hover\:right--60:hover,
 .focus\:right--60:focus,
 .active\:right--60:active {
 	right: -15rem;
 }
-.bottom-60 .hover\:bottom-60:hover,
+.bottom-60,
+.hover\:bottom-60:hover,
 .focus\:bottom-60:focus,
 .active\:bottom-60:active {
 	bottom: 15rem;
 }
-.bottom--60 .hover\:bottom--60:hover,
+.bottom--60,
+.hover\:bottom--60:hover,
 .focus\:bottom--60:focus,
 .active\:bottom--60:active {
 	bottom: -15rem;
 }
-.left-60 .hover\:left-60:hover,
+.left-60,
+.hover\:left-60:hover,
 .focus\:left-60:focus,
 .active\:left-60:active {
 	left: 15rem;
 }
-.left--60 .hover\:left--60:hover,
+.left--60,
+.hover\:left--60:hover,
 .focus\:left--60:focus,
 .active\:left--60:active {
 	left: -15rem;
 }
-.inset-64 .hover\:inset-64:hover,
+.inset-64,
+.hover\:inset-64:hover,
 .focus\:inset-64:focus,
 .active\:inset-64:active {
 	top: 16rem;
@@ -2486,7 +2921,8 @@
 	bottom: 16rem;
 	left: 16rem;
 }
-.inset--64 .hover\:inset--64:hover,
+.inset--64,
+.hover\:inset--64:hover,
 .focus\:inset--64:focus,
 .active\:inset--64:active {
 	top: -16rem;
@@ -2494,71 +2930,84 @@
 	bottom: -16rem;
 	left: -16rem;
 }
-.insetX-64 .hover\:insetX-64:hover,
+.insetX-64,
+.hover\:insetX-64:hover,
 .focus\:insetX-64:focus,
 .active\:insetX-64:active {
 	left: 16rem;
 	right: 16rem;
 }
-.insetX--64 .hover\:insetX--64:hover,
+.insetX--64,
+.hover\:insetX--64:hover,
 .focus\:insetX--64:focus,
 .active\:insetX--64:active {
 	left: -16rem;
 	right: -16rem;
 }
-.insetY-64 .hover\:insetY-64:hover,
+.insetY-64,
+.hover\:insetY-64:hover,
 .focus\:insetY-64:focus,
 .active\:insetY-64:active {
 	top: 16rem;
 	bottom: 16rem;
 }
-.insetY--64 .hover\:insetY--64:hover,
+.insetY--64,
+.hover\:insetY--64:hover,
 .focus\:insetY--64:focus,
 .active\:insetY--64:active {
 	top: -16rem;
 	bottom: -16rem;
 }
-.top-64 .hover\:top-64:hover,
+.top-64,
+.hover\:top-64:hover,
 .focus\:top-64:focus,
 .active\:top-64:active {
 	top: 16rem;
 }
-.top--64 .hover\:top--64:hover,
+.top--64,
+.hover\:top--64:hover,
 .focus\:top--64:focus,
 .active\:top--64:active {
 	top: -16rem;
 }
-.right-64 .hover\:right-64:hover,
+.right-64,
+.hover\:right-64:hover,
 .focus\:right-64:focus,
 .active\:right-64:active {
 	right: 16rem;
 }
-.right--64 .hover\:right--64:hover,
+.right--64,
+.hover\:right--64:hover,
 .focus\:right--64:focus,
 .active\:right--64:active {
 	right: -16rem;
 }
-.bottom-64 .hover\:bottom-64:hover,
+.bottom-64,
+.hover\:bottom-64:hover,
 .focus\:bottom-64:focus,
 .active\:bottom-64:active {
 	bottom: 16rem;
 }
-.bottom--64 .hover\:bottom--64:hover,
+.bottom--64,
+.hover\:bottom--64:hover,
 .focus\:bottom--64:focus,
 .active\:bottom--64:active {
 	bottom: -16rem;
 }
-.left-64 .hover\:left-64:hover,
+.left-64,
+.hover\:left-64:hover,
 .focus\:left-64:focus,
 .active\:left-64:active {
 	left: 16rem;
 }
-.left--64 .hover\:left--64:hover,
+.left--64,
+.hover\:left--64:hover,
 .focus\:left--64:focus,
 .active\:left--64:active {
 	left: -16rem;
 }
-.inset-72 .hover\:inset-72:hover,
+.inset-72,
+.hover\:inset-72:hover,
 .focus\:inset-72:focus,
 .active\:inset-72:active {
 	top: 18rem;
@@ -2566,7 +3015,8 @@
 	bottom: 18rem;
 	left: 18rem;
 }
-.inset--72 .hover\:inset--72:hover,
+.inset--72,
+.hover\:inset--72:hover,
 .focus\:inset--72:focus,
 .active\:inset--72:active {
 	top: -18rem;
@@ -2574,71 +3024,84 @@
 	bottom: -18rem;
 	left: -18rem;
 }
-.insetX-72 .hover\:insetX-72:hover,
+.insetX-72,
+.hover\:insetX-72:hover,
 .focus\:insetX-72:focus,
 .active\:insetX-72:active {
 	left: 18rem;
 	right: 18rem;
 }
-.insetX--72 .hover\:insetX--72:hover,
+.insetX--72,
+.hover\:insetX--72:hover,
 .focus\:insetX--72:focus,
 .active\:insetX--72:active {
 	left: -18rem;
 	right: -18rem;
 }
-.insetY-72 .hover\:insetY-72:hover,
+.insetY-72,
+.hover\:insetY-72:hover,
 .focus\:insetY-72:focus,
 .active\:insetY-72:active {
 	top: 18rem;
 	bottom: 18rem;
 }
-.insetY--72 .hover\:insetY--72:hover,
+.insetY--72,
+.hover\:insetY--72:hover,
 .focus\:insetY--72:focus,
 .active\:insetY--72:active {
 	top: -18rem;
 	bottom: -18rem;
 }
-.top-72 .hover\:top-72:hover,
+.top-72,
+.hover\:top-72:hover,
 .focus\:top-72:focus,
 .active\:top-72:active {
 	top: 18rem;
 }
-.top--72 .hover\:top--72:hover,
+.top--72,
+.hover\:top--72:hover,
 .focus\:top--72:focus,
 .active\:top--72:active {
 	top: -18rem;
 }
-.right-72 .hover\:right-72:hover,
+.right-72,
+.hover\:right-72:hover,
 .focus\:right-72:focus,
 .active\:right-72:active {
 	right: 18rem;
 }
-.right--72 .hover\:right--72:hover,
+.right--72,
+.hover\:right--72:hover,
 .focus\:right--72:focus,
 .active\:right--72:active {
 	right: -18rem;
 }
-.bottom-72 .hover\:bottom-72:hover,
+.bottom-72,
+.hover\:bottom-72:hover,
 .focus\:bottom-72:focus,
 .active\:bottom-72:active {
 	bottom: 18rem;
 }
-.bottom--72 .hover\:bottom--72:hover,
+.bottom--72,
+.hover\:bottom--72:hover,
 .focus\:bottom--72:focus,
 .active\:bottom--72:active {
 	bottom: -18rem;
 }
-.left-72 .hover\:left-72:hover,
+.left-72,
+.hover\:left-72:hover,
 .focus\:left-72:focus,
 .active\:left-72:active {
 	left: 18rem;
 }
-.left--72 .hover\:left--72:hover,
+.left--72,
+.hover\:left--72:hover,
 .focus\:left--72:focus,
 .active\:left--72:active {
 	left: -18rem;
 }
-.inset-80 .hover\:inset-80:hover,
+.inset-80,
+.hover\:inset-80:hover,
 .focus\:inset-80:focus,
 .active\:inset-80:active {
 	top: 20rem;
@@ -2646,7 +3109,8 @@
 	bottom: 20rem;
 	left: 20rem;
 }
-.inset--80 .hover\:inset--80:hover,
+.inset--80,
+.hover\:inset--80:hover,
 .focus\:inset--80:focus,
 .active\:inset--80:active {
 	top: -20rem;
@@ -2654,71 +3118,84 @@
 	bottom: -20rem;
 	left: -20rem;
 }
-.insetX-80 .hover\:insetX-80:hover,
+.insetX-80,
+.hover\:insetX-80:hover,
 .focus\:insetX-80:focus,
 .active\:insetX-80:active {
 	left: 20rem;
 	right: 20rem;
 }
-.insetX--80 .hover\:insetX--80:hover,
+.insetX--80,
+.hover\:insetX--80:hover,
 .focus\:insetX--80:focus,
 .active\:insetX--80:active {
 	left: -20rem;
 	right: -20rem;
 }
-.insetY-80 .hover\:insetY-80:hover,
+.insetY-80,
+.hover\:insetY-80:hover,
 .focus\:insetY-80:focus,
 .active\:insetY-80:active {
 	top: 20rem;
 	bottom: 20rem;
 }
-.insetY--80 .hover\:insetY--80:hover,
+.insetY--80,
+.hover\:insetY--80:hover,
 .focus\:insetY--80:focus,
 .active\:insetY--80:active {
 	top: -20rem;
 	bottom: -20rem;
 }
-.top-80 .hover\:top-80:hover,
+.top-80,
+.hover\:top-80:hover,
 .focus\:top-80:focus,
 .active\:top-80:active {
 	top: 20rem;
 }
-.top--80 .hover\:top--80:hover,
+.top--80,
+.hover\:top--80:hover,
 .focus\:top--80:focus,
 .active\:top--80:active {
 	top: -20rem;
 }
-.right-80 .hover\:right-80:hover,
+.right-80,
+.hover\:right-80:hover,
 .focus\:right-80:focus,
 .active\:right-80:active {
 	right: 20rem;
 }
-.right--80 .hover\:right--80:hover,
+.right--80,
+.hover\:right--80:hover,
 .focus\:right--80:focus,
 .active\:right--80:active {
 	right: -20rem;
 }
-.bottom-80 .hover\:bottom-80:hover,
+.bottom-80,
+.hover\:bottom-80:hover,
 .focus\:bottom-80:focus,
 .active\:bottom-80:active {
 	bottom: 20rem;
 }
-.bottom--80 .hover\:bottom--80:hover,
+.bottom--80,
+.hover\:bottom--80:hover,
 .focus\:bottom--80:focus,
 .active\:bottom--80:active {
 	bottom: -20rem;
 }
-.left-80 .hover\:left-80:hover,
+.left-80,
+.hover\:left-80:hover,
 .focus\:left-80:focus,
 .active\:left-80:active {
 	left: 20rem;
 }
-.left--80 .hover\:left--80:hover,
+.left--80,
+.hover\:left--80:hover,
 .focus\:left--80:focus,
 .active\:left--80:active {
 	left: -20rem;
 }
-.inset-96 .hover\:inset-96:hover,
+.inset-96,
+.hover\:inset-96:hover,
 .focus\:inset-96:focus,
 .active\:inset-96:active {
 	top: 24rem;
@@ -2726,7 +3203,8 @@
 	bottom: 24rem;
 	left: 24rem;
 }
-.inset--96 .hover\:inset--96:hover,
+.inset--96,
+.hover\:inset--96:hover,
 .focus\:inset--96:focus,
 .active\:inset--96:active {
 	top: -24rem;
@@ -2734,71 +3212,84 @@
 	bottom: -24rem;
 	left: -24rem;
 }
-.insetX-96 .hover\:insetX-96:hover,
+.insetX-96,
+.hover\:insetX-96:hover,
 .focus\:insetX-96:focus,
 .active\:insetX-96:active {
 	left: 24rem;
 	right: 24rem;
 }
-.insetX--96 .hover\:insetX--96:hover,
+.insetX--96,
+.hover\:insetX--96:hover,
 .focus\:insetX--96:focus,
 .active\:insetX--96:active {
 	left: -24rem;
 	right: -24rem;
 }
-.insetY-96 .hover\:insetY-96:hover,
+.insetY-96,
+.hover\:insetY-96:hover,
 .focus\:insetY-96:focus,
 .active\:insetY-96:active {
 	top: 24rem;
 	bottom: 24rem;
 }
-.insetY--96 .hover\:insetY--96:hover,
+.insetY--96,
+.hover\:insetY--96:hover,
 .focus\:insetY--96:focus,
 .active\:insetY--96:active {
 	top: -24rem;
 	bottom: -24rem;
 }
-.top-96 .hover\:top-96:hover,
+.top-96,
+.hover\:top-96:hover,
 .focus\:top-96:focus,
 .active\:top-96:active {
 	top: 24rem;
 }
-.top--96 .hover\:top--96:hover,
+.top--96,
+.hover\:top--96:hover,
 .focus\:top--96:focus,
 .active\:top--96:active {
 	top: -24rem;
 }
-.right-96 .hover\:right-96:hover,
+.right-96,
+.hover\:right-96:hover,
 .focus\:right-96:focus,
 .active\:right-96:active {
 	right: 24rem;
 }
-.right--96 .hover\:right--96:hover,
+.right--96,
+.hover\:right--96:hover,
 .focus\:right--96:focus,
 .active\:right--96:active {
 	right: -24rem;
 }
-.bottom-96 .hover\:bottom-96:hover,
+.bottom-96,
+.hover\:bottom-96:hover,
 .focus\:bottom-96:focus,
 .active\:bottom-96:active {
 	bottom: 24rem;
 }
-.bottom--96 .hover\:bottom--96:hover,
+.bottom--96,
+.hover\:bottom--96:hover,
 .focus\:bottom--96:focus,
 .active\:bottom--96:active {
 	bottom: -24rem;
 }
-.left-96 .hover\:left-96:hover,
+.left-96,
+.hover\:left-96:hover,
 .focus\:left-96:focus,
 .active\:left-96:active {
 	left: 24rem;
 }
-.left--96 .hover\:left--96:hover,
+.left--96,
+.hover\:left--96:hover,
 .focus\:left--96:focus,
 .active\:left--96:active {
 	left: -24rem;
 }
-.inset-auto .hover\:inset-auto:hover,
+.inset-auto,
+.hover\:inset-auto:hover,
 .focus\:inset-auto:focus,
 .active\:inset-auto:active {
 	top: auto;
@@ -2806,7 +3297,8 @@
 	bottom: auto;
 	left: auto;
 }
-.inset-1\/2 .hover\:inset-1\/2:hover,
+.inset-1\/2,
+.hover\:inset-1\/2:hover,
 .focus\:inset-1\/2:focus,
 .active\:inset-1\/2:active {
 	top: 50%;
@@ -2814,7 +3306,8 @@
 	bottom: 50%;
 	left: 50%;
 }
-.inset-1\/3 .hover\:inset-1\/3:hover,
+.inset-1\/3,
+.hover\:inset-1\/3:hover,
 .focus\:inset-1\/3:focus,
 .active\:inset-1\/3:active {
 	top: 33.333333%;
@@ -2822,7 +3315,8 @@
 	bottom: 33.333333%;
 	left: 33.333333%;
 }
-.inset-2\/3 .hover\:inset-2\/3:hover,
+.inset-2\/3,
+.hover\:inset-2\/3:hover,
 .focus\:inset-2\/3:focus,
 .active\:inset-2\/3:active {
 	top: 66.666667%;
@@ -2830,7 +3324,8 @@
 	bottom: 66.666667%;
 	left: 66.666667%;
 }
-.inset-1\/4 .hover\:inset-1\/4:hover,
+.inset-1\/4,
+.hover\:inset-1\/4:hover,
 .focus\:inset-1\/4:focus,
 .active\:inset-1\/4:active {
 	top: 25%;
@@ -2838,7 +3333,8 @@
 	bottom: 25%;
 	left: 25%;
 }
-.inset-2\/4 .hover\:inset-2\/4:hover,
+.inset-2\/4,
+.hover\:inset-2\/4:hover,
 .focus\:inset-2\/4:focus,
 .active\:inset-2\/4:active {
 	top: 50%;
@@ -2846,7 +3342,8 @@
 	bottom: 50%;
 	left: 50%;
 }
-.inset-3\/4 .hover\:inset-3\/4:hover,
+.inset-3\/4,
+.hover\:inset-3\/4:hover,
 .focus\:inset-3\/4:focus,
 .active\:inset-3\/4:active {
 	top: 75%;
@@ -2854,7 +3351,8 @@
 	bottom: 75%;
 	left: 75%;
 }
-.inset-full .hover\:inset-full:hover,
+.inset-full,
+.hover\:inset-full:hover,
 .focus\:inset-full:focus,
 .active\:inset-full:active {
 	top: 100%;
@@ -2862,7 +3360,8 @@
 	bottom: 100%;
 	left: 100%;
 }
-.inset--1\/2 .hover\:inset--1\/2:hover,
+.inset--1\/2,
+.hover\:inset--1\/2:hover,
 .focus\:inset--1\/2:focus,
 .active\:inset--1\/2:active {
 	top: -50%;
@@ -2870,7 +3369,8 @@
 	bottom: -50%;
 	left: -50%;
 }
-.inset--1\/3 .hover\:inset--1\/3:hover,
+.inset--1\/3,
+.hover\:inset--1\/3:hover,
 .focus\:inset--1\/3:focus,
 .active\:inset--1\/3:active {
 	top: -33.333333%;
@@ -2878,7 +3378,8 @@
 	bottom: -33.333333%;
 	left: -33.333333%;
 }
-.inset--2\/3 .hover\:inset--2\/3:hover,
+.inset--2\/3,
+.hover\:inset--2\/3:hover,
 .focus\:inset--2\/3:focus,
 .active\:inset--2\/3:active {
 	top: -66.666667%;
@@ -2886,7 +3387,8 @@
 	bottom: -66.666667%;
 	left: -66.666667%;
 }
-.inset--1\/4 .hover\:inset--1\/4:hover,
+.inset--1\/4,
+.hover\:inset--1\/4:hover,
 .focus\:inset--1\/4:focus,
 .active\:inset--1\/4:active {
 	top: -25%;
@@ -2894,7 +3396,8 @@
 	bottom: -25%;
 	left: -25%;
 }
-.inset--2\/4 .hover\:inset--2\/4:hover,
+.inset--2\/4,
+.hover\:inset--2\/4:hover,
 .focus\:inset--2\/4:focus,
 .active\:inset--2\/4:active {
 	top: -50%;
@@ -2902,7 +3405,8 @@
 	bottom: -50%;
 	left: -50%;
 }
-.inset--3\/4 .hover\:inset--3\/4:hover,
+.inset--3\/4,
+.hover\:inset--3\/4:hover,
 .focus\:inset--3\/4:focus,
 .active\:inset--3\/4:active {
 	top: -75%;
@@ -2910,7 +3414,8 @@
 	bottom: -75%;
 	left: -75%;
 }
-.inset--full .hover\:inset--full:hover,
+.inset--full,
+.hover\:inset--full:hover,
 .focus\:inset--full:focus,
 .active\:inset--full:active {
 	top: -100%;
@@ -2918,482 +3423,572 @@
 	bottom: -100%;
 	left: -100%;
 }
-.insetX-auto .hover\:insetX-auto:hover,
+.insetX-auto,
+.hover\:insetX-auto:hover,
 .focus\:insetX-auto:focus,
 .active\:insetX-auto:active {
 	left: auto;
 	right: auto;
 }
-.insetX-1\/2 .hover\:insetX-1\/2:hover,
+.insetX-1\/2,
+.hover\:insetX-1\/2:hover,
 .focus\:insetX-1\/2:focus,
 .active\:insetX-1\/2:active {
 	left: 50%;
 	right: 50%;
 }
-.insetX-1\/3 .hover\:insetX-1\/3:hover,
+.insetX-1\/3,
+.hover\:insetX-1\/3:hover,
 .focus\:insetX-1\/3:focus,
 .active\:insetX-1\/3:active {
 	left: 33.333333%;
 	right: 33.333333%;
 }
-.insetX-2\/3 .hover\:insetX-2\/3:hover,
+.insetX-2\/3,
+.hover\:insetX-2\/3:hover,
 .focus\:insetX-2\/3:focus,
 .active\:insetX-2\/3:active {
 	left: 66.666667%;
 	right: 66.666667%;
 }
-.insetX-1\/4 .hover\:insetX-1\/4:hover,
+.insetX-1\/4,
+.hover\:insetX-1\/4:hover,
 .focus\:insetX-1\/4:focus,
 .active\:insetX-1\/4:active {
 	left: 25%;
 	right: 25%;
 }
-.insetX-2\/4 .hover\:insetX-2\/4:hover,
+.insetX-2\/4,
+.hover\:insetX-2\/4:hover,
 .focus\:insetX-2\/4:focus,
 .active\:insetX-2\/4:active {
 	left: 50%;
 	right: 50%;
 }
-.insetX-3\/4 .hover\:insetX-3\/4:hover,
+.insetX-3\/4,
+.hover\:insetX-3\/4:hover,
 .focus\:insetX-3\/4:focus,
 .active\:insetX-3\/4:active {
 	left: 75%;
 	right: 75%;
 }
-.insetX-full .hover\:insetX-full:hover,
+.insetX-full,
+.hover\:insetX-full:hover,
 .focus\:insetX-full:focus,
 .active\:insetX-full:active {
 	left: 100%;
 	right: 100%;
 }
-.insetX--1\/2 .hover\:insetX--1\/2:hover,
+.insetX--1\/2,
+.hover\:insetX--1\/2:hover,
 .focus\:insetX--1\/2:focus,
 .active\:insetX--1\/2:active {
 	left: -50%;
 	right: -50%;
 }
-.insetX--1\/3 .hover\:insetX--1\/3:hover,
+.insetX--1\/3,
+.hover\:insetX--1\/3:hover,
 .focus\:insetX--1\/3:focus,
 .active\:insetX--1\/3:active {
 	left: -33.333333%;
 	right: -33.333333%;
 }
-.insetX--2\/3 .hover\:insetX--2\/3:hover,
+.insetX--2\/3,
+.hover\:insetX--2\/3:hover,
 .focus\:insetX--2\/3:focus,
 .active\:insetX--2\/3:active {
 	left: -66.666667%;
 	right: -66.666667%;
 }
-.insetX--1\/4 .hover\:insetX--1\/4:hover,
+.insetX--1\/4,
+.hover\:insetX--1\/4:hover,
 .focus\:insetX--1\/4:focus,
 .active\:insetX--1\/4:active {
 	left: -25%;
 	right: -25%;
 }
-.insetX--2\/4 .hover\:insetX--2\/4:hover,
+.insetX--2\/4,
+.hover\:insetX--2\/4:hover,
 .focus\:insetX--2\/4:focus,
 .active\:insetX--2\/4:active {
 	left: -50%;
 	right: -50%;
 }
-.insetX--3\/4 .hover\:insetX--3\/4:hover,
+.insetX--3\/4,
+.hover\:insetX--3\/4:hover,
 .focus\:insetX--3\/4:focus,
 .active\:insetX--3\/4:active {
 	left: -75%;
 	right: -75%;
 }
-.insetX--full .hover\:insetX--full:hover,
+.insetX--full,
+.hover\:insetX--full:hover,
 .focus\:insetX--full:focus,
 .active\:insetX--full:active {
 	left: -100%;
 	right: -100%;
 }
-.insetY-auto .hover\:insetY-auto:hover,
+.insetY-auto,
+.hover\:insetY-auto:hover,
 .focus\:insetY-auto:focus,
 .active\:insetY-auto:active {
 	top: auto;
 	bottom: auto;
 }
-.insetY-1\/2 .hover\:insetY-1\/2:hover,
+.insetY-1\/2,
+.hover\:insetY-1\/2:hover,
 .focus\:insetY-1\/2:focus,
 .active\:insetY-1\/2:active {
 	top: 50%;
 	bottom: 50%;
 }
-.insetY-1\/3 .hover\:insetY-1\/3:hover,
+.insetY-1\/3,
+.hover\:insetY-1\/3:hover,
 .focus\:insetY-1\/3:focus,
 .active\:insetY-1\/3:active {
 	top: 33.333333%;
 	bottom: 33.333333%;
 }
-.insetY-2\/3 .hover\:insetY-2\/3:hover,
+.insetY-2\/3,
+.hover\:insetY-2\/3:hover,
 .focus\:insetY-2\/3:focus,
 .active\:insetY-2\/3:active {
 	top: 66.666667%;
 	bottom: 66.666667%;
 }
-.insetY-1\/4 .hover\:insetY-1\/4:hover,
+.insetY-1\/4,
+.hover\:insetY-1\/4:hover,
 .focus\:insetY-1\/4:focus,
 .active\:insetY-1\/4:active {
 	top: 25%;
 	bottom: 25%;
 }
-.insetY-2\/4 .hover\:insetY-2\/4:hover,
+.insetY-2\/4,
+.hover\:insetY-2\/4:hover,
 .focus\:insetY-2\/4:focus,
 .active\:insetY-2\/4:active {
 	top: 50%;
 	bottom: 50%;
 }
-.insetY-3\/4 .hover\:insetY-3\/4:hover,
+.insetY-3\/4,
+.hover\:insetY-3\/4:hover,
 .focus\:insetY-3\/4:focus,
 .active\:insetY-3\/4:active {
 	top: 75%;
 	bottom: 75%;
 }
-.insetY-full .hover\:insetY-full:hover,
+.insetY-full,
+.hover\:insetY-full:hover,
 .focus\:insetY-full:focus,
 .active\:insetY-full:active {
 	top: 100%;
 	bottom: 100%;
 }
-.insetY--1\/2 .hover\:insetY--1\/2:hover,
+.insetY--1\/2,
+.hover\:insetY--1\/2:hover,
 .focus\:insetY--1\/2:focus,
 .active\:insetY--1\/2:active {
 	top: -50%;
 	bottom: -50%;
 }
-.insetY--1\/3 .hover\:insetY--1\/3:hover,
+.insetY--1\/3,
+.hover\:insetY--1\/3:hover,
 .focus\:insetY--1\/3:focus,
 .active\:insetY--1\/3:active {
 	top: -33.333333%;
 	bottom: -33.333333%;
 }
-.insetY--2\/3 .hover\:insetY--2\/3:hover,
+.insetY--2\/3,
+.hover\:insetY--2\/3:hover,
 .focus\:insetY--2\/3:focus,
 .active\:insetY--2\/3:active {
 	top: -66.666667%;
 	bottom: -66.666667%;
 }
-.insetY--1\/4 .hover\:insetY--1\/4:hover,
+.insetY--1\/4,
+.hover\:insetY--1\/4:hover,
 .focus\:insetY--1\/4:focus,
 .active\:insetY--1\/4:active {
 	top: -25%;
 	bottom: -25%;
 }
-.insetY--2\/4 .hover\:insetY--2\/4:hover,
+.insetY--2\/4,
+.hover\:insetY--2\/4:hover,
 .focus\:insetY--2\/4:focus,
 .active\:insetY--2\/4:active {
 	top: -50%;
 	bottom: -50%;
 }
-.insetY--3\/4 .hover\:insetY--3\/4:hover,
+.insetY--3\/4,
+.hover\:insetY--3\/4:hover,
 .focus\:insetY--3\/4:focus,
 .active\:insetY--3\/4:active {
 	top: -75%;
 	bottom: -75%;
 }
-.insetY--full .hover\:insetY--full:hover,
+.insetY--full,
+.hover\:insetY--full:hover,
 .focus\:insetY--full:focus,
 .active\:insetY--full:active {
 	top: -100%;
 	bottom: -100%;
 }
-.top-auto .hover\:top-auto:hover,
+.top-auto,
+.hover\:top-auto:hover,
 .focus\:top-auto:focus,
 .active\:top-auto:active {
 	top: auto;
 }
-.top-1\/2 .hover\:top-1\/2:hover,
+.top-1\/2,
+.hover\:top-1\/2:hover,
 .focus\:top-1\/2:focus,
 .active\:top-1\/2:active {
 	top: 50%;
 }
-.top-1\/3 .hover\:top-1\/3:hover,
+.top-1\/3,
+.hover\:top-1\/3:hover,
 .focus\:top-1\/3:focus,
 .active\:top-1\/3:active {
 	top: 33.333333%;
 }
-.top-2\/3 .hover\:top-2\/3:hover,
+.top-2\/3,
+.hover\:top-2\/3:hover,
 .focus\:top-2\/3:focus,
 .active\:top-2\/3:active {
 	top: 66.666667%;
 }
-.top-1\/4 .hover\:top-1\/4:hover,
+.top-1\/4,
+.hover\:top-1\/4:hover,
 .focus\:top-1\/4:focus,
 .active\:top-1\/4:active {
 	top: 25%;
 }
-.top-2\/4 .hover\:top-2\/4:hover,
+.top-2\/4,
+.hover\:top-2\/4:hover,
 .focus\:top-2\/4:focus,
 .active\:top-2\/4:active {
 	top: 50%;
 }
-.top-3\/4 .hover\:top-3\/4:hover,
+.top-3\/4,
+.hover\:top-3\/4:hover,
 .focus\:top-3\/4:focus,
 .active\:top-3\/4:active {
 	top: 75%;
 }
-.top-full .hover\:top-full:hover,
+.top-full,
+.hover\:top-full:hover,
 .focus\:top-full:focus,
 .active\:top-full:active {
 	top: 100%;
 }
-.top--1\/2 .hover\:top--1\/2:hover,
+.top--1\/2,
+.hover\:top--1\/2:hover,
 .focus\:top--1\/2:focus,
 .active\:top--1\/2:active {
 	top: -50%;
 }
-.top--1\/3 .hover\:top--1\/3:hover,
+.top--1\/3,
+.hover\:top--1\/3:hover,
 .focus\:top--1\/3:focus,
 .active\:top--1\/3:active {
 	top: -33.333333%;
 }
-.top--2\/3 .hover\:top--2\/3:hover,
+.top--2\/3,
+.hover\:top--2\/3:hover,
 .focus\:top--2\/3:focus,
 .active\:top--2\/3:active {
 	top: -66.666667%;
 }
-.top--1\/4 .hover\:top--1\/4:hover,
+.top--1\/4,
+.hover\:top--1\/4:hover,
 .focus\:top--1\/4:focus,
 .active\:top--1\/4:active {
 	top: -25%;
 }
-.top--2\/4 .hover\:top--2\/4:hover,
+.top--2\/4,
+.hover\:top--2\/4:hover,
 .focus\:top--2\/4:focus,
 .active\:top--2\/4:active {
 	top: -50%;
 }
-.top--3\/4 .hover\:top--3\/4:hover,
+.top--3\/4,
+.hover\:top--3\/4:hover,
 .focus\:top--3\/4:focus,
 .active\:top--3\/4:active {
 	top: -75%;
 }
-.top--full .hover\:top--full:hover,
+.top--full,
+.hover\:top--full:hover,
 .focus\:top--full:focus,
 .active\:top--full:active {
 	top: -100%;
 }
-.right-auto .hover\:right-auto:hover,
+.right-auto,
+.hover\:right-auto:hover,
 .focus\:right-auto:focus,
 .active\:right-auto:active {
 	right: auto;
 }
-.right-1\/2 .hover\:right-1\/2:hover,
+.right-1\/2,
+.hover\:right-1\/2:hover,
 .focus\:right-1\/2:focus,
 .active\:right-1\/2:active {
 	right: 50%;
 }
-.right-1\/3 .hover\:right-1\/3:hover,
+.right-1\/3,
+.hover\:right-1\/3:hover,
 .focus\:right-1\/3:focus,
 .active\:right-1\/3:active {
 	right: 33.333333%;
 }
-.right-2\/3 .hover\:right-2\/3:hover,
+.right-2\/3,
+.hover\:right-2\/3:hover,
 .focus\:right-2\/3:focus,
 .active\:right-2\/3:active {
 	right: 66.666667%;
 }
-.right-1\/4 .hover\:right-1\/4:hover,
+.right-1\/4,
+.hover\:right-1\/4:hover,
 .focus\:right-1\/4:focus,
 .active\:right-1\/4:active {
 	right: 25%;
 }
-.right-2\/4 .hover\:right-2\/4:hover,
+.right-2\/4,
+.hover\:right-2\/4:hover,
 .focus\:right-2\/4:focus,
 .active\:right-2\/4:active {
 	right: 50%;
 }
-.right-3\/4 .hover\:right-3\/4:hover,
+.right-3\/4,
+.hover\:right-3\/4:hover,
 .focus\:right-3\/4:focus,
 .active\:right-3\/4:active {
 	right: 75%;
 }
-.right-full .hover\:right-full:hover,
+.right-full,
+.hover\:right-full:hover,
 .focus\:right-full:focus,
 .active\:right-full:active {
 	right: 100%;
 }
-.right--1\/2 .hover\:right--1\/2:hover,
+.right--1\/2,
+.hover\:right--1\/2:hover,
 .focus\:right--1\/2:focus,
 .active\:right--1\/2:active {
 	right: -50%;
 }
-.right--1\/3 .hover\:right--1\/3:hover,
+.right--1\/3,
+.hover\:right--1\/3:hover,
 .focus\:right--1\/3:focus,
 .active\:right--1\/3:active {
 	right: -33.333333%;
 }
-.right--2\/3 .hover\:right--2\/3:hover,
+.right--2\/3,
+.hover\:right--2\/3:hover,
 .focus\:right--2\/3:focus,
 .active\:right--2\/3:active {
 	right: -66.666667%;
 }
-.right--1\/4 .hover\:right--1\/4:hover,
+.right--1\/4,
+.hover\:right--1\/4:hover,
 .focus\:right--1\/4:focus,
 .active\:right--1\/4:active {
 	right: -25%;
 }
-.right--2\/4 .hover\:right--2\/4:hover,
+.right--2\/4,
+.hover\:right--2\/4:hover,
 .focus\:right--2\/4:focus,
 .active\:right--2\/4:active {
 	right: -50%;
 }
-.right--3\/4 .hover\:right--3\/4:hover,
+.right--3\/4,
+.hover\:right--3\/4:hover,
 .focus\:right--3\/4:focus,
 .active\:right--3\/4:active {
 	right: -75%;
 }
-.right--full .hover\:right--full:hover,
+.right--full,
+.hover\:right--full:hover,
 .focus\:right--full:focus,
 .active\:right--full:active {
 	right: -100%;
 }
-.bottom-auto .hover\:bottom-auto:hover,
+.bottom-auto,
+.hover\:bottom-auto:hover,
 .focus\:bottom-auto:focus,
 .active\:bottom-auto:active {
 	bottom: auto;
 }
-.bottom-1\/2 .hover\:bottom-1\/2:hover,
+.bottom-1\/2,
+.hover\:bottom-1\/2:hover,
 .focus\:bottom-1\/2:focus,
 .active\:bottom-1\/2:active {
 	bottom: 50%;
 }
-.bottom-1\/3 .hover\:bottom-1\/3:hover,
+.bottom-1\/3,
+.hover\:bottom-1\/3:hover,
 .focus\:bottom-1\/3:focus,
 .active\:bottom-1\/3:active {
 	bottom: 33.333333%;
 }
-.bottom-2\/3 .hover\:bottom-2\/3:hover,
+.bottom-2\/3,
+.hover\:bottom-2\/3:hover,
 .focus\:bottom-2\/3:focus,
 .active\:bottom-2\/3:active {
 	bottom: 66.666667%;
 }
-.bottom-1\/4 .hover\:bottom-1\/4:hover,
+.bottom-1\/4,
+.hover\:bottom-1\/4:hover,
 .focus\:bottom-1\/4:focus,
 .active\:bottom-1\/4:active {
 	bottom: 25%;
 }
-.bottom-2\/4 .hover\:bottom-2\/4:hover,
+.bottom-2\/4,
+.hover\:bottom-2\/4:hover,
 .focus\:bottom-2\/4:focus,
 .active\:bottom-2\/4:active {
 	bottom: 50%;
 }
-.bottom-3\/4 .hover\:bottom-3\/4:hover,
+.bottom-3\/4,
+.hover\:bottom-3\/4:hover,
 .focus\:bottom-3\/4:focus,
 .active\:bottom-3\/4:active {
 	bottom: 75%;
 }
-.bottom-full .hover\:bottom-full:hover,
+.bottom-full,
+.hover\:bottom-full:hover,
 .focus\:bottom-full:focus,
 .active\:bottom-full:active {
 	bottom: 100%;
 }
-.bottom--1\/2 .hover\:bottom--1\/2:hover,
+.bottom--1\/2,
+.hover\:bottom--1\/2:hover,
 .focus\:bottom--1\/2:focus,
 .active\:bottom--1\/2:active {
 	bottom: -50%;
 }
-.bottom--1\/3 .hover\:bottom--1\/3:hover,
+.bottom--1\/3,
+.hover\:bottom--1\/3:hover,
 .focus\:bottom--1\/3:focus,
 .active\:bottom--1\/3:active {
 	bottom: -33.333333%;
 }
-.bottom--2\/3 .hover\:bottom--2\/3:hover,
+.bottom--2\/3,
+.hover\:bottom--2\/3:hover,
 .focus\:bottom--2\/3:focus,
 .active\:bottom--2\/3:active {
 	bottom: -66.666667%;
 }
-.bottom--1\/4 .hover\:bottom--1\/4:hover,
+.bottom--1\/4,
+.hover\:bottom--1\/4:hover,
 .focus\:bottom--1\/4:focus,
 .active\:bottom--1\/4:active {
 	bottom: -25%;
 }
-.bottom--2\/4 .hover\:bottom--2\/4:hover,
+.bottom--2\/4,
+.hover\:bottom--2\/4:hover,
 .focus\:bottom--2\/4:focus,
 .active\:bottom--2\/4:active {
 	bottom: -50%;
 }
-.bottom--3\/4 .hover\:bottom--3\/4:hover,
+.bottom--3\/4,
+.hover\:bottom--3\/4:hover,
 .focus\:bottom--3\/4:focus,
 .active\:bottom--3\/4:active {
 	bottom: -75%;
 }
-.bottom--full .hover\:bottom--full:hover,
+.bottom--full,
+.hover\:bottom--full:hover,
 .focus\:bottom--full:focus,
 .active\:bottom--full:active {
 	bottom: -100%;
 }
-.left-auto .hover\:left-auto:hover,
+.left-auto,
+.hover\:left-auto:hover,
 .focus\:left-auto:focus,
 .active\:left-auto:active {
 	left: auto;
 }
-.left-1\/2 .hover\:left-1\/2:hover,
+.left-1\/2,
+.hover\:left-1\/2:hover,
 .focus\:left-1\/2:focus,
 .active\:left-1\/2:active {
 	left: 50%;
 }
-.left-1\/3 .hover\:left-1\/3:hover,
+.left-1\/3,
+.hover\:left-1\/3:hover,
 .focus\:left-1\/3:focus,
 .active\:left-1\/3:active {
 	left: 33.333333%;
 }
-.left-2\/3 .hover\:left-2\/3:hover,
+.left-2\/3,
+.hover\:left-2\/3:hover,
 .focus\:left-2\/3:focus,
 .active\:left-2\/3:active {
 	left: 66.666667%;
 }
-.left-1\/4 .hover\:left-1\/4:hover,
+.left-1\/4,
+.hover\:left-1\/4:hover,
 .focus\:left-1\/4:focus,
 .active\:left-1\/4:active {
 	left: 25%;
 }
-.left-2\/4 .hover\:left-2\/4:hover,
+.left-2\/4,
+.hover\:left-2\/4:hover,
 .focus\:left-2\/4:focus,
 .active\:left-2\/4:active {
 	left: 50%;
 }
-.left-3\/4 .hover\:left-3\/4:hover,
+.left-3\/4,
+.hover\:left-3\/4:hover,
 .focus\:left-3\/4:focus,
 .active\:left-3\/4:active {
 	left: 75%;
 }
-.left-full .hover\:left-full:hover,
+.left-full,
+.hover\:left-full:hover,
 .focus\:left-full:focus,
 .active\:left-full:active {
 	left: 100%;
 }
-.left--1\/2 .hover\:left--1\/2:hover,
+.left--1\/2,
+.hover\:left--1\/2:hover,
 .focus\:left--1\/2:focus,
 .active\:left--1\/2:active {
 	left: -50%;
 }
-.left--1\/3 .hover\:left--1\/3:hover,
+.left--1\/3,
+.hover\:left--1\/3:hover,
 .focus\:left--1\/3:focus,
 .active\:left--1\/3:active {
 	left: -33.333333%;
 }
-.left--2\/3 .hover\:left--2\/3:hover,
+.left--2\/3,
+.hover\:left--2\/3:hover,
 .focus\:left--2\/3:focus,
 .active\:left--2\/3:active {
 	left: -66.666667%;
 }
-.left--1\/4 .hover\:left--1\/4:hover,
+.left--1\/4,
+.hover\:left--1\/4:hover,
 .focus\:left--1\/4:focus,
 .active\:left--1\/4:active {
 	left: -25%;
 }
-.left--2\/4 .hover\:left--2\/4:hover,
+.left--2\/4,
+.hover\:left--2\/4:hover,
 .focus\:left--2\/4:focus,
 .active\:left--2\/4:active {
 	left: -50%;
 }
-.left--3\/4 .hover\:left--3\/4:hover,
+.left--3\/4,
+.hover\:left--3\/4:hover,
 .focus\:left--3\/4:focus,
 .active\:left--3\/4:active {
 	left: -75%;
 }
-.left--full .hover\:left--full:hover,
+.left--full,
+.hover\:left--full:hover,
 .focus\:left--full:focus,
 .active\:left--full:active {
 	left: -100%;
