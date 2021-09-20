@@ -1,6 +1,6 @@
 import { Component, JSX, PropsWithChildren } from "solid-js";
 import MainProps from "../../props";
-import { mapPropsToTw } from "../../props/Global";
+import { mapPropsToCss, parseDefaultProps } from "../../props/Global";
 
 export interface HStackProps
 	extends MainProps<JSX.HTMLAttributes<HTMLDivElement>> {}
@@ -8,11 +8,11 @@ export interface HStackProps
 export const HStack: Component<HStackProps> = (props) => {
 	const defaultProps: PropsWithChildren<HStackProps> = {
 		display: "flex",
+		flexDirection: "row",
 	};
-	(Object.keys(props) as Array<keyof HStackProps>).forEach((prop) => {
-		(defaultProps as any)[prop] = props[prop];
-	});
-	const tw = mapPropsToTw<PropsWithChildren<HStackProps>>(defaultProps);
+	const mergedProps = parseDefaultProps<HStackProps>(props, defaultProps);
+
+	const tw = mapPropsToCss<PropsWithChildren<HStackProps>>(mergedProps);
 
 	return (
 		<div {...props} class={tw}>
