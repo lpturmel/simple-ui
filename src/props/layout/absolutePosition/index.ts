@@ -1,11 +1,11 @@
 export interface AbsolutePositionProps {
-	right: absolutePositionValues;
-	top: absolutePositionValues;
-	left: absolutePositionValues;
-	bottom: absolutePositionValues;
-	inset: absolutePositionValues;
-	insetX: absolutePositionValues;
-	insetY: absolutePositionValues;
+	right?: absolutePositionValues;
+	top?: absolutePositionValues;
+	left?: absolutePositionValues;
+	bottom?: absolutePositionValues;
+	inset?: absolutePositionValues;
+	insetX?: absolutePositionValues;
+	insetY?: absolutePositionValues;
 }
 
 export type absolutePositionValues =
