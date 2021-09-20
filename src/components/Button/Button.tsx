@@ -1,6 +1,6 @@
 import { Component, JSX, PropsWithChildren } from "solid-js";
 import MainProps from "../../props";
-import { mapPropsToTw } from "../../props/Global";
+import { mapPropsToCss, parseDefaultProps } from "../../props/Global";
 
 export interface ButtonProps
 	extends MainProps<JSX.ButtonHTMLAttributes<HTMLButtonElement>> {}
@@ -14,11 +14,10 @@ export const Button: Component<ButtonProps> = (props) => {
 		fontWeight: "semibold",
 		color: "white",
 	};
-	(Object.keys(props) as Array<keyof ButtonProps>).forEach((prop) => {
-		(defaultProps as any)[prop] = props[prop];
-	});
 
-	const tw = mapPropsToTw<PropsWithChildren<ButtonProps>>(defaultProps);
+	const mergedProps = parseDefaultProps<ButtonProps>(props, defaultProps);
+
+	const tw = mapPropsToCss<PropsWithChildren<ButtonProps>>(mergedProps);
 
 	return (
 		<button {...props} class={tw}>
