@@ -1,13 +1,19 @@
+import { PropsWithChildren } from "solid-js";
 import { parseStateProps } from "./states";
 
-export function mapPropsToTw<T>(props: T) {
+/**
+ * Maps the received properties to Simple-UI CSS classes
+ * @param props
+ * @returns
+ */
+export function mapPropsToCss<T>(props: T) {
 	// This type annotation is to have the proper types returned from Object.keys(x)
 	// By design it returns a string[]
 	let classString = "";
 
 	(Object.keys(props) as Array<keyof T>).forEach((prop) => {
 		if (typeof props[prop] === "object") {
-			const stateProps = mapPropsToTw(props[prop]);
+			const stateProps = mapPropsToCss(props[prop]);
 
 			classString += parseStateProps(
 				stateProps,
@@ -19,7 +25,27 @@ export function mapPropsToTw<T>(props: T) {
 	});
 	return classString;
 }
+/**
+ * Add received props to the configured default props
+ * @param props
+ * @param defaultProps
+ * @returns
+ */
+export function parseDefaultProps<T>(
+	props: T,
+	defaultProps: PropsWithChildren<T>
+) {
+	const parsedProps: T = { ...props };
+	(Object.keys(defaultProps) as Array<keyof T>).forEach(
+		(prop) => ((parsedProps as any)[prop] = defaultProps[prop])
+	);
 
+	return parsedProps;
+}
+
+/**
+ * Describe the basic rem values
+ */
 export type SimpleRemValues =
 	| 0
 	| 0.5
@@ -56,6 +82,9 @@ export type SimpleRemValues =
 	| 80
 	| 96;
 
+/**
+ * Describe the basic color values
+ */
 export type SimpleColorValues =
 	| "black"
 	| "white"
