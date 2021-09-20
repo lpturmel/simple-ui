@@ -2,7 +2,8 @@
 .hover\:bg-black:hover,
 .active\:bg-black:active,
 .focus\:bg-black:focus,
-.backgroundColor-black .hover\:backgroundColor-black:hover,
+.backgroundColor-black .hover,
+\:backgroundColor-black:hover,
 .active\:backgroundColor-black:active,
 .focus\:backgroundColor-black:focus {
 	background-color: var(--simple-colors-black);
@@ -11,7 +12,8 @@
 .hover\:bg-blue-50:hover,
 .active\:bg-blue-50:active,
 .focus\:bg-blue-50:focus,
-.backgroundColor-blue-50 .hover\:backgroundColor-blue-50:hover,
+.backgroundColor-blue-50,
+.hover\:backgroundColor-blue-50:hover,
 .active\:backgroundColor-blue-50:active,
 .focus\:backgroundColor-blue-50:focus {
 	background-color: var(--simple-colors-blue-50);
@@ -20,7 +22,8 @@
 .hover\:bg-blue-100:hover,
 .active\:bg-blue-100:active,
 .focus\:bg-blue-100:focus,
-.backgroundColor-blue-100 .hover\:backgroundColor-blue-100:hover,
+.backgroundColor-blue-100,
+.hover\:backgroundColor-blue-100:hover,
 .active\:backgroundColor-blue-100:active,
 .focus\:backgroundColor-blue-100:focus {
 	background-color: var(--simple-colors-blue-100);
@@ -29,7 +32,8 @@
 .hover\:bg-blue-200:hover,
 .active\:bg-blue-200:active,
 .focus\:bg-blue-200:focus,
-.backgroundColor-blue-200 .hover\:backgroundColor-blue-200:hover,
+.backgroundColor-blue-200,
+.hover\:backgroundColor-blue-200:hover,
 .active\:backgroundColor-blue-200:active,
 .focus\:backgroundColor-blue-200:focus {
 	background-color: var(--simple-colors-blue-200);
@@ -38,7 +42,8 @@
 .hover\:bg-blue-300:hover,
 .active\:bg-blue-300:active,
 .focus\:bg-blue-300:focus,
-.backgroundColor-blue-300 .hover\:backgroundColor-blue-300:hover,
+.backgroundColor-blue-300,
+.hover\:backgroundColor-blue-300:hover,
 .active\:backgroundColor-blue-300:active,
 .focus\:backgroundColor-blue-300:focus {
 	background-color: var(--simple-colors-blue-300);
@@ -47,7 +52,8 @@
 .hover\:bg-blue-400:hover,
 .active\:bg-blue-400:active,
 .focus\:bg-blue-400:focus,
-.backgroundColor-blue-400 .hover\:backgroundColor-blue-400:hover,
+.backgroundColor-blue-400,
+.hover\:backgroundColor-blue-400:hover,
 .active\:backgroundColor-blue-400:active,
 .focus\:backgroundColor-blue-400:focus {
 	background-color: var(--simple-colors-blue-400);
@@ -56,7 +62,8 @@
 .hover\:bg-blue-500:hover,
 .active\:bg-blue-500:active,
 .focus\:bg-blue-500:focus,
-.backgroundColor-blue-500 .hover\:backgroundColor-blue-500:hover,
+.backgroundColor-blue-500,
+.hover\:backgroundColor-blue-500:hover,
 .active\:backgroundColor-blue-500:active,
 .focus\:backgroundColor-blue-500:focus {
 	background-color: var(--simple-colors-blue-500);
@@ -65,7 +72,8 @@
 .hover\:bg-blue-600:hover,
 .active\:bg-blue-600:active,
 .focus\:bg-blue-600:focus,
-.backgroundColor-blue-600 .hover\:backgroundColor-blue-600:hover,
+.backgroundColor-blue-600,
+.hover\:backgroundColor-blue-600:hover,
 .active\:backgroundColor-blue-600:active,
 .focus\:backgroundColor-blue-600:focus {
 	background-color: var(--simple-colors-blue-600);
@@ -74,7 +82,8 @@
 .hover\:bg-blue-700:hover,
 .active\:bg-blue-700:active,
 .focus\:bg-blue-700:focus,
-.backgroundColor-blue-700 .hover\:backgroundColor-blue-700:hover,
+.backgroundColor-blue-700,
+.hover\:backgroundColor-blue-700:hover,
 .active\:backgroundColor-blue-700:active,
 .focus\:backgroundColor-blue-700:focus {
 	background-color: var(--simple-colors-blue-700);
@@ -83,7 +92,8 @@
 .hover\:bg-blue-800:hover,
 .active\:bg-blue-800:active,
 .focus\:bg-blue-800:focus,
-.backgroundColor-blue-800 .hover\:backgroundColor-blue-800:hover,
+.backgroundColor-blue-800,
+.hover\:backgroundColor-blue-800:hover,
 .active\:backgroundColor-blue-800:active,
 .focus\:backgroundColor-blue-800:focus {
 	background-color: var(--simple-colors-blue-800);
@@ -92,7 +102,8 @@
 .hover\:bg-blue-900:hover,
 .active\:bg-blue-900:active,
 .focus\:bg-blue-900:focus,
-.backgroundColor-blue-900 .hover\:backgroundColor-blue-900:hover,
+.backgroundColor-blue-900,
+.hover\:backgroundColor-blue-900:hover,
 .active\:backgroundColor-blue-900:active,
 .focus\:backgroundColor-blue-900:focus {
 	background-color: var(--simple-colors-blue-900);
@@ -101,7 +112,8 @@
 .hover\:bg-cyan-50:hover,
 .active\:bg-cyan-50:active,
 .focus\:bg-cyan-50:focus,
-.backgroundColor-cyan-50 .hover\:backgroundColor-cyan-50:hover,
+.backgroundColor-cyan-50,
+.hover\:backgroundColor-cyan-50:hover,
 .active\:backgroundColor-cyan-50:active,
 .focus\:backgroundColor-cyan-50:focus {
 	background-color: var(--simple-colors-cyan-50);
@@ -110,7 +122,8 @@
 .hover\:bg-cyan-100:hover,
 .active\:bg-cyan-100:active,
 .focus\:bg-cyan-100:focus,
-.backgroundColor-cyan-100 .hover\:backgroundColor-cyan-100:hover,
+.backgroundColor-cyan-100,
+.hover\:backgroundColor-cyan-100:hover,
 .active\:backgroundColor-cyan-100:active,
 .focus\:backgroundColor-cyan-100:focus {
 	background-color: var(--simple-colors-cyan-100);
@@ -119,7 +132,8 @@
 .hover\:bg-cyan-200:hover,
 .active\:bg-cyan-200:active,
 .focus\:bg-cyan-200:focus,
-.backgroundColor-cyan-200 .hover\:backgroundColor-cyan-200:hover,
+.backgroundColor-cyan-200,
+.hover\:backgroundColor-cyan-200:hover,
 .active\:backgroundColor-cyan-200:active,
 .focus\:backgroundColor-cyan-200:focus {
 	background-color: var(--simple-colors-cyan-200);
@@ -128,7 +142,8 @@
 .hover\:bg-cyan-300:hover,
 .active\:bg-cyan-300:active,
 .focus\:bg-cyan-300:focus,
-.backgroundColor-cyan-300 .hover\:backgroundColor-cyan-300:hover,
+.backgroundColor-cyan-300,
+.hover\:backgroundColor-cyan-300:hover,
 .active\:backgroundColor-cyan-300:active,
 .focus\:backgroundColor-cyan-300:focus {
 	background-color: var(--simple-colors-cyan-300);
@@ -137,7 +152,8 @@
 .hover\:bg-cyan-400:hover,
 .active\:bg-cyan-400:active,
 .focus\:bg-cyan-400:focus,
-.backgroundColor-cyan-400 .hover\:backgroundColor-cyan-400:hover,
+.backgroundColor-cyan-400,
+.hover\:backgroundColor-cyan-400:hover,
 .active\:backgroundColor-cyan-400:active,
 .focus\:backgroundColor-cyan-400:focus {
 	background-color: var(--simple-colors-cyan-400);
@@ -146,7 +162,8 @@
 .hover\:bg-cyan-500:hover,
 .active\:bg-cyan-500:active,
 .focus\:bg-cyan-500:focus,
-.backgroundColor-cyan-500 .hover\:backgroundColor-cyan-500:hover,
+.backgroundColor-cyan-500,
+.hover\:backgroundColor-cyan-500:hover,
 .active\:backgroundColor-cyan-500:active,
 .focus\:backgroundColor-cyan-500:focus {
 	background-color: var(--simple-colors-cyan-500);
@@ -155,7 +172,8 @@
 .hover\:bg-cyan-600:hover,
 .active\:bg-cyan-600:active,
 .focus\:bg-cyan-600:focus,
-.backgroundColor-cyan-600 .hover\:backgroundColor-cyan-600:hover,
+.backgroundColor-cyan-600,
+.hover\:backgroundColor-cyan-600:hover,
 .active\:backgroundColor-cyan-600:active,
 .focus\:backgroundColor-cyan-600:focus {
 	background-color: var(--simple-colors-cyan-600);
@@ -164,7 +182,8 @@
 .hover\:bg-cyan-700:hover,
 .active\:bg-cyan-700:active,
 .focus\:bg-cyan-700:focus,
-.backgroundColor-cyan-700 .hover\:backgroundColor-cyan-700:hover,
+.backgroundColor-cyan-700,
+.hover\:backgroundColor-cyan-700:hover,
 .active\:backgroundColor-cyan-700:active,
 .focus\:backgroundColor-cyan-700:focus {
 	background-color: var(--simple-colors-cyan-700);
@@ -173,7 +192,8 @@
 .hover\:bg-cyan-800:hover,
 .active\:bg-cyan-800:active,
 .focus\:bg-cyan-800:focus,
-.backgroundColor-cyan-800 .hover\:backgroundColor-cyan-800:hover,
+.backgroundColor-cyan-800,
+.hover\:backgroundColor-cyan-800:hover,
 .active\:backgroundColor-cyan-800:active,
 .focus\:backgroundColor-cyan-800:focus {
 	background-color: var(--simple-colors-cyan-800);
@@ -182,7 +202,8 @@
 .hover\:bg-cyan-900:hover,
 .active\:bg-cyan-900:active,
 .focus\:bg-cyan-900:focus,
-.backgroundColor-cyan-900 .hover\:backgroundColor-cyan-900:hover,
+.backgroundColor-cyan-900,
+.hover\:backgroundColor-cyan-900:hover,
 .active\:backgroundColor-cyan-900:active,
 .focus\:backgroundColor-cyan-900:focus {
 	background-color: var(--simple-colors-cyan-900);
@@ -191,7 +212,8 @@
 .hover\:bg-facebook-50:hover,
 .active\:bg-facebook-50:active,
 .focus\:bg-facebook-50:focus,
-.backgroundColor-facebook-50 .hover\:backgroundColor-facebook-50:hover,
+.backgroundColor-facebook-50,
+.hover\:backgroundColor-facebook-50:hover,
 .active\:backgroundColor-facebook-50:active,
 .focus\:backgroundColor-facebook-50:focus {
 	background-color: var(--simple-colors-facebook-50);
@@ -200,7 +222,8 @@
 .hover\:bg-facebook-100:hover,
 .active\:bg-facebook-100:active,
 .focus\:bg-facebook-100:focus,
-.backgroundColor-facebook-100 .hover\:backgroundColor-facebook-100:hover,
+.backgroundColor-facebook-100,
+.hover\:backgroundColor-facebook-100:hover,
 .active\:backgroundColor-facebook-100:active,
 .focus\:backgroundColor-facebook-100:focus {
 	background-color: var(--simple-colors-facebook-100);
@@ -209,7 +232,8 @@
 .hover\:bg-facebook-200:hover,
 .active\:bg-facebook-200:active,
 .focus\:bg-facebook-200:focus,
-.backgroundColor-facebook-200 .hover\:backgroundColor-facebook-200:hover,
+.backgroundColor-facebook-200,
+.hover\:backgroundColor-facebook-200:hover,
 .active\:backgroundColor-facebook-200:active,
 .focus\:backgroundColor-facebook-200:focus {
 	background-color: var(--simple-colors-facebook-200);
@@ -218,7 +242,8 @@
 .hover\:bg-facebook-300:hover,
 .active\:bg-facebook-300:active,
 .focus\:bg-facebook-300:focus,
-.backgroundColor-facebook-300 .hover\:backgroundColor-facebook-300:hover,
+.backgroundColor-facebook-300,
+.hover\:backgroundColor-facebook-300:hover,
 .active\:backgroundColor-facebook-300:active,
 .focus\:backgroundColor-facebook-300:focus {
 	background-color: var(--simple-colors-facebook-300);
@@ -227,7 +252,8 @@
 .hover\:bg-facebook-400:hover,
 .active\:bg-facebook-400:active,
 .focus\:bg-facebook-400:focus,
-.backgroundColor-facebook-400 .hover\:backgroundColor-facebook-400:hover,
+.backgroundColor-facebook-400,
+.hover\:backgroundColor-facebook-400:hover,
 .active\:backgroundColor-facebook-400:active,
 .focus\:backgroundColor-facebook-400:focus {
 	background-color: var(--simple-colors-facebook-400);
@@ -236,7 +262,8 @@
 .hover\:bg-facebook-500:hover,
 .active\:bg-facebook-500:active,
 .focus\:bg-facebook-500:focus,
-.backgroundColor-facebook-500 .hover\:backgroundColor-facebook-500:hover,
+.backgroundColor-facebook-500,
+.hover\:backgroundColor-facebook-500:hover,
 .active\:backgroundColor-facebook-500:active,
 .focus\:backgroundColor-facebook-500:focus {
 	background-color: var(--simple-colors-facebook-500);
@@ -245,7 +272,8 @@
 .hover\:bg-facebook-600:hover,
 .active\:bg-facebook-600:active,
 .focus\:bg-facebook-600:focus,
-.backgroundColor-facebook-600 .hover\:backgroundColor-facebook-600:hover,
+.backgroundColor-facebook-600,
+.hover\:backgroundColor-facebook-600:hover,
 .active\:backgroundColor-facebook-600:active,
 .focus\:backgroundColor-facebook-600:focus {
 	background-color: var(--simple-colors-facebook-600);
@@ -254,7 +282,8 @@
 .hover\:bg-facebook-700:hover,
 .active\:bg-facebook-700:active,
 .focus\:bg-facebook-700:focus,
-.backgroundColor-facebook-700 .hover\:backgroundColor-facebook-700:hover,
+.backgroundColor-facebook-700,
+.hover\:backgroundColor-facebook-700:hover,
 .active\:backgroundColor-facebook-700:active,
 .focus\:backgroundColor-facebook-700:focus {
 	background-color: var(--simple-colors-facebook-700);
@@ -263,7 +292,8 @@
 .hover\:bg-facebook-800:hover,
 .active\:bg-facebook-800:active,
 .focus\:bg-facebook-800:focus,
-.backgroundColor-facebook-800 .hover\:backgroundColor-facebook-800:hover,
+.backgroundColor-facebook-800,
+.hover\:backgroundColor-facebook-800:hover,
 .active\:backgroundColor-facebook-800:active,
 .focus\:backgroundColor-facebook-800:focus {
 	background-color: var(--simple-colors-facebook-800);
@@ -272,7 +302,8 @@
 .hover\:bg-facebook-900:hover,
 .active\:bg-facebook-900:active,
 .focus\:bg-facebook-900:focus,
-.backgroundColor-facebook-900 .hover\:backgroundColor-facebook-900:hover,
+.backgroundColor-facebook-900,
+.hover\:backgroundColor-facebook-900:hover,
 .active\:backgroundColor-facebook-900:active,
 .focus\:backgroundColor-facebook-900:focus {
 	background-color: var(--simple-colors-facebook-900);
@@ -281,7 +312,8 @@
 .hover\:bg-gray-50:hover,
 .active\:bg-gray-50:active,
 .focus\:bg-gray-50:focus,
-.backgroundColor-gray-50 .hover\:backgroundColor-gray-50:hover,
+.backgroundColor-gray-50,
+.hover\:backgroundColor-gray-50:hover,
 .active\:backgroundColor-gray-50:active,
 .focus\:backgroundColor-gray-50:focus {
 	background-color: var(--simple-colors-gray-50);
@@ -290,7 +322,8 @@
 .hover\:bg-gray-100:hover,
 .active\:bg-gray-100:active,
 .focus\:bg-gray-100:focus,
-.backgroundColor-gray-100 .hover\:backgroundColor-gray-100:hover,
+.backgroundColor-gray-100,
+.hover\:backgroundColor-gray-100:hover,
 .active\:backgroundColor-gray-100:active,
 .focus\:backgroundColor-gray-100:focus {
 	background-color: var(--simple-colors-gray-100);
@@ -299,7 +332,8 @@
 .hover\:bg-gray-200:hover,
 .active\:bg-gray-200:active,
 .focus\:bg-gray-200:focus,
-.backgroundColor-gray-200 .hover\:backgroundColor-gray-200:hover,
+.backgroundColor-gray-200,
+.hover\:backgroundColor-gray-200:hover,
 .active\:backgroundColor-gray-200:active,
 .focus\:backgroundColor-gray-200:focus {
 	background-color: var(--simple-colors-gray-200);
@@ -308,7 +342,8 @@
 .hover\:bg-gray-300:hover,
 .active\:bg-gray-300:active,
 .focus\:bg-gray-300:focus,
-.backgroundColor-gray-300 .hover\:backgroundColor-gray-300:hover,
+.backgroundColor-gray-300,
+.hover\:backgroundColor-gray-300:hover,
 .active\:backgroundColor-gray-300:active,
 .focus\:backgroundColor-gray-300:focus {
 	background-color: var(--simple-colors-gray-300);
@@ -317,7 +352,8 @@
 .hover\:bg-gray-400:hover,
 .active\:bg-gray-400:active,
 .focus\:bg-gray-400:focus,
-.backgroundColor-gray-400 .hover\:backgroundColor-gray-400:hover,
+.backgroundColor-gray-400,
+.hover\:backgroundColor-gray-400:hover,
 .active\:backgroundColor-gray-400:active,
 .focus\:backgroundColor-gray-400:focus {
 	background-color: var(--simple-colors-gray-400);
@@ -326,7 +362,8 @@
 .hover\:bg-gray-500:hover,
 .active\:bg-gray-500:active,
 .focus\:bg-gray-500:focus,
-.backgroundColor-gray-500 .hover\:backgroundColor-gray-500:hover,
+.backgroundColor-gray-500,
+.hover\:backgroundColor-gray-500:hover,
 .active\:backgroundColor-gray-500:active,
 .focus\:backgroundColor-gray-500:focus {
 	background-color: var(--simple-colors-gray-500);
@@ -335,7 +372,8 @@
 .hover\:bg-gray-600:hover,
 .active\:bg-gray-600:active,
 .focus\:bg-gray-600:focus,
-.backgroundColor-gray-600 .hover\:backgroundColor-gray-600:hover,
+.backgroundColor-gray-600,
+.hover\:backgroundColor-gray-600:hover,
 .active\:backgroundColor-gray-600:active,
 .focus\:backgroundColor-gray-600:focus {
 	background-color: var(--simple-colors-gray-600);
@@ -344,7 +382,8 @@
 .hover\:bg-gray-700:hover,
 .active\:bg-gray-700:active,
 .focus\:bg-gray-700:focus,
-.backgroundColor-gray-700 .hover\:backgroundColor-gray-700:hover,
+.backgroundColor-gray-700,
+.hover\:backgroundColor-gray-700:hover,
 .active\:backgroundColor-gray-700:active,
 .focus\:backgroundColor-gray-700:focus {
 	background-color: var(--simple-colors-gray-700);
@@ -353,7 +392,8 @@
 .hover\:bg-gray-800:hover,
 .active\:bg-gray-800:active,
 .focus\:bg-gray-800:focus,
-.backgroundColor-gray-800 .hover\:backgroundColor-gray-800:hover,
+.backgroundColor-gray-800,
+.hover\:backgroundColor-gray-800:hover,
 .active\:backgroundColor-gray-800:active,
 .focus\:backgroundColor-gray-800:focus {
 	background-color: var(--simple-colors-gray-800);
@@ -362,7 +402,8 @@
 .hover\:bg-gray-900:hover,
 .active\:bg-gray-900:active,
 .focus\:bg-gray-900:focus,
-.backgroundColor-gray-900 .hover\:backgroundColor-gray-900:hover,
+.backgroundColor-gray-900,
+.hover\:backgroundColor-gray-900:hover,
 .active\:backgroundColor-gray-900:active,
 .focus\:backgroundColor-gray-900:focus {
 	background-color: var(--simple-colors-gray-900);
@@ -371,7 +412,8 @@
 .hover\:bg-green-50:hover,
 .active\:bg-green-50:active,
 .focus\:bg-green-50:focus,
-.backgroundColor-green-50 .hover\:backgroundColor-green-50:hover,
+.backgroundColor-green-50,
+.hover\:backgroundColor-green-50:hover,
 .active\:backgroundColor-green-50:active,
 .focus\:backgroundColor-green-50:focus {
 	background-color: var(--simple-colors-green-50);
@@ -380,7 +422,8 @@
 .hover\:bg-green-100:hover,
 .active\:bg-green-100:active,
 .focus\:bg-green-100:focus,
-.backgroundColor-green-100 .hover\:backgroundColor-green-100:hover,
+.backgroundColor-green-100,
+.hover\:backgroundColor-green-100:hover,
 .active\:backgroundColor-green-100:active,
 .focus\:backgroundColor-green-100:focus {
 	background-color: var(--simple-colors-green-100);
@@ -389,7 +432,8 @@
 .hover\:bg-green-200:hover,
 .active\:bg-green-200:active,
 .focus\:bg-green-200:focus,
-.backgroundColor-green-200 .hover\:backgroundColor-green-200:hover,
+.backgroundColor-green-200,
+.hover\:backgroundColor-green-200:hover,
 .active\:backgroundColor-green-200:active,
 .focus\:backgroundColor-green-200:focus {
 	background-color: var(--simple-colors-green-200);
@@ -398,7 +442,8 @@
 .hover\:bg-green-300:hover,
 .active\:bg-green-300:active,
 .focus\:bg-green-300:focus,
-.backgroundColor-green-300 .hover\:backgroundColor-green-300:hover,
+.backgroundColor-green-300,
+.hover\:backgroundColor-green-300:hover,
 .active\:backgroundColor-green-300:active,
 .focus\:backgroundColor-green-300:focus {
 	background-color: var(--simple-colors-green-300);
@@ -407,7 +452,8 @@
 .hover\:bg-green-400:hover,
 .active\:bg-green-400:active,
 .focus\:bg-green-400:focus,
-.backgroundColor-green-400 .hover\:backgroundColor-green-400:hover,
+.backgroundColor-green-400,
+.hover\:backgroundColor-green-400:hover,
 .active\:backgroundColor-green-400:active,
 .focus\:backgroundColor-green-400:focus {
 	background-color: var(--simple-colors-green-400);
@@ -416,7 +462,8 @@
 .hover\:bg-green-500:hover,
 .active\:bg-green-500:active,
 .focus\:bg-green-500:focus,
-.backgroundColor-green-500 .hover\:backgroundColor-green-500:hover,
+.backgroundColor-green-500,
+.hover\:backgroundColor-green-500:hover,
 .active\:backgroundColor-green-500:active,
 .focus\:backgroundColor-green-500:focus {
 	background-color: var(--simple-colors-green-500);
@@ -425,7 +472,8 @@
 .hover\:bg-green-600:hover,
 .active\:bg-green-600:active,
 .focus\:bg-green-600:focus,
-.backgroundColor-green-600 .hover\:backgroundColor-green-600:hover,
+.backgroundColor-green-600,
+.hover\:backgroundColor-green-600:hover,
 .active\:backgroundColor-green-600:active,
 .focus\:backgroundColor-green-600:focus {
 	background-color: var(--simple-colors-green-600);
@@ -434,7 +482,8 @@
 .hover\:bg-green-700:hover,
 .active\:bg-green-700:active,
 .focus\:bg-green-700:focus,
-.backgroundColor-green-700 .hover\:backgroundColor-green-700:hover,
+.backgroundColor-green-700,
+.hover\:backgroundColor-green-700:hover,
 .active\:backgroundColor-green-700:active,
 .focus\:backgroundColor-green-700:focus {
 	background-color: var(--simple-colors-green-700);
@@ -443,7 +492,8 @@
 .hover\:bg-green-800:hover,
 .active\:bg-green-800:active,
 .focus\:bg-green-800:focus,
-.backgroundColor-green-800 .hover\:backgroundColor-green-800:hover,
+.backgroundColor-green-800,
+.hover\:backgroundColor-green-800:hover,
 .active\:backgroundColor-green-800:active,
 .focus\:backgroundColor-green-800:focus {
 	background-color: var(--simple-colors-green-800);
@@ -452,7 +502,8 @@
 .hover\:bg-green-900:hover,
 .active\:bg-green-900:active,
 .focus\:bg-green-900:focus,
-.backgroundColor-green-900 .hover\:backgroundColor-green-900:hover,
+.backgroundColor-green-900,
+.hover\:backgroundColor-green-900:hover,
 .active\:backgroundColor-green-900:active,
 .focus\:backgroundColor-green-900:focus {
 	background-color: var(--simple-colors-green-900);
@@ -461,7 +512,8 @@
 .hover\:bg-linkedin-50:hover,
 .active\:bg-linkedin-50:active,
 .focus\:bg-linkedin-50:focus,
-.backgroundColor-linkedin-50 .hover\:backgroundColor-linkedin-50:hover,
+.backgroundColor-linkedin-50,
+.hover\:backgroundColor-linkedin-50:hover,
 .active\:backgroundColor-linkedin-50:active,
 .focus\:backgroundColor-linkedin-50:focus {
 	background-color: var(--simple-colors-linkedin-50);
@@ -470,7 +522,8 @@
 .hover\:bg-linkedin-100:hover,
 .active\:bg-linkedin-100:active,
 .focus\:bg-linkedin-100:focus,
-.backgroundColor-linkedin-100 .hover\:backgroundColor-linkedin-100:hover,
+.backgroundColor-linkedin-100,
+.hover\:backgroundColor-linkedin-100:hover,
 .active\:backgroundColor-linkedin-100:active,
 .focus\:backgroundColor-linkedin-100:focus {
 	background-color: var(--simple-colors-linkedin-100);
@@ -479,7 +532,8 @@
 .hover\:bg-linkedin-200:hover,
 .active\:bg-linkedin-200:active,
 .focus\:bg-linkedin-200:focus,
-.backgroundColor-linkedin-200 .hover\:backgroundColor-linkedin-200:hover,
+.backgroundColor-linkedin-200,
+.hover\:backgroundColor-linkedin-200:hover,
 .active\:backgroundColor-linkedin-200:active,
 .focus\:backgroundColor-linkedin-200:focus {
 	background-color: var(--simple-colors-linkedin-200);
@@ -488,7 +542,8 @@
 .hover\:bg-linkedin-300:hover,
 .active\:bg-linkedin-300:active,
 .focus\:bg-linkedin-300:focus,
-.backgroundColor-linkedin-300 .hover\:backgroundColor-linkedin-300:hover,
+.backgroundColor-linkedin-300,
+.hover\:backgroundColor-linkedin-300:hover,
 .active\:backgroundColor-linkedin-300:active,
 .focus\:backgroundColor-linkedin-300:focus {
 	background-color: var(--simple-colors-linkedin-300);
@@ -497,7 +552,8 @@
 .hover\:bg-linkedin-400:hover,
 .active\:bg-linkedin-400:active,
 .focus\:bg-linkedin-400:focus,
-.backgroundColor-linkedin-400 .hover\:backgroundColor-linkedin-400:hover,
+.backgroundColor-linkedin-400,
+.hover\:backgroundColor-linkedin-400:hover,
 .active\:backgroundColor-linkedin-400:active,
 .focus\:backgroundColor-linkedin-400:focus {
 	background-color: var(--simple-colors-linkedin-400);
@@ -506,7 +562,8 @@
 .hover\:bg-linkedin-500:hover,
 .active\:bg-linkedin-500:active,
 .focus\:bg-linkedin-500:focus,
-.backgroundColor-linkedin-500 .hover\:backgroundColor-linkedin-500:hover,
+.backgroundColor-linkedin-500,
+.hover\:backgroundColor-linkedin-500:hover,
 .active\:backgroundColor-linkedin-500:active,
 .focus\:backgroundColor-linkedin-500:focus {
 	background-color: var(--simple-colors-linkedin-500);
@@ -515,7 +572,8 @@
 .hover\:bg-linkedin-600:hover,
 .active\:bg-linkedin-600:active,
 .focus\:bg-linkedin-600:focus,
-.backgroundColor-linkedin-600 .hover\:backgroundColor-linkedin-600:hover,
+.backgroundColor-linkedin-600,
+.hover\:backgroundColor-linkedin-600:hover,
 .active\:backgroundColor-linkedin-600:active,
 .focus\:backgroundColor-linkedin-600:focus {
 	background-color: var(--simple-colors-linkedin-600);
@@ -524,7 +582,8 @@
 .hover\:bg-linkedin-700:hover,
 .active\:bg-linkedin-700:active,
 .focus\:bg-linkedin-700:focus,
-.backgroundColor-linkedin-700 .hover\:backgroundColor-linkedin-700:hover,
+.backgroundColor-linkedin-700,
+.hover\:backgroundColor-linkedin-700:hover,
 .active\:backgroundColor-linkedin-700:active,
 .focus\:backgroundColor-linkedin-700:focus {
 	background-color: var(--simple-colors-linkedin-700);
@@ -533,7 +592,8 @@
 .hover\:bg-linkedin-800:hover,
 .active\:bg-linkedin-800:active,
 .focus\:bg-linkedin-800:focus,
-.backgroundColor-linkedin-800 .hover\:backgroundColor-linkedin-800:hover,
+.backgroundColor-linkedin-800,
+.hover\:backgroundColor-linkedin-800:hover,
 .active\:backgroundColor-linkedin-800:active,
 .focus\:backgroundColor-linkedin-800:focus {
 	background-color: var(--simple-colors-linkedin-800);
@@ -542,7 +602,8 @@
 .hover\:bg-linkedin-900:hover,
 .active\:bg-linkedin-900:active,
 .focus\:bg-linkedin-900:focus,
-.backgroundColor-linkedin-900 .hover\:backgroundColor-linkedin-900:hover,
+.backgroundColor-linkedin-900,
+.hover\:backgroundColor-linkedin-900:hover,
 .active\:backgroundColor-linkedin-900:active,
 .focus\:backgroundColor-linkedin-900:focus {
 	background-color: var(--simple-colors-linkedin-900);
@@ -551,7 +612,8 @@
 .hover\:bg-messenger-50:hover,
 .active\:bg-messenger-50:active,
 .focus\:bg-messenger-50:focus,
-.backgroundColor-messenger-50 .hover\:backgroundColor-messenger-50:hover,
+.backgroundColor-messenger-50,
+.hover\:backgroundColor-messenger-50:hover,
 .active\:backgroundColor-messenger-50:active,
 .focus\:backgroundColor-messenger-50:focus {
 	background-color: var(--simple-colors-messenger-50);
@@ -560,7 +622,8 @@
 .hover\:bg-messenger-100:hover,
 .active\:bg-messenger-100:active,
 .focus\:bg-messenger-100:focus,
-.backgroundColor-messenger-100 .hover\:backgroundColor-messenger-100:hover,
+.backgroundColor-messenger-100,
+.hover\:backgroundColor-messenger-100:hover,
 .active\:backgroundColor-messenger-100:active,
 .focus\:backgroundColor-messenger-100:focus {
 	background-color: var(--simple-colors-messenger-100);
@@ -569,7 +632,8 @@
 .hover\:bg-messenger-200:hover,
 .active\:bg-messenger-200:active,
 .focus\:bg-messenger-200:focus,
-.backgroundColor-messenger-200 .hover\:backgroundColor-messenger-200:hover,
+.backgroundColor-messenger-200,
+.hover\:backgroundColor-messenger-200:hover,
 .active\:backgroundColor-messenger-200:active,
 .focus\:backgroundColor-messenger-200:focus {
 	background-color: var(--simple-colors-messenger-200);
@@ -578,7 +642,8 @@
 .hover\:bg-messenger-300:hover,
 .active\:bg-messenger-300:active,
 .focus\:bg-messenger-300:focus,
-.backgroundColor-messenger-300 .hover\:backgroundColor-messenger-300:hover,
+.backgroundColor-messenger-300,
+.hover\:backgroundColor-messenger-300:hover,
 .active\:backgroundColor-messenger-300:active,
 .focus\:backgroundColor-messenger-300:focus {
 	background-color: var(--simple-colors-messenger-300);
@@ -587,7 +652,8 @@
 .hover\:bg-messenger-400:hover,
 .active\:bg-messenger-400:active,
 .focus\:bg-messenger-400:focus,
-.backgroundColor-messenger-400 .hover\:backgroundColor-messenger-400:hover,
+.backgroundColor-messenger-400,
+.hover\:backgroundColor-messenger-400:hover,
 .active\:backgroundColor-messenger-400:active,
 .focus\:backgroundColor-messenger-400:focus {
 	background-color: var(--simple-colors-messenger-400);
@@ -596,7 +662,8 @@
 .hover\:bg-messenger-500:hover,
 .active\:bg-messenger-500:active,
 .focus\:bg-messenger-500:focus,
-.backgroundColor-messenger-500 .hover\:backgroundColor-messenger-500:hover,
+.backgroundColor-messenger-500,
+.hover\:backgroundColor-messenger-500:hover,
 .active\:backgroundColor-messenger-500:active,
 .focus\:backgroundColor-messenger-500:focus {
 	background-color: var(--simple-colors-messenger-500);
@@ -605,7 +672,8 @@
 .hover\:bg-messenger-600:hover,
 .active\:bg-messenger-600:active,
 .focus\:bg-messenger-600:focus,
-.backgroundColor-messenger-600 .hover\:backgroundColor-messenger-600:hover,
+.backgroundColor-messenger-600,
+.hover\:backgroundColor-messenger-600:hover,
 .active\:backgroundColor-messenger-600:active,
 .focus\:backgroundColor-messenger-600:focus {
 	background-color: var(--simple-colors-messenger-600);
@@ -614,7 +682,8 @@
 .hover\:bg-messenger-700:hover,
 .active\:bg-messenger-700:active,
 .focus\:bg-messenger-700:focus,
-.backgroundColor-messenger-700 .hover\:backgroundColor-messenger-700:hover,
+.backgroundColor-messenger-700,
+.hover\:backgroundColor-messenger-700:hover,
 .active\:backgroundColor-messenger-700:active,
 .focus\:backgroundColor-messenger-700:focus {
 	background-color: var(--simple-colors-messenger-700);
@@ -623,7 +692,8 @@
 .hover\:bg-messenger-800:hover,
 .active\:bg-messenger-800:active,
 .focus\:bg-messenger-800:focus,
-.backgroundColor-messenger-800 .hover\:backgroundColor-messenger-800:hover,
+.backgroundColor-messenger-800,
+.hover\:backgroundColor-messenger-800:hover,
 .active\:backgroundColor-messenger-800:active,
 .focus\:backgroundColor-messenger-800:focus {
 	background-color: var(--simple-colors-messenger-800);
@@ -632,7 +702,8 @@
 .hover\:bg-messenger-900:hover,
 .active\:bg-messenger-900:active,
 .focus\:bg-messenger-900:focus,
-.backgroundColor-messenger-900 .hover\:backgroundColor-messenger-900:hover,
+.backgroundColor-messenger-900,
+.hover\:backgroundColor-messenger-900:hover,
 .active\:backgroundColor-messenger-900:active,
 .focus\:backgroundColor-messenger-900:focus {
 	background-color: var(--simple-colors-messenger-900);
@@ -641,7 +712,8 @@
 .hover\:bg-orange-50:hover,
 .active\:bg-orange-50:active,
 .focus\:bg-orange-50:focus,
-.backgroundColor-orange-50 .hover\:backgroundColor-orange-50:hover,
+.backgroundColor-orange-50,
+.hover\:backgroundColor-orange-50:hover,
 .active\:backgroundColor-orange-50:active,
 .focus\:backgroundColor-orange-50:focus {
 	background-color: var(--simple-colors-orange-50);
@@ -650,7 +722,8 @@
 .hover\:bg-orange-100:hover,
 .active\:bg-orange-100:active,
 .focus\:bg-orange-100:focus,
-.backgroundColor-orange-100 .hover\:backgroundColor-orange-100:hover,
+.backgroundColor-orange-100,
+.hover\:backgroundColor-orange-100:hover,
 .active\:backgroundColor-orange-100:active,
 .focus\:backgroundColor-orange-100:focus {
 	background-color: var(--simple-colors-orange-100);
@@ -659,7 +732,8 @@
 .hover\:bg-orange-200:hover,
 .active\:bg-orange-200:active,
 .focus\:bg-orange-200:focus,
-.backgroundColor-orange-200 .hover\:backgroundColor-orange-200:hover,
+.backgroundColor-orange-200,
+.hover\:backgroundColor-orange-200:hover,
 .active\:backgroundColor-orange-200:active,
 .focus\:backgroundColor-orange-200:focus {
 	background-color: var(--simple-colors-orange-200);
@@ -668,7 +742,8 @@
 .hover\:bg-orange-300:hover,
 .active\:bg-orange-300:active,
 .focus\:bg-orange-300:focus,
-.backgroundColor-orange-300 .hover\:backgroundColor-orange-300:hover,
+.backgroundColor-orange-300,
+.hover\:backgroundColor-orange-300:hover,
 .active\:backgroundColor-orange-300:active,
 .focus\:backgroundColor-orange-300:focus {
 	background-color: var(--simple-colors-orange-300);
@@ -677,7 +752,8 @@
 .hover\:bg-orange-400:hover,
 .active\:bg-orange-400:active,
 .focus\:bg-orange-400:focus,
-.backgroundColor-orange-400 .hover\:backgroundColor-orange-400:hover,
+.backgroundColor-orange-400,
+.hover\:backgroundColor-orange-400:hover,
 .active\:backgroundColor-orange-400:active,
 .focus\:backgroundColor-orange-400:focus {
 	background-color: var(--simple-colors-orange-400);
@@ -686,7 +762,8 @@
 .hover\:bg-orange-500:hover,
 .active\:bg-orange-500:active,
 .focus\:bg-orange-500:focus,
-.backgroundColor-orange-500 .hover\:backgroundColor-orange-500:hover,
+.backgroundColor-orange-500,
+.hover\:backgroundColor-orange-500:hover,
 .active\:backgroundColor-orange-500:active,
 .focus\:backgroundColor-orange-500:focus {
 	background-color: var(--simple-colors-orange-500);
@@ -695,7 +772,8 @@
 .hover\:bg-orange-600:hover,
 .active\:bg-orange-600:active,
 .focus\:bg-orange-600:focus,
-.backgroundColor-orange-600 .hover\:backgroundColor-orange-600:hover,
+.backgroundColor-orange-600,
+.hover\:backgroundColor-orange-600:hover,
 .active\:backgroundColor-orange-600:active,
 .focus\:backgroundColor-orange-600:focus {
 	background-color: var(--simple-colors-orange-600);
@@ -704,7 +782,8 @@
 .hover\:bg-orange-700:hover,
 .active\:bg-orange-700:active,
 .focus\:bg-orange-700:focus,
-.backgroundColor-orange-700 .hover\:backgroundColor-orange-700:hover,
+.backgroundColor-orange-700,
+.hover\:backgroundColor-orange-700:hover,
 .active\:backgroundColor-orange-700:active,
 .focus\:backgroundColor-orange-700:focus {
 	background-color: var(--simple-colors-orange-700);
@@ -713,7 +792,8 @@
 .hover\:bg-orange-800:hover,
 .active\:bg-orange-800:active,
 .focus\:bg-orange-800:focus,
-.backgroundColor-orange-800 .hover\:backgroundColor-orange-800:hover,
+.backgroundColor-orange-800,
+.hover\:backgroundColor-orange-800:hover,
 .active\:backgroundColor-orange-800:active,
 .focus\:backgroundColor-orange-800:focus {
 	background-color: var(--simple-colors-orange-800);
@@ -722,7 +802,8 @@
 .hover\:bg-orange-900:hover,
 .active\:bg-orange-900:active,
 .focus\:bg-orange-900:focus,
-.backgroundColor-orange-900 .hover\:backgroundColor-orange-900:hover,
+.backgroundColor-orange-900,
+.hover\:backgroundColor-orange-900:hover,
 .active\:backgroundColor-orange-900:active,
 .focus\:backgroundColor-orange-900:focus {
 	background-color: var(--simple-colors-orange-900);
@@ -731,7 +812,8 @@
 .hover\:bg-pink-50:hover,
 .active\:bg-pink-50:active,
 .focus\:bg-pink-50:focus,
-.backgroundColor-pink-50 .hover\:backgroundColor-pink-50:hover,
+.backgroundColor-pink-50,
+.hover\:backgroundColor-pink-50:hover,
 .active\:backgroundColor-pink-50:active,
 .focus\:backgroundColor-pink-50:focus {
 	background-color: var(--simple-colors-pink-50);
@@ -740,7 +822,8 @@
 .hover\:bg-pink-100:hover,
 .active\:bg-pink-100:active,
 .focus\:bg-pink-100:focus,
-.backgroundColor-pink-100 .hover\:backgroundColor-pink-100:hover,
+.backgroundColor-pink-100,
+.hover\:backgroundColor-pink-100:hover,
 .active\:backgroundColor-pink-100:active,
 .focus\:backgroundColor-pink-100:focus {
 	background-color: var(--simple-colors-pink-100);
@@ -749,7 +832,8 @@
 .hover\:bg-pink-200:hover,
 .active\:bg-pink-200:active,
 .focus\:bg-pink-200:focus,
-.backgroundColor-pink-200 .hover\:backgroundColor-pink-200:hover,
+.backgroundColor-pink-200,
+.hover\:backgroundColor-pink-200:hover,
 .active\:backgroundColor-pink-200:active,
 .focus\:backgroundColor-pink-200:focus {
 	background-color: var(--simple-colors-pink-200);
@@ -758,7 +842,8 @@
 .hover\:bg-pink-300:hover,
 .active\:bg-pink-300:active,
 .focus\:bg-pink-300:focus,
-.backgroundColor-pink-300 .hover\:backgroundColor-pink-300:hover,
+.backgroundColor-pink-300,
+.hover\:backgroundColor-pink-300:hover,
 .active\:backgroundColor-pink-300:active,
 .focus\:backgroundColor-pink-300:focus {
 	background-color: var(--simple-colors-pink-300);
@@ -767,7 +852,8 @@
 .hover\:bg-pink-400:hover,
 .active\:bg-pink-400:active,
 .focus\:bg-pink-400:focus,
-.backgroundColor-pink-400 .hover\:backgroundColor-pink-400:hover,
+.backgroundColor-pink-400,
+.hover\:backgroundColor-pink-400:hover,
 .active\:backgroundColor-pink-400:active,
 .focus\:backgroundColor-pink-400:focus {
 	background-color: var(--simple-colors-pink-400);
@@ -776,7 +862,8 @@
 .hover\:bg-pink-500:hover,
 .active\:bg-pink-500:active,
 .focus\:bg-pink-500:focus,
-.backgroundColor-pink-500 .hover\:backgroundColor-pink-500:hover,
+.backgroundColor-pink-500,
+.hover\:backgroundColor-pink-500:hover,
 .active\:backgroundColor-pink-500:active,
 .focus\:backgroundColor-pink-500:focus {
 	background-color: var(--simple-colors-pink-500);
@@ -785,7 +872,8 @@
 .hover\:bg-pink-600:hover,
 .active\:bg-pink-600:active,
 .focus\:bg-pink-600:focus,
-.backgroundColor-pink-600 .hover\:backgroundColor-pink-600:hover,
+.backgroundColor-pink-600,
+.hover\:backgroundColor-pink-600:hover,
 .active\:backgroundColor-pink-600:active,
 .focus\:backgroundColor-pink-600:focus {
 	background-color: var(--simple-colors-pink-600);
@@ -794,7 +882,8 @@
 .hover\:bg-pink-700:hover,
 .active\:bg-pink-700:active,
 .focus\:bg-pink-700:focus,
-.backgroundColor-pink-700 .hover\:backgroundColor-pink-700:hover,
+.backgroundColor-pink-700,
+.hover\:backgroundColor-pink-700:hover,
 .active\:backgroundColor-pink-700:active,
 .focus\:backgroundColor-pink-700:focus {
 	background-color: var(--simple-colors-pink-700);
@@ -803,7 +892,8 @@
 .hover\:bg-pink-800:hover,
 .active\:bg-pink-800:active,
 .focus\:bg-pink-800:focus,
-.backgroundColor-pink-800 .hover\:backgroundColor-pink-800:hover,
+.backgroundColor-pink-800,
+.hover\:backgroundColor-pink-800:hover,
 .active\:backgroundColor-pink-800:active,
 .focus\:backgroundColor-pink-800:focus {
 	background-color: var(--simple-colors-pink-800);
@@ -812,7 +902,8 @@
 .hover\:bg-pink-900:hover,
 .active\:bg-pink-900:active,
 .focus\:bg-pink-900:focus,
-.backgroundColor-pink-900 .hover\:backgroundColor-pink-900:hover,
+.backgroundColor-pink-900,
+.hover\:backgroundColor-pink-900:hover,
 .active\:backgroundColor-pink-900:active,
 .focus\:backgroundColor-pink-900:focus {
 	background-color: var(--simple-colors-pink-900);
@@ -821,7 +912,8 @@
 .hover\:bg-purple-50:hover,
 .active\:bg-purple-50:active,
 .focus\:bg-purple-50:focus,
-.backgroundColor-purple-50 .hover\:backgroundColor-purple-50:hover,
+.backgroundColor-purple-50,
+.hover\:backgroundColor-purple-50:hover,
 .active\:backgroundColor-purple-50:active,
 .focus\:backgroundColor-purple-50:focus {
 	background-color: var(--simple-colors-purple-50);
@@ -830,7 +922,8 @@
 .hover\:bg-purple-100:hover,
 .active\:bg-purple-100:active,
 .focus\:bg-purple-100:focus,
-.backgroundColor-purple-100 .hover\:backgroundColor-purple-100:hover,
+.backgroundColor-purple-100,
+.hover\:backgroundColor-purple-100:hover,
 .active\:backgroundColor-purple-100:active,
 .focus\:backgroundColor-purple-100:focus {
 	background-color: var(--simple-colors-purple-100);
@@ -839,7 +932,8 @@
 .hover\:bg-purple-200:hover,
 .active\:bg-purple-200:active,
 .focus\:bg-purple-200:focus,
-.backgroundColor-purple-200 .hover\:backgroundColor-purple-200:hover,
+.backgroundColor-purple-200,
+.hover\:backgroundColor-purple-200:hover,
 .active\:backgroundColor-purple-200:active,
 .focus\:backgroundColor-purple-200:focus {
 	background-color: var(--simple-colors-purple-200);
@@ -848,7 +942,8 @@
 .hover\:bg-purple-300:hover,
 .active\:bg-purple-300:active,
 .focus\:bg-purple-300:focus,
-.backgroundColor-purple-300 .hover\:backgroundColor-purple-300:hover,
+.backgroundColor-purple-300,
+.hover\:backgroundColor-purple-300:hover,
 .active\:backgroundColor-purple-300:active,
 .focus\:backgroundColor-purple-300:focus {
 	background-color: var(--simple-colors-purple-300);
@@ -857,7 +952,8 @@
 .hover\:bg-purple-400:hover,
 .active\:bg-purple-400:active,
 .focus\:bg-purple-400:focus,
-.backgroundColor-purple-400 .hover\:backgroundColor-purple-400:hover,
+.backgroundColor-purple-400,
+.hover\:backgroundColor-purple-400:hover,
 .active\:backgroundColor-purple-400:active,
 .focus\:backgroundColor-purple-400:focus {
 	background-color: var(--simple-colors-purple-400);
@@ -866,7 +962,8 @@
 .hover\:bg-purple-500:hover,
 .active\:bg-purple-500:active,
 .focus\:bg-purple-500:focus,
-.backgroundColor-purple-500 .hover\:backgroundColor-purple-500:hover,
+.backgroundColor-purple-500,
+.hover\:backgroundColor-purple-500:hover,
 .active\:backgroundColor-purple-500:active,
 .focus\:backgroundColor-purple-500:focus {
 	background-color: var(--simple-colors-purple-500);
@@ -875,7 +972,8 @@
 .hover\:bg-purple-600:hover,
 .active\:bg-purple-600:active,
 .focus\:bg-purple-600:focus,
-.backgroundColor-purple-600 .hover\:backgroundColor-purple-600:hover,
+.backgroundColor-purple-600,
+.hover\:backgroundColor-purple-600:hover,
 .active\:backgroundColor-purple-600:active,
 .focus\:backgroundColor-purple-600:focus {
 	background-color: var(--simple-colors-purple-600);
@@ -884,7 +982,8 @@
 .hover\:bg-purple-700:hover,
 .active\:bg-purple-700:active,
 .focus\:bg-purple-700:focus,
-.backgroundColor-purple-700 .hover\:backgroundColor-purple-700:hover,
+.backgroundColor-purple-700,
+.hover\:backgroundColor-purple-700:hover,
 .active\:backgroundColor-purple-700:active,
 .focus\:backgroundColor-purple-700:focus {
 	background-color: var(--simple-colors-purple-700);
@@ -893,7 +992,8 @@
 .hover\:bg-purple-800:hover,
 .active\:bg-purple-800:active,
 .focus\:bg-purple-800:focus,
-.backgroundColor-purple-800 .hover\:backgroundColor-purple-800:hover,
+.backgroundColor-purple-800,
+.hover\:backgroundColor-purple-800:hover,
 .active\:backgroundColor-purple-800:active,
 .focus\:backgroundColor-purple-800:focus {
 	background-color: var(--simple-colors-purple-800);
@@ -902,7 +1002,8 @@
 .hover\:bg-purple-900:hover,
 .active\:bg-purple-900:active,
 .focus\:bg-purple-900:focus,
-.backgroundColor-purple-900 .hover\:backgroundColor-purple-900:hover,
+.backgroundColor-purple-900,
+.hover\:backgroundColor-purple-900:hover,
 .active\:backgroundColor-purple-900:active,
 .focus\:backgroundColor-purple-900:focus {
 	background-color: var(--simple-colors-purple-900);
@@ -911,7 +1012,8 @@
 .hover\:bg-red-50:hover,
 .active\:bg-red-50:active,
 .focus\:bg-red-50:focus,
-.backgroundColor-red-50 .hover\:backgroundColor-red-50:hover,
+.backgroundColor-red-50,
+.hover\:backgroundColor-red-50:hover,
 .active\:backgroundColor-red-50:active,
 .focus\:backgroundColor-red-50:focus {
 	background-color: var(--simple-colors-red-50);
@@ -920,7 +1022,8 @@
 .hover\:bg-red-100:hover,
 .active\:bg-red-100:active,
 .focus\:bg-red-100:focus,
-.backgroundColor-red-100 .hover\:backgroundColor-red-100:hover,
+.backgroundColor-red-100,
+.hover\:backgroundColor-red-100:hover,
 .active\:backgroundColor-red-100:active,
 .focus\:backgroundColor-red-100:focus {
 	background-color: var(--simple-colors-red-100);
@@ -929,7 +1032,8 @@
 .hover\:bg-red-200:hover,
 .active\:bg-red-200:active,
 .focus\:bg-red-200:focus,
-.backgroundColor-red-200 .hover\:backgroundColor-red-200:hover,
+.backgroundColor-red-200,
+.hover\:backgroundColor-red-200:hover,
 .active\:backgroundColor-red-200:active,
 .focus\:backgroundColor-red-200:focus {
 	background-color: var(--simple-colors-red-200);
@@ -938,7 +1042,8 @@
 .hover\:bg-red-300:hover,
 .active\:bg-red-300:active,
 .focus\:bg-red-300:focus,
-.backgroundColor-red-300 .hover\:backgroundColor-red-300:hover,
+.backgroundColor-red-300,
+.hover\:backgroundColor-red-300:hover,
 .active\:backgroundColor-red-300:active,
 .focus\:backgroundColor-red-300:focus {
 	background-color: var(--simple-colors-red-300);
@@ -947,7 +1052,8 @@
 .hover\:bg-red-400:hover,
 .active\:bg-red-400:active,
 .focus\:bg-red-400:focus,
-.backgroundColor-red-400 .hover\:backgroundColor-red-400:hover,
+.backgroundColor-red-400,
+.hover\:backgroundColor-red-400:hover,
 .active\:backgroundColor-red-400:active,
 .focus\:backgroundColor-red-400:focus {
 	background-color: var(--simple-colors-red-400);
@@ -956,7 +1062,8 @@
 .hover\:bg-red-500:hover,
 .active\:bg-red-500:active,
 .focus\:bg-red-500:focus,
-.backgroundColor-red-500 .hover\:backgroundColor-red-500:hover,
+.backgroundColor-red-500,
+.hover\:backgroundColor-red-500:hover,
 .active\:backgroundColor-red-500:active,
 .focus\:backgroundColor-red-500:focus {
 	background-color: var(--simple-colors-red-500);
@@ -965,7 +1072,8 @@
 .hover\:bg-red-600:hover,
 .active\:bg-red-600:active,
 .focus\:bg-red-600:focus,
-.backgroundColor-red-600 .hover\:backgroundColor-red-600:hover,
+.backgroundColor-red-600,
+.hover\:backgroundColor-red-600:hover,
 .active\:backgroundColor-red-600:active,
 .focus\:backgroundColor-red-600:focus {
 	background-color: var(--simple-colors-red-600);
@@ -974,7 +1082,8 @@
 .hover\:bg-red-700:hover,
 .active\:bg-red-700:active,
 .focus\:bg-red-700:focus,
-.backgroundColor-red-700 .hover\:backgroundColor-red-700:hover,
+.backgroundColor-red-700,
+.hover\:backgroundColor-red-700:hover,
 .active\:backgroundColor-red-700:active,
 .focus\:backgroundColor-red-700:focus {
 	background-color: var(--simple-colors-red-700);
@@ -983,7 +1092,8 @@
 .hover\:bg-red-800:hover,
 .active\:bg-red-800:active,
 .focus\:bg-red-800:focus,
-.backgroundColor-red-800 .hover\:backgroundColor-red-800:hover,
+.backgroundColor-red-800,
+.hover\:backgroundColor-red-800:hover,
 .active\:backgroundColor-red-800:active,
 .focus\:backgroundColor-red-800:focus {
 	background-color: var(--simple-colors-red-800);
@@ -992,7 +1102,8 @@
 .hover\:bg-red-900:hover,
 .active\:bg-red-900:active,
 .focus\:bg-red-900:focus,
-.backgroundColor-red-900 .hover\:backgroundColor-red-900:hover,
+.backgroundColor-red-900,
+.hover\:backgroundColor-red-900:hover,
 .active\:backgroundColor-red-900:active,
 .focus\:backgroundColor-red-900:focus {
 	background-color: var(--simple-colors-red-900);
@@ -1001,7 +1112,8 @@
 .hover\:bg-teal-50:hover,
 .active\:bg-teal-50:active,
 .focus\:bg-teal-50:focus,
-.backgroundColor-teal-50 .hover\:backgroundColor-teal-50:hover,
+.backgroundColor-teal-50,
+.hover\:backgroundColor-teal-50:hover,
 .active\:backgroundColor-teal-50:active,
 .focus\:backgroundColor-teal-50:focus {
 	background-color: var(--simple-colors-teal-50);
@@ -1010,7 +1122,8 @@
 .hover\:bg-teal-100:hover,
 .active\:bg-teal-100:active,
 .focus\:bg-teal-100:focus,
-.backgroundColor-teal-100 .hover\:backgroundColor-teal-100:hover,
+.backgroundColor-teal-100,
+.hover\:backgroundColor-teal-100:hover,
 .active\:backgroundColor-teal-100:active,
 .focus\:backgroundColor-teal-100:focus {
 	background-color: var(--simple-colors-teal-100);
@@ -1019,7 +1132,8 @@
 .hover\:bg-teal-200:hover,
 .active\:bg-teal-200:active,
 .focus\:bg-teal-200:focus,
-.backgroundColor-teal-200 .hover\:backgroundColor-teal-200:hover,
+.backgroundColor-teal-200,
+.hover\:backgroundColor-teal-200:hover,
 .active\:backgroundColor-teal-200:active,
 .focus\:backgroundColor-teal-200:focus {
 	background-color: var(--simple-colors-teal-200);
@@ -1028,7 +1142,8 @@
 .hover\:bg-teal-300:hover,
 .active\:bg-teal-300:active,
 .focus\:bg-teal-300:focus,
-.backgroundColor-teal-300 .hover\:backgroundColor-teal-300:hover,
+.backgroundColor-teal-300,
+.hover\:backgroundColor-teal-300:hover,
 .active\:backgroundColor-teal-300:active,
 .focus\:backgroundColor-teal-300:focus {
 	background-color: var(--simple-colors-teal-300);
@@ -1037,7 +1152,8 @@
 .hover\:bg-teal-400:hover,
 .active\:bg-teal-400:active,
 .focus\:bg-teal-400:focus,
-.backgroundColor-teal-400 .hover\:backgroundColor-teal-400:hover,
+.backgroundColor-teal-400,
+.hover\:backgroundColor-teal-400:hover,
 .active\:backgroundColor-teal-400:active,
 .focus\:backgroundColor-teal-400:focus {
 	background-color: var(--simple-colors-teal-400);
@@ -1046,7 +1162,8 @@
 .hover\:bg-teal-500:hover,
 .active\:bg-teal-500:active,
 .focus\:bg-teal-500:focus,
-.backgroundColor-teal-500 .hover\:backgroundColor-teal-500:hover,
+.backgroundColor-teal-500,
+.hover\:backgroundColor-teal-500:hover,
 .active\:backgroundColor-teal-500:active,
 .focus\:backgroundColor-teal-500:focus {
 	background-color: var(--simple-colors-teal-500);
@@ -1055,7 +1172,8 @@
 .hover\:bg-teal-600:hover,
 .active\:bg-teal-600:active,
 .focus\:bg-teal-600:focus,
-.backgroundColor-teal-600 .hover\:backgroundColor-teal-600:hover,
+.backgroundColor-teal-600,
+.hover\:backgroundColor-teal-600:hover,
 .active\:backgroundColor-teal-600:active,
 .focus\:backgroundColor-teal-600:focus {
 	background-color: var(--simple-colors-teal-600);
@@ -1064,7 +1182,8 @@
 .hover\:bg-teal-700:hover,
 .active\:bg-teal-700:active,
 .focus\:bg-teal-700:focus,
-.backgroundColor-teal-700 .hover\:backgroundColor-teal-700:hover,
+.backgroundColor-teal-700,
+.hover\:backgroundColor-teal-700:hover,
 .active\:backgroundColor-teal-700:active,
 .focus\:backgroundColor-teal-700:focus {
 	background-color: var(--simple-colors-teal-700);
@@ -1073,7 +1192,8 @@
 .hover\:bg-teal-800:hover,
 .active\:bg-teal-800:active,
 .focus\:bg-teal-800:focus,
-.backgroundColor-teal-800 .hover\:backgroundColor-teal-800:hover,
+.backgroundColor-teal-800,
+.hover\:backgroundColor-teal-800:hover,
 .active\:backgroundColor-teal-800:active,
 .focus\:backgroundColor-teal-800:focus {
 	background-color: var(--simple-colors-teal-800);
@@ -1082,7 +1202,8 @@
 .hover\:bg-teal-900:hover,
 .active\:bg-teal-900:active,
 .focus\:bg-teal-900:focus,
-.backgroundColor-teal-900 .hover\:backgroundColor-teal-900:hover,
+.backgroundColor-teal-900,
+.hover\:backgroundColor-teal-900:hover,
 .active\:backgroundColor-teal-900:active,
 .focus\:backgroundColor-teal-900:focus {
 	background-color: var(--simple-colors-teal-900);
@@ -1091,7 +1212,8 @@
 .hover\:bg-telegram-50:hover,
 .active\:bg-telegram-50:active,
 .focus\:bg-telegram-50:focus,
-.backgroundColor-telegram-50 .hover\:backgroundColor-telegram-50:hover,
+.backgroundColor-telegram-50,
+.hover\:backgroundColor-telegram-50:hover,
 .active\:backgroundColor-telegram-50:active,
 .focus\:backgroundColor-telegram-50:focus {
 	background-color: var(--simple-colors-telegram-50);
@@ -1100,7 +1222,8 @@
 .hover\:bg-telegram-100:hover,
 .active\:bg-telegram-100:active,
 .focus\:bg-telegram-100:focus,
-.backgroundColor-telegram-100 .hover\:backgroundColor-telegram-100:hover,
+.backgroundColor-telegram-100,
+.hover\:backgroundColor-telegram-100:hover,
 .active\:backgroundColor-telegram-100:active,
 .focus\:backgroundColor-telegram-100:focus {
 	background-color: var(--simple-colors-telegram-100);
@@ -1109,7 +1232,8 @@
 .hover\:bg-telegram-200:hover,
 .active\:bg-telegram-200:active,
 .focus\:bg-telegram-200:focus,
-.backgroundColor-telegram-200 .hover\:backgroundColor-telegram-200:hover,
+.backgroundColor-telegram-200,
+.hover\:backgroundColor-telegram-200:hover,
 .active\:backgroundColor-telegram-200:active,
 .focus\:backgroundColor-telegram-200:focus {
 	background-color: var(--simple-colors-telegram-200);
@@ -1118,7 +1242,8 @@
 .hover\:bg-telegram-300:hover,
 .active\:bg-telegram-300:active,
 .focus\:bg-telegram-300:focus,
-.backgroundColor-telegram-300 .hover\:backgroundColor-telegram-300:hover,
+.backgroundColor-telegram-300,
+.hover\:backgroundColor-telegram-300:hover,
 .active\:backgroundColor-telegram-300:active,
 .focus\:backgroundColor-telegram-300:focus {
 	background-color: var(--simple-colors-telegram-300);
@@ -1127,7 +1252,8 @@
 .hover\:bg-telegram-400:hover,
 .active\:bg-telegram-400:active,
 .focus\:bg-telegram-400:focus,
-.backgroundColor-telegram-400 .hover\:backgroundColor-telegram-400:hover,
+.backgroundColor-telegram-400,
+.hover\:backgroundColor-telegram-400:hover,
 .active\:backgroundColor-telegram-400:active,
 .focus\:backgroundColor-telegram-400:focus {
 	background-color: var(--simple-colors-telegram-400);
@@ -1136,7 +1262,8 @@
 .hover\:bg-telegram-500:hover,
 .active\:bg-telegram-500:active,
 .focus\:bg-telegram-500:focus,
-.backgroundColor-telegram-500 .hover\:backgroundColor-telegram-500:hover,
+.backgroundColor-telegram-500,
+.hover\:backgroundColor-telegram-500:hover,
 .active\:backgroundColor-telegram-500:active,
 .focus\:backgroundColor-telegram-500:focus {
 	background-color: var(--simple-colors-telegram-500);
@@ -1145,7 +1272,8 @@
 .hover\:bg-telegram-600:hover,
 .active\:bg-telegram-600:active,
 .focus\:bg-telegram-600:focus,
-.backgroundColor-telegram-600 .hover\:backgroundColor-telegram-600:hover,
+.backgroundColor-telegram-600,
+.hover\:backgroundColor-telegram-600:hover,
 .active\:backgroundColor-telegram-600:active,
 .focus\:backgroundColor-telegram-600:focus {
 	background-color: var(--simple-colors-telegram-600);
@@ -1154,7 +1282,8 @@
 .hover\:bg-telegram-700:hover,
 .active\:bg-telegram-700:active,
 .focus\:bg-telegram-700:focus,
-.backgroundColor-telegram-700 .hover\:backgroundColor-telegram-700:hover,
+.backgroundColor-telegram-700,
+.hover\:backgroundColor-telegram-700:hover,
 .active\:backgroundColor-telegram-700:active,
 .focus\:backgroundColor-telegram-700:focus {
 	background-color: var(--simple-colors-telegram-700);
@@ -1163,7 +1292,8 @@
 .hover\:bg-telegram-800:hover,
 .active\:bg-telegram-800:active,
 .focus\:bg-telegram-800:focus,
-.backgroundColor-telegram-800 .hover\:backgroundColor-telegram-800:hover,
+.backgroundColor-telegram-800,
+.hover\:backgroundColor-telegram-800:hover,
 .active\:backgroundColor-telegram-800:active,
 .focus\:backgroundColor-telegram-800:focus {
 	background-color: var(--simple-colors-telegram-800);
@@ -1172,7 +1302,8 @@
 .hover\:bg-telegram-900:hover,
 .active\:bg-telegram-900:active,
 .focus\:bg-telegram-900:focus,
-.backgroundColor-telegram-900 .hover\:backgroundColor-telegram-900:hover,
+.backgroundColor-telegram-900,
+.hover\:backgroundColor-telegram-900:hover,
 .active\:backgroundColor-telegram-900:active,
 .focus\:backgroundColor-telegram-900:focus {
 	background-color: var(--simple-colors-telegram-900);
@@ -1181,10 +1312,8 @@
 .hover\:bg-transparent tran:hover,
 .active\:bg-transparent tran:active,
 .focus\:bg-transparent tran:focus,
-.backgroundColor-transparent
-	tran
-	.hover\:backgroundColor-transparent
-	tran:hover,
+.backgroundColor-transparent tran,
+.hover\:backgroundColor-transparent tran:hover,
 .active\:backgroundColor-transparent tran:active,
 .focus\:backgroundColor-transparent tran:focus {
 	background-color: var(--simple-colors-transparent tran);
@@ -1193,7 +1322,8 @@
 .hover\:bg-twitter-50:hover,
 .active\:bg-twitter-50:active,
 .focus\:bg-twitter-50:focus,
-.backgroundColor-twitter-50 .hover\:backgroundColor-twitter-50:hover,
+.backgroundColor-twitter-50,
+.hover\:backgroundColor-twitter-50:hover,
 .active\:backgroundColor-twitter-50:active,
 .focus\:backgroundColor-twitter-50:focus {
 	background-color: var(--simple-colors-twitter-50);
@@ -1202,7 +1332,8 @@
 .hover\:bg-twitter-100:hover,
 .active\:bg-twitter-100:active,
 .focus\:bg-twitter-100:focus,
-.backgroundColor-twitter-100 .hover\:backgroundColor-twitter-100:hover,
+.backgroundColor-twitter-100,
+.hover\:backgroundColor-twitter-100:hover,
 .active\:backgroundColor-twitter-100:active,
 .focus\:backgroundColor-twitter-100:focus {
 	background-color: var(--simple-colors-twitter-100);
@@ -1211,7 +1342,8 @@
 .hover\:bg-twitter-200:hover,
 .active\:bg-twitter-200:active,
 .focus\:bg-twitter-200:focus,
-.backgroundColor-twitter-200 .hover\:backgroundColor-twitter-200:hover,
+.backgroundColor-twitter-200,
+.hover\:backgroundColor-twitter-200:hover,
 .active\:backgroundColor-twitter-200:active,
 .focus\:backgroundColor-twitter-200:focus {
 	background-color: var(--simple-colors-twitter-200);
@@ -1220,7 +1352,8 @@
 .hover\:bg-twitter-300:hover,
 .active\:bg-twitter-300:active,
 .focus\:bg-twitter-300:focus,
-.backgroundColor-twitter-300 .hover\:backgroundColor-twitter-300:hover,
+.backgroundColor-twitter-300,
+.hover\:backgroundColor-twitter-300:hover,
 .active\:backgroundColor-twitter-300:active,
 .focus\:backgroundColor-twitter-300:focus {
 	background-color: var(--simple-colors-twitter-300);
@@ -1229,7 +1362,8 @@
 .hover\:bg-twitter-400:hover,
 .active\:bg-twitter-400:active,
 .focus\:bg-twitter-400:focus,
-.backgroundColor-twitter-400 .hover\:backgroundColor-twitter-400:hover,
+.backgroundColor-twitter-400,
+.hover\:backgroundColor-twitter-400:hover,
 .active\:backgroundColor-twitter-400:active,
 .focus\:backgroundColor-twitter-400:focus {
 	background-color: var(--simple-colors-twitter-400);
@@ -1238,7 +1372,8 @@
 .hover\:bg-twitter-500:hover,
 .active\:bg-twitter-500:active,
 .focus\:bg-twitter-500:focus,
-.backgroundColor-twitter-500 .hover\:backgroundColor-twitter-500:hover,
+.backgroundColor-twitter-500,
+.hover\:backgroundColor-twitter-500:hover,
 .active\:backgroundColor-twitter-500:active,
 .focus\:backgroundColor-twitter-500:focus {
 	background-color: var(--simple-colors-twitter-500);
@@ -1247,7 +1382,8 @@
 .hover\:bg-twitter-600:hover,
 .active\:bg-twitter-600:active,
 .focus\:bg-twitter-600:focus,
-.backgroundColor-twitter-600 .hover\:backgroundColor-twitter-600:hover,
+.backgroundColor-twitter-600,
+.hover\:backgroundColor-twitter-600:hover,
 .active\:backgroundColor-twitter-600:active,
 .focus\:backgroundColor-twitter-600:focus {
 	background-color: var(--simple-colors-twitter-600);
@@ -1256,7 +1392,8 @@
 .hover\:bg-twitter-700:hover,
 .active\:bg-twitter-700:active,
 .focus\:bg-twitter-700:focus,
-.backgroundColor-twitter-700 .hover\:backgroundColor-twitter-700:hover,
+.backgroundColor-twitter-700,
+.hover\:backgroundColor-twitter-700:hover,
 .active\:backgroundColor-twitter-700:active,
 .focus\:backgroundColor-twitter-700:focus {
 	background-color: var(--simple-colors-twitter-700);
@@ -1265,7 +1402,8 @@
 .hover\:bg-twitter-800:hover,
 .active\:bg-twitter-800:active,
 .focus\:bg-twitter-800:focus,
-.backgroundColor-twitter-800 .hover\:backgroundColor-twitter-800:hover,
+.backgroundColor-twitter-800,
+.hover\:backgroundColor-twitter-800:hover,
 .active\:backgroundColor-twitter-800:active,
 .focus\:backgroundColor-twitter-800:focus {
 	background-color: var(--simple-colors-twitter-800);
@@ -1274,7 +1412,8 @@
 .hover\:bg-twitter-900:hover,
 .active\:bg-twitter-900:active,
 .focus\:bg-twitter-900:focus,
-.backgroundColor-twitter-900 .hover\:backgroundColor-twitter-900:hover,
+.backgroundColor-twitter-900,
+.hover\:backgroundColor-twitter-900:hover,
 .active\:backgroundColor-twitter-900:active,
 .focus\:backgroundColor-twitter-900:focus {
 	background-color: var(--simple-colors-twitter-900);
@@ -1283,7 +1422,8 @@
 .hover\:bg-whatsapp-50:hover,
 .active\:bg-whatsapp-50:active,
 .focus\:bg-whatsapp-50:focus,
-.backgroundColor-whatsapp-50 .hover\:backgroundColor-whatsapp-50:hover,
+.backgroundColor-whatsapp-50,
+.hover\:backgroundColor-whatsapp-50:hover,
 .active\:backgroundColor-whatsapp-50:active,
 .focus\:backgroundColor-whatsapp-50:focus {
 	background-color: var(--simple-colors-whatsapp-50);
@@ -1292,7 +1432,8 @@
 .hover\:bg-whatsapp-100:hover,
 .active\:bg-whatsapp-100:active,
 .focus\:bg-whatsapp-100:focus,
-.backgroundColor-whatsapp-100 .hover\:backgroundColor-whatsapp-100:hover,
+.backgroundColor-whatsapp-100,
+.hover\:backgroundColor-whatsapp-100:hover,
 .active\:backgroundColor-whatsapp-100:active,
 .focus\:backgroundColor-whatsapp-100:focus {
 	background-color: var(--simple-colors-whatsapp-100);
@@ -1301,7 +1442,8 @@
 .hover\:bg-whatsapp-200:hover,
 .active\:bg-whatsapp-200:active,
 .focus\:bg-whatsapp-200:focus,
-.backgroundColor-whatsapp-200 .hover\:backgroundColor-whatsapp-200:hover,
+.backgroundColor-whatsapp-200,
+.hover\:backgroundColor-whatsapp-200:hover,
 .active\:backgroundColor-whatsapp-200:active,
 .focus\:backgroundColor-whatsapp-200:focus {
 	background-color: var(--simple-colors-whatsapp-200);
@@ -1310,7 +1452,8 @@
 .hover\:bg-whatsapp-300:hover,
 .active\:bg-whatsapp-300:active,
 .focus\:bg-whatsapp-300:focus,
-.backgroundColor-whatsapp-300 .hover\:backgroundColor-whatsapp-300:hover,
+.backgroundColor-whatsapp-300,
+.hover\:backgroundColor-whatsapp-300:hover,
 .active\:backgroundColor-whatsapp-300:active,
 .focus\:backgroundColor-whatsapp-300:focus {
 	background-color: var(--simple-colors-whatsapp-300);
@@ -1319,7 +1462,8 @@
 .hover\:bg-whatsapp-400:hover,
 .active\:bg-whatsapp-400:active,
 .focus\:bg-whatsapp-400:focus,
-.backgroundColor-whatsapp-400 .hover\:backgroundColor-whatsapp-400:hover,
+.backgroundColor-whatsapp-400,
+.hover\:backgroundColor-whatsapp-400:hover,
 .active\:backgroundColor-whatsapp-400:active,
 .focus\:backgroundColor-whatsapp-400:focus {
 	background-color: var(--simple-colors-whatsapp-400);
@@ -1328,7 +1472,8 @@
 .hover\:bg-whatsapp-500:hover,
 .active\:bg-whatsapp-500:active,
 .focus\:bg-whatsapp-500:focus,
-.backgroundColor-whatsapp-500 .hover\:backgroundColor-whatsapp-500:hover,
+.backgroundColor-whatsapp-500,
+.hover\:backgroundColor-whatsapp-500:hover,
 .active\:backgroundColor-whatsapp-500:active,
 .focus\:backgroundColor-whatsapp-500:focus {
 	background-color: var(--simple-colors-whatsapp-500);
@@ -1337,7 +1482,8 @@
 .hover\:bg-whatsapp-600:hover,
 .active\:bg-whatsapp-600:active,
 .focus\:bg-whatsapp-600:focus,
-.backgroundColor-whatsapp-600 .hover\:backgroundColor-whatsapp-600:hover,
+.backgroundColor-whatsapp-600,
+.hover\:backgroundColor-whatsapp-600:hover,
 .active\:backgroundColor-whatsapp-600:active,
 .focus\:backgroundColor-whatsapp-600:focus {
 	background-color: var(--simple-colors-whatsapp-600);
@@ -1346,7 +1492,8 @@
 .hover\:bg-whatsapp-700:hover,
 .active\:bg-whatsapp-700:active,
 .focus\:bg-whatsapp-700:focus,
-.backgroundColor-whatsapp-700 .hover\:backgroundColor-whatsapp-700:hover,
+.backgroundColor-whatsapp-700,
+.hover\:backgroundColor-whatsapp-700:hover,
 .active\:backgroundColor-whatsapp-700:active,
 .focus\:backgroundColor-whatsapp-700:focus {
 	background-color: var(--simple-colors-whatsapp-700);
@@ -1355,7 +1502,8 @@
 .hover\:bg-whatsapp-800:hover,
 .active\:bg-whatsapp-800:active,
 .focus\:bg-whatsapp-800:focus,
-.backgroundColor-whatsapp-800 .hover\:backgroundColor-whatsapp-800:hover,
+.backgroundColor-whatsapp-800,
+.hover\:backgroundColor-whatsapp-800:hover,
 .active\:backgroundColor-whatsapp-800:active,
 .focus\:backgroundColor-whatsapp-800:focus {
 	background-color: var(--simple-colors-whatsapp-800);
@@ -1364,7 +1512,8 @@
 .hover\:bg-whatsapp-900:hover,
 .active\:bg-whatsapp-900:active,
 .focus\:bg-whatsapp-900:focus,
-.backgroundColor-whatsapp-900 .hover\:backgroundColor-whatsapp-900:hover,
+.backgroundColor-whatsapp-900,
+.hover\:backgroundColor-whatsapp-900:hover,
 .active\:backgroundColor-whatsapp-900:active,
 .focus\:backgroundColor-whatsapp-900:focus {
 	background-color: var(--simple-colors-whatsapp-900);
@@ -1373,7 +1522,8 @@
 .hover\:bg-white:hover,
 .active\:bg-white:active,
 .focus\:bg-white:focus,
-.backgroundColor-white .hover\:backgroundColor-white:hover,
+.backgroundColor-white .hover,
+\:backgroundColor-white:hover,
 .active\:backgroundColor-white:active,
 .focus\:backgroundColor-white:focus {
 	background-color: var(--simple-colors-white);
@@ -1382,7 +1532,8 @@
 .hover\:bg-yellow-50:hover,
 .active\:bg-yellow-50:active,
 .focus\:bg-yellow-50:focus,
-.backgroundColor-yellow-50 .hover\:backgroundColor-yellow-50:hover,
+.backgroundColor-yellow-50,
+.hover\:backgroundColor-yellow-50:hover,
 .active\:backgroundColor-yellow-50:active,
 .focus\:backgroundColor-yellow-50:focus {
 	background-color: var(--simple-colors-yellow-50);
@@ -1391,7 +1542,8 @@
 .hover\:bg-yellow-100:hover,
 .active\:bg-yellow-100:active,
 .focus\:bg-yellow-100:focus,
-.backgroundColor-yellow-100 .hover\:backgroundColor-yellow-100:hover,
+.backgroundColor-yellow-100,
+.hover\:backgroundColor-yellow-100:hover,
 .active\:backgroundColor-yellow-100:active,
 .focus\:backgroundColor-yellow-100:focus {
 	background-color: var(--simple-colors-yellow-100);
@@ -1400,7 +1552,8 @@
 .hover\:bg-yellow-200:hover,
 .active\:bg-yellow-200:active,
 .focus\:bg-yellow-200:focus,
-.backgroundColor-yellow-200 .hover\:backgroundColor-yellow-200:hover,
+.backgroundColor-yellow-200,
+.hover\:backgroundColor-yellow-200:hover,
 .active\:backgroundColor-yellow-200:active,
 .focus\:backgroundColor-yellow-200:focus {
 	background-color: var(--simple-colors-yellow-200);
@@ -1409,7 +1562,8 @@
 .hover\:bg-yellow-300:hover,
 .active\:bg-yellow-300:active,
 .focus\:bg-yellow-300:focus,
-.backgroundColor-yellow-300 .hover\:backgroundColor-yellow-300:hover,
+.backgroundColor-yellow-300,
+.hover\:backgroundColor-yellow-300:hover,
 .active\:backgroundColor-yellow-300:active,
 .focus\:backgroundColor-yellow-300:focus {
 	background-color: var(--simple-colors-yellow-300);
@@ -1418,7 +1572,8 @@
 .hover\:bg-yellow-400:hover,
 .active\:bg-yellow-400:active,
 .focus\:bg-yellow-400:focus,
-.backgroundColor-yellow-400 .hover\:backgroundColor-yellow-400:hover,
+.backgroundColor-yellow-400,
+.hover\:backgroundColor-yellow-400:hover,
 .active\:backgroundColor-yellow-400:active,
 .focus\:backgroundColor-yellow-400:focus {
 	background-color: var(--simple-colors-yellow-400);
@@ -1427,7 +1582,8 @@
 .hover\:bg-yellow-500:hover,
 .active\:bg-yellow-500:active,
 .focus\:bg-yellow-500:focus,
-.backgroundColor-yellow-500 .hover\:backgroundColor-yellow-500:hover,
+.backgroundColor-yellow-500,
+.hover\:backgroundColor-yellow-500:hover,
 .active\:backgroundColor-yellow-500:active,
 .focus\:backgroundColor-yellow-500:focus {
 	background-color: var(--simple-colors-yellow-500);
@@ -1436,7 +1592,8 @@
 .hover\:bg-yellow-600:hover,
 .active\:bg-yellow-600:active,
 .focus\:bg-yellow-600:focus,
-.backgroundColor-yellow-600 .hover\:backgroundColor-yellow-600:hover,
+.backgroundColor-yellow-600,
+.hover\:backgroundColor-yellow-600:hover,
 .active\:backgroundColor-yellow-600:active,
 .focus\:backgroundColor-yellow-600:focus {
 	background-color: var(--simple-colors-yellow-600);
@@ -1445,7 +1602,8 @@
 .hover\:bg-yellow-700:hover,
 .active\:bg-yellow-700:active,
 .focus\:bg-yellow-700:focus,
-.backgroundColor-yellow-700 .hover\:backgroundColor-yellow-700:hover,
+.backgroundColor-yellow-700,
+.hover\:backgroundColor-yellow-700:hover,
 .active\:backgroundColor-yellow-700:active,
 .focus\:backgroundColor-yellow-700:focus {
 	background-color: var(--simple-colors-yellow-700);
@@ -1454,7 +1612,8 @@
 .hover\:bg-yellow-800:hover,
 .active\:bg-yellow-800:active,
 .focus\:bg-yellow-800:focus,
-.backgroundColor-yellow-800 .hover\:backgroundColor-yellow-800:hover,
+.backgroundColor-yellow-800,
+.hover\:backgroundColor-yellow-800:hover,
 .active\:backgroundColor-yellow-800:active,
 .focus\:backgroundColor-yellow-800:focus {
 	background-color: var(--simple-colors-yellow-800);
@@ -1463,7 +1622,8 @@
 .hover\:bg-yellow-900:hover,
 .active\:bg-yellow-900:active,
 .focus\:bg-yellow-900:focus,
-.backgroundColor-yellow-900 .hover\:backgroundColor-yellow-900:hover,
+.backgroundColor-yellow-900,
+.hover\:backgroundColor-yellow-900:hover,
 .active\:backgroundColor-yellow-900:active,
 .focus\:backgroundColor-yellow-900:focus {
 	background-color: var(--simple-colors-yellow-900);
