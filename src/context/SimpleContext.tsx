@@ -15,6 +15,7 @@ import "../props/layout/display/index.css";
 import "../props/layout/position/index.css";
 import "../props/layout/overflow/index.css";
 import "../props/layout/absolutePosition/index.css";
+import "../props/layout/zIndex/index.css";
 import "../props/flex/flex/index.css";
 import "../props/flex/flexDirection/index.css";
 import "../props/flex/flexGrow/index.css";
