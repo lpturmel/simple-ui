@@ -20,7 +20,9 @@ export function mapPropsToCss<T>(props: T) {
 				(prop as string).replace("_", "")
 			);
 		} else {
-			classString += `${prop}-${props[prop]} `.replace(".", "-");
+			if (!reservedProps.includes(prop.toString())) {
+				classString += `${prop}-${props[prop]} `.replace(".", "-");
+			}
 		}
 	});
 	return classString;
@@ -32,10 +34,11 @@ export function mapPropsToCss<T>(props: T) {
  * @returns
  */
 export function parseDefaultProps<T>(
-	props: T,
+	props: PropsWithChildren<T>,
 	defaultProps: PropsWithChildren<T>
 ) {
-	const parsedProps: T = { ...props };
+	const parsedProps: PropsWithChildren<T> = { ...props };
+
 	(Object.keys(defaultProps) as Array<keyof T>).forEach(
 		(prop) => ((parsedProps as any)[prop] = defaultProps[prop])
 	);
@@ -43,6 +46,7 @@ export function parseDefaultProps<T>(
 	return parsedProps;
 }
 
+const reservedProps = ["children", "controls", "isOpen", "onClick"];
 /**
  * Describe the basic rem values
  */
