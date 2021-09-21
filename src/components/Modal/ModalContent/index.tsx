@@ -6,6 +6,7 @@ export interface ModalContentProps
 	extends MainProps<JSX.HTMLAttributes<HTMLDivElement>> {}
 const ModalContent: Component<ModalContentProps> = (props) => {
 	const defaultProps: PropsWithChildren<ModalContentProps> = {
+		// add maxWidth & maxHeight: max-w-md max-h-32
 		margin: "auto",
 		w: "full",
 		h: "full",
