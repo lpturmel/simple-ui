@@ -35,6 +35,7 @@ import { PlaceItemsProps } from "./flex/placeItems";
 import { PlaceSelfProps } from "./flex/placeSelf";
 import { OverflowProps } from "./layout/overflow";
 import { AbsolutePositionProps } from "./layout/absolutePosition";
+import { ZindexProps } from "./layout/zIndex";
 
 type MainProps<T = {}> = PaddingProps &
 	MarginProps &
@@ -73,5 +74,6 @@ type MainProps<T = {}> = PaddingProps &
 	GapProps &
 	OverflowProps &
 	AbsolutePositionProps &
+	ZindexProps &
 	T;
 export default MainProps;
