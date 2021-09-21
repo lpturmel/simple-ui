@@ -1,6 +1,16 @@
-import { Component } from "solid-js";
+import { Component, JSX, PropsWithChildren } from "solid-js";
+import MainProps from "../../../props";
+import { parseDefaultProps, mapPropsToCss } from "../../../props/Global";
 
-const ModalBody: Component = (props) => {
-	return <div class="z-50">{props.children}</div>;
+export interface ModalBodyProps
+	extends MainProps<JSX.HTMLAttributes<HTMLDivElement>> {}
+const ModalBody: Component<ModalBodyProps> = (props) => {
+	const defaultProps: PropsWithChildren<ModalBodyProps> = {
+		zIndex: 50,
+	};
+	const mergedProps = parseDefaultProps<ModalBodyProps>(props, defaultProps);
+
+	const tw = mapPropsToCss<PropsWithChildren<ModalBodyProps>>(mergedProps);
+	return <div class={tw}>{props.children}</div>;
 };
 export default ModalBody;
