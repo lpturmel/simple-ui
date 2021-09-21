@@ -1,8 +1,26 @@
-import { Component } from "solid-js";
+import { Component, JSX, PropsWithChildren } from "solid-js";
+import MainProps from "../../../props";
+import { parseDefaultProps, mapPropsToCss } from "../../../props/Global";
 
-const ModalHeader: Component = (props) => {
+export interface ModalHeaderProps
+	extends MainProps<JSX.HTMLAttributes<HTMLDivElement>> {}
+const ModalHeader: Component<ModalHeaderProps> = (props) => {
+	const defaultProps: PropsWithChildren<ModalHeaderProps> = {
+		display: "flex",
+		flexDirection: "row",
+		justifyContent: "between",
+		height: "screen",
+		width: "full",
+		p: 2,
+	};
+	const mergedProps = parseDefaultProps<ModalHeaderProps>(
+		props,
+		defaultProps
+	);
+
+	const tw = mapPropsToCss<PropsWithChildren<ModalHeaderProps>>(mergedProps);
 	return (
-		<div class="flex flex-row justify-between w-full p-2">
+		<div class={tw}>
 			{props.children}
 			<p>X</p>
 		</div>
