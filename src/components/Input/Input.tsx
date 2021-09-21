@@ -1,11 +1,11 @@
 import { Component, JSX, PropsWithChildren } from "solid-js";
 import MainProps from "../../props";
-import { mapPropsToTw } from "../../props/Global";
+import { mapPropsToCss } from "../../props/Global";
 
 export interface InputProps
 	extends MainProps<JSX.InputHTMLAttributes<HTMLInputElement>> {}
 export const Input: Component<InputProps> = (props) => {
-	const tw = mapPropsToTw<PropsWithChildren<InputProps>>(props);
+	const tw = mapPropsToCss<PropsWithChildren<InputProps>>(props);
 	return (
 		<input
 			{...props}
