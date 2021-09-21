@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
-import { blue } from "chalk";
+import chalk from "chalk";
 
 function fromDir(
   startPath: string,
@@ -54,7 +54,7 @@ export function mapPropsToTw<T>(props: T) {
 }
 
 fromDir("../my-app/src/", /\.*[^stories]\.tsx$/, function (filename) {
-  console.log("Processing: ", blue(filename));
+  console.log("Processing: ", chalk.blue(filename));
 
   const jsxOnly = /\s<[A-Z][\s\S]*<\/[A-Z].*>$/gm;
   const propOnly = /^\s*[a-z|_].*=.*/gm;
