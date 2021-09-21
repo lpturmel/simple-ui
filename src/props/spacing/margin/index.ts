@@ -1,17 +1,20 @@
 import { SimpleRemValues } from "../../Global";
 
 export interface MarginProps {
-	m?: SimpleRemValues;
-	my?: SimpleRemValues;
-	mx?: SimpleRemValues;
-	ml?: SimpleRemValues;
-	mt?: SimpleRemValues;
-	mr?: SimpleRemValues;
-	mb?: SimpleRemValues;
-	marginX?: SimpleRemValues;
-	marginY?: SimpleRemValues;
-	marginL?: SimpleRemValues;
-	marginT?: SimpleRemValues;
-	marginR?: SimpleRemValues;
-	marginB?: SimpleRemValues;
+	m?: marginValues;
+	my?: marginValues;
+	mx?: marginValues;
+	ml?: marginValues;
+	mt?: marginValues;
+	mr?: marginValues;
+	mb?: marginValues;
+	margin?: marginValues;
+	marginX?: marginValues;
+	marginY?: marginValues;
+	marginL?: marginValues;
+	marginT?: marginValues;
+	marginR?: marginValues;
+	marginB?: marginValues;
 }
+
+export type marginValues = SimpleRemValues | "auto";
