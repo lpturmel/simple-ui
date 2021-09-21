@@ -1,6 +1,6 @@
 import { Accessor, createSignal } from "solid-js";
 
-interface ICreateControls {
+export interface ICreateControls {
 	isOpen: Accessor<boolean>;
 	close: () => void;
 	open: () => void;
