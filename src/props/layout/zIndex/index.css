@@ -1,0 +1,42 @@
+.zIndex-0,
+.hover\:zIndex-0:hover,
+.active\:zIndex-0:active,
+.focus\:zIndex-0:focus {
+	z-index: 0;
+}
+.zIndex-10,
+.hover\:zIndex-10:hover,
+.active\:zIndex-10:active,
+.focus\:zIndex-10:focus {
+	z-index: 10;
+}
+.zIndex-20,
+.hover\:zIndex-20:hover,
+.active\:zIndex-20:active,
+.focus\:zIndex-20:focus {
+	z-index: 20;
+}
+.zIndex-30,
+.hover\:zIndex-30:hover,
+.active\:zIndex-30:active,
+.focus\:zIndex-30:focus {
+	z-index: 30;
+}
+.zIndex-40,
+.hover\:zIndex-40:hover,
+.active\:zIndex-40:active,
+.focus\:zIndex-40:focus {
+	z-index: 40;
+}
+.zIndex-50,
+.hover\:zIndex-50:hover,
+.active\:zIndex-50:active,
+.focus\:zIndex-50:focus {
+	z-index: 50;
+}
+.zIndex-auto,
+.hover\:zIndex-auto:hover,
+.active\:zIndex-auto:active,
+.focus\:zIndex-auto:focus {
+	z-index: auto;
+}
