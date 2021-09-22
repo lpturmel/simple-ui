@@ -20,7 +20,7 @@ export interface ModalProps
 	controls: ICreateControls;
 }
 export const Modal: Component<ModalProps> = (props) => {
-	const [state]: any = useContext(SimpleContext);
+	const [state] = useContext(SimpleContext);
 
 	const defaultProps: PropsWithChildren<ModalProps> = {
 		isOpen: props.isOpen,
@@ -49,7 +49,8 @@ export const Modal: Component<ModalProps> = (props) => {
 	return (
 		<>
 			{props.isOpen() && (
-				<Portal mount={state.portal}>
+				<Portal mount={state.portal!}>
+					{" "}
 					<div class={tw}>{props.children}</div>
 				</Portal>
 			)}
