@@ -36,6 +36,8 @@ import { PlaceSelfProps } from "./flex/placeSelf";
 import { OverflowProps } from "./layout/overflow";
 import { AbsolutePositionProps } from "./layout/absolutePosition";
 import { ZindexProps } from "./layout/zIndex";
+import { MinWidthProps } from "./sizing/minWidth";
+import { MaxWidthProps } from "./sizing/maxWidth";
 
 type MainProps<T = {}> = PaddingProps &
 	MarginProps &
@@ -44,6 +46,8 @@ type MainProps<T = {}> = PaddingProps &
 	FontSizeProps &
 	FontWeightProps &
 	WidthProps &
+	MinWidthProps &
+	MaxWidthProps &
 	HeightProps &
 	BorderRadiusProps &
 	SpacingProps &
