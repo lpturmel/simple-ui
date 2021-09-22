@@ -1,7 +1,9 @@
 import { Component, createContext } from "solid-js";
-import { createStore } from "solid-js/store";
+import { createStore, SetStoreFunction, Store } from "solid-js/store";
 import "../index.css";
 import "../props/sizing/width/index.css";
+import "../props/sizing/minWidth/index.css";
+import "../props/sizing/maxWidth/index.css";
 import "../props/sizing/height/index.css";
 import "../props/background/colors/index.css";
 import "../props/text/colors/index.css";
@@ -40,15 +42,18 @@ import "../props/grid/gridFlow/index.css";
 import "../props/grid/autoColumns/index.css";
 import "../props/grid/autoRows/index.css";
 
-export const SimpleContext = createContext();
+interface IProviderStore {
+	portal: Node | null;
+}
+const [state, setState] = createStore<IProviderStore>({
+	portal: null,
+});
+export const SimpleContext = createContext<
+	[Store<IProviderStore>, SetStoreFunction<IProviderStore>]
+>([state, setState]);
 
-export const SimpleProvider: Component = (props) => {
-	const [state, setState] = createStore<{
-		portal: null | HTMLDivElement;
-	}>({
-		portal: null,
-	});
-
+interface SimpleProviderProps {}
+export const SimpleProvider: Component<SimpleProviderProps> = (props) => {
 	return (
 		<SimpleContext.Provider value={[state, setState]}>
 			<div>
