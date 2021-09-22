@@ -1,0 +1,40 @@
+.minW-0,
+.hover\:minW-0:hover,
+.focus\:minW-0:focus,
+.active\:minW-0:active,
+.minWidth-0,
+.hover\:minWidth-0:hover,
+.focus\:minWidth-0:focus,
+.active\:minWidth-0:active {
+	min-width: 0px;
+}
+.minW-full,
+.hover\:minW-full:hover,
+.focus\:minW-full:focus,
+.active\:minW-full:active,
+.minWidth-full,
+.hover\:minWidth-full:hover,
+.focus\:minWidth-full:focus,
+.active\:minWidth-full:active {
+	min-width: 100%;
+}
+.minW-min,
+.hover\:minW-min:hover,
+.focus\:minW-min:focus,
+.active\:minW-min:active,
+.minWidth-min,
+.hover\:minWidth-min:hover,
+.focus\:minWidth-min:focus,
+.active\:minWidth-min:active {
+	min-width: min-content;
+}
+.minW-max,
+.hover\:minW-max:hover,
+.focus\:minW-max:focus,
+.active\:minW-max:active,
+.minWidth-max,
+.hover\:minWidth-max:hover,
+.focus\:minWidth-max:focus,
+.active\:minWidth-max:active {
+	min-width: max-content;
+}
