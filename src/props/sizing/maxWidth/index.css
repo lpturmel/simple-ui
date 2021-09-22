@@ -1,0 +1,220 @@
+.maxW-0,
+.focus\:maxW-0:focus,
+.active\:maxW-0:active,
+.hover\:maxW-0:hover,
+.maxWidth-0,
+.focus\:maxWidth-0:focus,
+.active\:maxWidth-0:active,
+.hover\:maxWidth-0:hover {
+	max-width: 0rem;
+}
+.maxW-none,
+.focus\:maxW-none:focus,
+.active\:maxW-none:active,
+.hover\:maxW-none:hover,
+.maxWidth-none,
+.focus\:maxWidth-none:focus,
+.active\:maxWidth-none:active,
+.hover\:maxWidth-none:hover {
+	max-width: none;
+}
+.maxW-xs,
+.focus\:maxW-xs:focus,
+.active\:maxW-xs:active,
+.hover\:maxW-xs:hover,
+.maxWidth-xs,
+.focus\:maxWidth-xs:focus,
+.active\:maxWidth-xs:active,
+.hover\:maxWidth-xs:hover {
+	max-width: 20rem;
+}
+.maxW-sm,
+.focus\:maxW-sm:focus,
+.active\:maxW-sm:active,
+.hover\:maxW-sm:hover,
+.maxWidth-sm,
+.focus\:maxWidth-sm:focus,
+.active\:maxWidth-sm:active,
+.hover\:maxWidth-sm:hover {
+	max-width: 24rem;
+}
+.maxW-md,
+.focus\:maxW-md:focus,
+.active\:maxW-md:active,
+.hover\:maxW-md:hover,
+.maxWidth-md,
+.focus\:maxWidth-md:focus,
+.active\:maxWidth-md:active,
+.hover\:maxWidth-md:hover {
+	max-width: 28rem;
+}
+.maxW-lg,
+.focus\:maxW-lg:focus,
+.active\:maxW-lg:active,
+.hover\:maxW-lg:hover,
+.maxWidth-lg,
+.focus\:maxWidth-lg:focus,
+.active\:maxWidth-lg:active,
+.hover\:maxWidth-lg:hover {
+	max-width: 32rem;
+}
+.maxW-xl,
+.focus\:maxW-xl:focus,
+.active\:maxW-xl:active,
+.hover\:maxW-xl:hover,
+.maxWidth-xl,
+.focus\:maxWidth-xl:focus,
+.active\:maxWidth-xl:active,
+.hover\:maxWidth-xl:hover {
+	max-width: 36rem;
+}
+.maxW-2xl,
+.focus\:maxW-2xl:focus,
+.active\:maxW-2xl:active,
+.hover\:maxW-2xl:hover,
+.maxWidth-2xl,
+.focus\:maxWidth-2xl:focus,
+.active\:maxWidth-2xl:active,
+.hover\:maxWidth-2xl:hover {
+	max-width: 42rem;
+}
+.maxW-3xl,
+.focus\:maxW-3xl:focus,
+.active\:maxW-3xl:active,
+.hover\:maxW-3xl:hover,
+.maxWidth-3xl,
+.focus\:maxWidth-3xl:focus,
+.active\:maxWidth-3xl:active,
+.hover\:maxWidth-3xl:hover {
+	max-width: 48rem;
+}
+.maxW-4xl,
+.focus\:maxW-4xl:focus,
+.active\:maxW-4xl:active,
+.hover\:maxW-4xl:hover,
+.maxWidth-4xl,
+.focus\:maxWidth-4xl:focus,
+.active\:maxWidth-4xl:active,
+.hover\:maxWidth-4xl:hover {
+	max-width: 56rem;
+}
+.maxW-5xl,
+.focus\:maxW-5xl:focus,
+.active\:maxW-5xl:active,
+.hover\:maxW-5xl:hover,
+.maxWidth-5xl,
+.focus\:maxWidth-5xl:focus,
+.active\:maxWidth-5xl:active,
+.hover\:maxWidth-5xl:hover {
+	max-width: 64rem;
+}
+.maxW-6xl,
+.focus\:maxW-6xl:focus,
+.active\:maxW-6xl:active,
+.hover\:maxW-6xl:hover,
+.maxWidth-6xl,
+.focus\:maxWidth-6xl:focus,
+.active\:maxWidth-6xl:active,
+.hover\:maxWidth-6xl:hover {
+	max-width: 72rem;
+}
+.maxW-7xl,
+.focus\:maxW-7xl:focus,
+.active\:maxW-7xl:active,
+.hover\:maxW-7xl:hover,
+.maxWidth-7xl,
+.focus\:maxWidth-7xl:focus,
+.active\:maxWidth-7xl:active,
+.hover\:maxWidth-7xl:hover {
+	max-width: 80rem;
+}
+.maxW-full,
+.focus\:maxW-full:focus,
+.active\:maxW-full:active,
+.hover\:maxW-full:hover,
+.maxWidth-full,
+.focus\:maxWidth-full:focus,
+.active\:maxWidth-full:active,
+.hover\:maxWidth-full:hover {
+	max-width: 100%;
+}
+.maxW-min,
+.focus\:maxW-min:focus,
+.active\:maxW-min:active,
+.hover\:maxW-min:hover,
+.maxWidth-min,
+.focus\:maxWidth-min:focus,
+.active\:maxWidth-min:active,
+.hover\:maxWidth-min:hover {
+	max-width: min-content;
+}
+.maxW-max,
+.focus\:maxW-max:focus,
+.active\:maxW-max:active,
+.hover\:maxW-max:hover,
+.maxWidth-max,
+.focus\:maxWidth-max:focus,
+.active\:maxWidth-max:active,
+.hover\:maxWidth-max:hover {
+	max-width: max-content;
+}
+.maxW-prose,
+.focus\:maxW-prose:focus,
+.active\:maxW-prose:active,
+.hover\:maxW-prose:hover,
+.maxWidth-prose,
+.focus\:maxWidth-prose:focus,
+.active\:maxWidth-prose:active,
+.hover\:maxWidth-prose:hover {
+	max-width: 65ch;
+}
+.maxW-screen-sm,
+.focus\:maxW-screen-sm:focus,
+.active\:maxW-screen-sm:active,
+.hover\:maxW-screen-sm:hover,
+.maxWidth-screen-sm,
+.focus\:maxWidth-screen-sm:focus,
+.active\:maxWidth-screen-sm:active,
+.hover\:maxWidth-screen-sm:hover {
+	max-width: 640px;
+}
+.maxW-screen-md,
+.focus\:maxW-screen-md:focus,
+.active\:maxW-screen-md:active,
+.hover\:maxW-screen-md:hover,
+.maxWidth-screen-md,
+.focus\:maxWidth-screen-md:focus,
+.active\:maxWidth-screen-md:active,
+.hover\:maxWidth-screen-md:hover {
+	max-width: 768px;
+}
+.maxW-screen-lg,
+.focus\:maxW-screen-lg:focus,
+.active\:maxW-screen-lg:active,
+.hover\:maxW-screen-lg:hover,
+.maxWidth-screen-lg,
+.focus\:maxWidth-screen-lg:focus,
+.active\:maxWidth-screen-lg:active,
+.hover\:maxWidth-screen-lg:hover {
+	max-width: 1024px;
+}
+.maxW-screen-xl,
+.focus\:maxW-screen-xl:focus,
+.active\:maxW-screen-xl:active,
+.hover\:maxW-screen-xl:hover,
+.maxWidth-screen-xl,
+.focus\:maxWidth-screen-xl:focus,
+.active\:maxWidth-screen-xl:active,
+.hover\:maxWidth-screen-xl:hover {
+	max-width: 1280px;
+}
+.maxW-screen-2xl,
+.focus\:maxW-screen-2xl:focus,
+.active\:maxW-screen-2xl:active,
+.hover\:maxW-screen-2xl:hover,
+.maxWidth-screen-2xl,
+.focus\:maxWidth-screen-2xl:focus,
+.active\:maxWidth-screen-2xl:active,
+.hover\:maxWidth-screen-2xl:hover {
+	max-width: 1536px;
+}
