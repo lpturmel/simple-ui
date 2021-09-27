@@ -1,78 +1,78 @@
-.gridCols-1,
-.hover\:gridCols-1:hover,
-.focus\:gridCols-1:focus,
-.active\:gridCols-1:active {
+.simple-ui-gridCols-1,
+.simple-ui-hover\:gridCols-1:hover,
+.simple-ui-focus\:gridCols-1:focus,
+.simple-ui-active\:gridCols-1:active {
 	grid-template-columns: repeat(1, minmax(0, 1fr));
 }
-.gridCols-2,
-.hover\:gridCols-2:hover,
-.focus\:gridCols-2:focus,
-.active\:gridCols-2:active {
+.simple-ui-gridCols-2,
+.simple-ui-hover\:gridCols-2:hover,
+.simple-ui-focus\:gridCols-2:focus,
+.simple-ui-active\:gridCols-2:active {
 	grid-template-columns: repeat(2, minmax(0, 1fr));
 }
-.gridCols-3,
-.hover\:gridCols-3:hover,
-.focus\:gridCols-3:focus,
-.active\:gridCols-3:active {
+.simple-ui-gridCols-3,
+.simple-ui-hover\:gridCols-3:hover,
+.simple-ui-focus\:gridCols-3:focus,
+.simple-ui-active\:gridCols-3:active {
 	grid-template-columns: repeat(3, minmax(0, 1fr));
 }
-.gridCols-4,
-.hover\:gridCols-4:hover,
-.focus\:gridCols-4:focus,
-.active\:gridCols-4:active {
+.simple-ui-gridCols-4,
+.simple-ui-hover\:gridCols-4:hover,
+.simple-ui-focus\:gridCols-4:focus,
+.simple-ui-active\:gridCols-4:active {
 	grid-template-columns: repeat(4, minmax(0, 1fr));
 }
-.gridCols-5,
-.hover\:gridCols-5:hover,
-.focus\:gridCols-5:focus,
-.active\:gridCols-5:active {
+.simple-ui-gridCols-5,
+.simple-ui-hover\:gridCols-5:hover,
+.simple-ui-focus\:gridCols-5:focus,
+.simple-ui-active\:gridCols-5:active {
 	grid-template-columns: repeat(5, minmax(0, 1fr));
 }
-.gridCols-6,
-.hover\:gridCols-6:hover,
-.focus\:gridCols-6:focus,
-.active\:gridCols-6:active {
+.simple-ui-gridCols-6,
+.simple-ui-hover\:gridCols-6:hover,
+.simple-ui-focus\:gridCols-6:focus,
+.simple-ui-active\:gridCols-6:active {
 	grid-template-columns: repeat(6, minmax(0, 1fr));
 }
-.gridCols-7,
-.hover\:gridCols-7:hover,
-.focus\:gridCols-7:focus,
-.active\:gridCols-7:active {
+.simple-ui-gridCols-7,
+.simple-ui-hover\:gridCols-7:hover,
+.simple-ui-focus\:gridCols-7:focus,
+.simple-ui-active\:gridCols-7:active {
 	grid-template-columns: repeat(7, minmax(0, 1fr));
 }
-.gridCols-8,
-.hover\:gridCols-8:hover,
-.focus\:gridCols-8:focus,
-.active\:gridCols-8:active {
+.simple-ui-gridCols-8,
+.simple-ui-hover\:gridCols-8:hover,
+.simple-ui-focus\:gridCols-8:focus,
+.simple-ui-active\:gridCols-8:active {
 	grid-template-columns: repeat(8, minmax(0, 1fr));
 }
-.gridCols-9,
-.hover\:gridCols-9:hover,
-.focus\:gridCols-9:focus,
-.active\:gridCols-9:active {
+.simple-ui-gridCols-9,
+.simple-ui-hover\:gridCols-9:hover,
+.simple-ui-focus\:gridCols-9:focus,
+.simple-ui-active\:gridCols-9:active {
 	grid-template-columns: repeat(9, minmax(0, 1fr));
 }
-.gridCols-10,
-.hover\:gridCols-10:hover,
-.focus\:gridCols-10:focus,
-.active\:gridCols-10:active {
+.simple-ui-gridCols-10,
+.simple-ui-hover\:gridCols-10:hover,
+.simple-ui-focus\:gridCols-10:focus,
+.simple-ui-active\:gridCols-10:active {
 	grid-template-columns: repeat(10, minmax(0, 1fr));
 }
-.gridCols-11,
-.hover\:gridCols-11:hover,
-.focus\:gridCols-11:focus,
-.active\:gridCols-11:active {
+.simple-ui-gridCols-11,
+.simple-ui-hover\:gridCols-11:hover,
+.simple-ui-focus\:gridCols-11:focus,
+.simple-ui-active\:gridCols-11:active {
 	grid-template-columns: repeat(11, minmax(0, 1fr));
 }
-.gridCols-12,
-.hover\:gridCols-12:hover,
-.focus\:gridCols-12:focus,
-.active\:gridCols-12:active {
+.simple-ui-gridCols-12,
+.simple-ui-hover\:gridCols-12:hover,
+.simple-ui-focus\:gridCols-12:focus,
+.simple-ui-active\:gridCols-12:active {
 	grid-template-columns: repeat(12, minmax(0, 1fr));
 }
-.gridCols-none,
-.hover\:gridCols-none:hover,
-.focus\:gridCols-none:focus,
-.active\:gridCols-none:active {
+.simple-ui-gridCols-none,
+.simple-ui-hover\:gridCols-none:hover,
+.simple-ui-focus\:gridCols-none:focus,
+.simple-ui-active\:gridCols-none:active {
 	grid-template-columns: none;
 }
