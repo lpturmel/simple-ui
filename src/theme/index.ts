@@ -1,3 +1,5 @@
+import ButtonOptions from "../components/Button/theme";
+import HStackOptions from "../components/HStack/theme";
 import MainProps from "../props";
 
 export interface SimpleComponentList {
@@ -25,27 +27,10 @@ export interface SimpleThemeConfig {
 export const DefaultTheme: SimpleThemeConfig = {
 	Components: {
 		Button: {
-			defaultProps: {
-				px: 4,
-				py: 2,
-				borderRadius: "md",
-				fontSize: "lg",
-				fontWeight: "semibold",
-				color: "white",
-				bg: "gray.400",
-				_hover: {
-					bg: "gray.500",
-				},
-				_active: {
-					bg: "gray.600",
-				},
-			},
+			...ButtonOptions,
 		},
 		HStack: {
-			defaultProps: {
-				display: "flex",
-				flexDirection: "row",
-			},
+			...HStackOptions,
 		},
 		VStack: {
 			defaultProps: {
