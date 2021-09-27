@@ -1,12 +1,12 @@
-.flexGrow-0,
-.hover\:flexGrow-0:hover,
-.focus\:flexGrow-0:focus,
-.active\:flexGrow-0:active {
+.simple-ui-flexGrow-0,
+.simple-ui-hover\:flexGrow-0:hover,
+.simple-ui-focus\:flexGrow-0:focus,
+.simple-ui-active\:flexGrow-0:active {
 	flex-grow: 0;
 }
-.flexGrow,
-.hover\:flexGrow:hover,
-.focus\:flexGrow:focus,
-.active\:flexGrow:active {
+.simple-ui-flexGrow,
+.simple-ui-hover\:flexGrow:hover,
+.simple-ui-focus\:flexGrow:focus,
+.simple-ui-active\:flexGrow:active {
 	flex-grow: 1;
 }
