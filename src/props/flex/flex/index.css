@@ -1,24 +1,24 @@
-.flex-1,
-.hover\:flex-1:hover,
-.focus\:flex-1:focus,
-.active\:flex-1:active {
+.simple-ui-flex-1,
+.simple-ui-hover\:flex-1:hover,
+.simple-ui-focus\:flex-1:focus,
+.simple-ui-active\:flex-1:active {
 	flex: 1 1 0%;
 }
-.flex-auto,
-.hover\:flex-auto:hover,
-.focus\:flex-auto:focus,
-.active\:flex-auto:active {
+.simple-ui-flex-auto,
+.simple-ui-hover\:flex-auto:hover,
+.simple-ui-focus\:flex-auto:focus,
+.simple-ui-active\:flex-auto:active {
 	flex: 1 1 auto;
 }
-.flex-initial,
-.hover\:flex-initial:hover,
-.focus\:flex-initial:focus,
-.active\:flex-initial:active {
+.simple-ui-flex-initial,
+.simple-ui-hover\:flex-initial:hover,
+.simple-ui-focus\:flex-initial:focus,
+.simple-ui-active\:flex-initial:active {
 	flex: 0 1 auto;
 }
-.flex-none,
-.hover\:flex-none:hover,
-.focus\:flex-none:focus,
-.active\:flex-none:active {
+.simple-ui-flex-none,
+.simple-ui-hover\:flex-none:hover,
+.simple-ui-focus\:flex-none:focus,
+.simple-ui-active\:flex-none:active {
 	flex: none;
 }
