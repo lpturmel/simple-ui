@@ -1,220 +1,220 @@
-.maxW-0,
-.focus\:maxW-0:focus,
-.active\:maxW-0:active,
-.hover\:maxW-0:hover,
-.maxWidth-0,
-.focus\:maxWidth-0:focus,
-.active\:maxWidth-0:active,
-.hover\:maxWidth-0:hover {
+.simple-ui-maxW-0,
+.simple-ui-focus\:maxW-0:focus,
+.simple-ui-active\:maxW-0:active,
+.simple-ui-hover\:maxW-0:hover,
+.simple-ui-maxWidth-0,
+.simple-ui-focus\:maxWidth-0:focus,
+.simple-ui-active\:maxWidth-0:active,
+.simple-ui-hover\:maxWidth-0:hover {
 	max-width: 0rem;
 }
-.maxW-none,
-.focus\:maxW-none:focus,
-.active\:maxW-none:active,
-.hover\:maxW-none:hover,
-.maxWidth-none,
-.focus\:maxWidth-none:focus,
-.active\:maxWidth-none:active,
-.hover\:maxWidth-none:hover {
+.simple-ui-maxW-none,
+.simple-ui-focus\:maxW-none:focus,
+.simple-ui-active\:maxW-none:active,
+.simple-ui-hover\:maxW-none:hover,
+.simple-ui-maxWidth-none,
+.simple-ui-focus\:maxWidth-none:focus,
+.simple-ui-active\:maxWidth-none:active,
+.simple-ui-hover\:maxWidth-none:hover {
 	max-width: none;
 }
-.maxW-xs,
-.focus\:maxW-xs:focus,
-.active\:maxW-xs:active,
-.hover\:maxW-xs:hover,
-.maxWidth-xs,
-.focus\:maxWidth-xs:focus,
-.active\:maxWidth-xs:active,
-.hover\:maxWidth-xs:hover {
+.simple-ui-maxW-xs,
+.simple-ui-focus\:maxW-xs:focus,
+.simple-ui-active\:maxW-xs:active,
+.simple-ui-hover\:maxW-xs:hover,
+.simple-ui-maxWidth-xs,
+.simple-ui-focus\:maxWidth-xs:focus,
+.simple-ui-active\:maxWidth-xs:active,
+.simple-ui-hover\:maxWidth-xs:hover {
 	max-width: 20rem;
 }
-.maxW-sm,
-.focus\:maxW-sm:focus,
-.active\:maxW-sm:active,
-.hover\:maxW-sm:hover,
-.maxWidth-sm,
-.focus\:maxWidth-sm:focus,
-.active\:maxWidth-sm:active,
-.hover\:maxWidth-sm:hover {
+.simple-ui-maxW-sm,
+.simple-ui-focus\:maxW-sm:focus,
+.simple-ui-active\:maxW-sm:active,
+.simple-ui-hover\:maxW-sm:hover,
+.simple-ui-maxWidth-sm,
+.simple-ui-focus\:maxWidth-sm:focus,
+.simple-ui-active\:maxWidth-sm:active,
+.simple-ui-hover\:maxWidth-sm:hover {
 	max-width: 24rem;
 }
-.maxW-md,
-.focus\:maxW-md:focus,
-.active\:maxW-md:active,
-.hover\:maxW-md:hover,
-.maxWidth-md,
-.focus\:maxWidth-md:focus,
-.active\:maxWidth-md:active,
-.hover\:maxWidth-md:hover {
+.simple-ui-maxW-md,
+.simple-ui-focus\:maxW-md:focus,
+.simple-ui-active\:maxW-md:active,
+.simple-ui-hover\:maxW-md:hover,
+.simple-ui-maxWidth-md,
+.simple-ui-focus\:maxWidth-md:focus,
+.simple-ui-active\:maxWidth-md:active,
+.simple-ui-hover\:maxWidth-md:hover {
 	max-width: 28rem;
 }
-.maxW-lg,
-.focus\:maxW-lg:focus,
-.active\:maxW-lg:active,
-.hover\:maxW-lg:hover,
-.maxWidth-lg,
-.focus\:maxWidth-lg:focus,
-.active\:maxWidth-lg:active,
-.hover\:maxWidth-lg:hover {
+.simple-ui-maxW-lg,
+.simple-ui-focus\:maxW-lg:focus,
+.simple-ui-active\:maxW-lg:active,
+.simple-ui-hover\:maxW-lg:hover,
+.simple-ui-maxWidth-lg,
+.simple-ui-focus\:maxWidth-lg:focus,
+.simple-ui-active\:maxWidth-lg:active,
+.simple-ui-hover\:maxWidth-lg:hover {
 	max-width: 32rem;
 }
-.maxW-xl,
-.focus\:maxW-xl:focus,
-.active\:maxW-xl:active,
-.hover\:maxW-xl:hover,
-.maxWidth-xl,
-.focus\:maxWidth-xl:focus,
-.active\:maxWidth-xl:active,
-.hover\:maxWidth-xl:hover {
+.simple-ui-maxW-xl,
+.simple-ui-focus\:maxW-xl:focus,
+.simple-ui-active\:maxW-xl:active,
+.simple-ui-hover\:maxW-xl:hover,
+.simple-ui-maxWidth-xl,
+.simple-ui-focus\:maxWidth-xl:focus,
+.simple-ui-active\:maxWidth-xl:active,
+.simple-ui-hover\:maxWidth-xl:hover {
 	max-width: 36rem;
 }
-.maxW-2xl,
-.focus\:maxW-2xl:focus,
-.active\:maxW-2xl:active,
-.hover\:maxW-2xl:hover,
-.maxWidth-2xl,
-.focus\:maxWidth-2xl:focus,
-.active\:maxWidth-2xl:active,
-.hover\:maxWidth-2xl:hover {
+.simple-ui-maxW-2xl,
+.simple-ui-focus\:maxW-2xl:focus,
+.simple-ui-active\:maxW-2xl:active,
+.simple-ui-hover\:maxW-2xl:hover,
+.simple-ui-maxWidth-2xl,
+.simple-ui-focus\:maxWidth-2xl:focus,
+.simple-ui-active\:maxWidth-2xl:active,
+.simple-ui-hover\:maxWidth-2xl:hover {
 	max-width: 42rem;
 }
-.maxW-3xl,
-.focus\:maxW-3xl:focus,
-.active\:maxW-3xl:active,
-.hover\:maxW-3xl:hover,
-.maxWidth-3xl,
-.focus\:maxWidth-3xl:focus,
-.active\:maxWidth-3xl:active,
-.hover\:maxWidth-3xl:hover {
+.simple-ui-maxW-3xl,
+.simple-ui-focus\:maxW-3xl:focus,
+.simple-ui-active\:maxW-3xl:active,
+.simple-ui-hover\:maxW-3xl:hover,
+.simple-ui-maxWidth-3xl,
+.simple-ui-focus\:maxWidth-3xl:focus,
+.simple-ui-active\:maxWidth-3xl:active,
+.simple-ui-hover\:maxWidth-3xl:hover {
 	max-width: 48rem;
 }
-.maxW-4xl,
-.focus\:maxW-4xl:focus,
-.active\:maxW-4xl:active,
-.hover\:maxW-4xl:hover,
-.maxWidth-4xl,
-.focus\:maxWidth-4xl:focus,
-.active\:maxWidth-4xl:active,
-.hover\:maxWidth-4xl:hover {
+.simple-ui-maxW-4xl,
+.simple-ui-focus\:maxW-4xl:focus,
+.simple-ui-active\:maxW-4xl:active,
+.simple-ui-hover\:maxW-4xl:hover,
+.simple-ui-maxWidth-4xl,
+.simple-ui-focus\:maxWidth-4xl:focus,
+.simple-ui-active\:maxWidth-4xl:active,
+.simple-ui-hover\:maxWidth-4xl:hover {
 	max-width: 56rem;
 }
-.maxW-5xl,
-.focus\:maxW-5xl:focus,
-.active\:maxW-5xl:active,
-.hover\:maxW-5xl:hover,
-.maxWidth-5xl,
-.focus\:maxWidth-5xl:focus,
-.active\:maxWidth-5xl:active,
-.hover\:maxWidth-5xl:hover {
+.simple-ui-maxW-5xl,
+.simple-ui-focus\:maxW-5xl:focus,
+.simple-ui-active\:maxW-5xl:active,
+.simple-ui-hover\:maxW-5xl:hover,
+.simple-ui-maxWidth-5xl,
+.simple-ui-focus\:maxWidth-5xl:focus,
+.simple-ui-active\:maxWidth-5xl:active,
+.simple-ui-hover\:maxWidth-5xl:hover {
 	max-width: 64rem;
 }
-.maxW-6xl,
-.focus\:maxW-6xl:focus,
-.active\:maxW-6xl:active,
-.hover\:maxW-6xl:hover,
-.maxWidth-6xl,
-.focus\:maxWidth-6xl:focus,
-.active\:maxWidth-6xl:active,
-.hover\:maxWidth-6xl:hover {
+.simple-ui-maxW-6xl,
+.simple-ui-focus\:maxW-6xl:focus,
+.simple-ui-active\:maxW-6xl:active,
+.simple-ui-hover\:maxW-6xl:hover,
+.simple-ui-maxWidth-6xl,
+.simple-ui-focus\:maxWidth-6xl:focus,
+.simple-ui-active\:maxWidth-6xl:active,
+.simple-ui-hover\:maxWidth-6xl:hover {
 	max-width: 72rem;
 }
-.maxW-7xl,
-.focus\:maxW-7xl:focus,
-.active\:maxW-7xl:active,
-.hover\:maxW-7xl:hover,
-.maxWidth-7xl,
-.focus\:maxWidth-7xl:focus,
-.active\:maxWidth-7xl:active,
-.hover\:maxWidth-7xl:hover {
+.simple-ui-maxW-7xl,
+.simple-ui-focus\:maxW-7xl:focus,
+.simple-ui-active\:maxW-7xl:active,
+.simple-ui-hover\:maxW-7xl:hover,
+.simple-ui-maxWidth-7xl,
+.simple-ui-focus\:maxWidth-7xl:focus,
+.simple-ui-active\:maxWidth-7xl:active,
+.simple-ui-hover\:maxWidth-7xl:hover {
 	max-width: 80rem;
 }
-.maxW-full,
-.focus\:maxW-full:focus,
-.active\:maxW-full:active,
-.hover\:maxW-full:hover,
-.maxWidth-full,
-.focus\:maxWidth-full:focus,
-.active\:maxWidth-full:active,
-.hover\:maxWidth-full:hover {
+.simple-ui-maxW-full,
+.simple-ui-focus\:maxW-full:focus,
+.simple-ui-active\:maxW-full:active,
+.simple-ui-hover\:maxW-full:hover,
+.simple-ui-maxWidth-full,
+.simple-ui-focus\:maxWidth-full:focus,
+.simple-ui-active\:maxWidth-full:active,
+.simple-ui-hover\:maxWidth-full:hover {
 	max-width: 100%;
 }
-.maxW-min,
-.focus\:maxW-min:focus,
-.active\:maxW-min:active,
-.hover\:maxW-min:hover,
-.maxWidth-min,
-.focus\:maxWidth-min:focus,
-.active\:maxWidth-min:active,
-.hover\:maxWidth-min:hover {
+.simple-ui-maxW-min,
+.simple-ui-focus\:maxW-min:focus,
+.simple-ui-active\:maxW-min:active,
+.simple-ui-hover\:maxW-min:hover,
+.simple-ui-maxWidth-min,
+.simple-ui-focus\:maxWidth-min:focus,
+.simple-ui-active\:maxWidth-min:active,
+.simple-ui-hover\:maxWidth-min:hover {
 	max-width: min-content;
 }
-.maxW-max,
-.focus\:maxW-max:focus,
-.active\:maxW-max:active,
-.hover\:maxW-max:hover,
-.maxWidth-max,
-.focus\:maxWidth-max:focus,
-.active\:maxWidth-max:active,
-.hover\:maxWidth-max:hover {
+.simple-ui-maxW-max,
+.simple-ui-focus\:maxW-max:focus,
+.simple-ui-active\:maxW-max:active,
+.simple-ui-hover\:maxW-max:hover,
+.simple-ui-maxWidth-max,
+.simple-ui-focus\:maxWidth-max:focus,
+.simple-ui-active\:maxWidth-max:active,
+.simple-ui-hover\:maxWidth-max:hover {
 	max-width: max-content;
 }
-.maxW-prose,
-.focus\:maxW-prose:focus,
-.active\:maxW-prose:active,
-.hover\:maxW-prose:hover,
-.maxWidth-prose,
-.focus\:maxWidth-prose:focus,
-.active\:maxWidth-prose:active,
-.hover\:maxWidth-prose:hover {
+.simple-ui-maxW-prose,
+.simple-ui-focus\:maxW-prose:focus,
+.simple-ui-active\:maxW-prose:active,
+.simple-ui-hover\:maxW-prose:hover,
+.simple-ui-maxWidth-prose,
+.simple-ui-focus\:maxWidth-prose:focus,
+.simple-ui-active\:maxWidth-prose:active,
+.simple-ui-hover\:maxWidth-prose:hover {
 	max-width: 65ch;
 }
-.maxW-screen-sm,
-.focus\:maxW-screen-sm:focus,
-.active\:maxW-screen-sm:active,
-.hover\:maxW-screen-sm:hover,
-.maxWidth-screen-sm,
-.focus\:maxWidth-screen-sm:focus,
-.active\:maxWidth-screen-sm:active,
-.hover\:maxWidth-screen-sm:hover {
+.simple-ui-maxW-screen-sm,
+.simple-ui-focus\:maxW-screen-sm:focus,
+.simple-ui-active\:maxW-screen-sm:active,
+.simple-ui-hover\:maxW-screen-sm:hover,
+.simple-ui-maxWidth-screen-sm,
+.simple-ui-focus\:maxWidth-screen-sm:focus,
+.simple-ui-active\:maxWidth-screen-sm:active,
+.simple-ui-hover\:maxWidth-screen-sm:hover {
 	max-width: 640px;
 }
-.maxW-screen-md,
-.focus\:maxW-screen-md:focus,
-.active\:maxW-screen-md:active,
-.hover\:maxW-screen-md:hover,
-.maxWidth-screen-md,
-.focus\:maxWidth-screen-md:focus,
-.active\:maxWidth-screen-md:active,
-.hover\:maxWidth-screen-md:hover {
+.simple-ui-maxW-screen-md,
+.simple-ui-focus\:maxW-screen-md:focus,
+.simple-ui-active\:maxW-screen-md:active,
+.simple-ui-hover\:maxW-screen-md:hover,
+.simple-ui-maxWidth-screen-md,
+.simple-ui-focus\:maxWidth-screen-md:focus,
+.simple-ui-active\:maxWidth-screen-md:active,
+.simple-ui-hover\:maxWidth-screen-md:hover {
 	max-width: 768px;
 }
-.maxW-screen-lg,
-.focus\:maxW-screen-lg:focus,
-.active\:maxW-screen-lg:active,
-.hover\:maxW-screen-lg:hover,
-.maxWidth-screen-lg,
-.focus\:maxWidth-screen-lg:focus,
-.active\:maxWidth-screen-lg:active,
-.hover\:maxWidth-screen-lg:hover {
+.simple-ui-maxW-screen-lg,
+.simple-ui-focus\:maxW-screen-lg:focus,
+.simple-ui-active\:maxW-screen-lg:active,
+.simple-ui-hover\:maxW-screen-lg:hover,
+.simple-ui-maxWidth-screen-lg,
+.simple-ui-focus\:maxWidth-screen-lg:focus,
+.simple-ui-active\:maxWidth-screen-lg:active,
+.simple-ui-hover\:maxWidth-screen-lg:hover {
 	max-width: 1024px;
 }
-.maxW-screen-xl,
-.focus\:maxW-screen-xl:focus,
-.active\:maxW-screen-xl:active,
-.hover\:maxW-screen-xl:hover,
-.maxWidth-screen-xl,
-.focus\:maxWidth-screen-xl:focus,
-.active\:maxWidth-screen-xl:active,
-.hover\:maxWidth-screen-xl:hover {
+.simple-ui-maxW-screen-xl,
+.simple-ui-focus\:maxW-screen-xl:focus,
+.simple-ui-active\:maxW-screen-xl:active,
+.simple-ui-hover\:maxW-screen-xl:hover,
+.simple-ui-maxWidth-screen-xl,
+.simple-ui-focus\:maxWidth-screen-xl:focus,
+.simple-ui-active\:maxWidth-screen-xl:active,
+.simple-ui-hover\:maxWidth-screen-xl:hover {
 	max-width: 1280px;
 }
-.maxW-screen-2xl,
-.focus\:maxW-screen-2xl:focus,
-.active\:maxW-screen-2xl:active,
-.hover\:maxW-screen-2xl:hover,
-.maxWidth-screen-2xl,
-.focus\:maxWidth-screen-2xl:focus,
-.active\:maxWidth-screen-2xl:active,
-.hover\:maxWidth-screen-2xl:hover {
+.simple-ui-maxW-screen-2xl,
+.simple-ui-focus\:maxW-screen-2xl:focus,
+.simple-ui-active\:maxW-screen-2xl:active,
+.simple-ui-hover\:maxW-screen-2xl:hover,
+.simple-ui-maxWidth-screen-2xl,
+.simple-ui-focus\:maxWidth-screen-2xl:focus,
+.simple-ui-active\:maxWidth-screen-2xl:active,
+.simple-ui-hover\:maxWidth-screen-2xl:hover {
 	max-width: 1536px;
 }
