@@ -16,9 +16,11 @@ const ModalHeader: Component<ModalHeaderProps> = (props) => {
 		props,
 		modalHeaderDefaultProps!
 	);
-	const tw = mapPropsToCss<PropsWithChildren<ModalHeaderProps>>(mergedProps);
+	const simpleProps = mapPropsToCss<PropsWithChildren<ModalHeaderProps>>(
+		mergedProps
+	);
 	return (
-		<div class={tw}>
+		<div class={simpleProps}>
 			{props.children}
 			<button>X</button>
 		</div>

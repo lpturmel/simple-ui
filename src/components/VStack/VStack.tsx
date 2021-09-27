@@ -13,9 +13,11 @@ export const VStack: Component<VStackProps> = (props) => {
 		props,
 		VStackDefaultProps!
 	);
-	const tw = mapPropsToCss<PropsWithChildren<VStackProps>>(mergedProps);
+	const simpleProps = mapPropsToCss<PropsWithChildren<VStackProps>>(
+		mergedProps
+	);
 	return (
-		<div {...props} class={tw}>
+		<div {...props} class={simpleProps}>
 			{props.children}
 		</div>
 	);

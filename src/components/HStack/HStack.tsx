@@ -16,10 +16,12 @@ export const HStack: Component<HStackProps> = (props) => {
 		HStackDefaultProps!
 	);
 
-	const tw = mapPropsToCss<PropsWithChildren<HStackProps>>(mergedProps);
+	const simpleProps = mapPropsToCss<PropsWithChildren<HStackProps>>(
+		mergedProps
+	);
 
 	return (
-		<div {...props} class={tw}>
+		<div {...props} class={simpleProps}>
 			{props.children}
 		</div>
 	);

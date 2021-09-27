@@ -15,8 +15,10 @@ const ModalFooter: Component<ModalFooterProps> = (props) => {
 		props,
 		modalFooterDefaultProps!
 	);
-	const tw = mapPropsToCss<PropsWithChildren<ModalFooterProps>>(mergedProps);
+	const simpleProps = mapPropsToCss<PropsWithChildren<ModalFooterProps>>(
+		mergedProps
+	);
 
-	return <div class={tw}>{props.children}</div>;
+	return <div class={simpleProps}>{props.children}</div>;
 };
 export default ModalFooter;

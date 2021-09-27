@@ -14,7 +14,14 @@ const ModalOverlay: Component<ModalOverlayProps> = (props) => {
 		props,
 		modalOverlayDefaultProps!
 	);
-	const tw = mapPropsToCss<PropsWithChildren<ModalOverlayProps>>(mergedProps);
-	return <div class={tw} style={{ background: "rgba(0, 0, 0, 0.48)" }}></div>;
+	const simpleProps = mapPropsToCss<PropsWithChildren<ModalOverlayProps>>(
+		mergedProps
+	);
+	return (
+		<div
+			class={simpleProps}
+			style={{ background: "rgba(0, 0, 0, 0.48)" }}
+		></div>
+	);
 };
 export default ModalOverlay;

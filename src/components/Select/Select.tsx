@@ -21,7 +21,9 @@ const Select: Component<SelectProps> = (props) => {
 		props,
 		selectDefaultProps!
 	);
-	const tw = mapPropsToCss<PropsWithChildren<SelectProps>>(mergedProps);
+	const simpleProps = mapPropsToCss<PropsWithChildren<SelectProps>>(
+		mergedProps
+	);
 
 	const [valid, setValid] = createSignal(true);
 
@@ -41,7 +43,7 @@ const Select: Component<SelectProps> = (props) => {
 			onBlur={_handleBlur}
 			class={`${
 				valid() ? "" : "border-red-500"
-			} ${tw} transition-colors duration-200 ease-in-out py-2 px-4 bg-gray-100 hover:bg-gray-300 border-2 border-transparent focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent font-semibold rounded-lg text-gray-800`}
+			} ${simpleProps} transition-colors duration-200 ease-in-out py-2 px-4 bg-gray-100 hover:bg-gray-300 border-2 border-transparent focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent font-semibold rounded-lg text-gray-800`}
 			{...props}
 		>
 			<option value={props.defaultValue}>{props.defaultValue}</option>

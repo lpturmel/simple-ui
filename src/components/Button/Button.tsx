@@ -16,10 +16,12 @@ export const Button: Component<ButtonProps> = (props) => {
 		buttonDefaultProps!
 	);
 	// Add
-	const tw = mapPropsToCss<PropsWithChildren<ButtonProps>>(mergedProps);
+	const simpleProps = mapPropsToCss<PropsWithChildren<ButtonProps>>(
+		mergedProps
+	);
 
 	return (
-		<button {...props} class={tw}>
+		<button {...props} class={simpleProps}>
 			{props.children}
 		</button>
 	);

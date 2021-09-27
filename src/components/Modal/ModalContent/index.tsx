@@ -14,8 +14,10 @@ const ModalContent: Component<ModalContentProps> = (props) => {
 		props,
 		modalContentDefaultProps!
 	);
-	const tw = mapPropsToCss<PropsWithChildren<ModalContentProps>>(mergedProps);
+	const simpleProps = mapPropsToCss<PropsWithChildren<ModalContentProps>>(
+		mergedProps
+	);
 
-	return <div class={tw}>{props.children}</div>;
+	return <div class={simpleProps}>{props.children}</div>;
 };
 export default ModalContent;
