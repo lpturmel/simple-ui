@@ -1,167 +1,167 @@
-.row-auto,
-.hover\:row-auto:hover,
-.focus\:row-auto:focus,
-.active\:row-auto:active {
+.simple-ui-row-auto,
+.simple-ui-hover\:row-auto:hover,
+.simple-ui-focus\:row-auto:focus,
+.simple-ui-active\:row-auto:active {
 	grid-row: auto;
 }
 
-.row-span-1,
-.hover\:row-span-1:hover,
-.focus\:row-span-1:focus,
-.active\:row-span-1:active {
+.simple-ui-row-span-1,
+.simple-ui-hover\:row-span-1:hover,
+.simple-ui-focus\:row-span-1:focus,
+.simple-ui-active\:row-span-1:active {
 	grid-row: span 1 / span 1;
 }
 
-.row-span-2,
-.hover\:row-span-2:hover,
-.focus\:row-span-2:focus,
-.active\:row-span-2:active {
+.simple-ui-row-span-2,
+.simple-ui-hover\:row-span-2:hover,
+.simple-ui-focus\:row-span-2:focus,
+.simple-ui-active\:row-span-2:active {
 	grid-row: span 2 / span 2;
 }
 
-.row-span-3,
-.hover\:row-span-3:hover,
-.focus\:row-span-3:focus,
-.active\:row-span-3:active {
+.simple-ui-row-span-3,
+.simple-ui-hover\:row-span-3:hover,
+.simple-ui-focus\:row-span-3:focus,
+.simple-ui-active\:row-span-3:active {
 	grid-row: span 3 / span 3;
 }
 
-.row-span-4,
-.hover\:row-span-4:hover,
-.focus\:row-span-4:focus,
-.active\:row-span-4:active {
+.simple-ui-row-span-4,
+.simple-ui-hover\:row-span-4:hover,
+.simple-ui-focus\:row-span-4:focus,
+.simple-ui-active\:row-span-4:active {
 	grid-row: span 4 / span 4;
 }
 
-.row-span-5,
-.hover\:row-span-5:hover,
-.focus\:row-span-5:focus,
-.active\:row-span-5:active {
+.simple-ui-row-span-5,
+.simple-ui-hover\:row-span-5:hover,
+.simple-ui-focus\:row-span-5:focus,
+.simple-ui-active\:row-span-5:active {
 	grid-row: span 5 / span 5;
 }
 
-.row-span-6,
-.hover\:row-span-6:hover,
-.focus\:row-span-6:focus,
-.active\:row-span-6:active {
+.simple-ui-row-span-6,
+.simple-ui-hover\:row-span-6:hover,
+.simple-ui-focus\:row-span-6:focus,
+.simple-ui-active\:row-span-6:active {
 	grid-row: span 6 / span 6;
 }
 
-.row-span-full,
-.hover\:row-span-full:hover,
-.focus\:row-span-full:focus,
-.active\:row-span-full:active {
+.simple-ui-row-span-full,
+.simple-ui-hover\:row-span-full:hover,
+.simple-ui-focus\:row-span-full:focus,
+.simple-ui-active\:row-span-full:active {
 	grid-row: 1 / -1;
 }
 
-.row-start-1,
-.hover\:row-start-1:hover,
-.focus\:row-start-1:focus,
-.active\:row-start-1:active {
+.simple-ui-row-start-1,
+.simple-ui-hover\:row-start-1:hover,
+.simple-ui-focus\:row-start-1:focus,
+.simple-ui-active\:row-start-1:active {
 	grid-row-start: 1;
 }
 
-.row-start-2,
-.hover\:row-start-2:hover,
-.focus\:row-start-2:focus,
-.active\:row-start-2:active {
+.simple-ui-row-start-2,
+.simple-ui-hover\:row-start-2:hover,
+.simple-ui-focus\:row-start-2:focus,
+.simple-ui-active\:row-start-2:active {
 	grid-row-start: 2;
 }
 
-.row-start-3,
-.hover\:row-start-3:hover,
-.focus\:row-start-3:focus,
-.active\:row-start-3:active {
+.simple-ui-row-start-3,
+.simple-ui-hover\:row-start-3:hover,
+.simple-ui-focus\:row-start-3:focus,
+.simple-ui-active\:row-start-3:active {
 	grid-row-start: 3;
 }
 
-.row-start-4,
-.hover\:row-start-4:hover,
-.focus\:row-start-4:focus,
-.active\:row-start-4:active {
+.simple-ui-row-start-4,
+.simple-ui-hover\:row-start-4:hover,
+.simple-ui-focus\:row-start-4:focus,
+.simple-ui-active\:row-start-4:active {
 	grid-row-start: 4;
 }
 
-.row-start-5,
-.hover\:row-start-5:hover,
-.focus\:row-start-5:focus,
-.active\:row-start-5:active {
+.simple-ui-row-start-5,
+.simple-ui-hover\:row-start-5:hover,
+.simple-ui-focus\:row-start-5:focus,
+.simple-ui-active\:row-start-5:active {
 	grid-row-start: 5;
 }
 
-.row-start-6,
-.hover\:row-start-6:hover,
-.focus\:row-start-6:focus,
-.active\:row-start-6:active {
+.simple-ui-row-start-6,
+.simple-ui-hover\:row-start-6:hover,
+.simple-ui-focus\:row-start-6:focus,
+.simple-ui-active\:row-start-6:active {
 	grid-row-start: 6;
 }
 
-.row-start-7,
-.hover\:row-start-7:hover,
-.focus\:row-start-7:focus,
-.active\:row-start-7:active {
+.simple-ui-row-start-7,
+.simple-ui-hover\:row-start-7:hover,
+.simple-ui-focus\:row-start-7:focus,
+.simple-ui-active\:row-start-7:active {
 	grid-row-start: 7;
 }
 
-.row-start-auto,
-.hover\:row-start-auto:hover,
-.focus\:row-start-auto:focus,
-.active\:row-start-auto:active {
+.simple-ui-row-start-auto,
+.simple-ui-hover\:row-start-auto:hover,
+.simple-ui-focus\:row-start-auto:focus,
+.simple-ui-active\:row-start-auto:active {
 	grid-row-start: auto;
 }
 
-.row-end-1,
-.hover\:row-end-1:hover,
-.focus\:row-end-1:focus,
-.active\:row-end-1:active {
+.simple-ui-row-end-1,
+.simple-ui-hover\:row-end-1:hover,
+.simple-ui-focus\:row-end-1:focus,
+.simple-ui-active\:row-end-1:active {
 	grid-row-end: 1;
 }
 
-.row-end-2,
-.hover\:row-end-2:hover,
-.focus\:row-end-2:focus,
-.active\:row-end-2:active {
+.simple-ui-row-end-2,
+.simple-ui-hover\:row-end-2:hover,
+.simple-ui-focus\:row-end-2:focus,
+.simple-ui-active\:row-end-2:active {
 	grid-row-end: 2;
 }
 
-.row-end-3,
-.hover\:row-end-3:hover,
-.focus\:row-end-3:focus,
-.active\:row-end-3:active {
+.simple-ui-row-end-3,
+.simple-ui-hover\:row-end-3:hover,
+.simple-ui-focus\:row-end-3:focus,
+.simple-ui-active\:row-end-3:active {
 	grid-row-end: 3;
 }
 
-.row-end-4,
-.hover\:row-end-4:hover,
-.focus\:row-end-4:focus,
-.active\:row-end-4:active {
+.simple-ui-row-end-4,
+.simple-ui-hover\:row-end-4:hover,
+.simple-ui-focus\:row-end-4:focus,
+.simple-ui-active\:row-end-4:active {
 	grid-row-end: 4;
 }
 
-.row-end-5,
-.hover\:row-end-5:hover,
-.focus\:row-end-5:focus,
-.active\:row-end-5:active {
+.simple-ui-row-end-5,
+.simple-ui-hover\:row-end-5:hover,
+.simple-ui-focus\:row-end-5:focus,
+.simple-ui-active\:row-end-5:active {
 	grid-row-end: 5;
 }
 
-.row-end-6,
-.hover\:row-end-6:hover,
-.focus\:row-end-6:focus,
-.active\:row-end-6:active {
+.simple-ui-row-end-6,
+.simple-ui-hover\:row-end-6:hover,
+.simple-ui-focus\:row-end-6:focus,
+.simple-ui-active\:row-end-6:active {
 	grid-row-end: 6;
 }
 
-.row-end-7,
-.hover\:row-end-7:hover,
-.focus\:row-end-7:focus,
-.active\:row-end-7:active {
+.simple-ui-row-end-7,
+.simple-ui-hover\:row-end-7:hover,
+.simple-ui-focus\:row-end-7:focus,
+.simple-ui-active\:row-end-7:active {
 	grid-row-end: 7;
 }
 
-.row-end-auto,
-.hover\:row-end-auto:hover,
-.focus\:row-end-auto:focus,
-.active\:row-end-auto:active {
+.simple-ui-row-end-auto,
+.simple-ui-hover\:row-end-auto:hover,
+.simple-ui-focus\:row-end-auto:focus,
+.simple-ui-active\:row-end-auto:active {
 	grid-row-end: auto;
 }
