@@ -5,6 +5,8 @@ import "../props/sizing/width/index.css";
 import "../props/sizing/minWidth/index.css";
 import "../props/sizing/maxWidth/index.css";
 import "../props/sizing/height/index.css";
+import "../props/sizing/minHeight/index.css";
+import "../props/sizing/maxHeight/index.css";
 import "../props/background/colors/index.css";
 import "../props/text/colors/index.css";
 import "../props/text/fontSize/index.css";
@@ -41,12 +43,15 @@ import "../props/grid/gridRowSpan/index.css";
 import "../props/grid/gridFlow/index.css";
 import "../props/grid/autoColumns/index.css";
 import "../props/grid/autoRows/index.css";
+import { SimpleThemeConfig } from "../theme";
 
 interface IProviderStore {
 	portal: Node | null;
+	theme: SimpleThemeConfig;
 }
 const [state, setState] = createStore<IProviderStore>({
 	portal: null,
+	theme: {},
 });
 export const SimpleContext = createContext<
 	[Store<IProviderStore>, SetStoreFunction<IProviderStore>]
