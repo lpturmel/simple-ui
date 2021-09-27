@@ -1,24 +1,24 @@
-.flexDirection-row,
-.hover\:flexDirection-row:hover,
-.focus\:flexDirection-row:focus,
-.active\:flexDirection-row:active {
+.simple-ui-flexDirection-row,
+.simple-ui-hover\:flexDirection-row:hover,
+.simple-ui-focus\:flexDirection-row:focus,
+.simple-ui-active\:flexDirection-row:active {
 	flex-direction: row;
 }
-.flexDirection-row-reverse,
-.hover\:flexDirection-row-reverse:hover,
-.focus\:flexDirection-row-reverse:focus,
-.active\:flexDirection-row-reverse:active {
+.simple-ui-flexDirection-row-reverse,
+.simple-ui-hover\:flexDirection-row-reverse:hover,
+.simple-ui-focus\:flexDirection-row-reverse:focus,
+.simple-ui-active\:flexDirection-row-reverse:active {
 	flex-direction: row-reverse;
 }
-.flexDirection-col,
-.hover\:flexDirection-col:hover,
-.focus\:flexDirection-col:focus,
-.active\:flexDirection-col:active {
+.simple-ui-flexDirection-col,
+.simple-ui-hover\:flexDirection-col:hover,
+.simple-ui-focus\:flexDirection-col:focus,
+.simple-ui-active\:flexDirection-col:active {
 	flex-direction: column;
 }
-.flexDirection-col-reverse,
-.hover\:flexDirection-col-reverse:hover,
-.focus\:flexDirection-col-reverse:focus,
-.active\:flexDirection-col-reverse:active {
+.simple-ui-flexDirection-col-reverse,
+.simple-ui-hover\:flexDirection-col-reverse:hover,
+.simple-ui-focus\:flexDirection-col-reverse:focus,
+.simple-ui-active\:flexDirection-col-reverse:active {
 	flex-direction: column-reverse;
 }
