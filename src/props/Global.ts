@@ -22,7 +22,10 @@ export function mapPropsToCss<T>(props: T) {
 			);
 		} else {
 			if (!reservedProps.includes(prop.toString())) {
-				classString += `${prop}-${props[prop]} `.replace(".", "-");
+				classString += `simple-ui-${prop}-${props[prop]} `.replace(
+					".",
+					"-"
+				);
 			}
 		}
 	});
