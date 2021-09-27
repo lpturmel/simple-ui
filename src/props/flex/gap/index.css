@@ -1,630 +1,630 @@
-.gap-0,
-.hover\:gap-0:hover,
-.focus\:gap-0:focus,
-.active\:gap-0:active {
+.simple-ui-gap-0,
+.simple-ui-hover\:gap-0:hover,
+.simple-ui-focus\:gap-0:focus,
+.simple-ui-active\:gap-0:active {
 	gap: 0px;
 }
-.gap-x-0,
-.hover\:gap-x-0:hover,
-.focus\:gap-x-0:focus,
-.active\:gap-x-0:active {
+.simple-ui-gap-x-0,
+.simple-ui-hover\:gap-x-0:hover,
+.simple-ui-focus\:gap-x-0:focus,
+.simple-ui-active\:gap-x-0:active {
 	column-gap: 0px;
 }
-.gap-y-0,
-.hover\:gap-y-0:hover,
-.focus\:gap-y-0:focus,
-.active\:gap-y-0:active {
+.simple-ui-gap-y-0,
+.simple-ui-hover\:gap-y-0:hover,
+.simple-ui-focus\:gap-y-0:focus,
+.simple-ui-active\:gap-y-0:active {
 	row-gap: 0px;
 }
-.gap-px,
-.hover\:gap-px:hover,
-.focus\:gap-px:focus,
-.active\:gap-px:active {
+.simple-ui-gap-px,
+.simple-ui-hover\:gap-px:hover,
+.simple-ui-focus\:gap-px:focus,
+.simple-ui-active\:gap-px:active {
 	gap: 1px;
 }
-.gap-x-px,
-.hover\:gap-x-px:hover,
-.focus\:gap-x-px:focus,
-.active\:gap-x-px:active {
+.simple-ui-gap-x-px,
+.simple-ui-hover\:gap-x-px:hover,
+.simple-ui-focus\:gap-x-px:focus,
+.simple-ui-active\:gap-x-px:active {
 	column-gap: 1px;
 }
-.gap-y-px,
-.hover\:gap-y-px:hover,
-.focus\:gap-y-px:focus,
-.active\:gap-y-px:active {
+.simple-ui-gap-y-px,
+.simple-ui-hover\:gap-y-px:hover,
+.simple-ui-focus\:gap-y-px:focus,
+.simple-ui-active\:gap-y-px:active {
 	row-gap: 1px;
 }
-.gap-0\.5,
-.hover\:gap-0\.5:hover,
-.focus\:gap-0\.5:focus,
-.active\:gap-0\.5:active {
+.simple-ui-gap-0\.5,
+.simple-ui-hover\:gap-0\.5:hover,
+.simple-ui-focus\:gap-0\.5:focus,
+.simple-ui-active\:gap-0\.5:active {
 	gap: 0.125rem;
 }
-.gap-x-0\.5,
-.hover\:gap-x-0\.5:hover,
-.focus\:gap-x-0\.5:focus,
-.active\:gap-x-0\.5:active {
+.simple-ui-gap-x-0\.5,
+.simple-ui-hover\:gap-x-0\.5:hover,
+.simple-ui-focus\:gap-x-0\.5:focus,
+.simple-ui-active\:gap-x-0\.5:active {
 	column-gap: 0.125rem;
 }
-.gap-y-0\.5,
-.hover\:gap-y-0\.5:hover,
-.focus\:gap-y-0\.5:focus,
-.active\:gap-y-0\.5:active {
+.simple-ui-gap-y-0\.5,
+.simple-ui-hover\:gap-y-0\.5:hover,
+.simple-ui-focus\:gap-y-0\.5:focus,
+.simple-ui-active\:gap-y-0\.5:active {
 	row-gap: 0.125rem;
 }
-.gap-1,
-.hover\:gap-1:hover,
-.focus\:gap-1:focus,
-.active\:gap-1:active {
+.simple-ui-gap-1,
+.simple-ui-hover\:gap-1:hover,
+.simple-ui-focus\:gap-1:focus,
+.simple-ui-active\:gap-1:active {
 	gap: 0.25rem;
 }
-.gap-x-1,
-.hover\:gap-x-1:hover,
-.focus\:gap-x-1:focus,
-.active\:gap-x-1:active {
+.simple-ui-gap-x-1,
+.simple-ui-hover\:gap-x-1:hover,
+.simple-ui-focus\:gap-x-1:focus,
+.simple-ui-active\:gap-x-1:active {
 	column-gap: 0.25rem;
 }
-.gap-y-1,
-.hover\:gap-y-1:hover,
-.focus\:gap-y-1:focus,
-.active\:gap-y-1:active {
+.simple-ui-gap-y-1,
+.simple-ui-hover\:gap-y-1:hover,
+.simple-ui-focus\:gap-y-1:focus,
+.simple-ui-active\:gap-y-1:active {
 	row-gap: 0.25rem;
 }
-.gap-1\.5,
-.hover\:gap-1\.5:hover,
-.focus\:gap-1\.5:focus,
-.active\:gap-1\.5:active {
+.simple-ui-gap-1\.5,
+.simple-ui-hover\:gap-1\.5:hover,
+.simple-ui-focus\:gap-1\.5:focus,
+.simple-ui-active\:gap-1\.5:active {
 	gap: 0.375rem;
 }
-.gap-x-1\.5,
-.hover\:gap-x-1\.5:hover,
-.focus\:gap-x-1\.5:focus,
-.active\:gap-x-1\.5:active {
+.simple-ui-gap-x-1\.5,
+.simple-ui-hover\:gap-x-1\.5:hover,
+.simple-ui-focus\:gap-x-1\.5:focus,
+.simple-ui-active\:gap-x-1\.5:active {
 	column-gap: 0.375rem;
 }
-.gap-y-1\.5,
-.hover\:gap-y-1\.5:hover,
-.focus\:gap-y-1\.5:focus,
-.active\:gap-y-1\.5:active {
+.simple-ui-gap-y-1\.5,
+.simple-ui-hover\:gap-y-1\.5:hover,
+.simple-ui-focus\:gap-y-1\.5:focus,
+.simple-ui-active\:gap-y-1\.5:active {
 	row-gap: 0.375rem;
 }
-.gap-2,
-.hover\:gap-2:hover,
-.focus\:gap-2:focus,
-.active\:gap-2:active {
+.simple-ui-gap-2,
+.simple-ui-hover\:gap-2:hover,
+.simple-ui-focus\:gap-2:focus,
+.simple-ui-active\:gap-2:active {
 	gap: 0.5rem;
 }
-.gap-x-2,
-.hover\:gap-x-2:hover,
-.focus\:gap-x-2:focus,
-.active\:gap-x-2:active {
+.simple-ui-gap-x-2,
+.simple-ui-hover\:gap-x-2:hover,
+.simple-ui-focus\:gap-x-2:focus,
+.simple-ui-active\:gap-x-2:active {
 	column-gap: 0.5rem;
 }
-.gap-y-2,
-.hover\:gap-y-2:hover,
-.focus\:gap-y-2:focus,
-.active\:gap-y-2:active {
+.simple-ui-gap-y-2,
+.simple-ui-hover\:gap-y-2:hover,
+.simple-ui-focus\:gap-y-2:focus,
+.simple-ui-active\:gap-y-2:active {
 	row-gap: 0.5rem;
 }
-.gap-2\.5,
-.hover\:gap-2\.5:hover,
-.focus\:gap-2\.5:focus,
-.active\:gap-2\.5:active {
+.simple-ui-gap-2\.5,
+.simple-ui-hover\:gap-2\.5:hover,
+.simple-ui-focus\:gap-2\.5:focus,
+.simple-ui-active\:gap-2\.5:active {
 	gap: 0.625rem;
 }
-.gap-x-2\.5,
-.hover\:gap-x-2\.5:hover,
-.focus\:gap-x-2\.5:focus,
-.active\:gap-x-2\.5:active {
+.simple-ui-gap-x-2\.5,
+.simple-ui-hover\:gap-x-2\.5:hover,
+.simple-ui-focus\:gap-x-2\.5:focus,
+.simple-ui-active\:gap-x-2\.5:active {
 	column-gap: 0.625rem;
 }
-.gap-y-2\.5,
-.hover\:gap-y-2\.5:hover,
-.focus\:gap-y-2\.5:focus,
-.active\:gap-y-2\.5:active {
+.simple-ui-gap-y-2\.5,
+.simple-ui-hover\:gap-y-2\.5:hover,
+.simple-ui-focus\:gap-y-2\.5:focus,
+.simple-ui-active\:gap-y-2\.5:active {
 	row-gap: 0.625rem;
 }
-.gap-3,
-.hover\:gap-3:hover,
-.focus\:gap-3:focus,
-.active\:gap-3:active {
+.simple-ui-gap-3,
+.simple-ui-hover\:gap-3:hover,
+.simple-ui-focus\:gap-3:focus,
+.simple-ui-active\:gap-3:active {
 	gap: 0.75rem;
 }
-.gap-x-3,
-.hover\:gap-x-3:hover,
-.focus\:gap-x-3:focus,
-.active\:gap-x-3:active {
+.simple-ui-gap-x-3,
+.simple-ui-hover\:gap-x-3:hover,
+.simple-ui-focus\:gap-x-3:focus,
+.simple-ui-active\:gap-x-3:active {
 	column-gap: 0.75rem;
 }
-.gap-y-3,
-.hover\:gap-y-3:hover,
-.focus\:gap-y-3:focus,
-.active\:gap-y-3:active {
+.simple-ui-gap-y-3,
+.simple-ui-hover\:gap-y-3:hover,
+.simple-ui-focus\:gap-y-3:focus,
+.simple-ui-active\:gap-y-3:active {
 	row-gap: 0.75rem;
 }
-.gap-3\.5,
-.hover\:gap-3\.5:hover,
-.focus\:gap-3\.5:focus,
-.active\:gap-3\.5:active {
+.simple-ui-gap-3\.5,
+.simple-ui-hover\:gap-3\.5:hover,
+.simple-ui-focus\:gap-3\.5:focus,
+.simple-ui-active\:gap-3\.5:active {
 	gap: 0.875rem;
 }
-.gap-x-3\.5,
-.hover\:gap-x-3\.5:hover,
-.focus\:gap-x-3\.5:focus,
-.active\:gap-x-3\.5:active {
+.simple-ui-gap-x-3\.5,
+.simple-ui-hover\:gap-x-3\.5:hover,
+.simple-ui-focus\:gap-x-3\.5:focus,
+.simple-ui-active\:gap-x-3\.5:active {
 	column-gap: 0.875rem;
 }
-.gap-y-3\.5,
-.hover\:gap-y-3\.5:hover,
-.focus\:gap-y-3\.5:focus,
-.active\:gap-y-3\.5:active {
+.simple-ui-gap-y-3\.5,
+.simple-ui-hover\:gap-y-3\.5:hover,
+.simple-ui-focus\:gap-y-3\.5:focus,
+.simple-ui-active\:gap-y-3\.5:active {
 	row-gap: 0.875rem;
 }
-.gap-4,
-.hover\:gap-4:hover,
-.focus\:gap-4:focus,
-.active\:gap-4:active {
+.simple-ui-gap-4,
+.simple-ui-hover\:gap-4:hover,
+.simple-ui-focus\:gap-4:focus,
+.simple-ui-active\:gap-4:active {
 	gap: 1rem;
 }
-.gap-x-4,
-.hover\:gap-x-4:hover,
-.focus\:gap-x-4:focus,
-.active\:gap-x-4:active {
+.simple-ui-gap-x-4,
+.simple-ui-hover\:gap-x-4:hover,
+.simple-ui-focus\:gap-x-4:focus,
+.simple-ui-active\:gap-x-4:active {
 	column-gap: 1rem;
 }
-.gap-y-4,
-.hover\:gap-y-4:hover,
-.focus\:gap-y-4:focus,
-.active\:gap-y-4:active {
+.simple-ui-gap-y-4,
+.simple-ui-hover\:gap-y-4:hover,
+.simple-ui-focus\:gap-y-4:focus,
+.simple-ui-active\:gap-y-4:active {
 	row-gap: 1rem;
 }
-.gap-5,
-.hover\:gap-5:hover,
-.focus\:gap-5:focus,
-.active\:gap-5:active {
+.simple-ui-gap-5,
+.simple-ui-hover\:gap-5:hover,
+.simple-ui-focus\:gap-5:focus,
+.simple-ui-active\:gap-5:active {
 	gap: 1.25rem;
 }
-.gap-x-5,
-.hover\:gap-x-5:hover,
-.focus\:gap-x-5:focus,
-.active\:gap-x-5:active {
+.simple-ui-gap-x-5,
+.simple-ui-hover\:gap-x-5:hover,
+.simple-ui-focus\:gap-x-5:focus,
+.simple-ui-active\:gap-x-5:active {
 	column-gap: 1.25rem;
 }
-.gap-y-5,
-.hover\:gap-y-5:hover,
-.focus\:gap-y-5:focus,
-.active\:gap-y-5:active {
+.simple-ui-gap-y-5,
+.simple-ui-hover\:gap-y-5:hover,
+.simple-ui-focus\:gap-y-5:focus,
+.simple-ui-active\:gap-y-5:active {
 	row-gap: 1.25rem;
 }
-.gap-6,
-.hover\:gap-6:hover,
-.focus\:gap-6:focus,
-.active\:gap-6:active {
+.simple-ui-gap-6,
+.simple-ui-hover\:gap-6:hover,
+.simple-ui-focus\:gap-6:focus,
+.simple-ui-active\:gap-6:active {
 	gap: 1.5rem;
 }
-.gap-x-6,
-.hover\:gap-x-6:hover,
-.focus\:gap-x-6:focus,
-.active\:gap-x-6:active {
+.simple-ui-gap-x-6,
+.simple-ui-hover\:gap-x-6:hover,
+.simple-ui-focus\:gap-x-6:focus,
+.simple-ui-active\:gap-x-6:active {
 	column-gap: 1.5rem;
 }
-.gap-y-6,
-.hover\:gap-y-6:hover,
-.focus\:gap-y-6:focus,
-.active\:gap-y-6:active {
+.simple-ui-gap-y-6,
+.simple-ui-hover\:gap-y-6:hover,
+.simple-ui-focus\:gap-y-6:focus,
+.simple-ui-active\:gap-y-6:active {
 	row-gap: 1.5rem;
 }
-.gap-7,
-.hover\:gap-7:hover,
-.focus\:gap-7:focus,
-.active\:gap-7:active {
+.simple-ui-gap-7,
+.simple-ui-hover\:gap-7:hover,
+.simple-ui-focus\:gap-7:focus,
+.simple-ui-active\:gap-7:active {
 	gap: 1.75rem;
 }
-.gap-x-7,
-.hover\:gap-x-7:hover,
-.focus\:gap-x-7:focus,
-.active\:gap-x-7:active {
+.simple-ui-gap-x-7,
+.simple-ui-hover\:gap-x-7:hover,
+.simple-ui-focus\:gap-x-7:focus,
+.simple-ui-active\:gap-x-7:active {
 	column-gap: 1.75rem;
 }
-.gap-y-7,
-.hover\:gap-y-7:hover,
-.focus\:gap-y-7:focus,
-.active\:gap-y-7:active {
+.simple-ui-gap-y-7,
+.simple-ui-hover\:gap-y-7:hover,
+.simple-ui-focus\:gap-y-7:focus,
+.simple-ui-active\:gap-y-7:active {
 	row-gap: 1.75rem;
 }
-.gap-8,
-.hover\:gap-8:hover,
-.focus\:gap-8:focus,
-.active\:gap-8:active {
+.simple-ui-gap-8,
+.simple-ui-hover\:gap-8:hover,
+.simple-ui-focus\:gap-8:focus,
+.simple-ui-active\:gap-8:active {
 	gap: 2rem;
 }
-.gap-x-8,
-.hover\:gap-x-8:hover,
-.focus\:gap-x-8:focus,
-.active\:gap-x-8:active {
+.simple-ui-gap-x-8,
+.simple-ui-hover\:gap-x-8:hover,
+.simple-ui-focus\:gap-x-8:focus,
+.simple-ui-active\:gap-x-8:active {
 	column-gap: 2rem;
 }
-.gap-y-8,
-.hover\:gap-y-8:hover,
-.focus\:gap-y-8:focus,
-.active\:gap-y-8:active {
+.simple-ui-gap-y-8,
+.simple-ui-hover\:gap-y-8:hover,
+.simple-ui-focus\:gap-y-8:focus,
+.simple-ui-active\:gap-y-8:active {
 	row-gap: 2rem;
 }
-.gap-9,
-.hover\:gap-9:hover,
-.focus\:gap-9:focus,
-.active\:gap-9:active {
+.simple-ui-gap-9,
+.simple-ui-hover\:gap-9:hover,
+.simple-ui-focus\:gap-9:focus,
+.simple-ui-active\:gap-9:active {
 	gap: 2.25rem;
 }
-.gap-x-9,
-.hover\:gap-x-9:hover,
-.focus\:gap-x-9:focus,
-.active\:gap-x-9:active {
+.simple-ui-gap-x-9,
+.simple-ui-hover\:gap-x-9:hover,
+.simple-ui-focus\:gap-x-9:focus,
+.simple-ui-active\:gap-x-9:active {
 	column-gap: 2.25rem;
 }
-.gap-y-9,
-.hover\:gap-y-9:hover,
-.focus\:gap-y-9:focus,
-.active\:gap-y-9:active {
+.simple-ui-gap-y-9,
+.simple-ui-hover\:gap-y-9:hover,
+.simple-ui-focus\:gap-y-9:focus,
+.simple-ui-active\:gap-y-9:active {
 	row-gap: 2.25rem;
 }
-.gap-10,
-.hover\:gap-10:hover,
-.focus\:gap-10:focus,
-.active\:gap-10:active {
+.simple-ui-gap-10,
+.simple-ui-hover\:gap-10:hover,
+.simple-ui-focus\:gap-10:focus,
+.simple-ui-active\:gap-10:active {
 	gap: 2.5rem;
 }
-.gap-x-10,
-.hover\:gap-x-10:hover,
-.focus\:gap-x-10:focus,
-.active\:gap-x-10:active {
+.simple-ui-gap-x-10,
+.simple-ui-hover\:gap-x-10:hover,
+.simple-ui-focus\:gap-x-10:focus,
+.simple-ui-active\:gap-x-10:active {
 	column-gap: 2.5rem;
 }
-.gap-y-10,
-.hover\:gap-y-10:hover,
-.focus\:gap-y-10:focus,
-.active\:gap-y-10:active {
+.simple-ui-gap-y-10,
+.simple-ui-hover\:gap-y-10:hover,
+.simple-ui-focus\:gap-y-10:focus,
+.simple-ui-active\:gap-y-10:active {
 	row-gap: 2.5rem;
 }
-.gap-11,
-.hover\:gap-11:hover,
-.focus\:gap-11:focus,
-.active\:gap-11:active {
+.simple-ui-gap-11,
+.simple-ui-hover\:gap-11:hover,
+.simple-ui-focus\:gap-11:focus,
+.simple-ui-active\:gap-11:active {
 	gap: 2.75rem;
 }
-.gap-x-11,
-.hover\:gap-x-11:hover,
-.focus\:gap-x-11:focus,
-.active\:gap-x-11:active {
+.simple-ui-gap-x-11,
+.simple-ui-hover\:gap-x-11:hover,
+.simple-ui-focus\:gap-x-11:focus,
+.simple-ui-active\:gap-x-11:active {
 	column-gap: 2.75rem;
 }
-.gap-y-11,
-.hover\:gap-y-11:hover,
-.focus\:gap-y-11:focus,
-.active\:gap-y-11:active {
+.simple-ui-gap-y-11,
+.simple-ui-hover\:gap-y-11:hover,
+.simple-ui-focus\:gap-y-11:focus,
+.simple-ui-active\:gap-y-11:active {
 	row-gap: 2.75rem;
 }
-.gap-12,
-.hover\:gap-12:hover,
-.focus\:gap-12:focus,
-.active\:gap-12:active {
+.simple-ui-gap-12,
+.simple-ui-hover\:gap-12:hover,
+.simple-ui-focus\:gap-12:focus,
+.simple-ui-active\:gap-12:active {
 	gap: 3rem;
 }
-.gap-x-12,
-.hover\:gap-x-12:hover,
-.focus\:gap-x-12:focus,
-.active\:gap-x-12:active {
+.simple-ui-gap-x-12,
+.simple-ui-hover\:gap-x-12:hover,
+.simple-ui-focus\:gap-x-12:focus,
+.simple-ui-active\:gap-x-12:active {
 	column-gap: 3rem;
 }
-.gap-y-12,
-.hover\:gap-y-12:hover,
-.focus\:gap-y-12:focus,
-.active\:gap-y-12:active {
+.simple-ui-gap-y-12,
+.simple-ui-hover\:gap-y-12:hover,
+.simple-ui-focus\:gap-y-12:focus,
+.simple-ui-active\:gap-y-12:active {
 	row-gap: 3rem;
 }
-.gap-14,
-.hover\:gap-14:hover,
-.focus\:gap-14:focus,
-.active\:gap-14:active {
+.simple-ui-gap-14,
+.simple-ui-hover\:gap-14:hover,
+.simple-ui-focus\:gap-14:focus,
+.simple-ui-active\:gap-14:active {
 	gap: 3.5rem;
 }
-.gap-x-14,
-.hover\:gap-x-14:hover,
-.focus\:gap-x-14:focus,
-.active\:gap-x-14:active {
+.simple-ui-gap-x-14,
+.simple-ui-hover\:gap-x-14:hover,
+.simple-ui-focus\:gap-x-14:focus,
+.simple-ui-active\:gap-x-14:active {
 	column-gap: 3.5rem;
 }
-.gap-y-14,
-.hover\:gap-y-14:hover,
-.focus\:gap-y-14:focus,
-.active\:gap-y-14:active {
+.simple-ui-gap-y-14,
+.simple-ui-hover\:gap-y-14:hover,
+.simple-ui-focus\:gap-y-14:focus,
+.simple-ui-active\:gap-y-14:active {
 	row-gap: 3.5rem;
 }
-.gap-16,
-.hover\:gap-16:hover,
-.focus\:gap-16:focus,
-.active\:gap-16:active {
+.simple-ui-gap-16,
+.simple-ui-hover\:gap-16:hover,
+.simple-ui-focus\:gap-16:focus,
+.simple-ui-active\:gap-16:active {
 	gap: 4rem;
 }
-.gap-x-16,
-.hover\:gap-x-16:hover,
-.focus\:gap-x-16:focus,
-.active\:gap-x-16:active {
+.simple-ui-gap-x-16,
+.simple-ui-hover\:gap-x-16:hover,
+.simple-ui-focus\:gap-x-16:focus,
+.simple-ui-active\:gap-x-16:active {
 	column-gap: 4rem;
 }
-.gap-y-16,
-.hover\:gap-y-16:hover,
-.focus\:gap-y-16:focus,
-.active\:gap-y-16:active {
+.simple-ui-gap-y-16,
+.simple-ui-hover\:gap-y-16:hover,
+.simple-ui-focus\:gap-y-16:focus,
+.simple-ui-active\:gap-y-16:active {
 	row-gap: 4rem;
 }
-.gap-20,
-.hover\:gap-20:hover,
-.focus\:gap-20:focus,
-.active\:gap-20:active {
+.simple-ui-gap-20,
+.simple-ui-hover\:gap-20:hover,
+.simple-ui-focus\:gap-20:focus,
+.simple-ui-active\:gap-20:active {
 	gap: 5rem;
 }
-.gap-x-20,
-.hover\:gap-x-20:hover,
-.focus\:gap-x-20:focus,
-.active\:gap-x-20:active {
+.simple-ui-gap-x-20,
+.simple-ui-hover\:gap-x-20:hover,
+.simple-ui-focus\:gap-x-20:focus,
+.simple-ui-active\:gap-x-20:active {
 	column-gap: 5rem;
 }
-.gap-y-20,
-.hover\:gap-y-20:hover,
-.focus\:gap-y-20:focus,
-.active\:gap-y-20:active {
+.simple-ui-gap-y-20,
+.simple-ui-hover\:gap-y-20:hover,
+.simple-ui-focus\:gap-y-20:focus,
+.simple-ui-active\:gap-y-20:active {
 	row-gap: 5rem;
 }
-.gap-24,
-.hover\:gap-24:hover,
-.focus\:gap-24:focus,
-.active\:gap-24:active {
+.simple-ui-gap-24,
+.simple-ui-hover\:gap-24:hover,
+.simple-ui-focus\:gap-24:focus,
+.simple-ui-active\:gap-24:active {
 	gap: 6rem;
 }
-.gap-x-24,
-.hover\:gap-x-24:hover,
-.focus\:gap-x-24:focus,
-.active\:gap-x-24:active {
+.simple-ui-gap-x-24,
+.simple-ui-hover\:gap-x-24:hover,
+.simple-ui-focus\:gap-x-24:focus,
+.simple-ui-active\:gap-x-24:active {
 	column-gap: 6rem;
 }
-.gap-y-24,
-.hover\:gap-y-24:hover,
-.focus\:gap-y-24:focus,
-.active\:gap-y-24:active {
+.simple-ui-gap-y-24,
+.simple-ui-hover\:gap-y-24:hover,
+.simple-ui-focus\:gap-y-24:focus,
+.simple-ui-active\:gap-y-24:active {
 	row-gap: 6rem;
 }
-.gap-28,
-.hover\:gap-28:hover,
-.focus\:gap-28:focus,
-.active\:gap-28:active {
+.simple-ui-gap-28,
+.simple-ui-hover\:gap-28:hover,
+.simple-ui-focus\:gap-28:focus,
+.simple-ui-active\:gap-28:active {
 	gap: 7rem;
 }
-.gap-x-28,
-.hover\:gap-x-28:hover,
-.focus\:gap-x-28:focus,
-.active\:gap-x-28:active {
+.simple-ui-gap-x-28,
+.simple-ui-hover\:gap-x-28:hover,
+.simple-ui-focus\:gap-x-28:focus,
+.simple-ui-active\:gap-x-28:active {
 	column-gap: 7rem;
 }
-.gap-y-28,
-.hover\:gap-y-28:hover,
-.focus\:gap-y-28:focus,
-.active\:gap-y-28:active {
+.simple-ui-gap-y-28,
+.simple-ui-hover\:gap-y-28:hover,
+.simple-ui-focus\:gap-y-28:focus,
+.simple-ui-active\:gap-y-28:active {
 	row-gap: 7rem;
 }
-.gap-32,
-.hover\:gap-32:hover,
-.focus\:gap-32:focus,
-.active\:gap-32:active {
+.simple-ui-gap-32,
+.simple-ui-hover\:gap-32:hover,
+.simple-ui-focus\:gap-32:focus,
+.simple-ui-active\:gap-32:active {
 	gap: 8rem;
 }
-.gap-x-32,
-.hover\:gap-x-32:hover,
-.focus\:gap-x-32:focus,
-.active\:gap-x-32:active {
+.simple-ui-gap-x-32,
+.simple-ui-hover\:gap-x-32:hover,
+.simple-ui-focus\:gap-x-32:focus,
+.simple-ui-active\:gap-x-32:active {
 	column-gap: 8rem;
 }
-.gap-y-32,
-.hover\:gap-y-32:hover,
-.focus\:gap-y-32:focus,
-.active\:gap-y-32:active {
+.simple-ui-gap-y-32,
+.simple-ui-hover\:gap-y-32:hover,
+.simple-ui-focus\:gap-y-32:focus,
+.simple-ui-active\:gap-y-32:active {
 	row-gap: 8rem;
 }
-.gap-36,
-.hover\:gap-36:hover,
-.focus\:gap-36:focus,
-.active\:gap-36:active {
+.simple-ui-gap-36,
+.simple-ui-hover\:gap-36:hover,
+.simple-ui-focus\:gap-36:focus,
+.simple-ui-active\:gap-36:active {
 	gap: 9rem;
 }
-.gap-x-36,
-.hover\:gap-x-36:hover,
-.focus\:gap-x-36:focus,
-.active\:gap-x-36:active {
+.simple-ui-gap-x-36,
+.simple-ui-hover\:gap-x-36:hover,
+.simple-ui-focus\:gap-x-36:focus,
+.simple-ui-active\:gap-x-36:active {
 	column-gap: 9rem;
 }
-.gap-y-36,
-.hover\:gap-y-36:hover,
-.focus\:gap-y-36:focus,
-.active\:gap-y-36:active {
+.simple-ui-gap-y-36,
+.simple-ui-hover\:gap-y-36:hover,
+.simple-ui-focus\:gap-y-36:focus,
+.simple-ui-active\:gap-y-36:active {
 	row-gap: 9rem;
 }
-.gap-40,
-.hover\:gap-40:hover,
-.focus\:gap-40:focus,
-.active\:gap-40:active {
+.simple-ui-gap-40,
+.simple-ui-hover\:gap-40:hover,
+.simple-ui-focus\:gap-40:focus,
+.simple-ui-active\:gap-40:active {
 	gap: 10rem;
 }
-.gap-x-40,
-.hover\:gap-x-40:hover,
-.focus\:gap-x-40:focus,
-.active\:gap-x-40:active {
+.simple-ui-gap-x-40,
+.simple-ui-hover\:gap-x-40:hover,
+.simple-ui-focus\:gap-x-40:focus,
+.simple-ui-active\:gap-x-40:active {
 	column-gap: 10rem;
 }
-.gap-y-40,
-.hover\:gap-y-40:hover,
-.focus\:gap-y-40:focus,
-.active\:gap-y-40:active {
+.simple-ui-gap-y-40,
+.simple-ui-hover\:gap-y-40:hover,
+.simple-ui-focus\:gap-y-40:focus,
+.simple-ui-active\:gap-y-40:active {
 	row-gap: 10rem;
 }
-.gap-44,
-.hover\:gap-44:hover,
-.focus\:gap-44:focus,
-.active\:gap-44:active {
+.simple-ui-gap-44,
+.simple-ui-hover\:gap-44:hover,
+.simple-ui-focus\:gap-44:focus,
+.simple-ui-active\:gap-44:active {
 	gap: 11rem;
 }
-.gap-x-44,
-.hover\:gap-x-44:hover,
-.focus\:gap-x-44:focus,
-.active\:gap-x-44:active {
+.simple-ui-gap-x-44,
+.simple-ui-hover\:gap-x-44:hover,
+.simple-ui-focus\:gap-x-44:focus,
+.simple-ui-active\:gap-x-44:active {
 	column-gap: 11rem;
 }
-.gap-y-44,
-.hover\:gap-y-44:hover,
-.focus\:gap-y-44:focus,
-.active\:gap-y-44:active {
+.simple-ui-gap-y-44,
+.simple-ui-hover\:gap-y-44:hover,
+.simple-ui-focus\:gap-y-44:focus,
+.simple-ui-active\:gap-y-44:active {
 	row-gap: 11rem;
 }
-.gap-48,
-.hover\:gap-48:hover,
-.focus\:gap-48:focus,
-.active\:gap-48:active {
+.simple-ui-gap-48,
+.simple-ui-hover\:gap-48:hover,
+.simple-ui-focus\:gap-48:focus,
+.simple-ui-active\:gap-48:active {
 	gap: 12rem;
 }
-.gap-x-48,
-.hover\:gap-x-48:hover,
-.focus\:gap-x-48:focus,
-.active\:gap-x-48:active {
+.simple-ui-gap-x-48,
+.simple-ui-hover\:gap-x-48:hover,
+.simple-ui-focus\:gap-x-48:focus,
+.simple-ui-active\:gap-x-48:active {
 	column-gap: 12rem;
 }
-.gap-y-48,
-.hover\:gap-y-48:hover,
-.focus\:gap-y-48:focus,
-.active\:gap-y-48:active {
+.simple-ui-gap-y-48,
+.simple-ui-hover\:gap-y-48:hover,
+.simple-ui-focus\:gap-y-48:focus,
+.simple-ui-active\:gap-y-48:active {
 	row-gap: 12rem;
 }
-.gap-52,
-.hover\:gap-52:hover,
-.focus\:gap-52:focus,
-.active\:gap-52:active {
+.simple-ui-gap-52,
+.simple-ui-hover\:gap-52:hover,
+.simple-ui-focus\:gap-52:focus,
+.simple-ui-active\:gap-52:active {
 	gap: 13rem;
 }
-.gap-x-52,
-.hover\:gap-x-52:hover,
-.focus\:gap-x-52:focus,
-.active\:gap-x-52:active {
+.simple-ui-gap-x-52,
+.simple-ui-hover\:gap-x-52:hover,
+.simple-ui-focus\:gap-x-52:focus,
+.simple-ui-active\:gap-x-52:active {
 	column-gap: 13rem;
 }
-.gap-y-52,
-.hover\:gap-y-52:hover,
-.focus\:gap-y-52:focus,
-.active\:gap-y-52:active {
+.simple-ui-gap-y-52,
+.simple-ui-hover\:gap-y-52:hover,
+.simple-ui-focus\:gap-y-52:focus,
+.simple-ui-active\:gap-y-52:active {
 	row-gap: 13rem;
 }
-.gap-56,
-.hover\:gap-56:hover,
-.focus\:gap-56:focus,
-.active\:gap-56:active {
+.simple-ui-gap-56,
+.simple-ui-hover\:gap-56:hover,
+.simple-ui-focus\:gap-56:focus,
+.simple-ui-active\:gap-56:active {
 	gap: 14rem;
 }
-.gap-x-56,
-.hover\:gap-x-56:hover,
-.focus\:gap-x-56:focus,
-.active\:gap-x-56:active {
+.simple-ui-gap-x-56,
+.simple-ui-hover\:gap-x-56:hover,
+.simple-ui-focus\:gap-x-56:focus,
+.simple-ui-active\:gap-x-56:active {
 	column-gap: 14rem;
 }
-.gap-y-56,
-.hover\:gap-y-56:hover,
-.focus\:gap-y-56:focus,
-.active\:gap-y-56:active {
+.simple-ui-gap-y-56,
+.simple-ui-hover\:gap-y-56:hover,
+.simple-ui-focus\:gap-y-56:focus,
+.simple-ui-active\:gap-y-56:active {
 	row-gap: 14rem;
 }
-.gap-60,
-.hover\:gap-60:hover,
-.focus\:gap-60:focus,
-.active\:gap-60:active {
+.simple-ui-gap-60,
+.simple-ui-hover\:gap-60:hover,
+.simple-ui-focus\:gap-60:focus,
+.simple-ui-active\:gap-60:active {
 	gap: 15rem;
 }
-.gap-x-60,
-.hover\:gap-x-60:hover,
-.focus\:gap-x-60:focus,
-.active\:gap-x-60:active {
+.simple-ui-gap-x-60,
+.simple-ui-hover\:gap-x-60:hover,
+.simple-ui-focus\:gap-x-60:focus,
+.simple-ui-active\:gap-x-60:active {
 	column-gap: 15rem;
 }
-.gap-y-60,
-.hover\:gap-y-60:hover,
-.focus\:gap-y-60:focus,
-.active\:gap-y-60:active {
+.simple-ui-gap-y-60,
+.simple-ui-hover\:gap-y-60:hover,
+.simple-ui-focus\:gap-y-60:focus,
+.simple-ui-active\:gap-y-60:active {
 	row-gap: 15rem;
 }
-.gap-64,
-.hover\:gap-64:hover,
-.focus\:gap-64:focus,
-.active\:gap-64:active {
+.simple-ui-gap-64,
+.simple-ui-hover\:gap-64:hover,
+.simple-ui-focus\:gap-64:focus,
+.simple-ui-active\:gap-64:active {
 	gap: 16rem;
 }
-.gap-x-64,
-.hover\:gap-x-64:hover,
-.focus\:gap-x-64:focus,
-.active\:gap-x-64:active {
+.simple-ui-gap-x-64,
+.simple-ui-hover\:gap-x-64:hover,
+.simple-ui-focus\:gap-x-64:focus,
+.simple-ui-active\:gap-x-64:active {
 	column-gap: 16rem;
 }
-.gap-y-64,
-.hover\:gap-y-64:hover,
-.focus\:gap-y-64:focus,
-.active\:gap-y-64:active {
+.simple-ui-gap-y-64,
+.simple-ui-hover\:gap-y-64:hover,
+.simple-ui-focus\:gap-y-64:focus,
+.simple-ui-active\:gap-y-64:active {
 	row-gap: 16rem;
 }
-.gap-72,
-.hover\:gap-72:hover,
-.focus\:gap-72:focus,
-.active\:gap-72:active {
+.simple-ui-gap-72,
+.simple-ui-hover\:gap-72:hover,
+.simple-ui-focus\:gap-72:focus,
+.simple-ui-active\:gap-72:active {
 	gap: 18rem;
 }
-.gap-x-72,
-.hover\:gap-x-72:hover,
-.focus\:gap-x-72:focus,
-.active\:gap-x-72:active {
+.simple-ui-gap-x-72,
+.simple-ui-hover\:gap-x-72:hover,
+.simple-ui-focus\:gap-x-72:focus,
+.simple-ui-active\:gap-x-72:active {
 	column-gap: 18rem;
 }
-.gap-y-72,
-.hover\:gap-y-72:hover,
-.focus\:gap-y-72:focus,
-.active\:gap-y-72:active {
+.simple-ui-gap-y-72,
+.simple-ui-hover\:gap-y-72:hover,
+.simple-ui-focus\:gap-y-72:focus,
+.simple-ui-active\:gap-y-72:active {
 	row-gap: 18rem;
 }
-.gap-80,
-.hover\:gap-80:hover,
-.focus\:gap-80:focus,
-.active\:gap-80:active {
+.simple-ui-gap-80,
+.simple-ui-hover\:gap-80:hover,
+.simple-ui-focus\:gap-80:focus,
+.simple-ui-active\:gap-80:active {
 	gap: 20rem;
 }
-.gap-x-80,
-.hover\:gap-x-80:hover,
-.focus\:gap-x-80:focus,
-.active\:gap-x-80:active {
+.simple-ui-gap-x-80,
+.simple-ui-hover\:gap-x-80:hover,
+.simple-ui-focus\:gap-x-80:focus,
+.simple-ui-active\:gap-x-80:active {
 	column-gap: 20rem;
 }
-.gap-y-80,
-.hover\:gap-y-80:hover,
-.focus\:gap-y-80:focus,
-.active\:gap-y-80:active {
+.simple-ui-gap-y-80,
+.simple-ui-hover\:gap-y-80:hover,
+.simple-ui-focus\:gap-y-80:focus,
+.simple-ui-active\:gap-y-80:active {
 	row-gap: 20rem;
 }
-.gap-96,
-.hover\:gap-96:hover,
-.focus\:gap-96:focus,
-.active\:gap-96:active {
+.simple-ui-gap-96,
+.simple-ui-hover\:gap-96:hover,
+.simple-ui-focus\:gap-96:focus,
+.simple-ui-active\:gap-96:active {
 	gap: 24rem;
 }
-.gap-x-96,
-.hover\:gap-x-96:hover,
-.focus\:gap-x-96:focus,
-.active\:gap-x-96:active {
+.simple-ui-gap-x-96,
+.simple-ui-hover\:gap-x-96:hover,
+.simple-ui-focus\:gap-x-96:focus,
+.simple-ui-active\:gap-x-96:active {
 	column-gap: 24rem;
 }
-.gap-y-96,
-.hover\:gap-y-96:hover,
-.focus\:gap-y-96:focus,
-.active\:gap-y-96:active {
+.simple-ui-gap-y-96,
+.simple-ui-hover\:gap-y-96:hover,
+.simple-ui-focus\:gap-y-96:focus,
+.simple-ui-active\:gap-y-96:active {
 	row-gap: 24rem;
 }
