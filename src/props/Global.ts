@@ -1,5 +1,5 @@
 import { PropsWithChildren } from "solid-js";
-import { ThemeComponentOptions } from "../theme";
+import MainProps from ".";
 import { parseStateProps } from "./states";
 
 /**
@@ -36,12 +36,12 @@ export function mapPropsToCss<T>(props: T) {
  */
 export function parseDefaultProps<T>(
 	props: PropsWithChildren<T>,
-	defaultProps: ThemeComponentOptions
+	defaultProps: MainProps
 ) {
-	const parsedProps: PropsWithChildren<T> = { ...props };
+	const parsedProps: MainProps = { ...defaultProps };
 
-	(Object.keys(defaultProps) as Array<keyof ThemeComponentOptions>).forEach(
-		(prop) => ((parsedProps as any)[prop] = defaultProps[prop])
+	(Object.keys(props) as Array<keyof PropsWithChildren<T>>).forEach(
+		(prop) => ((parsedProps as any)[prop] = props[prop])
 	);
 
 	return parsedProps;
