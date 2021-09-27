@@ -10,7 +10,7 @@ export const Button: Component<ButtonProps> = (props) => {
 	const [context] = useContext(SimpleContext);
 
 	const buttonDefaultProps = context.theme.Components?.Button?.defaultProps;
-	console.log(buttonDefaultProps);
+
 	const mergedProps = parseDefaultProps<ButtonProps>(
 		props,
 		buttonDefaultProps!
