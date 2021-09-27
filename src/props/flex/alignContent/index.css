@@ -1,41 +1,41 @@
-.alignContent-center,
-.hover\:alignContent-center:hover,
-.focus\:alignContent-center:focus,
-.active\:alignContent-center:active {
+.simple-ui-alignContent-center,
+.simple-ui-hover\:alignContent-center:hover,
+.simple-ui-focus\:alignContent-center:focus,
+.simple-ui-active\:alignContent-center:active {
 	align-content: center;
 }
 
-.alignContent-start,
-.hover\:alignContent-start:hover,
-.focus\:alignContent-start:focus,
-.active\:alignContent-start:active {
+.simple-ui-alignContent-start,
+.simple-ui-hover\:alignContent-start:hover,
+.simple-ui-focus\:alignContent-start:focus,
+.simple-ui-active\:alignContent-start:active {
 	align-content: flex-start;
 }
 
-.alignContent-end,
-.hover\:alignContent-end:hover,
-.focus\:alignContent-end:focus,
-.active\:alignContent-end:active {
+.simple-ui-alignContent-end,
+.simple-ui-hover\:alignContent-end:hover,
+.simple-ui-focus\:alignContent-end:focus,
+.simple-ui-active\:alignContent-end:active {
 	align-content: flex-end;
 }
 
-.alignContent-between,
-.hover\:alignContent-between:hover,
-.focus\:alignContent-between:focus,
-.active\:alignContent-between:active {
+.simple-ui-alignContent-between,
+.simple-ui-hover\:alignContent-between:hover,
+.simple-ui-focus\:alignContent-between:focus,
+.simple-ui-active\:alignContent-between:active {
 	align-content: space-between;
 }
 
-.alignContent-around,
-.hover\:alignContent-around:hover,
-.focus\:alignContent-around:focus,
-.active\:alignContent-around:active {
+.simple-ui-alignContent-around,
+.simple-ui-hover\:alignContent-around:hover,
+.simple-ui-focus\:alignContent-around:focus,
+.simple-ui-active\:alignContent-around:active {
 	align-content: space-around;
 }
 
-.alignContent-evenly,
-.hover\:alignContent-evenly:hover,
-.focus\:alignContent-evenly:focus,
-.active\:alignContent-evenly:active {
+.simple-ui-alignContent-evenly,
+.simple-ui-hover\:alignContent-evenly:hover,
+.simple-ui-focus\:alignContent-evenly:focus,
+.simple-ui-active\:alignContent-evenly:active {
 	align-content: space-evenly;
 }
