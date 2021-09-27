@@ -1,27 +1,27 @@
-.placeItems-center,
-.hover\:placeItems-center:hover,
-.focus\:placeItems-center:focus,
-.active\:placeItems-center:active {
+.simple-ui-placeItems-center,
+.simple-ui-hover\:placeItems-center:hover,
+.simple-ui-focus\:placeItems-center:focus,
+.simple-ui-active\:placeItems-center:active {
 	place-items: center;
 }
 
-.placeItems-start,
-.hover\:placeItems-start:hover,
-.focus\:placeItems-start:focus,
-.active\:placeItems-start:active {
+.simple-ui-placeItems-start,
+.simple-ui-hover\:placeItems-start:hover,
+.simple-ui-focus\:placeItems-start:focus,
+.simple-ui-active\:placeItems-start:active {
 	place-items: start;
 }
 
-.placeItems-end,
-.hover\:placeItems-end:hover,
-.focus\:placeItems-end:focus,
-.active\:placeItems-end:active {
+.simple-ui-placeItems-end,
+.simple-ui-hover\:placeItems-end:hover,
+.simple-ui-focus\:placeItems-end:focus,
+.simple-ui-active\:placeItems-end:active {
 	place-items: end;
 }
 
-.placeItems-stretch,
-.hover\:placeItems-stretch:hover,
-.focus\:placeItems-stretch:focus,
-.active\:placeItems-stretch:active {
+.simple-ui-placeItems-stretch,
+.simple-ui-hover\:placeItems-stretch:hover,
+.simple-ui-focus\:placeItems-stretch:focus,
+.simple-ui-active\:placeItems-stretch:active {
 	place-items: stretch;
 }
