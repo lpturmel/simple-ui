@@ -1,41 +1,41 @@
-.justifyContent-start,
-.hover\:justifyContent-start:hover,
-.focus\:justifyContent-start:focus,
-.active\:justifyContent-start:active {
+.simple-ui-justifyContent-start,
+.simple-ui-hover\:justifyContent-start:hover,
+.simple-ui-focus\:justifyContent-start:focus,
+.simple-ui-active\:justifyContent-start:active {
 	justify-content: flex-start;
 }
 
-.justifyContent-end,
-.hover\:justifyContent-end:hover,
-.focus\:justifyContent-end:focus,
-.active\:justifyContent-end:active {
+.simple-ui-justifyContent-end,
+.simple-ui-hover\:justifyContent-end:hover,
+.simple-ui-focus\:justifyContent-end:focus,
+.simple-ui-active\:justifyContent-end:active {
 	justify-content: flex-end;
 }
 
-.justifyContent-center,
-.hover\:justifyContent-center:hover,
-.focus\:justifyContent-center:focus,
-.active\:justifyContent-center:active {
+.simple-ui-justifyContent-center,
+.simple-ui-hover\:justifyContent-center:hover,
+.simple-ui-focus\:justifyContent-center:focus,
+.simple-ui-active\:justifyContent-center:active {
 	justify-content: center;
 }
 
-.justifyContent-between,
-.hover\:justifyContent-between:hover,
-.focus\:justifyContent-between:focus,
-.active\:justifyContent-between:active {
+.simple-ui-justifyContent-between,
+.simple-ui-hover\:justifyContent-between:hover,
+.simple-ui-focus\:justifyContent-between:focus,
+.simple-ui-active\:justifyContent-between:active {
 	justify-content: space-between;
 }
 
-.justifyContent-around,
-.hover\:justifyContent-around:hover,
-.focus\:justifyContent-around:focus,
-.active\:justifyContent-around:active {
+.simple-ui-justifyContent-around,
+.simple-ui-hover\:justifyContent-around:hover,
+.simple-ui-focus\:justifyContent-around:focus,
+.simple-ui-active\:justifyContent-around:active {
 	justify-content: space-around;
 }
 
-.justifyContent-evenly,
-.hover\:justifyContent-evenly:hover,
-.focus\:justifyContent-evenly:focus,
-.active\:justifyContent-evenly:active {
+.simple-ui-justifyContent-evenly,
+.simple-ui-hover\:justifyContent-evenly:hover,
+.simple-ui-focus\:justifyContent-evenly:focus,
+.simple-ui-active\:justifyContent-evenly:active {
 	justify-content: space-evenly;
 }
