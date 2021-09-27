@@ -1,24 +1,24 @@
-.flexWrap-1,
-.hover\:flexWrap-1:hover,
-.focus\:flexWrap-1:focus,
-.active\:flexWrap-1:active {
+.simple-ui-flexWrap-1,
+.simple-ui-hover\:flexWrap-1:hover,
+.simple-ui-focus\:flexWrap-1:focus,
+.simple-ui-active\:flexWrap-1:active {
 	flex: 1 1 0%;
 }
-.flexWrap-auto,
-.hover\:flexWrap-auto:hover,
-.focus\:flexWrap-auto:focus,
-.active\:flexWrap-auto:active {
+.simple-ui-flexWrap-auto,
+.simple-ui-hover\:flexWrap-auto:hover,
+.simple-ui-focus\:flexWrap-auto:focus,
+.simple-ui-active\:flexWrap-auto:active {
 	flex: 1 1 auto;
 }
-.flexWrap-initial,
-.hover\:flexWrap-initial:hover,
-.focus\:flexWrap-initial:focus,
-.active\:flexWrap-initial:active {
+.simple-ui-flexWrap-initial,
+.simple-ui-hover\:flexWrap-initial:hover,
+.simple-ui-focus\:flexWrap-initial:focus,
+.simple-ui-active\:flexWrap-initial:active {
 	flex: 0 1 auto;
 }
-.flexWrap-none,
-.hover\:flexWrap-none:hover,
-.focus\:flexWrap-none:focus,
-.active\:flexWrap-none:active {
+.simple-ui-flexWrap-none,
+.simple-ui-hover\:flexWrap-none:hover,
+.simple-ui-focus\:flexWrap-none:focus,
+.simple-ui-active\:flexWrap-none:active {
 	flex: none;
 }
