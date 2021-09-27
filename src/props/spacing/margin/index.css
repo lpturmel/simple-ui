@@ -1,1196 +1,3092 @@
-.m-auto,
-.margin-auto {
+.simple-ui-m-auto,
+.simple-ui-hover\:m-auto:hover,
+.simple-ui-focus\:m-auto:focus,
+.simple-ui-active\:m-auto:active,
+.simple-ui-margin-auto,
+.simple-ui-hover\:margin-auto:hover,
+.simple-ui-focus\:margin-auto:focus,
+.simple-ui-active\:margin-auto:active {
 	margin: auto;
 }
 
-.m-0,
-.margin-0 {
+.simple-ui-m-0,
+.simple-ui-hover\:m-0:hover,
+.simple-ui-focus\:m-0:focus,
+.simple-ui-active\:m-0:active,
+.simple-ui-margin-0,
+.simple-ui-hover\:margin-0:hover,
+.simple-ui-focus\:margin-0:focus,
+.simple-ui-active\:margin-0:active {
 	margin: 0px;
 }
-.m-px,
-.margin-px {
+.simple-ui-m-px,
+.simple-ui-hover\:m-px:hover,
+.simple-ui-focus\:m-px:focus,
+.simple-ui-active\:m-px:active,
+.simple-ui-margin-px,
+.simple-ui-hover\:margin-px:hover,
+.simple-ui-focus\:margin-px:focus,
+.simple-ui-active\:margin-px:active {
 	margin: 1px;
 }
-.m-0\.5,
-.margin-0\.5 {
+.simple-ui-m-0\.5,
+.simple-ui-hover\:m-0\.5:hover,
+.simple-ui-focus\:m-0\.5:focus,
+.simple-ui-active\:m-0\.5:active,
+.simple-ui-margin-0\.5,
+.simple-ui-hover\:margin-0\.5:hover,
+.simple-ui-focus\:margin-0\.5:focus,
+.simple-ui-active\:margin-0\.5:active {
 	margin: 0.125rem;
 }
-.m-1,
-.margin-1 {
+.simple-ui-m-1,
+.simple-ui-hover\:m-1:hover,
+.simple-ui-focus\:m-1:focus,
+.simple-ui-active\:m-1:active,
+.simple-ui-margin-1,
+.simple-ui-hover\:margin-1:hover,
+.simple-ui-focus\:margin-1:focus,
+.simple-ui-active\:margin-1:active {
 	margin: 0.25rem;
 }
-.m-1\.5,
-.margin-1\.5 {
+.simple-ui-m-1\.5,
+.simple-ui-hover\:m-1\.5:hover,
+.simple-ui-focus\:m-1\.5:focus,
+.simple-ui-active\:m-1\.5:active,
+.simple-ui-margin-1\.5,
+.simple-ui-hover\:margin-1\.5:hover,
+.simple-ui-focus\:margin-1\.5:focus,
+.simple-ui-active\:margin-1\.5:active {
 	margin: 0.375rem;
 }
-.m-2,
-.margin-2 {
+.simple-ui-m-2,
+.simple-ui-hover\:m-2:hover,
+.simple-ui-focus\:m-2:focus,
+.simple-ui-active\:m-2:active,
+.simple-ui-margin-2,
+.simple-ui-hover\:margin-2:hover,
+.simple-ui-focus\:margin-2:focus,
+.simple-ui-active\:margin-2:active {
 	margin: 0.5rem;
 }
-.m-2\.5,
-.margin-2\.5 {
+.simple-ui-m-2\.5,
+.simple-ui-hover\:m-2\.5:hover,
+.simple-ui-focus\:m-2\.5:focus,
+.simple-ui-active\:m-2\.5:active,
+.simple-ui-margin-2\.5,
+.simple-ui-hover\:margin-2\.5:hover,
+.simple-ui-focus\:margin-2\.5:focus,
+.simple-ui-active\:margin-2\.5:active {
 	margin: 0.625rem;
 }
-.m-3,
-.margin-3 {
+.simple-ui-m-3,
+.simple-ui-hover\:m-3:hover,
+.simple-ui-focus\:m-3:focus,
+.simple-ui-active\:m-3:active,
+.simple-ui-margin-3,
+.simple-ui-hover\:margin-3:hover,
+.simple-ui-focus\:margin-3:focus,
+.simple-ui-active\:margin-3:active {
 	margin: 0.75rem;
 }
-.m-3\.5,
-.margin-3\.5 {
+.simple-ui-m-3\.5,
+.simple-ui-hover\:m-3\.5:hover,
+.simple-ui-focus\:m-3\.5:focus,
+.simple-ui-active\:m-3\.5:active,
+.simple-ui-margin-3\.5,
+.simple-ui-hover\:margin-3\.5:hover,
+.simple-ui-focus\:margin-3\.5:focus,
+.simple-ui-active\:margin-3\.5:active {
 	margin: 0.875rem;
 }
-.m-4,
-.margin-4 {
+.simple-ui-m-4,
+.simple-ui-hover\:m-4:hover,
+.simple-ui-focus\:m-4:focus,
+.simple-ui-active\:m-4:active,
+.simple-ui-margin-4,
+.simple-ui-hover\:margin-4:hover,
+.simple-ui-focus\:margin-4:focus,
+.simple-ui-active\:margin-4:active {
 	margin: 1rem;
 }
-.m-5,
-.margin-5 {
+.simple-ui-m-5,
+.simple-ui-hover\:m-5:hover,
+.simple-ui-focus\:m-5:focus,
+.simple-ui-active\:m-5:active,
+.simple-ui-margin-5,
+.simple-ui-hover\:margin-5:hover,
+.simple-ui-focus\:margin-5:focus,
+.simple-ui-active\:margin-5:active {
 	margin: 1.25rem;
 }
-.m-6,
-.margin-6 {
+.simple-ui-m-6,
+.simple-ui-hover\:m-6:hover,
+.simple-ui-focus\:m-6:focus,
+.simple-ui-active\:m-6:active,
+.simple-ui-margin-6,
+.simple-ui-hover\:margin-6:hover,
+.simple-ui-focus\:margin-6:focus,
+.simple-ui-active\:margin-6:active {
 	margin: 1.5rem;
 }
-.m-7,
-.margin-7 {
+.simple-ui-m-7,
+.simple-ui-hover\:m-7:hover,
+.simple-ui-focus\:m-7:focus,
+.simple-ui-active\:m-7:active,
+.simple-ui-margin-7,
+.simple-ui-hover\:margin-7:hover,
+.simple-ui-focus\:margin-7:focus,
+.simple-ui-active\:margin-7:active {
 	margin: 1.75rem;
 }
-.m-8,
-.margin-8 {
+.simple-ui-m-8,
+.simple-ui-hover\:m-8:hover,
+.simple-ui-focus\:m-8:focus,
+.simple-ui-active\:m-8:active,
+.simple-ui-margin-8,
+.simple-ui-hover\:margin-8:hover,
+.simple-ui-focus\:margin-8:focus,
+.simple-ui-active\:margin-8:active {
 	margin: 2rem;
 }
-.m-9,
-.margin-9 {
+.simple-ui-m-9,
+.simple-ui-hover\:m-9:hover,
+.simple-ui-focus\:m-9:focus,
+.simple-ui-active\:m-9:active,
+.simple-ui-margin-9,
+.simple-ui-hover\:margin-9:hover,
+.simple-ui-focus\:margin-9:focus,
+.simple-ui-active\:margin-9:active {
 	margin: 2.25rem;
 }
-.m-10,
-.margin-10 {
+.simple-ui-m-10,
+.simple-ui-hover\:m-10:hover,
+.simple-ui-focus\:m-10:focus,
+.simple-ui-active\:m-10:active,
+.simple-ui-margin-10,
+.simple-ui-hover\:margin-10:hover,
+.simple-ui-focus\:margin-10:focus,
+.simple-ui-active\:margin-10:active {
 	margin: 2.5rem;
 }
-.m-11,
-.margin-11 {
+.simple-ui-m-11,
+.simple-ui-hover\:m-11:hover,
+.simple-ui-focus\:m-11:focus,
+.simple-ui-active\:m-11:active,
+.simple-ui-margin-11,
+.simple-ui-hover\:margin-11:hover,
+.simple-ui-focus\:margin-11:focus,
+.simple-ui-active\:margin-11:active {
 	margin: 2.75rem;
 }
-.m-12,
-.margin-12 {
+.simple-ui-m-12,
+.simple-ui-hover\:m-12:hover,
+.simple-ui-focus\:m-12:focus,
+.simple-ui-active\:m-12:active,
+.simple-ui-margin-12,
+.simple-ui-hover\:margin-12:hover,
+.simple-ui-focus\:margin-12:focus,
+.simple-ui-active\:margin-12:active {
 	margin: 3rem;
 }
-.m-14,
-.margin-14 {
+.simple-ui-m-14,
+.simple-ui-hover\:m-14:hover,
+.simple-ui-focus\:m-14:focus,
+.simple-ui-active\:m-14:active,
+.simple-ui-margin-14,
+.simple-ui-hover\:margin-14:hover,
+.simple-ui-focus\:margin-14:focus,
+.simple-ui-active\:margin-14:active {
 	margin: 3.5rem;
 }
-.m-16,
-.margin-16 {
+.simple-ui-m-16,
+.simple-ui-hover\:m-16:hover,
+.simple-ui-focus\:m-16:focus,
+.simple-ui-active\:m-16:active,
+.simple-ui-margin-16,
+.simple-ui-hover\:margin-16:hover,
+.simple-ui-focus\:margin-16:focus,
+.simple-ui-active\:margin-16:active {
 	margin: 4rem;
 }
-.m-20,
-.margin-20 {
+.simple-ui-m-20,
+.simple-ui-hover\:m-20:hover,
+.simple-ui-focus\:m-20:focus,
+.simple-ui-active\:m-20:active,
+.simple-ui-margin-20,
+.simple-ui-hover\:margin-20:hover,
+.simple-ui-focus\:margin-20:focus,
+.simple-ui-active\:margin-20:active {
 	margin: 5rem;
 }
-.m-24,
-.margin-24 {
+.simple-ui-m-24,
+.simple-ui-hover\:m-24:hover,
+.simple-ui-focus\:m-24:focus,
+.simple-ui-active\:m-24:active,
+.simple-ui-margin-24,
+.simple-ui-hover\:margin-24:hover,
+.simple-ui-focus\:margin-24:focus,
+.simple-ui-active\:margin-24:active {
 	margin: 6rem;
 }
-.m-28,
-.margin-28 {
+.simple-ui-m-28,
+.simple-ui-hover\:m-28:hover,
+.simple-ui-focus\:m-28:focus,
+.simple-ui-active\:m-28:active,
+.simple-ui-margin-28,
+.simple-ui-hover\:margin-28:hover,
+.simple-ui-focus\:margin-28:focus,
+.simple-ui-active\:margin-28:active {
 	margin: 7rem;
 }
-.m-32,
-.margin-32 {
+.simple-ui-m-32,
+.simple-ui-hover\:m-32:hover,
+.simple-ui-focus\:m-32:focus,
+.simple-ui-active\:m-32:active,
+.simple-ui-margin-32,
+.simple-ui-hover\:margin-32:hover,
+.simple-ui-focus\:margin-32:focus,
+.simple-ui-active\:margin-32:active {
 	margin: 8rem;
 }
-.m-36,
-.margin-36 {
+.simple-ui-m-36,
+.simple-ui-hover\:m-36:hover,
+.simple-ui-focus\:m-36:focus,
+.simple-ui-active\:m-36:active,
+.simple-ui-margin-36,
+.simple-ui-hover\:margin-36:hover,
+.simple-ui-focus\:margin-36:focus,
+.simple-ui-active\:margin-36:active {
 	margin: 9rem;
 }
-.m-40,
-.margin-40 {
+.simple-ui-m-40,
+.simple-ui-hover\:m-40:hover,
+.simple-ui-focus\:m-40:focus,
+.simple-ui-active\:m-40:active,
+.simple-ui-margin-40,
+.simple-ui-hover\:margin-40:hover,
+.simple-ui-focus\:margin-40:focus,
+.simple-ui-active\:margin-40:active {
 	margin: 10rem;
 }
-.m-44,
-.margin-44 {
+.simple-ui-m-44,
+.simple-ui-hover\:m-44:hover,
+.simple-ui-focus\:m-44:focus,
+.simple-ui-active\:m-44:active,
+.simple-ui-margin-44,
+.simple-ui-hover\:margin-44:hover,
+.simple-ui-focus\:margin-44:focus,
+.simple-ui-active\:margin-44:active {
 	margin: 11rem;
 }
-.m-48,
-.margin-48 {
+.simple-ui-m-48,
+.simple-ui-hover\:m-48:hover,
+.simple-ui-focus\:m-48:focus,
+.simple-ui-active\:m-48:active,
+.simple-ui-margin-48,
+.simple-ui-hover\:margin-48:hover,
+.simple-ui-focus\:margin-48:focus,
+.simple-ui-active\:margin-48:active {
 	margin: 12rem;
 }
-.m-52,
-.margin-52 {
+.simple-ui-m-52,
+.simple-ui-hover\:m-52:hover,
+.simple-ui-focus\:m-52:focus,
+.simple-ui-active\:m-52:active,
+.simple-ui-margin-52,
+.simple-ui-hover\:margin-52:hover,
+.simple-ui-focus\:margin-52:focus,
+.simple-ui-active\:margin-52:active {
 	margin: 13rem;
 }
-.m-56,
-.margin-56 {
+.simple-ui-m-56,
+.simple-ui-hover\:m-56:hover,
+.simple-ui-focus\:m-56:focus,
+.simple-ui-active\:m-56:active,
+.simple-ui-margin-56,
+.simple-ui-hover\:margin-56:hover,
+.simple-ui-focus\:margin-56:focus,
+.simple-ui-active\:margin-56:active {
 	margin: 14rem;
 }
-.m-60,
-.margin-60 {
+.simple-ui-m-60,
+.simple-ui-hover\:m-60:hover,
+.simple-ui-focus\:m-60:focus,
+.simple-ui-active\:m-60:active,
+.simple-ui-margin-60,
+.simple-ui-hover\:margin-60:hover,
+.simple-ui-focus\:margin-60:focus,
+.simple-ui-active\:margin-60:active {
 	margin: 15rem;
 }
-.m-64,
-.margin-64 {
+.simple-ui-m-64,
+.simple-ui-hover\:m-64:hover,
+.simple-ui-focus\:m-64:focus,
+.simple-ui-active\:m-64:active,
+.simple-ui-margin-64,
+.simple-ui-hover\:margin-64:hover,
+.simple-ui-focus\:margin-64:focus,
+.simple-ui-active\:margin-64:active {
 	margin: 16rem;
 }
-.m-72,
-.margin-72 {
+.simple-ui-m-72,
+.simple-ui-hover\:m-72:hover,
+.simple-ui-focus\:m-72:focus,
+.simple-ui-active\:m-72:active,
+.simple-ui-margin-72,
+.simple-ui-hover\:margin-72:hover,
+.simple-ui-focus\:margin-72:focus,
+.simple-ui-active\:margin-72:active {
 	margin: 18rem;
 }
-.m-80,
-.margin-80 {
+.simple-ui-m-80,
+.simple-ui-hover\:m-80:hover,
+.simple-ui-focus\:m-80:focus,
+.simple-ui-active\:m-80:active,
+.simple-ui-margin-80,
+.simple-ui-hover\:margin-80:hover,
+.simple-ui-focus\:margin-80:focus,
+.simple-ui-active\:margin-80:active {
 	margin: 20rem;
 }
-.m-96,
-.margin-96 {
+.simple-ui-m-96,
+.simple-ui-hover\:m-96:hover,
+.simple-ui-focus\:m-96:focus,
+.simple-ui-active\:m-96:active,
+.simple-ui-margin-96,
+.simple-ui-hover\:margin-96:hover,
+.simple-ui-focus\:margin-96:focus,
+.simple-ui-active\:margin-96:active {
 	margin: 24rem;
 }
-.mx-0,
-.marginx-0 {
+.simple-ui-mx-0,
+.simple-ui-hover\:mx-0:hover,
+.simple-ui-focus\:mx-0:focus,
+.simple-ui-active\:mx-0:active,
+.simple-ui-marginx-0,
+.simple-ui-hover\:marginx-0:hover,
+.simple-ui-focus\:marginx-0:focus,
+.simple-ui-active\:marginx-0:active {
 	margin-left: 0px;
 
 	margin-right: 0px;
 }
-.mx-px,
-.marginx-px {
+.simple-ui-mx-px,
+.simple-ui-hover\:mx-px:hover,
+.simple-ui-focus\:mx-px:focus,
+.simple-ui-active\:mx-px:active,
+.simple-ui-marginx-px,
+.simple-ui-hover\:marginx-px:hover,
+.simple-ui-focus\:marginx-px:focus,
+.simple-ui-active\:marginx-px:active {
 	margin-left: 1px;
 	margin-right: 1px;
 }
-.mx-0\.5,
-.marginx-0\.5 {
+.simple-ui-mx-0\.5,
+.simple-ui-hover\:mx-0\.5:hover,
+.simple-ui-focus\:mx-0\.5:focus,
+.simple-ui-active\:mx-0\.5:active,
+.simple-ui-marginx-0\.5,
+.simple-ui-hover\:marginx-0\.5:hover,
+.simple-ui-focus\:marginx-0\.5:focus,
+.simple-ui-active\:marginx-0\.5:active {
 	margin-left: 0.125rem;
 	margin-right: 0.125rem;
 }
-.mx-1,
-.marginx-1 {
+.simple-ui-mx-1,
+.simple-ui-hover\:mx-1:hover,
+.simple-ui-focus\:mx-1:focus,
+.simple-ui-active\:mx-1:active,
+.simple-ui-marginx-1,
+.simple-ui-hover\:marginx-1:hover,
+.simple-ui-focus\:marginx-1:focus,
+.simple-ui-active\:marginx-1:active {
 	margin-left: 0.25rem;
 	margin-right: 0.25rem;
 }
-.mx-1\.5,
-.marginx-1\.5 {
+.simple-ui-mx-1\.5,
+.simple-ui-hover\:mx-1\.5:hover,
+.simple-ui-focus\:mx-1\.5:focus,
+.simple-ui-active\:mx-1\.5:active,
+.simple-ui-marginx-1\.5,
+.simple-ui-hover\:marginx-1\.5:hover,
+.simple-ui-focus\:marginx-1\.5:focus,
+.simple-ui-active\:marginx-1\.5:active {
 	margin-left: 0.375rem;
 	margin-right: 0.375rem;
 }
-.mx-2,
-.marginx-2 {
+.simple-ui-mx-2,
+.simple-ui-hover\:mx-2:hover,
+.simple-ui-focus\:mx-2:focus,
+.simple-ui-active\:mx-2:active,
+.simple-ui-marginx-2,
+.simple-ui-hover\:marginx-2:hover,
+.simple-ui-focus\:marginx-2:focus,
+.simple-ui-active\:marginx-2:active {
 	margin-left: 0.5rem;
 	margin-right: 0.5rem;
 }
-.mx-2\.5,
-.marginx-2\.5 {
+.simple-ui-mx-2\.5,
+.simple-ui-hover\:mx-2\.5:hover,
+.simple-ui-focus\:mx-2\.5:focus,
+.simple-ui-active\:mx-2\.5:active,
+.simple-ui-marginx-2\.5,
+.simple-ui-hover\:marginx-2\.5:hover,
+.simple-ui-focus\:marginx-2\.5:focus,
+.simple-ui-active\:marginx-2\.5:active {
 	margin-left: 0.625rem;
 	margin-right: 0.625rem;
 }
-.mx-3,
-.marginx-3 {
+.simple-ui-mx-3,
+.simple-ui-hover\:mx-3:hover,
+.simple-ui-focus\:mx-3:focus,
+.simple-ui-active\:mx-3:active,
+.simple-ui-marginx-3,
+.simple-ui-hover\:marginx-3:hover,
+.simple-ui-focus\:marginx-3:focus,
+.simple-ui-active\:marginx-3:active {
 	margin-left: 0.75rem;
 	margin-right: 0.75rem;
 }
-.mx-3\.5,
-.marginx-3\.5 {
+.simple-ui-mx-3\.5,
+.simple-ui-hover\:mx-3\.5:hover,
+.simple-ui-focus\:mx-3\.5:focus,
+.simple-ui-active\:mx-3\.5:active,
+.simple-ui-marginx-3\.5,
+.simple-ui-hover\:marginx-3\.5:hover,
+.simple-ui-focus\:marginx-3\.5:focus,
+.simple-ui-active\:marginx-3\.5:active {
 	margin-left: 0.875rem;
 	margin-right: 0.875rem;
 }
-.mx-4,
-.marginx-4 {
+.simple-ui-mx-4,
+.simple-ui-hover\:mx-4:hover,
+.simple-ui-focus\:mx-4:focus,
+.simple-ui-active\:mx-4:active,
+.simple-ui-marginx-4,
+.simple-ui-hover\:marginx-4:hover,
+.simple-ui-focus\:marginx-4:focus,
+.simple-ui-active\:marginx-4:active {
 	margin-left: 1rem;
 	margin-right: 1rem;
 }
-.mx-5,
-.marginx-5 {
+.simple-ui-mx-5,
+.simple-ui-hover\:mx-5:hover,
+.simple-ui-focus\:mx-5:focus,
+.simple-ui-active\:mx-5:active,
+.simple-ui-marginx-5,
+.simple-ui-hover\:marginx-5:hover,
+.simple-ui-focus\:marginx-5:focus,
+.simple-ui-active\:marginx-5:active {
 	margin-left: 1.25rem;
 	margin-right: 1.25rem;
 }
-.mx-6,
-.marginx-6 {
+.simple-ui-mx-6,
+.simple-ui-hover\:mx-6:hover,
+.simple-ui-focus\:mx-6:focus,
+.simple-ui-active\:mx-6:active,
+.simple-ui-marginx-6,
+.simple-ui-hover\:marginx-6:hover,
+.simple-ui-focus\:marginx-6:focus,
+.simple-ui-active\:marginx-6:active {
 	margin-left: 1.5rem;
 	margin-right: 1.5rem;
 }
-.mx-7,
-.marginx-7 {
+.simple-ui-mx-7,
+.simple-ui-hover\:mx-7:hover,
+.simple-ui-focus\:mx-7:focus,
+.simple-ui-active\:mx-7:active,
+.simple-ui-marginx-7,
+.simple-ui-hover\:marginx-7:hover,
+.simple-ui-focus\:marginx-7:focus,
+.simple-ui-active\:marginx-7:active {
 	margin-left: 1.75rem;
 	margin-right: 1.75rem;
 }
-.mx-8,
-.marginx-8 {
+.simple-ui-mx-8,
+.simple-ui-hover\:mx-8:hover,
+.simple-ui-focus\:mx-8:focus,
+.simple-ui-active\:mx-8:active,
+.simple-ui-marginx-8,
+.simple-ui-hover\:marginx-8:hover,
+.simple-ui-focus\:marginx-8:focus,
+.simple-ui-active\:marginx-8:active {
 	margin-left: 2rem;
 	margin-right: 2rem;
 }
-.mx-9,
-.marginx-9 {
+.simple-ui-mx-9,
+.simple-ui-hover\:mx-9:hover,
+.simple-ui-focus\:mx-9:focus,
+.simple-ui-active\:mx-9:active,
+.simple-ui-marginx-9,
+.simple-ui-hover\:marginx-9:hover,
+.simple-ui-focus\:marginx-9:focus,
+.simple-ui-active\:marginx-9:active {
 	margin-left: 2.25rem;
 	margin-right: 2.25rem;
 }
-.mx-10,
-.marginx-10 {
+.simple-ui-mx-10,
+.simple-ui-hover\:mx-10:hover,
+.simple-ui-focus\:mx-10:focus,
+.simple-ui-active\:mx-10:active,
+.simple-ui-marginx-10,
+.simple-ui-hover\:marginx-10:hover,
+.simple-ui-focus\:marginx-10:focus,
+.simple-ui-active\:marginx-10:active {
 	margin-left: 2.5rem;
 	margin-right: 2.5rem;
 }
-.mx-11,
-.marginx-11 {
+.simple-ui-mx-11,
+.simple-ui-hover\:mx-11:hover,
+.simple-ui-focus\:mx-11:focus,
+.simple-ui-active\:mx-11:active,
+.simple-ui-marginx-11,
+.simple-ui-hover\:marginx-11:hover,
+.simple-ui-focus\:marginx-11:focus,
+.simple-ui-active\:marginx-11:active {
 	margin-left: 2.75rem;
 	margin-right: 2.75rem;
 }
-.mx-12,
-.marginx-12 {
+.simple-ui-mx-12,
+.simple-ui-hover\:mx-12:hover,
+.simple-ui-focus\:mx-12:focus,
+.simple-ui-active\:mx-12:active,
+.simple-ui-marginx-12,
+.simple-ui-hover\:marginx-12:hover,
+.simple-ui-focus\:marginx-12:focus,
+.simple-ui-active\:marginx-12:active {
 	margin-left: 3rem;
 	margin-right: 3rem;
 }
-.mx-14,
-.marginx-14 {
+.simple-ui-mx-14,
+.simple-ui-hover\:mx-14:hover,
+.simple-ui-focus\:mx-14:focus,
+.simple-ui-active\:mx-14:active,
+.simple-ui-marginx-14,
+.simple-ui-hover\:marginx-14:hover,
+.simple-ui-focus\:marginx-14:focus,
+.simple-ui-active\:marginx-14:active {
 	margin-left: 3.5rem;
 	margin-right: 3.5rem;
 }
-.mx-16,
-.marginx-16 {
+.simple-ui-mx-16,
+.simple-ui-hover\:mx-16:hover,
+.simple-ui-focus\:mx-16:focus,
+.simple-ui-active\:mx-16:active,
+.simple-ui-marginx-16,
+.simple-ui-hover\:marginx-16:hover,
+.simple-ui-focus\:marginx-16:focus,
+.simple-ui-active\:marginx-16:active {
 	margin-left: 4rem;
 	margin-right: 4rem;
 }
-.mx-20,
-.marginx-20 {
+.simple-ui-mx-20,
+.simple-ui-hover\:mx-20:hover,
+.simple-ui-focus\:mx-20:focus,
+.simple-ui-active\:mx-20:active,
+.simple-ui-marginx-20,
+.simple-ui-hover\:marginx-20:hover,
+.simple-ui-focus\:marginx-20:focus,
+.simple-ui-active\:marginx-20:active {
 	margin-left: 5rem;
 	margin-right: 5rem;
 }
-.mx-24,
-.marginx-24 {
+.simple-ui-mx-24,
+.simple-ui-hover\:mx-24:hover,
+.simple-ui-focus\:mx-24:focus,
+.simple-ui-active\:mx-24:active,
+.simple-ui-marginx-24,
+.simple-ui-hover\:marginx-24:hover,
+.simple-ui-focus\:marginx-24:focus,
+.simple-ui-active\:marginx-24:active {
 	margin-left: 6rem;
 	margin-right: 6rem;
 }
-.mx-28,
-.marginx-28 {
+.simple-ui-mx-28,
+.simple-ui-hover\:mx-28:hover,
+.simple-ui-focus\:mx-28:focus,
+.simple-ui-active\:mx-28:active,
+.simple-ui-marginx-28,
+.simple-ui-hover\:marginx-28:hover,
+.simple-ui-focus\:marginx-28:focus,
+.simple-ui-active\:marginx-28:active {
 	margin-left: 7rem;
 	margin-right: 7rem;
 }
-.mx-32,
-.marginx-32 {
+.simple-ui-mx-32,
+.simple-ui-hover\:mx-32:hover,
+.simple-ui-focus\:mx-32:focus,
+.simple-ui-active\:mx-32:active,
+.simple-ui-marginx-32,
+.simple-ui-hover\:marginx-32:hover,
+.simple-ui-focus\:marginx-32:focus,
+.simple-ui-active\:marginx-32:active {
 	margin-left: 8rem;
 	margin-right: 8rem;
 }
-.mx-36,
-.marginx-36 {
+.simple-ui-mx-36,
+.simple-ui-hover\:mx-36:hover,
+.simple-ui-focus\:mx-36:focus,
+.simple-ui-active\:mx-36:active,
+.simple-ui-marginx-36,
+.simple-ui-hover\:marginx-36:hover,
+.simple-ui-focus\:marginx-36:focus,
+.simple-ui-active\:marginx-36:active {
 	margin-left: 9rem;
 	margin-right: 9rem;
 }
-.mx-40,
-.marginx-40 {
+.simple-ui-mx-40,
+.simple-ui-hover\:mx-40:hover,
+.simple-ui-focus\:mx-40:focus,
+.simple-ui-active\:mx-40:active,
+.simple-ui-marginx-40,
+.simple-ui-hover\:marginx-40:hover,
+.simple-ui-focus\:marginx-40:focus,
+.simple-ui-active\:marginx-40:active {
 	margin-left: 10rem;
 	margin-right: 10rem;
 }
-.mx-44,
-.marginx-44 {
+.simple-ui-mx-44,
+.simple-ui-hover\:mx-44:hover,
+.simple-ui-focus\:mx-44:focus,
+.simple-ui-active\:mx-44:active,
+.simple-ui-marginx-44,
+.simple-ui-hover\:marginx-44:hover,
+.simple-ui-focus\:marginx-44:focus,
+.simple-ui-active\:marginx-44:active {
 	margin-left: 11rem;
 	margin-right: 11rem;
 }
-.mx-48,
-.marginx-48 {
+.simple-ui-mx-48,
+.simple-ui-hover\:mx-48:hover,
+.simple-ui-focus\:mx-48:focus,
+.simple-ui-active\:mx-48:active,
+.simple-ui-marginx-48,
+.simple-ui-hover\:marginx-48:hover,
+.simple-ui-focus\:marginx-48:focus,
+.simple-ui-active\:marginx-48:active {
 	margin-left: 12rem;
 	margin-right: 12rem;
 }
-.mx-52,
-.marginx-52 {
+.simple-ui-mx-52,
+.simple-ui-hover\:mx-52:hover,
+.simple-ui-focus\:mx-52:focus,
+.simple-ui-active\:mx-52:active,
+.simple-ui-marginx-52,
+.simple-ui-hover\:marginx-52:hover,
+.simple-ui-focus\:marginx-52:focus,
+.simple-ui-active\:marginx-52:active {
 	margin-left: 13rem;
 	margin-right: 13rem;
 }
-.mx-56,
-.marginx-56 {
+.simple-ui-mx-56,
+.simple-ui-hover\:mx-56:hover,
+.simple-ui-focus\:mx-56:focus,
+.simple-ui-active\:mx-56:active,
+.simple-ui-marginx-56,
+.simple-ui-hover\:marginx-56:hover,
+.simple-ui-focus\:marginx-56:focus,
+.simple-ui-active\:marginx-56:active {
 	margin-left: 14rem;
 	margin-right: 14rem;
 }
-.mx-60,
-.marginx-60 {
+.simple-ui-mx-60,
+.simple-ui-hover\:mx-60:hover,
+.simple-ui-focus\:mx-60:focus,
+.simple-ui-active\:mx-60:active,
+.simple-ui-marginx-60,
+.simple-ui-hover\:marginx-60:hover,
+.simple-ui-focus\:marginx-60:focus,
+.simple-ui-active\:marginx-60:active {
 	margin-left: 15rem;
 	margin-right: 15rem;
 }
-.mx-64,
-.marginx-64 {
+.simple-ui-mx-64,
+.simple-ui-hover\:mx-64:hover,
+.simple-ui-focus\:mx-64:focus,
+.simple-ui-active\:mx-64:active,
+.simple-ui-marginx-64,
+.simple-ui-hover\:marginx-64:hover,
+.simple-ui-focus\:marginx-64:focus,
+.simple-ui-active\:marginx-64:active {
 	margin-left: 16rem;
 	margin-right: 16rem;
 }
-.mx-72,
-.marginx-72 {
+.simple-ui-mx-72,
+.simple-ui-hover\:mx-72:hover,
+.simple-ui-focus\:mx-72:focus,
+.simple-ui-active\:mx-72:active,
+.simple-ui-marginx-72,
+.simple-ui-hover\:marginx-72:hover,
+.simple-ui-focus\:marginx-72:focus,
+.simple-ui-active\:marginx-72:active {
 	margin-left: 18rem;
 	margin-right: 18rem;
 }
-.mx-80,
-.marginx-80 {
+.simple-ui-mx-80,
+.simple-ui-hover\:mx-80:hover,
+.simple-ui-focus\:mx-80:focus,
+.simple-ui-active\:mx-80:active,
+.simple-ui-marginx-80,
+.simple-ui-hover\:marginx-80:hover,
+.simple-ui-focus\:marginx-80:focus,
+.simple-ui-active\:marginx-80:active {
 	margin-left: 20rem;
 	margin-right: 20rem;
 }
-.mx-96,
-.marginx-96 {
+.simple-ui-mx-96,
+.simple-ui-hover\:mx-96:hover,
+.simple-ui-focus\:mx-96:focus,
+.simple-ui-active\:mx-96:active,
+.simple-ui-marginx-96,
+.simple-ui-hover\:marginx-96:hover,
+.simple-ui-focus\:marginx-96:focus,
+.simple-ui-active\:marginx-96:active {
 	margin-left: 24rem;
 	margin-right: 24rem;
 }
-.my-0,
-.marginy-0 {
+.simple-ui-my-0,
+.simple-ui-hover\:my-0:hover,
+.simple-ui-focus\:my-0:focus,
+.simple-ui-active\:my-0:active,
+.simple-ui-marginy-0,
+.simple-ui-hover\:marginy-0:hover,
+.simple-ui-focus\:marginy-0:focus,
+.simple-ui-active\:marginy-0:active {
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
-.my-px,
-.marginy-px {
+.simple-ui-my-px,
+.simple-ui-hover\:my-px:hover,
+.simple-ui-focus\:my-px:focus,
+.simple-ui-active\:my-px:active,
+.simple-ui-marginy-px,
+.simple-ui-hover\:marginy-px:hover,
+.simple-ui-focus\:marginy-px:focus,
+.simple-ui-active\:marginy-px:active {
 	margin-top: 1px;
 	margin-bottom: 1px;
 }
-.my-0\.5,
-.marginy-0\.5 {
+.simple-ui-my-0\.5,
+.simple-ui-hover\:my-0\.5:hover,
+.simple-ui-focus\:my-0\.5:focus,
+.simple-ui-active\:my-0\.5:active,
+.simple-ui-marginy-0\.5,
+.simple-ui-hover\:marginy-0\.5:hover,
+.simple-ui-focus\:marginy-0\.5:focus,
+.simple-ui-active\:marginy-0\.5:active {
 	margin-top: 0.125rem;
 	margin-bottom: 0.125rem;
 }
-.my-1,
-.marginy-1 {
+.simple-ui-my-1,
+.simple-ui-hover\:my-1:hover,
+.simple-ui-focus\:my-1:focus,
+.simple-ui-active\:my-1:active,
+.simple-ui-marginy-1,
+.simple-ui-hover\:marginy-1:hover,
+.simple-ui-focus\:marginy-1:focus,
+.simple-ui-active\:marginy-1:active {
 	margin-top: 0.25rem;
 	margin-bottom: 0.25rem;
 }
-.my-1\.5,
-.marginy-1\.5 {
+.simple-ui-my-1\.5,
+.simple-ui-hover\:my-1\.5:hover,
+.simple-ui-focus\:my-1\.5:focus,
+.simple-ui-active\:my-1\.5:active,
+.simple-ui-marginy-1\.5,
+.simple-ui-hover\:marginy-1\.5:hover,
+.simple-ui-focus\:marginy-1\.5:focus,
+.simple-ui-active\:marginy-1\.5:active {
 	margin-top: 0.375rem;
 	margin-bottom: 0.375rem;
 }
-.my-2,
-.marginy-2 {
+.simple-ui-my-2,
+.simple-ui-hover\:my-2:hover,
+.simple-ui-focus\:my-2:focus,
+.simple-ui-active\:my-2:active,
+.simple-ui-marginy-2,
+.simple-ui-hover\:marginy-2:hover,
+.simple-ui-focus\:marginy-2:focus,
+.simple-ui-active\:marginy-2:active {
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 }
-.my-2\.5,
-.marginy-2\.5 {
+.simple-ui-my-2\.5,
+.simple-ui-hover\:my-2\.5:hover,
+.simple-ui-focus\:my-2\.5:focus,
+.simple-ui-active\:my-2\.5:active,
+.simple-ui-marginy-2\.5,
+.simple-ui-hover\:marginy-2\.5:hover,
+.simple-ui-focus\:marginy-2\.5:focus,
+.simple-ui-active\:marginy-2\.5:active {
 	margin-top: 0.625rem;
 	margin-bottom: 0.625rem;
 }
-.my-3,
-.marginy-3 {
+.simple-ui-my-3,
+.simple-ui-hover\:my-3:hover,
+.simple-ui-focus\:my-3:focus,
+.simple-ui-active\:my-3:active,
+.simple-ui-marginy-3,
+.simple-ui-hover\:marginy-3:hover,
+.simple-ui-focus\:marginy-3:focus,
+.simple-ui-active\:marginy-3:active {
 	margin-top: 0.75rem;
 	margin-bottom: 0.75rem;
 }
-.my-3\.5,
-.marginy-3\.5 {
+.simple-ui-my-3\.5,
+.simple-ui-hover\:my-3\.5:hover,
+.simple-ui-focus\:my-3\.5:focus,
+.simple-ui-active\:my-3\.5:active,
+.simple-ui-marginy-3\.5,
+.simple-ui-hover\:marginy-3\.5:hover,
+.simple-ui-focus\:marginy-3\.5:focus,
+.simple-ui-active\:marginy-3\.5:active {
 	margin-top: 0.875rem;
 	margin-bottom: 0.875rem;
 }
-.my-4,
-.marginy-4 {
+.simple-ui-my-4,
+.simple-ui-hover\:my-4:hover,
+.simple-ui-focus\:my-4:focus,
+.simple-ui-active\:my-4:active,
+.simple-ui-marginy-4,
+.simple-ui-hover\:marginy-4:hover,
+.simple-ui-focus\:marginy-4:focus,
+.simple-ui-active\:marginy-4:active {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 }
-.my-5,
-.marginy-5 {
+.simple-ui-my-5,
+.simple-ui-hover\:my-5:hover,
+.simple-ui-focus\:my-5:focus,
+.simple-ui-active\:my-5:active,
+.simple-ui-marginy-5,
+.simple-ui-hover\:marginy-5:hover,
+.simple-ui-focus\:marginy-5:focus,
+.simple-ui-active\:marginy-5:active {
 	margin-top: 1.25rem;
 	margin-bottom: 1.25rem;
 }
-.my-6,
-.marginy-6 {
+.simple-ui-my-6,
+.simple-ui-hover\:my-6:hover,
+.simple-ui-focus\:my-6:focus,
+.simple-ui-active\:my-6:active,
+.simple-ui-marginy-6,
+.simple-ui-hover\:marginy-6:hover,
+.simple-ui-focus\:marginy-6:focus,
+.simple-ui-active\:marginy-6:active {
 	margin-top: 1.5rem;
 	margin-bottom: 1.5rem;
 }
-.my-7,
-.marginy-7 {
+.simple-ui-my-7,
+.simple-ui-hover\:my-7:hover,
+.simple-ui-focus\:my-7:focus,
+.simple-ui-active\:my-7:active,
+.simple-ui-marginy-7,
+.simple-ui-hover\:marginy-7:hover,
+.simple-ui-focus\:marginy-7:focus,
+.simple-ui-active\:marginy-7:active {
 	margin-top: 1.75rem;
 	margin-bottom: 1.75rem;
 }
-.my-8,
-.marginy-8 {
+.simple-ui-my-8,
+.simple-ui-hover\:my-8:hover,
+.simple-ui-focus\:my-8:focus,
+.simple-ui-active\:my-8:active,
+.simple-ui-marginy-8,
+.simple-ui-hover\:marginy-8:hover,
+.simple-ui-focus\:marginy-8:focus,
+.simple-ui-active\:marginy-8:active {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
-.my-9,
-.marginy-9 {
+.simple-ui-my-9,
+.simple-ui-hover\:my-9:hover,
+.simple-ui-focus\:my-9:focus,
+.simple-ui-active\:my-9:active,
+.simple-ui-marginy-9,
+.simple-ui-hover\:marginy-9:hover,
+.simple-ui-focus\:marginy-9:focus,
+.simple-ui-active\:marginy-9:active {
 	margin-top: 2.25rem;
 	margin-bottom: 2.25rem;
 }
-.my-10,
-.marginy-10 {
+.simple-ui-my-10,
+.simple-ui-hover\:my-10:hover,
+.simple-ui-focus\:my-10:focus,
+.simple-ui-active\:my-10:active,
+.simple-ui-marginy-10,
+.simple-ui-hover\:marginy-10:hover,
+.simple-ui-focus\:marginy-10:focus,
+.simple-ui-active\:marginy-10:active {
 	margin-top: 2.5rem;
 	margin-bottom: 2.5rem;
 }
-.my-11,
-.marginy-11 {
+.simple-ui-my-11,
+.simple-ui-hover\:my-11:hover,
+.simple-ui-focus\:my-11:focus,
+.simple-ui-active\:my-11:active,
+.simple-ui-marginy-11,
+.simple-ui-hover\:marginy-11:hover,
+.simple-ui-focus\:marginy-11:focus,
+.simple-ui-active\:marginy-11:active {
 	margin-top: 2.75rem;
 	margin-bottom: 2.75rem;
 }
-.my-12,
-.marginy-12 {
+.simple-ui-my-12,
+.simple-ui-hover\:my-12:hover,
+.simple-ui-focus\:my-12:focus,
+.simple-ui-active\:my-12:active,
+.simple-ui-marginy-12,
+.simple-ui-hover\:marginy-12:hover,
+.simple-ui-focus\:marginy-12:focus,
+.simple-ui-active\:marginy-12:active {
 	margin-top: 3rem;
 	margin-bottom: 3rem;
 }
-.my-14,
-.marginy-14 {
+.simple-ui-my-14,
+.simple-ui-hover\:my-14:hover,
+.simple-ui-focus\:my-14:focus,
+.simple-ui-active\:my-14:active,
+.simple-ui-marginy-14,
+.simple-ui-hover\:marginy-14:hover,
+.simple-ui-focus\:marginy-14:focus,
+.simple-ui-active\:marginy-14:active {
 	margin-top: 3.5rem;
 	margin-bottom: 3.5rem;
 }
-.my-16,
-.marginy-16 {
+.simple-ui-my-16,
+.simple-ui-hover\:my-16:hover,
+.simple-ui-focus\:my-16:focus,
+.simple-ui-active\:my-16:active,
+.simple-ui-marginy-16,
+.simple-ui-hover\:marginy-16:hover,
+.simple-ui-focus\:marginy-16:focus,
+.simple-ui-active\:marginy-16:active {
 	margin-top: 4rem;
 	margin-bottom: 4rem;
 }
-.my-20,
-.marginy-20 {
+.simple-ui-my-20,
+.simple-ui-hover\:my-20:hover,
+.simple-ui-focus\:my-20:focus,
+.simple-ui-active\:my-20:active,
+.simple-ui-marginy-20,
+.simple-ui-hover\:marginy-20:hover,
+.simple-ui-focus\:marginy-20:focus,
+.simple-ui-active\:marginy-20:active {
 	margin-top: 5rem;
 	margin-bottom: 5rem;
 }
-.my-24,
-.marginy-24 {
+.simple-ui-my-24,
+.simple-ui-hover\:my-24:hover,
+.simple-ui-focus\:my-24:focus,
+.simple-ui-active\:my-24:active,
+.simple-ui-marginy-24,
+.simple-ui-hover\:marginy-24:hover,
+.simple-ui-focus\:marginy-24:focus,
+.simple-ui-active\:marginy-24:active {
 	margin-top: 6rem;
 	margin-bottom: 6rem;
 }
-.my-28,
-.marginy-28 {
+.simple-ui-my-28,
+.simple-ui-hover\:my-28:hover,
+.simple-ui-focus\:my-28:focus,
+.simple-ui-active\:my-28:active,
+.simple-ui-marginy-28,
+.simple-ui-hover\:marginy-28:hover,
+.simple-ui-focus\:marginy-28:focus,
+.simple-ui-active\:marginy-28:active {
 	margin-top: 7rem;
 	margin-bottom: 7rem;
 }
-.my-32,
-.marginy-32 {
+.simple-ui-my-32,
+.simple-ui-hover\:my-32:hover,
+.simple-ui-focus\:my-32:focus,
+.simple-ui-active\:my-32:active,
+.simple-ui-marginy-32,
+.simple-ui-hover\:marginy-32:hover,
+.simple-ui-focus\:marginy-32:focus,
+.simple-ui-active\:marginy-32:active {
 	margin-top: 8rem;
 	margin-bottom: 8rem;
 }
-.my-36,
-.marginy-36 {
+.simple-ui-my-36,
+.simple-ui-hover\:my-36:hover,
+.simple-ui-focus\:my-36:focus,
+.simple-ui-active\:my-36:active,
+.simple-ui-marginy-36,
+.simple-ui-hover\:marginy-36:hover,
+.simple-ui-focus\:marginy-36:focus,
+.simple-ui-active\:marginy-36:active {
 	margin-top: 9rem;
 	margin-bottom: 9rem;
 }
-.my-40,
-.marginy-40 {
+.simple-ui-my-40,
+.simple-ui-hover\:my-40:hover,
+.simple-ui-focus\:my-40:focus,
+.simple-ui-active\:my-40:active,
+.simple-ui-marginy-40,
+.simple-ui-hover\:marginy-40:hover,
+.simple-ui-focus\:marginy-40:focus,
+.simple-ui-active\:marginy-40:active {
 	margin-top: 10rem;
 	margin-bottom: 10rem;
 }
-.my-44,
-.marginy-44 {
+.simple-ui-my-44,
+.simple-ui-hover\:my-44:hover,
+.simple-ui-focus\:my-44:focus,
+.simple-ui-active\:my-44:active,
+.simple-ui-marginy-44,
+.simple-ui-hover\:marginy-44:hover,
+.simple-ui-focus\:marginy-44:focus,
+.simple-ui-active\:marginy-44:active {
 	margin-top: 11rem;
 	margin-bottom: 11rem;
 }
-.my-48,
-.marginy-48 {
+.simple-ui-my-48,
+.simple-ui-hover\:my-48:hover,
+.simple-ui-focus\:my-48:focus,
+.simple-ui-active\:my-48:active,
+.simple-ui-marginy-48,
+.simple-ui-hover\:marginy-48:hover,
+.simple-ui-focus\:marginy-48:focus,
+.simple-ui-active\:marginy-48:active {
 	margin-top: 12rem;
 	margin-bottom: 12rem;
 }
-.my-52,
-.marginy-52 {
+.simple-ui-my-52,
+.simple-ui-hover\:my-52:hover,
+.simple-ui-focus\:my-52:focus,
+.simple-ui-active\:my-52:active,
+.simple-ui-marginy-52,
+.simple-ui-hover\:marginy-52:hover,
+.simple-ui-focus\:marginy-52:focus,
+.simple-ui-active\:marginy-52:active {
 	margin-top: 13rem;
 	margin-bottom: 13rem;
 }
-.my-56,
-.marginy-56 {
+.simple-ui-my-56,
+.simple-ui-hover\:my-56:hover,
+.simple-ui-focus\:my-56:focus,
+.simple-ui-active\:my-56:active,
+.simple-ui-marginy-56,
+.simple-ui-hover\:marginy-56:hover,
+.simple-ui-focus\:marginy-56:focus,
+.simple-ui-active\:marginy-56:active {
 	margin-top: 14rem;
 	margin-bottom: 14rem;
 }
-.my-60,
-.marginy-60 {
+.simple-ui-my-60,
+.simple-ui-hover\:my-60:hover,
+.simple-ui-focus\:my-60:focus,
+.simple-ui-active\:my-60:active,
+.simple-ui-marginy-60,
+.simple-ui-hover\:marginy-60:hover,
+.simple-ui-focus\:marginy-60:focus,
+.simple-ui-active\:marginy-60:active {
 	margin-top: 15rem;
 	margin-bottom: 15rem;
 }
-.my-64,
-.marginy-64 {
+.simple-ui-my-64,
+.simple-ui-hover\:my-64:hover,
+.simple-ui-focus\:my-64:focus,
+.simple-ui-active\:my-64:active,
+.simple-ui-marginy-64,
+.simple-ui-hover\:marginy-64:hover,
+.simple-ui-focus\:marginy-64:focus,
+.simple-ui-active\:marginy-64:active {
 	margin-top: 16rem;
 	margin-bottom: 16rem;
 }
-.my-72,
-.marginy-72 {
+.simple-ui-my-72,
+.simple-ui-hover\:my-72:hover,
+.simple-ui-focus\:my-72:focus,
+.simple-ui-active\:my-72:active,
+.simple-ui-marginy-72,
+.simple-ui-hover\:marginy-72:hover,
+.simple-ui-focus\:marginy-72:focus,
+.simple-ui-active\:marginy-72:active {
 	margin-top: 18rem;
 	margin-bottom: 18rem;
 }
-.my-80,
-.marginy-80 {
+.simple-ui-my-80,
+.simple-ui-hover\:my-80:hover,
+.simple-ui-focus\:my-80:focus,
+.simple-ui-active\:my-80:active,
+.simple-ui-marginy-80,
+.simple-ui-hover\:marginy-80:hover,
+.simple-ui-focus\:marginy-80:focus,
+.simple-ui-active\:marginy-80:active {
 	margin-top: 20rem;
 	margin-bottom: 20rem;
 }
-.my-96,
-.marginy-96 {
+.simple-ui-my-96,
+.simple-ui-hover\:my-96:hover,
+.simple-ui-focus\:my-96:focus,
+.simple-ui-active\:my-96:active,
+.simple-ui-marginy-96,
+.simple-ui-hover\:marginy-96:hover,
+.simple-ui-focus\:marginy-96:focus,
+.simple-ui-active\:marginy-96:active {
 	margin-top: 24rem;
 	margin-bottom: 24rem;
 }
-.mt-0,
-.marginTop-0,
-.marginT-0 {
+.simple-ui-mt-0,
+.simple-ui-hover\:mt-0:hover,
+.simple-ui-focus\:mt-0:focus,
+.simple-ui-active\:mt-0:active,
+.simple-ui-marginTop-0,
+.simple-ui-hover\:marginTop-0:hover,
+.simple-ui-focus\:marginTop-0:focus,
+.simple-ui-active\:marginTop-0:active,
+.simple-ui-marginT-0,
+.simple-ui-hover\:marginT-0:hover,
+.simple-ui-focus\:marginT-0:focus,
+.simple-ui-active\:marginT-0:active {
 	margin-top: 0px;
 }
-.mt-px,
-.marginTop-px,
-.marginT-px {
+.simple-ui-mt-px,
+.simple-ui-hover\:mt-px:hover,
+.simple-ui-focus\:mt-px:focus,
+.simple-ui-active\:mt-px:active,
+.simple-ui-marginTop-px,
+.simple-ui-hover\:marginTop-px:hover,
+.simple-ui-focus\:marginTop-px:focus,
+.simple-ui-active\:marginTop-px:active,
+.simple-ui-marginT-px,
+.simple-ui-hover\:marginT-px:hover,
+.simple-ui-focus\:marginT-px:focus,
+.simple-ui-active\:marginT-px:active {
 	margin-top: 1px;
 }
-.mt-0\.5,
-.marginTop-0\.5,
-.marginT-0\.5 {
+.simple-ui-mt-0\.5,
+.simple-ui-hover\:mt-0\.5:hover,
+.simple-ui-focus\:mt-0\.5:focus,
+.simple-ui-active\:mt-0\.5:active,
+.simple-ui-marginTop-0\.5,
+.simple-ui-hover\:marginTop-0\.5:hover,
+.simple-ui-focus\:marginTop-0\.5:focus,
+.simple-ui-active\:marginTop-0\.5:active,
+.simple-ui-marginT-0\.5,
+.simple-ui-hover\:marginT-0\.5:hover,
+.simple-ui-focus\:marginT-0\.5:focus,
+.simple-ui-active\:marginT-0\.5:active {
 	margin-top: 0.125rem;
 }
-.mt-1,
-.marginTop-1,
-.marginT-1 {
+.simple-ui-mt-1,
+.simple-ui-hover\:mt-1:hover,
+.simple-ui-focus\:mt-1:focus,
+.simple-ui-active\:mt-1:active,
+.simple-ui-marginTop-1,
+.simple-ui-hover\:marginTop-1:hover,
+.simple-ui-focus\:marginTop-1:focus,
+.simple-ui-active\:marginTop-1:active,
+.simple-ui-marginT-1,
+.simple-ui-hover\:marginT-1:hover,
+.simple-ui-focus\:marginT-1:focus,
+.simple-ui-active\:marginT-1:active {
 	margin-top: 0.25rem;
 }
-.mt-1\.5,
-.marginTop-1\.5,
-.marginT-1\.5 {
+.simple-ui-mt-1\.5,
+.simple-ui-hover\:mt-1\.5:hover,
+.simple-ui-focus\:mt-1\.5:focus,
+.simple-ui-active\:mt-1\.5:active,
+.simple-ui-marginTop-1\.5,
+.simple-ui-hover\:marginTop-1\.5:hover,
+.simple-ui-focus\:marginTop-1\.5:focus,
+.simple-ui-active\:marginTop-1\.5:active,
+.simple-ui-marginT-1\.5,
+.simple-ui-hover\:marginT-1\.5:hover,
+.simple-ui-focus\:marginT-1\.5:focus,
+.simple-ui-active\:marginT-1\.5:active {
 	margin-top: 0.375rem;
 }
-.mt-2,
-.marginTop-2,
-.marginT-2 {
+.simple-ui-mt-2,
+.simple-ui-hover\:mt-2:hover,
+.simple-ui-focus\:mt-2:focus,
+.simple-ui-active\:mt-2:active,
+.simple-ui-marginTop-2,
+.simple-ui-hover\:marginTop-2:hover,
+.simple-ui-focus\:marginTop-2:focus,
+.simple-ui-active\:marginTop-2:active,
+.simple-ui-marginT-2,
+.simple-ui-hover\:marginT-2:hover,
+.simple-ui-focus\:marginT-2:focus,
+.simple-ui-active\:marginT-2:active {
 	margin-top: 0.5rem;
 }
-.mt-2\.5,
-.marginTop-2\.5,
-.marginT-2\.5 {
+.simple-ui-mt-2\.5,
+.simple-ui-hover\:mt-2\.5:hover,
+.simple-ui-focus\:mt-2\.5:focus,
+.simple-ui-active\:mt-2\.5:active,
+.simple-ui-marginTop-2\.5,
+.simple-ui-hover\:marginTop-2\.5:hover,
+.simple-ui-focus\:marginTop-2\.5:focus,
+.simple-ui-active\:marginTop-2\.5:active,
+.simple-ui-marginT-2\.5,
+.simple-ui-hover\:marginT-2\.5:hover,
+.simple-ui-focus\:marginT-2\.5:focus,
+.simple-ui-active\:marginT-2\.5:active {
 	margin-top: 0.625rem;
 }
-.mt-3,
-.marginTop-3,
-.marginT-3 {
+.simple-ui-mt-3,
+.simple-ui-hover\:mt-3:hover,
+.simple-ui-focus\:mt-3:focus,
+.simple-ui-active\:mt-3:active,
+.simple-ui-marginTop-3,
+.simple-ui-hover\:marginTop-3:hover,
+.simple-ui-focus\:marginTop-3:focus,
+.simple-ui-active\:marginTop-3:active,
+.simple-ui-marginT-3,
+.simple-ui-hover\:marginT-3:hover,
+.simple-ui-focus\:marginT-3:focus,
+.simple-ui-active\:marginT-3:active {
 	margin-top: 0.75rem;
 }
-.mt-3\.5,
-.marginTop-3\.5,
-.marginT-3\.5 {
+.simple-ui-mt-3\.5,
+.simple-ui-hover\:mt-3\.5:hover,
+.simple-ui-focus\:mt-3\.5:focus,
+.simple-ui-active\:mt-3\.5:active,
+.simple-ui-marginTop-3\.5,
+.simple-ui-hover\:marginTop-3\.5:hover,
+.simple-ui-focus\:marginTop-3\.5:focus,
+.simple-ui-active\:marginTop-3\.5:active,
+.simple-ui-marginT-3\.5,
+.simple-ui-hover\:marginT-3\.5:hover,
+.simple-ui-focus\:marginT-3\.5:focus,
+.simple-ui-active\:marginT-3\.5:active {
 	margin-top: 0.875rem;
 }
-.mt-4,
-.marginTop-4,
-.marginT-4 {
+.simple-ui-mt-4,
+.simple-ui-hover\:mt-4:hover,
+.simple-ui-focus\:mt-4:focus,
+.simple-ui-active\:mt-4:active,
+.simple-ui-marginTop-4,
+.simple-ui-hover\:marginTop-4:hover,
+.simple-ui-focus\:marginTop-4:focus,
+.simple-ui-active\:marginTop-4:active,
+.simple-ui-marginT-4,
+.simple-ui-hover\:marginT-4:hover,
+.simple-ui-focus\:marginT-4:focus,
+.simple-ui-active\:marginT-4:active {
 	margin-top: 1rem;
 }
-.mt-5,
-.marginTop-5,
-.marginT-5 {
+.simple-ui-mt-5,
+.simple-ui-hover\:mt-5:hover,
+.simple-ui-focus\:mt-5:focus,
+.simple-ui-active\:mt-5:active,
+.simple-ui-marginTop-5,
+.simple-ui-hover\:marginTop-5:hover,
+.simple-ui-focus\:marginTop-5:focus,
+.simple-ui-active\:marginTop-5:active,
+.simple-ui-marginT-5,
+.simple-ui-hover\:marginT-5:hover,
+.simple-ui-focus\:marginT-5:focus,
+.simple-ui-active\:marginT-5:active {
 	margin-top: 1.25rem;
 }
-.mt-6,
-.marginTop-6,
-.marginT-6 {
+.simple-ui-mt-6,
+.simple-ui-hover\:mt-6:hover,
+.simple-ui-focus\:mt-6:focus,
+.simple-ui-active\:mt-6:active,
+.simple-ui-marginTop-6,
+.simple-ui-hover\:marginTop-6:hover,
+.simple-ui-focus\:marginTop-6:focus,
+.simple-ui-active\:marginTop-6:active,
+.simple-ui-marginT-6,
+.simple-ui-hover\:marginT-6:hover,
+.simple-ui-focus\:marginT-6:focus,
+.simple-ui-active\:marginT-6:active {
 	margin-top: 1.5rem;
 }
-.mt-7,
-.marginTop-7,
-.marginT-7 {
+.simple-ui-mt-7,
+.simple-ui-hover\:mt-7:hover,
+.simple-ui-focus\:mt-7:focus,
+.simple-ui-active\:mt-7:active,
+.simple-ui-marginTop-7,
+.simple-ui-hover\:marginTop-7:hover,
+.simple-ui-focus\:marginTop-7:focus,
+.simple-ui-active\:marginTop-7:active,
+.simple-ui-marginT-7,
+.simple-ui-hover\:marginT-7:hover,
+.simple-ui-focus\:marginT-7:focus,
+.simple-ui-active\:marginT-7:active {
 	margin-top: 1.75rem;
 }
-.mt-8,
-.marginTop-8,
-.marginT-8 {
+.simple-ui-mt-8,
+.simple-ui-hover\:mt-8:hover,
+.simple-ui-focus\:mt-8:focus,
+.simple-ui-active\:mt-8:active,
+.simple-ui-marginTop-8,
+.simple-ui-hover\:marginTop-8:hover,
+.simple-ui-focus\:marginTop-8:focus,
+.simple-ui-active\:marginTop-8:active,
+.simple-ui-marginT-8,
+.simple-ui-hover\:marginT-8:hover,
+.simple-ui-focus\:marginT-8:focus,
+.simple-ui-active\:marginT-8:active {
 	margin-top: 2rem;
 }
-.mt-9,
-.marginTop-9,
-.marginT-9 {
+.simple-ui-mt-9,
+.simple-ui-hover\:mt-9:hover,
+.simple-ui-focus\:mt-9:focus,
+.simple-ui-active\:mt-9:active,
+.simple-ui-marginTop-9,
+.simple-ui-hover\:marginTop-9:hover,
+.simple-ui-focus\:marginTop-9:focus,
+.simple-ui-active\:marginTop-9:active,
+.simple-ui-marginT-9,
+.simple-ui-hover\:marginT-9:hover,
+.simple-ui-focus\:marginT-9:focus,
+.simple-ui-active\:marginT-9:active {
 	margin-top: 2.25rem;
 }
-.mt-10,
-.marginTop-10,
-.marginT-10 {
+.simple-ui-mt-10,
+.simple-ui-hover\:mt-10:hover,
+.simple-ui-focus\:mt-10:focus,
+.simple-ui-active\:mt-10:active,
+.simple-ui-marginTop-10,
+.simple-ui-hover\:marginTop-10:hover,
+.simple-ui-focus\:marginTop-10:focus,
+.simple-ui-active\:marginTop-10:active,
+.simple-ui-marginT-10,
+.simple-ui-hover\:marginT-10:hover,
+.simple-ui-focus\:marginT-10:focus,
+.simple-ui-active\:marginT-10:active {
 	margin-top: 2.5rem;
 }
-.mt-11,
-.marginTop-11,
-.marginT-11 {
+.simple-ui-mt-11,
+.simple-ui-hover\:mt-11:hover,
+.simple-ui-focus\:mt-11:focus,
+.simple-ui-active\:mt-11:active,
+.simple-ui-marginTop-11,
+.simple-ui-hover\:marginTop-11:hover,
+.simple-ui-focus\:marginTop-11:focus,
+.simple-ui-active\:marginTop-11:active,
+.simple-ui-marginT-11,
+.simple-ui-hover\:marginT-11:hover,
+.simple-ui-focus\:marginT-11:focus,
+.simple-ui-active\:marginT-11:active {
 	margin-top: 2.75rem;
 }
-.mt-12,
-.marginTop-12,
-.marginT-12 {
+.simple-ui-mt-12,
+.simple-ui-hover\:mt-12:hover,
+.simple-ui-focus\:mt-12:focus,
+.simple-ui-active\:mt-12:active,
+.simple-ui-marginTop-12,
+.simple-ui-hover\:marginTop-12:hover,
+.simple-ui-focus\:marginTop-12:focus,
+.simple-ui-active\:marginTop-12:active,
+.simple-ui-marginT-12,
+.simple-ui-hover\:marginT-12:hover,
+.simple-ui-focus\:marginT-12:focus,
+.simple-ui-active\:marginT-12:active {
 	margin-top: 3rem;
 }
-.mt-14,
-.marginTop-14,
-.marginT-14 {
+.simple-ui-mt-14,
+.simple-ui-hover\:mt-14:hover,
+.simple-ui-focus\:mt-14:focus,
+.simple-ui-active\:mt-14:active,
+.simple-ui-marginTop-14,
+.simple-ui-hover\:marginTop-14:hover,
+.simple-ui-focus\:marginTop-14:focus,
+.simple-ui-active\:marginTop-14:active,
+.simple-ui-marginT-14,
+.simple-ui-hover\:marginT-14:hover,
+.simple-ui-focus\:marginT-14:focus,
+.simple-ui-active\:marginT-14:active {
 	margin-top: 3.5rem;
 }
-.mt-16,
-.marginTop-16,
-.marginT-16 {
+.simple-ui-mt-16,
+.simple-ui-hover\:mt-16:hover,
+.simple-ui-focus\:mt-16:focus,
+.simple-ui-active\:mt-16:active,
+.simple-ui-marginTop-16,
+.simple-ui-hover\:marginTop-16:hover,
+.simple-ui-focus\:marginTop-16:focus,
+.simple-ui-active\:marginTop-16:active,
+.simple-ui-marginT-16,
+.simple-ui-hover\:marginT-16:hover,
+.simple-ui-focus\:marginT-16:focus,
+.simple-ui-active\:marginT-16:active {
 	margin-top: 4rem;
 }
-.mt-20,
-.marginTop-20,
-.marginT-20 {
+.simple-ui-mt-20,
+.simple-ui-hover\:mt-20:hover,
+.simple-ui-focus\:mt-20:focus,
+.simple-ui-active\:mt-20:active,
+.simple-ui-marginTop-20,
+.simple-ui-hover\:marginTop-20:hover,
+.simple-ui-focus\:marginTop-20:focus,
+.simple-ui-active\:marginTop-20:active,
+.simple-ui-marginT-20,
+.simple-ui-hover\:marginT-20:hover,
+.simple-ui-focus\:marginT-20:focus,
+.simple-ui-active\:marginT-20:active {
 	margin-top: 5rem;
 }
-.mt-24,
-.marginTop-24,
-.marginT-24 {
+.simple-ui-mt-24,
+.simple-ui-hover\:mt-24:hover,
+.simple-ui-focus\:mt-24:focus,
+.simple-ui-active\:mt-24:active,
+.simple-ui-marginTop-24,
+.simple-ui-hover\:marginTop-24:hover,
+.simple-ui-focus\:marginTop-24:focus,
+.simple-ui-active\:marginTop-24:active,
+.simple-ui-marginT-24,
+.simple-ui-hover\:marginT-24:hover,
+.simple-ui-focus\:marginT-24:focus,
+.simple-ui-active\:marginT-24:active {
 	margin-top: 6rem;
 }
-.mt-28,
-.marginTop-28,
-.marginT-28 {
+.simple-ui-mt-28,
+.simple-ui-hover\:mt-28:hover,
+.simple-ui-focus\:mt-28:focus,
+.simple-ui-active\:mt-28:active,
+.simple-ui-marginTop-28,
+.simple-ui-hover\:marginTop-28:hover,
+.simple-ui-focus\:marginTop-28:focus,
+.simple-ui-active\:marginTop-28:active,
+.simple-ui-marginT-28,
+.simple-ui-hover\:marginT-28:hover,
+.simple-ui-focus\:marginT-28:focus,
+.simple-ui-active\:marginT-28:active {
 	margin-top: 7rem;
 }
-.mt-32,
-.marginTop-32,
-.marginT-32 {
+.simple-ui-mt-32,
+.simple-ui-hover\:mt-32:hover,
+.simple-ui-focus\:mt-32:focus,
+.simple-ui-active\:mt-32:active,
+.simple-ui-marginTop-32,
+.simple-ui-hover\:marginTop-32:hover,
+.simple-ui-focus\:marginTop-32:focus,
+.simple-ui-active\:marginTop-32:active,
+.simple-ui-marginT-32,
+.simple-ui-hover\:marginT-32:hover,
+.simple-ui-focus\:marginT-32:focus,
+.simple-ui-active\:marginT-32:active {
 	margin-top: 8rem;
 }
-.mt-36,
-.marginTop-36,
-.marginT-36 {
+.simple-ui-mt-36,
+.simple-ui-hover\:mt-36:hover,
+.simple-ui-focus\:mt-36:focus,
+.simple-ui-active\:mt-36:active,
+.simple-ui-marginTop-36,
+.simple-ui-hover\:marginTop-36:hover,
+.simple-ui-focus\:marginTop-36:focus,
+.simple-ui-active\:marginTop-36:active,
+.simple-ui-marginT-36,
+.simple-ui-hover\:marginT-36:hover,
+.simple-ui-focus\:marginT-36:focus,
+.simple-ui-active\:marginT-36:active {
 	margin-top: 9rem;
 }
-.mt-40,
-.marginTop-40,
-.marginT-40 {
+.simple-ui-mt-40,
+.simple-ui-hover\:mt-40:hover,
+.simple-ui-focus\:mt-40:focus,
+.simple-ui-active\:mt-40:active,
+.simple-ui-marginTop-40,
+.simple-ui-hover\:marginTop-40:hover,
+.simple-ui-focus\:marginTop-40:focus,
+.simple-ui-active\:marginTop-40:active,
+.simple-ui-marginT-40,
+.simple-ui-hover\:marginT-40:hover,
+.simple-ui-focus\:marginT-40:focus,
+.simple-ui-active\:marginT-40:active {
 	margin-top: 10rem;
 }
-.mt-44,
-.marginTop-44,
-.marginT-44 {
+.simple-ui-mt-44,
+.simple-ui-hover\:mt-44:hover,
+.simple-ui-focus\:mt-44:focus,
+.simple-ui-active\:mt-44:active,
+.simple-ui-marginTop-44,
+.simple-ui-hover\:marginTop-44:hover,
+.simple-ui-focus\:marginTop-44:focus,
+.simple-ui-active\:marginTop-44:active,
+.simple-ui-marginT-44,
+.simple-ui-hover\:marginT-44:hover,
+.simple-ui-focus\:marginT-44:focus,
+.simple-ui-active\:marginT-44:active {
 	margin-top: 11rem;
 }
-.mt-48,
-.marginTop-48,
-.marginT-48 {
+.simple-ui-mt-48,
+.simple-ui-hover\:mt-48:hover,
+.simple-ui-focus\:mt-48:focus,
+.simple-ui-active\:mt-48:active,
+.simple-ui-marginTop-48,
+.simple-ui-hover\:marginTop-48:hover,
+.simple-ui-focus\:marginTop-48:focus,
+.simple-ui-active\:marginTop-48:active,
+.simple-ui-marginT-48,
+.simple-ui-hover\:marginT-48:hover,
+.simple-ui-focus\:marginT-48:focus,
+.simple-ui-active\:marginT-48:active {
 	margin-top: 12rem;
 }
-.mt-52,
-.marginTop-52,
-.marginT-52 {
+.simple-ui-mt-52,
+.simple-ui-hover\:mt-52:hover,
+.simple-ui-focus\:mt-52:focus,
+.simple-ui-active\:mt-52:active,
+.simple-ui-marginTop-52,
+.simple-ui-hover\:marginTop-52:hover,
+.simple-ui-focus\:marginTop-52:focus,
+.simple-ui-active\:marginTop-52:active,
+.simple-ui-marginT-52,
+.simple-ui-hover\:marginT-52:hover,
+.simple-ui-focus\:marginT-52:focus,
+.simple-ui-active\:marginT-52:active {
 	margin-top: 13rem;
 }
-.mt-56,
-.marginTop-56,
-.marginT-56 {
+.simple-ui-mt-56,
+.simple-ui-hover\:mt-56:hover,
+.simple-ui-focus\:mt-56:focus,
+.simple-ui-active\:mt-56:active,
+.simple-ui-marginTop-56,
+.simple-ui-hover\:marginTop-56:hover,
+.simple-ui-focus\:marginTop-56:focus,
+.simple-ui-active\:marginTop-56:active,
+.simple-ui-marginT-56,
+.simple-ui-hover\:marginT-56:hover,
+.simple-ui-focus\:marginT-56:focus,
+.simple-ui-active\:marginT-56:active {
 	margin-top: 14rem;
 }
-.mt-60,
-.marginTop-60,
-.marginT-60 {
+.simple-ui-mt-60,
+.simple-ui-hover\:mt-60:hover,
+.simple-ui-focus\:mt-60:focus,
+.simple-ui-active\:mt-60:active,
+.simple-ui-marginTop-60,
+.simple-ui-hover\:marginTop-60:hover,
+.simple-ui-focus\:marginTop-60:focus,
+.simple-ui-active\:marginTop-60:active,
+.simple-ui-marginT-60,
+.simple-ui-hover\:marginT-60:hover,
+.simple-ui-focus\:marginT-60:focus,
+.simple-ui-active\:marginT-60:active {
 	margin-top: 15rem;
 }
-.mt-64,
-.marginTop-64,
-.marginT-64 {
+.simple-ui-mt-64,
+.simple-ui-hover\:mt-64:hover,
+.simple-ui-focus\:mt-64:focus,
+.simple-ui-active\:mt-64:active,
+.simple-ui-marginTop-64,
+.simple-ui-hover\:marginTop-64:hover,
+.simple-ui-focus\:marginTop-64:focus,
+.simple-ui-active\:marginTop-64:active,
+.simple-ui-marginT-64,
+.simple-ui-hover\:marginT-64:hover,
+.simple-ui-focus\:marginT-64:focus,
+.simple-ui-active\:marginT-64:active {
 	margin-top: 16rem;
 }
-.mt-72,
-.marginTop-72,
-.marginT-72 {
+.simple-ui-mt-72,
+.simple-ui-hover\:mt-72:hover,
+.simple-ui-focus\:mt-72:focus,
+.simple-ui-active\:mt-72:active,
+.simple-ui-marginTop-72,
+.simple-ui-hover\:marginTop-72:hover,
+.simple-ui-focus\:marginTop-72:focus,
+.simple-ui-active\:marginTop-72:active,
+.simple-ui-marginT-72,
+.simple-ui-hover\:marginT-72:hover,
+.simple-ui-focus\:marginT-72:focus,
+.simple-ui-active\:marginT-72:active {
 	margin-top: 18rem;
 }
-.mt-80,
-.marginTop-80,
-.marginT-80 {
+.simple-ui-mt-80,
+.simple-ui-hover\:mt-80:hover,
+.simple-ui-focus\:mt-80:focus,
+.simple-ui-active\:mt-80:active,
+.simple-ui-marginTop-80,
+.simple-ui-hover\:marginTop-80:hover,
+.simple-ui-focus\:marginTop-80:focus,
+.simple-ui-active\:marginTop-80:active,
+.simple-ui-marginT-80,
+.simple-ui-hover\:marginT-80:hover,
+.simple-ui-focus\:marginT-80:focus,
+.simple-ui-active\:marginT-80:active {
 	margin-top: 20rem;
 }
-.mt-96,
-.marginTop-96,
-.marginT-96 {
+.simple-ui-mt-96,
+.simple-ui-hover\:mt-96:hover,
+.simple-ui-focus\:mt-96:focus,
+.simple-ui-active\:mt-96:active,
+.simple-ui-marginTop-96,
+.simple-ui-hover\:marginTop-96:hover,
+.simple-ui-focus\:marginTop-96:focus,
+.simple-ui-active\:marginTop-96:active,
+.simple-ui-marginT-96,
+.simple-ui-hover\:marginT-96:hover,
+.simple-ui-focus\:marginT-96:focus,
+.simple-ui-active\:marginT-96:active {
 	margin-top: 24rem;
 }
-.mr-0,
-.marginRight-0,
-.marginR-0 {
+.simple-ui-mr-0,
+.simple-ui-hover\:mr-0:hover,
+.simple-ui-focus\:mr-0:focus,
+.simple-ui-active\:mr-0:active,
+.simple-ui-marginRight-0,
+.simple-ui-hover\:marginRight-0:hover,
+.simple-ui-focus\:marginRight-0:focus,
+.simple-ui-active\:marginRight-0:active,
+.simple-ui-marginR-0,
+.simple-ui-hover\:marginR-0:hover,
+.simple-ui-focus\:marginR-0:focus,
+.simple-ui-active\:marginR-0:active {
 	margin-right: 0px;
 }
-.mr-px,
-.marginRight-px,
-.marginR-px {
+.simple-ui-mr-px,
+.simple-ui-hover\:mr-px:hover,
+.simple-ui-focus\:mr-px:focus,
+.simple-ui-active\:mr-px:active,
+.simple-ui-marginRight-px,
+.simple-ui-hover\:marginRight-px:hover,
+.simple-ui-focus\:marginRight-px:focus,
+.simple-ui-active\:marginRight-px:active,
+.simple-ui-marginR-px,
+.simple-ui-hover\:marginR-px:hover,
+.simple-ui-focus\:marginR-px:focus,
+.simple-ui-active\:marginR-px:active {
 	margin-right: 1px;
 }
-.mr-0\.5,
-.marginRight-0\.5,
-.marginR-0\.5 {
+.simple-ui-mr-0\.5,
+.simple-ui-hover\:mr-0\.5:hover,
+.simple-ui-focus\:mr-0\.5:focus,
+.simple-ui-active\:mr-0\.5:active,
+.simple-ui-marginRight-0\.5,
+.simple-ui-hover\:marginRight-0\.5:hover,
+.simple-ui-focus\:marginRight-0\.5:focus,
+.simple-ui-active\:marginRight-0\.5:active,
+.simple-ui-marginR-0\.5,
+.simple-ui-hover\:marginR-0\.5:hover,
+.simple-ui-focus\:marginR-0\.5:focus,
+.simple-ui-active\:marginR-0\.5:active {
 	margin-right: 0.125rem;
 }
-.mr-1,
-.marginRight-1,
-.marginR-1 {
+.simple-ui-mr-1,
+.simple-ui-hover\:mr-1:hover,
+.simple-ui-focus\:mr-1:focus,
+.simple-ui-active\:mr-1:active,
+.simple-ui-marginRight-1,
+.simple-ui-hover\:marginRight-1:hover,
+.simple-ui-focus\:marginRight-1:focus,
+.simple-ui-active\:marginRight-1:active,
+.simple-ui-marginR-1,
+.simple-ui-hover\:marginR-1:hover,
+.simple-ui-focus\:marginR-1:focus,
+.simple-ui-active\:marginR-1:active {
 	margin-right: 0.25rem;
 }
-.mr-1\.5,
-.marginRight-1\.5,
-.marginR-1\.5 {
+.simple-ui-mr-1\.5,
+.simple-ui-hover\:mr-1\.5:hover,
+.simple-ui-focus\:mr-1\.5:focus,
+.simple-ui-active\:mr-1\.5:active,
+.simple-ui-marginRight-1\.5,
+.simple-ui-hover\:marginRight-1\.5:hover,
+.simple-ui-focus\:marginRight-1\.5:focus,
+.simple-ui-active\:marginRight-1\.5:active,
+.simple-ui-marginR-1\.5,
+.simple-ui-hover\:marginR-1\.5:hover,
+.simple-ui-focus\:marginR-1\.5:focus,
+.simple-ui-active\:marginR-1\.5:active {
 	margin-right: 0.375rem;
 }
-.mr-2,
-.marginRight-2,
-.marginR-2 {
+.simple-ui-mr-2,
+.simple-ui-hover\:mr-2:hover,
+.simple-ui-focus\:mr-2:focus,
+.simple-ui-active\:mr-2:active,
+.simple-ui-marginRight-2,
+.simple-ui-hover\:marginRight-2:hover,
+.simple-ui-focus\:marginRight-2:focus,
+.simple-ui-active\:marginRight-2:active,
+.simple-ui-marginR-2,
+.simple-ui-hover\:marginR-2:hover,
+.simple-ui-focus\:marginR-2:focus,
+.simple-ui-active\:marginR-2:active {
 	margin-right: 0.5rem;
 }
-.mr-2\.5,
-.marginRight-2\.5,
-.marginR-2\.5 {
+.simple-ui-mr-2\.5,
+.simple-ui-hover\:mr-2\.5:hover,
+.simple-ui-focus\:mr-2\.5:focus,
+.simple-ui-active\:mr-2\.5:active,
+.simple-ui-marginRight-2\.5,
+.simple-ui-hover\:marginRight-2\.5:hover,
+.simple-ui-focus\:marginRight-2\.5:focus,
+.simple-ui-active\:marginRight-2\.5:active,
+.simple-ui-marginR-2\.5,
+.simple-ui-hover\:marginR-2\.5:hover,
+.simple-ui-focus\:marginR-2\.5:focus,
+.simple-ui-active\:marginR-2\.5:active {
 	margin-right: 0.625rem;
 }
-.mr-3,
-.marginRight-3,
-.marginR-3 {
+.simple-ui-mr-3,
+.simple-ui-hover\:mr-3:hover,
+.simple-ui-focus\:mr-3:focus,
+.simple-ui-active\:mr-3:active,
+.simple-ui-marginRight-3,
+.simple-ui-hover\:marginRight-3:hover,
+.simple-ui-focus\:marginRight-3:focus,
+.simple-ui-active\:marginRight-3:active,
+.simple-ui-marginR-3,
+.simple-ui-hover\:marginR-3:hover,
+.simple-ui-focus\:marginR-3:focus,
+.simple-ui-active\:marginR-3:active {
 	margin-right: 0.75rem;
 }
-.mr-3\.5,
-.marginRight-3\.5,
-.marginR-3\.5 {
+.simple-ui-mr-3\.5,
+.simple-ui-hover\:mr-3\.5:hover,
+.simple-ui-focus\:mr-3\.5:focus,
+.simple-ui-active\:mr-3\.5:active,
+.simple-ui-marginRight-3\.5,
+.simple-ui-hover\:marginRight-3\.5:hover,
+.simple-ui-focus\:marginRight-3\.5:focus,
+.simple-ui-active\:marginRight-3\.5:active,
+.simple-ui-marginR-3\.5,
+.simple-ui-hover\:marginR-3\.5:hover,
+.simple-ui-focus\:marginR-3\.5:focus,
+.simple-ui-active\:marginR-3\.5:active {
 	margin-right: 0.875rem;
 }
-.mr-4,
-.marginRight-4,
-.marginR-4 {
+.simple-ui-mr-4,
+.simple-ui-hover\:mr-4:hover,
+.simple-ui-focus\:mr-4:focus,
+.simple-ui-active\:mr-4:active,
+.simple-ui-marginRight-4,
+.simple-ui-hover\:marginRight-4:hover,
+.simple-ui-focus\:marginRight-4:focus,
+.simple-ui-active\:marginRight-4:active,
+.simple-ui-marginR-4,
+.simple-ui-hover\:marginR-4:hover,
+.simple-ui-focus\:marginR-4:focus,
+.simple-ui-active\:marginR-4:active {
 	margin-right: 1rem;
 }
-.mr-5,
-.marginRight-5,
-.marginR-5 {
+.simple-ui-mr-5,
+.simple-ui-hover\:mr-5:hover,
+.simple-ui-focus\:mr-5:focus,
+.simple-ui-active\:mr-5:active,
+.simple-ui-marginRight-5,
+.simple-ui-hover\:marginRight-5:hover,
+.simple-ui-focus\:marginRight-5:focus,
+.simple-ui-active\:marginRight-5:active,
+.simple-ui-marginR-5,
+.simple-ui-hover\:marginR-5:hover,
+.simple-ui-focus\:marginR-5:focus,
+.simple-ui-active\:marginR-5:active {
 	margin-right: 1.25rem;
 }
-.mr-6,
-.marginRight-6,
-.marginR-6 {
+.simple-ui-mr-6,
+.simple-ui-hover\:mr-6:hover,
+.simple-ui-focus\:mr-6:focus,
+.simple-ui-active\:mr-6:active,
+.simple-ui-marginRight-6,
+.simple-ui-hover\:marginRight-6:hover,
+.simple-ui-focus\:marginRight-6:focus,
+.simple-ui-active\:marginRight-6:active,
+.simple-ui-marginR-6,
+.simple-ui-hover\:marginR-6:hover,
+.simple-ui-focus\:marginR-6:focus,
+.simple-ui-active\:marginR-6:active {
 	margin-right: 1.5rem;
 }
-.mr-7,
-.marginRight-7,
-.marginR-7 {
+.simple-ui-mr-7,
+.simple-ui-hover\:mr-7:hover,
+.simple-ui-focus\:mr-7:focus,
+.simple-ui-active\:mr-7:active,
+.simple-ui-marginRight-7,
+.simple-ui-hover\:marginRight-7:hover,
+.simple-ui-focus\:marginRight-7:focus,
+.simple-ui-active\:marginRight-7:active,
+.simple-ui-marginR-7,
+.simple-ui-hover\:marginR-7:hover,
+.simple-ui-focus\:marginR-7:focus,
+.simple-ui-active\:marginR-7:active {
 	margin-right: 1.75rem;
 }
-.mr-8,
-.marginRight-8,
-.marginR-8 {
+.simple-ui-mr-8,
+.simple-ui-hover\:mr-8:hover,
+.simple-ui-focus\:mr-8:focus,
+.simple-ui-active\:mr-8:active,
+.simple-ui-marginRight-8,
+.simple-ui-hover\:marginRight-8:hover,
+.simple-ui-focus\:marginRight-8:focus,
+.simple-ui-active\:marginRight-8:active,
+.simple-ui-marginR-8,
+.simple-ui-hover\:marginR-8:hover,
+.simple-ui-focus\:marginR-8:focus,
+.simple-ui-active\:marginR-8:active {
 	margin-right: 2rem;
 }
-.mr-9,
-.marginRight-9,
-.marginR-9 {
+.simple-ui-mr-9,
+.simple-ui-hover\:mr-9:hover,
+.simple-ui-focus\:mr-9:focus,
+.simple-ui-active\:mr-9:active,
+.simple-ui-marginRight-9,
+.simple-ui-hover\:marginRight-9:hover,
+.simple-ui-focus\:marginRight-9:focus,
+.simple-ui-active\:marginRight-9:active,
+.simple-ui-marginR-9,
+.simple-ui-hover\:marginR-9:hover,
+.simple-ui-focus\:marginR-9:focus,
+.simple-ui-active\:marginR-9:active {
 	margin-right: 2.25rem;
 }
-.mr-10,
-.marginRight-10,
-.marginR-10 {
+.simple-ui-mr-10,
+.simple-ui-hover\:mr-10:hover,
+.simple-ui-focus\:mr-10:focus,
+.simple-ui-active\:mr-10:active,
+.simple-ui-marginRight-10,
+.simple-ui-hover\:marginRight-10:hover,
+.simple-ui-focus\:marginRight-10:focus,
+.simple-ui-active\:marginRight-10:active,
+.simple-ui-marginR-10,
+.simple-ui-hover\:marginR-10:hover,
+.simple-ui-focus\:marginR-10:focus,
+.simple-ui-active\:marginR-10:active {
 	margin-right: 2.5rem;
 }
-.mr-11,
-.marginRight-11,
-.marginR-11 {
+.simple-ui-mr-11,
+.simple-ui-hover\:mr-11:hover,
+.simple-ui-focus\:mr-11:focus,
+.simple-ui-active\:mr-11:active,
+.simple-ui-marginRight-11,
+.simple-ui-hover\:marginRight-11:hover,
+.simple-ui-focus\:marginRight-11:focus,
+.simple-ui-active\:marginRight-11:active,
+.simple-ui-marginR-11,
+.simple-ui-hover\:marginR-11:hover,
+.simple-ui-focus\:marginR-11:focus,
+.simple-ui-active\:marginR-11:active {
 	margin-right: 2.75rem;
 }
-.mr-12,
-.marginRight-12,
-.marginR-12 {
+.simple-ui-mr-12,
+.simple-ui-hover\:mr-12:hover,
+.simple-ui-focus\:mr-12:focus,
+.simple-ui-active\:mr-12:active,
+.simple-ui-marginRight-12,
+.simple-ui-hover\:marginRight-12:hover,
+.simple-ui-focus\:marginRight-12:focus,
+.simple-ui-active\:marginRight-12:active,
+.simple-ui-marginR-12,
+.simple-ui-hover\:marginR-12:hover,
+.simple-ui-focus\:marginR-12:focus,
+.simple-ui-active\:marginR-12:active {
 	margin-right: 3rem;
 }
-.mr-14,
-.marginRight-14,
-.marginR-14 {
+.simple-ui-mr-14,
+.simple-ui-hover\:mr-14:hover,
+.simple-ui-focus\:mr-14:focus,
+.simple-ui-active\:mr-14:active,
+.simple-ui-marginRight-14,
+.simple-ui-hover\:marginRight-14:hover,
+.simple-ui-focus\:marginRight-14:focus,
+.simple-ui-active\:marginRight-14:active,
+.simple-ui-marginR-14,
+.simple-ui-hover\:marginR-14:hover,
+.simple-ui-focus\:marginR-14:focus,
+.simple-ui-active\:marginR-14:active {
 	margin-right: 3.5rem;
 }
-.mr-16,
-.marginRight-16,
-.marginR-16 {
+.simple-ui-mr-16,
+.simple-ui-hover\:mr-16:hover,
+.simple-ui-focus\:mr-16:focus,
+.simple-ui-active\:mr-16:active,
+.simple-ui-marginRight-16,
+.simple-ui-hover\:marginRight-16:hover,
+.simple-ui-focus\:marginRight-16:focus,
+.simple-ui-active\:marginRight-16:active,
+.simple-ui-marginR-16,
+.simple-ui-hover\:marginR-16:hover,
+.simple-ui-focus\:marginR-16:focus,
+.simple-ui-active\:marginR-16:active {
 	margin-right: 4rem;
 }
-.mr-20,
-.marginRight-20,
-.marginR-20 {
+.simple-ui-mr-20,
+.simple-ui-hover\:mr-20:hover,
+.simple-ui-focus\:mr-20:focus,
+.simple-ui-active\:mr-20:active,
+.simple-ui-marginRight-20,
+.simple-ui-hover\:marginRight-20:hover,
+.simple-ui-focus\:marginRight-20:focus,
+.simple-ui-active\:marginRight-20:active,
+.simple-ui-marginR-20,
+.simple-ui-hover\:marginR-20:hover,
+.simple-ui-focus\:marginR-20:focus,
+.simple-ui-active\:marginR-20:active {
 	margin-right: 5rem;
 }
-.mr-24,
-.marginRight-24,
-.marginR-24 {
+.simple-ui-mr-24,
+.simple-ui-hover\:mr-24:hover,
+.simple-ui-focus\:mr-24:focus,
+.simple-ui-active\:mr-24:active,
+.simple-ui-marginRight-24,
+.simple-ui-hover\:marginRight-24:hover,
+.simple-ui-focus\:marginRight-24:focus,
+.simple-ui-active\:marginRight-24:active,
+.simple-ui-marginR-24,
+.simple-ui-hover\:marginR-24:hover,
+.simple-ui-focus\:marginR-24:focus,
+.simple-ui-active\:marginR-24:active {
 	margin-right: 6rem;
 }
-.mr-28,
-.marginRight-28,
-.marginR-28 {
+.simple-ui-mr-28,
+.simple-ui-hover\:mr-28:hover,
+.simple-ui-focus\:mr-28:focus,
+.simple-ui-active\:mr-28:active,
+.simple-ui-marginRight-28,
+.simple-ui-hover\:marginRight-28:hover,
+.simple-ui-focus\:marginRight-28:focus,
+.simple-ui-active\:marginRight-28:active,
+.simple-ui-marginR-28,
+.simple-ui-hover\:marginR-28:hover,
+.simple-ui-focus\:marginR-28:focus,
+.simple-ui-active\:marginR-28:active {
 	margin-right: 7rem;
 }
-.mr-32,
-.marginRight-32,
-.marginR-32 {
+.simple-ui-mr-32,
+.simple-ui-hover\:mr-32:hover,
+.simple-ui-focus\:mr-32:focus,
+.simple-ui-active\:mr-32:active,
+.simple-ui-marginRight-32,
+.simple-ui-hover\:marginRight-32:hover,
+.simple-ui-focus\:marginRight-32:focus,
+.simple-ui-active\:marginRight-32:active,
+.simple-ui-marginR-32,
+.simple-ui-hover\:marginR-32:hover,
+.simple-ui-focus\:marginR-32:focus,
+.simple-ui-active\:marginR-32:active {
 	margin-right: 8rem;
 }
-.mr-36,
-.marginRight-36,
-.marginR-36 {
+.simple-ui-mr-36,
+.simple-ui-hover\:mr-36:hover,
+.simple-ui-focus\:mr-36:focus,
+.simple-ui-active\:mr-36:active,
+.simple-ui-marginRight-36,
+.simple-ui-hover\:marginRight-36:hover,
+.simple-ui-focus\:marginRight-36:focus,
+.simple-ui-active\:marginRight-36:active,
+.simple-ui-marginR-36,
+.simple-ui-hover\:marginR-36:hover,
+.simple-ui-focus\:marginR-36:focus,
+.simple-ui-active\:marginR-36:active {
 	margin-right: 9rem;
 }
-.mr-40,
-.marginRight-40,
-.marginR-40 {
+.simple-ui-mr-40,
+.simple-ui-hover\:mr-40:hover,
+.simple-ui-focus\:mr-40:focus,
+.simple-ui-active\:mr-40:active,
+.simple-ui-marginRight-40,
+.simple-ui-hover\:marginRight-40:hover,
+.simple-ui-focus\:marginRight-40:focus,
+.simple-ui-active\:marginRight-40:active,
+.simple-ui-marginR-40,
+.simple-ui-hover\:marginR-40:hover,
+.simple-ui-focus\:marginR-40:focus,
+.simple-ui-active\:marginR-40:active {
 	margin-right: 10rem;
 }
-.mr-44,
-.marginRight-44,
-.marginR-44 {
+.simple-ui-mr-44,
+.simple-ui-hover\:mr-44:hover,
+.simple-ui-focus\:mr-44:focus,
+.simple-ui-active\:mr-44:active,
+.simple-ui-marginRight-44,
+.simple-ui-hover\:marginRight-44:hover,
+.simple-ui-focus\:marginRight-44:focus,
+.simple-ui-active\:marginRight-44:active,
+.simple-ui-marginR-44,
+.simple-ui-hover\:marginR-44:hover,
+.simple-ui-focus\:marginR-44:focus,
+.simple-ui-active\:marginR-44:active {
 	margin-right: 11rem;
 }
-.mr-48,
-.marginRight-48,
-.marginR-48 {
+.simple-ui-mr-48,
+.simple-ui-hover\:mr-48:hover,
+.simple-ui-focus\:mr-48:focus,
+.simple-ui-active\:mr-48:active,
+.simple-ui-marginRight-48,
+.simple-ui-hover\:marginRight-48:hover,
+.simple-ui-focus\:marginRight-48:focus,
+.simple-ui-active\:marginRight-48:active,
+.simple-ui-marginR-48,
+.simple-ui-hover\:marginR-48:hover,
+.simple-ui-focus\:marginR-48:focus,
+.simple-ui-active\:marginR-48:active {
 	margin-right: 12rem;
 }
-.mr-52,
-.marginRight-52,
-.marginR-52 {
+.simple-ui-mr-52,
+.simple-ui-hover\:mr-52:hover,
+.simple-ui-focus\:mr-52:focus,
+.simple-ui-active\:mr-52:active,
+.simple-ui-marginRight-52,
+.simple-ui-hover\:marginRight-52:hover,
+.simple-ui-focus\:marginRight-52:focus,
+.simple-ui-active\:marginRight-52:active,
+.simple-ui-marginR-52,
+.simple-ui-hover\:marginR-52:hover,
+.simple-ui-focus\:marginR-52:focus,
+.simple-ui-active\:marginR-52:active {
 	margin-right: 13rem;
 }
-.mr-56,
-.marginRight-56,
-.marginR-56 {
+.simple-ui-mr-56,
+.simple-ui-hover\:mr-56:hover,
+.simple-ui-focus\:mr-56:focus,
+.simple-ui-active\:mr-56:active,
+.simple-ui-marginRight-56,
+.simple-ui-hover\:marginRight-56:hover,
+.simple-ui-focus\:marginRight-56:focus,
+.simple-ui-active\:marginRight-56:active,
+.simple-ui-marginR-56,
+.simple-ui-hover\:marginR-56:hover,
+.simple-ui-focus\:marginR-56:focus,
+.simple-ui-active\:marginR-56:active {
 	margin-right: 14rem;
 }
-.mr-60,
-.marginRight-60,
-.marginR-60 {
+.simple-ui-mr-60,
+.simple-ui-hover\:mr-60:hover,
+.simple-ui-focus\:mr-60:focus,
+.simple-ui-active\:mr-60:active,
+.simple-ui-marginRight-60,
+.simple-ui-hover\:marginRight-60:hover,
+.simple-ui-focus\:marginRight-60:focus,
+.simple-ui-active\:marginRight-60:active,
+.simple-ui-marginR-60,
+.simple-ui-hover\:marginR-60:hover,
+.simple-ui-focus\:marginR-60:focus,
+.simple-ui-active\:marginR-60:active {
 	margin-right: 15rem;
 }
-.mr-64,
-.marginRight-64,
-.marginR-64 {
+.simple-ui-mr-64,
+.simple-ui-hover\:mr-64:hover,
+.simple-ui-focus\:mr-64:focus,
+.simple-ui-active\:mr-64:active,
+.simple-ui-marginRight-64,
+.simple-ui-hover\:marginRight-64:hover,
+.simple-ui-focus\:marginRight-64:focus,
+.simple-ui-active\:marginRight-64:active,
+.simple-ui-marginR-64,
+.simple-ui-hover\:marginR-64:hover,
+.simple-ui-focus\:marginR-64:focus,
+.simple-ui-active\:marginR-64:active {
 	margin-right: 16rem;
 }
-.mr-72,
-.marginRight-72,
-.marginR-72 {
+.simple-ui-mr-72,
+.simple-ui-hover\:mr-72:hover,
+.simple-ui-focus\:mr-72:focus,
+.simple-ui-active\:mr-72:active,
+.simple-ui-marginRight-72,
+.simple-ui-hover\:marginRight-72:hover,
+.simple-ui-focus\:marginRight-72:focus,
+.simple-ui-active\:marginRight-72:active,
+.simple-ui-marginR-72,
+.simple-ui-hover\:marginR-72:hover,
+.simple-ui-focus\:marginR-72:focus,
+.simple-ui-active\:marginR-72:active {
 	margin-right: 18rem;
 }
-.mr-80,
-.marginRight-80,
-.marginR-80 {
+.simple-ui-mr-80,
+.simple-ui-hover\:mr-80:hover,
+.simple-ui-focus\:mr-80:focus,
+.simple-ui-active\:mr-80:active,
+.simple-ui-marginRight-80,
+.simple-ui-hover\:marginRight-80:hover,
+.simple-ui-focus\:marginRight-80:focus,
+.simple-ui-active\:marginRight-80:active,
+.simple-ui-marginR-80,
+.simple-ui-hover\:marginR-80:hover,
+.simple-ui-focus\:marginR-80:focus,
+.simple-ui-active\:marginR-80:active {
 	margin-right: 20rem;
 }
-.mr-96,
-.marginRight-96,
-.marginR-96 {
+.simple-ui-mr-96,
+.simple-ui-hover\:mr-96:hover,
+.simple-ui-focus\:mr-96:focus,
+.simple-ui-active\:mr-96:active,
+.simple-ui-marginRight-96,
+.simple-ui-hover\:marginRight-96:hover,
+.simple-ui-focus\:marginRight-96:focus,
+.simple-ui-active\:marginRight-96:active,
+.simple-ui-marginR-96,
+.simple-ui-hover\:marginR-96:hover,
+.simple-ui-focus\:marginR-96:focus,
+.simple-ui-active\:marginR-96:active {
 	margin-right: 24rem;
 }
-.mb-0,
-.marginBottom-0,
-.marginB-0 {
+.simple-ui-mb-0,
+.simple-ui-hover\:mb-0:hover,
+.simple-ui-focus\:mb-0:focus,
+.simple-ui-active\:mb-0:active,
+.simple-ui-marginBottom-0,
+.simple-ui-hover\:marginBottom-0:hover,
+.simple-ui-focus\:marginBottom-0:focus,
+.simple-ui-active\:marginBottom-0:active,
+.simple-ui-marginB-0,
+.simple-ui-hover\:marginB-0:hover,
+.simple-ui-focus\:marginB-0:focus,
+.simple-ui-active\:marginB-0:active {
 	margin-bottom: 0px;
 }
-.mb-px,
-.marginBottom-px,
-.marginB-px {
+.simple-ui-mb-px,
+.simple-ui-hover\:mb-px:hover,
+.simple-ui-focus\:mb-px:focus,
+.simple-ui-active\:mb-px:active,
+.simple-ui-marginBottom-px,
+.simple-ui-hover\:marginBottom-px:hover,
+.simple-ui-focus\:marginBottom-px:focus,
+.simple-ui-active\:marginBottom-px:active,
+.simple-ui-marginB-px,
+.simple-ui-hover\:marginB-px:hover,
+.simple-ui-focus\:marginB-px:focus,
+.simple-ui-active\:marginB-px:active {
 	margin-bottom: 1px;
 }
-.mb-0\.5,
-.marginBottom-0\.5,
-.marginB-0\.5 {
+.simple-ui-mb-0\.5,
+.simple-ui-hover\:mb-0\.5:hover,
+.simple-ui-focus\:mb-0\.5:focus,
+.simple-ui-active\:mb-0\.5:active,
+.simple-ui-marginBottom-0\.5,
+.simple-ui-hover\:marginBottom-0\.5:hover,
+.simple-ui-focus\:marginBottom-0\.5:focus,
+.simple-ui-active\:marginBottom-0\.5:active,
+.simple-ui-marginB-0\.5,
+.simple-ui-hover\:marginB-0\.5:hover,
+.simple-ui-focus\:marginB-0\.5:focus,
+.simple-ui-active\:marginB-0\.5:active {
 	margin-bottom: 0.125rem;
 }
-.mb-1,
-.marginBottom-1,
-.marginB-1 {
+.simple-ui-mb-1,
+.simple-ui-hover\:mb-1:hover,
+.simple-ui-focus\:mb-1:focus,
+.simple-ui-active\:mb-1:active,
+.simple-ui-marginBottom-1,
+.simple-ui-hover\:marginBottom-1:hover,
+.simple-ui-focus\:marginBottom-1:focus,
+.simple-ui-active\:marginBottom-1:active,
+.simple-ui-marginB-1,
+.simple-ui-hover\:marginB-1:hover,
+.simple-ui-focus\:marginB-1:focus,
+.simple-ui-active\:marginB-1:active {
 	margin-bottom: 0.25rem;
 }
-.mb-1\.5,
-.marginBottom-1\.5,
-.marginB-1\.5 {
+.simple-ui-mb-1\.5,
+.simple-ui-hover\:mb-1\.5:hover,
+.simple-ui-focus\:mb-1\.5:focus,
+.simple-ui-active\:mb-1\.5:active,
+.simple-ui-marginBottom-1\.5,
+.simple-ui-hover\:marginBottom-1\.5:hover,
+.simple-ui-focus\:marginBottom-1\.5:focus,
+.simple-ui-active\:marginBottom-1\.5:active,
+.simple-ui-marginB-1\.5,
+.simple-ui-hover\:marginB-1\.5:hover,
+.simple-ui-focus\:marginB-1\.5:focus,
+.simple-ui-active\:marginB-1\.5:active {
 	margin-bottom: 0.375rem;
 }
-.mb-2,
-.marginBottom-2,
-.marginB-2 {
+.simple-ui-mb-2,
+.simple-ui-hover\:mb-2:hover,
+.simple-ui-focus\:mb-2:focus,
+.simple-ui-active\:mb-2:active,
+.simple-ui-marginBottom-2,
+.simple-ui-hover\:marginBottom-2:hover,
+.simple-ui-focus\:marginBottom-2:focus,
+.simple-ui-active\:marginBottom-2:active,
+.simple-ui-marginB-2,
+.simple-ui-hover\:marginB-2:hover,
+.simple-ui-focus\:marginB-2:focus,
+.simple-ui-active\:marginB-2:active {
 	margin-bottom: 0.5rem;
 }
-.mb-2\.5,
-.marginBottom-2\.5,
-.marginB-2\.5 {
+.simple-ui-mb-2\.5,
+.simple-ui-hover\:mb-2\.5:hover,
+.simple-ui-focus\:mb-2\.5:focus,
+.simple-ui-active\:mb-2\.5:active,
+.simple-ui-marginBottom-2\.5,
+.simple-ui-hover\:marginBottom-2\.5:hover,
+.simple-ui-focus\:marginBottom-2\.5:focus,
+.simple-ui-active\:marginBottom-2\.5:active,
+.simple-ui-marginB-2\.5,
+.simple-ui-hover\:marginB-2\.5:hover,
+.simple-ui-focus\:marginB-2\.5:focus,
+.simple-ui-active\:marginB-2\.5:active {
 	margin-bottom: 0.625rem;
 }
-.mb-3,
-.marginBottom-3,
-.marginB-3 {
+.simple-ui-mb-3,
+.simple-ui-hover\:mb-3:hover,
+.simple-ui-focus\:mb-3:focus,
+.simple-ui-active\:mb-3:active,
+.simple-ui-marginBottom-3,
+.simple-ui-hover\:marginBottom-3:hover,
+.simple-ui-focus\:marginBottom-3:focus,
+.simple-ui-active\:marginBottom-3:active,
+.simple-ui-marginB-3,
+.simple-ui-hover\:marginB-3:hover,
+.simple-ui-focus\:marginB-3:focus,
+.simple-ui-active\:marginB-3:active {
 	margin-bottom: 0.75rem;
 }
-.mb-3\.5,
-.marginBottom-3\.5,
-.marginB-3\.5 {
+.simple-ui-mb-3\.5,
+.simple-ui-hover\:mb-3\.5:hover,
+.simple-ui-focus\:mb-3\.5:focus,
+.simple-ui-active\:mb-3\.5:active,
+.simple-ui-marginBottom-3\.5,
+.simple-ui-hover\:marginBottom-3\.5:hover,
+.simple-ui-focus\:marginBottom-3\.5:focus,
+.simple-ui-active\:marginBottom-3\.5:active,
+.simple-ui-marginB-3\.5,
+.simple-ui-hover\:marginB-3\.5:hover,
+.simple-ui-focus\:marginB-3\.5:focus,
+.simple-ui-active\:marginB-3\.5:active {
 	margin-bottom: 0.875rem;
 }
-.mb-4,
-.marginBottom-4,
-.marginB-4 {
+.simple-ui-mb-4,
+.simple-ui-hover\:mb-4:hover,
+.simple-ui-focus\:mb-4:focus,
+.simple-ui-active\:mb-4:active,
+.simple-ui-marginBottom-4,
+.simple-ui-hover\:marginBottom-4:hover,
+.simple-ui-focus\:marginBottom-4:focus,
+.simple-ui-active\:marginBottom-4:active,
+.simple-ui-marginB-4,
+.simple-ui-hover\:marginB-4:hover,
+.simple-ui-focus\:marginB-4:focus,
+.simple-ui-active\:marginB-4:active {
 	margin-bottom: 1rem;
 }
-.mb-5,
-.marginBottom-5,
-.marginB-5 {
+.simple-ui-mb-5,
+.simple-ui-hover\:mb-5:hover,
+.simple-ui-focus\:mb-5:focus,
+.simple-ui-active\:mb-5:active,
+.simple-ui-marginBottom-5,
+.simple-ui-hover\:marginBottom-5:hover,
+.simple-ui-focus\:marginBottom-5:focus,
+.simple-ui-active\:marginBottom-5:active,
+.simple-ui-marginB-5,
+.simple-ui-hover\:marginB-5:hover,
+.simple-ui-focus\:marginB-5:focus,
+.simple-ui-active\:marginB-5:active {
 	margin-bottom: 1.25rem;
 }
-.mb-6,
-.marginBottom-6,
-.marginB-6 {
+.simple-ui-mb-6,
+.simple-ui-hover\:mb-6:hover,
+.simple-ui-focus\:mb-6:focus,
+.simple-ui-active\:mb-6:active,
+.simple-ui-marginBottom-6,
+.simple-ui-hover\:marginBottom-6:hover,
+.simple-ui-focus\:marginBottom-6:focus,
+.simple-ui-active\:marginBottom-6:active,
+.simple-ui-marginB-6,
+.simple-ui-hover\:marginB-6:hover,
+.simple-ui-focus\:marginB-6:focus,
+.simple-ui-active\:marginB-6:active {
 	margin-bottom: 1.5rem;
 }
-.mb-7,
-.marginBottom-7,
-.marginB-7 {
+.simple-ui-mb-7,
+.simple-ui-hover\:mb-7:hover,
+.simple-ui-focus\:mb-7:focus,
+.simple-ui-active\:mb-7:active,
+.simple-ui-marginBottom-7,
+.simple-ui-hover\:marginBottom-7:hover,
+.simple-ui-focus\:marginBottom-7:focus,
+.simple-ui-active\:marginBottom-7:active,
+.simple-ui-marginB-7,
+.simple-ui-hover\:marginB-7:hover,
+.simple-ui-focus\:marginB-7:focus,
+.simple-ui-active\:marginB-7:active {
 	margin-bottom: 1.75rem;
 }
-.mb-8,
-.marginBottom-8,
-.marginB-8 {
+.simple-ui-mb-8,
+.simple-ui-hover\:mb-8:hover,
+.simple-ui-focus\:mb-8:focus,
+.simple-ui-active\:mb-8:active,
+.simple-ui-marginBottom-8,
+.simple-ui-hover\:marginBottom-8:hover,
+.simple-ui-focus\:marginBottom-8:focus,
+.simple-ui-active\:marginBottom-8:active,
+.simple-ui-marginB-8,
+.simple-ui-hover\:marginB-8:hover,
+.simple-ui-focus\:marginB-8:focus,
+.simple-ui-active\:marginB-8:active {
 	margin-bottom: 2rem;
 }
-.mb-9,
-.marginBottom-9,
-.marginB-9 {
+.simple-ui-mb-9,
+.simple-ui-hover\:mb-9:hover,
+.simple-ui-focus\:mb-9:focus,
+.simple-ui-active\:mb-9:active,
+.simple-ui-marginBottom-9,
+.simple-ui-hover\:marginBottom-9:hover,
+.simple-ui-focus\:marginBottom-9:focus,
+.simple-ui-active\:marginBottom-9:active,
+.simple-ui-marginB-9,
+.simple-ui-hover\:marginB-9:hover,
+.simple-ui-focus\:marginB-9:focus,
+.simple-ui-active\:marginB-9:active {
 	margin-bottom: 2.25rem;
 }
-.mb-10,
-.marginBottom-10,
-.marginB-10 {
+.simple-ui-mb-10,
+.simple-ui-hover\:mb-10:hover,
+.simple-ui-focus\:mb-10:focus,
+.simple-ui-active\:mb-10:active,
+.simple-ui-marginBottom-10,
+.simple-ui-hover\:marginBottom-10:hover,
+.simple-ui-focus\:marginBottom-10:focus,
+.simple-ui-active\:marginBottom-10:active,
+.simple-ui-marginB-10,
+.simple-ui-hover\:marginB-10:hover,
+.simple-ui-focus\:marginB-10:focus,
+.simple-ui-active\:marginB-10:active {
 	margin-bottom: 2.5rem;
 }
-.mb-11,
-.marginBottom-11,
-.marginB-11 {
+.simple-ui-mb-11,
+.simple-ui-hover\:mb-11:hover,
+.simple-ui-focus\:mb-11:focus,
+.simple-ui-active\:mb-11:active,
+.simple-ui-marginBottom-11,
+.simple-ui-hover\:marginBottom-11:hover,
+.simple-ui-focus\:marginBottom-11:focus,
+.simple-ui-active\:marginBottom-11:active,
+.simple-ui-marginB-11,
+.simple-ui-hover\:marginB-11:hover,
+.simple-ui-focus\:marginB-11:focus,
+.simple-ui-active\:marginB-11:active {
 	margin-bottom: 2.75rem;
 }
-.mb-12,
-.marginBottom-12,
-.marginB-12 {
+.simple-ui-mb-12,
+.simple-ui-hover\:mb-12:hover,
+.simple-ui-focus\:mb-12:focus,
+.simple-ui-active\:mb-12:active,
+.simple-ui-marginBottom-12,
+.simple-ui-hover\:marginBottom-12:hover,
+.simple-ui-focus\:marginBottom-12:focus,
+.simple-ui-active\:marginBottom-12:active,
+.simple-ui-marginB-12,
+.simple-ui-hover\:marginB-12:hover,
+.simple-ui-focus\:marginB-12:focus,
+.simple-ui-active\:marginB-12:active {
 	margin-bottom: 3rem;
 }
-.mb-14,
-.marginBottom-14,
-.marginB-14 {
+.simple-ui-mb-14,
+.simple-ui-hover\:mb-14:hover,
+.simple-ui-focus\:mb-14:focus,
+.simple-ui-active\:mb-14:active,
+.simple-ui-marginBottom-14,
+.simple-ui-hover\:marginBottom-14:hover,
+.simple-ui-focus\:marginBottom-14:focus,
+.simple-ui-active\:marginBottom-14:active,
+.simple-ui-marginB-14,
+.simple-ui-hover\:marginB-14:hover,
+.simple-ui-focus\:marginB-14:focus,
+.simple-ui-active\:marginB-14:active {
 	margin-bottom: 3.5rem;
 }
-.mb-16,
-.marginBottom-16,
-.marginB-16 {
+.simple-ui-mb-16,
+.simple-ui-hover\:mb-16:hover,
+.simple-ui-focus\:mb-16:focus,
+.simple-ui-active\:mb-16:active,
+.simple-ui-marginBottom-16,
+.simple-ui-hover\:marginBottom-16:hover,
+.simple-ui-focus\:marginBottom-16:focus,
+.simple-ui-active\:marginBottom-16:active,
+.simple-ui-marginB-16,
+.simple-ui-hover\:marginB-16:hover,
+.simple-ui-focus\:marginB-16:focus,
+.simple-ui-active\:marginB-16:active {
 	margin-bottom: 4rem;
 }
-.mb-20,
-.marginBottom-20,
-.marginB-20 {
+.simple-ui-mb-20,
+.simple-ui-hover\:mb-20:hover,
+.simple-ui-focus\:mb-20:focus,
+.simple-ui-active\:mb-20:active,
+.simple-ui-marginBottom-20,
+.simple-ui-hover\:marginBottom-20:hover,
+.simple-ui-focus\:marginBottom-20:focus,
+.simple-ui-active\:marginBottom-20:active,
+.simple-ui-marginB-20,
+.simple-ui-hover\:marginB-20:hover,
+.simple-ui-focus\:marginB-20:focus,
+.simple-ui-active\:marginB-20:active {
 	margin-bottom: 5rem;
 }
-.mb-24,
-.marginBottom-24,
-.marginB-24 {
+.simple-ui-mb-24,
+.simple-ui-hover\:mb-24:hover,
+.simple-ui-focus\:mb-24:focus,
+.simple-ui-active\:mb-24:active,
+.simple-ui-marginBottom-24,
+.simple-ui-hover\:marginBottom-24:hover,
+.simple-ui-focus\:marginBottom-24:focus,
+.simple-ui-active\:marginBottom-24:active,
+.simple-ui-marginB-24,
+.simple-ui-hover\:marginB-24:hover,
+.simple-ui-focus\:marginB-24:focus,
+.simple-ui-active\:marginB-24:active {
 	margin-bottom: 6rem;
 }
-.mb-28,
-.marginBottom-28,
-.marginB-28 {
+.simple-ui-mb-28,
+.simple-ui-hover\:mb-28:hover,
+.simple-ui-focus\:mb-28:focus,
+.simple-ui-active\:mb-28:active,
+.simple-ui-marginBottom-28,
+.simple-ui-hover\:marginBottom-28:hover,
+.simple-ui-focus\:marginBottom-28:focus,
+.simple-ui-active\:marginBottom-28:active,
+.simple-ui-marginB-28,
+.simple-ui-hover\:marginB-28:hover,
+.simple-ui-focus\:marginB-28:focus,
+.simple-ui-active\:marginB-28:active {
 	margin-bottom: 7rem;
 }
-.mb-32,
-.marginBottom-32,
-.marginB-32 {
+.simple-ui-mb-32,
+.simple-ui-hover\:mb-32:hover,
+.simple-ui-focus\:mb-32:focus,
+.simple-ui-active\:mb-32:active,
+.simple-ui-marginBottom-32,
+.simple-ui-hover\:marginBottom-32:hover,
+.simple-ui-focus\:marginBottom-32:focus,
+.simple-ui-active\:marginBottom-32:active,
+.simple-ui-marginB-32,
+.simple-ui-hover\:marginB-32:hover,
+.simple-ui-focus\:marginB-32:focus,
+.simple-ui-active\:marginB-32:active {
 	margin-bottom: 8rem;
 }
-.mb-36,
-.marginBottom-36,
-.marginB-36 {
+.simple-ui-mb-36,
+.simple-ui-hover\:mb-36:hover,
+.simple-ui-focus\:mb-36:focus,
+.simple-ui-active\:mb-36:active,
+.simple-ui-marginBottom-36,
+.simple-ui-hover\:marginBottom-36:hover,
+.simple-ui-focus\:marginBottom-36:focus,
+.simple-ui-active\:marginBottom-36:active,
+.simple-ui-marginB-36,
+.simple-ui-hover\:marginB-36:hover,
+.simple-ui-focus\:marginB-36:focus,
+.simple-ui-active\:marginB-36:active {
 	margin-bottom: 9rem;
 }
-.mb-40,
-.marginBottom-40,
-.marginB-40 {
+.simple-ui-mb-40,
+.simple-ui-hover\:mb-40:hover,
+.simple-ui-focus\:mb-40:focus,
+.simple-ui-active\:mb-40:active,
+.simple-ui-marginBottom-40,
+.simple-ui-hover\:marginBottom-40:hover,
+.simple-ui-focus\:marginBottom-40:focus,
+.simple-ui-active\:marginBottom-40:active,
+.simple-ui-marginB-40,
+.simple-ui-hover\:marginB-40:hover,
+.simple-ui-focus\:marginB-40:focus,
+.simple-ui-active\:marginB-40:active {
 	margin-bottom: 10rem;
 }
-.mb-44,
-.marginBottom-44,
-.marginB-44 {
+.simple-ui-mb-44,
+.simple-ui-hover\:mb-44:hover,
+.simple-ui-focus\:mb-44:focus,
+.simple-ui-active\:mb-44:active,
+.simple-ui-marginBottom-44,
+.simple-ui-hover\:marginBottom-44:hover,
+.simple-ui-focus\:marginBottom-44:focus,
+.simple-ui-active\:marginBottom-44:active,
+.simple-ui-marginB-44,
+.simple-ui-hover\:marginB-44:hover,
+.simple-ui-focus\:marginB-44:focus,
+.simple-ui-active\:marginB-44:active {
 	margin-bottom: 11rem;
 }
-.mb-48,
-.marginBottom-48,
-.marginB-48 {
+.simple-ui-mb-48,
+.simple-ui-hover\:mb-48:hover,
+.simple-ui-focus\:mb-48:focus,
+.simple-ui-active\:mb-48:active,
+.simple-ui-marginBottom-48,
+.simple-ui-hover\:marginBottom-48:hover,
+.simple-ui-focus\:marginBottom-48:focus,
+.simple-ui-active\:marginBottom-48:active,
+.simple-ui-marginB-48,
+.simple-ui-hover\:marginB-48:hover,
+.simple-ui-focus\:marginB-48:focus,
+.simple-ui-active\:marginB-48:active {
 	margin-bottom: 12rem;
 }
-.mb-52,
-.marginBottom-52,
-.marginB-52 {
+.simple-ui-mb-52,
+.simple-ui-hover\:mb-52:hover,
+.simple-ui-focus\:mb-52:focus,
+.simple-ui-active\:mb-52:active,
+.simple-ui-marginBottom-52,
+.simple-ui-hover\:marginBottom-52:hover,
+.simple-ui-focus\:marginBottom-52:focus,
+.simple-ui-active\:marginBottom-52:active,
+.simple-ui-marginB-52,
+.simple-ui-hover\:marginB-52:hover,
+.simple-ui-focus\:marginB-52:focus,
+.simple-ui-active\:marginB-52:active {
 	margin-bottom: 13rem;
 }
-.mb-56,
-.marginBottom-56,
-.marginB-56 {
+.simple-ui-mb-56,
+.simple-ui-hover\:mb-56:hover,
+.simple-ui-focus\:mb-56:focus,
+.simple-ui-active\:mb-56:active,
+.simple-ui-marginBottom-56,
+.simple-ui-hover\:marginBottom-56:hover,
+.simple-ui-focus\:marginBottom-56:focus,
+.simple-ui-active\:marginBottom-56:active,
+.simple-ui-marginB-56,
+.simple-ui-hover\:marginB-56:hover,
+.simple-ui-focus\:marginB-56:focus,
+.simple-ui-active\:marginB-56:active {
 	margin-bottom: 14rem;
 }
-.mb-60,
-.marginBottom-60,
-.marginB-60 {
+.simple-ui-mb-60,
+.simple-ui-hover\:mb-60:hover,
+.simple-ui-focus\:mb-60:focus,
+.simple-ui-active\:mb-60:active,
+.simple-ui-marginBottom-60,
+.simple-ui-hover\:marginBottom-60:hover,
+.simple-ui-focus\:marginBottom-60:focus,
+.simple-ui-active\:marginBottom-60:active,
+.simple-ui-marginB-60,
+.simple-ui-hover\:marginB-60:hover,
+.simple-ui-focus\:marginB-60:focus,
+.simple-ui-active\:marginB-60:active {
 	margin-bottom: 15rem;
 }
-.mb-64,
-.marginBottom-64,
-.marginB-64 {
+.simple-ui-mb-64,
+.simple-ui-hover\:mb-64:hover,
+.simple-ui-focus\:mb-64:focus,
+.simple-ui-active\:mb-64:active,
+.simple-ui-marginBottom-64,
+.simple-ui-hover\:marginBottom-64:hover,
+.simple-ui-focus\:marginBottom-64:focus,
+.simple-ui-active\:marginBottom-64:active,
+.simple-ui-marginB-64,
+.simple-ui-hover\:marginB-64:hover,
+.simple-ui-focus\:marginB-64:focus,
+.simple-ui-active\:marginB-64:active {
 	margin-bottom: 16rem;
 }
-.mb-72,
-.marginBottom-72,
-.marginB-72 {
+.simple-ui-mb-72,
+.simple-ui-hover\:mb-72:hover,
+.simple-ui-focus\:mb-72:focus,
+.simple-ui-active\:mb-72:active,
+.simple-ui-marginBottom-72,
+.simple-ui-hover\:marginBottom-72:hover,
+.simple-ui-focus\:marginBottom-72:focus,
+.simple-ui-active\:marginBottom-72:active,
+.simple-ui-marginB-72,
+.simple-ui-hover\:marginB-72:hover,
+.simple-ui-focus\:marginB-72:focus,
+.simple-ui-active\:marginB-72:active {
 	margin-bottom: 18rem;
 }
-.mb-80,
-.marginBottom-80,
-.marginB-80 {
+.simple-ui-mb-80,
+.simple-ui-hover\:mb-80:hover,
+.simple-ui-focus\:mb-80:focus,
+.simple-ui-active\:mb-80:active,
+.simple-ui-marginBottom-80,
+.simple-ui-hover\:marginBottom-80:hover,
+.simple-ui-focus\:marginBottom-80:focus,
+.simple-ui-active\:marginBottom-80:active,
+.simple-ui-marginB-80,
+.simple-ui-hover\:marginB-80:hover,
+.simple-ui-focus\:marginB-80:focus,
+.simple-ui-active\:marginB-80:active {
 	margin-bottom: 20rem;
 }
-.mb-96,
-.marginBottom-96,
-.marginB-96 {
+.simple-ui-mb-96,
+.simple-ui-hover\:mb-96:hover,
+.simple-ui-focus\:mb-96:focus,
+.simple-ui-active\:mb-96:active,
+.simple-ui-marginBottom-96,
+.simple-ui-hover\:marginBottom-96:hover,
+.simple-ui-focus\:marginBottom-96:focus,
+.simple-ui-active\:marginBottom-96:active,
+.simple-ui-marginB-96,
+.simple-ui-hover\:marginB-96:hover,
+.simple-ui-focus\:marginB-96:focus,
+.simple-ui-active\:marginB-96:active {
 	margin-bottom: 24rem;
 }
-.ml-0,
-.marginLeft-0,
-.marginL-0 {
+.simple-ui-ml-0,
+.simple-ui-hover\:ml-0:hover,
+.simple-ui-focus\:ml-0:focus,
+.simple-ui-active\:ml-0:active,
+.simple-ui-marginLeft-0,
+.simple-ui-hover\:marginLeft-0:hover,
+.simple-ui-focus\:marginLeft-0:focus,
+.simple-ui-active\:marginLeft-0:active,
+.simple-ui-marginL-0,
+.simple-ui-hover\:marginL-0:hover,
+.simple-ui-focus\:marginL-0:focus,
+.simple-ui-active\:marginL-0:active {
 	margin-left: 0px;
 }
-.ml-px,
-.marginLeft-px,
-.marginL-px {
+.simple-ui-ml-px,
+.simple-ui-hover\:ml-px:hover,
+.simple-ui-focus\:ml-px:focus,
+.simple-ui-active\:ml-px:active,
+.simple-ui-marginLeft-px,
+.simple-ui-hover\:marginLeft-px:hover,
+.simple-ui-focus\:marginLeft-px:focus,
+.simple-ui-active\:marginLeft-px:active,
+.simple-ui-marginL-px,
+.simple-ui-hover\:marginL-px:hover,
+.simple-ui-focus\:marginL-px:focus,
+.simple-ui-active\:marginL-px:active {
 	margin-left: 1px;
 }
-.ml-0\.5,
-.marginLeft-0\.5,
-.marginL-0\.5 {
+.simple-ui-ml-0\.5,
+.simple-ui-hover\:ml-0\.5:hover,
+.simple-ui-focus\:ml-0\.5:focus,
+.simple-ui-active\:ml-0\.5:active,
+.simple-ui-marginLeft-0\.5,
+.simple-ui-hover\:marginLeft-0\.5:hover,
+.simple-ui-focus\:marginLeft-0\.5:focus,
+.simple-ui-active\:marginLeft-0\.5:active,
+.simple-ui-marginL-0\.5,
+.simple-ui-hover\:marginL-0\.5:hover,
+.simple-ui-focus\:marginL-0\.5:focus,
+.simple-ui-active\:marginL-0\.5:active {
 	margin-left: 0.125rem;
 }
-.ml-1,
-.marginLeft-1,
-.marginL-1 {
+.simple-ui-ml-1,
+.simple-ui-hover\:ml-1:hover,
+.simple-ui-focus\:ml-1:focus,
+.simple-ui-active\:ml-1:active,
+.simple-ui-marginLeft-1,
+.simple-ui-hover\:marginLeft-1:hover,
+.simple-ui-focus\:marginLeft-1:focus,
+.simple-ui-active\:marginLeft-1:active,
+.simple-ui-marginL-1,
+.simple-ui-hover\:marginL-1:hover,
+.simple-ui-focus\:marginL-1:focus,
+.simple-ui-active\:marginL-1:active {
 	margin-left: 0.25rem;
 }
-.ml-1\.5,
-.marginLeft-1\.5,
-.marginL-1\.5 {
+.simple-ui-ml-1\.5,
+.simple-ui-hover\:ml-1\.5:hover,
+.simple-ui-focus\:ml-1\.5:focus,
+.simple-ui-active\:ml-1\.5:active,
+.simple-ui-marginLeft-1\.5,
+.simple-ui-hover\:marginLeft-1\.5:hover,
+.simple-ui-focus\:marginLeft-1\.5:focus,
+.simple-ui-active\:marginLeft-1\.5:active,
+.simple-ui-marginL-1\.5,
+.simple-ui-hover\:marginL-1\.5:hover,
+.simple-ui-focus\:marginL-1\.5:focus,
+.simple-ui-active\:marginL-1\.5:active {
 	margin-left: 0.375rem;
 }
-.ml-2,
-.marginLeft-2,
-.marginL-2 {
+.simple-ui-ml-2,
+.simple-ui-hover\:ml-2:hover,
+.simple-ui-focus\:ml-2:focus,
+.simple-ui-active\:ml-2:active,
+.simple-ui-marginLeft-2,
+.simple-ui-hover\:marginLeft-2:hover,
+.simple-ui-focus\:marginLeft-2:focus,
+.simple-ui-active\:marginLeft-2:active,
+.simple-ui-marginL-2,
+.simple-ui-hover\:marginL-2:hover,
+.simple-ui-focus\:marginL-2:focus,
+.simple-ui-active\:marginL-2:active {
 	margin-left: 0.5rem;
 }
-.ml-2\.5,
-.marginLeft-2\.5,
-.marginL-2\.5 {
+.simple-ui-ml-2\.5,
+.simple-ui-hover\:ml-2\.5:hover,
+.simple-ui-focus\:ml-2\.5:focus,
+.simple-ui-active\:ml-2\.5:active,
+.simple-ui-marginLeft-2\.5,
+.simple-ui-hover\:marginLeft-2\.5:hover,
+.simple-ui-focus\:marginLeft-2\.5:focus,
+.simple-ui-active\:marginLeft-2\.5:active,
+.simple-ui-marginL-2\.5,
+.simple-ui-hover\:marginL-2\.5:hover,
+.simple-ui-focus\:marginL-2\.5:focus,
+.simple-ui-active\:marginL-2\.5:active {
 	margin-left: 0.625rem;
 }
-.ml-3,
-.marginLeft-3,
-.marginL-3 {
+.simple-ui-ml-3,
+.simple-ui-hover\:ml-3:hover,
+.simple-ui-focus\:ml-3:focus,
+.simple-ui-active\:ml-3:active,
+.simple-ui-marginLeft-3,
+.simple-ui-hover\:marginLeft-3:hover,
+.simple-ui-focus\:marginLeft-3:focus,
+.simple-ui-active\:marginLeft-3:active,
+.simple-ui-marginL-3,
+.simple-ui-hover\:marginL-3:hover,
+.simple-ui-focus\:marginL-3:focus,
+.simple-ui-active\:marginL-3:active {
 	margin-left: 0.75rem;
 }
-.ml-3\.5,
-.marginLeft-3\.5,
-.marginL-3\.5 {
+.simple-ui-ml-3\.5,
+.simple-ui-hover\:ml-3\.5:hover,
+.simple-ui-focus\:ml-3\.5:focus,
+.simple-ui-active\:ml-3\.5:active,
+.simple-ui-marginLeft-3\.5,
+.simple-ui-hover\:marginLeft-3\.5:hover,
+.simple-ui-focus\:marginLeft-3\.5:focus,
+.simple-ui-active\:marginLeft-3\.5:active,
+.simple-ui-marginL-3\.5,
+.simple-ui-hover\:marginL-3\.5:hover,
+.simple-ui-focus\:marginL-3\.5:focus,
+.simple-ui-active\:marginL-3\.5:active {
 	margin-left: 0.875rem;
 }
-.ml-4,
-.marginLeft-4,
-.marginL-4 {
+.simple-ui-ml-4,
+.simple-ui-hover\:ml-4:hover,
+.simple-ui-focus\:ml-4:focus,
+.simple-ui-active\:ml-4:active,
+.simple-ui-marginLeft-4,
+.simple-ui-hover\:marginLeft-4:hover,
+.simple-ui-focus\:marginLeft-4:focus,
+.simple-ui-active\:marginLeft-4:active,
+.simple-ui-marginL-4,
+.simple-ui-hover\:marginL-4:hover,
+.simple-ui-focus\:marginL-4:focus,
+.simple-ui-active\:marginL-4:active {
 	margin-left: 1rem;
 }
-.ml-5,
-.marginLeft-5,
-.marginL-5 {
+.simple-ui-ml-5,
+.simple-ui-hover\:ml-5:hover,
+.simple-ui-focus\:ml-5:focus,
+.simple-ui-active\:ml-5:active,
+.simple-ui-marginLeft-5,
+.simple-ui-hover\:marginLeft-5:hover,
+.simple-ui-focus\:marginLeft-5:focus,
+.simple-ui-active\:marginLeft-5:active,
+.simple-ui-marginL-5,
+.simple-ui-hover\:marginL-5:hover,
+.simple-ui-focus\:marginL-5:focus,
+.simple-ui-active\:marginL-5:active {
 	margin-left: 1.25rem;
 }
-.ml-6,
-.marginLeft-6,
-.marginL-6 {
+.simple-ui-ml-6,
+.simple-ui-hover\:ml-6:hover,
+.simple-ui-focus\:ml-6:focus,
+.simple-ui-active\:ml-6:active,
+.simple-ui-marginLeft-6,
+.simple-ui-hover\:marginLeft-6:hover,
+.simple-ui-focus\:marginLeft-6:focus,
+.simple-ui-active\:marginLeft-6:active,
+.simple-ui-marginL-6,
+.simple-ui-hover\:marginL-6:hover,
+.simple-ui-focus\:marginL-6:focus,
+.simple-ui-active\:marginL-6:active {
 	margin-left: 1.5rem;
 }
-.ml-7,
-.marginLeft-7,
-.marginL-7 {
+.simple-ui-ml-7,
+.simple-ui-hover\:ml-7:hover,
+.simple-ui-focus\:ml-7:focus,
+.simple-ui-active\:ml-7:active,
+.simple-ui-marginLeft-7,
+.simple-ui-hover\:marginLeft-7:hover,
+.simple-ui-focus\:marginLeft-7:focus,
+.simple-ui-active\:marginLeft-7:active,
+.simple-ui-marginL-7,
+.simple-ui-hover\:marginL-7:hover,
+.simple-ui-focus\:marginL-7:focus,
+.simple-ui-active\:marginL-7:active {
 	margin-left: 1.75rem;
 }
-.ml-8,
-.marginLeft-8,
-.marginL-8 {
+.simple-ui-ml-8,
+.simple-ui-hover\:ml-8:hover,
+.simple-ui-focus\:ml-8:focus,
+.simple-ui-active\:ml-8:active,
+.simple-ui-marginLeft-8,
+.simple-ui-hover\:marginLeft-8:hover,
+.simple-ui-focus\:marginLeft-8:focus,
+.simple-ui-active\:marginLeft-8:active,
+.simple-ui-marginL-8,
+.simple-ui-hover\:marginL-8:hover,
+.simple-ui-focus\:marginL-8:focus,
+.simple-ui-active\:marginL-8:active {
 	margin-left: 2rem;
 }
-.ml-9,
-.marginLeft-9,
-.marginL-9 {
+.simple-ui-ml-9,
+.simple-ui-hover\:ml-9:hover,
+.simple-ui-focus\:ml-9:focus,
+.simple-ui-active\:ml-9:active,
+.simple-ui-marginLeft-9,
+.simple-ui-hover\:marginLeft-9:hover,
+.simple-ui-focus\:marginLeft-9:focus,
+.simple-ui-active\:marginLeft-9:active,
+.simple-ui-marginL-9,
+.simple-ui-hover\:marginL-9:hover,
+.simple-ui-focus\:marginL-9:focus,
+.simple-ui-active\:marginL-9:active {
 	margin-left: 2.25rem;
 }
-.ml-10,
-.marginLeft-10,
-.marginL-10 {
+.simple-ui-ml-10,
+.simple-ui-hover\:ml-10:hover,
+.simple-ui-focus\:ml-10:focus,
+.simple-ui-active\:ml-10:active,
+.simple-ui-marginLeft-10,
+.simple-ui-hover\:marginLeft-10:hover,
+.simple-ui-focus\:marginLeft-10:focus,
+.simple-ui-active\:marginLeft-10:active,
+.simple-ui-marginL-10,
+.simple-ui-hover\:marginL-10:hover,
+.simple-ui-focus\:marginL-10:focus,
+.simple-ui-active\:marginL-10:active {
 	margin-left: 2.5rem;
 }
-.ml-11,
-.marginLeft-11,
-.marginL-11 {
+.simple-ui-ml-11,
+.simple-ui-hover\:ml-11:hover,
+.simple-ui-focus\:ml-11:focus,
+.simple-ui-active\:ml-11:active,
+.simple-ui-marginLeft-11,
+.simple-ui-hover\:marginLeft-11:hover,
+.simple-ui-focus\:marginLeft-11:focus,
+.simple-ui-active\:marginLeft-11:active,
+.simple-ui-marginL-11,
+.simple-ui-hover\:marginL-11:hover,
+.simple-ui-focus\:marginL-11:focus,
+.simple-ui-active\:marginL-11:active {
 	margin-left: 2.75rem;
 }
-.ml-12,
-.marginLeft-12,
-.marginL-12 {
+.simple-ui-ml-12,
+.simple-ui-hover\:ml-12:hover,
+.simple-ui-focus\:ml-12:focus,
+.simple-ui-active\:ml-12:active,
+.simple-ui-marginLeft-12,
+.simple-ui-hover\:marginLeft-12:hover,
+.simple-ui-focus\:marginLeft-12:focus,
+.simple-ui-active\:marginLeft-12:active,
+.simple-ui-marginL-12,
+.simple-ui-hover\:marginL-12:hover,
+.simple-ui-focus\:marginL-12:focus,
+.simple-ui-active\:marginL-12:active {
 	margin-left: 3rem;
 }
-.ml-14,
-.marginLeft-14,
-.marginL-14 {
+.simple-ui-ml-14,
+.simple-ui-hover\:ml-14:hover,
+.simple-ui-focus\:ml-14:focus,
+.simple-ui-active\:ml-14:active,
+.simple-ui-marginLeft-14,
+.simple-ui-hover\:marginLeft-14:hover,
+.simple-ui-focus\:marginLeft-14:focus,
+.simple-ui-active\:marginLeft-14:active,
+.simple-ui-marginL-14,
+.simple-ui-hover\:marginL-14:hover,
+.simple-ui-focus\:marginL-14:focus,
+.simple-ui-active\:marginL-14:active {
 	margin-left: 3.5rem;
 }
-.ml-16,
-.marginLeft-16,
-.marginL-16 {
+.simple-ui-ml-16,
+.simple-ui-hover\:ml-16:hover,
+.simple-ui-focus\:ml-16:focus,
+.simple-ui-active\:ml-16:active,
+.simple-ui-marginLeft-16,
+.simple-ui-hover\:marginLeft-16:hover,
+.simple-ui-focus\:marginLeft-16:focus,
+.simple-ui-active\:marginLeft-16:active,
+.simple-ui-marginL-16,
+.simple-ui-hover\:marginL-16:hover,
+.simple-ui-focus\:marginL-16:focus,
+.simple-ui-active\:marginL-16:active {
 	margin-left: 4rem;
 }
-.ml-20,
-.marginLeft-20,
-.marginL-20 {
+.simple-ui-ml-20,
+.simple-ui-hover\:ml-20:hover,
+.simple-ui-focus\:ml-20:focus,
+.simple-ui-active\:ml-20:active,
+.simple-ui-marginLeft-20,
+.simple-ui-hover\:marginLeft-20:hover,
+.simple-ui-focus\:marginLeft-20:focus,
+.simple-ui-active\:marginLeft-20:active,
+.simple-ui-marginL-20,
+.simple-ui-hover\:marginL-20:hover,
+.simple-ui-focus\:marginL-20:focus,
+.simple-ui-active\:marginL-20:active {
 	margin-left: 5rem;
 }
-.ml-24,
-.marginLeft-24,
-.marginL-24 {
+.simple-ui-ml-24,
+.simple-ui-hover\:ml-24:hover,
+.simple-ui-focus\:ml-24:focus,
+.simple-ui-active\:ml-24:active,
+.simple-ui-marginLeft-24,
+.simple-ui-hover\:marginLeft-24:hover,
+.simple-ui-focus\:marginLeft-24:focus,
+.simple-ui-active\:marginLeft-24:active,
+.simple-ui-marginL-24,
+.simple-ui-hover\:marginL-24:hover,
+.simple-ui-focus\:marginL-24:focus,
+.simple-ui-active\:marginL-24:active {
 	margin-left: 6rem;
 }
-.ml-28,
-.marginLeft-28,
-.marginL-28 {
+.simple-ui-ml-28,
+.simple-ui-hover\:ml-28:hover,
+.simple-ui-focus\:ml-28:focus,
+.simple-ui-active\:ml-28:active,
+.simple-ui-marginLeft-28,
+.simple-ui-hover\:marginLeft-28:hover,
+.simple-ui-focus\:marginLeft-28:focus,
+.simple-ui-active\:marginLeft-28:active,
+.simple-ui-marginL-28,
+.simple-ui-hover\:marginL-28:hover,
+.simple-ui-focus\:marginL-28:focus,
+.simple-ui-active\:marginL-28:active {
 	margin-left: 7rem;
 }
-.ml-32,
-.marginLeft-32,
-.marginL-32 {
+.simple-ui-ml-32,
+.simple-ui-hover\:ml-32:hover,
+.simple-ui-focus\:ml-32:focus,
+.simple-ui-active\:ml-32:active,
+.simple-ui-marginLeft-32,
+.simple-ui-hover\:marginLeft-32:hover,
+.simple-ui-focus\:marginLeft-32:focus,
+.simple-ui-active\:marginLeft-32:active,
+.simple-ui-marginL-32,
+.simple-ui-hover\:marginL-32:hover,
+.simple-ui-focus\:marginL-32:focus,
+.simple-ui-active\:marginL-32:active {
 	margin-left: 8rem;
 }
-.ml-36,
-.marginLeft-36,
-.marginL-36 {
+.simple-ui-ml-36,
+.simple-ui-hover\:ml-36:hover,
+.simple-ui-focus\:ml-36:focus,
+.simple-ui-active\:ml-36:active,
+.simple-ui-marginLeft-36,
+.simple-ui-hover\:marginLeft-36:hover,
+.simple-ui-focus\:marginLeft-36:focus,
+.simple-ui-active\:marginLeft-36:active,
+.simple-ui-marginL-36,
+.simple-ui-hover\:marginL-36:hover,
+.simple-ui-focus\:marginL-36:focus,
+.simple-ui-active\:marginL-36:active {
 	margin-left: 9rem;
 }
-.ml-40,
-.marginLeft-40,
-.marginL-40 {
+.simple-ui-ml-40,
+.simple-ui-hover\:ml-40:hover,
+.simple-ui-focus\:ml-40:focus,
+.simple-ui-active\:ml-40:active,
+.simple-ui-marginLeft-40,
+.simple-ui-hover\:marginLeft-40:hover,
+.simple-ui-focus\:marginLeft-40:focus,
+.simple-ui-active\:marginLeft-40:active,
+.simple-ui-marginL-40,
+.simple-ui-hover\:marginL-40:hover,
+.simple-ui-focus\:marginL-40:focus,
+.simple-ui-active\:marginL-40:active {
 	margin-left: 10rem;
 }
-.ml-44,
-.marginLeft-44,
-.marginL-44 {
+.simple-ui-ml-44,
+.simple-ui-hover\:ml-44:hover,
+.simple-ui-focus\:ml-44:focus,
+.simple-ui-active\:ml-44:active,
+.simple-ui-marginLeft-44,
+.simple-ui-hover\:marginLeft-44:hover,
+.simple-ui-focus\:marginLeft-44:focus,
+.simple-ui-active\:marginLeft-44:active,
+.simple-ui-marginL-44,
+.simple-ui-hover\:marginL-44:hover,
+.simple-ui-focus\:marginL-44:focus,
+.simple-ui-active\:marginL-44:active {
 	margin-left: 11rem;
 }
-.ml-48,
-.marginLeft-48,
-.marginL-48 {
+.simple-ui-ml-48,
+.simple-ui-hover\:ml-48:hover,
+.simple-ui-focus\:ml-48:focus,
+.simple-ui-active\:ml-48:active,
+.simple-ui-marginLeft-48,
+.simple-ui-hover\:marginLeft-48:hover,
+.simple-ui-focus\:marginLeft-48:focus,
+.simple-ui-active\:marginLeft-48:active,
+.simple-ui-marginL-48,
+.simple-ui-hover\:marginL-48:hover,
+.simple-ui-focus\:marginL-48:focus,
+.simple-ui-active\:marginL-48:active {
 	margin-left: 12rem;
 }
-.ml-52,
-.marginLeft-52,
-.marginL-52 {
+.simple-ui-ml-52,
+.simple-ui-hover\:ml-52:hover,
+.simple-ui-focus\:ml-52:focus,
+.simple-ui-active\:ml-52:active,
+.simple-ui-marginLeft-52,
+.simple-ui-hover\:marginLeft-52:hover,
+.simple-ui-focus\:marginLeft-52:focus,
+.simple-ui-active\:marginLeft-52:active,
+.simple-ui-marginL-52,
+.simple-ui-hover\:marginL-52:hover,
+.simple-ui-focus\:marginL-52:focus,
+.simple-ui-active\:marginL-52:active {
 	margin-left: 13rem;
 }
-.ml-56,
-.marginLeft-56,
-.marginL-56 {
+.simple-ui-ml-56,
+.simple-ui-hover\:ml-56:hover,
+.simple-ui-focus\:ml-56:focus,
+.simple-ui-active\:ml-56:active,
+.simple-ui-marginLeft-56,
+.simple-ui-hover\:marginLeft-56:hover,
+.simple-ui-focus\:marginLeft-56:focus,
+.simple-ui-active\:marginLeft-56:active,
+.simple-ui-marginL-56,
+.simple-ui-hover\:marginL-56:hover,
+.simple-ui-focus\:marginL-56:focus,
+.simple-ui-active\:marginL-56:active {
 	margin-left: 14rem;
 }
-.ml-60,
-.marginLeft-60,
-.marginL-60 {
+.simple-ui-ml-60,
+.simple-ui-hover\:ml-60:hover,
+.simple-ui-focus\:ml-60:focus,
+.simple-ui-active\:ml-60:active,
+.simple-ui-marginLeft-60,
+.simple-ui-hover\:marginLeft-60:hover,
+.simple-ui-focus\:marginLeft-60:focus,
+.simple-ui-active\:marginLeft-60:active,
+.simple-ui-marginL-60,
+.simple-ui-hover\:marginL-60:hover,
+.simple-ui-focus\:marginL-60:focus,
+.simple-ui-active\:marginL-60:active {
 	margin-left: 15rem;
 }
-.ml-64,
-.marginLeft-64,
-.marginL-64 {
+.simple-ui-ml-64,
+.simple-ui-hover\:ml-64:hover,
+.simple-ui-focus\:ml-64:focus,
+.simple-ui-active\:ml-64:active,
+.simple-ui-marginLeft-64,
+.simple-ui-hover\:marginLeft-64:hover,
+.simple-ui-focus\:marginLeft-64:focus,
+.simple-ui-active\:marginLeft-64:active,
+.simple-ui-marginL-64,
+.simple-ui-hover\:marginL-64:hover,
+.simple-ui-focus\:marginL-64:focus,
+.simple-ui-active\:marginL-64:active {
 	margin-left: 16rem;
 }
-.ml-72,
-.marginLeft l-72,
-.marginL-72 {
+.simple-ui-ml-72,
+.simple-ui-hover\:ml-72:hover,
+.simple-ui-focus\:ml-72:focus,
+.simple-ui-active\:ml-72:active,
+.simple-ui-marginLeft l-72,
+.simple-ui-hover\:marginLeft l-72:hover,
+.simple-ui-focus\:marginLeft l-72:focus,
+.simple-ui-active\:marginLeft l-72:active,
+.simple-ui-marginL-72,
+.simple-ui-hover\:marginL-72:hover,
+.simple-ui-focus\:marginL-72:focus,
+.simple-ui-active\:marginL-72:active {
 	margin-left: 18rem;
 }
-.ml-80,
-.marginLeft l-80,
-.marginL-80 {
+.simple-ui-ml-80,
+.simple-ui-hover\:ml-80:hover,
+.simple-ui-focus\:ml-80:focus,
+.simple-ui-active\:ml-80:active,
+.simple-ui-marginLeft l-80,
+.simple-ui-hover\:marginLeft l-80:hover,
+.simple-ui-focus\:marginLeft l-80:focus,
+.simple-ui-active\:marginLeft l-80:active,
+.simple-ui-marginL-80,
+.simple-ui-hover\:marginL-80:hover,
+.simple-ui-focus\:marginL-80:focus,
+.simple-ui-active\:marginL-80:active {
 	margin-left: 20rem;
 }
-.ml-96,
-.marginLeft l-96,
-.marginL-96 {
+.simple-ui-ml-96,
+.simple-ui-hover\:ml-96:hover,
+.simple-ui-focus\:ml-96:focus,
+.simple-ui-active\:ml-96:active,
+.simple-ui-marginLeft l-96,
+.simple-ui-hover\:marginLeft l-96:hover,
+.simple-ui-focus\:marginLeft l-96:focus,
+.simple-ui-active\:marginLeft l-96:active,
+.simple-ui-marginL-96,
+.simple-ui-hover\:marginL-96:hover,
+.simple-ui-focus\:marginL-96:focus,
+.simple-ui-active\:marginL-96:active {
 	margin-left: 24rem;
 }
