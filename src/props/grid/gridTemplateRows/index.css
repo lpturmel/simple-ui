@@ -1,42 +1,42 @@
-.gridRows-1,
-.hover\:gridRows-1:hover,
-.focus\:gridRows-1:focus,
-.active\:gridRows-1:active {
+.simple-ui-gridRows-1,
+.simple-ui-hover\:gridRows-1:hover,
+.simple-ui-focus\:gridRows-1:focus,
+.simple-ui-active\:gridRows-1:active {
 	grid-template-rows: repeat(1, minmax(0, 1fr));
 }
-.gridRows-2,
-.hover\:gridRows-2:hover,
-.focus\:gridRows-2:focus,
-.active\:gridRows-2:active {
+.simple-ui-gridRows-2,
+.simple-ui-hover\:gridRows-2:hover,
+.simple-ui-focus\:gridRows-2:focus,
+.simple-ui-active\:gridRows-2:active {
 	grid-template-rows: repeat(2, minmax(0, 1fr));
 }
-.gridRows-3,
-.hover\:gridRows-3:hover,
-.focus\:gridRows-3:focus,
-.active\:gridRows-3:active {
+.simple-ui-gridRows-3,
+.simple-ui-hover\:gridRows-3:hover,
+.simple-ui-focus\:gridRows-3:focus,
+.simple-ui-active\:gridRows-3:active {
 	grid-template-rows: repeat(3, minmax(0, 1fr));
 }
-.gridRows-4,
-.hover\:gridRows-4:hover,
-.focus\:gridRows-4:focus,
-.active\:gridRows-4:active {
+.simple-ui-gridRows-4,
+.simple-ui-hover\:gridRows-4:hover,
+.simple-ui-focus\:gridRows-4:focus,
+.simple-ui-active\:gridRows-4:active {
 	grid-template-rows: repeat(4, minmax(0, 1fr));
 }
-.gridRows-5,
-.hover\:gridRows-5:hover,
-.focus\:gridRows-5:focus,
-.active\:gridRows-5:active {
+.simple-ui-gridRows-5,
+.simple-ui-hover\:gridRows-5:hover,
+.simple-ui-focus\:gridRows-5:focus,
+.simple-ui-active\:gridRows-5:active {
 	grid-template-rows: repeat(5, minmax(0, 1fr));
 }
-.gridRows-6,
-.hover\:gridRows-6:hover,
-.focus\:gridRows-6:focus,
-.active\:gridRows-6:active {
+.simple-ui-gridRows-6,
+.simple-ui-hover\:gridRows-6:hover,
+.simple-ui-focus\:gridRows-6:focus,
+.simple-ui-active\:gridRows-6:active {
 	grid-template-rows: repeat(6, minmax(0, 1fr));
 }
-.gridRows-none,
-.hover\:gridRows-none:hover,
-.focus\:gridRows-none:focus,
-.active\:gridRows-none:active {
+.simple-ui-gridRows-none,
+.simple-ui-hover\:gridRows-none:hover,
+.simple-ui-focus\:gridRows-none:focus,
+.simple-ui-active\:gridRows-none:active {
 	grid-template-rows: none;
 }
