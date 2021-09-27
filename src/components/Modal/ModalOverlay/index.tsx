@@ -1,25 +1,20 @@
-import { Component, JSX, PropsWithChildren } from "solid-js";
+import { Component, JSX, PropsWithChildren, useContext } from "solid-js";
+import { SimpleContext } from "../../../context/SimpleContext";
 import MainProps from "../../../props";
 import { parseDefaultProps, mapPropsToCss } from "../../../props/Global";
 
 export interface ModalOverlayProps
 	extends MainProps<JSX.HTMLAttributes<HTMLDivElement>> {}
 const ModalOverlay: Component<ModalOverlayProps> = (props) => {
-	const defaultProps: PropsWithChildren<ModalOverlayProps> = {
-		top: 0,
-		left: 0,
-		position: "fixed",
-		height: "screen",
-		width: "screen",
+	const [context] = useContext(SimpleContext);
 
-		zIndex: 10,
-	};
+	const modalOverlayDefaultProps = context.theme.Components?.ModalOverlay;
+
 	const mergedProps = parseDefaultProps<ModalOverlayProps>(
 		props,
-		defaultProps
+		modalOverlayDefaultProps!
 	);
-
 	const tw = mapPropsToCss<PropsWithChildren<ModalOverlayProps>>(mergedProps);
-	return <div class={tw} style={{ color: "rgba(0, 0, 0, 0.48)" }}></div>;
+	return <div class={tw} style={{ background: "rgba(0, 0, 0, 0.48)" }}></div>;
 };
 export default ModalOverlay;
