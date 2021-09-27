@@ -5,4 +5,10 @@ export * from "./components/Select";
 export * from "./components/Input";
 export * from "./apis/createControls";
 export { SimpleProvider } from "./context/SimpleContext";
-// export * from "./components/Modal";
+export {
+	SimpleComponentList,
+	ThemeComponentOptions,
+	SimpleThemeConfig,
+} from "./theme/index";
+
+export * from "./components/Modal";
