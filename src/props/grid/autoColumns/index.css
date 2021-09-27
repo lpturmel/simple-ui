@@ -1,27 +1,27 @@
-.autoCols-auto,
-.hover\:autoCols-auto:hover,
-.focus\:autoCols-auto:focus,
-.active\:autoCols-auto:active {
+.simple-ui-autoCols-auto,
+.simple-ui-hover\:autoCols-auto:hover,
+.simple-ui-focus\:autoCols-auto:focus,
+.simple-ui-active\:autoCols-auto:active {
 	grid-auto-columns: auto;
 }
 
-.autoCols-min,
-.hover\:autoCols-min:hover,
-.focus\:autoCols-min:focus,
-.active\:autoCols-min:active {
+.simple-ui-autoCols-min,
+.simple-ui-hover\:autoCols-min:hover,
+.simple-ui-focus\:autoCols-min:focus,
+.simple-ui-active\:autoCols-min:active {
 	grid-auto-columns: min-content;
 }
 
-.autoCols-max,
-.hover\:autoCols-max:hover,
-.focus\:autoCols-max:focus,
-.active\:autoCols-max:active {
+.simple-ui-autoCols-max,
+.simple-ui-hover\:autoCols-max:hover,
+.simple-ui-focus\:autoCols-max:focus,
+.simple-ui-active\:autoCols-max:active {
 	grid-auto-columns: max-content;
 }
 
-.autoCols-fr,
-.hover\:autoCols-fr:hover,
-.focus\:autoCols-fr:focus,
-.active\:autoCols-fr:active {
+.simple-ui-autoCols-fr,
+.simple-ui-hover\:autoCols-fr:hover,
+.simple-ui-focus\:autoCols-fr:focus,
+.simple-ui-active\:autoCols-fr:active {
 	grid-auto-columns: minmax(0, 1fr);
 }
