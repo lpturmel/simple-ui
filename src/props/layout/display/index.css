@@ -1,63 +1,126 @@
-.display-block {
+.simple-ui-display-block,
+.simple-ui-hover\:display-block:hover,
+.simple-ui-focus\:display-block:focus,
+.simple-ui-active\:display-block:active {
 	display: block;
 }
-.display-inline-block {
+.simple-ui-display-inline-block,
+.simple-ui-hover\:display-inline-block:hover,
+.simple-ui-focus\:display-inline-block:focus,
+.simple-ui-active\:display-inline-block:active {
 	display: inline-block;
 }
-.display-inline {
+.simple-ui-display-inline,
+.simple-ui-hover\:display-inline:hover,
+.simple-ui-focus\:display-inline:focus,
+.simple-ui-active\:display-inline:active {
 	display: inline;
 }
-.display-flex {
+.simple-ui-display-flex,
+.simple-ui-hover\:display-flex:hover,
+.simple-ui-focus\:display-flex:focus,
+.simple-ui-active\:display-flex:active {
 	display: flex;
 }
-.display-inline-flex {
+.simple-ui-display-inline-flex,
+.simple-ui-hover\:display-inline-flex:hover,
+.simple-ui-focus\:display-inline-flex:focus,
+.simple-ui-active\:display-inline-flex:active {
 	display: inline-flex;
 }
-.display-table {
+.simple-ui-display-table,
+.simple-ui-hover\:display-table:hover,
+.simple-ui-focus\:display-table:focus,
+.simple-ui-active\:display-table:active {
 	display: table;
 }
-.display-inline-table {
+.simple-ui-display-inline-table,
+.simple-ui-hover\:display-inline-table:hover,
+.simple-ui-focus\:display-inline-table:focus,
+.simple-ui-active\:display-inline-table:active {
 	display: inline-table;
 }
-.display-table-caption {
+.simple-ui-display-table-caption,
+.simple-ui-hover\:display-table-caption:hover,
+.simple-ui-focus\:display-table-caption:focus,
+.simple-ui-active\:display-table-caption:active {
 	display: table-caption;
 }
-.display-table-cell {
+.simple-ui-display-table-cell,
+.simple-ui-hover\:display-table-cell:hover,
+.simple-ui-focus\:display-table-cell:focus,
+.simple-ui-active\:display-table-cell:active {
 	display: table-cell;
 }
-.display-table-column {
+.simple-ui-display-table-column,
+.simple-ui-hover\:display-table-column:hover,
+.simple-ui-focus\:display-table-column:focus,
+.simple-ui-active\:display-table-column:active {
 	display: table-column;
 }
-.display-table-column-group {
+.simple-ui-display-table-column-group,
+.simple-ui-hover\:display-table-column-group:hover,
+.simple-ui-focus\:display-table-column-group:focus,
+.simple-ui-active\:display-table-column-group:active {
 	display: table-column-group;
 }
-.display-table-footer-group {
+.simple-ui-display-table-footer-group,
+.simple-ui-hover\:display-table-footer-group:hover,
+.simple-ui-focus\:display-table-footer-group:focus,
+.simple-ui-active\:display-table-footer-group:active {
 	display: table-footer-group;
 }
-.display-table-header-group {
+.simple-ui-display-table-header-group,
+.simple-ui-hover\:display-table-header-group:hover,
+.simple-ui-focus\:display-table-header-group:focus,
+.simple-ui-active\:display-table-header-group:active {
 	display: table-header-group;
 }
-.display-table-row-group {
+.simple-ui-display-table-row-group,
+.simple-ui-hover\:display-table-row-group:hover,
+.simple-ui-focus\:display-table-row-group:focus,
+.simple-ui-active\:display-table-row-group:active {
 	display: table-row-group;
 }
-.display-table-row {
+.simple-ui-display-table-row,
+.simple-ui-hover\:display-table-row:hover,
+.simple-ui-focus\:display-table-row:focus,
+.simple-ui-active\:display-table-row:active {
 	display: table-row;
 }
-.display-flow-root {
+.simple-ui-display-flow-root,
+.simple-ui-hover\:display-flow-root:hover,
+.simple-ui-focus\:display-flow-root:focus,
+.simple-ui-active\:display-flow-root:active {
 	display: flow-root;
 }
-.display-grid {
+.simple-ui-display-grid,
+.simple-ui-hover\:display-grid:hover,
+.simple-ui-focus\:display-grid:focus,
+.simple-ui-active\:display-grid:active {
 	display: grid;
 }
-.display-inline-grid {
+.simple-ui-display-inline-grid,
+.simple-ui-hover\:display-inline-grid:hover,
+.simple-ui-focus\:display-inline-grid:focus,
+.simple-ui-active\:display-inline-grid:active {
 	display: inline-grid;
 }
-.display-contents {
+.simple-ui-display-contents,
+.simple-ui-hover\:display-contents:hover,
+.simple-ui-focus\:display-contents:focus,
+.simple-ui-active\:display-contents:active {
 	display: contents;
 }
-.display-list-item {
+.simple-ui-display-list-item,
+.simple-ui-hover\:display-list-item:hover,
+.simple-ui-focus\:display-list-item:focus,
+.simple-ui-active\:display-list-item:active {
 	display: list-item;
 }
-.display-hidden {
+.simple-ui-display-hidden,
+.simple-ui-hover\:display-hidden:hover,
+.simple-ui-focus\:display-hidden:focus,
+.simple-ui-active\:display-hidden:active {
 	display: none;
 }
