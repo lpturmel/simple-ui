@@ -1,11 +1,19 @@
-import { Component, JSX, PropsWithChildren } from "solid-js";
+import { Component, JSX, PropsWithChildren, useContext } from "solid-js";
+import { SimpleContext } from "../../context/SimpleContext";
 import MainProps from "../../props";
-import { mapPropsToCss } from "../../props/Global";
+import { mapPropsToCss, parseDefaultProps } from "../../props/Global";
 
 export interface InputProps
 	extends MainProps<JSX.InputHTMLAttributes<HTMLInputElement>> {}
 export const Input: Component<InputProps> = (props) => {
-	const tw = mapPropsToCss<PropsWithChildren<InputProps>>(props);
+	const [context] = useContext(SimpleContext);
+	const inputDefaultProps = context.theme.Components?.Input;
+
+	const mergedProps = parseDefaultProps<InputProps>(
+		props,
+		inputDefaultProps!
+	);
+	const tw = mapPropsToCss<PropsWithChildren<InputProps>>(mergedProps);
 	return (
 		<input
 			{...props}
