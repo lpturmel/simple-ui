@@ -43,7 +43,7 @@ import "../props/grid/gridRowSpan/index.css";
 import "../props/grid/gridFlow/index.css";
 import "../props/grid/autoColumns/index.css";
 import "../props/grid/autoRows/index.css";
-import { SimpleThemeConfig } from "../theme";
+import { DefaultTheme, SimpleThemeConfig } from "../theme";
 
 interface IProviderStore {
 	portal: Node | null;
@@ -51,14 +51,19 @@ interface IProviderStore {
 }
 const [state, setState] = createStore<IProviderStore>({
 	portal: null,
-	theme: {},
+	theme: DefaultTheme,
 });
 export const SimpleContext = createContext<
 	[Store<IProviderStore>, SetStoreFunction<IProviderStore>]
 >([state, setState]);
 
-interface SimpleProviderProps {}
+interface SimpleProviderProps {
+	theme?: SimpleThemeConfig;
+}
 export const SimpleProvider: Component<SimpleProviderProps> = (props) => {
+	if (props.theme) {
+		setState("theme", () => props.theme);
+	}
 	return (
 		<SimpleContext.Provider value={[state, setState]}>
 			<div>
