@@ -1,32 +1,32 @@
-.minH-0,
-.hover\:minH-0:hover,
-.active\:minH-0:active,
-.focus\:minH-0:focus,
-.minHeight-0,
-.hover\:minHeight-0:hover,
-.active\:minHeight-0:active,
-.focus\:minHeight-0 :focus {
+.simple-ui-minH-0,
+.simple-ui-hover\:minH-0:hover,
+.simple-ui-active\:minH-0:active,
+.simple-ui-focus\:minH-0:focus,
+.simple-ui-minHeight-0,
+.simple-ui-hover\:minHeight-0:hover,
+.simple-ui-active\:minHeight-0:active,
+.simple-ui-focus\:minHeight-0 :focus {
 	height: 0px;
 }
 
-.minH-full,
-.hover\:minH-full:hover,
-.active\:minH-full:active,
-.focus\:minH-full:focus,
-.minHeight-full,
-.hover\:minHeight-full:hover,
-.active\:minHeight-full:active,
-.focus\:minHeight-full :focus {
+.simple-ui-minH-full,
+.simple-ui-hover\:minH-full:hover,
+.simple-ui-active\:minH-full:active,
+.simple-ui-focus\:minH-full:focus,
+.simple-ui-minHeight-full,
+.simple-ui-hover\:minHeight-full:hover,
+.simple-ui-active\:minHeight-full:active,
+.simple-ui-focus\:minHeight-full :focus {
 	height: 100%;
 }
 
-.minH-screen,
-.hover\:minH-screen:hover,
-.active\:minH-screen:active,
-.focus\:minH-screen:focus,
-.minHeight-screen,
-.hover\:minHeight-screen:hover,
-.active\:minHeight-screen:active,
-.focus\:minHeight-screen :focus {
+.simple-ui-minH-screen,
+.simple-ui-hover\:minH-screen:hover,
+.simple-ui-active\:minH-screen:active,
+.simple-ui-focus\:minH-screen:focus,
+.simple-ui-minHeight-screen,
+.simple-ui-hover\:minHeight-screen:hover,
+.simple-ui-active\:minHeight-screen:active,
+.simple-ui-focus\:minHeight-screen :focus {
 	height: 100vh;
 }
