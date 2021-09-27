@@ -1,27 +1,27 @@
-.gridFlow-row,
-.hover\:gridFlow-row:hover,
-.focus\:gridFlow-row:focus,
-.active\:gridFlow-row:active {
+.simple-ui-gridFlow-row,
+.simple-ui-hover\:gridFlow-row:hover,
+.simple-ui-focus\:gridFlow-row:focus,
+.simple-ui-active\:gridFlow-row:active {
 	grid-auto-flow: row;
 }
 
-.gridFlow-col,
-.hover\:gridFlow-col:hover,
-.focus\:gridFlow-col:focus,
-.active\:gridFlow-col:active {
+.simple-ui-gridFlow-col,
+.simple-ui-hover\:gridFlow-col:hover,
+.simple-ui-focus\:gridFlow-col:focus,
+.simple-ui-active\:gridFlow-col:active {
 	grid-auto-flow: column;
 }
 
-.gridFlow-row-dense,
-.hover\:gridFlow-row-dense:hover,
-.focus\:gridFlow-row-dense:focus,
-.active\:gridFlow-row-dense:active {
+.simple-ui-gridFlow-row-dense,
+.simple-ui-hover\:gridFlow-row-dense:hover,
+.simple-ui-focus\:gridFlow-row-dense:focus,
+.simple-ui-active\:gridFlow-row-dense:active {
 	grid-auto-flow: row dense;
 }
 
-.gridFlow-col-dense,
-.hover\:gridFlow-col-dense:hover,
-.focus\:gridFlow-col-dense:focus,
-.active\:gridFlow-col-dense:active {
+.simple-ui-gridFlow-col-dense,
+.simple-ui-hover\:gridFlow-col-dense:hover,
+.simple-ui-focus\:gridFlow-col-dense:focus,
+.simple-ui-active\:gridFlow-col-dense:active {
 	grid-auto-flow: column dense;
 }
