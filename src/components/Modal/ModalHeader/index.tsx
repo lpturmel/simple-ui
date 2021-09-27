@@ -1,28 +1,26 @@
-import { Component, JSX, PropsWithChildren } from "solid-js";
+import { Component, JSX, PropsWithChildren, useContext } from "solid-js";
+import { SimpleContext } from "../../../context/SimpleContext";
 import MainProps from "../../../props";
 import { parseDefaultProps, mapPropsToCss } from "../../../props/Global";
+import { Button } from "../../Button";
+import { ModalOverlayProps } from "../ModalOverlay";
 
 export interface ModalHeaderProps
 	extends MainProps<JSX.HTMLAttributes<HTMLDivElement>> {}
 const ModalHeader: Component<ModalHeaderProps> = (props) => {
-	const defaultProps: PropsWithChildren<ModalHeaderProps> = {
-		display: "flex",
-		flexDirection: "row",
-		justifyContent: "between",
-		height: "screen",
-		width: "full",
-		p: 2,
-	};
+	const [context] = useContext(SimpleContext);
+
+	const modalHeaderDefaultProps = context.theme.Components?.ModalHeader;
+
 	const mergedProps = parseDefaultProps<ModalHeaderProps>(
 		props,
-		defaultProps
+		modalHeaderDefaultProps!
 	);
-
 	const tw = mapPropsToCss<PropsWithChildren<ModalHeaderProps>>(mergedProps);
 	return (
 		<div class={tw}>
 			{props.children}
-			<p>X</p>
+			<button>X</button>
 		</div>
 	);
 };
