@@ -32,6 +32,13 @@ export const DefaultTheme: SimpleThemeConfig = {
 				fontSize: "lg",
 				fontWeight: "semibold",
 				color: "white",
+				bg: "gray.400",
+				_hover: {
+					bg: "gray.500",
+				},
+				_active: {
+					bg: "gray.600",
+				},
 			},
 		},
 		HStack: {
