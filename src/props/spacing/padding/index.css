@@ -352,10 +352,10 @@
 .hover\:px-0,
 .focus\:px-0,
 .active\:px-0,
-.paddingx-0,
-.hover\:paddingx-0,
-.focus\:paddingx-0,
-.active\:paddingx-0 {
+.paddingX-0,
+.hover\:paddingX-0,
+.focus\:paddingX-0,
+.active\:paddingX-0 {
 	padding-left: 0px;
 
 	padding-right: 0px;
@@ -364,10 +364,10 @@
 .hover\:px-px,
 .focus\:px-px,
 .active\:px-px,
-.paddingx-px,
-.hover\:paddingx-px,
-.focus\:paddingx-px,
-.active\:paddingx-px {
+.paddingX-px,
+.hover\:paddingX-px,
+.focus\:paddingX-px,
+.active\:paddingX-px {
 	padding-left: 1px;
 	padding-right: 1px;
 }
@@ -375,10 +375,10 @@
 .hover\:px-0\.5,
 .focus\:px-0\.5,
 .active\:px-0\.5,
-.paddingx-0\.5,
-.hover\:paddingx-0\.5,
-.focus\:paddingx-0\.5,
-.active\:paddingx-0\.5 {
+.paddingX-0\.5,
+.hover\:paddingX-0\.5,
+.focus\:paddingX-0\.5,
+.active\:paddingX-0\.5 {
 	padding-left: 0.125rem;
 	padding-right: 0.125rem;
 }
@@ -386,10 +386,10 @@
 .hover\:px-1,
 .focus\:px-1,
 .active\:px-1,
-.paddingx-1,
-.hover\:paddingx-1,
-.focus\:paddingx-1,
-.active\:paddingx-1 {
+.paddingX-1,
+.hover\:paddingX-1,
+.focus\:paddingX-1,
+.active\:paddingX-1 {
 	padding-left: 0.25rem;
 	padding-right: 0.25rem;
 }
@@ -397,10 +397,10 @@
 .hover\:px-1\.5,
 .focus\:px-1\.5,
 .active\:px-1\.5,
-.paddingx-1\.5,
-.hover\:paddingx-1\.5,
-.focus\:paddingx-1\.5,
-.active\:paddingx-1\.5 {
+.paddingX-1\.5,
+.hover\:paddingX-1\.5,
+.focus\:paddingX-1\.5,
+.active\:paddingX-1\.5 {
 	padding-left: 0.375rem;
 	padding-right: 0.375rem;
 }
@@ -408,10 +408,10 @@
 .hover\:px-2,
 .focus\:px-2,
 .active\:px-2,
-.paddingx-2,
-.hover\:paddingx-2,
-.focus\:paddingx-2,
-.active\:paddingx-2 {
+.paddingX-2,
+.hover\:paddingX-2,
+.focus\:paddingX-2,
+.active\:paddingX-2 {
 	padding-left: 0.5rem;
 	padding-right: 0.5rem;
 }
@@ -419,10 +419,10 @@
 .hover\:px-2\.5,
 .focus\:px-2\.5,
 .active\:px-2\.5,
-.paddingx-2\.5,
-.hover\:paddingx-2\.5,
-.focus\:paddingx-2\.5,
-.active\:paddingx-2\.5 {
+.paddingX-2\.5,
+.hover\:paddingX-2\.5,
+.focus\:paddingX-2\.5,
+.active\:paddingX-2\.5 {
 	padding-left: 0.625rem;
 	padding-right: 0.625rem;
 }
@@ -430,10 +430,10 @@
 .hover\:px-3,
 .focus\:px-3,
 .active\:px-3,
-.paddingx-3,
-.hover\:paddingx-3,
-.focus\:paddingx-3,
-.active\:paddingx-3 {
+.paddingX-3,
+.hover\:paddingX-3,
+.focus\:paddingX-3,
+.active\:paddingX-3 {
 	padding-left: 0.75rem;
 	padding-right: 0.75rem;
 }
@@ -441,10 +441,10 @@
 .hover\:px-3\.5,
 .focus\:px-3\.5,
 .active\:px-3\.5,
-.paddingx-3\.5,
-.hover\:paddingx-3\.5,
-.focus\:paddingx-3\.5,
-.active\:paddingx-3\.5 {
+.paddingX-3\.5,
+.hover\:paddingX-3\.5,
+.focus\:paddingX-3\.5,
+.active\:paddingX-3\.5 {
 	padding-left: 0.875rem;
 	padding-right: 0.875rem;
 }
@@ -452,10 +452,10 @@
 .hover\:px-4,
 .focus\:px-4,
 .active\:px-4,
-.paddingx-4,
-.hover\:paddingx-4,
-.focus\:paddingx-4,
-.active\:paddingx-4 {
+.paddingX-4,
+.hover\:paddingX-4,
+.focus\:paddingX-4,
+.active\:paddingX-4 {
 	padding-left: 1rem;
 	padding-right: 1rem;
 }
@@ -463,10 +463,10 @@
 .hover\:px-5,
 .focus\:px-5,
 .active\:px-5,
-.paddingx-5,
-.hover\:paddingx-5,
-.focus\:paddingx-5,
-.active\:paddingx-5 {
+.paddingX-5,
+.hover\:paddingX-5,
+.focus\:paddingX-5,
+.active\:paddingX-5 {
 	padding-left: 1.25rem;
 	padding-right: 1.25rem;
 }
@@ -474,10 +474,10 @@
 .hover\:px-6,
 .focus\:px-6,
 .active\:px-6,
-.paddingx-6,
-.hover\:paddingx-6,
-.focus\:paddingx-6,
-.active\:paddingx-6 {
+.paddingX-6,
+.hover\:paddingX-6,
+.focus\:paddingX-6,
+.active\:paddingX-6 {
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
 }
@@ -485,10 +485,10 @@
 .hover\:px-7,
 .focus\:px-7,
 .active\:px-7,
-.paddingx-7,
-.hover\:paddingx-7,
-.focus\:paddingx-7,
-.active\:paddingx-7 {
+.paddingX-7,
+.hover\:paddingX-7,
+.focus\:paddingX-7,
+.active\:paddingX-7 {
 	padding-left: 1.75rem;
 	padding-right: 1.75rem;
 }
@@ -496,10 +496,10 @@
 .hover\:px-8,
 .focus\:px-8,
 .active\:px-8,
-.paddingx-8,
-.hover\:paddingx-8,
-.focus\:paddingx-8,
-.active\:paddingx-8 {
+.paddingX-8,
+.hover\:paddingX-8,
+.focus\:paddingX-8,
+.active\:paddingX-8 {
 	padding-left: 2rem;
 	padding-right: 2rem;
 }
@@ -507,10 +507,10 @@
 .hover\:px-9,
 .focus\:px-9,
 .active\:px-9,
-.paddingx-9,
-.hover\:paddingx-9,
-.focus\:paddingx-9,
-.active\:paddingx-9 {
+.paddingX-9,
+.hover\:paddingX-9,
+.focus\:paddingX-9,
+.active\:paddingX-9 {
 	padding-left: 2.25rem;
 	padding-right: 2.25rem;
 }
@@ -518,10 +518,10 @@
 .hover\:px-10,
 .focus\:px-10,
 .active\:px-10,
-.paddingx-10,
-.hover\:paddingx-10,
-.focus\:paddingx-10,
-.active\:paddingx-10 {
+.paddingX-10,
+.hover\:paddingX-10,
+.focus\:paddingX-10,
+.active\:paddingX-10 {
 	padding-left: 2.5rem;
 	padding-right: 2.5rem;
 }
@@ -529,10 +529,10 @@
 .hover\:px-11,
 .focus\:px-11,
 .active\:px-11,
-.paddingx-11,
-.hover\:paddingx-11,
-.focus\:paddingx-11,
-.active\:paddingx-11 {
+.paddingX-11,
+.hover\:paddingX-11,
+.focus\:paddingX-11,
+.active\:paddingX-11 {
 	padding-left: 2.75rem;
 	padding-right: 2.75rem;
 }
@@ -540,10 +540,10 @@
 .hover\:px-12,
 .focus\:px-12,
 .active\:px-12,
-.paddingx-12,
-.hover\:paddingx-12,
-.focus\:paddingx-12,
-.active\:paddingx-12 {
+.paddingX-12,
+.hover\:paddingX-12,
+.focus\:paddingX-12,
+.active\:paddingX-12 {
 	padding-left: 3rem;
 	padding-right: 3rem;
 }
@@ -551,10 +551,10 @@
 .hover\:px-14,
 .focus\:px-14,
 .active\:px-14,
-.paddingx-14,
-.hover\:paddingx-14,
-.focus\:paddingx-14,
-.active\:paddingx-14 {
+.paddingX-14,
+.hover\:paddingX-14,
+.focus\:paddingX-14,
+.active\:paddingX-14 {
 	padding-left: 3.5rem;
 	padding-right: 3.5rem;
 }
@@ -562,10 +562,10 @@
 .hover\:px-16,
 .focus\:px-16,
 .active\:px-16,
-.paddingx-16,
-.hover\:paddingx-16,
-.focus\:paddingx-16,
-.active\:paddingx-16 {
+.paddingX-16,
+.hover\:paddingX-16,
+.focus\:paddingX-16,
+.active\:paddingX-16 {
 	padding-left: 4rem;
 	padding-right: 4rem;
 }
@@ -573,10 +573,10 @@
 .hover\:px-20,
 .focus\:px-20,
 .active\:px-20,
-.paddingx-20,
-.hover\:paddingx-20,
-.focus\:paddingx-20,
-.active\:paddingx-20 {
+.paddingX-20,
+.hover\:paddingX-20,
+.focus\:paddingX-20,
+.active\:paddingX-20 {
 	padding-left: 5rem;
 	padding-right: 5rem;
 }
@@ -584,10 +584,10 @@
 .hover\:px-24,
 .focus\:px-24,
 .active\:px-24,
-.paddingx-24,
-.hover\:paddingx-24,
-.focus\:paddingx-24,
-.active\:paddingx-24 {
+.paddingX-24,
+.hover\:paddingX-24,
+.focus\:paddingX-24,
+.active\:paddingX-24 {
 	padding-left: 6rem;
 	padding-right: 6rem;
 }
@@ -595,10 +595,10 @@
 .hover\:px-28,
 .focus\:px-28,
 .active\:px-28,
-.paddingx-28,
-.hover\:paddingx-28,
-.focus\:paddingx-28,
-.active\:paddingx-28 {
+.paddingX-28,
+.hover\:paddingX-28,
+.focus\:paddingX-28,
+.active\:paddingX-28 {
 	padding-left: 7rem;
 	padding-right: 7rem;
 }
@@ -606,10 +606,10 @@
 .hover\:px-32,
 .focus\:px-32,
 .active\:px-32,
-.paddingx-32,
-.hover\:paddingx-32,
-.focus\:paddingx-32,
-.active\:paddingx-32 {
+.paddingX-32,
+.hover\:paddingX-32,
+.focus\:paddingX-32,
+.active\:paddingX-32 {
 	padding-left: 8rem;
 	padding-right: 8rem;
 }
@@ -617,10 +617,10 @@
 .hover\:px-36,
 .focus\:px-36,
 .active\:px-36,
-.paddingx-36,
-.hover\:paddingx-36,
-.focus\:paddingx-36,
-.active\:paddingx-36 {
+.paddingX-36,
+.hover\:paddingX-36,
+.focus\:paddingX-36,
+.active\:paddingX-36 {
 	padding-left: 9rem;
 	padding-right: 9rem;
 }
@@ -628,10 +628,10 @@
 .hover\:px-40,
 .focus\:px-40,
 .active\:px-40,
-.paddingx-40,
-.hover\:paddingx-40,
-.focus\:paddingx-40,
-.active\:paddingx-40 {
+.paddingX-40,
+.hover\:paddingX-40,
+.focus\:paddingX-40,
+.active\:paddingX-40 {
 	padding-left: 10rem;
 	padding-right: 10rem;
 }
@@ -639,10 +639,10 @@
 .hover\:px-44,
 .focus\:px-44,
 .active\:px-44,
-.paddingx-44,
-.hover\:paddingx-44,
-.focus\:paddingx-44,
-.active\:paddingx-44 {
+.paddingX-44,
+.hover\:paddingX-44,
+.focus\:paddingX-44,
+.active\:paddingX-44 {
 	padding-left: 11rem;
 	padding-right: 11rem;
 }
@@ -650,10 +650,10 @@
 .hover\:px-48,
 .focus\:px-48,
 .active\:px-48,
-.paddingx-48,
-.hover\:paddingx-48,
-.focus\:paddingx-48,
-.active\:paddingx-48 {
+.paddingX-48,
+.hover\:paddingX-48,
+.focus\:paddingX-48,
+.active\:paddingX-48 {
 	padding-left: 12rem;
 	padding-right: 12rem;
 }
@@ -661,10 +661,10 @@
 .hover\:px-52,
 .focus\:px-52,
 .active\:px-52,
-.paddingx-52,
-.hover\:paddingx-52,
-.focus\:paddingx-52,
-.active\:paddingx-52 {
+.paddingX-52,
+.hover\:paddingX-52,
+.focus\:paddingX-52,
+.active\:paddingX-52 {
 	padding-left: 13rem;
 	padding-right: 13rem;
 }
@@ -672,10 +672,10 @@
 .hover\:px-56,
 .focus\:px-56,
 .active\:px-56,
-.paddingx-56,
-.hover\:paddingx-56,
-.focus\:paddingx-56,
-.active\:paddingx-56 {
+.paddingX-56,
+.hover\:paddingX-56,
+.focus\:paddingX-56,
+.active\:paddingX-56 {
 	padding-left: 14rem;
 	padding-right: 14rem;
 }
@@ -683,10 +683,10 @@
 .hover\:px-60,
 .focus\:px-60,
 .active\:px-60,
-.paddingx-60,
-.hover\:paddingx-60,
-.focus\:paddingx-60,
-.active\:paddingx-60 {
+.paddingX-60,
+.hover\:paddingX-60,
+.focus\:paddingX-60,
+.active\:paddingX-60 {
 	padding-left: 15rem;
 	padding-right: 15rem;
 }
@@ -694,10 +694,10 @@
 .hover\:px-64,
 .focus\:px-64,
 .active\:px-64,
-.paddingx-64,
-.hover\:paddingx-64,
-.focus\:paddingx-64,
-.active\:paddingx-64 {
+.paddingX-64,
+.hover\:paddingX-64,
+.focus\:paddingX-64,
+.active\:paddingX-64 {
 	padding-left: 16rem;
 	padding-right: 16rem;
 }
@@ -705,10 +705,10 @@
 .hover\:px-72,
 .focus\:px-72,
 .active\:px-72,
-.paddingx-72,
-.hover\:paddingx-72,
-.focus\:paddingx-72,
-.active\:paddingx-72 {
+.paddingX-72,
+.hover\:paddingX-72,
+.focus\:paddingX-72,
+.active\:paddingX-72 {
 	padding-left: 18rem;
 	padding-right: 18rem;
 }
@@ -716,10 +716,10 @@
 .hover\:px-80,
 .focus\:px-80,
 .active\:px-80,
-.paddingx-80,
-.hover\:paddingx-80,
-.focus\:paddingx-80,
-.active\:paddingx-80 {
+.paddingX-80,
+.hover\:paddingX-80,
+.focus\:paddingX-80,
+.active\:paddingX-80 {
 	padding-left: 20rem;
 	padding-right: 20rem;
 }
@@ -727,10 +727,10 @@
 .hover\:px-96,
 .focus\:px-96,
 .active\:px-96,
-.paddingx-96,
-.hover\:paddingx-96,
-.focus\:paddingx-96,
-.active\:paddingx-96 {
+.paddingX-96,
+.hover\:paddingX-96,
+.focus\:paddingX-96,
+.active\:paddingX-96 {
 	padding-left: 24rem;
 	padding-right: 24rem;
 }
@@ -738,10 +738,10 @@
 .hover\:py-0,
 .focus\:py-0,
 .active\:py-0,
-.paddingy-0,
-.hover\:paddingy-0,
-.focus\:paddingy-0,
-.active\:paddingy-0 {
+.paddingY-0,
+.hover\:paddingY-0,
+.focus\:paddingY-0,
+.active\:paddingY-0 {
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
@@ -749,10 +749,10 @@
 .hover\:py-px,
 .focus\:py-px,
 .active\:py-px,
-.paddingy-px,
-.hover\:paddingy-px,
-.focus\:paddingy-px,
-.active\:paddingy-px {
+.paddingY-px,
+.hover\:paddingY-px,
+.focus\:paddingY-px,
+.active\:paddingY-px {
 	padding-top: 1px;
 	padding-bottom: 1px;
 }
@@ -760,10 +760,10 @@
 .hover\:py-0\.5,
 .focus\:py-0\.5,
 .active\:py-0\.5,
-.paddingy-0\.5,
-.hover\:paddingy-0\.5,
-.focus\:paddingy-0\.5,
-.active\:paddingy-0\.5 {
+.paddingY-0\.5,
+.hover\:paddingY-0\.5,
+.focus\:paddingY-0\.5,
+.active\:paddingY-0\.5 {
 	padding-top: 0.125rem;
 	padding-bottom: 0.125rem;
 }
@@ -771,10 +771,10 @@
 .hover\:py-1,
 .focus\:py-1,
 .active\:py-1,
-.paddingy-1,
-.hover\:paddingy-1,
-.focus\:paddingy-1,
-.active\:paddingy-1 {
+.paddingY-1,
+.hover\:paddingY-1,
+.focus\:paddingY-1,
+.active\:paddingY-1 {
 	padding-top: 0.25rem;
 	padding-bottom: 0.25rem;
 }
@@ -782,10 +782,10 @@
 .hover\:py-1\.5,
 .focus\:py-1\.5,
 .active\:py-1\.5,
-.paddingy-1\.5,
-.hover\:paddingy-1\.5,
-.focus\:paddingy-1\.5,
-.active\:paddingy-1\.5 {
+.paddingY-1\.5,
+.hover\:paddingY-1\.5,
+.focus\:paddingY-1\.5,
+.active\:paddingY-1\.5 {
 	padding-top: 0.375rem;
 	padding-bottom: 0.375rem;
 }
@@ -793,10 +793,10 @@
 .hover\:py-2,
 .focus\:py-2,
 .active\:py-2,
-.paddingy-2,
-.hover\:paddingy-2,
-.focus\:paddingy-2,
-.active\:paddingy-2 {
+.paddingY-2,
+.hover\:paddingY-2,
+.focus\:paddingY-2,
+.active\:paddingY-2 {
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
 }
@@ -804,10 +804,10 @@
 .hover\:py-2\.5,
 .focus\:py-2\.5,
 .active\:py-2\.5,
-.paddingy-2\.5,
-.hover\:paddingy-2\.5,
-.focus\:paddingy-2\.5,
-.active\:paddingy-2\.5 {
+.paddingY-2\.5,
+.hover\:paddingY-2\.5,
+.focus\:paddingY-2\.5,
+.active\:paddingY-2\.5 {
 	padding-top: 0.625rem;
 	padding-bottom: 0.625rem;
 }
@@ -815,10 +815,10 @@
 .hover\:py-3,
 .focus\:py-3,
 .active\:py-3,
-.paddingy-3,
-.hover\:paddingy-3,
-.focus\:paddingy-3,
-.active\:paddingy-3 {
+.paddingY-3,
+.hover\:paddingY-3,
+.focus\:paddingY-3,
+.active\:paddingY-3 {
 	padding-top: 0.75rem;
 	padding-bottom: 0.75rem;
 }
@@ -826,10 +826,10 @@
 .hover\:py-3\.5,
 .focus\:py-3\.5,
 .active\:py-3\.5,
-.paddingy-3\.5,
-.hover\:paddingy-3\.5,
-.focus\:paddingy-3\.5,
-.active\:paddingy-3\.5 {
+.paddingY-3\.5,
+.hover\:paddingY-3\.5,
+.focus\:paddingY-3\.5,
+.active\:paddingY-3\.5 {
 	padding-top: 0.875rem;
 	padding-bottom: 0.875rem;
 }
@@ -837,10 +837,10 @@
 .hover\:py-4,
 .focus\:py-4,
 .active\:py-4,
-.paddingy-4,
-.hover\:paddingy-4,
-.focus\:paddingy-4,
-.active\:paddingy-4 {
+.paddingY-4,
+.hover\:paddingY-4,
+.focus\:paddingY-4,
+.active\:paddingY-4 {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 }
@@ -848,10 +848,10 @@
 .hover\:py-5,
 .focus\:py-5,
 .active\:py-5,
-.paddingy-5,
-.hover\:paddingy-5,
-.focus\:paddingy-5,
-.active\:paddingy-5 {
+.paddingY-5,
+.hover\:paddingY-5,
+.focus\:paddingY-5,
+.active\:paddingY-5 {
 	padding-top: 1.25rem;
 	padding-bottom: 1.25rem;
 }
@@ -859,10 +859,10 @@
 .hover\:py-6,
 .focus\:py-6,
 .active\:py-6,
-.paddingy-6,
-.hover\:paddingy-6,
-.focus\:paddingy-6,
-.active\:paddingy-6 {
+.paddingY-6,
+.hover\:paddingY-6,
+.focus\:paddingY-6,
+.active\:paddingY-6 {
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
 }
@@ -870,10 +870,10 @@
 .hover\:py-7,
 .focus\:py-7,
 .active\:py-7,
-.paddingy-7,
-.hover\:paddingy-7,
-.focus\:paddingy-7,
-.active\:paddingy-7 {
+.paddingY-7,
+.hover\:paddingY-7,
+.focus\:paddingY-7,
+.active\:paddingY-7 {
 	padding-top: 1.75rem;
 	padding-bottom: 1.75rem;
 }
@@ -881,10 +881,10 @@
 .hover\:py-8,
 .focus\:py-8,
 .active\:py-8,
-.paddingy-8,
-.hover\:paddingy-8,
-.focus\:paddingy-8,
-.active\:paddingy-8 {
+.paddingY-8,
+.hover\:paddingY-8,
+.focus\:paddingY-8,
+.active\:paddingY-8 {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
@@ -892,10 +892,10 @@
 .hover\:py-9,
 .focus\:py-9,
 .active\:py-9,
-.paddingy-9,
-.hover\:paddingy-9,
-.focus\:paddingy-9,
-.active\:paddingy-9 {
+.paddingY-9,
+.hover\:paddingY-9,
+.focus\:paddingY-9,
+.active\:paddingY-9 {
 	padding-top: 2.25rem;
 	padding-bottom: 2.25rem;
 }
@@ -903,10 +903,10 @@
 .hover\:py-10,
 .focus\:py-10,
 .active\:py-10,
-.paddingy-10,
-.hover\:paddingy-10,
-.focus\:paddingy-10,
-.active\:paddingy-10 {
+.paddingY-10,
+.hover\:paddingY-10,
+.focus\:paddingY-10,
+.active\:paddingY-10 {
 	padding-top: 2.5rem;
 	padding-bottom: 2.5rem;
 }
@@ -914,10 +914,10 @@
 .hover\:py-11,
 .focus\:py-11,
 .active\:py-11,
-.paddingy-11,
-.hover\:paddingy-11,
-.focus\:paddingy-11,
-.active\:paddingy-11 {
+.paddingY-11,
+.hover\:paddingY-11,
+.focus\:paddingY-11,
+.active\:paddingY-11 {
 	padding-top: 2.75rem;
 	padding-bottom: 2.75rem;
 }
@@ -925,10 +925,10 @@
 .hover\:py-12,
 .focus\:py-12,
 .active\:py-12,
-.paddingy-12,
-.hover\:paddingy-12,
-.focus\:paddingy-12,
-.active\:paddingy-12 {
+.paddingY-12,
+.hover\:paddingY-12,
+.focus\:paddingY-12,
+.active\:paddingY-12 {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
@@ -936,10 +936,10 @@
 .hover\:py-14,
 .focus\:py-14,
 .active\:py-14,
-.paddingy-14,
-.hover\:paddingy-14,
-.focus\:paddingy-14,
-.active\:paddingy-14 {
+.paddingY-14,
+.hover\:paddingY-14,
+.focus\:paddingY-14,
+.active\:paddingY-14 {
 	padding-top: 3.5rem;
 	padding-bottom: 3.5rem;
 }
@@ -947,10 +947,10 @@
 .hover\:py-16,
 .focus\:py-16,
 .active\:py-16,
-.paddingy-16,
-.hover\:paddingy-16,
-.focus\:paddingy-16,
-.active\:paddingy-16 {
+.paddingY-16,
+.hover\:paddingY-16,
+.focus\:paddingY-16,
+.active\:paddingY-16 {
 	padding-top: 4rem;
 	padding-bottom: 4rem;
 }
@@ -958,10 +958,10 @@
 .hover\:py-20,
 .focus\:py-20,
 .active\:py-20,
-.paddingy-20,
-.hover\:paddingy-20,
-.focus\:paddingy-20,
-.active\:paddingy-20 {
+.paddingY-20,
+.hover\:paddingY-20,
+.focus\:paddingY-20,
+.active\:paddingY-20 {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 }
@@ -969,10 +969,10 @@
 .hover\:py-24,
 .focus\:py-24,
 .active\:py-24,
-.paddingy-24,
-.hover\:paddingy-24,
-.focus\:paddingy-24,
-.active\:paddingy-24 {
+.paddingY-24,
+.hover\:paddingY-24,
+.focus\:paddingY-24,
+.active\:paddingY-24 {
 	padding-top: 6rem;
 	padding-bottom: 6rem;
 }
@@ -980,10 +980,10 @@
 .hover\:py-28,
 .focus\:py-28,
 .active\:py-28,
-.paddingy-28,
-.hover\:paddingy-28,
-.focus\:paddingy-28,
-.active\:paddingy-28 {
+.paddingY-28,
+.hover\:paddingY-28,
+.focus\:paddingY-28,
+.active\:paddingY-28 {
 	padding-top: 7rem;
 	padding-bottom: 7rem;
 }
@@ -991,10 +991,10 @@
 .hover\:py-32,
 .focus\:py-32,
 .active\:py-32,
-.paddingy-32,
-.hover\:paddingy-32,
-.focus\:paddingy-32,
-.active\:paddingy-32 {
+.paddingY-32,
+.hover\:paddingY-32,
+.focus\:paddingY-32,
+.active\:paddingY-32 {
 	padding-top: 8rem;
 	padding-bottom: 8rem;
 }
@@ -1002,10 +1002,10 @@
 .hover\:py-36,
 .focus\:py-36,
 .active\:py-36,
-.paddingy-36,
-.hover\:paddingy-36,
-.focus\:paddingy-36,
-.active\:paddingy-36 {
+.paddingY-36,
+.hover\:paddingY-36,
+.focus\:paddingY-36,
+.active\:paddingY-36 {
 	padding-top: 9rem;
 	padding-bottom: 9rem;
 }
@@ -1013,10 +1013,10 @@
 .hover\:py-40,
 .focus\:py-40,
 .active\:py-40,
-.paddingy-40,
-.hover\:paddingy-40,
-.focus\:paddingy-40,
-.active\:paddingy-40 {
+.paddingY-40,
+.hover\:paddingY-40,
+.focus\:paddingY-40,
+.active\:paddingY-40 {
 	padding-top: 10rem;
 	padding-bottom: 10rem;
 }
@@ -1024,10 +1024,10 @@
 .hover\:py-44,
 .focus\:py-44,
 .active\:py-44,
-.paddingy-44,
-.hover\:paddingy-44,
-.focus\:paddingy-44,
-.active\:paddingy-44 {
+.paddingY-44,
+.hover\:paddingY-44,
+.focus\:paddingY-44,
+.active\:paddingY-44 {
 	padding-top: 11rem;
 	padding-bottom: 11rem;
 }
@@ -1035,10 +1035,10 @@
 .hover\:py-48,
 .focus\:py-48,
 .active\:py-48,
-.paddingy-48,
-.hover\:paddingy-48,
-.focus\:paddingy-48,
-.active\:paddingy-48 {
+.paddingY-48,
+.hover\:paddingY-48,
+.focus\:paddingY-48,
+.active\:paddingY-48 {
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
@@ -1046,10 +1046,10 @@
 .hover\:py-52,
 .focus\:py-52,
 .active\:py-52,
-.paddingy-52,
-.hover\:paddingy-52,
-.focus\:paddingy-52,
-.active\:paddingy-52 {
+.paddingY-52,
+.hover\:paddingY-52,
+.focus\:paddingY-52,
+.active\:paddingY-52 {
 	padding-top: 13rem;
 	padding-bottom: 13rem;
 }
@@ -1057,10 +1057,10 @@
 .hover\:py-56,
 .focus\:py-56,
 .active\:py-56,
-.paddingy-56,
-.hover\:paddingy-56,
-.focus\:paddingy-56,
-.active\:paddingy-56 {
+.paddingY-56,
+.hover\:paddingY-56,
+.focus\:paddingY-56,
+.active\:paddingY-56 {
 	padding-top: 14rem;
 	padding-bottom: 14rem;
 }
@@ -1068,10 +1068,10 @@
 .hover\:py-60,
 .focus\:py-60,
 .active\:py-60,
-.paddingy-60,
-.hover\:paddingy-60,
-.focus\:paddingy-60,
-.active\:paddingy-60 {
+.paddingY-60,
+.hover\:paddingY-60,
+.focus\:paddingY-60,
+.active\:paddingY-60 {
 	padding-top: 15rem;
 	padding-bottom: 15rem;
 }
@@ -1079,10 +1079,10 @@
 .hover\:py-64,
 .focus\:py-64,
 .active\:py-64,
-.paddingy-64,
-.hover\:paddingy-64,
-.focus\:paddingy-64,
-.active\:paddingy-64 {
+.paddingY-64,
+.hover\:paddingY-64,
+.focus\:paddingY-64,
+.active\:paddingY-64 {
 	padding-top: 16rem;
 	padding-bottom: 16rem;
 }
@@ -1090,10 +1090,10 @@
 .hover\:py-72,
 .focus\:py-72,
 .active\:py-72,
-.paddingy-72,
-.hover\:paddingy-72,
-.focus\:paddingy-72,
-.active\:paddingy-72 {
+.paddingY-72,
+.hover\:paddingY-72,
+.focus\:paddingY-72,
+.active\:paddingY-72 {
 	padding-top: 18rem;
 	padding-bottom: 18rem;
 }
@@ -1101,10 +1101,10 @@
 .hover\:py-80,
 .focus\:py-80,
 .active\:py-80,
-.paddingy-80,
-.hover\:paddingy-80,
-.focus\:paddingy-80,
-.active\:paddingy-80 {
+.paddingY-80,
+.hover\:paddingY-80,
+.focus\:paddingY-80,
+.active\:paddingY-80 {
 	padding-top: 20rem;
 	padding-bottom: 20rem;
 }
@@ -1112,10 +1112,10 @@
 .hover\:py-96,
 .focus\:py-96,
 .active\:py-96,
-.paddingy-96,
-.hover\:paddingy-96,
-.focus\:paddingy-96,
-.active\:paddingy-96 {
+.paddingY-96,
+.hover\:paddingY-96,
+.focus\:paddingY-96,
+.active\:paddingY-96 {
 	padding-top: 24rem;
 	padding-bottom: 24rem;
 }
