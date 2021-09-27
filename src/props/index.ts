@@ -38,6 +38,8 @@ import { AbsolutePositionProps } from "./layout/absolutePosition";
 import { ZindexProps } from "./layout/zIndex";
 import { MinWidthProps } from "./sizing/minWidth";
 import { MaxWidthProps } from "./sizing/maxWidth";
+import { MinHeightProps } from "./sizing/minHeight/minHeight";
+import { MaxHeightProps } from "./sizing/maxHeight/maxHeight";
 
 type MainProps<T = {}> = PaddingProps &
 	MarginProps &
@@ -49,6 +51,8 @@ type MainProps<T = {}> = PaddingProps &
 	MinWidthProps &
 	MaxWidthProps &
 	HeightProps &
+	MinHeightProps &
+	MaxHeightProps &
 	BorderRadiusProps &
 	SpacingProps &
 	DisplayProps &
