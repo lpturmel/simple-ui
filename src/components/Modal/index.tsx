@@ -20,25 +20,14 @@ export interface ModalProps
 	controls: ICreateControls;
 }
 export const Modal: Component<ModalProps> = (props) => {
-	const [state] = useContext(SimpleContext);
+	const [context] = useContext(SimpleContext);
 
-	const defaultProps: PropsWithChildren<ModalProps> = {
-		isOpen: props.isOpen,
-		controls: props.controls,
-		display: "flex",
-		flexDirection: "col",
-		overflow: "auto",
-		justifyContent: "center",
-		alignItems: "center",
-		position: "fixed",
-		height: "screen",
-		width: "screen",
-		top: 0,
-		left: 0,
-		zIndex: 50,
-	};
-	const mergedProps = parseDefaultProps<ModalProps>(props, defaultProps);
+	const modalDefaultProps = context.theme.Components?.Modal;
 
+	const mergedProps = parseDefaultProps<ModalProps>(
+		props,
+		modalDefaultProps!
+	);
 	const tw = mapPropsToCss<PropsWithChildren<ModalProps>>(mergedProps);
 
 	document.addEventListener("keydown", (e) => {
@@ -49,7 +38,7 @@ export const Modal: Component<ModalProps> = (props) => {
 	return (
 		<>
 			{props.isOpen() && (
-				<Portal mount={state.portal!}>
+				<Portal mount={context.portal!}>
 					{" "}
 					<div class={tw}>{props.children}</div>
 				</Portal>
