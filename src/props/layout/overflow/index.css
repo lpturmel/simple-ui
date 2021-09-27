@@ -1,72 +1,72 @@
-.overflow-auto,
-.hover\:overflow-auto:hover,
-.active\:overflow-auto:active,
-.focus\:overflow-auto:focus {
+.simple-ui-overflow-auto,
+.simple-ui-hover\:overflow-auto:hover,
+.simple-ui-active\:overflow-auto:active,
+.simple-ui-focus\:overflow-auto:focus {
 	overflow: auto;
 }
-.overflow-hidden,
-.hover\:overflow-hidden:hover,
-.active\:overflow-hidden:active,
-.focus\:overflow-hidden:focus {
+.simple-ui-overflow-hidden,
+.simple-ui-hover\:overflow-hidden:hover,
+.simple-ui-active\:overflow-hidden:active,
+.simple-ui-focus\:overflow-hidden:focus {
 	overflow: hidden;
 }
-.overflow-visible,
-.hover\:overflow-visible:hover,
-.active\:overflow-visible:active,
-.focus\:overflow-visible:focus {
+.simple-ui-overflow-visible,
+.simple-ui-hover\:overflow-visible:hover,
+.simple-ui-active\:overflow-visible:active,
+.simple-ui-focus\:overflow-visible:focus {
 	overflow: visible;
 }
-.overflow-scroll,
-.hover\:overflow-scroll:hover,
-.active\:overflow-scroll:active,
-.focus\:overflow-scroll:focus {
+.simple-ui-overflow-scroll,
+.simple-ui-hover\:overflow-scroll:hover,
+.simple-ui-active\:overflow-scroll:active,
+.simple-ui-focus\:overflow-scroll:focus {
 	overflow: scroll;
 }
-.overflowX-auto,
-.hover\:overflowX-auto:hover,
-.active\:overflowX-auto:active,
-.focus\:overflowX-auto:focus {
+.simple-ui-overflowX-auto,
+.simple-ui-hover\:overflowX-auto:hover,
+.simple-ui-active\:overflowX-auto:active,
+.simple-ui-focus\:overflowX-auto:focus {
 	overflow-x: auto;
 }
-.overflowY-auto,
-.hover\:overflowY-auto:hover,
-.active\:overflowY-auto:active,
-.focus\:overflowY-auto:focus {
+.simple-ui-overflowY-auto,
+.simple-ui-hover\:overflowY-auto:hover,
+.simple-ui-active\:overflowY-auto:active,
+.simple-ui-focus\:overflowY-auto:focus {
 	overflow-y: auto;
 }
-.overflowX-hidden,
-.hover\:overflowX-hidden:hover,
-.active\:overflowX-hidden:active,
-.focus\:overflowX-hidden:focus {
+.simple-ui-overflowX-hidden,
+.simple-ui-hover\:overflowX-hidden:hover,
+.simple-ui-active\:overflowX-hidden:active,
+.simple-ui-focus\:overflowX-hidden:focus {
 	overflow-x: hidden;
 }
-.overflowY-hidden,
-.hover\:overflowY-hidden:hover,
-.active\:overflowY-hidden:active,
-.focus\:overflowY-hidden:focus {
+.simple-ui-overflowY-hidden,
+.simple-ui-hover\:overflowY-hidden:hover,
+.simple-ui-active\:overflowY-hidden:active,
+.simple-ui-focus\:overflowY-hidden:focus {
 	overflow-y: hidden;
 }
-.overflowX-visible,
-.hover\:overflowX-visible:hover,
-.active\:overflowX-visible:active,
-.focus\:overflowX-visible:focus {
+.simple-ui-overflowX-visible,
+.simple-ui-hover\:overflowX-visible:hover,
+.simple-ui-active\:overflowX-visible:active,
+.simple-ui-focus\:overflowX-visible:focus {
 	overflow-x: visible;
 }
-.overflowY-visible,
-.hover\:overflowY-visible:hover,
-.active\:overflowY-visible:active,
-.focus\:overflowY-visible:focus {
+.simple-ui-overflowY-visible,
+.simple-ui-hover\:overflowY-visible:hover,
+.simple-ui-active\:overflowY-visible:active,
+.simple-ui-focus\:overflowY-visible:focus {
 	overflow-y: visible;
 }
-.overflowX-scroll,
-.hover\:overflowX-scroll:hover,
-.active\:overflowX-scroll:active,
-.focus\:overflowX-scroll:focus {
+.simple-ui-overflowX-scroll,
+.simple-ui-hover\:overflowX-scroll:hover,
+.simple-ui-active\:overflowX-scroll:active,
+.simple-ui-focus\:overflowX-scroll:focus {
 	overflow-x: scroll;
 }
-.overflowY-scroll,
-.hover\:overflowY-scroll:hover,
-.active\:overflowY-scroll:active,
-.focus\:overflowY-scroll:focus {
+.simple-ui-overflowY-scroll,
+.simple-ui-hover\:overflowY-scroll:hover,
+.simple-ui-active\:overflowY-scroll:active,
+.simple-ui-focus\:overflowY-scroll:focus {
 	overflow-y: scroll;
 }
