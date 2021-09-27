@@ -7,12 +7,12 @@ import { parseStateProps } from "./states";
  * @param props
  * @returns
  */
-export function mapPropsToCss<T>(props: T) {
+export function mapPropsToCss<ComponentProps>(props: ComponentProps) {
 	// This type annotation is to have the proper types returned from Object.keys(x)
 	// By design it returns a string[]
 	let classString = "";
 
-	(Object.keys(props) as Array<keyof T>).forEach((prop) => {
+	(Object.keys(props) as Array<keyof ComponentProps>).forEach((prop) => {
 		if (typeof props[prop] === "object") {
 			const stateProps = mapPropsToCss(props[prop]);
 
@@ -22,13 +22,12 @@ export function mapPropsToCss<T>(props: T) {
 			);
 		} else {
 			if (!reservedProps.includes(prop.toString())) {
-				classString += `simple-ui-${prop}-${props[prop]} `.replace(
-					".",
-					"-"
-				);
+				classString += `${prop}-${props[prop]} `.replace(".", "-");
 			}
 		}
 	});
+
+	console.log("simple-ui-" + classString);
 	return classString;
 }
 /**
