@@ -27,7 +27,6 @@ export function mapPropsToCss<ComponentProps>(props: ComponentProps) {
 		}
 	});
 
-	console.log("simple-ui-" + classString);
 	return classString;
 }
 /**
@@ -36,15 +35,15 @@ export function mapPropsToCss<ComponentProps>(props: ComponentProps) {
  * @param defaultProps
  * @returns
  */
-export function parseDefaultProps<T>(
-	props: PropsWithChildren<T>,
+export function parseDefaultProps<ComponentProps>(
+	props: PropsWithChildren<ComponentProps>,
 	defaultProps: MainProps
 ) {
 	const parsedProps: MainProps = { ...defaultProps };
 
-	(Object.keys(props) as Array<keyof PropsWithChildren<T>>).forEach(
-		(prop) => ((parsedProps as any)[prop] = props[prop])
-	);
+	(Object.keys(props) as Array<
+		keyof PropsWithChildren<ComponentProps>
+	>).forEach((prop) => ((parsedProps as any)[prop] = props[prop]));
 
 	return parsedProps;
 }
