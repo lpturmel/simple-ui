@@ -1,40 +1,40 @@
-.minW-0,
-.hover\:minW-0:hover,
-.focus\:minW-0:focus,
-.active\:minW-0:active,
-.minWidth-0,
-.hover\:minWidth-0:hover,
-.focus\:minWidth-0:focus,
-.active\:minWidth-0:active {
+.simple-ui-minW-0,
+.simple-ui-hover\:minW-0:hover,
+.simple-ui-focus\:minW-0:focus,
+.simple-ui-active\:minW-0:active,
+.simple-ui-minWidth-0,
+.simple-ui-hover\:minWidth-0:hover,
+.simple-ui-focus\:minWidth-0:focus,
+.simple-ui-active\:minWidth-0:active {
 	min-width: 0px;
 }
-.minW-full,
-.hover\:minW-full:hover,
-.focus\:minW-full:focus,
-.active\:minW-full:active,
-.minWidth-full,
-.hover\:minWidth-full:hover,
-.focus\:minWidth-full:focus,
-.active\:minWidth-full:active {
+.simple-ui-minW-full,
+.simple-ui-hover\:minW-full:hover,
+.simple-ui-focus\:minW-full:focus,
+.simple-ui-active\:minW-full:active,
+.simple-ui-minWidth-full,
+.simple-ui-hover\:minWidth-full:hover,
+.simple-ui-focus\:minWidth-full:focus,
+.simple-ui-active\:minWidth-full:active {
 	min-width: 100%;
 }
-.minW-min,
-.hover\:minW-min:hover,
-.focus\:minW-min:focus,
-.active\:minW-min:active,
-.minWidth-min,
-.hover\:minWidth-min:hover,
-.focus\:minWidth-min:focus,
-.active\:minWidth-min:active {
+.simple-ui-minW-min,
+.simple-ui-hover\:minW-min:hover,
+.simple-ui-focus\:minW-min:focus,
+.simple-ui-active\:minW-min:active,
+.simple-ui-minWidth-min,
+.simple-ui-hover\:minWidth-min:hover,
+.simple-ui-focus\:minWidth-min:focus,
+.simple-ui-active\:minWidth-min:active {
 	min-width: min-content;
 }
-.minW-max,
-.hover\:minW-max:hover,
-.focus\:minW-max:focus,
-.active\:minW-max:active,
-.minWidth-max,
-.hover\:minWidth-max:hover,
-.focus\:minWidth-max:focus,
-.active\:minWidth-max:active {
+.simple-ui-minW-max,
+.simple-ui-hover\:minW-max:hover,
+.simple-ui-focus\:minW-max:focus,
+.simple-ui-active\:minW-max:active,
+.simple-ui-minWidth-max,
+.simple-ui-hover\:minWidth-max:hover,
+.simple-ui-focus\:minWidth-max:focus,
+.simple-ui-active\:minWidth-max:active {
 	min-width: max-content;
 }
