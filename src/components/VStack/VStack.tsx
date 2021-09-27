@@ -7,7 +7,7 @@ export interface VStackProps
 	extends MainProps<JSX.HTMLAttributes<HTMLDivElement>> {}
 export const VStack: Component<VStackProps> = (props) => {
 	const [context] = useContext(SimpleContext);
-	const VStackDefaultProps = context.theme.Components?.VStack;
+	const VStackDefaultProps = context.theme.Components?.VStack?.defaultProps;
 
 	const mergedProps = parseDefaultProps<VStackProps>(
 		props,

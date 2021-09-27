@@ -8,7 +8,8 @@ export interface ModalContentProps
 const ModalContent: Component<ModalContentProps> = (props) => {
 	const [context] = useContext(SimpleContext);
 
-	const modalContentDefaultProps = context.theme.Components?.ModalContent;
+	const modalContentDefaultProps =
+		context.theme.Components?.ModalContent?.defaultProps;
 
 	const mergedProps = parseDefaultProps<ModalContentProps>(
 		props,

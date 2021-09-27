@@ -8,7 +8,8 @@ export interface ModalBodyProps
 const ModalBody: Component<ModalBodyProps> = (props) => {
 	const [context] = useContext(SimpleContext);
 
-	const modalBodyDefaultProps = context.theme.Components?.ModalBody;
+	const modalBodyDefaultProps =
+		context.theme.Components?.ModalBody?.defaultProps;
 
 	const mergedProps = parseDefaultProps<ModalBodyProps>(
 		props,

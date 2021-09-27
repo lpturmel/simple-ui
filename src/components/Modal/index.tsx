@@ -22,7 +22,7 @@ export interface ModalProps
 export const Modal: Component<ModalProps> = (props) => {
 	const [context] = useContext(SimpleContext);
 
-	const modalDefaultProps = context.theme.Components?.Modal;
+	const modalDefaultProps = context.theme.Components?.Modal?.defaultProps;
 
 	const mergedProps = parseDefaultProps<ModalProps>(
 		props,

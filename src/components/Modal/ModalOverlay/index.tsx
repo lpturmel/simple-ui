@@ -8,7 +8,8 @@ export interface ModalOverlayProps
 const ModalOverlay: Component<ModalOverlayProps> = (props) => {
 	const [context] = useContext(SimpleContext);
 
-	const modalOverlayDefaultProps = context.theme.Components?.ModalOverlay;
+	const modalOverlayDefaultProps =
+		context.theme.Components?.ModalOverlay?.defaultProps;
 
 	const mergedProps = parseDefaultProps<ModalOverlayProps>(
 		props,

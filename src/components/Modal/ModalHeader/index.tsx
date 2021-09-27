@@ -10,7 +10,8 @@ export interface ModalHeaderProps
 const ModalHeader: Component<ModalHeaderProps> = (props) => {
 	const [context] = useContext(SimpleContext);
 
-	const modalHeaderDefaultProps = context.theme.Components?.ModalHeader;
+	const modalHeaderDefaultProps =
+		context.theme.Components?.ModalHeader?.defaultProps;
 
 	const mergedProps = parseDefaultProps<ModalHeaderProps>(
 		props,

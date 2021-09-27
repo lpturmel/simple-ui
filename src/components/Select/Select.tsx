@@ -15,7 +15,7 @@ export interface SelectProps
 }
 const Select: Component<SelectProps> = (props) => {
 	const [context] = useContext(SimpleContext);
-	const selectDefaultProps = context.theme.Components?.Select;
+	const selectDefaultProps = context.theme.Components?.Select?.defaultProps;
 
 	const mergedProps = parseDefaultProps<SelectProps>(
 		props,

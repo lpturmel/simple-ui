@@ -7,7 +7,7 @@ export interface InputProps
 	extends MainProps<JSX.InputHTMLAttributes<HTMLInputElement>> {}
 export const Input: Component<InputProps> = (props) => {
 	const [context] = useContext(SimpleContext);
-	const inputDefaultProps = context.theme.Components?.Input;
+	const inputDefaultProps = context.theme.Components?.Input?.defaultProps;
 
 	const mergedProps = parseDefaultProps<InputProps>(
 		props,

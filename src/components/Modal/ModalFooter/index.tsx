@@ -9,7 +9,8 @@ export interface ModalFooterProps
 const ModalFooter: Component<ModalFooterProps> = (props) => {
 	const [context] = useContext(SimpleContext);
 
-	const modalFooterDefaultProps = context.theme.Components?.ModalFooter;
+	const modalFooterDefaultProps =
+		context.theme.Components?.ModalFooter?.defaultProps;
 
 	const mergedProps = parseDefaultProps<ModalFooterProps>(
 		props,
