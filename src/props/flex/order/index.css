@@ -1,104 +1,104 @@
-.order-1,
-.hover\:order-1:hover,
-.focus\:order-1:focus,
-.active\:order-1:active {
+.simple-ui-order-1,
+.simple-ui-hover\:order-1:hover,
+.simple-ui-focus\:order-1:focus,
+.simple-ui-active\:order-1:active {
 	order: 1;
 }
 
-.order-2,
-.hover\:order-2:hover,
-.focus\:order-2:focus,
-.active\:order-2:active {
+.simple-ui-order-2,
+.simple-ui-hover\:order-2:hover,
+.simple-ui-focus\:order-2:focus,
+.simple-ui-active\:order-2:active {
 	order: 2;
 }
 
-.order-3,
-.hover\:order-3:hover,
-.focus\:order-3:focus,
-.active\:order-3:active {
+.simple-ui-order-3,
+.simple-ui-hover\:order-3:hover,
+.simple-ui-focus\:order-3:focus,
+.simple-ui-active\:order-3:active {
 	order: 3;
 }
 
-.order-4,
-.hover\:order-4:hover,
-.focus\:order-4:focus,
-.active\:order-4:active {
+.simple-ui-order-4,
+.simple-ui-hover\:order-4:hover,
+.simple-ui-focus\:order-4:focus,
+.simple-ui-active\:order-4:active {
 	order: 4;
 }
 
-.order-5,
-.hover\:order-5:hover,
-.focus\:order-5:focus,
-.active\:order-5:active {
+.simple-ui-order-5,
+.simple-ui-hover\:order-5:hover,
+.simple-ui-focus\:order-5:focus,
+.simple-ui-active\:order-5:active {
 	order: 5;
 }
 
-.order-6,
-.hover\:order-6:hover,
-.focus\:order-6:focus,
-.active\:order-6:active {
+.simple-ui-order-6,
+.simple-ui-hover\:order-6:hover,
+.simple-ui-focus\:order-6:focus,
+.simple-ui-active\:order-6:active {
 	order: 6;
 }
 
-.order-7,
-.hover\:order-7:hover,
-.focus\:order-7:focus,
-.active\:order-7:active {
+.simple-ui-order-7,
+.simple-ui-hover\:order-7:hover,
+.simple-ui-focus\:order-7:focus,
+.simple-ui-active\:order-7:active {
 	order: 7;
 }
 
-.order-8,
-.hover\:order-8:hover,
-.focus\:order-8:focus,
-.active\:order-8:active {
+.simple-ui-order-8,
+.simple-ui-hover\:order-8:hover,
+.simple-ui-focus\:order-8:focus,
+.simple-ui-active\:order-8:active {
 	order: 8;
 }
 
-.order-9,
-.hover\:order-9:hover,
-.focus\:order-9:focus,
-.active\:order-9:active {
+.simple-ui-order-9,
+.simple-ui-hover\:order-9:hover,
+.simple-ui-focus\:order-9:focus,
+.simple-ui-active\:order-9:active {
 	order: 9;
 }
 
-.order-10,
-.hover\:order-10:hover,
-.focus\:order-10:focus,
-.active\:order-10:active {
+.simple-ui-order-10,
+.simple-ui-hover\:order-10:hover,
+.simple-ui-focus\:order-10:focus,
+.simple-ui-active\:order-10:active {
 	order: 10;
 }
 
-.order-11,
-.hover\:order-11:hover,
-.focus\:order-11:focus,
-.active\:order-11:active {
+.simple-ui-order-11,
+.simple-ui-hover\:order-11:hover,
+.simple-ui-focus\:order-11:focus,
+.simple-ui-active\:order-11:active {
 	order: 11;
 }
 
-.order-12,
-.hover\:order-12:hover,
-.focus\:order-12:focus,
-.active\:order-12:active {
+.simple-ui-order-12,
+.simple-ui-hover\:order-12:hover,
+.simple-ui-focus\:order-12:focus,
+.simple-ui-active\:order-12:active {
 	order: 12;
 }
 
-.order-first,
-.hover\:order-first:hover,
-.focus\:order-first:focus,
-.active\:order-first:active {
+.simple-ui-order-first,
+.simple-ui-hover\:order-first:hover,
+.simple-ui-focus\:order-first:focus,
+.simple-ui-active\:order-first:active {
 	order: -9999;
 }
 
-.order-last,
-.hover\:order-last:hover,
-.focus\:order-last:focus,
-.active\:order-last:active {
+.simple-ui-order-last,
+.simple-ui-hover\:order-last:hover,
+.simple-ui-focus\:order-last:focus,
+.simple-ui-active\:order-last:active {
 	order: 9999;
 }
 
-.order-none,
-.hover\:order-none:hover,
-.focus\:order-none:focus,
-.active\:order-none:active {
+.simple-ui-order-none,
+.simple-ui-hover\:order-none:hover,
+.simple-ui-focus\:order-none:focus,
+.simple-ui-active\:order-none:active {
 	order: 0;
 }
