@@ -1,34 +1,34 @@
-.alignItems-start,
-.hover\:alignItems-start:hover,
-.focus\:alignItems-start:focus,
-.active\:alignItems-start:active {
+.simple-ui-alignItems-start,
+.simple-ui-hover\:alignItems-start:hover,
+.simple-ui-focus\:alignItems-start:focus,
+.simple-ui-active\:alignItems-start:active {
 	align-items: flex-start;
 }
 
-.alignItems-end,
-.hover\:alignItems-end:hover,
-.focus\:alignItems-end:focus,
-.active\:alignItems-end:active {
+.simple-ui-alignItems-end,
+.simple-ui-hover\:alignItems-end:hover,
+.simple-ui-focus\:alignItems-end:focus,
+.simple-ui-active\:alignItems-end:active {
 	align-items: flex-end;
 }
 
-.alignItems-center,
-.hover\:alignItems-center:hover,
-.focus\:alignItems-center:focus,
-.active\:alignItems-center:active {
+.simple-ui-alignItems-center,
+.simple-ui-hover\:alignItems-center:hover,
+.simple-ui-focus\:alignItems-center:focus,
+.simple-ui-active\:alignItems-center:active {
 	align-items: center;
 }
 
-.alignItems-baseline,
-.hover\:alignItems-baseline:hover,
-.focus\:alignItems-baseline:focus,
-.active\:alignItems-baseline:active {
+.simple-ui-alignItems-baseline,
+.simple-ui-hover\:alignItems-baseline:hover,
+.simple-ui-focus\:alignItems-baseline:focus,
+.simple-ui-active\:alignItems-baseline:active {
 	align-items: baseline;
 }
 
-.alignItems-stretch,
-.hover\:alignItems-stretch:hover,
-.focus\:alignItems-stretch:focus,
-.active\:alignItems-stretch:active {
+.simple-ui-alignItems-stretch,
+.simple-ui-hover\:alignItems-stretch:hover,
+.simple-ui-focus\:alignItems-stretch:focus,
+.simple-ui-active\:alignItems-stretch:active {
 	align-items: stretch;
 }
