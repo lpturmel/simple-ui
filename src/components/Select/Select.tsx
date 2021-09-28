@@ -1,10 +1,4 @@
-import {
-	Component,
-	createSignal,
-	JSX,
-	PropsWithChildren,
-	useContext,
-} from "solid-js";
+import { Component, createSignal, JSX, useContext } from "solid-js";
 import { SimpleContext } from "../../context/SimpleContext";
 import MainProps from "../../props";
 import { mapPropsToCss, parseDefaultProps } from "../../props/Global";
@@ -15,15 +9,10 @@ export interface SelectProps
 }
 const Select: Component<SelectProps> = (props) => {
 	const [context] = useContext(SimpleContext);
-	const selectDefaultProps = context.theme.Components?.Select?.defaultProps;
+	const selectDefaultProps = context.theme.Components?.Select?.defaultProps!;
 
-	const mergedProps = parseDefaultProps<SelectProps>(
-		props,
-		selectDefaultProps!
-	);
-	const simpleProps = mapPropsToCss<PropsWithChildren<SelectProps>>(
-		mergedProps
-	);
+	const mergedProps = parseDefaultProps(props, selectDefaultProps!);
+	const simpleProps = mapPropsToCss(mergedProps, true);
 
 	const [valid, setValid] = createSignal(true);
 
