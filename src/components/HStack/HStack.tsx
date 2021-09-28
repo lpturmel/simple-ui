@@ -1,4 +1,4 @@
-import { Component, JSX, PropsWithChildren, useContext } from "solid-js";
+import { Component, JSX, useContext } from "solid-js";
 import { SimpleContext } from "../../context/SimpleContext";
 import MainProps from "../../props";
 import { mapPropsToCss, parseDefaultProps } from "../../props/Global";
@@ -11,14 +11,9 @@ export const HStack: Component<HStackProps> = (props) => {
 
 	const HStackDefaultProps = context.theme.Components?.HStack?.defaultProps;
 
-	const mergedProps = parseDefaultProps<HStackProps>(
-		props,
-		HStackDefaultProps!
-	);
+	const mergedProps = parseDefaultProps(props, HStackDefaultProps!);
 
-	const simpleProps = mapPropsToCss<PropsWithChildren<HStackProps>>(
-		mergedProps
-	);
+	const simpleProps = mapPropsToCss(mergedProps, true);
 
 	return (
 		<div {...props} class={simpleProps}>
