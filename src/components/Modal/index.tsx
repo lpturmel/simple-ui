@@ -24,11 +24,8 @@ export const Modal: Component<ModalProps> = (props) => {
 
 	const modalDefaultProps = context.theme.Components?.Modal?.defaultProps;
 
-	const mergedProps = parseDefaultProps<ModalProps>(
-		props,
-		modalDefaultProps!
-	);
-	const tw = mapPropsToCss<PropsWithChildren<ModalProps>>(mergedProps);
+	const mergedProps = parseDefaultProps(props, modalDefaultProps!);
+	const tw = mapPropsToCss(mergedProps, true);
 
 	document.addEventListener("keydown", (e) => {
 		if (e.key === "Escape") {
