@@ -1,4 +1,4 @@
-import { Component, JSX, PropsWithChildren, useContext } from "solid-js";
+import { Component, JSX, useContext } from "solid-js";
 import { SimpleContext } from "../../context/SimpleContext";
 import MainProps from "../../props";
 import { mapPropsToCss, parseDefaultProps } from "../../props/Global";
@@ -9,13 +9,8 @@ export const Input: Component<InputProps> = (props) => {
 	const [context] = useContext(SimpleContext);
 	const inputDefaultProps = context.theme.Components?.Input?.defaultProps;
 
-	const mergedProps = parseDefaultProps<InputProps>(
-		props,
-		inputDefaultProps!
-	);
-	const simpleProps = mapPropsToCss<PropsWithChildren<InputProps>>(
-		mergedProps
-	);
+	const mergedProps = parseDefaultProps(props, inputDefaultProps!);
+	const simpleProps = mapPropsToCss(mergedProps, true);
 	return (
 		<input
 			{...props}
