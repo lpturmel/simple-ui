@@ -1308,14 +1308,14 @@
 .simple-ui-focus\:backgroundColor-telegram-900:focus {
 	background-color: var(--simple-colors-telegram-900);
 }
-.simple-ui-bg-transparent tran,
-.simple-ui-hover\:bg-transparent tran:hover,
-.simple-ui-active\:bg-transparent tran:active,
-.simple-ui-focus\:bg-transparent tran:focus,
-.simple-ui-backgroundColor-transparent tran,
-.simple-ui-hover\:backgroundColor-transparent tran:hover,
-.simple-ui-active\:backgroundColor-transparent tran:active,
-.simple-ui-focus\:backgroundColor-transparent tran:focus {
+.simple-ui-bg-transparent,
+.simple-ui-hover\:bg-transparent:hover,
+.simple-ui-active\:bg-transparent:active,
+.simple-ui-focus\:bg-transparent:focus,
+.simple-ui-backgroundColor-transparent,
+.simple-ui-hover\:backgroundColor-transparent:hover,
+.simple-ui-active\:backgroundColor-transparent:active,
+.simple-ui-focus\:backgroundColor-transparent:focus {
 	background-color: var(--simple-colors-transparent tran);
 }
 .simple-ui-bg-twitter-50,
