@@ -1,4 +1,4 @@
-import { Component, JSX, PropsWithChildren, useContext } from "solid-js";
+import { Component, JSX, useContext } from "solid-js";
 import { SimpleContext } from "../../../context/SimpleContext";
 import MainProps from "../../../props";
 import { parseDefaultProps, mapPropsToCss } from "../../../props/Global";
@@ -11,13 +11,8 @@ const ModalOverlay: Component<ModalOverlayProps> = (props) => {
 	const modalOverlayDefaultProps =
 		context.theme.Components?.ModalOverlay?.defaultProps;
 
-	const mergedProps = parseDefaultProps<ModalOverlayProps>(
-		props,
-		modalOverlayDefaultProps!
-	);
-	const simpleProps = mapPropsToCss<PropsWithChildren<ModalOverlayProps>>(
-		mergedProps
-	);
+	const mergedProps = parseDefaultProps(props, modalOverlayDefaultProps!);
+	const simpleProps = mapPropsToCss(mergedProps, true);
 	return (
 		<div
 			class={simpleProps}
