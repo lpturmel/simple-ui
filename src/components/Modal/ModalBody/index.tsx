@@ -1,4 +1,4 @@
-import { Component, JSX, PropsWithChildren, useContext } from "solid-js";
+import { Component, JSX, useContext } from "solid-js";
 import { SimpleContext } from "../../../context/SimpleContext";
 import MainProps from "../../../props";
 import { parseDefaultProps, mapPropsToCss } from "../../../props/Global";
@@ -11,13 +11,8 @@ const ModalBody: Component<ModalBodyProps> = (props) => {
 	const modalBodyDefaultProps =
 		context.theme.Components?.ModalBody?.defaultProps;
 
-	const mergedProps = parseDefaultProps<ModalBodyProps>(
-		props,
-		modalBodyDefaultProps!
-	);
-	const simpleProps = mapPropsToCss<PropsWithChildren<ModalBodyProps>>(
-		mergedProps
-	);
+	const mergedProps = parseDefaultProps(props, modalBodyDefaultProps!);
+	const simpleProps = mapPropsToCss(mergedProps, true);
 
 	return <div class={simpleProps}>{props.children}</div>;
 };
