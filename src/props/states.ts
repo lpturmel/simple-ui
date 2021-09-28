@@ -5,7 +5,7 @@ export function parseStateProps(state: string, stateType: string) {
 
 	const items = state.trim().split(" ");
 	items.forEach((item) => {
-		returnString += `${stateType}:${item} `;
+		returnString += `simple-ui-${stateType}:${item} `;
 	});
 	return returnString;
 }
