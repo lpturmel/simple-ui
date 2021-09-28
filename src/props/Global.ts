@@ -5,16 +5,20 @@ import { parseStateProps } from "./states";
 /**
  * Maps the received properties to Simple-UI CSS classes
  * @param props
+ * @param isParent
  * @returns
  */
-export function mapPropsToCss<ComponentProps>(props: ComponentProps) {
-	// This type annotation is to have the proper types returned from Object.keys(x)
-	// By design it returns a string[]
+export function mapPropsToCss<ComponentProps>(
+	props: ComponentProps,
+	isParent: boolean
+) {
 	let classString = "";
 
+	// This type annotation is to have the proper types returned from Object.keys(x)
+	// By design it returns a string[]
 	(Object.keys(props) as Array<keyof ComponentProps>).forEach((prop) => {
 		if (typeof props[prop] === "object") {
-			const stateProps = mapPropsToCss(props[prop]);
+			const stateProps = mapPropsToCss(props[prop], false);
 
 			classString += parseStateProps(
 				stateProps,
@@ -22,7 +26,9 @@ export function mapPropsToCss<ComponentProps>(props: ComponentProps) {
 			);
 		} else {
 			if (!reservedProps.includes(prop.toString())) {
-				classString += `${prop}-${props[prop]} `.replace(".", "-");
+				classString += `${isParent ? "simple-ui-" : ""}${prop}-${
+					props[prop]
+				} `.replace(".", "-");
 			}
 		}
 	});
@@ -35,15 +41,15 @@ export function mapPropsToCss<ComponentProps>(props: ComponentProps) {
  * @param defaultProps
  * @returns
  */
-export function parseDefaultProps<ComponentProps>(
-	props: PropsWithChildren<ComponentProps>,
+export function parseDefaultProps(
+	props: PropsWithChildren<MainProps>,
 	defaultProps: MainProps
 ) {
 	const parsedProps: MainProps = { ...defaultProps };
 
-	(Object.keys(props) as Array<
-		keyof PropsWithChildren<ComponentProps>
-	>).forEach((prop) => ((parsedProps as any)[prop] = props[prop]));
+	(Object.keys(props) as Array<keyof PropsWithChildren<MainProps>>).forEach(
+		(prop) => ((parsedProps as any)[prop] = props[prop])
+	);
 
 	return parsedProps;
 }
