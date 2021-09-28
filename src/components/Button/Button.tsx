@@ -1,4 +1,4 @@
-import { Component, JSX, PropsWithChildren, useContext } from "solid-js";
+import { Component, JSX, useContext } from "solid-js";
 import { SimpleContext } from "../../context/SimpleContext";
 import MainProps from "../../props";
 import { mapPropsToCss, parseDefaultProps } from "../../props/Global";
@@ -11,14 +11,9 @@ export const Button: Component<ButtonProps> = (props) => {
 
 	const buttonDefaultProps = context.theme.Components?.Button?.defaultProps;
 
-	const mergedProps = parseDefaultProps<ButtonProps>(
-		props,
-		buttonDefaultProps!
-	);
+	const mergedProps = parseDefaultProps(props, buttonDefaultProps!);
 	// Add
-	const simpleProps = mapPropsToCss<PropsWithChildren<ButtonProps>>(
-		mergedProps
-	);
+	const simpleProps = mapPropsToCss(mergedProps, true);
 
 	return (
 		<button {...props} class={simpleProps}>
