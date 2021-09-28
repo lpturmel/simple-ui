@@ -9,13 +9,8 @@ export const VStack: Component<VStackProps> = (props) => {
 	const [context] = useContext(SimpleContext);
 	const VStackDefaultProps = context.theme.Components?.VStack?.defaultProps;
 
-	const mergedProps = parseDefaultProps<VStackProps>(
-		props,
-		VStackDefaultProps!
-	);
-	const simpleProps = mapPropsToCss<PropsWithChildren<VStackProps>>(
-		mergedProps
-	);
+	const mergedProps = parseDefaultProps(props, VStackDefaultProps!);
+	const simpleProps = mapPropsToCss(mergedProps, true);
 	return (
 		<div {...props} class={simpleProps}>
 			{props.children}
