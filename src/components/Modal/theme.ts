@@ -1,4 +1,4 @@
-import { ThemeComponentOptions } from "../..";
+import { ThemeComponentOptions } from "../../theme";
 
 const ModalOptions: ThemeComponentOptions = {
 	defaultProps: {
