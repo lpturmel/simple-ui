@@ -1,4 +1,5 @@
 import ButtonOptions from "../components/Button/theme";
+import DividerOptions from "../components/Divider/theme";
 import HStackOptions from "../components/HStack/theme";
 import InputOptions from "../components/Input/theme";
 import ModalBodyOptions from "../components/Modal/ModalBody/theme";
@@ -15,6 +16,7 @@ export interface SimpleComponentList {
 	Input?: ThemeComponentOptions;
 	HStack?: ThemeComponentOptions;
 	VStack?: ThemeComponentOptions;
+	Divider?: ThemeComponentOptions;
 	Select?: ThemeComponentOptions;
 	Modal?: ThemeComponentOptions;
 	ModalContent?: ThemeComponentOptions;
@@ -42,6 +44,9 @@ export const DefaultTheme: SimpleThemeConfig = {
 		},
 		HStack: {
 			...HStackOptions,
+		},
+		Divider: {
+			...DividerOptions,
 		},
 		VStack: {
 			...VStackOptions,
