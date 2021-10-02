@@ -12,8 +12,3 @@ export * from "./components/Modal/ModalContent";
 export * from "./components/Modal/ModalFooter";
 
 export { SimpleProvider } from "./context/SimpleContext";
-export {
-	SimpleComponentList,
-	ThemeComponentOptions,
-	SimpleThemeConfig,
-} from "./theme/index";
