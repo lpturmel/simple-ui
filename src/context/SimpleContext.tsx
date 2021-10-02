@@ -19,6 +19,7 @@ import "../props/layout/display/index.css";
 import "../props/layout/position/index.css";
 import "../props/layout/overflow/index.css";
 import "../props/layout/absolutePosition/index.css";
+import "../props/layout/clear/index.css";
 import "../props/layout/zIndex/index.css";
 import "../props/flex/flex/index.css";
 import "../props/flex/flexDirection/index.css";
@@ -46,12 +47,13 @@ import "../props/grid/autoRows/index.css";
 import { DefaultTheme, SimpleThemeConfig } from "../theme";
 
 interface IProviderStore {
-	portal: Node | null;
-	theme: SimpleThemeConfig;
+	theme: SimpleThemeConfig | null;
+	defaultTheme: SimpleThemeConfig;
 }
+
 const [state, setState] = createStore<IProviderStore>({
-	portal: null,
-	theme: DefaultTheme,
+	theme: null,
+	defaultTheme: DefaultTheme,
 });
 export const SimpleContext = createContext<
 	[Store<IProviderStore>, SetStoreFunction<IProviderStore>]
@@ -66,13 +68,8 @@ export const SimpleProvider: Component<SimpleProviderProps> = (props) => {
 	}
 	return (
 		<SimpleContext.Provider value={[state, setState]}>
-			<div>
-				<div
-					ref={(el) => setState("portal", el)}
-					id="simple-ui-portal"
-				/>
-				{props.children}
-			</div>
+			<div id="simple-ui-portal" />
+			{props.children}
 		</SimpleContext.Provider>
 	);
 };
