@@ -9,9 +9,14 @@ export interface SelectProps
 }
 const Select: Component<SelectProps> = (props) => {
 	const [context] = useContext(SimpleContext);
-	const selectDefaultProps = context.theme.Components?.Select?.defaultProps!;
+	const selectDefaultProps = context.defaultTheme.Components?.Select
+		?.defaultProps!;
+	const selectThemeProps = context.theme?.Components?.Select?.defaultProps!;
 
-	const mergedProps = parseDefaultProps(props, selectDefaultProps!);
+	const mergedProps = parseDefaultProps(props, {
+		...selectDefaultProps,
+		...selectThemeProps,
+	});
 	const simpleProps = mapPropsToCss(mergedProps, true);
 
 	const [valid, setValid] = createSignal(true);

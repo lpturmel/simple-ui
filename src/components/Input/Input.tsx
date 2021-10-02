@@ -5,11 +5,18 @@ import { mapPropsToCss, parseDefaultProps } from "../../props/Global";
 
 export interface InputProps
 	extends MainProps<JSX.InputHTMLAttributes<HTMLInputElement>> {}
+
 export const Input: Component<InputProps> = (props) => {
 	const [context] = useContext(SimpleContext);
-	const inputDefaultProps = context.theme.Components?.Input?.defaultProps;
+	const inputDefaultProps =
+		context.defaultTheme.Components?.Input?.defaultProps;
+	const inputThemeProps =
+		context.defaultTheme.Components?.Input?.defaultProps;
 
-	const mergedProps = parseDefaultProps(props, inputDefaultProps!);
+	const mergedProps = parseDefaultProps(props, {
+		...inputDefaultProps,
+		...inputThemeProps,
+	});
 	const simpleProps = mapPropsToCss(mergedProps, true);
 	return (
 		<input

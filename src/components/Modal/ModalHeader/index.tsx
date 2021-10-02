@@ -9,9 +9,15 @@ const ModalHeader: Component<ModalHeaderProps> = (props) => {
 	const [context] = useContext(SimpleContext);
 
 	const modalHeaderDefaultProps =
-		context.theme.Components?.ModalHeader?.defaultProps;
+		context.defaultTheme.Components?.ModalHeader?.defaultProps;
 
-	const mergedProps = parseDefaultProps(props, modalHeaderDefaultProps!);
+	const modalHeaderThemeProps =
+		context.theme?.Components?.ModalHeader?.defaultProps;
+
+	const mergedProps = parseDefaultProps(props, {
+		...modalHeaderDefaultProps,
+		...modalHeaderThemeProps,
+	});
 	const simpleProps = mapPropsToCss(mergedProps, true);
 	return (
 		<div class={simpleProps}>

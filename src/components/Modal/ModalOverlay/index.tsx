@@ -9,9 +9,15 @@ const ModalOverlay: Component<ModalOverlayProps> = (props) => {
 	const [context] = useContext(SimpleContext);
 
 	const modalOverlayDefaultProps =
-		context.theme.Components?.ModalOverlay?.defaultProps;
+		context.defaultTheme.Components?.ModalOverlay?.defaultProps;
 
-	const mergedProps = parseDefaultProps(props, modalOverlayDefaultProps!);
+	const modalOverlayThemeProps =
+		context.theme?.Components?.ModalOverlay?.defaultProps;
+
+	const mergedProps = parseDefaultProps(props, {
+		...modalOverlayDefaultProps,
+		...modalOverlayThemeProps,
+	});
 	const simpleProps = mapPropsToCss(mergedProps, true);
 	return (
 		<div

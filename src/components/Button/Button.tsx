@@ -9,9 +9,14 @@ export interface ButtonProps
 export const Button: Component<ButtonProps> = (props) => {
 	const [context] = useContext(SimpleContext);
 
-	const buttonDefaultProps = context.theme.Components?.Button?.defaultProps;
+	const buttonDefaultProps =
+		context.defaultTheme.Components?.Button?.defaultProps;
+	const buttonThemeProps = context.theme?.Components?.Button?.defaultProps;
 
-	const mergedProps = parseDefaultProps(props, buttonDefaultProps!);
+	const mergedProps = parseDefaultProps(props, {
+		...buttonDefaultProps,
+		...buttonThemeProps,
+	});
 	// Add
 	const simpleProps = mapPropsToCss(mergedProps, true);
 

@@ -9,9 +9,14 @@ export interface HStackProps
 export const HStack: Component<HStackProps> = (props) => {
 	const [context] = useContext(SimpleContext);
 
-	const HStackDefaultProps = context.theme.Components?.HStack?.defaultProps;
+	const HStackDefaultProps =
+		context.defaultTheme.Components?.HStack?.defaultProps;
+	const HStackThemeProps = context.theme?.Components?.HStack?.defaultProps;
 
-	const mergedProps = parseDefaultProps(props, HStackDefaultProps!);
+	const mergedProps = parseDefaultProps(props, {
+		...HStackDefaultProps,
+		...HStackThemeProps,
+	});
 
 	const simpleProps = mapPropsToCss(mergedProps, true);
 

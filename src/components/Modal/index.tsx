@@ -22,9 +22,14 @@ export interface ModalProps
 export const Modal: Component<ModalProps> = (props) => {
 	const [context] = useContext(SimpleContext);
 
-	const modalDefaultProps = context.theme.Components?.Modal?.defaultProps;
+	const modalDefaultProps =
+		context.defaultTheme.Components?.Modal?.defaultProps;
+	const modalThemeProps = context.theme?.Components?.Modal?.defaultProps;
 
-	const mergedProps = parseDefaultProps(props, modalDefaultProps!);
+	const mergedProps = parseDefaultProps(props, {
+		...modalDefaultProps,
+		...modalThemeProps,
+	});
 	const tw = mapPropsToCss(mergedProps, true);
 
 	document.addEventListener("keydown", (e) => {
@@ -32,10 +37,11 @@ export const Modal: Component<ModalProps> = (props) => {
 			props.controls.close();
 		}
 	});
+
 	return (
 		<>
 			{props.isOpen() && (
-				<Portal mount={context.portal!}>
+				<Portal mount={document.getElementById("simple-ui-portal")!}>
 					{" "}
 					<div class={tw}>{props.children}</div>
 				</Portal>

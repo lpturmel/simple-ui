@@ -9,9 +9,14 @@ const ModalFooter: Component<ModalFooterProps> = (props) => {
 	const [context] = useContext(SimpleContext);
 
 	const modalFooterDefaultProps =
-		context.theme.Components?.ModalFooter?.defaultProps;
+		context.defaultTheme.Components?.ModalFooter?.defaultProps;
+	const modalFooterThemeProps =
+		context.theme?.Components?.ModalFooter?.defaultProps;
 
-	const mergedProps = parseDefaultProps(props, modalFooterDefaultProps!);
+	const mergedProps = parseDefaultProps(props, {
+		...modalFooterDefaultProps,
+		...modalFooterThemeProps,
+	});
 	const simpleProps = mapPropsToCss(mergedProps, true);
 
 	return <div class={simpleProps}>{props.children}</div>;
