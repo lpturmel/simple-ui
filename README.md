@@ -29,7 +29,7 @@ Everything is subject to change at this point
 
 | Feature | Status |
 | --------- | ------ |
-| Themeing | ⏳ In Progress |
+| Theming | ⏳ In Progress |
 | Variants | ⏳ In Progress |
 | CSS purging | ⏳ In Progress |
 | Dark vs light | ❌  Not started |
