@@ -1,23 +1,12 @@
-import { Component, JSX, useContext } from "solid-js";
-import { SimpleContext } from "../../../context/SimpleContext";
+import { Component, JSX } from "solid-js";
 import MainProps from "../../../props";
-import { parseDefaultProps, mapPropsToCss } from "../../../props/Global";
+import { mapPropsToCss, mergeProps } from "../../../props/Global";
 
 export interface ModalHeaderProps
 	extends MainProps<JSX.HTMLAttributes<HTMLDivElement>> {}
 export const ModalHeader: Component<ModalHeaderProps> = (props) => {
-	const [context] = useContext(SimpleContext);
+	const mergedProps = mergeProps("ModalHeader", props);
 
-	const modalHeaderDefaultProps =
-		context.defaultTheme.Components?.ModalHeader?.defaultProps;
-
-	const modalHeaderThemeProps =
-		context.theme?.Components?.ModalHeader?.defaultProps;
-
-	const mergedProps = parseDefaultProps(props, {
-		...modalHeaderDefaultProps,
-		...modalHeaderThemeProps,
-	});
 	const simpleProps = mapPropsToCss(mergedProps, true);
 	return (
 		<div class={simpleProps}>

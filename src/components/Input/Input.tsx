@@ -1,22 +1,13 @@
-import { Component, JSX, useContext } from "solid-js";
-import { SimpleContext } from "../../context/SimpleContext";
+import { Component, JSX } from "solid-js";
 import MainProps from "../../props";
-import { mapPropsToCss, parseDefaultProps } from "../../props/Global";
+import { mapPropsToCss, mergeProps } from "../../props/Global";
 
 export interface InputProps
 	extends MainProps<JSX.InputHTMLAttributes<HTMLInputElement>> {}
 
 export const Input: Component<InputProps> = (props) => {
-	const [context] = useContext(SimpleContext);
-	const inputDefaultProps =
-		context.defaultTheme.Components?.Input?.defaultProps;
-	const inputThemeProps =
-		context.defaultTheme.Components?.Input?.defaultProps;
+	const mergedProps = mergeProps("Input", props);
 
-	const mergedProps = parseDefaultProps(props, {
-		...inputDefaultProps,
-		...inputThemeProps,
-	});
 	const simpleProps = mapPropsToCss(mergedProps, true);
 	return (
 		<input

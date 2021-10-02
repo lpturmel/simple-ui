@@ -1,18 +1,8 @@
-import {
-	Accessor,
-	Component,
-	createEffect,
-	createMemo,
-	createSignal,
-	JSX,
-	PropsWithChildren,
-	useContext,
-} from "solid-js";
+import { Accessor, Component, JSX } from "solid-js";
 import { Portal } from "solid-js/web";
 import { ICreateControls } from "../..";
-import { SimpleContext } from "../../context/SimpleContext";
 import MainProps from "../../props";
-import { mapPropsToCss, parseDefaultProps } from "../../props/Global";
+import { mapPropsToCss, mergeProps } from "../../props/Global";
 
 export interface ModalProps
 	extends MainProps<JSX.HTMLAttributes<HTMLDivElement>> {
@@ -20,17 +10,9 @@ export interface ModalProps
 	controls: ICreateControls;
 }
 export const Modal: Component<ModalProps> = (props) => {
-	const [context] = useContext(SimpleContext);
+	const mergedProps = mergeProps("Modal", props);
 
-	const modalDefaultProps =
-		context.defaultTheme.Components?.Modal?.defaultProps;
-	const modalThemeProps = context.theme?.Components?.Modal?.defaultProps;
-
-	const mergedProps = parseDefaultProps(props, {
-		...modalDefaultProps,
-		...modalThemeProps,
-	});
-	const tw = mapPropsToCss(mergedProps, true);
+	const simpleProps = mapPropsToCss(mergedProps, true);
 
 	document.addEventListener("keydown", (e) => {
 		if (e.key === "Escape") {
@@ -43,7 +25,7 @@ export const Modal: Component<ModalProps> = (props) => {
 			{props.isOpen() && (
 				<Portal mount={document.getElementById("simple-ui-portal")!}>
 					{" "}
-					<div class={tw}>{props.children}</div>
+					<div class={simpleProps}>{props.children}</div>
 				</Portal>
 			)}
 		</>

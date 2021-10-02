@@ -1,23 +1,12 @@
-import { Component, JSX, useContext } from "solid-js";
-import { SimpleContext } from "../../../context/SimpleContext";
+import { Component, JSX } from "solid-js";
 import MainProps from "../../../props";
-import { parseDefaultProps, mapPropsToCss } from "../../../props/Global";
+import { mapPropsToCss, mergeProps } from "../../../props/Global";
 
 export interface ModalOverlayProps
 	extends MainProps<JSX.HTMLAttributes<HTMLDivElement>> {}
 export const ModalOverlay: Component<ModalOverlayProps> = (props) => {
-	const [context] = useContext(SimpleContext);
+	const mergedProps = mergeProps("ModalOverlay", props);
 
-	const modalOverlayDefaultProps =
-		context.defaultTheme.Components?.ModalOverlay?.defaultProps;
-
-	const modalOverlayThemeProps =
-		context.theme?.Components?.ModalOverlay?.defaultProps;
-
-	const mergedProps = parseDefaultProps(props, {
-		...modalOverlayDefaultProps,
-		...modalOverlayThemeProps,
-	});
 	const simpleProps = mapPropsToCss(mergedProps, true);
 	return (
 		<div

@@ -1,22 +1,12 @@
-import { Component, JSX, useContext } from "solid-js";
-import { SimpleContext } from "../../context/SimpleContext";
+import { Component, JSX } from "solid-js";
 import MainProps from "../../props";
-import { mapPropsToCss, parseDefaultProps } from "../../props/Global";
+import { mapPropsToCss, mergeProps } from "../../props/Global";
 
 export interface HStackProps
 	extends MainProps<JSX.HTMLAttributes<HTMLDivElement>> {}
 
 export const HStack: Component<HStackProps> = (props) => {
-	const [context] = useContext(SimpleContext);
-
-	const HStackDefaultProps =
-		context.defaultTheme.Components?.HStack?.defaultProps;
-	const HStackThemeProps = context.theme?.Components?.HStack?.defaultProps;
-
-	const mergedProps = parseDefaultProps(props, {
-		...HStackDefaultProps,
-		...HStackThemeProps,
-	});
+	const mergedProps = mergeProps("HStack", props);
 
 	const simpleProps = mapPropsToCss(mergedProps, true);
 
