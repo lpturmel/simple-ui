@@ -1,0 +1,24 @@
+.simple-ui-clear-left,
+.simple-ui-hover\:clear-left:hover,
+.simple-ui-focus\:clear-left:focus,
+.simple-ui-active\:clear-left:active {
+	clear: left;
+}
+.simple-ui-clear-right,
+.simple-ui-hover\:clear-right:hover,
+.simple-ui-focus\:clear-right:focus,
+.simple-ui-active\:clear-right:active {
+	clear: right;
+}
+.simple-ui-clear-both,
+.simple-ui-hover\:clear-both:hover,
+.simple-ui-focus\:clear-both:focus,
+.simple-ui-active\:clear-both:active {
+	clear: both;
+}
+.simple-ui-clear-none,
+.simple-ui-hover\:clear-none:hover,
+.simple-ui-focus\:clear-none:focus,
+.simple-ui-active\:clear-none:active {
+	clear: none;
+}
