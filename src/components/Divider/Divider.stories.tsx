@@ -3,7 +3,7 @@ import { Divider } from "./Divider";
 
 export default {
 	component: Divider,
-	title: "UI/Button",
+	title: "UI/Divider",
 };
 
 export const Default = () => (
