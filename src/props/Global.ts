@@ -1,5 +1,7 @@
-import { PropsWithChildren } from "solid-js";
+import { PropsWithChildren, useContext } from "solid-js";
 import MainProps from ".";
+import { SimpleContext } from "../context/SimpleContext";
+import { SimpleComponentList } from "../theme";
 import { parseStateProps } from "./states";
 
 /**
@@ -36,20 +38,28 @@ export function mapPropsToCss<ComponentProps>(
 	return classString;
 }
 /**
- * Add received props to the configured default props
+ * Merge default, theme and variant props
  * @param props
  * @param defaultProps
  * @returns
  */
-export function parseDefaultProps(
-	props: PropsWithChildren<MainProps>,
-	defaultProps: MainProps
+export function mergeProps(
+	ComponentKey: keyof SimpleComponentList,
+	props: PropsWithChildren<MainProps>
 ) {
-	const parsedProps: MainProps = { ...defaultProps };
+	const [context] = useContext(SimpleContext);
 
-	(Object.keys(props) as Array<keyof PropsWithChildren<MainProps>>).forEach(
-		(prop) => ((parsedProps as any)[prop] = props[prop])
-	);
+	const componentDefaultProps =
+		context.defaultTheme.Components?.[ComponentKey]?.defaultProps;
+
+	const componentThemeProps =
+		context.theme?.Components?.[ComponentKey]?.defaultProps;
+
+	const parsedProps = {
+		...componentDefaultProps,
+		...componentThemeProps,
+		...props,
+	};
 
 	return parsedProps;
 }
