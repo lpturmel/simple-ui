@@ -5,7 +5,7 @@ import { parseDefaultProps, mapPropsToCss } from "../../../props/Global";
 
 export interface ModalOverlayProps
 	extends MainProps<JSX.HTMLAttributes<HTMLDivElement>> {}
-const ModalOverlay: Component<ModalOverlayProps> = (props) => {
+export const ModalOverlay: Component<ModalOverlayProps> = (props) => {
 	const [context] = useContext(SimpleContext);
 
 	const modalOverlayDefaultProps =
@@ -26,4 +26,3 @@ const ModalOverlay: Component<ModalOverlayProps> = (props) => {
 		></div>
 	);
 };
-export default ModalOverlay;

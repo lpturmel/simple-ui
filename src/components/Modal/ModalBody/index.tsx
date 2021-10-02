@@ -5,7 +5,7 @@ import { parseDefaultProps, mapPropsToCss } from "../../../props/Global";
 
 export interface ModalBodyProps
 	extends MainProps<JSX.HTMLAttributes<HTMLDivElement>> {}
-const ModalBody: Component<ModalBodyProps> = (props) => {
+export const ModalBody: Component<ModalBodyProps> = (props) => {
 	const [context] = useContext(SimpleContext);
 
 	const modalBodyDefaultProps =
@@ -22,4 +22,3 @@ const ModalBody: Component<ModalBodyProps> = (props) => {
 
 	return <div class={simpleProps}>{props.children}</div>;
 };
-export default ModalBody;

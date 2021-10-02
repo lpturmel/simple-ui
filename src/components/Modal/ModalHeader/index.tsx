@@ -5,7 +5,7 @@ import { parseDefaultProps, mapPropsToCss } from "../../../props/Global";
 
 export interface ModalHeaderProps
 	extends MainProps<JSX.HTMLAttributes<HTMLDivElement>> {}
-const ModalHeader: Component<ModalHeaderProps> = (props) => {
+export const ModalHeader: Component<ModalHeaderProps> = (props) => {
 	const [context] = useContext(SimpleContext);
 
 	const modalHeaderDefaultProps =
@@ -26,4 +26,3 @@ const ModalHeader: Component<ModalHeaderProps> = (props) => {
 		</div>
 	);
 };
-export default ModalHeader;
