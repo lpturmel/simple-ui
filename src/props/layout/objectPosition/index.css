@@ -1,0 +1,54 @@
+.simple-ui-object-bottom,
+.simple-ui-hover\:object-bottom:hover,
+.simple-ui-focus\:object-bottom:focus,
+.simple-ui-active\:object-bottom:active {
+  object-position: bottom;
+}
+.simple-ui-object-center,
+.simple-ui-hover\:object-center:hover,
+.simple-ui-focus\:object-center:focus,
+.simple-ui-active\:object-center:active {
+  object-position: center;
+}
+.simple-ui-object-left,
+.simple-ui-hover\:object-left:hover,
+.simple-ui-focus\:object-left:focus,
+.simple-ui-active\:object-left:active {
+  object-position: left;
+}
+.simple-ui-object-left-bottom,
+.simple-ui-hover\:object-left-bottom:hover,
+.simple-ui-focus\:object-left-bottom:focus,
+.simple-ui-active\:object-left-bottom:active {
+  object-position: left bottom;
+}
+.simple-ui-object-left-top,
+.simple-ui-hover\:object-left-top:hover,
+.simple-ui-focus\:object-left-top:focus,
+.simple-ui-active\:object-left-top:active {
+  object-position: left top;
+}
+.simple-ui-object-right,
+.simple-ui-hover\:object-right:hover,
+.simple-ui-focus\:object-right:focus,
+.simple-ui-active\:object-right:active {
+  object-position: right;
+}
+.simple-ui-object-right-bottom,
+.simple-ui-hover\:object-right-bottom:hover,
+.simple-ui-focus\:object-right-bottom:focus,
+.simple-ui-active\:object-right-bottom:active {
+  object-position: right bottom;
+}
+.simple-ui-object-right-top,
+.simple-ui-hover\:object-right-top:hover,
+.simple-ui-focus\:object-right-top:focus,
+.simple-ui-active\:object-right-top:active {
+  object-position: right top;
+}
+.simple-ui-object-top,
+.simple-ui-hover\:object-top:hover,
+.simple-ui-focus\:object-top:focus,
+.simple-ui-active\:object-top:active {
+  object-position: top;
+}
