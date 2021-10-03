@@ -48,6 +48,7 @@ import "../props/grid/gridFlow/index.css";
 import "../props/grid/autoColumns/index.css";
 import "../props/grid/autoRows/index.css";
 import "../props/transition/transitionProperty/index.css";
+import "../props/transition/transitionDuration/index.css";
 
 import { DefaultTheme, SimpleThemeConfig } from "../theme";
 
