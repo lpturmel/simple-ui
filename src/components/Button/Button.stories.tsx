@@ -10,8 +10,6 @@ export default {
 const theme: SimpleThemeConfig = {};
 export const Default = () => (
 	<SimpleProvider theme={theme}>
-		<Button transition="colors" bg="yellow.300">
-			Button
-		</Button>
+		<Button>Button</Button>
 	</SimpleProvider>
 );
