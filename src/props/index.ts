@@ -48,6 +48,7 @@ import { TransitionProps } from "./transition/transitionProperty";
 import { TransitionDurationProps } from "./transition/transitionDuration";
 import { TransitionTimingProps } from "./transition/transitionTiming";
 import { TransitionDelayProps } from "./transition/transitionDelay";
+import { AnimateProps } from "./transition/animation";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -77,6 +78,7 @@ type MainProps<T = {}> =
 		TransitionDurationProps &
 		TransitionTimingProps &
 		TransitionDelayProps &
+		AnimateProps &
 		//
 		DisplayProps &
 		PositionProps &
