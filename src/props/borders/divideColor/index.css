@@ -1,0 +1,586 @@
+.simple-ui-divideColor-transparent > * + *,
+.simple-ui-hover\:divideColor-transparent > * + *:hover,
+.simple-ui-focus\:divideColor-transparent > * + *:focus,
+.simple-ui-active\:divideColor-transparent > * + *:active {
+	border-color: transparent;
+}
+.simple-ui-divideColor-current > * + *,
+.simple-ui-hover\:divideColor-current > * + *:hover,
+.simple-ui-focus\:divideColor-current > * + *:focus,
+.simple-ui-active\:divideColor-current > * + *:active {
+	border-color: currentColor;
+}
+.simple-ui-divideColor-black > * + *,
+.simple-ui-hover\:divideColor-black > * + *:hover,
+.simple-ui-focus\:divideColor-black > * + *:focus,
+.simple-ui-active\:divideColor-black > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(0, 0, 0, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-white > * + *,
+.simple-ui-hover\:divideColor-white > * + *:hover,
+.simple-ui-focus\:divideColor-white > * + *:focus,
+.simple-ui-active\:divideColor-white > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(255, 255, 255, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-gray-50 > * + *,
+.simple-ui-hover\:divideColor-gray-50 > * + *:hover,
+.simple-ui-focus\:divideColor-gray-50 > * + *:focus,
+.simple-ui-active\:divideColor-gray-50 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(249, 250, 251, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-gray-100 > * + *,
+.simple-ui-hover\:divideColor-gray-100 > * + *:hover,
+.simple-ui-focus\:divideColor-gray-100 > * + *:focus,
+.simple-ui-active\:divideColor-gray-100 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(243, 244, 246, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-gray-200 > * + *,
+.simple-ui-hover\:divideColor-gray-200 > * + *:hover,
+.simple-ui-focus\:divideColor-gray-200 > * + *:focus,
+.simple-ui-active\:divideColor-gray-200 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(229, 231, 235, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-gray-300 > * + *,
+.simple-ui-hover\:divideColor-gray-300 > * + *:hover,
+.simple-ui-focus\:divideColor-gray-300 > * + *:focus,
+.simple-ui-active\:divideColor-gray-300 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(209, 213, 219, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-gray-400 > * + *,
+.simple-ui-hover\:divideColor-gray-400 > * + *:hover,
+.simple-ui-focus\:divideColor-gray-400 > * + *:focus,
+.simple-ui-active\:divideColor-gray-400 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(156, 163, 175, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-gray-500 > * + *,
+.simple-ui-hover\:divideColor-gray-500 > * + *:hover,
+.simple-ui-focus\:divideColor-gray-500 > * + *:focus,
+.simple-ui-active\:divideColor-gray-500 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(107, 114, 128, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-gray-600 > * + *,
+.simple-ui-hover\:divideColor-gray-600 > * + *:hover,
+.simple-ui-focus\:divideColor-gray-600 > * + *:focus,
+.simple-ui-active\:divideColor-gray-600 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(75, 85, 99, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-gray-700 > * + *,
+.simple-ui-hover\:divideColor-gray-700 > * + *:hover,
+.simple-ui-focus\:divideColor-gray-700 > * + *:focus,
+.simple-ui-active\:divideColor-gray-700 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(55, 65, 81, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-gray-800 > * + *,
+.simple-ui-hover\:divideColor-gray-800 > * + *:hover,
+.simple-ui-focus\:divideColor-gray-800 > * + *:focus,
+.simple-ui-active\:divideColor-gray-800 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(31, 41, 55, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-gray-900 > * + *,
+.simple-ui-hover\:divideColor-gray-900 > * + *:hover,
+.simple-ui-focus\:divideColor-gray-900 > * + *:focus,
+.simple-ui-active\:divideColor-gray-900 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(17, 24, 39, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-red-50 > * + *,
+.simple-ui-hover\:divideColor-red-50 > * + *:hover,
+.simple-ui-focus\:divideColor-red-50 > * + *:focus,
+.simple-ui-active\:divideColor-red-50 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(254, 242, 242, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-red-100 > * + *,
+.simple-ui-hover\:divideColor-red-100 > * + *:hover,
+.simple-ui-focus\:divideColor-red-100 > * + *:focus,
+.simple-ui-active\:divideColor-red-100 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(254, 226, 226, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-red-200 > * + *,
+.simple-ui-hover\:divideColor-red-200 > * + *:hover,
+.simple-ui-focus\:divideColor-red-200 > * + *:focus,
+.simple-ui-active\:divideColor-red-200 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(254, 202, 202, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-red-300 > * + *,
+.simple-ui-hover\:divideColor-red-300 > * + *:hover,
+.simple-ui-focus\:divideColor-red-300 > * + *:focus,
+.simple-ui-active\:divideColor-red-300 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(252, 165, 165, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-red-400 > * + *,
+.simple-ui-hover\:divideColor-red-400 > * + *:hover,
+.simple-ui-focus\:divideColor-red-400 > * + *:focus,
+.simple-ui-active\:divideColor-red-400 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(248, 113, 113, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-red-500 > * + *,
+.simple-ui-hover\:divideColor-red-500 > * + *:hover,
+.simple-ui-focus\:divideColor-red-500 > * + *:focus,
+.simple-ui-active\:divideColor-red-500 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(239, 68, 68, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-red-600 > * + *,
+.simple-ui-hover\:divideColor-red-600 > * + *:hover,
+.simple-ui-focus\:divideColor-red-600 > * + *:focus,
+.simple-ui-active\:divideColor-red-600 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(220, 38, 38, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-red-700 > * + *,
+.simple-ui-hover\:divideColor-red-700 > * + *:hover,
+.simple-ui-focus\:divideColor-red-700 > * + *:focus,
+.simple-ui-active\:divideColor-red-700 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(185, 28, 28, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-red-800 > * + *,
+.simple-ui-hover\:divideColor-red-800 > * + *:hover,
+.simple-ui-focus\:divideColor-red-800 > * + *:focus,
+.simple-ui-active\:divideColor-red-800 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(153, 27, 27, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-red-900 > * + *,
+.simple-ui-hover\:divideColor-red-900 > * + *:hover,
+.simple-ui-focus\:divideColor-red-900 > * + *:focus,
+.simple-ui-active\:divideColor-red-900 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(127, 29, 29, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-yellow-50 > * + *,
+.simple-ui-hover\:divideColor-yellow-50 > * + *:hover,
+.simple-ui-focus\:divideColor-yellow-50 > * + *:focus,
+.simple-ui-active\:divideColor-yellow-50 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(255, 251, 235, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-yellow-100 > * + *,
+.simple-ui-hover\:divideColor-yellow-100 > * + *:hover,
+.simple-ui-focus\:divideColor-yellow-100 > * + *:focus,
+.simple-ui-active\:divideColor-yellow-100 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(254, 243, 199, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-yellow-200 > * + *,
+.simple-ui-hover\:divideColor-yellow-200 > * + *:hover,
+.simple-ui-focus\:divideColor-yellow-200 > * + *:focus,
+.simple-ui-active\:divideColor-yellow-200 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(253, 230, 138, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-yellow-300 > * + *,
+.simple-ui-hover\:divideColor-yellow-300 > * + *:hover,
+.simple-ui-focus\:divideColor-yellow-300 > * + *:focus,
+.simple-ui-active\:divideColor-yellow-300 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(252, 211, 77, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-yellow-400 > * + *,
+.simple-ui-hover\:divideColor-yellow-400 > * + *:hover,
+.simple-ui-focus\:divideColor-yellow-400 > * + *:focus,
+.simple-ui-active\:divideColor-yellow-400 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(251, 191, 36, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-yellow-500 > * + *,
+.simple-ui-hover\:divideColor-yellow-500 > * + *:hover,
+.simple-ui-focus\:divideColor-yellow-500 > * + *:focus,
+.simple-ui-active\:divideColor-yellow-500 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(245, 158, 11, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-yellow-600 > * + *,
+.simple-ui-hover\:divideColor-yellow-600 > * + *:hover,
+.simple-ui-focus\:divideColor-yellow-600 > * + *:focus,
+.simple-ui-active\:divideColor-yellow-600 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(217, 119, 6, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-yellow-700 > * + *,
+.simple-ui-hover\:divideColor-yellow-700 > * + *:hover,
+.simple-ui-focus\:divideColor-yellow-700 > * + *:focus,
+.simple-ui-active\:divideColor-yellow-700 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(180, 83, 9, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-yellow-800 > * + *,
+.simple-ui-hover\:divideColor-yellow-800 > * + *:hover,
+.simple-ui-focus\:divideColor-yellow-800 > * + *:focus,
+.simple-ui-active\:divideColor-yellow-800 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(146, 64, 14, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-yellow-900 > * + *,
+.simple-ui-hover\:divideColor-yellow-900 > * + *:hover,
+.simple-ui-focus\:divideColor-yellow-900 > * + *:focus,
+.simple-ui-active\:divideColor-yellow-900 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(120, 53, 15, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-green-50 > * + *,
+.simple-ui-hover\:divideColor-green-50 > * + *:hover,
+.simple-ui-focus\:divideColor-green-50 > * + *:focus,
+.simple-ui-active\:divideColor-green-50 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(236, 253, 245, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-green-100 > * + *,
+.simple-ui-hover\:divideColor-green-100 > * + *:hover,
+.simple-ui-focus\:divideColor-green-100 > * + *:focus,
+.simple-ui-active\:divideColor-green-100 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(209, 250, 229, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-green-200 > * + *,
+.simple-ui-hover\:divideColor-green-200 > * + *:hover,
+.simple-ui-focus\:divideColor-green-200 > * + *:focus,
+.simple-ui-active\:divideColor-green-200 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(167, 243, 208, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-green-300 > * + *,
+.simple-ui-hover\:divideColor-green-300 > * + *:hover,
+.simple-ui-focus\:divideColor-green-300 > * + *:focus,
+.simple-ui-active\:divideColor-green-300 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(110, 231, 183, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-green-400 > * + *,
+.simple-ui-hover\:divideColor-green-400 > * + *:hover,
+.simple-ui-focus\:divideColor-green-400 > * + *:focus,
+.simple-ui-active\:divideColor-green-400 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(52, 211, 153, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-green-500 > * + *,
+.simple-ui-hover\:divideColor-green-500 > * + *:hover,
+.simple-ui-focus\:divideColor-green-500 > * + *:focus,
+.simple-ui-active\:divideColor-green-500 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(16, 185, 129, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-green-600 > * + *,
+.simple-ui-hover\:divideColor-green-600 > * + *:hover,
+.simple-ui-focus\:divideColor-green-600 > * + *:focus,
+.simple-ui-active\:divideColor-green-600 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(5, 150, 105, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-green-700 > * + *,
+.simple-ui-hover\:divideColor-green-700 > * + *:hover,
+.simple-ui-focus\:divideColor-green-700 > * + *:focus,
+.simple-ui-active\:divideColor-green-700 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(4, 120, 87, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-green-800 > * + *,
+.simple-ui-hover\:divideColor-green-800 > * + *:hover,
+.simple-ui-focus\:divideColor-green-800 > * + *:focus,
+.simple-ui-active\:divideColor-green-800 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(6, 95, 70, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-green-900 > * + *,
+.simple-ui-hover\:divideColor-green-900 > * + *:hover,
+.simple-ui-focus\:divideColor-green-900 > * + *:focus,
+.simple-ui-active\:divideColor-green-900 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(6, 78, 59, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-blue-50 > * + *,
+.simple-ui-hover\:divideColor-blue-50 > * + *:hover,
+.simple-ui-focus\:divideColor-blue-50 > * + *:focus,
+.simple-ui-active\:divideColor-blue-50 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(239, 246, 255, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-blue-100 > * + *,
+.simple-ui-hover\:divideColor-blue-100 > * + *:hover,
+.simple-ui-focus\:divideColor-blue-100 > * + *:focus,
+.simple-ui-active\:divideColor-blue-100 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(219, 234, 254, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-blue-200 > * + *,
+.simple-ui-hover\:divideColor-blue-200 > * + *:hover,
+.simple-ui-focus\:divideColor-blue-200 > * + *:focus,
+.simple-ui-active\:divideColor-blue-200 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(191, 219, 254, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-blue-300 > * + *,
+.simple-ui-hover\:divideColor-blue-300 > * + *:hover,
+.simple-ui-focus\:divideColor-blue-300 > * + *:focus,
+.simple-ui-active\:divideColor-blue-300 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(147, 197, 253, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-blue-400 > * + *,
+.simple-ui-hover\:divideColor-blue-400 > * + *:hover,
+.simple-ui-focus\:divideColor-blue-400 > * + *:focus,
+.simple-ui-active\:divideColor-blue-400 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(96, 165, 250, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-blue-500 > * + *,
+.simple-ui-hover\:divideColor-blue-500 > * + *:hover,
+.simple-ui-focus\:divideColor-blue-500 > * + *:focus,
+.simple-ui-active\:divideColor-blue-500 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(59, 130, 246, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-blue-600 > * + *,
+.simple-ui-hover\:divideColor-blue-600 > * + *:hover,
+.simple-ui-focus\:divideColor-blue-600 > * + *:focus,
+.simple-ui-active\:divideColor-blue-600 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(37, 99, 235, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-blue-700 > * + *,
+.simple-ui-hover\:divideColor-blue-700 > * + *:hover,
+.simple-ui-focus\:divideColor-blue-700 > * + *:focus,
+.simple-ui-active\:divideColor-blue-700 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(29, 78, 216, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-blue-800 > * + *,
+.simple-ui-hover\:divideColor-blue-800 > * + *:hover,
+.simple-ui-focus\:divideColor-blue-800 > * + *:focus,
+.simple-ui-active\:divideColor-blue-800 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(30, 64, 175, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-blue-900 > * + *,
+.simple-ui-hover\:divideColor-blue-900 > * + *:hover,
+.simple-ui-focus\:divideColor-blue-900 > * + *:focus,
+.simple-ui-active\:divideColor-blue-900 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(30, 58, 138, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-indigo-50 > * + *,
+.simple-ui-hover\:divideColor-indigo-50 > * + *:hover,
+.simple-ui-focus\:divideColor-indigo-50 > * + *:focus,
+.simple-ui-active\:divideColor-indigo-50 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(238, 242, 255, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-indigo-100 > * + *,
+.simple-ui-hover\:divideColor-indigo-100 > * + *:hover,
+.simple-ui-focus\:divideColor-indigo-100 > * + *:focus,
+.simple-ui-active\:divideColor-indigo-100 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(224, 231, 255, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-indigo-200 > * + *,
+.simple-ui-hover\:divideColor-indigo-200 > * + *:hover,
+.simple-ui-focus\:divideColor-indigo-200 > * + *:focus,
+.simple-ui-active\:divideColor-indigo-200 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(199, 210, 254, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-indigo-300 > * + *,
+.simple-ui-hover\:divideColor-indigo-300 > * + *:hover,
+.simple-ui-focus\:divideColor-indigo-300 > * + *:focus,
+.simple-ui-active\:divideColor-indigo-300 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(165, 180, 252, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-indigo-400 > * + *,
+.simple-ui-hover\:divideColor-indigo-400 > * + *:hover,
+.simple-ui-focus\:divideColor-indigo-400 > * + *:focus,
+.simple-ui-active\:divideColor-indigo-400 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(129, 140, 248, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-indigo-500 > * + *,
+.simple-ui-hover\:divideColor-indigo-500 > * + *:hover,
+.simple-ui-focus\:divideColor-indigo-500 > * + *:focus,
+.simple-ui-active\:divideColor-indigo-500 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(99, 102, 241, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-indigo-600 > * + *,
+.simple-ui-hover\:divideColor-indigo-600 > * + *:hover,
+.simple-ui-focus\:divideColor-indigo-600 > * + *:focus,
+.simple-ui-active\:divideColor-indigo-600 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(79, 70, 229, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-indigo-700 > * + *,
+.simple-ui-hover\:divideColor-indigo-700 > * + *:hover,
+.simple-ui-focus\:divideColor-indigo-700 > * + *:focus,
+.simple-ui-active\:divideColor-indigo-700 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(67, 56, 202, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-indigo-800 > * + *,
+.simple-ui-hover\:divideColor-indigo-800 > * + *:hover,
+.simple-ui-focus\:divideColor-indigo-800 > * + *:focus,
+.simple-ui-active\:divideColor-indigo-800 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(55, 48, 163, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-indigo-900 > * + *,
+.simple-ui-hover\:divideColor-indigo-900 > * + *:hover,
+.simple-ui-focus\:divideColor-indigo-900 > * + *:focus,
+.simple-ui-active\:divideColor-indigo-900 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(49, 46, 129, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-purple-50 > * + *,
+.simple-ui-hover\:divideColor-purple-50 > * + *:hover,
+.simple-ui-focus\:divideColor-purple-50 > * + *:focus,
+.simple-ui-active\:divideColor-purple-50 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(245, 243, 255, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-purple-100 > * + *,
+.simple-ui-hover\:divideColor-purple-100 > * + *:hover,
+.simple-ui-focus\:divideColor-purple-100 > * + *:focus,
+.simple-ui-active\:divideColor-purple-100 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(237, 233, 254, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-purple-200 > * + *,
+.simple-ui-hover\:divideColor-purple-200 > * + *:hover,
+.simple-ui-focus\:divideColor-purple-200 > * + *:focus,
+.simple-ui-active\:divideColor-purple-200 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(221, 214, 254, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-purple-300 > * + *,
+.simple-ui-hover\:divideColor-purple-300 > * + *:hover,
+.simple-ui-focus\:divideColor-purple-300 > * + *:focus,
+.simple-ui-active\:divideColor-purple-300 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(196, 181, 253, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-purple-400 > * + *,
+.simple-ui-hover\:divideColor-purple-400 > * + *:hover,
+.simple-ui-focus\:divideColor-purple-400 > * + *:focus,
+.simple-ui-active\:divideColor-purple-400 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(167, 139, 250, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-purple-500 > * + *,
+.simple-ui-hover\:divideColor-purple-500 > * + *:hover,
+.simple-ui-focus\:divideColor-purple-500 > * + *:focus,
+.simple-ui-active\:divideColor-purple-500 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(139, 92, 246, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-purple-600 > * + *,
+.simple-ui-hover\:divideColor-purple-600 > * + *:hover,
+.simple-ui-focus\:divideColor-purple-600 > * + *:focus,
+.simple-ui-active\:divideColor-purple-600 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(124, 58, 237, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-purple-700 > * + *,
+.simple-ui-hover\:divideColor-purple-700 > * + *:hover,
+.simple-ui-focus\:divideColor-purple-700 > * + *:focus,
+.simple-ui-active\:divideColor-purple-700 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(109, 40, 217, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-purple-800 > * + *,
+.simple-ui-hover\:divideColor-purple-800 > * + *:hover,
+.simple-ui-focus\:divideColor-purple-800 > * + *:focus,
+.simple-ui-active\:divideColor-purple-800 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(91, 33, 182, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-purple-900 > * + *,
+.simple-ui-hover\:divideColor-purple-900 > * + *:hover,
+.simple-ui-focus\:divideColor-purple-900 > * + *:focus,
+.simple-ui-active\:divideColor-purple-900 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(76, 29, 149, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-pink-50 > * + *,
+.simple-ui-hover\:divideColor-pink-50 > * + *:hover,
+.simple-ui-focus\:divideColor-pink-50 > * + *:focus,
+.simple-ui-active\:divideColor-pink-50 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(253, 242, 248, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-pink-100 > * + *,
+.simple-ui-hover\:divideColor-pink-100 > * + *:hover,
+.simple-ui-focus\:divideColor-pink-100 > * + *:focus,
+.simple-ui-active\:divideColor-pink-100 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(252, 231, 243, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-pink-200 > * + *,
+.simple-ui-hover\:divideColor-pink-200 > * + *:hover,
+.simple-ui-focus\:divideColor-pink-200 > * + *:focus,
+.simple-ui-active\:divideColor-pink-200 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(251, 207, 232, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-pink-300 > * + *,
+.simple-ui-hover\:divideColor-pink-300 > * + *:hover,
+.simple-ui-focus\:divideColor-pink-300 > * + *:focus,
+.simple-ui-active\:divideColor-pink-300 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(249, 168, 212, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-pink-400 > * + *,
+.simple-ui-hover\:divideColor-pink-400 > * + *:hover,
+.simple-ui-focus\:divideColor-pink-400 > * + *:focus,
+.simple-ui-active\:divideColor-pink-400 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(244, 114, 182, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-pink-500 > * + *,
+.simple-ui-hover\:divideColor-pink-500 > * + *:hover,
+.simple-ui-focus\:divideColor-pink-500 > * + *:focus,
+.simple-ui-active\:divideColor-pink-500 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(236, 72, 153, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-pink-600 > * + *,
+.simple-ui-hover\:divideColor-pink-600 > * + *:hover,
+.simple-ui-focus\:divideColor-pink-600 > * + *:focus,
+.simple-ui-active\:divideColor-pink-600 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(219, 39, 119, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-pink-700 > * + *,
+.simple-ui-hover\:divideColor-pink-700 > * + *:hover,
+.simple-ui-focus\:divideColor-pink-700 > * + *:focus,
+.simple-ui-active\:divideColor-pink-700 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(190, 24, 93, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-pink-800 > * + *,
+.simple-ui-hover\:divideColor-pink-800 > * + *:hover,
+.simple-ui-focus\:divideColor-pink-800 > * + *:focus,
+.simple-ui-active\:divideColor-pink-800 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(157, 23, 77, var(--simple-ui-divide-opacity));
+}
+.simple-ui-divideColor-pink-900 > * + *,
+.simple-ui-hover\:divideColor-pink-900 > * + *:hover,
+.simple-ui-focus\:divideColor-pink-900 > * + *:focus,
+.simple-ui-active\:divideColor-pink-900 > * + *:active {
+	--simple-ui-divide-opacity: 1;
+	border-color: rgba(131, 24, 67, var(--simple-ui-divide-opacity));
+}
