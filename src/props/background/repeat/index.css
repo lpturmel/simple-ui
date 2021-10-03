@@ -1,0 +1,36 @@
+.simple-ui-bg-repeat,
+.simple-ui-hover\:bg-repeat:hover,
+.simple-ui-focus\:bg-repeat:focus,
+.simple-ui-active\:bg-repeat:active {
+  background-repeat: repeat;
+}
+.simple-ui-bg-no-repeat,
+.simple-ui-hover\:bg-no-repeat:hover,
+.simple-ui-focus\:bg-no-repeat:focus,
+.simple-ui-active\:bg-no-repeat:active {
+  background-repeat: no-repeat;
+}
+.simple-ui-bg-repeat-x,
+.simple-ui-hover\:bg-repeat-x:hover,
+.simple-ui-focus\:bg-repeat-x:focus,
+.simple-ui-active\:bg-repeat-x:active {
+  background-repeat: repeat-x;
+}
+.simple-ui-bg-repeat-y,
+.simple-ui-hover\:bg-repeat-y:hover,
+.simple-ui-focus\:bg-repeat-y:focus,
+.simple-ui-active\:bg-repeat-y:active {
+  background-repeat: repeat-y;
+}
+.simple-ui-bg-repeat-round,
+.simple-ui-hover\:bg-repeat-round:hover,
+.simple-ui-focus\:bg-repeat-round:focus,
+.simple-ui-active\:bg-repeat-round:active {
+  background-repeat: round;
+}
+.simple-ui-bg-repeat-space,
+.simple-ui-hover\:bg-repeat-space:hover,
+.simple-ui-focus\:bg-repeat-space:focus,
+.simple-ui-active\:bg-repeat-space:active {
+  background-repeat: space;
+}
