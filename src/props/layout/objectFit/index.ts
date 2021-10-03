@@ -1,8 +1,8 @@
 export interface ObjectFitProps {
-  objectFit?: objectFitValues;
+  objectFit?: ObjectFitValues;
 }
 
-export type objectFitValues =
+export type ObjectFitValues =
   | "contain"
   | "cover"
   | "fill"
