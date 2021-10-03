@@ -53,6 +53,7 @@ import { BorderOpacityProps } from "./borders/borderOpacity";
 import { DivideWidthProps } from "./borders/divideWidth";
 import { DivideColorProps } from "./borders/divideColor";
 import { DivideOpacityProps } from "./borders/divideOpacity";
+import { DivideStyleProps } from "./borders/divideStyle";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -81,6 +82,7 @@ type MainProps<T = {}> =
 		DivideWidthProps &
 		DivideColorProps &
 		DivideOpacityProps &
+		DivideStyleProps &
 		// Transition & animations
 		TransitionProps &
 		TransitionDurationProps &
