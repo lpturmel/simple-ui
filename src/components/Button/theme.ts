@@ -15,6 +15,11 @@ const ButtonOptions: ThemeComponentOptions = {
 		_active: {
 			bg: "gray.600",
 		},
+		_focus: {
+			ringWidth: 3,
+		},
+		transitionDuration: 200,
+		transition: "colors",
 	},
 };
 
