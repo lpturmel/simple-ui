@@ -1,0 +1,18 @@
+.simple-ui-bg-auto,
+.simple-ui-hover\:bg-auto:hover,
+.simple-ui-focus\:bg-auto:focus,
+.simple-ui-active\:bg-auto:active {
+  background-size: auto;
+}
+.simple-ui-bg-cover,
+.simple-ui-hover\:bg-cover:hover,
+.simple-ui-focus\:bg-cover:focus,
+.simple-ui-active\:bg-cover:active {
+  background-size: cover;
+}
+.simple-ui-bg-contain,
+.simple-ui-hover\:bg-contain:hover,
+.simple-ui-focus\:bg-contain:focus,
+.simple-ui-active\:bg-contain:active {
+  background-size: contain;
+}
