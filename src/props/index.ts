@@ -44,6 +44,7 @@ import { MaxHeightProps } from "./sizing/maxHeight/maxHeight";
 import { BorderWidthProps } from "./borders/borderWidth";
 import { BorderColorProps } from "./borders/borderColor";
 import { BorderStyleProps } from "./borders/borderStyle";
+import { TransitionProps } from "./transition/transitionProperty";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -68,6 +69,8 @@ type MainProps<T = {}> =
 		BorderWidthProps &
 		BorderColorProps &
 		BorderStyleProps &
+		// Transition & animations
+		TransitionProps &
 		//
 		DisplayProps &
 		PositionProps &
