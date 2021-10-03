@@ -1,90 +1,90 @@
 .simple-ui-borderOpacity-0,
 .simple-ui-hover\:borderOpacity-0:hover,
 .simple-ui-focus\:borderOpacity-0:focus,
-.simepl-ui-active\:borderOpacity-0:active {
+.simple-ui-active\:borderOpacity-0:active {
 	--simple-ui-border-opacity: 0;
 }
 .simple-ui-borderOpacity-5,
 .simple-ui-hover\:borderOpacity-5:hover,
 .simple-ui-focus\:borderOpacity-5:focus,
-.simepl-ui-active\:borderOpacity-5:active {
+.simple-ui-active\:borderOpacity-5:active {
 	--simple-ui-border-opacity: 0.05;
 }
 .simple-ui-borderOpacity-10,
 .simple-ui-hover\:borderOpacity-10:hover,
 .simple-ui-focus\:borderOpacity-10:focus,
-.simepl-ui-active\:borderOpacity-10:active {
+.simple-ui-active\:borderOpacity-10:active {
 	--simple-ui-border-opacity: 0.1;
 }
 .simple-ui-borderOpacity-20,
 .simple-ui-hover\:borderOpacity-20:hover,
 .simple-ui-focus\:borderOpacity-20:focus,
-.simepl-ui-active\:borderOpacity-20:active {
+.simple-ui-active\:borderOpacity-20:active {
 	--simple-ui-border-opacity: 0.2;
 }
 .simple-ui-borderOpacity-25,
 .simple-ui-hover\:borderOpacity-25:hover,
 .simple-ui-focus\:borderOpacity-25:focus,
-.simepl-ui-active\:borderOpacity-25:active {
+.simple-ui-active\:borderOpacity-25:active {
 	--simple-ui-border-opacity: 0.25;
 }
 .simple-ui-borderOpacity-30,
 .simple-ui-hover\:borderOpacity-30:hover,
 .simple-ui-focus\:borderOpacity-30:focus,
-.simepl-ui-active\:borderOpacity-30:active {
+.simple-ui-active\:borderOpacity-30:active {
 	--simple-ui-border-opacity: 0.3;
 }
 .simple-ui-borderOpacity-40,
 .simple-ui-hover\:borderOpacity-40:hover,
 .simple-ui-focus\:borderOpacity-40:focus,
-.simepl-ui-active\:borderOpacity-40:active {
+.simple-ui-active\:borderOpacity-40:active {
 	--simple-ui-border-opacity: 0.4;
 }
 .simple-ui-borderOpacity-50,
 .simple-ui-hover\:borderOpacity-50:hover,
 .simple-ui-focus\:borderOpacity-50:focus,
-.simepl-ui-active\:borderOpacity-50:active {
+.simple-ui-active\:borderOpacity-50:active {
 	--simple-ui-border-opacity: 0.5;
 }
 .simple-ui-borderOpacity-60,
 .simple-ui-hover\:borderOpacity-60:hover,
 .simple-ui-focus\:borderOpacity-60:focus,
-.simepl-ui-active\:borderOpacity-60:active {
+.simple-ui-active\:borderOpacity-60:active {
 	--simple-ui-border-opacity: 0.6;
 }
 .simple-ui-borderOpacity-70,
 .simple-ui-hover\:borderOpacity-70:hover,
 .simple-ui-focus\:borderOpacity-70:focus,
-.simepl-ui-active\:borderOpacity-70:active {
+.simple-ui-active\:borderOpacity-70:active {
 	--simple-ui-border-opacity: 0.7;
 }
 .simple-ui-borderOpacity-75,
 .simple-ui-hover\:borderOpacity-75:hover,
 .simple-ui-focus\:borderOpacity-75:focus,
-.simepl-ui-active\:borderOpacity-75:active {
+.simple-ui-active\:borderOpacity-75:active {
 	--simple-ui-border-opacity: 0.75;
 }
 .simple-ui-borderOpacity-80,
 .simple-ui-hover\:borderOpacity-80:hover,
 .simple-ui-focus\:borderOpacity-80:focus,
-.simepl-ui-active\:borderOpacity-80:active {
+.simple-ui-active\:borderOpacity-80:active {
 	--simple-ui-border-opacity: 0.8;
 }
 .simple-ui-borderOpacity-90,
 .simple-ui-hover\:borderOpacity-90:hover,
 .simple-ui-focus\:borderOpacity-90:focus,
-.simepl-ui-active\:borderOpacity-90:active {
+.simple-ui-active\:borderOpacity-90:active {
 	--simple-ui-border-opacity: 0.9;
 }
 .simple-ui-borderOpacity-95,
 .simple-ui-hover\:borderOpacity-95:hover,
 .simple-ui-focus\:borderOpacity-95:focus,
-.simepl-ui-active\:borderOpacity-95:active {
+.simple-ui-active\:borderOpacity-95:active {
 	--simple-ui-border-opacity: 0.95;
 }
 .simple-ui-borderOpacity-100,
 .simple-ui-hover\:borderOpacity-100:hover,
 .simple-ui-focus\:borderOpacity-100:focus,
-.simepl-ui-active\:borderOpacity-100:active {
+.simple-ui-active\:borderOpacity-100:active {
 	--simple-ui-border-opacity: 1;
 }
