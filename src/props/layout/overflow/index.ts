@@ -1,7 +1,7 @@
 export interface OverflowProps {
-	overflow?: overflowValues;
-	overflowX?: overflowValues;
-	overflowY?: overflowValues;
+  overflow?: OverflowValues;
+  overflowX?: OverflowValues;
+  overflowY?: OverflowValues;
 }
 
-export type overflowValues = "auto" | "hidden" | "visible" | "scroll";
+export type OverflowValues = "auto" | "hidden" | "visible" | "scroll";
