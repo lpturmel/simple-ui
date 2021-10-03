@@ -1,7 +1,7 @@
 export interface OverscrollBehaviorProps {
-  overscrollBehavior?: overscrollBehaviorValues;
-  overscrollBehaviorX?: overscrollBehaviorValues;
-  overscrollBehaviorY?: overscrollBehaviorValues;
+  overscrollBehavior?: OverscrollBehaviorValues;
+  overscrollBehaviorX?: OverscrollBehaviorValues;
+  overscrollBehaviorY?: OverscrollBehaviorValues;
 }
 
-export type overscrollBehaviorValues = "auto" | "contain" | "none";
+export type OverscrollBehaviorValues = "auto" | "contain" | "none";
