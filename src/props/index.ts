@@ -43,6 +43,7 @@ import { MinHeightProps } from "./sizing/minHeight/minHeight";
 import { MaxHeightProps } from "./sizing/maxHeight/maxHeight";
 import { BorderWidthProps } from "./borders/borderWidth";
 import { BorderColorProps } from "./borders/borderColor";
+import { BorderStyleProps } from "./borders/borderStyle";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -66,6 +67,7 @@ type MainProps<T = {}> =
 		BorderRadiusProps &
 		BorderWidthProps &
 		BorderColorProps &
+		BorderStyleProps &
 		//
 		DisplayProps &
 		PositionProps &
