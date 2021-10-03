@@ -1,4 +1,5 @@
 import { SimpleProvider } from "../../context/SimpleContext";
+import { SimpleThemeConfig } from "../../theme";
 import { Button } from "./Button";
 
 export default {
@@ -6,13 +7,10 @@ export default {
 	title: "UI/Button",
 };
 
+const theme: SimpleThemeConfig = {};
 export const Default = () => (
-	<SimpleProvider>
-		<Button
-			_hover={{ bg: "red.700" }}
-			_active={{ bg: "red.900" }}
-			bg="red.600"
-		>
+	<SimpleProvider theme={theme}>
+		<Button transition="colors" bg="yellow.300">
 			Button
 		</Button>
 	</SimpleProvider>

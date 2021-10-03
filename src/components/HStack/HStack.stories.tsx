@@ -7,9 +7,17 @@ export default {
 };
 
 export const Default = () => (
-	<HStack spacingX={2}>
+	<HStack
+		p={4}
+		spacingX={4}
+		bg="white"
+		borderWidth={4}
+		borderStyle="solid"
+		borderRadius="md"
+		borderColor="yellow.800"
+	>
 		<Button>Button</Button>
-		<Button bg={"blue.400"} px={4} py={2}>
+		<Button _hover={{ backgroundColor: "blue.400" }} px={4} py={2}>
 			Button
 		</Button>
 	</HStack>
