@@ -1,5 +1,9 @@
-export interface ClipProps {
-  backgroundClip?: clipValues;
+export interface BackgroundClipProps {
+  backgroundClip?: BackgroundClipValues;
 }
 
-export type clipValues = "border-box" | "padding-box" | "content-box" | "text";
+export type BackgroundClipValues =
+  | "border-box"
+  | "padding-box"
+  | "content-box"
+  | "text";
