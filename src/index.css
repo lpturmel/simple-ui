@@ -23,6 +23,7 @@ button {
 	border: none;
 	cursor: pointer;
 }
+
 :root {
 	--simple-colors-black: #000000;
 	--simple-colors-blue-50: #ebf8ff;
@@ -187,4 +188,15 @@ button {
 	--simple-colors-yellow-700: #975a16;
 	--simple-colors-yellow-800: #744210;
 	--simple-colors-yellow-900: #5f370e;
+
+	--simple-ui-ring-offset-shadow: 0 0 #0000;
+	--simple-ui-ring-shadow: 0 0 #0000;
+	--simple-ui-shadow: 0 0 #0000;
+	--simple-ui-ring-inset: var(--simple-ui-empty, /*!*/ /*!*/);
+	--simple-ui-ring-offset-width: 0px;
+	--simple-ui-ring-offset-color: #fff;
+	--simple-ui-ring-color: rgba(59, 130, 246, 0.5);
+	--simple-ui-ring-offset-shadow: 0 0 #0000;
+	--simple-ui-ring-shadow: 0 0 #0000;
+	--simple-ui-shadow: 0 0 #0000;
 }
