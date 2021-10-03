@@ -49,6 +49,7 @@ import { TransitionDurationProps } from "./transition/transitionDuration";
 import { TransitionTimingProps } from "./transition/transitionTiming";
 import { TransitionDelayProps } from "./transition/transitionDelay";
 import { AnimateProps } from "./transition/animation";
+import { BorderOpacityProps } from "./borders/borderOpacity";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -73,6 +74,7 @@ type MainProps<T = {}> =
 		BorderWidthProps &
 		BorderColorProps &
 		BorderStyleProps &
+		BorderOpacityProps &
 		// Transition & animations
 		TransitionProps &
 		TransitionDurationProps &
