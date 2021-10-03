@@ -1,5 +1,5 @@
 export interface VisibilityProps {
-  visibility?: visibilityValues;
+  visibility?: VisibilityValues;
 }
 
-export type visibilityValues = "visible" | "hidden";
+export type VisibilityValues = "visible" | "hidden";
