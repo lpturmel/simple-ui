@@ -47,6 +47,8 @@ import "../props/grid/gridRowSpan/index.css";
 import "../props/grid/gridFlow/index.css";
 import "../props/grid/autoColumns/index.css";
 import "../props/grid/autoRows/index.css";
+import "../props/transition/transitionProperty/index.css";
+
 import { DefaultTheme, SimpleThemeConfig } from "../theme";
 
 interface IProviderStore {
