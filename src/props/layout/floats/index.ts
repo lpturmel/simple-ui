@@ -1,5 +1,5 @@
 export interface FloatsProps {
-  float?: floatsValues;
+  float?: FloatsValues;
 }
 
-export type floatsValues = "right" | "left" | "none";
+export type FloatsValues = "right" | "left" | "none";
