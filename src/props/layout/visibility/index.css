@@ -1,0 +1,12 @@
+.simple-ui-visible,
+.simple-ui-hover\:visible:hover,
+.simple-ui-focus\:visible:focus,
+.simple-ui-active\:visible:active {
+  visibility: visible;
+}
+.simple-ui-invisible,
+.simple-ui-hover\:invisible:hover,
+.simple-ui-focus\:invisible:focus,
+.simple-ui-active\:invisible:active {
+  visibility: hidden;
+}

@@ -1,0 +1,18 @@
+.simple-ui-bg-fixed,
+.simple-ui-hover\:bg-fixed:hover,
+.simple-ui-focus\:bg-fixed:focus,
+.simple-ui-active\:bg-fixed:active {
+  background-attachment: fixed;
+}
+.simple-ui-bg-local,
+.simple-ui-hover\:bg-local:hover,
+.simple-ui-focus\:bg-local:focus,
+.simple-ui-active\:bg-local:active {
+  background-attachment: local;
+}
+.simple-ui-bg-scroll,
+.simple-ui-hover\:bg-scroll:hover,
+.simple-ui-focus\:bg-scroll:focus,
+.simple-ui-active\:bg-scroll:active {
+  background-attachment: scroll;
+}

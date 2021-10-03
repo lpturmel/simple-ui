@@ -1,0 +1,12 @@
+.simple-ui-decoration-slice,
+.simple-ui-hover\:decoration-slice:hover,
+.simple-ui-focus\:decoration-slice:focus,
+.simple-ui-active\:decoration-slic:active {
+  box-decoration-break: slice;
+}
+.simple-ui-decoration-clone,
+.simple-ui-hover\:decoration-clone:hover,
+.simple-ui-focus\:decoration-clone:focus,
+.simple-ui-active\:decoration-clone:active {
+  box-decoration-break: clone;
+}

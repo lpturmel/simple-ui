@@ -1,0 +1,30 @@
+.simple-ui-object-contain,
+.simple-ui-hover\:object-contain:hover,
+.simple-ui-focus\:object-contain:focus,
+.simple-ui-active\:object-contain:active {
+  object-fit: contain;
+}
+.simple-ui-object-cover,
+.simple-ui-hover\:object-cover:hover,
+.simple-ui-focus\:object-cover:focus,
+.simple-ui-active\:object-cover:active {
+  object-fit: cover;
+}
+.simple-ui-object-fill,
+.simple-ui-hover\:object-fill:hover,
+.simple-ui-focus\:object-fill:focus,
+.simple-ui-active\:object-fill:active {
+  object-fit: fill;
+}
+.simple-ui-object-none,
+.simple-ui-hover\:object-none:hover,
+.simple-ui-focus\:object-none:focus,
+.simple-ui-active\:object-none:active {
+  object-fit: none;
+}
+.simple-ui-object-scale-down,
+.simple-ui-hover\:object-scale-down:hover,
+.simple-ui-focus\:object-scale-down:focus,
+.simple-ui-active\:object-scale-down:active {
+  object-fit: scale-down;
+}
