@@ -56,6 +56,9 @@ import { DivideOpacityProps } from "./borders/divideOpacity";
 import { DivideStyleProps } from "./borders/divideStyle";
 import { RingWidthProps } from "./borders/ringWidth";
 import { RingColorProps } from "./borders/ringColor";
+import { RingOpacityProps } from "./borders/ringOpacity";
+import { RingOffsetWidthProps } from "./borders/ringOffsetWidth";
+import { RingOffsetColorProps } from "./borders/ringOffsetColor";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -87,6 +90,9 @@ type MainProps<T = {}> =
 		DivideStyleProps &
 		RingWidthProps &
 		RingColorProps &
+		RingOpacityProps &
+		RingOffsetWidthProps &
+		RingOffsetColorProps &
 		// Transition & animations
 		TransitionProps &
 		TransitionDurationProps &
