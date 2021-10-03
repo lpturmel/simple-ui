@@ -1,7 +1,7 @@
 import { SimpleColorValues } from "../../Global";
 
-export interface ColorProps {
-    backgroundColor?: SimpleColorValues;
-    bg?: SimpleColorValues;
-    color?: SimpleColorValues;
+export interface BackgroundColorProps {
+  backgroundColor?: SimpleColorValues;
+  bg?: SimpleColorValues;
+  color?: SimpleColorValues;
 }
