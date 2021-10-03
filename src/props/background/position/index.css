@@ -1,0 +1,54 @@
+.simple-ui-bg-bottom,
+.simple-ui-hover\:bg-bottom:hover,
+.simple-ui-focus\:bg-bottom:focus,
+.simple-ui-active\:bg-bottom:active {
+  background-position: bottom;
+}
+.simple-ui-bg-center,
+.simple-ui-hover\:bg-center:hover,
+.simple-ui-focus\:bg-center:focus,
+.simple-ui-active\:bg-center:active {
+  background-position: center;
+}
+.simple-ui-bg-left,
+.simple-ui-hover\:bg-left:hover,
+.simple-ui-focus\:bg-left:focus,
+.simple-ui-active\:bg-left:active {
+  background-position: left;
+}
+.simple-ui-bg-left-bottom,
+.simple-ui-hover\:bg-left-bottom:hover,
+.simple-ui-focus\:bg-left-bottom:focus,
+.simple-ui-active\:bg-left-bottom:active {
+  background-position: left bottom;
+}
+.simple-ui-bg-left-top,
+.simple-ui-hover\:bg-left-top:hover,
+.simple-ui-focus\:bg-left-top:focus,
+.simple-ui-active\:bg-left-top:active {
+  background-position: left top;
+}
+.simple-ui-bg-right,
+.simple-ui-hover\:bg-right:hover,
+.simple-ui-focus\:bg-right:focus,
+.simple-ui-active\:bg-right:active {
+  background-position: right;
+}
+.simple-ui-bg-right-bottom,
+.simple-ui-hover\:bg-right-bottom:hover,
+.simple-ui-focus\:bg-right-bottom:focus,
+.simple-ui-active\:bg-right-bottom:active {
+  background-position: right bottom;
+}
+.simple-ui-bg-right-top,
+.simple-ui-hover\:bg-right-top:hover,
+.simple-ui-focus\:bg-right-top:focus,
+.simple-ui-active\:bg-right-top:active {
+  background-position: right top;
+}
+.simple-ui-bg-top,
+.simple-ui-hover\:bg-top:hover,
+.simple-ui-focus\:bg-top:focus,
+.simple-ui-active\:bg-top:active {
+  background-position: top;
+}
