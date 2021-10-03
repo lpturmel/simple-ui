@@ -1,5 +1,5 @@
 export interface BoxSizingProps {
-  boxSizing?: boxSizingValues;
+  boxSizing?: BoxSizingValues;
 }
 
-export type boxSizingValues = "border-box" | "content-box";
+export type BoxSizingValues = "border-box" | "content-box";
