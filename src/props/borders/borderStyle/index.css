@@ -1,0 +1,30 @@
+.simple-ui-borderStyle-solid,
+.simple-ui-hover\:borderStyle-solid:hover,
+.simple-ui-focus\:borderStyle-solid:focus,
+.simple-ui-active\:borderStyle-solid:active {
+	border-style: solid;
+}
+.simple-ui-borderStyle-dashed,
+.simple-ui-hover\:borderStyle-dashed:hover,
+.simple-ui-focus\:borderStyle-dashed:focus,
+.simple-ui-active\:borderStyle-dashed:active {
+	border-style: dashed;
+}
+.simple-ui-borderStyle-dotted,
+.simple-ui-hover\:borderStyle-dotted:hover,
+.simple-ui-focus\:borderStyle-dotted:focus,
+.simple-ui-active\:borderStyle-dotted:active {
+	border-style: dotted;
+}
+.simple-ui-borderStyle-double,
+.simple-ui-hover\:borderStyle-double:hover,
+.simple-ui-focus\:borderStyle-double:focus,
+.simple-ui-active\:borderStyle-double:active {
+	border-style: double;
+}
+.simple-ui-borderStyle-none,
+.simple-ui-hover\:borderStyle-none:hover,
+.simple-ui-focus\:borderStyle-none:focus,
+.simple-ui-active\:borderStyle-none:active {
+	border-style: none;
+}
