@@ -1,0 +1,49 @@
+.simple-ui-ringOffsetWidth-0,
+.simple-ui-hover\:ringOffsetWidth-0:hover,
+.simple-ui-focus\:ringOffsetWidth-0:focus,
+.simple-ui-active\:ringOffsetWidth-0:active {
+	--simple-ui-ring-offset-width: 0px;
+	box-shadow: 0 0 0 var(--simple-ui-ring-offset-width)
+			var(--simple-ui-ring-offset-color),
+		var(--simple-ui-ring-shadow);
+}
+
+.simple-ui-ringOffsetWidth-1,
+.simple-ui-hover\:ringOffsetWidth-1:hover,
+.simple-ui-focus\:ringOffsetWidth-1:focus,
+.simple-ui-active\:ringOffsetWidth-1:active {
+	--simple-ui-ring-offset-width: 1px;
+	box-shadow: 0 0 0 var(--simple-ui-ring-offset-width)
+			var(--simple-ui-ring-offset-color),
+		var(--simple-ui-ring-shadow);
+}
+
+.simple-ui-ringOffsetWidth-2,
+.simple-ui-hover\:ringOffsetWidth-2:hover,
+.simple-ui-focus\:ringOffsetWidth-2:focus,
+.simple-ui-active\:ringOffsetWidth-2:active {
+	--simple-ui-ring-offset-width: 2px;
+	box-shadow: 0 0 0 var(--simple-ui-ring-offset-width)
+			var(--simple-ui-ring-offset-color),
+		var(--simple-ui-ring-shadow);
+}
+
+.simple-ui-ringOffsetWidth-4,
+.simple-ui-hover\:ringOffsetWidth-4:hover,
+.simple-ui-focus\:ringOffsetWidth-4:focus,
+.simple-ui-active\:ringOffsetWidth-4:active {
+	--simple-ui-ring-offset-width: 4px;
+	box-shadow: 0 0 0 var(--simple-ui-ring-offset-width)
+			var(--simple-ui-ring-offset-color),
+		var(--simple-ui-ring-shadow);
+}
+
+.simple-ui-ringOffsetWidth-8,
+.simple-ui-hover\:ringOffsetWidth-8:hover,
+.simple-ui-focus\:ringOffsetWidth-8:focus,
+.simple-ui-active\:ringOffsetWidth-8:active {
+	--simple-ui-ring-offset-width: 8px;
+	box-shadow: 0 0 0 var(--simple-ui-ring-offset-width)
+			var(--simple-ui-ring-offset-color),
+		var(--simple-ui-ring-shadow);
+}
