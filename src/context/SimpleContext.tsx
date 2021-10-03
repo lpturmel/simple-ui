@@ -51,6 +51,7 @@ import "../props/transition/transitionProperty/index.css";
 import "../props/transition/transitionDuration/index.css";
 import "../props/transition/transitionTiming/index.css";
 import "../props/transition/transitionDelay/index.css";
+import "../props/transition/animation/index.css";
 
 import { DefaultTheme, SimpleThemeConfig } from "../theme";
 
