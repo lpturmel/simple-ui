@@ -48,7 +48,7 @@ export function mergeProps(
 	props: PropsWithChildren<MainProps>
 ) {
 	const [context] = useContext(SimpleContext);
-
+	const defaultStyles = context.defaultTheme.defaultProps;
 	const componentDefaultProps =
 		context.defaultTheme.Components?.[ComponentKey]?.defaultProps;
 
@@ -56,6 +56,7 @@ export function mergeProps(
 		context.theme?.Components?.[ComponentKey]?.defaultProps;
 
 	const parsedProps = {
+		...defaultStyles,
 		...componentDefaultProps,
 		...componentThemeProps,
 		...props,
