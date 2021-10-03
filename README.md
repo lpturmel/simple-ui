@@ -2,6 +2,10 @@
 
 ## SolidJS Component library
 
+## Installation
+
+`yarn add simple-ui-solid`
+
 ## Intro
 
 This project is heavily inspired by [Chakra-ui](https://github.com/chakra-ui/chakra-ui)
@@ -10,9 +14,14 @@ This project is heavily inspired by [Chakra-ui](https://github.com/chakra-ui/cha
 
 Everything is subject to change at this point
 
-## Installation
+This library utilizes CSS templates in order to map JSX props into styling. I wanted little to no overhead regarding Component rendering hence not using emotion/CSS in JS. This comes with the tradeoff of huge CSS files (mostly templates). Similarly to TailwindCSS the plan is to use the custom CLI to purge unused CSS classes within the SolidJS ***build*** package.
 
-`yarn add simple-ui-solid`
+Classes with the component prefix `simple-ui-` that are not used will be removed from the final bundle:
+```CSS
+.simple-ui-borderRadius-none {
+	border-radius: 0px;
+}
+```
 
 ## Component Progress
 
