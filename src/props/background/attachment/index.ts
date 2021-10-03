@@ -1,5 +1,5 @@
-export interface AttachmentProps {
-  backgroundAttachment?: attachmentValues;
+export interface BackgroundAttachmentProps {
+  backgroundAttachment?: BackgroundAttachmentValues;
 }
 
-export type attachmentValues = "fixed" | "local" | "scroll";
+export type BackgroundAttachmentValues = "fixed" | "local" | "scroll";
