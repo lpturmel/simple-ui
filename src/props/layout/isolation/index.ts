@@ -1,5 +1,5 @@
 export interface IsolationProps {
-  isolation?: isolationValues;
+  isolation?: IsolationValues;
 }
 
-export type isolationValues = "isolate" | "auto";
+export type IsolationValues = "isolate" | "auto";
