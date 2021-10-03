@@ -41,49 +41,60 @@ import { MinWidthProps } from "./sizing/minWidth";
 import { MaxWidthProps } from "./sizing/maxWidth";
 import { MinHeightProps } from "./sizing/minHeight/minHeight";
 import { MaxHeightProps } from "./sizing/maxHeight/maxHeight";
+import { BorderWidthProps } from "./borders/borderWidth";
+import { BorderColorProps } from "./borders/borderColor";
 
-type MainProps<T = {}> = PaddingProps &
-	MarginProps &
-	ColorProps &
-	StateProps &
-	FontSizeProps &
-	FontWeightProps &
-	WidthProps &
-	MinWidthProps &
-	MaxWidthProps &
-	HeightProps &
-	MinHeightProps &
-	MaxHeightProps &
-	BorderRadiusProps &
-	SpacingProps &
-	DisplayProps &
-	PositionProps &
-	FlexProps &
-	FlexDirectionProps &
-	FlexGrowProps &
-	FlexShrinkProps &
-	FlexWrapProps &
-	OrderProps &
-	JustifyContentProps &
-	JustifyItemsProps &
-	JustifySelfProps &
-	AlignContentProps &
-	AlignItemsProps &
-	AlignSelfProps &
-	PlaceContentProps &
-	PlaceItemsProps &
-	PlaceSelfProps &
-	GridTemplateColumnProps &
-	GridColSpanProps &
-	GridTemplateRowsProps &
-	GridRowSpanProps &
-	GridFlowProps &
-	AutoColumnsProps &
-	AutoRowsProps &
-	GapProps &
-	OverflowProps &
-	AbsolutePositionProps &
-	ClearProps &
-	ZindexProps &
-	T;
+type MainProps<T = {}> =
+	// Spacing
+	PaddingProps &
+		MarginProps &
+		SpacingProps &
+		// Typography
+		FontSizeProps &
+		FontWeightProps &
+		ColorProps &
+		// Misc
+		StateProps &
+		// Sizing
+		WidthProps &
+		MinWidthProps &
+		MaxWidthProps &
+		HeightProps &
+		MinHeightProps &
+		MaxHeightProps &
+		// Borders
+		BorderRadiusProps &
+		BorderWidthProps &
+		BorderColorProps &
+		//
+		DisplayProps &
+		PositionProps &
+		FlexProps &
+		FlexDirectionProps &
+		FlexGrowProps &
+		FlexShrinkProps &
+		FlexWrapProps &
+		OrderProps &
+		JustifyContentProps &
+		JustifyItemsProps &
+		JustifySelfProps &
+		AlignContentProps &
+		AlignItemsProps &
+		AlignSelfProps &
+		PlaceContentProps &
+		PlaceItemsProps &
+		PlaceSelfProps &
+		GridTemplateColumnProps &
+		GridColSpanProps &
+		GridTemplateRowsProps &
+		GridRowSpanProps &
+		GridFlowProps &
+		AutoColumnsProps &
+		AutoRowsProps &
+		GapProps &
+		OverflowProps &
+		AbsolutePositionProps &
+		ClearProps &
+		ZindexProps &
+		T;
 export default MainProps;
