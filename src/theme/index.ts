@@ -35,9 +35,17 @@ export interface ThemeComponentOptions {
 }
 export interface SimpleThemeConfig {
 	Components?: SimpleComponentList;
+	/**
+	 * Style that applies to every element initially
+	 */
+	defaultProps?: MainProps;
 }
 
 export const DefaultTheme: SimpleThemeConfig = {
+	defaultProps: {
+		borderStyle: "solid",
+		borderWidth: 0,
+	},
 	Components: {
 		Button: {
 			...ButtonOptions,
