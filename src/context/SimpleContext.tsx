@@ -7,7 +7,7 @@ import "../props/sizing/maxWidth/index.css";
 import "../props/sizing/height/index.css";
 import "../props/sizing/minHeight/index.css";
 import "../props/sizing/maxHeight/index.css";
-import "../props/background/colors/index.css";
+import "../props/background/color/index.css";
 import "../props/text/colors/index.css";
 import "../props/text/fontSize/index.css";
 import "../props/text/fontWeight/index.css";
