@@ -1,0 +1,90 @@
+.simple-ui-divideOpacity-0 > * + *,
+.simple-ui-hover\:divideOpacity-0:hover > * + *,
+.simple-ui-focus\:divideOpacity-0:focus > * + *,
+.simple-ui-active\:divideOpacity-0:active {
+	--simple-ui-divide-opacity: 0;
+}
+.simple-ui-divideOpacity-5 > * + *,
+.simple-ui-hover\:divideOpacity-5:hover > * + *,
+.simple-ui-focus\:divideOpacity-5:focus > * + *,
+.simple-ui-active\:divideOpacity-5:active {
+	--simple-ui-divide-opacity: 0.05;
+}
+.simple-ui-divideOpacity-10 > * + *,
+.simple-ui-hover\:divideOpacity-10:hover > * + *,
+.simple-ui-focus\:divideOpacity-10:focus > * + *,
+.simple-ui-active\:divideOpacity-10:active {
+	--simple-ui-divide-opacity: 0.1;
+}
+.simple-ui-divideOpacity-20 > * + *,
+.simple-ui-hover\:divideOpacity-20:hover > * + *,
+.simple-ui-focus\:divideOpacity-20:focus > * + *,
+.simple-ui-active\:divideOpacity-20:active {
+	--simple-ui-divide-opacity: 0.2;
+}
+.simple-ui-divideOpacity-25 > * + *,
+.simple-ui-hover\:divideOpacity-25:hover > * + *,
+.simple-ui-focus\:divideOpacity-25:focus > * + *,
+.simple-ui-active\:divideOpacity-25:active {
+	--simple-ui-divide-opacity: 0.25;
+}
+.simple-ui-divideOpacity-30 > * + *,
+.simple-ui-hover\:divideOpacity-30:hover > * + *,
+.simple-ui-focus\:divideOpacity-30:focus > * + *,
+.simple-ui-active\:divideOpacity-30:active {
+	--simple-ui-divide-opacity: 0.3;
+}
+.simple-ui-divideOpacity-40 > * + *,
+.simple-ui-hover\:divideOpacity-40:hover > * + *,
+.simple-ui-focus\:divideOpacity-40:focus > * + *,
+.simple-ui-active\:divideOpacity-40:active {
+	--simple-ui-divide-opacity: 0.4;
+}
+.simple-ui-divideOpacity-50 > * + *,
+.simple-ui-hover\:divideOpacity-50:hover > * + *,
+.simple-ui-focus\:divideOpacity-50:focus > * + *,
+.simple-ui-active\:divideOpacity-50:active {
+	--simple-ui-divide-opacity: 0.5;
+}
+.simple-ui-divideOpacity-60 > * + *,
+.simple-ui-hover\:divideOpacity-60:hover > * + *,
+.simple-ui-focus\:divideOpacity-60:focus > * + *,
+.simple-ui-active\:divideOpacity-60:active {
+	--simple-ui-divide-opacity: 0.6;
+}
+.simple-ui-divideOpacity-70 > * + *,
+.simple-ui-hover\:divideOpacity-70:hover > * + *,
+.simple-ui-focus\:divideOpacity-70:focus > * + *,
+.simple-ui-active\:divideOpacity-70:active {
+	--simple-ui-divide-opacity: 0.7;
+}
+.simple-ui-divideOpacity-75 > * + *,
+.simple-ui-hover\:divideOpacity-75:hover > * + *,
+.simple-ui-focus\:divideOpacity-75:focus > * + *,
+.simple-ui-active\:divideOpacity-75:active {
+	--simple-ui-divide-opacity: 0.75;
+}
+.simple-ui-divideOpacity-80 > * + *,
+.simple-ui-hover\:divideOpacity-80:hover > * + *,
+.simple-ui-focus\:divideOpacity-80:focus > * + *,
+.simple-ui-active\:divideOpacity-80:active {
+	--simple-ui-divide-opacity: 0.8;
+}
+.simple-ui-divideOpacity-90 > * + *,
+.simple-ui-hover\:divideOpacity-90:hover > * + *,
+.simple-ui-focus\:divideOpacity-90:focus > * + *,
+.simple-ui-active\:divideOpacity-90:active {
+	--simple-ui-divide-opacity: 0.9;
+}
+.simple-ui-divideOpacity-95 > * + *,
+.simple-ui-hover\:divideOpacity-95:hover > * + *,
+.simple-ui-focus\:divideOpacity-95:focus > * + *,
+.simple-ui-active\:divideOpacity-95:active {
+	--simple-ui-divide-opacity: 0.95;
+}
+.simple-ui-divideOpacity-100 > * + *,
+.simple-ui-hover\:divideOpacity-100:hover > * + *,
+.simple-ui-focus\:divideOpacity-100:focus > * + *,
+.simple-ui-active\:divideOpacity-100:active {
+	--simple-ui-divide-opacity: 1;
+}
