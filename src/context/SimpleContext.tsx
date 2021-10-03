@@ -17,6 +17,7 @@ import "../props/borders/borderColor/index.css";
 import "../props/borders/borderStyle/index.css";
 import "../props/borders/borderOpacity/index.css";
 import "../props/borders/divideWidth/index.css";
+import "../props/borders/divideColor/index.css";
 import "../props/spacing/margin/index.css";
 import "../props/spacing/padding/index.css";
 import "../props/spacing/spaceBetween/index.css";
