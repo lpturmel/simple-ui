@@ -2,977 +2,977 @@
 .simple-ui-hover\:color-black:hover,
 .simple-ui-focus\:color-black:focus,
 .simple-ui-active\:color-black:active {
-	color: var(--simple-colors-black);
+	color: var(--simple-ui-colors-black);
 }
 .simple-ui-color-blue-50,
 .simple-ui-hover\:color-blue-50:hover,
 .simple-ui-focus\:color-blue-50:focus,
 .simple-ui-active\:color-blue-50:active {
-	color: var(--simple-colors-blue-50);
+	color: var(--simple-ui-colors-blue-50);
 }
 .simple-ui-color-blue-100,
 .simple-ui-hover\:color-blue-100:hover,
 .simple-ui-focus\:color-blue-100:focus,
 .simple-ui-active\:color-blue-100:active {
-	color: var(--simple-colors-blue-100);
+	color: var(--simple-ui-colors-blue-100);
 }
 .simple-ui-color-blue-200,
 .simple-ui-hover\:color-blue-200:hover,
 .simple-ui-focus\:color-blue-200:focus,
 .simple-ui-active\:color-blue-200:active {
-	color: var(--simple-colors-blue-200);
+	color: var(--simple-ui-colors-blue-200);
 }
 .simple-ui-color-blue-300,
 .simple-ui-hover\:color-blue-300:hover,
 .simple-ui-focus\:color-blue-300:focus,
 .simple-ui-active\:color-blue-300:active {
-	color: var(--simple-colors-blue-300);
+	color: var(--simple-ui-colors-blue-300);
 }
 .simple-ui-color-blue-400,
 .simple-ui-hover\:color-blue-400:hover,
 .simple-ui-focus\:color-blue-400:focus,
 .simple-ui-active\:color-blue-400:active {
-	color: var(--simple-colors-blue-400);
+	color: var(--simple-ui-colors-blue-400);
 }
 .simple-ui-color-blue-500,
 .simple-ui-hover\:color-blue-500:hover,
 .simple-ui-focus\:color-blue-500:focus,
 .simple-ui-active\:color-blue-500:active {
-	color: var(--simple-colors-blue-500);
+	color: var(--simple-ui-colors-blue-500);
 }
 .simple-ui-color-blue-600,
 .simple-ui-hover\:color-blue-600:hover,
 .simple-ui-focus\:color-blue-600:focus,
 .simple-ui-active\:color-blue-600:active {
-	color: var(--simple-colors-blue-600);
+	color: var(--simple-ui-colors-blue-600);
 }
 .simple-ui-color-blue-700,
 .simple-ui-hover\:color-blue-700:hover,
 .simple-ui-focus\:color-blue-700:focus,
 .simple-ui-active\:color-blue-700:active {
-	color: var(--simple-colors-blue-700);
+	color: var(--simple-ui-colors-blue-700);
 }
 .simple-ui-color-blue-800,
 .simple-ui-hover\:color-blue-800:hover,
 .simple-ui-focus\:color-blue-800:focus,
 .simple-ui-active\:color-blue-800:active {
-	color: var(--simple-colors-blue-800);
+	color: var(--simple-ui-colors-blue-800);
 }
 .simple-ui-color-blue-900,
 .simple-ui-hover\:color-blue-900:hover,
 .simple-ui-focus\:color-blue-900:focus,
 .simple-ui-active\:color-blue-900:active {
-	color: var(--simple-colors-blue-900);
+	color: var(--simple-ui-colors-blue-900);
 }
 .simple-ui-color-cyan-50,
 .simple-ui-hover\:color-cyan-50:hover,
 .simple-ui-focus\:color-cyan-50:focus,
 .simple-ui-active\:color-cyan-50:active {
-	color: var(--simple-colors-cyan-50);
+	color: var(--simple-ui-colors-cyan-50);
 }
 .simple-ui-color-cyan-100,
 .simple-ui-hover\:color-cyan-100:hover,
 .simple-ui-focus\:color-cyan-100:focus,
 .simple-ui-active\:color-cyan-100:active {
-	color: var(--simple-colors-cyan-100);
+	color: var(--simple-ui-colors-cyan-100);
 }
 .simple-ui-color-cyan-200,
 .simple-ui-hover\:color-cyan-200:hover,
 .simple-ui-focus\:color-cyan-200:focus,
 .simple-ui-active\:color-cyan-200:active {
-	color: var(--simple-colors-cyan-200);
+	color: var(--simple-ui-colors-cyan-200);
 }
 .simple-ui-color-cyan-300,
 .simple-ui-hover\:color-cyan-300:hover,
 .simple-ui-focus\:color-cyan-300:focus,
 .simple-ui-active\:color-cyan-300:active {
-	color: var(--simple-colors-cyan-300);
+	color: var(--simple-ui-colors-cyan-300);
 }
 .simple-ui-color-cyan-400,
 .simple-ui-hover\:color-cyan-400:hover,
 .simple-ui-focus\:color-cyan-400:focus,
 .simple-ui-active\:color-cyan-400:active {
-	color: var(--simple-colors-cyan-400);
+	color: var(--simple-ui-colors-cyan-400);
 }
 .simple-ui-color-cyan-500,
 .simple-ui-hover\:color-cyan-500:hover,
 .simple-ui-focus\:color-cyan-500:focus,
 .simple-ui-active\:color-cyan-500:active {
-	color: var(--simple-colors-cyan-500);
+	color: var(--simple-ui-colors-cyan-500);
 }
 .simple-ui-color-cyan-600,
 .simple-ui-hover\:color-cyan-600:hover,
 .simple-ui-focus\:color-cyan-600:focus,
 .simple-ui-active\:color-cyan-600:active {
-	color: var(--simple-colors-cyan-600);
+	color: var(--simple-ui-colors-cyan-600);
 }
 .simple-ui-color-cyan-700,
 .simple-ui-hover\:color-cyan-700:hover,
 .simple-ui-focus\:color-cyan-700:focus,
 .simple-ui-active\:color-cyan-700:active {
-	color: var(--simple-colors-cyan-700);
+	color: var(--simple-ui-colors-cyan-700);
 }
 .simple-ui-color-cyan-800,
 .simple-ui-hover\:color-cyan-800:hover,
 .simple-ui-focus\:color-cyan-800:focus,
 .simple-ui-active\:color-cyan-800:active {
-	color: var(--simple-colors-cyan-800);
+	color: var(--simple-ui-colors-cyan-800);
 }
 .simple-ui-color-cyan-900,
 .simple-ui-hover\:color-cyan-900:hover,
 .simple-ui-focus\:color-cyan-900:focus,
 .simple-ui-active\:color-cyan-900:active {
-	color: var(--simple-colors-cyan-900);
+	color: var(--simple-ui-colors-cyan-900);
 }
 .simple-ui-color-facebook-50,
 .simple-ui-hover\:color-facebook-50:hover,
 .simple-ui-focus\:color-facebook-50:focus,
 .simple-ui-active\:color-facebook-50:active {
-	color: var(--simple-colors-facebook-50);
+	color: var(--simple-ui-colors-facebook-50);
 }
 .simple-ui-color-facebook-100,
 .simple-ui-hover\:color-facebook-100:hover,
 .simple-ui-focus\:color-facebook-100:focus,
 .simple-ui-active\:color-facebook-100:active {
-	color: var(--simple-colors-facebook-100);
+	color: var(--simple-ui-colors-facebook-100);
 }
 .simple-ui-color-facebook-200,
 .simple-ui-hover\:color-facebook-200:hover,
 .simple-ui-focus\:color-facebook-200:focus,
 .simple-ui-active\:color-facebook-200:active {
-	color: var(--simple-colors-facebook-200);
+	color: var(--simple-ui-colors-facebook-200);
 }
 .simple-ui-color-facebook-300,
 .simple-ui-hover\:color-facebook-300:hover,
 .simple-ui-focus\:color-facebook-300:focus,
 .simple-ui-active\:color-facebook-300:active {
-	color: var(--simple-colors-facebook-300);
+	color: var(--simple-ui-colors-facebook-300);
 }
 .simple-ui-color-facebook-400,
 .simple-ui-hover\:color-facebook-400:hover,
 .simple-ui-focus\:color-facebook-400:focus,
 .simple-ui-active\:color-facebook-400:active {
-	color: var(--simple-colors-facebook-400);
+	color: var(--simple-ui-colors-facebook-400);
 }
 .simple-ui-color-facebook-500,
 .simple-ui-hover\:color-facebook-500:hover,
 .simple-ui-focus\:color-facebook-500:focus,
 .simple-ui-active\:color-facebook-500:active {
-	color: var(--simple-colors-facebook-500);
+	color: var(--simple-ui-colors-facebook-500);
 }
 .simple-ui-color-facebook-600,
 .simple-ui-hover\:color-facebook-600:hover,
 .simple-ui-focus\:color-facebook-600:focus,
 .simple-ui-active\:color-facebook-600:active {
-	color: var(--simple-colors-facebook-600);
+	color: var(--simple-ui-colors-facebook-600);
 }
 .simple-ui-color-facebook-700,
 .simple-ui-hover\:color-facebook-700:hover,
 .simple-ui-focus\:color-facebook-700:focus,
 .simple-ui-active\:color-facebook-700:active {
-	color: var(--simple-colors-facebook-700);
+	color: var(--simple-ui-colors-facebook-700);
 }
 .simple-ui-color-facebook-800,
 .simple-ui-hover\:color-facebook-800:hover,
 .simple-ui-focus\:color-facebook-800:focus,
 .simple-ui-active\:color-facebook-800:active {
-	color: var(--simple-colors-facebook-800);
+	color: var(--simple-ui-colors-facebook-800);
 }
 .simple-ui-color-facebook-900,
 .simple-ui-hover\:color-facebook-900:hover,
 .simple-ui-focus\:color-facebook-900:focus,
 .simple-ui-active\:color-facebook-900:active {
-	color: var(--simple-colors-facebook-900);
+	color: var(--simple-ui-colors-facebook-900);
 }
 .simple-ui-color-gray-50,
 .simple-ui-hover\:color-gray-50:hover,
 .simple-ui-focus\:color-gray-50:focus,
 .simple-ui-active\:color-gray-50:active {
-	color: var(--simple-colors-gray-50);
+	color: var(--simple-ui-colors-gray-50);
 }
 .simple-ui-color-gray-100,
 .simple-ui-hover\:color-gray-100:hover,
 .simple-ui-focus\:color-gray-100:focus,
 .simple-ui-active\:color-gray-100:active {
-	color: var(--simple-colors-gray-100);
+	color: var(--simple-ui-colors-gray-100);
 }
 .simple-ui-color-gray-200,
 .simple-ui-hover\:color-gray-200:hover,
 .simple-ui-focus\:color-gray-200:focus,
 .simple-ui-active\:color-gray-200:active {
-	color: var(--simple-colors-gray-200);
+	color: var(--simple-ui-colors-gray-200);
 }
 .simple-ui-color-gray-300,
 .simple-ui-hover\:color-gray-300:hover,
 .simple-ui-focus\:color-gray-300:focus,
 .simple-ui-active\:color-gray-300:active {
-	color: var(--simple-colors-gray-300);
+	color: var(--simple-ui-colors-gray-300);
 }
 .simple-ui-color-gray-400,
 .simple-ui-hover\:color-gray-400:hover,
 .simple-ui-focus\:color-gray-400:focus,
 .simple-ui-active\:color-gray-400:active {
-	color: var(--simple-colors-gray-400);
+	color: var(--simple-ui-colors-gray-400);
 }
 .simple-ui-color-gray-500,
 .simple-ui-hover\:color-gray-500:hover,
 .simple-ui-focus\:color-gray-500:focus,
 .simple-ui-active\:color-gray-500:active {
-	color: var(--simple-colors-gray-500);
+	color: var(--simple-ui-colors-gray-500);
 }
 .simple-ui-color-gray-600,
 .simple-ui-hover\:color-gray-600:hover,
 .simple-ui-focus\:color-gray-600:focus,
 .simple-ui-active\:color-gray-600:active {
-	color: var(--simple-colors-gray-600);
+	color: var(--simple-ui-colors-gray-600);
 }
 .simple-ui-color-gray-700,
 .simple-ui-hover\:color-gray-700:hover,
 .simple-ui-focus\:color-gray-700:focus,
 .simple-ui-active\:color-gray-700:active {
-	color: var(--simple-colors-gray-700);
+	color: var(--simple-ui-colors-gray-700);
 }
 .simple-ui-color-gray-800,
 .simple-ui-hover\:color-gray-800:hover,
 .simple-ui-focus\:color-gray-800:focus,
 .simple-ui-active\:color-gray-800:active {
-	color: var(--simple-colors-gray-800);
+	color: var(--simple-ui-colors-gray-800);
 }
 .simple-ui-color-gray-900,
 .simple-ui-hover\:color-gray-900:hover,
 .simple-ui-focus\:color-gray-900:focus,
 .simple-ui-active\:color-gray-900:active {
-	color: var(--simple-colors-gray-900);
+	color: var(--simple-ui-colors-gray-900);
 }
 .simple-ui-color-green-50,
 .simple-ui-hover\:color-green-50:hover,
 .simple-ui-focus\:color-green-50:focus,
 .simple-ui-active\:color-green-50:active {
-	color: var(--simple-colors-green-50);
+	color: var(--simple-ui-colors-green-50);
 }
 .simple-ui-color-green-100,
 .simple-ui-hover\:color-green-100:hover,
 .simple-ui-focus\:color-green-100:focus,
 .simple-ui-active\:color-green-100:active {
-	color: var(--simple-colors-green-100);
+	color: var(--simple-ui-colors-green-100);
 }
 .simple-ui-color-green-200,
 .simple-ui-hover\:color-green-200:hover,
 .simple-ui-focus\:color-green-200:focus,
 .simple-ui-active\:color-green-200:active {
-	color: var(--simple-colors-green-200);
+	color: var(--simple-ui-colors-green-200);
 }
 .simple-ui-color-green-300,
 .simple-ui-hover\:color-green-300:hover,
 .simple-ui-focus\:color-green-300:focus,
 .simple-ui-active\:color-green-300:active {
-	color: var(--simple-colors-green-300);
+	color: var(--simple-ui-colors-green-300);
 }
 .simple-ui-color-green-400,
 .simple-ui-hover\:color-green-400:hover,
 .simple-ui-focus\:color-green-400:focus,
 .simple-ui-active\:color-green-400:active {
-	color: var(--simple-colors-green-400);
+	color: var(--simple-ui-colors-green-400);
 }
 .simple-ui-color-green-500,
 .simple-ui-hover\:color-green-500:hover,
 .simple-ui-focus\:color-green-500:focus,
 .simple-ui-active\:color-green-500:active {
-	color: var(--simple-colors-green-500);
+	color: var(--simple-ui-colors-green-500);
 }
 .simple-ui-color-green-600,
 .simple-ui-hover\:color-green-600:hover,
 .simple-ui-focus\:color-green-600:focus,
 .simple-ui-active\:color-green-600:active {
-	color: var(--simple-colors-green-600);
+	color: var(--simple-ui-colors-green-600);
 }
 .simple-ui-color-green-700,
 .simple-ui-hover\:color-green-700:hover,
 .simple-ui-focus\:color-green-700:focus,
 .simple-ui-active\:color-green-700:active {
-	color: var(--simple-colors-green-700);
+	color: var(--simple-ui-colors-green-700);
 }
 .simple-ui-color-green-800,
 .simple-ui-hover\:color-green-800:hover,
 .simple-ui-focus\:color-green-800:focus,
 .simple-ui-active\:color-green-800:active {
-	color: var(--simple-colors-green-800);
+	color: var(--simple-ui-colors-green-800);
 }
 .simple-ui-color-green-900,
 .simple-ui-hover\:color-green-900:hover,
 .simple-ui-focus\:color-green-900:focus,
 .simple-ui-active\:color-green-900:active {
-	color: var(--simple-colors-green-900);
+	color: var(--simple-ui-colors-green-900);
 }
 .simple-ui-color-linkedin-50,
 .simple-ui-hover\:color-linkedin-50:hover,
 .simple-ui-focus\:color-linkedin-50:focus,
 .simple-ui-active\:color-linkedin-50:active {
-	color: var(--simple-colors-linkedin-50);
+	color: var(--simple-ui-colors-linkedin-50);
 }
 .simple-ui-color-linkedin-100,
 .simple-ui-hover\:color-linkedin-100:hover,
 .simple-ui-focus\:color-linkedin-100:focus,
 .simple-ui-active\:color-linkedin-100:active {
-	color: var(--simple-colors-linkedin-100);
+	color: var(--simple-ui-colors-linkedin-100);
 }
 .simple-ui-color-linkedin-200,
 .simple-ui-hover\:color-linkedin-200:hover,
 .simple-ui-focus\:color-linkedin-200:focus,
 .simple-ui-active\:color-linkedin-200:active {
-	color: var(--simple-colors-linkedin-200);
+	color: var(--simple-ui-colors-linkedin-200);
 }
 .simple-ui-color-linkedin-300,
 .simple-ui-hover\:color-linkedin-300:hover,
 .simple-ui-focus\:color-linkedin-300:focus,
 .simple-ui-active\:color-linkedin-300:active {
-	color: var(--simple-colors-linkedin-300);
+	color: var(--simple-ui-colors-linkedin-300);
 }
 .simple-ui-color-linkedin-400,
 .simple-ui-hover\:color-linkedin-400:hover,
 .simple-ui-focus\:color-linkedin-400:focus,
 .simple-ui-active\:color-linkedin-400:active {
-	color: var(--simple-colors-linkedin-400);
+	color: var(--simple-ui-colors-linkedin-400);
 }
 .simple-ui-color-linkedin-500,
 .simple-ui-hover\:color-linkedin-500:hover,
 .simple-ui-focus\:color-linkedin-500:focus,
 .simple-ui-active\:color-linkedin-500:active {
-	color: var(--simple-colors-linkedin-500);
+	color: var(--simple-ui-colors-linkedin-500);
 }
 .simple-ui-color-linkedin-600,
 .simple-ui-hover\:color-linkedin-600:hover,
 .simple-ui-focus\:color-linkedin-600:focus,
 .simple-ui-active\:color-linkedin-600:active {
-	color: var(--simple-colors-linkedin-600);
+	color: var(--simple-ui-colors-linkedin-600);
 }
 .simple-ui-color-linkedin-700,
 .simple-ui-hover\:color-linkedin-700:hover,
 .simple-ui-focus\:color-linkedin-700:focus,
 .simple-ui-active\:color-linkedin-700:active {
-	color: var(--simple-colors-linkedin-700);
+	color: var(--simple-ui-colors-linkedin-700);
 }
 .simple-ui-color-linkedin-800,
 .simple-ui-hover\:color-linkedin-800:hover,
 .simple-ui-focus\:color-linkedin-800:focus,
 .simple-ui-active\:color-linkedin-800:active {
-	color: var(--simple-colors-linkedin-800);
+	color: var(--simple-ui-colors-linkedin-800);
 }
 .simple-ui-color-linkedin-900,
 .simple-ui-hover\:color-linkedin-900:hover,
 .simple-ui-focus\:color-linkedin-900:focus,
 .simple-ui-active\:color-linkedin-900:active {
-	color: var(--simple-colors-linkedin-900);
+	color: var(--simple-ui-colors-linkedin-900);
 }
 .simple-ui-color-messenger-50,
 .simple-ui-hover\:color-messenger-50:hover,
 .simple-ui-focus\:color-messenger-50:focus,
 .simple-ui-active\:color-messenger-50:active {
-	color: var(--simple-colors-messenger-50);
+	color: var(--simple-ui-colors-messenger-50);
 }
 .simple-ui-color-messenger-100,
 .simple-ui-hover\:color-messenger-100:hover,
 .simple-ui-focus\:color-messenger-100:focus,
 .simple-ui-active\:color-messenger-100:active {
-	color: var(--simple-colors-messenger-100);
+	color: var(--simple-ui-colors-messenger-100);
 }
 .simple-ui-color-messenger-200,
 .simple-ui-hover\:color-messenger-200:hover,
 .simple-ui-focus\:color-messenger-200:focus,
 .simple-ui-active\:color-messenger-200:active {
-	color: var(--simple-colors-messenger-200);
+	color: var(--simple-ui-colors-messenger-200);
 }
 .simple-ui-color-messenger-300,
 .simple-ui-hover\:color-messenger-300:hover,
 .simple-ui-focus\:color-messenger-300:focus,
 .simple-ui-active\:color-messenger-300:active {
-	color: var(--simple-colors-messenger-300);
+	color: var(--simple-ui-colors-messenger-300);
 }
 .simple-ui-color-messenger-400,
 .simple-ui-hover\:color-messenger-400:hover,
 .simple-ui-focus\:color-messenger-400:focus,
 .simple-ui-active\:color-messenger-400:active {
-	color: var(--simple-colors-messenger-400);
+	color: var(--simple-ui-colors-messenger-400);
 }
 .simple-ui-color-messenger-500,
 .simple-ui-hover\:color-messenger-500:hover,
 .simple-ui-focus\:color-messenger-500:focus,
 .simple-ui-active\:color-messenger-500:active {
-	color: var(--simple-colors-messenger-500);
+	color: var(--simple-ui-colors-messenger-500);
 }
 .simple-ui-color-messenger-600,
 .simple-ui-hover\:color-messenger-600:hover,
 .simple-ui-focus\:color-messenger-600:focus,
 .simple-ui-active\:color-messenger-600:active {
-	color: var(--simple-colors-messenger-600);
+	color: var(--simple-ui-colors-messenger-600);
 }
 .simple-ui-color-messenger-700,
 .simple-ui-hover\:color-messenger-700:hover,
 .simple-ui-focus\:color-messenger-700:focus,
 .simple-ui-active\:color-messenger-700:active {
-	color: var(--simple-colors-messenger-700);
+	color: var(--simple-ui-colors-messenger-700);
 }
 .simple-ui-color-messenger-800,
 .simple-ui-hover\:color-messenger-800:hover,
 .simple-ui-focus\:color-messenger-800:focus,
 .simple-ui-active\:color-messenger-800:active {
-	color: var(--simple-colors-messenger-800);
+	color: var(--simple-ui-colors-messenger-800);
 }
 .simple-ui-color-messenger-900,
 .simple-ui-hover\:color-messenger-900:hover,
 .simple-ui-focus\:color-messenger-900:focus,
 .simple-ui-active\:color-messenger-900:active {
-	color: var(--simple-colors-messenger-900);
+	color: var(--simple-ui-colors-messenger-900);
 }
 .simple-ui-color-orange-50,
 .simple-ui-hover\:color-orange-50:hover,
 .simple-ui-focus\:color-orange-50:focus,
 .simple-ui-active\:color-orange-50:active {
-	color: var(--simple-colors-orange-50);
+	color: var(--simple-ui-colors-orange-50);
 }
 .simple-ui-color-orange-100,
 .simple-ui-hover\:color-orange-100:hover,
 .simple-ui-focus\:color-orange-100:focus,
 .simple-ui-active\:color-orange-100:active {
-	color: var(--simple-colors-orange-100);
+	color: var(--simple-ui-colors-orange-100);
 }
 .simple-ui-color-orange-200,
 .simple-ui-hover\:color-orange-200:hover,
 .simple-ui-focus\:color-orange-200:focus,
 .simple-ui-active\:color-orange-200:active {
-	color: var(--simple-colors-orange-200);
+	color: var(--simple-ui-colors-orange-200);
 }
 .simple-ui-color-orange-300,
 .simple-ui-hover\:color-orange-300:hover,
 .simple-ui-focus\:color-orange-300:focus,
 .simple-ui-active\:color-orange-300:active {
-	color: var(--simple-colors-orange-300);
+	color: var(--simple-ui-colors-orange-300);
 }
 .simple-ui-color-orange-400,
 .simple-ui-hover\:color-orange-400:hover,
 .simple-ui-focus\:color-orange-400:focus,
 .simple-ui-active\:color-orange-400:active {
-	color: var(--simple-colors-orange-400);
+	color: var(--simple-ui-colors-orange-400);
 }
 .simple-ui-color-orange-500,
 .simple-ui-hover\:color-orange-500:hover,
 .simple-ui-focus\:color-orange-500:focus,
 .simple-ui-active\:color-orange-500:active {
-	color: var(--simple-colors-orange-500);
+	color: var(--simple-ui-colors-orange-500);
 }
 .simple-ui-color-orange-600,
 .simple-ui-hover\:color-orange-600:hover,
 .simple-ui-focus\:color-orange-600:focus,
 .simple-ui-active\:color-orange-600:active {
-	color: var(--simple-colors-orange-600);
+	color: var(--simple-ui-colors-orange-600);
 }
 .simple-ui-color-orange-700,
 .simple-ui-hover\:color-orange-700:hover,
 .simple-ui-focus\:color-orange-700:focus,
 .simple-ui-active\:color-orange-700:active {
-	color: var(--simple-colors-orange-700);
+	color: var(--simple-ui-colors-orange-700);
 }
 .simple-ui-color-orange-800,
 .simple-ui-hover\:color-orange-800:hover,
 .simple-ui-focus\:color-orange-800:focus,
 .simple-ui-active\:color-orange-800:active {
-	color: var(--simple-colors-orange-800);
+	color: var(--simple-ui-colors-orange-800);
 }
 .simple-ui-color-orange-900,
 .simple-ui-hover\:color-orange-900:hover,
 .simple-ui-focus\:color-orange-900:focus,
 .simple-ui-active\:color-orange-900:active {
-	color: var(--simple-colors-orange-900);
+	color: var(--simple-ui-colors-orange-900);
 }
 .simple-ui-color-pink-50,
 .simple-ui-hover\:color-pink-50:hover,
 .simple-ui-focus\:color-pink-50:focus,
 .simple-ui-active\:color-pink-50:active {
-	color: var(--simple-colors-pink-50);
+	color: var(--simple-ui-colors-pink-50);
 }
 .simple-ui-color-pink-100,
 .simple-ui-hover\:color-pink-100:hover,
 .simple-ui-focus\:color-pink-100:focus,
 .simple-ui-active\:color-pink-100:active {
-	color: var(--simple-colors-pink-100);
+	color: var(--simple-ui-colors-pink-100);
 }
 .simple-ui-color-pink-200,
 .simple-ui-hover\:color-pink-200:hover,
 .simple-ui-focus\:color-pink-200:focus,
 .simple-ui-active\:color-pink-200:active {
-	color: var(--simple-colors-pink-200);
+	color: var(--simple-ui-colors-pink-200);
 }
 .simple-ui-color-pink-300,
 .simple-ui-hover\:color-pink-300:hover,
 .simple-ui-focus\:color-pink-300:focus,
 .simple-ui-active\:color-pink-300:active {
-	color: var(--simple-colors-pink-300);
+	color: var(--simple-ui-colors-pink-300);
 }
 .simple-ui-color-pink-400,
 .simple-ui-hover\:color-pink-400:hover,
 .simple-ui-focus\:color-pink-400:focus,
 .simple-ui-active\:color-pink-400:active {
-	color: var(--simple-colors-pink-400);
+	color: var(--simple-ui-colors-pink-400);
 }
 .simple-ui-color-pink-500,
 .simple-ui-hover\:color-pink-500:hover,
 .simple-ui-focus\:color-pink-500:focus,
 .simple-ui-active\:color-pink-500:active {
-	color: var(--simple-colors-pink-500);
+	color: var(--simple-ui-colors-pink-500);
 }
 .simple-ui-color-pink-600,
 .simple-ui-hover\:color-pink-600:hover,
 .simple-ui-focus\:color-pink-600:focus,
 .simple-ui-active\:color-pink-600:active {
-	color: var(--simple-colors-pink-600);
+	color: var(--simple-ui-colors-pink-600);
 }
 .simple-ui-color-pink-700,
 .simple-ui-hover\:color-pink-700:hover,
 .simple-ui-focus\:color-pink-700:focus,
 .simple-ui-active\:color-pink-700:active {
-	color: var(--simple-colors-pink-700);
+	color: var(--simple-ui-colors-pink-700);
 }
 .simple-ui-color-pink-800,
 .simple-ui-hover\:color-pink-800:hover,
 .simple-ui-focus\:color-pink-800:focus,
 .simple-ui-active\:color-pink-800:active {
-	color: var(--simple-colors-pink-800);
+	color: var(--simple-ui-colors-pink-800);
 }
 .simple-ui-color-pink-900,
 .simple-ui-hover\:color-pink-900:hover,
 .simple-ui-focus\:color-pink-900:focus,
 .simple-ui-active\:color-pink-900:active {
-	color: var(--simple-colors-pink-900);
+	color: var(--simple-ui-colors-pink-900);
 }
 .simple-ui-color-purple-50,
 .simple-ui-hover\:color-purple-50:hover,
 .simple-ui-focus\:color-purple-50:focus,
 .simple-ui-active\:color-purple-50:active {
-	color: var(--simple-colors-purple-50);
+	color: var(--simple-ui-colors-purple-50);
 }
 .simple-ui-color-purple-100,
 .simple-ui-hover\:color-purple-100:hover,
 .simple-ui-focus\:color-purple-100:focus,
 .simple-ui-active\:color-purple-100:active {
-	color: var(--simple-colors-purple-100);
+	color: var(--simple-ui-colors-purple-100);
 }
 .simple-ui-color-purple-200,
 .simple-ui-hover\:color-purple-200:hover,
 .simple-ui-focus\:color-purple-200:focus,
 .simple-ui-active\:color-purple-200:active {
-	color: var(--simple-colors-purple-200);
+	color: var(--simple-ui-colors-purple-200);
 }
 .simple-ui-color-purple-300,
 .simple-ui-hover\:color-purple-300:hover,
 .simple-ui-focus\:color-purple-300:focus,
 .simple-ui-active\:color-purple-300:active {
-	color: var(--simple-colors-purple-300);
+	color: var(--simple-ui-colors-purple-300);
 }
 .simple-ui-color-purple-400,
 .simple-ui-hover\:color-purple-400:hover,
 .simple-ui-focus\:color-purple-400:focus,
 .simple-ui-active\:color-purple-400:active {
-	color: var(--simple-colors-purple-400);
+	color: var(--simple-ui-colors-purple-400);
 }
 .simple-ui-color-purple-500,
 .simple-ui-hover\:color-purple-500:hover,
 .simple-ui-focus\:color-purple-500:focus,
 .simple-ui-active\:color-purple-500:active {
-	color: var(--simple-colors-purple-500);
+	color: var(--simple-ui-colors-purple-500);
 }
 .simple-ui-color-purple-600,
 .simple-ui-hover\:color-purple-600:hover,
 .simple-ui-focus\:color-purple-600:focus,
 .simple-ui-active\:color-purple-600:active {
-	color: var(--simple-colors-purple-600);
+	color: var(--simple-ui-colors-purple-600);
 }
 .simple-ui-color-purple-700,
 .simple-ui-hover\:color-purple-700:hover,
 .simple-ui-focus\:color-purple-700:focus,
 .simple-ui-active\:color-purple-700:active {
-	color: var(--simple-colors-purple-700);
+	color: var(--simple-ui-colors-purple-700);
 }
 .simple-ui-color-purple-800,
 .simple-ui-hover\:color-purple-800:hover,
 .simple-ui-focus\:color-purple-800:focus,
 .simple-ui-active\:color-purple-800:active {
-	color: var(--simple-colors-purple-800);
+	color: var(--simple-ui-colors-purple-800);
 }
 .simple-ui-color-purple-900,
 .simple-ui-hover\:color-purple-900:hover,
 .simple-ui-focus\:color-purple-900:focus,
 .simple-ui-active\:color-purple-900:active {
-	color: var(--simple-colors-purple-900);
+	color: var(--simple-ui-colors-purple-900);
 }
 .simple-ui-color-red-50,
 .simple-ui-hover\:color-red-50:hover,
 .simple-ui-focus\:color-red-50:focus,
 .simple-ui-active\:color-red-50:active {
-	color: var(--simple-colors-red-50);
+	color: var(--simple-ui-colors-red-50);
 }
 .simple-ui-color-red-100,
 .simple-ui-hover\:color-red-100:hover,
 .simple-ui-focus\:color-red-100:focus,
 .simple-ui-active\:color-red-100:active {
-	color: var(--simple-colors-red-100);
+	color: var(--simple-ui-colors-red-100);
 }
 .simple-ui-color-red-200,
 .simple-ui-hover\:color-red-200:hover,
 .simple-ui-focus\:color-red-200:focus,
 .simple-ui-active\:color-red-200:active {
-	color: var(--simple-colors-red-200);
+	color: var(--simple-ui-colors-red-200);
 }
 .simple-ui-color-red-300,
 .simple-ui-hover\:color-red-300:hover,
 .simple-ui-focus\:color-red-300:focus,
 .simple-ui-active\:color-red-300:active {
-	color: var(--simple-colors-red-300);
+	color: var(--simple-ui-colors-red-300);
 }
 .simple-ui-color-red-400,
 .simple-ui-hover\:color-red-400:hover,
 .simple-ui-focus\:color-red-400:focus,
 .simple-ui-active\:color-red-400:active {
-	color: var(--simple-colors-red-400);
+	color: var(--simple-ui-colors-red-400);
 }
 .simple-ui-color-red-500,
 .simple-ui-hover\:color-red-500:hover,
 .simple-ui-focus\:color-red-500:focus,
 .simple-ui-active\:color-red-500:active {
-	color: var(--simple-colors-red-500);
+	color: var(--simple-ui-colors-red-500);
 }
 .simple-ui-color-red-600,
 .simple-ui-hover\:color-red-600:hover,
 .simple-ui-focus\:color-red-600:focus,
 .simple-ui-active\:color-red-600:active {
-	color: var(--simple-colors-red-600);
+	color: var(--simple-ui-colors-red-600);
 }
 .simple-ui-color-red-700,
 .simple-ui-hover\:color-red-700:hover,
 .simple-ui-focus\:color-red-700:focus,
 .simple-ui-active\:color-red-700:active {
-	color: var(--simple-colors-red-700);
+	color: var(--simple-ui-colors-red-700);
 }
 .simple-ui-color-red-800,
 .simple-ui-hover\:color-red-800:hover,
 .simple-ui-focus\:color-red-800:focus,
 .simple-ui-active\:color-red-800:active {
-	color: var(--simple-colors-red-800);
+	color: var(--simple-ui-colors-red-800);
 }
 .simple-ui-color-red-900,
 .simple-ui-hover\:color-red-900:hover,
 .simple-ui-focus\:color-red-900:focus,
 .simple-ui-active\:color-red-900:active {
-	color: var(--simple-colors-red-900);
+	color: var(--simple-ui-colors-red-900);
 }
 .simple-ui-color-teal-50,
 .simple-ui-hover\:color-teal-50:hover,
 .simple-ui-focus\:color-teal-50:focus,
 .simple-ui-active\:color-teal-50:active {
-	color: var(--simple-colors-teal-50);
+	color: var(--simple-ui-colors-teal-50);
 }
 .simple-ui-color-teal-100,
 .simple-ui-hover\:color-teal-100:hover,
 .simple-ui-focus\:color-teal-100:focus,
 .simple-ui-active\:color-teal-100:active {
-	color: var(--simple-colors-teal-100);
+	color: var(--simple-ui-colors-teal-100);
 }
 .simple-ui-color-teal-200,
 .simple-ui-hover\:color-teal-200:hover,
 .simple-ui-focus\:color-teal-200:focus,
 .simple-ui-active\:color-teal-200:active {
-	color: var(--simple-colors-teal-200);
+	color: var(--simple-ui-colors-teal-200);
 }
 .simple-ui-color-teal-300,
 .simple-ui-hover\:color-teal-300:hover,
 .simple-ui-focus\:color-teal-300:focus,
 .simple-ui-active\:color-teal-300:active {
-	color: var(--simple-colors-teal-300);
+	color: var(--simple-ui-colors-teal-300);
 }
 .simple-ui-color-teal-400,
 .simple-ui-hover\:color-teal-400:hover,
 .simple-ui-focus\:color-teal-400:focus,
 .simple-ui-active\:color-teal-400:active {
-	color: var(--simple-colors-teal-400);
+	color: var(--simple-ui-colors-teal-400);
 }
 .simple-ui-color-teal-500,
 .simple-ui-hover\:color-teal-500:hover,
 .simple-ui-focus\:color-teal-500:focus,
 .simple-ui-active\:color-teal-500:active {
-	color: var(--simple-colors-teal-500);
+	color: var(--simple-ui-colors-teal-500);
 }
 .simple-ui-color-teal-600,
 .simple-ui-hover\:color-teal-600:hover,
 .simple-ui-focus\:color-teal-600:focus,
 .simple-ui-active\:color-teal-600:active {
-	color: var(--simple-colors-teal-600);
+	color: var(--simple-ui-colors-teal-600);
 }
 .simple-ui-color-teal-700,
 .simple-ui-hover\:color-teal-700:hover,
 .simple-ui-focus\:color-teal-700:focus,
 .simple-ui-active\:color-teal-700:active {
-	color: var(--simple-colors-teal-700);
+	color: var(--simple-ui-colors-teal-700);
 }
 .simple-ui-color-teal-800,
 .simple-ui-hover\:color-teal-800:hover,
 .simple-ui-focus\:color-teal-800:focus,
 .simple-ui-active\:color-teal-800:active {
-	color: var(--simple-colors-teal-800);
+	color: var(--simple-ui-colors-teal-800);
 }
 .simple-ui-color-teal-900,
 .simple-ui-hover\:color-teal-900:hover,
 .simple-ui-focus\:color-teal-900:focus,
 .simple-ui-active\:color-teal-900:active {
-	color: var(--simple-colors-teal-900);
+	color: var(--simple-ui-colors-teal-900);
 }
 .simple-ui-color-telegram-50,
 .simple-ui-hover\:color-telegram-50:hover,
 .simple-ui-focus\:color-telegram-50:focus,
 .simple-ui-active\:color-telegram-50:active {
-	color: var(--simple-colors-telegram-50);
+	color: var(--simple-ui-colors-telegram-50);
 }
 .simple-ui-color-telegram-100,
 .simple-ui-hover\:color-telegram-100:hover,
 .simple-ui-focus\:color-telegram-100:focus,
 .simple-ui-active\:color-telegram-100:active {
-	color: var(--simple-colors-telegram-100);
+	color: var(--simple-ui-colors-telegram-100);
 }
 .simple-ui-color-telegram-200,
 .simple-ui-hover\:color-telegram-200:hover,
 .simple-ui-focus\:color-telegram-200:focus,
 .simple-ui-active\:color-telegram-200:active {
-	color: var(--simple-colors-telegram-200);
+	color: var(--simple-ui-colors-telegram-200);
 }
 .simple-ui-color-telegram-300,
 .simple-ui-hover\:color-telegram-300:hover,
 .simple-ui-focus\:color-telegram-300:focus,
 .simple-ui-active\:color-telegram-300:active {
-	color: var(--simple-colors-telegram-300);
+	color: var(--simple-ui-colors-telegram-300);
 }
 .simple-ui-color-telegram-400,
 .simple-ui-hover\:color-telegram-400:hover,
 .simple-ui-focus\:color-telegram-400:focus,
 .simple-ui-active\:color-telegram-400:active {
-	color: var(--simple-colors-telegram-400);
+	color: var(--simple-ui-colors-telegram-400);
 }
 .simple-ui-color-telegram-500,
 .simple-ui-hover\:color-telegram-500:hover,
 .simple-ui-focus\:color-telegram-500:focus,
 .simple-ui-active\:color-telegram-500:active {
-	color: var(--simple-colors-telegram-500);
+	color: var(--simple-ui-colors-telegram-500);
 }
 .simple-ui-color-telegram-600,
 .simple-ui-hover\:color-telegram-600:hover,
 .simple-ui-focus\:color-telegram-600:focus,
 .simple-ui-active\:color-telegram-600:active {
-	color: var(--simple-colors-telegram-600);
+	color: var(--simple-ui-colors-telegram-600);
 }
 .simple-ui-color-telegram-700,
 .simple-ui-hover\:color-telegram-700:hover,
 .simple-ui-focus\:color-telegram-700:focus,
 .simple-ui-active\:color-telegram-700:active {
-	color: var(--simple-colors-telegram-700);
+	color: var(--simple-ui-colors-telegram-700);
 }
 .simple-ui-color-telegram-800,
 .simple-ui-hover\:color-telegram-800:hover,
 .simple-ui-focus\:color-telegram-800:focus,
 .simple-ui-active\:color-telegram-800:active {
-	color: var(--simple-colors-telegram-800);
+	color: var(--simple-ui-colors-telegram-800);
 }
 .simple-ui-color-telegram-900,
 .simple-ui-hover\:color-telegram-900:hover,
 .simple-ui-focus\:color-telegram-900:focus,
 .simple-ui-active\:color-telegram-900:active {
-	color: var(--simple-colors-telegram-900);
+	color: var(--simple-ui-colors-telegram-900);
 }
 .simple-ui-color-transparent tran,
 .simple-ui-hover\:color-transparent tran:hover,
 .simple-ui-focus\:color-transparent tran:focus,
 .simple-ui-active\:color-transparent tran:active {
-	color: var(--simple-colors-transparent tran);
+	color: var(--simple-ui-colors-transparent tran);
 }
 .simple-ui-color-twitter-50,
 .simple-ui-hover\:color-twitter-50:hover,
 .simple-ui-focus\:color-twitter-50:focus,
 .simple-ui-active\:color-twitter-50:active {
-	color: var(--simple-colors-twitter-50);
+	color: var(--simple-ui-colors-twitter-50);
 }
 .simple-ui-color-twitter-100,
 .simple-ui-hover\:color-twitter-100:hover,
 .simple-ui-focus\:color-twitter-100:focus,
 .simple-ui-active\:color-twitter-100:active {
-	color: var(--simple-colors-twitter-100);
+	color: var(--simple-ui-colors-twitter-100);
 }
 .simple-ui-color-twitter-200,
 .simple-ui-hover\:color-twitter-200:hover,
 .simple-ui-focus\:color-twitter-200:focus,
 .simple-ui-active\:color-twitter-200:active {
-	color: var(--simple-colors-twitter-200);
+	color: var(--simple-ui-colors-twitter-200);
 }
 .simple-ui-color-twitter-300,
 .simple-ui-hover\:color-twitter-300:hover,
 .simple-ui-focus\:color-twitter-300:focus,
 .simple-ui-active\:color-twitter-300:active {
-	color: var(--simple-colors-twitter-300);
+	color: var(--simple-ui-colors-twitter-300);
 }
 .simple-ui-color-twitter-400,
 .simple-ui-hover\:color-twitter-400:hover,
 .simple-ui-focus\:color-twitter-400:focus,
 .simple-ui-active\:color-twitter-400:active {
-	color: var(--simple-colors-twitter-400);
+	color: var(--simple-ui-colors-twitter-400);
 }
 .simple-ui-color-twitter-500,
 .simple-ui-hover\:color-twitter-500:hover,
 .simple-ui-focus\:color-twitter-500:focus,
 .simple-ui-active\:color-twitter-500:active {
-	color: var(--simple-colors-twitter-500);
+	color: var(--simple-ui-colors-twitter-500);
 }
 .simple-ui-color-twitter-600,
 .simple-ui-hover\:color-twitter-600:hover,
 .simple-ui-focus\:color-twitter-600:focus,
 .simple-ui-active\:color-twitter-600:active {
-	color: var(--simple-colors-twitter-600);
+	color: var(--simple-ui-colors-twitter-600);
 }
 .simple-ui-color-twitter-700,
 .simple-ui-hover\:color-twitter-700:hover,
 .simple-ui-focus\:color-twitter-700:focus,
 .simple-ui-active\:color-twitter-700:active {
-	color: var(--simple-colors-twitter-700);
+	color: var(--simple-ui-colors-twitter-700);
 }
 .simple-ui-color-twitter-800,
 .simple-ui-hover\:color-twitter-800:hover,
 .simple-ui-focus\:color-twitter-800:focus,
 .simple-ui-active\:color-twitter-800:active {
-	color: var(--simple-colors-twitter-800);
+	color: var(--simple-ui-colors-twitter-800);
 }
 .simple-ui-color-twitter-900,
 .simple-ui-hover\:color-twitter-900:hover,
 .simple-ui-focus\:color-twitter-900:focus,
 .simple-ui-active\:color-twitter-900:active {
-	color: var(--simple-colors-twitter-900);
+	color: var(--simple-ui-colors-twitter-900);
 }
 .simple-ui-color-whatsapp-50,
 .simple-ui-hover\:color-whatsapp-50:hover,
 .simple-ui-focus\:color-whatsapp-50:focus,
 .simple-ui-active\:color-whatsapp-50:active {
-	color: var(--simple-colors-whatsapp-50);
+	color: var(--simple-ui-colors-whatsapp-50);
 }
 .simple-ui-color-whatsapp-100,
 .simple-ui-hover\:color-whatsapp-100:hover,
 .simple-ui-focus\:color-whatsapp-100:focus,
 .simple-ui-active\:color-whatsapp-100:active {
-	color: var(--simple-colors-whatsapp-100);
+	color: var(--simple-ui-colors-whatsapp-100);
 }
 .simple-ui-color-whatsapp-200,
 .simple-ui-hover\:color-whatsapp-200:hover,
 .simple-ui-focus\:color-whatsapp-200:focus,
 .simple-ui-active\:color-whatsapp-200:active {
-	color: var(--simple-colors-whatsapp-200);
+	color: var(--simple-ui-colors-whatsapp-200);
 }
 .simple-ui-color-whatsapp-300,
 .simple-ui-hover\:color-whatsapp-300:hover,
 .simple-ui-focus\:color-whatsapp-300:focus,
 .simple-ui-active\:color-whatsapp-300:active {
-	color: var(--simple-colors-whatsapp-300);
+	color: var(--simple-ui-colors-whatsapp-300);
 }
 .simple-ui-color-whatsapp-400,
 .simple-ui-hover\:color-whatsapp-400:hover,
 .simple-ui-focus\:color-whatsapp-400:focus,
 .simple-ui-active\:color-whatsapp-400:active {
-	color: var(--simple-colors-whatsapp-400);
+	color: var(--simple-ui-colors-whatsapp-400);
 }
 .simple-ui-color-whatsapp-500,
 .simple-ui-hover\:color-whatsapp-500:hover,
 .simple-ui-focus\:color-whatsapp-500:focus,
 .simple-ui-active\:color-whatsapp-500:active {
-	color: var(--simple-colors-whatsapp-500);
+	color: var(--simple-ui-colors-whatsapp-500);
 }
 .simple-ui-color-whatsapp-600,
 .simple-ui-hover\:color-whatsapp-600:hover,
 .simple-ui-focus\:color-whatsapp-600:focus,
 .simple-ui-active\:color-whatsapp-600:active {
-	color: var(--simple-colors-whatsapp-600);
+	color: var(--simple-ui-colors-whatsapp-600);
 }
 .simple-ui-color-whatsapp-700,
 .simple-ui-hover\:color-whatsapp-700:hover,
 .simple-ui-focus\:color-whatsapp-700:focus,
 .simple-ui-active\:color-whatsapp-700:active {
-	color: var(--simple-colors-whatsapp-700);
+	color: var(--simple-ui-colors-whatsapp-700);
 }
 .simple-ui-color-whatsapp-800,
 .simple-ui-hover\:color-whatsapp-800:hover,
 .simple-ui-focus\:color-whatsapp-800:focus,
 .simple-ui-active\:color-whatsapp-800:active {
-	color: var(--simple-colors-whatsapp-800);
+	color: var(--simple-ui-colors-whatsapp-800);
 }
 .simple-ui-color-whatsapp-900,
 .simple-ui-hover\:color-whatsapp-900:hover,
 .simple-ui-focus\:color-whatsapp-900:focus,
 .simple-ui-active\:color-whatsapp-900:active {
-	color: var(--simple-colors-whatsapp-900);
+	color: var(--simple-ui-colors-whatsapp-900);
 }
 .simple-ui-color-white,
 .simple-ui-hover\:color-white:hover,
 .simple-ui-focus\:color-white:focus,
 .simple-ui-active\:color-white:active {
-	color: var(--simple-colors-white);
+	color: var(--simple-ui-colors-white);
 }
 .simple-ui-color-yellow-50,
 .simple-ui-hover\:color-yellow-50:hover,
 .simple-ui-focus\:color-yellow-50:focus,
 .simple-ui-active\:color-yellow-50:active {
-	color: var(--simple-colors-yellow-50);
+	color: var(--simple-ui-colors-yellow-50);
 }
 .simple-ui-color-yellow-100,
 .simple-ui-hover\:color-yellow-100:hover,
 .simple-ui-focus\:color-yellow-100:focus,
 .simple-ui-active\:color-yellow-100:active {
-	color: var(--simple-colors-yellow-100);
+	color: var(--simple-ui-colors-yellow-100);
 }
 .simple-ui-color-yellow-200,
 .simple-ui-hover\:color-yellow-200:hover,
 .simple-ui-focus\:color-yellow-200:focus,
 .simple-ui-active\:color-yellow-200:active {
-	color: var(--simple-colors-yellow-200);
+	color: var(--simple-ui-colors-yellow-200);
 }
 .simple-ui-color-yellow-300,
 .simple-ui-hover\:color-yellow-300:hover,
 .simple-ui-focus\:color-yellow-300:focus,
 .simple-ui-active\:color-yellow-300:active {
-	color: var(--simple-colors-yellow-300);
+	color: var(--simple-ui-colors-yellow-300);
 }
 .simple-ui-color-yellow-400,
 .simple-ui-hover\:color-yellow-400:hover,
 .simple-ui-focus\:color-yellow-400:focus,
 .simple-ui-active\:color-yellow-400:active {
-	color: var(--simple-colors-yellow-400);
+	color: var(--simple-ui-colors-yellow-400);
 }
 .simple-ui-color-yellow-500,
 .simple-ui-hover\:color-yellow-500:hover,
 .simple-ui-focus\:color-yellow-500:focus,
 .simple-ui-active\:color-yellow-500:active {
-	color: var(--simple-colors-yellow-500);
+	color: var(--simple-ui-colors-yellow-500);
 }
 .simple-ui-color-yellow-600,
 .simple-ui-hover\:color-yellow-600:hover,
 .simple-ui-focus\:color-yellow-600:focus,
 .simple-ui-active\:color-yellow-600:active {
-	color: var(--simple-colors-yellow-600);
+	color: var(--simple-ui-colors-yellow-600);
 }
 .simple-ui-color-yellow-700,
 .simple-ui-hover\:color-yellow-700:hover,
 .simple-ui-focus\:color-yellow-700:focus,
 .simple-ui-active\:color-yellow-700:active {
-	color: var(--simple-colors-yellow-700);
+	color: var(--simple-ui-colors-yellow-700);
 }
 .simple-ui-color-yellow-800,
 .simple-ui-hover\:color-yellow-800:hover,
 .simple-ui-focus\:color-yellow-800:focus,
 .simple-ui-active\:color-yellow-800:active {
-	color: var(--simple-colors-yellow-800);
+	color: var(--simple-ui-colors-yellow-800);
 }
 .simple-ui-color-yellow-900,
 .simple-ui-hover\:color-yellow-900:hover,
 .simple-ui-focus\:color-yellow-900:focus,
 .simple-ui-active\:color-yellow-900:active {
-	color: var(--simple-colors-yellow-900);
+	color: var(--simple-ui-colors-yellow-900);
 }
