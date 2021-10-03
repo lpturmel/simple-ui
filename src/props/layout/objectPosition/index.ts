@@ -1,8 +1,8 @@
 export interface ObjectPositionProps {
-  objectPosition?: objectPositionValues;
+  objectPosition?: ObjectPositionValues;
 }
 
-export type objectPositionValues =
+export type ObjectPositionValues =
   | "bottom"
   | "center"
   | "left"
