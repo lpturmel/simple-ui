@@ -1,5 +1,5 @@
 export interface BoxDecorationBreakProps {
-  boxDecorationBreak?: boxDecorationBreakValues;
+  boxDecorationBreak?: BoxDecorationBreakValues;
 }
 
-export type boxDecorationBreakValues = "slice" | "clone";
+export type BoxDecorationBreakValues = "slice" | "clone";
