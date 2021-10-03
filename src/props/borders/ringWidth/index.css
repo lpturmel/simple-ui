@@ -2,53 +2,83 @@
 .simple-ui-hover\:ringWidth-0:hover,
 .simple-ui-focus\:ringWidth-0:focus,
 .simple-ui-active\:ringWidth-0:active {
-	box-shadow: var(--simple-ui-ring-inset) 0 0 0
+	--simple-ui-ring-offset-shadow: var(--simple-ui-ring-inset) 0 0 0
+		var(--simple-ui-ring-offset-width) var(--simple-ui-ring-offset-color);
+	--simple-ui-ring-shadow: var(--simple-ui-ring-inset) 0 0 0
 		calc(0px + var(--simple-ui-ring-offset-width))
 		var(--simple-ui-ring-color);
+	box-shadow: var(--simple-ui-ring-offset-shadow),
+		var(--simple-ui-ring-shadow), var(--simple-ui-shadow, 0 0 #0000);
 }
 .simple-ui-ringWidth-1,
 .simple-ui-hover\:ringWidth-1:hover,
 .simple-ui-focus\:ringWidth-1:focus,
 .simple-ui-active\:ringWidth-1:active {
-	box-shadow: var(--simple-ui-ring-inset) 0 0 0
+	--simple-ui-ring-offset-shadow: var(--simple-ui-ring-inset) 0 0 0
+		var(--simple-ui-ring-offset-width) var(--simple-ui-ring-offset-color);
+	--simple-ui-ring-shadow: var(--simple-ui-ring-inset) 0 0 0
 		calc(1px + var(--simple-ui-ring-offset-width))
 		var(--simple-ui-ring-color);
+	box-shadow: var(--simple-ui-ring-offset-shadow),
+		var(--simple-ui-ring-shadow), var(--simple-ui-shadow, 0 0 #0000);
 }
 .simple-ui-ringWidth-2,
 .simple-ui-hover\:ringWidth-2:hover,
 .simple-ui-focus\:ringWidth-2:focus,
 .simple-ui-active\:ringWidth-2:active {
-	box-shadow: var(--simple-ui-ring-inset) 0 0 0
+	--simple-ui-ring-offset-shadow: var(--simple-ui-ring-inset) 0 0 0
+		var(--simple-ui-ring-offset-width) var(--simple-ui-ring-offset-color);
+	--simple-ui-ring-shadow: var(--simple-ui-ring-inset) 0 0 0
 		calc(2px + var(--simple-ui-ring-offset-width))
 		var(--simple-ui-ring-color);
+	box-shadow: var(--simple-ui-ring-offset-shadow),
+		var(--simple-ui-ring-shadow), var(--simple-ui-shadow, 0 0 #0000);
 }
 .simple-ui-ringWidth-3,
 .simple-ui-hover\:ringWidth-3:hover,
 .simple-ui-focus\:ringWidth-3:focus,
 .simple-ui-active\:ringWidth-3:active {
-	box-shadow: var(--simple-ui-ring-inset) 0 0 0
+	--simple-ui-ring-offset-shadow: var(--simple-ui-ring-inset) 0 0 0
+		var(--simple-ui-ring-offset-width) var(--simple-ui-ring-offset-color);
+	--simple-ui-ring-shadow: var(--simple-ui-ring-inset) 0 0 0
 		calc(3px + var(--simple-ui-ring-offset-width))
 		var(--simple-ui-ring-color);
+
+	box-shadow: var(--simple-ui-ring-offset-shadow),
+		var(--simple-ui-ring-shadow), var(--simple-ui-shadow, 0 0 #0000);
 }
 .simple-ui-ringWidth-4,
 .simple-ui-hover\:ringWidth-4:hover,
 .simple-ui-focus\:ringWidth-4:focus,
 .simple-ui-active\:ringWidth-4:active {
-	box-shadow: var(--simple-ui-ring-inset) 0 0 0
+	--simple-ui-ring-offset-shadow: var(--simple-ui-ring-inset) 0 0 0
+		var(--simple-ui-ring-offset-width) var(--simple-ui-ring-offset-color);
+	--simple-ui-ring-shadow: var(--simple-ui-ring-inset) 0 0 0
 		calc(4px + var(--simple-ui-ring-offset-width))
 		var(--simple-ui-ring-color);
+	box-shadow: var(--simple-ui-ring-offset-shadow),
+		var(--simple-ui-ring-shadow), var(--simple-ui-shadow, 0 0 #0000);
 }
 .simple-ui-ringWidth-8,
 .simple-ui-hover\:ringWidth-8:hover,
 .simple-ui-focus\:ringWidth-8:focus,
 .simple-ui-active\:ringWidth-8:active {
-	box-shadow: var(--simple-ui-ring-inset) 0 0 0
+	--simple-ui-ring-offset-shadow: var(--simple-ui-ring-inset) 0 0 0
+		var(--simple-ui-ring-offset-width) var(--simple-ui-ring-offset-color);
+	--simple-ui-ring-shadow: var(--simple-ui-ring-inset) 0 0 0
 		calc(8px + var(--simple-ui-ring-offset-width))
 		var(--simple-ui-ring-color);
+	box-shadow: var(--simple-ui-ring-offset-shadow),
+		var(--simple-ui-ring-shadow), var(--simple-ui-shadow, 0 0 #0000);
 }
 .simple-ui-ringWidth-inset,
 .simple-ui-hover\:ringWidth-inset:hover,
 .simple-ui-focus\:ringWidth-inset:focus,
 .simple-ui-active\:ringWidth-inset:active {
+	--simple-ui-ring-offset-shadow: var(--simple-ui-ring-inset) 0 0 0
+		var(--simple-ui-ring-offset-width) var(--simple-ui-ring-offset-color);
+	--simple-ui-ring-shadow: var(--simple-ui-ring-inset) 0 0 0
+		calc(4px + var(--simple-ui-ring-offset-width))
+		var(--simple-ui-ring-color);
 	--simple-ui-ring-inset: inset;
 }
