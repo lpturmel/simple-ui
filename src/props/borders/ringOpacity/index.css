@@ -1,0 +1,90 @@
+.simple-ui-ringOpacity-0,
+.simple-ui-hover\:ringOpacity-0:hover,
+.simple-ui-focus\:ringOpacity-0:focus,
+.simple-ui-active\:ringOpacity-0:active {
+	--simple-ui-ring-opacity: 0;
+}
+.simple-ui-ringOpacity-5,
+.simple-ui-hover\:ringOpacity-5:hover,
+.simple-ui-focus\:ringOpacity-5:focus,
+.simple-ui-active\:ringOpacity-5:active {
+	--simple-ui-ring-opacity: 0.05;
+}
+.simple-ui-ringOpacity-10,
+.simple-ui-hover\:ringOpacity-10:hover,
+.simple-ui-focus\:ringOpacity-10:focus,
+.simple-ui-active\:ringOpacity-10:active {
+	--simple-ui-ring-opacity: 0.1;
+}
+.simple-ui-ringOpacity-20,
+.simple-ui-hover\:ringOpacity-20:hover,
+.simple-ui-focus\:ringOpacity-20:focus,
+.simple-ui-active\:ringOpacity-20:active {
+	--simple-ui-ring-opacity: 0.2;
+}
+.simple-ui-ringOpacity-25,
+.simple-ui-hover\:ringOpacity-25:hover,
+.simple-ui-focus\:ringOpacity-25:focus,
+.simple-ui-active\:ringOpacity-25:active {
+	--simple-ui-ring-opacity: 0.25;
+}
+.simple-ui-ringOpacity-30,
+.simple-ui-hover\:ringOpacity-30:hover,
+.simple-ui-focus\:ringOpacity-30:focus,
+.simple-ui-active\:ringOpacity-30:active {
+	--simple-ui-ring-opacity: 0.3;
+}
+.simple-ui-ringOpacity-40,
+.simple-ui-hover\:ringOpacity-40:hover,
+.simple-ui-focus\:ringOpacity-40:focus,
+.simple-ui-active\:ringOpacity-40:active {
+	--simple-ui-ring-opacity: 0.4;
+}
+.simple-ui-ringOpacity-50,
+.simple-ui-hover\:ringOpacity-50:hover,
+.simple-ui-focus\:ringOpacity-50:focus,
+.simple-ui-active\:ringOpacity-50:active {
+	--simple-ui-ring-opacity: 0.5;
+}
+.simple-ui-ringOpacity-60,
+.simple-ui-hover\:ringOpacity-60:hover,
+.simple-ui-focus\:ringOpacity-60:focus,
+.simple-ui-active\:ringOpacity-60:active {
+	--simple-ui-ring-opacity: 0.6;
+}
+.simple-ui-ringOpacity-70,
+.simple-ui-hover\:ringOpacity-70:hover,
+.simple-ui-focus\:ringOpacity-70:focus,
+.simple-ui-active\:ringOpacity-70:active {
+	--simple-ui-ring-opacity: 0.7;
+}
+.simple-ui-ringOpacity-75,
+.simple-ui-hover\:ringOpacity-75:hover,
+.simple-ui-focus\:ringOpacity-75:focus,
+.simple-ui-active\:ringOpacity-75:active {
+	--simple-ui-ring-opacity: 0.75;
+}
+.simple-ui-ringOpacity-80,
+.simple-ui-hover\:ringOpacity-80:hover,
+.simple-ui-focus\:ringOpacity-80:focus,
+.simple-ui-active\:ringOpacity-80:active {
+	--simple-ui-ring-opacity: 0.8;
+}
+.simple-ui-ringOpacity-90,
+.simple-ui-hover\:ringOpacity-90:hover,
+.simple-ui-focus\:ringOpacity-90:focus,
+.simple-ui-active\:ringOpacity-90:active {
+	--simple-ui-ring-opacity: 0.9;
+}
+.simple-ui-ringOpacity-95,
+.simple-ui-hover\:ringOpacity-95:hover,
+.simple-ui-focus\:ringOpacity-95:focus,
+.simple-ui-active\:ringOpacity-95:active {
+	--simple-ui-ring-opacity: 0.95;
+}
+.simple-ui-ringOpacity-100,
+.simple-ui-hover\:ringOpacity-100:hover,
+.simple-ui-focus\:ringOpacity-100:focus,
+.simple-ui-active\:ringOpacity-100:active {
+	--simple-ui-ring-opacity: 1;
+}
