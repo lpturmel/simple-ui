@@ -4,7 +4,7 @@ import { Modal } from ".";
 import { ModalHeader } from "./ModalHeader";
 import { SimpleProvider } from "../../context/SimpleContext";
 import { ModalContent } from "./ModalContent";
-import createControls from "../../apis/createControls";
+import { createControls } from "../../apis/createControls";
 import { Button } from "../Button/Button";
 import { ModalFooter } from "./ModalFooter";
 import { HStack } from "../HStack";

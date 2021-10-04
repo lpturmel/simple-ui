@@ -5,7 +5,7 @@ export interface ICreateControls {
 	close: () => void;
 	open: () => void;
 }
-export default (): ICreateControls => {
+export const createControls = (): ICreateControls => {
 	const [isOpen, setIsOpen] = createSignal(false);
 
 	return {
