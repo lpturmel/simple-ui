@@ -18,12 +18,23 @@ code {
 		monospace;
 }
 
+input {
+	outline: none;
+}
 button {
 	outline: none;
 	border: none;
 	cursor: pointer;
 }
 
+/* Prevent padding from affecting width and height */
+*,
+::after,
+::before {
+	border-width: 0px;
+	border-style: solid;
+	box-sizing: border-box;
+}
 :root {
 	--simple-ui-colors-black: #000000;
 	--simple-ui-colors-blue-50: #ebf8ff;
