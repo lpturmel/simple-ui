@@ -6,15 +6,14 @@ import Prism from "prismjs";
 Prism.highlightAll();
 
 const ButtonComponent: Component = (props) => {
-	const code = `
-        <Button>Button</Button>
-    `;
+	const code = `<Button>Button</Button>`;
 	return (
 		<Layout>
 			<VStack spacingY={4} alignItems="start">
 				<Button>Button</Button>
-
-				<code class="prism-code language-js">{code}</code>
+				<pre>
+					<code class="prism-code language-js">{code}</code>
+				</pre>
 			</VStack>
 		</Layout>
 	);
