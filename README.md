@@ -42,4 +42,4 @@ Classes with the component prefix `simple-ui-` that are not used will be removed
 | Variants | ⏳ In Progress |
 | CSS purging | ⏳ In Progress |
 | Dark vs light | ❌  Not started |
-| Doc website | ❌  Not started |
+| Doc website | ⏳ In Progress |
