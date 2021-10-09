@@ -7,7 +7,6 @@ const ModalOverlayOptions: ThemeComponentOptions = {
 		position: "fixed",
 		height: "screen",
 		width: "screen",
-
 		zIndex: 10,
 	},
 };

@@ -2,18 +2,18 @@ import { ThemeComponentOptions } from "../../theme";
 
 const ButtonOptions: ThemeComponentOptions = {
 	defaultProps: {
-		px: 4,
-		py: 2,
+		paddingX: 4,
+		paddingY: 2,
 		borderRadius: "md",
 		fontSize: "lg",
 		fontWeight: "semibold",
 		color: "white",
-		bg: "gray.400",
+		backgroundColor: "gray.400",
 		_hover: {
-			bg: "gray.500",
+			backgroundColor: "gray.500",
 		},
 		_active: {
-			bg: "gray.600",
+			backgroundColor: "gray.600",
 		},
 		_focus: {
 			ringWidth: 3,

@@ -10,7 +10,6 @@ const InputOptions: ThemeComponentOptions = {
 		borderColor: "transparent",
 		_focus: {
 			ringWidth: 2,
-
 			borderColor: "transparent",
 		},
 		borderRadius: "lg",
