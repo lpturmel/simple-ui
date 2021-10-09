@@ -1,6 +1,5 @@
 export interface MinHeightProps {
-  minHeight?: MinHeightValues;
-  minH?: MinHeightValues;
+	minHeight?: MinHeightValues;
 }
 
 export type MinHeightValues = 0 | "full" | "min" | "max";
