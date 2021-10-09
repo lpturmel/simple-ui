@@ -68,6 +68,7 @@ import "../props/effects/opacity/index.css";
 import "../props/effects/mixBlend/index.css";
 import "../props/effects/backgroundBlend/index.css";
 import "../props/table/borderCollapse/index.css";
+import "../props/transforms/transform/index.css";
 
 import { DefaultTheme, SimpleThemeConfig } from "../theme";
 
