@@ -68,6 +68,7 @@ import { BorderCollapseProps } from "./tables/borderCollapse";
 import { TableLayoutProps } from "./tables/tableLayout";
 import { TransformProps } from "./transforms/transform";
 import { OriginProps } from "./transforms/origin";
+import { ScaleProps } from "./transforms/scale";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -151,5 +152,6 @@ type MainProps<T = {}> =
 		// Transforms
 		TransformProps &
 		OriginProps &
+		ScaleProps &
 		T;
 export default MainProps;
