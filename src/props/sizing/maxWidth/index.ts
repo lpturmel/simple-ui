@@ -1,5 +1,4 @@
 export interface MaxWidthProps {
-	maxW?: MaxWidthValues;
 	maxWidth?: MaxWidthValues;
 }
 
