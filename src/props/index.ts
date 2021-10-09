@@ -64,6 +64,8 @@ import { BoxShadowProps } from "./effects/boxShadow";
 import { OpacityProps } from "./effects/opacity";
 import { MixBlendProps } from "./effects/mixBlend";
 import { BackgroundBlendProps } from "./effects/backgroundBlend";
+import { BorderCollapseProps } from "./tables/borderCollapse";
+import { TableLayoutProps } from "./tables/tableLayout";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -141,5 +143,8 @@ type MainProps<T = {}> =
 		AbsolutePositionProps &
 		ClearProps &
 		ZindexProps &
+		// Tables
+		BorderCollapseProps &
+		TableLayoutProps &
 		T;
 export default MainProps;
