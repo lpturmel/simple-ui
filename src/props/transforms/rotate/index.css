@@ -1,0 +1,102 @@
+.simple-ui-rotate-0,
+.simple-ui-hover\:rotate-0:hover,
+.simple-ui-focus\:rotate-0:focus,
+.simple-ui-active\:rotate-0:active {
+	--simple-ui-rotate: 0deg;
+}
+.simple-ui-rotate-1,
+.simple-ui-hover\:rotate-1:hover,
+.simple-ui-focus\:rotate-1:focus,
+.simple-ui-active\:rotate-1:active {
+	--simple-ui-rotate: 1deg;
+}
+.simple-ui-rotate-2,
+.simple-ui-hover\:rotate-2:hover,
+.simple-ui-focus\:rotate-2:focus,
+.simple-ui-active\:rotate-2:active {
+	--simple-ui-rotate: 2deg;
+}
+.simple-ui-rotate-3,
+.simple-ui-hover\:rotate-3:hover,
+.simple-ui-focus\:rotate-3:focus,
+.simple-ui-active\:rotate-3:active {
+	--simple-ui-rotate: 3deg;
+}
+.simple-ui-rotate-6,
+.simple-ui-hover\:rotate-6:hover,
+.simple-ui-focus\:rotate-6:focus,
+.simple-ui-active\:rotate-6:active {
+	--simple-ui-rotate: 6deg;
+}
+.simple-ui-rotate-12,
+.simple-ui-hover\:rotate-12:hover,
+.simple-ui-focus\:rotate-12:focus,
+.simple-ui-active\:rotate-12:active {
+	--simple-ui-rotate: 12deg;
+}
+.simple-ui-rotate-45,
+.simple-ui-hover\:rotate-45:hover,
+.simple-ui-focus\:rotate-45:focus,
+.simple-ui-active\:rotate-45:active {
+	--simple-ui-rotate: 45deg;
+}
+.simple-ui-rotate-90,
+.simple-ui-hover\:rotate-90:hover,
+.simple-ui-focus\:rotate-90:focus,
+.simple-ui-active\:rotate-90:active {
+	--simple-ui-rotate: 90deg;
+}
+.simple-ui-rotate-180,
+.simple-ui-hover\:rotate-180:hover,
+.simple-ui-focus\:rotate-180:focus,
+.simple-ui-active\:rotate-180:active {
+	--simple-ui-rotate: 180deg;
+}
+.simple-ui-rotate--180,
+.simple-ui-hover\:rotate--180:hover,
+.simple-ui-focus\:rotate--180:focus,
+.simple-ui-active\:rotate--180:active {
+	--simple-ui-rotate: -180deg;
+}
+.simple-ui-rotate--90,
+.simple-ui-hover\:rotate--90:hover,
+.simple-ui-focus\:rotate--90:focus,
+.simple-ui-active\:rotate--90:active {
+	--simple-ui-rotate: -90deg;
+}
+.simple-ui-rotate--45,
+.simple-ui-hover\:rotate--45:hover,
+.simple-ui-focus\:rotate--45:focus,
+.simple-ui-active\:rotate--45:active {
+	--simple-ui-rotate: -45deg;
+}
+.simple-ui-rotate--12,
+.simple-ui-hover\:rotate--12:hover,
+.simple-ui-focus\:rotate--12:focus,
+.simple-ui-active\:rotate--12:active {
+	--simple-ui-rotate: -12deg;
+}
+.simple-ui-rotate--6,
+.simple-ui-hover\:rotate--6:hover,
+.simple-ui-focus\:rotate--6:focus,
+.simple-ui-active\:rotate--6:active {
+	--simple-ui-rotate: -6deg;
+}
+.simple-ui-rotate--3,
+.simple-ui-hover\:rotate--3:hover,
+.simple-ui-focus\:rotate--3:focus,
+.simple-ui-active\:rotate--3:active {
+	--simple-ui-rotate: -3deg;
+}
+.simple-ui-rotate--2,
+.simple-ui-hover\:rotate--2:hover,
+.simple-ui-focus\:rotate--2:focus,
+.simple-ui-active\:rotate--2:active {
+	--simple-ui-rotate: -2deg;
+}
+.simple-ui-rotate--1,
+.simple-ui-hover\:rotate--1:hover,
+.simple-ui-focus\:rotate--1:focus,
+.simple-ui-active\:rotate--1:active {
+	--simple-ui-rotate: -1deg;
+}
