@@ -2,6 +2,10 @@
 
 ## SolidJS Component library
 
+[![Version](https://img.shields.io/npm/v/simple-ui-solid.svg)](https://npmjs.org/package/simple-ui-solid)
+[![Downloads/week](https://img.shields.io/npm/dw/simple-ui-solid.svg)](https://npmjs.org/package/simple-ui-solid)
+[![License](https://img.shields.io/npm/l/simple-ui-solid.svg)](https://github.com/lpturmel/simple-ui-solid/blob/master/package.json)
+
 ## Installation
 
 `yarn add simple-ui-solid`
