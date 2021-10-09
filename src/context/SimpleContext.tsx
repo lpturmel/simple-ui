@@ -71,6 +71,7 @@ import "../props/tables/borderCollapse/index.css";
 import "../props/tables/tableLayout/index.css";
 import "../props/transforms/transform/index.css";
 import "../props/transforms/origin/index.css";
+import "../props/transforms/scale/index.css";
 
 import { DefaultTheme, SimpleThemeConfig } from "../theme";
 
