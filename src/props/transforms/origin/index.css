@@ -1,0 +1,54 @@
+.simple-ui-origin-center,
+.simple-ui-hover\:origin-center:hover,
+.simple-ui-focus\:origin-center:focus,
+.simple-ui-active\:origin-center:active {
+	transform-origin: center;
+}
+.simple-ui-origin-top,
+.simple-ui-hover\:origin-top:hover,
+.simple-ui-focus\:origin-top:focus,
+.simple-ui-active\:origin-top:active {
+	transform-origin: top;
+}
+.simple-ui-origin-top-right,
+.simple-ui-hover\:origin-top-right:hover,
+.simple-ui-focus\:origin-top-right:focus,
+.simple-ui-active\:origin-top-right:active {
+	transform-origin: top right;
+}
+.simple-ui-origin-right,
+.simple-ui-hover\:origin-right:hover,
+.simple-ui-focus\:origin-right:focus,
+.simple-ui-active\:origin-right:active {
+	transform-origin: right;
+}
+.simple-ui-origin-bottom-right,
+.simple-ui-hover\:origin-bottom-right:hover,
+.simple-ui-focus\:origin-bottom-right:focus,
+.simple-ui-active\:origin-bottom-right:active {
+	transform-origin: bottom right;
+}
+.simple-ui-origin-bottom,
+.simple-ui-hover\:origin-bottom:hover,
+.simple-ui-focus\:origin-bottom:focus,
+.simple-ui-active\:origin-bottom:active {
+	transform-origin: bottom;
+}
+.simple-ui-origin-bottom-left,
+.simple-ui-hover\:origin-bottom-left:hover,
+.simple-ui-focus\:origin-bottom-left:focus,
+.simple-ui-active\:origin-bottom-left:active {
+	transform-origin: bottom left;
+}
+.simple-ui-origin-left,
+.simple-ui-hover\:origin-left:hover,
+.simple-ui-focus\:origin-left:focus,
+.simple-ui-active\:origin-left:active {
+	transform-origin: left;
+}
+.simple-ui-origin-top-left,
+.simple-ui-hover\:origin-top-left:hover,
+.simple-ui-focus\:origin-top-left:focus,
+.simple-ui-active\:origin-top-left:active {
+	transform-origin: top left;
+}
