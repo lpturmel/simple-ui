@@ -1,12 +1,12 @@
-.simple-ui-box-border,
-.simple-ui-hover\:box-border:hover,
-.simple-ui-focus\:box-border:focus,
-.simple-ui-active\:box-border:active {
-  box-sizing: border-box;
+.simple-ui-boxSizing-border-box,
+.simple-ui-hover\:boxSizing-border-box:hover,
+.simple-ui-focus\:boxSizing-border-box:focus,
+.simple-ui-active\:boxSizing-border-box:active {
+	box-sizing: border-box;
 }
-.simple-ui-box-content,
-.simple-ui-hover\:box-content:hover,
-.simple-ui-focus\:box-content:focus,
-.simple-ui-active\:box-content:active {
-  box-sizing: content-box;
+.simple-ui-boxSizing-content,
+.simple-ui-hover\:boxSizing-content-box:hover,
+.simple-ui-focus\:boxSizing-content-box:focus,
+.simple-ui-active\:boxSizing-content-box:active {
+	box-sizing: content-box;
 }
