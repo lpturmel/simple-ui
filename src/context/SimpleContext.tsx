@@ -76,6 +76,7 @@ import "../props/transforms/rotate/index.css";
 import "../props/transforms/translate/index.css";
 import "../props/transforms/skew/index.css";
 import "../props/interactivity/appearance/index.css";
+import "../props/interactivity/cursor/index.css";
 
 import { DefaultTheme, SimpleThemeConfig } from "../theme";
 
