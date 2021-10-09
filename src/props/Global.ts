@@ -19,15 +19,15 @@ export function mapPropsToCss<ComponentProps>(
 	// This type annotation is to have the proper types returned from Object.keys(x)
 	// By design it returns a string[]
 	(Object.keys(props) as Array<keyof ComponentProps>).forEach((prop) => {
-		if (typeof props[prop] === "object") {
-			const stateProps = mapPropsToCss(props[prop], false);
+		if (!reservedProps.includes(prop.toString())) {
+			if (typeof props[prop] === "object") {
+				const stateProps = mapPropsToCss(props[prop], false);
 
-			classString += parseStateProps(
-				stateProps,
-				(prop as string).replace("_", "")
-			);
-		} else {
-			if (!reservedProps.includes(prop.toString())) {
+				classString += parseStateProps(
+					stateProps,
+					(prop as string).replace("_", "")
+				);
+			} else {
 				classString += `${isParent ? "simple-ui-" : ""}${prop}-${
 					props[prop]
 				} `.replace(".", "-");
@@ -65,7 +65,7 @@ export function mergeProps(
 	return parsedProps;
 }
 
-const reservedProps = ["children", "controls", "isOpen", "onClick"];
+const reservedProps = ["children", "controls", "isOpen", "onClick", "style"];
 /**
  * Describe the basic rem values
  */
