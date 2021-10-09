@@ -54,8 +54,5 @@
 	},
 	"peerDependencies": {
 		"solid-js": "^1.1.1"
-	},
-	"dependencies": {
-		"global": "^4.4.0"
 	}
 }
