@@ -66,6 +66,7 @@ import "../props/transition/animation/index.css";
 import "../props/effects/boxShadow/index.css";
 import "../props/effects/opacity/index.css";
 import "../props/effects/mixBlend/index.css";
+import "../props/effects/backgroundBlend/index.css";
 
 import { DefaultTheme, SimpleThemeConfig } from "../theme";
 
