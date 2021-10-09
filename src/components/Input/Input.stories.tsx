@@ -1,3 +1,4 @@
+import { VStack } from "../VStack";
 import { Input } from "./Input";
 
 export default {
@@ -6,11 +7,7 @@ export default {
 };
 
 export const Default = () => (
-	<Input
-		placeholder="Regular Input"
-		paddingY={2}
-		paddingX={4}
-		backgroundColor={"gray.300"}
-		_hover={{ backgroundColor: "gray.400" }}
-	/>
+	<VStack height={"full"} backgroundColor="white" padding={4}>
+		<Input placeholder="Outline" />
+	</VStack>
 );
