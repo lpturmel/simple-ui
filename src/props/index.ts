@@ -69,6 +69,7 @@ import { TableLayoutProps } from "./tables/tableLayout";
 import { TransformProps } from "./transforms/transform";
 import { OriginProps } from "./transforms/origin";
 import { ScaleProps } from "./transforms/scale";
+import { RotateProps } from "./transforms/rotate";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -153,5 +154,6 @@ type MainProps<T = {}> =
 		TransformProps &
 		OriginProps &
 		ScaleProps &
+		RotateProps &
 		T;
 export default MainProps;
