@@ -78,6 +78,7 @@ import { OutlineProps } from "./interactivity/outline";
 import { PointerEventsProps } from "./interactivity/pointerEvents";
 import { ResizeProps } from "./interactivity/resize";
 import { UserSelectProps } from "./interactivity/userSelect";
+import { BackgroundColorProps } from "./background/color";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -111,6 +112,7 @@ type MainProps<T = {}> =
 		MaxHeightProps &
 		// Backgrounds
 		GradientColorProps &
+		BackgroundColorProps &
 		// Borders
 		BorderRadiusProps &
 		BorderWidthProps &
