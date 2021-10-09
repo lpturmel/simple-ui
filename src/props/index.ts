@@ -75,6 +75,7 @@ import { SkewProps } from "./transforms/skew";
 import { AppearanceProps } from "./interactivity/appearance";
 import { CursorProps } from "./interactivity/cursor";
 import { OutlineProps } from "./interactivity/outline";
+import { PointerEventsProps } from "./interactivity/pointerEvents";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -91,6 +92,7 @@ type MainProps<T = {}> =
 		AppearanceProps &
 		CursorProps &
 		OutlineProps &
+		PointerEventsProps &
 		// effects
 		BoxShadowProps &
 		OpacityProps &
