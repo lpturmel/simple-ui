@@ -8,6 +8,7 @@ export default {
 };
 
 const theme: SimpleThemeConfig = {};
+
 export const Default = () => (
 	<SimpleProvider theme={theme}>
 		<Button>Button</Button>

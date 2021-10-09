@@ -8,10 +8,9 @@ export default {
 export const Default = () => (
 	<Input
 		placeholder="Regular Input"
-		py={2}
-		px={4}
-		bg={"gray.300"}
-		_hover={{ bg: "gray.400" }}
-		_focus={{ bg: "white" }}
+		paddingY={2}
+		paddingX={4}
+		backgroundColor={"gray.300"}
+		_hover={{ backgroundColor: "gray.400" }}
 	/>
 );
