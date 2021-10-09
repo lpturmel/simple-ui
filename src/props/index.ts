@@ -62,6 +62,7 @@ import { RingOffsetColorProps } from "./borders/ringOffsetColor";
 import { GradientColorProps } from "./background/gradientColor";
 import { BoxShadowProps } from "./effects/boxShadow";
 import { OpacityProps } from "./effects/opacity";
+import { MixBlendProps } from "./effects/mixBlend";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -77,6 +78,7 @@ type MainProps<T = {}> =
 		// effects
 		BoxShadowProps &
 		OpacityProps &
+		MixBlendProps &
 		// Sizing
 		WidthProps &
 		MinWidthProps &
