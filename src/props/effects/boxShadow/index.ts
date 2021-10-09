@@ -3,11 +3,11 @@ export interface BoxShadowProps {
 }
 
 export type BoxShadowValues =
-	| "shadow-xs"
-	| "shadow-sm"
-	| "shadow-md"
-	| "shadow-lg"
-	| "shadow-xl"
-	| "shadow-2xl"
-	| "shadow-inner"
-	| "shadow-none";
+	| "xs"
+	| "sm"
+	| "md"
+	| "lg"
+	| "xl"
+	| "2xl"
+	| "inner"
+	| "none";
