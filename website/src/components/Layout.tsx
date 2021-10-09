@@ -5,12 +5,17 @@ import Navbar from "./Navbar";
 
 const Layout: Component = (props) => {
 	return (
-		<VStack w="full" height="screen">
+		<VStack width="full" height="screen">
 			<Navbar />
-			<HStack height="full" w="full">
+			<HStack height="full" width="full">
 				<Sidebar />
 
-				<VStack height="full" w="full" alignItems="start" p={4}>
+				<VStack
+					height="full"
+					width="full"
+					alignItems="start"
+					padding={4}
+				>
 					{props.children}
 				</VStack>
 			</HStack>

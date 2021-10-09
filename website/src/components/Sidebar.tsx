@@ -5,8 +5,8 @@ import SidebarItem from "./SidebarItem";
 const Sidebar: Component = (props) => {
 	return (
 		<VStack
-			py={4}
-			px={8}
+			paddingY={4}
+			paddingX={8}
 			height="full"
 			width="1/6"
 			maxWidth="sm"

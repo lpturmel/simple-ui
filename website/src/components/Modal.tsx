@@ -53,7 +53,12 @@ const Modal: Component = (props) => {
 
 	return (
 		<>
-			<Button onClick={controls.open} bg="blue.200" px={4} py={2}>
+			<Button
+				onClick={controls.open}
+				backgroundColor="blue.200"
+				paddingX={4}
+				paddingY={2}
+			>
 				Open Modal
 			</Button>
 			<Modal isOpen={controls.isOpen} controls={controls}>
@@ -75,11 +80,14 @@ const Modal: Component = (props) => {
 						nostrud ad veniam.
 					</ModalBody>
 					<ModalFooter>
-						<HStack w="full" justifyContent="end" spacingX={2}>
-							<Button bg="gray.400" onClick={controls.close}>
+						<HStack width="full" justifyContent="end" spacingX={2}>
+							<Button
+								backgroundColor="gray.400"
+								onClick={controls.close}
+							>
 								Cancel
 							</Button>
-							<Button bg="blue.400">Save</Button>
+							<Button backgroundColor="blue.400">Save</Button>
 						</HStack>
 					</ModalFooter>
 				</ModalContent>
