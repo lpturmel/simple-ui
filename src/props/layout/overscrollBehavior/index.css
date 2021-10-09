@@ -1,54 +1,54 @@
-.simple-ui-overscroll-auto,
-.simple-ui-hover\:overscroll-auto:hover,
-.simple-ui-focus\:overscroll-auto:focus,
-.simple-ui-active\:overscroll-auto:active {
-  overscroll-behavior: auto;
+.simple-ui-overscrollBehavior-auto,
+.simple-ui-hover\:overscrollBehavior-auto:hover,
+.simple-ui-focus\:overscrollBehavior-auto:focus,
+.simple-ui-active\:overscrollBehavior-auto:active {
+	overscroll-behavior: auto;
 }
-.simple-ui-overscroll-contain,
-.simple-ui-hover\:overscroll-contain:hover,
-.simple-ui-focus\:overscroll-contain:focus,
-.simple-ui-active\:overscroll-contain:active {
-  overscroll-behavior: contain;
+.simple-ui-overscrollBehavior-contain,
+.simple-ui-hover\:overscrollBehavior-contain:hover,
+.simple-ui-focus\:overscrollBehavior-contain:focus,
+.simple-ui-active\:overscrollBehavior-contain:active {
+	overscroll-behavior: contain;
 }
-.simple-ui-overscroll-none,
-.simple-ui-hover\:overscroll-none:hover,
-.simple-ui-focus\:overscroll-none:focus,
-.simple-ui-active\:overscroll-none:active {
-  overscroll-behavior: none;
+.simple-ui-overscrollBehavior-none,
+.simple-ui-hover\:overscrollBehavior-none:hover,
+.simple-ui-focus\:overscrollBehavior-none:focus,
+.simple-ui-active\:overscrollBehavior-none:active {
+	overscroll-behavior: none;
 }
-.simple-ui-overscroll-y-auto,
-.simple-ui-hover\:overscroll-y-auto:hover,
-.simple-ui-focus\:overscroll-y-auto:focus,
-.simple-ui-active\:overscroll-y-auto:active {
-  overscroll-behavior-y: auto;
+.simple-ui-overscrollBehaviorY-auto,
+.simple-ui-hover\:overscrollBehaviorY-auto:hover,
+.simple-ui-focus\:overscrollBehaviorY-auto:focus,
+.simple-ui-active\:overscrollBehaviorY-auto:active {
+	overscroll-behavior-y: auto;
 }
-.simple-ui-overscroll-y-contain,
-.simple-ui-hover\:overscroll-y-contain:hover,
-.simple-ui-focus\:overscroll-y-contain:focus,
-.simple-ui-active\:overscroll-y-contain:active {
-  overscroll-behavior-y: contain;
+.simple-ui-overscrollBehaviorY-contain,
+.simple-ui-hover\:overscrollBehaviorY-contain:hover,
+.simple-ui-focus\:overscrollBehaviorY-contain:focus,
+.simple-ui-active\:overscrollBehaviorY-contain:active {
+	overscroll-behavior-y: contain;
 }
-.simple-ui-overscroll-y-none,
-.simple-ui-hover\:overscroll-y-none:hover,
-.simple-ui-focus\:overscroll-y-none:focus,
-.simple-ui-active\:overscroll-y-none:active {
-  overscroll-behavior-y: none;
+.simple-ui-overscrollBehaviorY-none,
+.simple-ui-hover\:overscrollBehaviorY-none:hover,
+.simple-ui-focus\:overscrollBehaviorY-none:focus,
+.simple-ui-active\:overscrollBehaviorY-none:active {
+	overscroll-behavior-y: none;
 }
-.simple-ui-overscroll-x-auto,
-.simple-ui-hover\:overscroll-x-auto:hover,
-.simple-ui-focus\:overscroll-x-auto:focus,
-.simple-ui-active\:overscroll-x-auto:active {
-  overscroll-behavior-x: auto;
+.simple-ui-overscrollBehaviorX-auto,
+.simple-ui-hover\:overscrollBehaviorX-auto:hover,
+.simple-ui-focus\:overscrollBehaviorX-auto:focus,
+.simple-ui-active\:overscrollBehaviorX-auto:active {
+	overscroll-behavior-x: auto;
 }
-.simple-ui-overscroll-x-contain,
-.simple-ui-hover\:overscroll-x-contain:hover,
-.simple-ui-focus\:overscroll-x-contain:focus,
-.simple-ui-active\:overscroll-x-contain:active {
-  overscroll-behavior-x: contain;
+.simple-ui-overscrollBehaviorX-contain,
+.simple-ui-hover\:overscrollBehaviorX-contain:hover,
+.simple-ui-focus\:overscrollBehaviorX-contain:focus,
+.simple-ui-active\:overscrollBehaviorX-contain:active {
+	overscroll-behavior-x: contain;
 }
-.simple-ui-overscroll-x-none,
-.simple-ui-hover\:overscroll-x-none:hover,
-.simple-ui-focus\:overscroll-x-none:focus,
-.simple-ui-active\:overscroll-x-none:active {
-  overscroll-behavior-x: none;
+.simple-ui-overscrollBehaviorX-none,
+.simple-ui-hover\:overscrollBehaviorX-none:hover,
+.simple-ui-focus\:overscrollBehaviorX-none:focus,
+.simple-ui-active\:overscrollBehaviorX-none:active {
+	overscroll-behavior-x: none;
 }
