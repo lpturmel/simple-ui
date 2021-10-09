@@ -1,0 +1,96 @@
+.simple-ui-backgroundBlend-normal,
+.simple-ui-hover\:backgroundBlend-normal:hover,
+.simple-ui-focus\:backgroundBlend-normal:focus,
+.simple-ui-active\:backgroundBlend-normal:active {
+	background-blend-mode: normal;
+}
+.simple-ui-backgroundBlend-multiply,
+.simple-ui-hover\:backgroundBlend-multiply:hover,
+.simple-ui-focus\:backgroundBlend-multiply:focus,
+.simple-ui-active\:backgroundBlend-multiply:active {
+	background-blend-mode: multiply;
+}
+.simple-ui-backgroundBlend-screen,
+.simple-ui-hover\:backgroundBlend-screen:hover,
+.simple-ui-focus\:backgroundBlend-screen:focus,
+.simple-ui-active\:backgroundBlend-screen:active {
+	background-blend-mode: screen;
+}
+.simple-ui-backgroundBlend-overlay,
+.simple-ui-hover\:backgroundBlend-overlay:hover,
+.simple-ui-focus\:backgroundBlend-overlay:focus,
+.simple-ui-active\:backgroundBlend-overlay:active {
+	background-blend-mode: overlay;
+}
+.simple-ui-backgroundBlend-darken,
+.simple-ui-hover\:backgroundBlend-darken:hover,
+.simple-ui-focus\:backgroundBlend-darken:focus,
+.simple-ui-active\:backgroundBlend-darken:active {
+	background-blend-mode: darken;
+}
+.simple-ui-backgroundBlend-lighten,
+.simple-ui-hover\:backgroundBlend-lighten:hover,
+.simple-ui-focus\:backgroundBlend-lighten:focus,
+.simple-ui-active\:backgroundBlend-lighten:active {
+	background-blend-mode: lighten;
+}
+.simple-ui-backgroundBlend-color-dodge,
+.simple-ui-hover\:backgroundBlend-color-dodge:hover,
+.simple-ui-focus\:backgroundBlend-color-dodge:focus,
+.simple-ui-active\:backgroundBlend-color-dodge:active {
+	background-blend-mode: color-dodge;
+}
+.simple-ui-backgroundBlend-color-burn,
+.simple-ui-hover\:backgroundBlend-color-burn:hover,
+.simple-ui-focus\:backgroundBlend-color-burn:focus,
+.simple-ui-active\:backgroundBlend-color-burn:active {
+	background-blend-mode: color-burn;
+}
+.simple-ui-backgroundBlend-hard-light,
+.simple-ui-hover\:backgroundBlend-hard-light:hover,
+.simple-ui-focus\:backgroundBlend-hard-light:focus,
+.simple-ui-active\:backgroundBlend-hard-light:active {
+	background-blend-mode: hard-light;
+}
+.simple-ui-backgroundBlend-soft-light,
+.simple-ui-hover\:backgroundBlend-soft-light:hover,
+.simple-ui-focus\:backgroundBlend-soft-light:focus,
+.simple-ui-active\:backgroundBlend-soft-light:active {
+	background-blend-mode: soft-light;
+}
+.simple-ui-backgroundBlend-difference,
+.simple-ui-hover\:backgroundBlend-difference:hover,
+.simple-ui-focus\:backgroundBlend-difference:focus,
+.simple-ui-active\:backgroundBlend-difference:active {
+	background-blend-mode: difference;
+}
+.simple-ui-backgroundBlend-exclusion,
+.simple-ui-hover\:backgroundBlend-exclusion:hover,
+.simple-ui-focus\:backgroundBlend-exclusion:focus,
+.simple-ui-active\:backgroundBlend-exclusion:active {
+	background-blend-mode: exclusion;
+}
+.simple-ui-backgroundBlend-hue,
+.simple-ui-hover\:backgroundBlend-hue:hover,
+.simple-ui-focus\:backgroundBlend-hue:focus,
+.simple-ui-active\:backgroundBlend-hue:active {
+	background-blend-mode: hue;
+}
+.simple-ui-backgroundBlend-saturation,
+.simple-ui-hover\:backgroundBlend-saturation:hover,
+.simple-ui-focus\:backgroundBlend-saturation:focus,
+.simple-ui-active\:backgroundBlend-saturation:active {
+	background-blend-mode: saturation;
+}
+.simple-ui-backgroundBlend-color,
+.simple-ui-hover\:backgroundBlend-color:hover,
+.simple-ui-focus\:backgroundBlend-color:focus,
+.simple-ui-active\:backgroundBlend-color:active {
+	background-blend-mode: color;
+}
+.simple-ui-backgroundBlend-luminosity,
+.simple-ui-hover\:backgroundBlend-luminosity:hover,
+.simple-ui-focus\:backgroundBlend-luminosity:focus,
+.simple-ui-active\:backgroundBlend-luminosity:active {
+	background-blend-mode: luminosity;
+}
