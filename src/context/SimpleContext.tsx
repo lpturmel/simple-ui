@@ -78,6 +78,7 @@ import "../props/transforms/skew/index.css";
 import "../props/interactivity/appearance/index.css";
 import "../props/interactivity/cursor/index.css";
 import "../props/interactivity/pointerEvents/index.css";
+import "../props/interactivity/resize/index.css";
 
 import { DefaultTheme, SimpleThemeConfig } from "../theme";
 
