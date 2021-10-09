@@ -1,0 +1,68 @@
+.simple-ui-shadow-xs,
+.simple-ui-hover\:shadow-xs:hover,
+.simple-ui-focus\:shadow-xs:focus,
+.simple-ui-active\:shadow-xs:active {
+	--simple-ui-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+	box-shadow: var(--simple-ui-ring-offset-shadow, 0 0 #0000),
+		var(--simple-ui-ring-shadow, 0 0 #0000), var(--simple-ui-shadow);
+}
+.simple-ui-shadow-sm,
+.simple-ui-hover\:shadow-sm:hover,
+.simple-ui-focus\:shadow-sm:focus,
+.simple-ui-active\:shadow-sm:active {
+	--simple-ui-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+		0 1px 2px 0 rgba(0, 0, 0, 0.06);
+	box-shadow: var(--simple-ui-ring-offset-shadow, 0 0 #0000),
+		var(--simple-ui-ring-shadow, 0 0 #0000), var(--simple-ui-shadow);
+}
+.simple-ui-shadow-md,
+.simple-ui-hover\:shadow-md:hover,
+.simple-ui-focus\:shadow-md:focus,
+.simple-ui-active\:shadow-md:active {
+	--simple-ui-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+		0 2px 4px -1px rgba(0, 0, 0, 0.06);
+	box-shadow: var(--simple-ui-ring-offset-shadow, 0 0 #0000),
+		var(--simple-ui-ring-shadow, 0 0 #0000), var(--simple-ui-shadow);
+}
+.simple-ui-shadow-lg,
+.simple-ui-hover\:shadow-lg:hover,
+.simple-ui-focus\:shadow-lg:focus,
+.simple-ui-active\:shadow-lg:active {
+	--simple-ui-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+		0 4px 6px -2px rgba(0, 0, 0, 0.05);
+	box-shadow: var(--simple-ui-ring-offset-shadow, 0 0 #0000),
+		var(--simple-ui-ring-shadow, 0 0 #0000), var(--simple-ui-shadow);
+}
+.simple-ui-shadow-xl,
+.simple-ui-hover\:shadow-xl:hover,
+.simple-ui-focus\:shadow-xl:focus,
+.simple-ui-active\:shadow-xl:active {
+	--simple-ui-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+		0 10px 10px -5px rgba(0, 0, 0, 0.04);
+	box-shadow: var(--simple-ui-ring-offset-shadow, 0 0 #0000),
+		var(--simple-ui-ring-shadow, 0 0 #0000), var(--simple-ui-shadow);
+}
+.simple-ui-shadow-2xl,
+.simple-ui-hover\:shadow-2xl:hover,
+.simple-ui-focus\:shadow-2xl:focus,
+.simple-ui-active\:shadow-2xl:active {
+	--simple-ui-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+	box-shadow: var(--simple-ui-ring-offset-shadow, 0 0 #0000),
+		var(--simple-ui-ring-shadow, 0 0 #0000), var(--simple-ui-shadow);
+}
+.simple-ui-shadow-inner,
+.simple-ui-hover\:shadow-inner:hover,
+.simple-ui-focus\:shadow-inner:focus,
+.simple-ui-active\:shadow-inner:active {
+	--simple-ui-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+	box-shadow: var(--simple-ui-ring-offset-shadow, 0 0 #0000),
+		var(--simple-ui-ring-shadow, 0 0 #0000), var(--simple-ui-shadow);
+}
+.simple-ui-shadow-none,
+.simple-ui-hover\:shadow-none:hover,
+.simple-ui-focus\:shadow-none:focus,
+.simple-ui-active\:shadow-none:active {
+	--simple-ui-shadow: 0 0 #0000;
+	box-shadow: var(--simple-ui-ring-offset-shadow, 0 0 #0000),
+		var(--simple-ui-ring-shadow, 0 0 #0000), var(--simple-ui-shadow);
+}
