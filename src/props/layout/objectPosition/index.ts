@@ -1,14 +1,14 @@
 export interface ObjectPositionProps {
-  objectPosition?: ObjectPositionValues;
+	objectPosition?: ObjectPositionValues;
 }
 
 export type ObjectPositionValues =
-  | "bottom"
-  | "center"
-  | "left"
-  | "left bottom"
-  | "left top"
-  | "right"
-  | "right bottom"
-  | "right top"
-  | "top";
+	| "bottom"
+	| "center"
+	| "left"
+	| "left-bottom"
+	| "left-top"
+	| "right"
+	| "right-bottom"
+	| "right-top"
+	| "top";
