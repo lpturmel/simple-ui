@@ -64,6 +64,7 @@ import "../props/transition/transitionTiming/index.css";
 import "../props/transition/transitionDelay/index.css";
 import "../props/transition/animation/index.css";
 import "../props/effects/boxShadow/index.css";
+import "../props/effects/opacity/index.css";
 
 import { DefaultTheme, SimpleThemeConfig } from "../theme";
 
