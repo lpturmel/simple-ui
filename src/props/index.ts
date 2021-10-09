@@ -70,6 +70,7 @@ import { TransformProps } from "./transforms/transform";
 import { OriginProps } from "./transforms/origin";
 import { ScaleProps } from "./transforms/scale";
 import { RotateProps } from "./transforms/rotate";
+import { TranslateProps } from "./transforms/translate";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -155,5 +156,6 @@ type MainProps<T = {}> =
 		OriginProps &
 		ScaleProps &
 		RotateProps &
+		TranslateProps &
 		T;
 export default MainProps;
