@@ -1,0 +1,43 @@
+.simple-ui-transform-cpu,
+.simple-ui-hover\:transform-cpu:hover,
+.simple-ui-focus\:transform-cpu:focus,
+.simple-ui-active\:transform-cpu:active {
+	--simple-ui-translate-x: 0;
+	--simple-ui-translate-y: 0;
+	--simple-ui-rotate: 0;
+	--simple-ui-skew-x: 0;
+	--simple-ui-skew-y: 0;
+	--simple-ui-scale-x: 1;
+	--simple-ui-scale-y: 1;
+	transform: translateX(var(--simple-ui-translate-x))
+		translateY(var(--simple-ui-translate-y)) rotate(var(--simple-ui-rotate))
+		skewX(var(--simple-ui-skew-x)) skewY(var(--simple-ui-skew-y))
+		scaleX(var(--simple-ui-scale-x)) scaleY(var(--simple-ui-scale-y));
+}
+.simple-ui-transform-gpu,
+.simple-ui-hover\:transform-gpu:hover,
+.simple-ui-focus\:transform-gpu:focus,
+.simple-ui-active\:transform-gpu:active {
+	--simple-ui-translate-x: 0;
+	--simple-ui-translate-y: 0;
+	--simple-ui-rotate: 0;
+	--simple-ui-skew-x: 0;
+	--simple-ui-skew-y: 0;
+	--simple-ui-scale-x: 1;
+	--simple-ui-scale-y: 1;
+
+	transform: translate3d(
+			var(--simple-ui-translate-x),
+			var(--simple-ui-translate-y),
+			0
+		)
+		rotate(var(--simple-ui-rotate)) skewX(var(--simple-ui-skew-x))
+		skewY(var(--simple-ui-skew-y)) scaleX(var(--simple-ui-scale-x))
+		scaleY(var(--simple-ui-scale-y));
+}
+.simple-ui-transform-none,
+.simple-ui-hover\:transform-none:hover,
+.simple-ui-focus\:transform-none:focus,
+.simple-ui-active\:transform-none:active {
+	transform: none;
+}
