@@ -1,0 +1,21 @@
+.simple-ui-outline-none,
+.simple-ui-hover\:outline-none:hover,
+.simple-ui-focus\:outline-none:focus,
+.simple-ui-active\:outline-none:active {
+	outline: 2px solid transparent;
+	outline-offset: 2px;
+}
+.simple-ui-outline-white,
+.simple-ui-hover\:outline-white:hover,
+.simple-ui-focus\:outline-white:focus,
+.simple-ui-active\:outline-white:active {
+	outline: 2px dotted white;
+	outline-offset: 2px;
+}
+.simple-ui-outline-black,
+.simple-ui-hover\:outline-black:hover,
+.simple-ui-focus\:outline-black:focus,
+.simple-ui-active\:outline-black:active {
+	outline: 2px dotted black;
+	outline-offset: 2px;
+}
