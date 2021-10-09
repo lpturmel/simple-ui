@@ -1,369 +1,256 @@
-.simple-ui-p-0,
-.simple-ui-hover\:p-0:hover,
-.simple-ui-focus\:p-0:focus,
-.simple-ui-active\:p-0:active,
 .simple-ui-padding-0,
 .simple-ui-hover\:padding-0:hover,
 .simple-ui-focus\:padding-0:focus,
 .simple-ui-active\:padding-0 :active {
 	padding: 0px;
 }
-.simple-ui-p-px,
-.simple-ui-hover\:p-px:hover,
-.simple-ui-focus\:p-px:focus,
-.simple-ui-active\:p-px:active,
+
 .simple-ui-padding-px,
 .simple-ui-hover\:padding-px:hover,
 .simple-ui-focus\:padding-px:focus,
 .simple-ui-active\:padding-px :active {
 	padding: 1px;
 }
-.simple-ui-p-0\.5,
-.simple-ui-hover\:p-0\.5:hover,
-.simple-ui-focus\:p-0\.5:focus,
-.simple-ui-active\:p-0\.5:active,
+
 .simple-ui-padding-0\.5,
 .simple-ui-hover\:padding-0\.5:hover,
 .simple-ui-focus\:padding-0\.5:focus,
 .simple-ui-active\:padding-0\.5 :active {
 	padding: 0.125rem;
 }
-.simple-ui-p-1,
-.simple-ui-hover\:p-1:hover,
-.simple-ui-focus\:p-1:focus,
-.simple-ui-active\:p-1:active,
+
 .simple-ui-padding-1,
 .simple-ui-hover\:padding-1:hover,
 .simple-ui-focus\:padding-1:focus,
 .simple-ui-active\:padding-1 :active {
 	padding: 0.25rem;
 }
-.simple-ui-p-1\.5,
-.simple-ui-hover\:p-1\.5:hover,
-.simple-ui-focus\:p-1\.5:focus,
-.simple-ui-active\:p-1\.5:active,
+
 .simple-ui-padding-1\.5,
 .simple-ui-hover\:padding-1\.5:hover,
 .simple-ui-focus\:padding-1\.5:focus,
 .simple-ui-active\:padding-1\.5 :active {
 	padding: 0.375rem;
 }
-.simple-ui-p-2,
-.simple-ui-hover\:p-2:hover,
-.simple-ui-focus\:p-2:focus,
-.simple-ui-active\:p-2:active,
+
 .simple-ui-padding-2,
 .simple-ui-hover\:padding-2:hover,
 .simple-ui-focus\:padding-2:focus,
 .simple-ui-active\:padding-2 :active {
 	padding: 0.5rem;
 }
-.simple-ui-p-2\.5,
-.simple-ui-hover\:p-2\.5:hover,
-.simple-ui-focus\:p-2\.5:focus,
-.simple-ui-active\:p-2\.5:active,
+
 .simple-ui-padding-2\.5,
 .simple-ui-hover\:padding-2\.5:hover,
 .simple-ui-focus\:padding-2\.5:focus,
 .simple-ui-active\:padding-2\.5 :active {
 	padding: 0.625rem;
 }
-.simple-ui-p-3,
-.simple-ui-hover\:p-3:hover,
-.simple-ui-focus\:p-3:focus,
-.simple-ui-active\:p-3:active,
+
 .simple-ui-padding-3,
 .simple-ui-hover\:padding-3:hover,
 .simple-ui-focus\:padding-3:focus,
 .simple-ui-active\:padding-3 :active {
 	padding: 0.75rem;
 }
-.simple-ui-p-3\.5,
-.simple-ui-hover\:p-3\.5:hover,
-.simple-ui-focus\:p-3\.5:focus,
-.simple-ui-active\:p-3\.5:active,
+
 .simple-ui-padding-3\.5,
 .simple-ui-hover\:padding-3\.5:hover,
 .simple-ui-focus\:padding-3\.5:focus,
 .simple-ui-active\:padding-3\.5 :active {
 	padding: 0.875rem;
 }
-.simple-ui-p-4,
-.simple-ui-hover\:p-4:hover,
-.simple-ui-focus\:p-4:focus,
-.simple-ui-active\:p-4:active,
+
 .simple-ui-padding-4,
 .simple-ui-hover\:padding-4:hover,
 .simple-ui-focus\:padding-4:focus,
 .simple-ui-active\:padding-4 :active {
 	padding: 1rem;
 }
-.simple-ui-p-5,
-.simple-ui-hover\:p-5:hover,
-.simple-ui-focus\:p-5:focus,
-.simple-ui-active\:p-5:active,
+
 .simple-ui-padding-5,
 .simple-ui-hover\:padding-5:hover,
 .simple-ui-focus\:padding-5:focus,
 .simple-ui-active\:padding-5 :active {
 	padding: 1.25rem;
 }
-.simple-ui-p-6,
-.simple-ui-hover\:p-6:hover,
-.simple-ui-focus\:p-6:focus,
-.simple-ui-active\:p-6:active,
+
 .simple-ui-padding-6,
 .simple-ui-hover\:padding-6:hover,
 .simple-ui-focus\:padding-6:focus,
 .simple-ui-active\:padding-6 :active {
 	padding: 1.5rem;
 }
-.simple-ui-p-7,
-.simple-ui-hover\:p-7:hover,
-.simple-ui-focus\:p-7:focus,
-.simple-ui-active\:p-7:active,
+
 .simple-ui-padding-7,
 .simple-ui-hover\:padding-7:hover,
 .simple-ui-focus\:padding-7:focus,
 .simple-ui-active\:padding-7 :active {
 	padding: 1.75rem;
 }
-.simple-ui-p-8,
-.simple-ui-hover\:p-8:hover,
-.simple-ui-focus\:p-8:focus,
-.simple-ui-active\:p-8:active,
+
 .simple-ui-padding-8,
 .simple-ui-hover\:padding-8:hover,
 .simple-ui-focus\:padding-8:focus,
 .simple-ui-active\:padding-8 :active {
 	padding: 2rem;
 }
-.simple-ui-p-9,
-.simple-ui-hover\:p-9:hover,
-.simple-ui-focus\:p-9:focus,
-.simple-ui-active\:p-9:active,
+
 .simple-ui-padding-9,
 .simple-ui-hover\:padding-9:hover,
 .simple-ui-focus\:padding-9:focus,
 .simple-ui-active\:padding-9 :active {
 	padding: 2.25rem;
 }
-.simple-ui-p-10,
-.simple-ui-hover\:p-10:hover,
-.simple-ui-focus\:p-10:focus,
-.simple-ui-active\:p-10:active,
+
 .simple-ui-padding-10,
 .simple-ui-hover\:padding-10:hover,
 .simple-ui-focus\:padding-10:focus,
 .simple-ui-active\:padding-10 :active {
 	padding: 2.5rem;
 }
-.simple-ui-p-11,
-.simple-ui-hover\:p-11:hover,
-.simple-ui-focus\:p-11:focus,
-.simple-ui-active\:p-11:active,
+
 .simple-ui-padding-11,
 .simple-ui-hover\:padding-11:hover,
 .simple-ui-focus\:padding-11:focus,
 .simple-ui-active\:padding-11 :active {
 	padding: 2.75rem;
 }
-.simple-ui-p-12,
-.simple-ui-hover\:p-12:hover,
-.simple-ui-focus\:p-12:focus,
-.simple-ui-active\:p-12:active,
+
 .simple-ui-padding-12,
 .simple-ui-hover\:padding-12:hover,
 .simple-ui-focus\:padding-12:focus,
 .simple-ui-active\:padding-12 :active {
 	padding: 3rem;
 }
-.simple-ui-p-14,
-.simple-ui-hover\:p-14:hover,
-.simple-ui-focus\:p-14:focus,
-.simple-ui-active\:p-14:active,
+
 .simple-ui-padding-14,
 .simple-ui-hover\:padding-14:hover,
 .simple-ui-focus\:padding-14:focus,
 .simple-ui-active\:padding-14 :active {
 	padding: 3.5rem;
 }
-.simple-ui-p-16,
-.simple-ui-hover\:p-16:hover,
-.simple-ui-focus\:p-16:focus,
-.simple-ui-active\:p-16:active,
+
 .simple-ui-padding-16,
 .simple-ui-hover\:padding-16:hover,
 .simple-ui-focus\:padding-16:focus,
 .simple-ui-active\:padding-16 :active {
 	padding: 4rem;
 }
-.simple-ui-p-20,
-.simple-ui-hover\:p-20:hover,
-.simple-ui-focus\:p-20:focus,
-.simple-ui-active\:p-20:active,
+
 .simple-ui-padding-20,
 .simple-ui-hover\:padding-20:hover,
 .simple-ui-focus\:padding-20:focus,
 .simple-ui-active\:padding-20 :active {
 	padding: 5rem;
 }
-.simple-ui-p-24,
-.simple-ui-hover\:p-24:hover,
-.simple-ui-focus\:p-24:focus,
-.simple-ui-active\:p-24:active,
+
 .simple-ui-padding-24,
 .simple-ui-hover\:padding-24:hover,
 .simple-ui-focus\:padding-24:focus,
 .simple-ui-active\:padding-24 :active {
 	padding: 6rem;
 }
-.simple-ui-p-28,
-.simple-ui-hover\:p-28:hover,
-.simple-ui-focus\:p-28:focus,
-.simple-ui-active\:p-28:active,
+
 .simple-ui-padding-28,
 .simple-ui-hover\:padding-28:hover,
 .simple-ui-focus\:padding-28:focus,
 .simple-ui-active\:padding-28 :active {
 	padding: 7rem;
 }
-.simple-ui-p-32,
-.simple-ui-hover\:p-32:hover,
-.simple-ui-focus\:p-32:focus,
-.simple-ui-active\:p-32:active,
+
 .simple-ui-padding-32,
 .simple-ui-hover\:padding-32:hover,
 .simple-ui-focus\:padding-32:focus,
 .simple-ui-active\:padding-32 :active {
 	padding: 8rem;
 }
-.simple-ui-p-36,
-.simple-ui-hover\:p-36:hover,
-.simple-ui-focus\:p-36:focus,
-.simple-ui-active\:p-36:active,
+
 .simple-ui-padding-36,
 .simple-ui-hover\:padding-36:hover,
 .simple-ui-focus\:padding-36:focus,
 .simple-ui-active\:padding-36 :active {
 	padding: 9rem;
 }
-.simple-ui-p-40,
-.simple-ui-hover\:p-40:hover,
-.simple-ui-focus\:p-40:focus,
-.simple-ui-active\:p-40:active,
+
 .simple-ui-padding-40,
 .simple-ui-hover\:padding-40:hover,
 .simple-ui-focus\:padding-40:focus,
 .simple-ui-active\:padding-40 :active {
 	padding: 10rem;
 }
-.simple-ui-p-44,
-.simple-ui-hover\:p-44:hover,
-.simple-ui-focus\:p-44:focus,
-.simple-ui-active\:p-44:active,
+
 .simple-ui-padding-44,
 .simple-ui-hover\:padding-44:hover,
 .simple-ui-focus\:padding-44:focus,
 .simple-ui-active\:padding-44 :active {
 	padding: 11rem;
 }
-.simple-ui-p-48,
-.simple-ui-hover\:p-48:hover,
-.simple-ui-focus\:p-48:focus,
-.simple-ui-active\:p-48:active,
+
 .simple-ui-padding-48,
 .simple-ui-hover\:padding-48:hover,
 .simple-ui-focus\:padding-48:focus,
 .simple-ui-active\:padding-48 :active {
 	padding: 12rem;
 }
-.simple-ui-p-52,
-.simple-ui-hover\:p-52:hover,
-.simple-ui-focus\:p-52:focus,
-.simple-ui-active\:p-52:active,
+
 .simple-ui-padding-52,
 .simple-ui-hover\:padding-52:hover,
 .simple-ui-focus\:padding-52:focus,
 .simple-ui-active\:padding-52 :active {
 	padding: 13rem;
 }
-.simple-ui-p-56,
-.simple-ui-hover\:p-56:hover,
-.simple-ui-focus\:p-56:focus,
-.simple-ui-active\:p-56:active,
+
 .simple-ui-padding-56,
 .simple-ui-hover\:padding-56:hover,
 .simple-ui-focus\:padding-56:focus,
 .simple-ui-active\:padding-56 :active {
 	padding: 14rem;
 }
-.simple-ui-p-60,
-.simple-ui-hover\:p-60:hover,
-.simple-ui-focus\:p-60:focus,
-.simple-ui-active\:p-60:active,
+
 .simple-ui-padding-60,
 .simple-ui-hover\:padding-60:hover,
 .simple-ui-focus\:padding-60:focus,
 .simple-ui-active\:padding-60 :active {
 	padding: 15rem;
 }
-.simple-ui-p-64,
-.simple-ui-hover\:p-64:hover,
-.simple-ui-focus\:p-64:focus,
-.simple-ui-active\:p-64:active,
+
 .simple-ui-padding-64,
 .simple-ui-hover\:padding-64:hover,
 .simple-ui-focus\:padding-64:focus,
 .simple-ui-active\:padding-64 :active {
 	padding: 16rem;
 }
-.simple-ui-p-72,
-.simple-ui-hover\:p-72:hover,
-.simple-ui-focus\:p-72:focus,
-.simple-ui-active\:p-72:active,
+
 .simple-ui-padding-72,
 .simple-ui-hover\:padding-72:hover,
 .simple-ui-focus\:padding-72:focus,
 .simple-ui-active\:padding-72 :active {
 	padding: 18rem;
 }
-.simple-ui-p-80,
-.simple-ui-hover\:p-80:hover,
-.simple-ui-focus\:p-80:focus,
-.simple-ui-active\:p-80:active,
+
 .simple-ui-padding-80,
 .simple-ui-hover\:padding-80:hover,
 .simple-ui-focus\:padding-80:focus,
 .simple-ui-active\:padding-80 :active {
 	padding: 20rem;
 }
-.simple-ui-p-96,
-.simple-ui-hover\:p-96:hover,
-.simple-ui-focus\:p-96:focus,
-.simple-ui-active\:p-96:active,
+
 .simple-ui-padding-96,
 .simple-ui-hover\:padding-96:hover,
 .simple-ui-focus\:padding-96:focus,
 .simple-ui-active\:padding-96 :active {
 	padding: 24rem;
 }
-.simple-ui-px-0,
-.simple-ui-hover\:px-0:hover,
-.simple-ui-focus\:px-0:focus,
-.simple-ui-active\:px-0:active,
+
 .simple-ui-paddingX-0,
 .simple-ui-hover\:paddingX-0:hover,
 .simple-ui-focus\:paddingX-0:focus,
 .simple-ui-active\:paddingX-0 :active {
 	padding-left: 0px;
-
 	padding-right: 0px;
 }
-.simple-ui-px-px,
-.simple-ui-hover\:px-px:hover,
-.simple-ui-focus\:px-px:focus,
-.simple-ui-active\:px-px:active,
+
 .simple-ui-paddingX-px,
 .simple-ui-hover\:paddingX-px:hover,
 .simple-ui-focus\:paddingX-px:focus,
@@ -371,10 +258,7 @@
 	padding-left: 1px;
 	padding-right: 1px;
 }
-.simple-ui-px-0\.5,
-.simple-ui-hover\:px-0\.5:hover,
-.simple-ui-focus\:px-0\.5:focus,
-.simple-ui-active\:px-0\.5:active,
+
 .simple-ui-paddingX-0\.5,
 .simple-ui-hover\:paddingX-0\.5:hover,
 .simple-ui-focus\:paddingX-0\.5:focus,
@@ -382,10 +266,7 @@
 	padding-left: 0.125rem;
 	padding-right: 0.125rem;
 }
-.simple-ui-px-1,
-.simple-ui-hover\:px-1:hover,
-.simple-ui-focus\:px-1:focus,
-.simple-ui-active\:px-1:active,
+
 .simple-ui-paddingX-1,
 .simple-ui-hover\:paddingX-1:hover,
 .simple-ui-focus\:paddingX-1:focus,
@@ -393,10 +274,7 @@
 	padding-left: 0.25rem;
 	padding-right: 0.25rem;
 }
-.simple-ui-px-1\.5,
-.simple-ui-hover\:px-1\.5:hover,
-.simple-ui-focus\:px-1\.5:focus,
-.simple-ui-active\:px-1\.5:active,
+
 .simple-ui-paddingX-1\.5,
 .simple-ui-hover\:paddingX-1\.5:hover,
 .simple-ui-focus\:paddingX-1\.5:focus,
@@ -404,10 +282,7 @@
 	padding-left: 0.375rem;
 	padding-right: 0.375rem;
 }
-.simple-ui-px-2,
-.simple-ui-hover\:px-2:hover,
-.simple-ui-focus\:px-2:focus,
-.simple-ui-active\:px-2:active,
+
 .simple-ui-paddingX-2,
 .simple-ui-hover\:paddingX-2:hover,
 .simple-ui-focus\:paddingX-2:focus,
@@ -415,10 +290,7 @@
 	padding-left: 0.5rem;
 	padding-right: 0.5rem;
 }
-.simple-ui-px-2\.5,
-.simple-ui-hover\:px-2\.5:hover,
-.simple-ui-focus\:px-2\.5:focus,
-.simple-ui-active\:px-2\.5:active,
+
 .simple-ui-paddingX-2\.5,
 .simple-ui-hover\:paddingX-2\.5:hover,
 .simple-ui-focus\:paddingX-2\.5:focus,
@@ -426,10 +298,7 @@
 	padding-left: 0.625rem;
 	padding-right: 0.625rem;
 }
-.simple-ui-px-3,
-.simple-ui-hover\:px-3:hover,
-.simple-ui-focus\:px-3:focus,
-.simple-ui-active\:px-3:active,
+
 .simple-ui-paddingX-3,
 .simple-ui-hover\:paddingX-3:hover,
 .simple-ui-focus\:paddingX-3:focus,
@@ -437,10 +306,7 @@
 	padding-left: 0.75rem;
 	padding-right: 0.75rem;
 }
-.simple-ui-px-3\.5,
-.simple-ui-hover\:px-3\.5:hover,
-.simple-ui-focus\:px-3\.5:focus,
-.simple-ui-active\:px-3\.5:active,
+
 .simple-ui-paddingX-3\.5,
 .simple-ui-hover\:paddingX-3\.5:hover,
 .simple-ui-focus\:paddingX-3\.5:focus,
@@ -448,10 +314,7 @@
 	padding-left: 0.875rem;
 	padding-right: 0.875rem;
 }
-.simple-ui-px-4,
-.simple-ui-hover\:px-4:hover,
-.simple-ui-focus\:px-4:focus,
-.simple-ui-active\:px-4:active,
+
 .simple-ui-paddingX-4,
 .simple-ui-hover\:paddingX-4:hover,
 .simple-ui-focus\:paddingX-4:focus,
@@ -459,10 +322,7 @@
 	padding-left: 1rem;
 	padding-right: 1rem;
 }
-.simple-ui-px-5,
-.simple-ui-hover\:px-5:hover,
-.simple-ui-focus\:px-5:focus,
-.simple-ui-active\:px-5:active,
+
 .simple-ui-paddingX-5,
 .simple-ui-hover\:paddingX-5:hover,
 .simple-ui-focus\:paddingX-5:focus,
@@ -470,10 +330,7 @@
 	padding-left: 1.25rem;
 	padding-right: 1.25rem;
 }
-.simple-ui-px-6,
-.simple-ui-hover\:px-6:hover,
-.simple-ui-focus\:px-6:focus,
-.simple-ui-active\:px-6:active,
+
 .simple-ui-paddingX-6,
 .simple-ui-hover\:paddingX-6:hover,
 .simple-ui-focus\:paddingX-6:focus,
@@ -481,10 +338,7 @@
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
 }
-.simple-ui-px-7,
-.simple-ui-hover\:px-7:hover,
-.simple-ui-focus\:px-7:focus,
-.simple-ui-active\:px-7:active,
+
 .simple-ui-paddingX-7,
 .simple-ui-hover\:paddingX-7:hover,
 .simple-ui-focus\:paddingX-7:focus,
@@ -492,10 +346,7 @@
 	padding-left: 1.75rem;
 	padding-right: 1.75rem;
 }
-.simple-ui-px-8,
-.simple-ui-hover\:px-8:hover,
-.simple-ui-focus\:px-8:focus,
-.simple-ui-active\:px-8:active,
+
 .simple-ui-paddingX-8,
 .simple-ui-hover\:paddingX-8:hover,
 .simple-ui-focus\:paddingX-8:focus,
@@ -503,10 +354,7 @@
 	padding-left: 2rem;
 	padding-right: 2rem;
 }
-.simple-ui-px-9,
-.simple-ui-hover\:px-9:hover,
-.simple-ui-focus\:px-9:focus,
-.simple-ui-active\:px-9:active,
+
 .simple-ui-paddingX-9,
 .simple-ui-hover\:paddingX-9:hover,
 .simple-ui-focus\:paddingX-9:focus,
@@ -514,10 +362,7 @@
 	padding-left: 2.25rem;
 	padding-right: 2.25rem;
 }
-.simple-ui-px-10,
-.simple-ui-hover\:px-10:hover,
-.simple-ui-focus\:px-10:focus,
-.simple-ui-active\:px-10:active,
+
 .simple-ui-paddingX-10,
 .simple-ui-hover\:paddingX-10:hover,
 .simple-ui-focus\:paddingX-10:focus,
@@ -525,10 +370,7 @@
 	padding-left: 2.5rem;
 	padding-right: 2.5rem;
 }
-.simple-ui-px-11,
-.simple-ui-hover\:px-11:hover,
-.simple-ui-focus\:px-11:focus,
-.simple-ui-active\:px-11:active,
+
 .simple-ui-paddingX-11,
 .simple-ui-hover\:paddingX-11:hover,
 .simple-ui-focus\:paddingX-11:focus,
@@ -536,10 +378,7 @@
 	padding-left: 2.75rem;
 	padding-right: 2.75rem;
 }
-.simple-ui-px-12,
-.simple-ui-hover\:px-12:hover,
-.simple-ui-focus\:px-12:focus,
-.simple-ui-active\:px-12:active,
+
 .simple-ui-paddingX-12,
 .simple-ui-hover\:paddingX-12:hover,
 .simple-ui-focus\:paddingX-12:focus,
@@ -547,10 +386,7 @@
 	padding-left: 3rem;
 	padding-right: 3rem;
 }
-.simple-ui-px-14,
-.simple-ui-hover\:px-14:hover,
-.simple-ui-focus\:px-14:focus,
-.simple-ui-active\:px-14:active,
+
 .simple-ui-paddingX-14,
 .simple-ui-hover\:paddingX-14:hover,
 .simple-ui-focus\:paddingX-14:focus,
@@ -558,10 +394,7 @@
 	padding-left: 3.5rem;
 	padding-right: 3.5rem;
 }
-.simple-ui-px-16,
-.simple-ui-hover\:px-16:hover,
-.simple-ui-focus\:px-16:focus,
-.simple-ui-active\:px-16:active,
+
 .simple-ui-paddingX-16,
 .simple-ui-hover\:paddingX-16:hover,
 .simple-ui-focus\:paddingX-16:focus,
@@ -569,10 +402,7 @@
 	padding-left: 4rem;
 	padding-right: 4rem;
 }
-.simple-ui-px-20,
-.simple-ui-hover\:px-20:hover,
-.simple-ui-focus\:px-20:focus,
-.simple-ui-active\:px-20:active,
+
 .simple-ui-paddingX-20,
 .simple-ui-hover\:paddingX-20:hover,
 .simple-ui-focus\:paddingX-20:focus,
@@ -580,10 +410,7 @@
 	padding-left: 5rem;
 	padding-right: 5rem;
 }
-.simple-ui-px-24,
-.simple-ui-hover\:px-24:hover,
-.simple-ui-focus\:px-24:focus,
-.simple-ui-active\:px-24:active,
+
 .simple-ui-paddingX-24,
 .simple-ui-hover\:paddingX-24:hover,
 .simple-ui-focus\:paddingX-24:focus,
@@ -591,10 +418,7 @@
 	padding-left: 6rem;
 	padding-right: 6rem;
 }
-.simple-ui-px-28,
-.simple-ui-hover\:px-28:hover,
-.simple-ui-focus\:px-28:focus,
-.simple-ui-active\:px-28:active,
+
 .simple-ui-paddingX-28,
 .simple-ui-hover\:paddingX-28:hover,
 .simple-ui-focus\:paddingX-28:focus,
@@ -602,10 +426,7 @@
 	padding-left: 7rem;
 	padding-right: 7rem;
 }
-.simple-ui-px-32,
-.simple-ui-hover\:px-32:hover,
-.simple-ui-focus\:px-32:focus,
-.simple-ui-active\:px-32:active,
+
 .simple-ui-paddingX-32,
 .simple-ui-hover\:paddingX-32:hover,
 .simple-ui-focus\:paddingX-32:focus,
@@ -613,10 +434,7 @@
 	padding-left: 8rem;
 	padding-right: 8rem;
 }
-.simple-ui-px-36,
-.simple-ui-hover\:px-36:hover,
-.simple-ui-focus\:px-36:focus,
-.simple-ui-active\:px-36:active,
+
 .simple-ui-paddingX-36,
 .simple-ui-hover\:paddingX-36:hover,
 .simple-ui-focus\:paddingX-36:focus,
@@ -624,10 +442,7 @@
 	padding-left: 9rem;
 	padding-right: 9rem;
 }
-.simple-ui-px-40,
-.simple-ui-hover\:px-40:hover,
-.simple-ui-focus\:px-40:focus,
-.simple-ui-active\:px-40:active,
+
 .simple-ui-paddingX-40,
 .simple-ui-hover\:paddingX-40:hover,
 .simple-ui-focus\:paddingX-40:focus,
@@ -635,10 +450,7 @@
 	padding-left: 10rem;
 	padding-right: 10rem;
 }
-.simple-ui-px-44,
-.simple-ui-hover\:px-44:hover,
-.simple-ui-focus\:px-44:focus,
-.simple-ui-active\:px-44:active,
+
 .simple-ui-paddingX-44,
 .simple-ui-hover\:paddingX-44:hover,
 .simple-ui-focus\:paddingX-44:focus,
@@ -646,10 +458,7 @@
 	padding-left: 11rem;
 	padding-right: 11rem;
 }
-.simple-ui-px-48,
-.simple-ui-hover\:px-48:hover,
-.simple-ui-focus\:px-48:focus,
-.simple-ui-active\:px-48:active,
+
 .simple-ui-paddingX-48,
 .simple-ui-hover\:paddingX-48:hover,
 .simple-ui-focus\:paddingX-48:focus,
@@ -657,10 +466,7 @@
 	padding-left: 12rem;
 	padding-right: 12rem;
 }
-.simple-ui-px-52,
-.simple-ui-hover\:px-52:hover,
-.simple-ui-focus\:px-52:focus,
-.simple-ui-active\:px-52:active,
+
 .simple-ui-paddingX-52,
 .simple-ui-hover\:paddingX-52:hover,
 .simple-ui-focus\:paddingX-52:focus,
@@ -668,10 +474,7 @@
 	padding-left: 13rem;
 	padding-right: 13rem;
 }
-.simple-ui-px-56,
-.simple-ui-hover\:px-56:hover,
-.simple-ui-focus\:px-56:focus,
-.simple-ui-active\:px-56:active,
+
 .simple-ui-paddingX-56,
 .simple-ui-hover\:paddingX-56:hover,
 .simple-ui-focus\:paddingX-56:focus,
@@ -679,10 +482,7 @@
 	padding-left: 14rem;
 	padding-right: 14rem;
 }
-.simple-ui-px-60,
-.simple-ui-hover\:px-60:hover,
-.simple-ui-focus\:px-60:focus,
-.simple-ui-active\:px-60:active,
+
 .simple-ui-paddingX-60,
 .simple-ui-hover\:paddingX-60:hover,
 .simple-ui-focus\:paddingX-60:focus,
@@ -690,10 +490,7 @@
 	padding-left: 15rem;
 	padding-right: 15rem;
 }
-.simple-ui-px-64,
-.simple-ui-hover\:px-64:hover,
-.simple-ui-focus\:px-64:focus,
-.simple-ui-active\:px-64:active,
+
 .simple-ui-paddingX-64,
 .simple-ui-hover\:paddingX-64:hover,
 .simple-ui-focus\:paddingX-64:focus,
@@ -701,10 +498,7 @@
 	padding-left: 16rem;
 	padding-right: 16rem;
 }
-.simple-ui-px-72,
-.simple-ui-hover\:px-72:hover,
-.simple-ui-focus\:px-72:focus,
-.simple-ui-active\:px-72:active,
+
 .simple-ui-paddingX-72,
 .simple-ui-hover\:paddingX-72:hover,
 .simple-ui-focus\:paddingX-72:focus,
@@ -712,10 +506,7 @@
 	padding-left: 18rem;
 	padding-right: 18rem;
 }
-.simple-ui-px-80,
-.simple-ui-hover\:px-80:hover,
-.simple-ui-focus\:px-80:focus,
-.simple-ui-active\:px-80:active,
+
 .simple-ui-paddingX-80,
 .simple-ui-hover\:paddingX-80:hover,
 .simple-ui-focus\:paddingX-80:focus,
@@ -723,10 +514,7 @@
 	padding-left: 20rem;
 	padding-right: 20rem;
 }
-.simple-ui-px-96,
-.simple-ui-hover\:px-96:hover,
-.simple-ui-focus\:px-96:focus,
-.simple-ui-active\:px-96:active,
+
 .simple-ui-paddingX-96,
 .simple-ui-hover\:paddingX-96:hover,
 .simple-ui-focus\:paddingX-96:focus,
@@ -734,10 +522,6 @@
 	padding-left: 24rem;
 	padding-right: 24rem;
 }
-.simple-ui-py-0,
-.simple-ui-hover\:py-0:hover,
-.simple-ui-focus\:py-0:focus,
-.simple-ui-active\:py-0:active,
 .simple-ui-paddingY-0,
 .simple-ui-hover\:paddingY-0:hover,
 .simple-ui-focus\:paddingY-0:focus,
@@ -745,10 +529,6 @@
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
-.simple-ui-py-px,
-.simple-ui-hover\:py-px:hover,
-.simple-ui-focus\:py-px:focus,
-.simple-ui-active\:py-px:active,
 .simple-ui-paddingY-px,
 .simple-ui-hover\:paddingY-px:hover,
 .simple-ui-focus\:paddingY-px:focus,
@@ -756,10 +536,6 @@
 	padding-top: 1px;
 	padding-bottom: 1px;
 }
-.simple-ui-py-0\.5,
-.simple-ui-hover\:py-0\.5:hover,
-.simple-ui-focus\:py-0\.5:focus,
-.simple-ui-active\:py-0\.5:active,
 .simple-ui-paddingY-0\.5,
 .simple-ui-hover\:paddingY-0\.5:hover,
 .simple-ui-focus\:paddingY-0\.5:focus,
@@ -767,10 +543,6 @@
 	padding-top: 0.125rem;
 	padding-bottom: 0.125rem;
 }
-.simple-ui-py-1,
-.simple-ui-hover\:py-1:hover,
-.simple-ui-focus\:py-1:focus,
-.simple-ui-active\:py-1:active,
 .simple-ui-paddingY-1,
 .simple-ui-hover\:paddingY-1:hover,
 .simple-ui-focus\:paddingY-1:focus,
@@ -778,10 +550,6 @@
 	padding-top: 0.25rem;
 	padding-bottom: 0.25rem;
 }
-.simple-ui-py-1\.5,
-.simple-ui-hover\:py-1\.5:hover,
-.simple-ui-focus\:py-1\.5:focus,
-.simple-ui-active\:py-1\.5:active,
 .simple-ui-paddingY-1\.5,
 .simple-ui-hover\:paddingY-1\.5:hover,
 .simple-ui-focus\:paddingY-1\.5:focus,
@@ -789,10 +557,6 @@
 	padding-top: 0.375rem;
 	padding-bottom: 0.375rem;
 }
-.simple-ui-py-2,
-.simple-ui-hover\:py-2:hover,
-.simple-ui-focus\:py-2:focus,
-.simple-ui-active\:py-2:active,
 .simple-ui-paddingY-2,
 .simple-ui-hover\:paddingY-2:hover,
 .simple-ui-focus\:paddingY-2:focus,
@@ -800,10 +564,6 @@
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
 }
-.simple-ui-py-2\.5,
-.simple-ui-hover\:py-2\.5:hover,
-.simple-ui-focus\:py-2\.5:focus,
-.simple-ui-active\:py-2\.5:active,
 .simple-ui-paddingY-2\.5,
 .simple-ui-hover\:paddingY-2\.5:hover,
 .simple-ui-focus\:paddingY-2\.5:focus,
@@ -811,10 +571,6 @@
 	padding-top: 0.625rem;
 	padding-bottom: 0.625rem;
 }
-.simple-ui-py-3,
-.simple-ui-hover\:py-3:hover,
-.simple-ui-focus\:py-3:focus,
-.simple-ui-active\:py-3:active,
 .simple-ui-paddingY-3,
 .simple-ui-hover\:paddingY-3:hover,
 .simple-ui-focus\:paddingY-3:focus,
@@ -822,10 +578,6 @@
 	padding-top: 0.75rem;
 	padding-bottom: 0.75rem;
 }
-.simple-ui-py-3\.5,
-.simple-ui-hover\:py-3\.5:hover,
-.simple-ui-focus\:py-3\.5:focus,
-.simple-ui-active\:py-3\.5:active,
 .simple-ui-paddingY-3\.5,
 .simple-ui-hover\:paddingY-3\.5:hover,
 .simple-ui-focus\:paddingY-3\.5:focus,
@@ -833,10 +585,6 @@
 	padding-top: 0.875rem;
 	padding-bottom: 0.875rem;
 }
-.simple-ui-py-4,
-.simple-ui-hover\:py-4:hover,
-.simple-ui-focus\:py-4:focus,
-.simple-ui-active\:py-4:active,
 .simple-ui-paddingY-4,
 .simple-ui-hover\:paddingY-4:hover,
 .simple-ui-focus\:paddingY-4:focus,
@@ -844,10 +592,6 @@
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 }
-.simple-ui-py-5,
-.simple-ui-hover\:py-5:hover,
-.simple-ui-focus\:py-5:focus,
-.simple-ui-active\:py-5:active,
 .simple-ui-paddingY-5,
 .simple-ui-hover\:paddingY-5:hover,
 .simple-ui-focus\:paddingY-5:focus,
@@ -855,10 +599,6 @@
 	padding-top: 1.25rem;
 	padding-bottom: 1.25rem;
 }
-.simple-ui-py-6,
-.simple-ui-hover\:py-6:hover,
-.simple-ui-focus\:py-6:focus,
-.simple-ui-active\:py-6:active,
 .simple-ui-paddingY-6,
 .simple-ui-hover\:paddingY-6:hover,
 .simple-ui-focus\:paddingY-6:focus,
@@ -866,10 +606,6 @@
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
 }
-.simple-ui-py-7,
-.simple-ui-hover\:py-7:hover,
-.simple-ui-focus\:py-7:focus,
-.simple-ui-active\:py-7:active,
 .simple-ui-paddingY-7,
 .simple-ui-hover\:paddingY-7:hover,
 .simple-ui-focus\:paddingY-7:focus,
@@ -877,10 +613,6 @@
 	padding-top: 1.75rem;
 	padding-bottom: 1.75rem;
 }
-.simple-ui-py-8,
-.simple-ui-hover\:py-8:hover,
-.simple-ui-focus\:py-8:focus,
-.simple-ui-active\:py-8:active,
 .simple-ui-paddingY-8,
 .simple-ui-hover\:paddingY-8:hover,
 .simple-ui-focus\:paddingY-8:focus,
@@ -888,10 +620,6 @@
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
-.simple-ui-py-9,
-.simple-ui-hover\:py-9:hover,
-.simple-ui-focus\:py-9:focus,
-.simple-ui-active\:py-9:active,
 .simple-ui-paddingY-9,
 .simple-ui-hover\:paddingY-9:hover,
 .simple-ui-focus\:paddingY-9:focus,
@@ -899,10 +627,6 @@
 	padding-top: 2.25rem;
 	padding-bottom: 2.25rem;
 }
-.simple-ui-py-10,
-.simple-ui-hover\:py-10:hover,
-.simple-ui-focus\:py-10:focus,
-.simple-ui-active\:py-10:active,
 .simple-ui-paddingY-10,
 .simple-ui-hover\:paddingY-10:hover,
 .simple-ui-focus\:paddingY-10:focus,
@@ -910,10 +634,6 @@
 	padding-top: 2.5rem;
 	padding-bottom: 2.5rem;
 }
-.simple-ui-py-11,
-.simple-ui-hover\:py-11:hover,
-.simple-ui-focus\:py-11:focus,
-.simple-ui-active\:py-11:active,
 .simple-ui-paddingY-11,
 .simple-ui-hover\:paddingY-11:hover,
 .simple-ui-focus\:paddingY-11:focus,
@@ -921,10 +641,6 @@
 	padding-top: 2.75rem;
 	padding-bottom: 2.75rem;
 }
-.simple-ui-py-12,
-.simple-ui-hover\:py-12:hover,
-.simple-ui-focus\:py-12:focus,
-.simple-ui-active\:py-12:active,
 .simple-ui-paddingY-12,
 .simple-ui-hover\:paddingY-12:hover,
 .simple-ui-focus\:paddingY-12:focus,
@@ -932,10 +648,6 @@
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
-.simple-ui-py-14,
-.simple-ui-hover\:py-14:hover,
-.simple-ui-focus\:py-14:focus,
-.simple-ui-active\:py-14:active,
 .simple-ui-paddingY-14,
 .simple-ui-hover\:paddingY-14:hover,
 .simple-ui-focus\:paddingY-14:focus,
@@ -943,10 +655,6 @@
 	padding-top: 3.5rem;
 	padding-bottom: 3.5rem;
 }
-.simple-ui-py-16,
-.simple-ui-hover\:py-16:hover,
-.simple-ui-focus\:py-16:focus,
-.simple-ui-active\:py-16:active,
 .simple-ui-paddingY-16,
 .simple-ui-hover\:paddingY-16:hover,
 .simple-ui-focus\:paddingY-16:focus,
@@ -954,10 +662,6 @@
 	padding-top: 4rem;
 	padding-bottom: 4rem;
 }
-.simple-ui-py-20,
-.simple-ui-hover\:py-20:hover,
-.simple-ui-focus\:py-20:focus,
-.simple-ui-active\:py-20:active,
 .simple-ui-paddingY-20,
 .simple-ui-hover\:paddingY-20:hover,
 .simple-ui-focus\:paddingY-20:focus,
@@ -965,10 +669,6 @@
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 }
-.simple-ui-py-24,
-.simple-ui-hover\:py-24:hover,
-.simple-ui-focus\:py-24:focus,
-.simple-ui-active\:py-24:active,
 .simple-ui-paddingY-24,
 .simple-ui-hover\:paddingY-24:hover,
 .simple-ui-focus\:paddingY-24:focus,
@@ -976,10 +676,6 @@
 	padding-top: 6rem;
 	padding-bottom: 6rem;
 }
-.simple-ui-py-28,
-.simple-ui-hover\:py-28:hover,
-.simple-ui-focus\:py-28:focus,
-.simple-ui-active\:py-28:active,
 .simple-ui-paddingY-28,
 .simple-ui-hover\:paddingY-28:hover,
 .simple-ui-focus\:paddingY-28:focus,
@@ -987,10 +683,6 @@
 	padding-top: 7rem;
 	padding-bottom: 7rem;
 }
-.simple-ui-py-32,
-.simple-ui-hover\:py-32:hover,
-.simple-ui-focus\:py-32:focus,
-.simple-ui-active\:py-32:active,
 .simple-ui-paddingY-32,
 .simple-ui-hover\:paddingY-32:hover,
 .simple-ui-focus\:paddingY-32:focus,
@@ -998,10 +690,6 @@
 	padding-top: 8rem;
 	padding-bottom: 8rem;
 }
-.simple-ui-py-36,
-.simple-ui-hover\:py-36:hover,
-.simple-ui-focus\:py-36:focus,
-.simple-ui-active\:py-36:active,
 .simple-ui-paddingY-36,
 .simple-ui-hover\:paddingY-36:hover,
 .simple-ui-focus\:paddingY-36:focus,
@@ -1009,10 +697,6 @@
 	padding-top: 9rem;
 	padding-bottom: 9rem;
 }
-.simple-ui-py-40,
-.simple-ui-hover\:py-40:hover,
-.simple-ui-focus\:py-40:focus,
-.simple-ui-active\:py-40:active,
 .simple-ui-paddingY-40,
 .simple-ui-hover\:paddingY-40:hover,
 .simple-ui-focus\:paddingY-40:focus,
@@ -1020,10 +704,6 @@
 	padding-top: 10rem;
 	padding-bottom: 10rem;
 }
-.simple-ui-py-44,
-.simple-ui-hover\:py-44:hover,
-.simple-ui-focus\:py-44:focus,
-.simple-ui-active\:py-44:active,
 .simple-ui-paddingY-44,
 .simple-ui-hover\:paddingY-44:hover,
 .simple-ui-focus\:paddingY-44:focus,
@@ -1031,10 +711,6 @@
 	padding-top: 11rem;
 	padding-bottom: 11rem;
 }
-.simple-ui-py-48,
-.simple-ui-hover\:py-48:hover,
-.simple-ui-focus\:py-48:focus,
-.simple-ui-active\:py-48:active,
 .simple-ui-paddingY-48,
 .simple-ui-hover\:paddingY-48:hover,
 .simple-ui-focus\:paddingY-48:focus,
@@ -1042,10 +718,6 @@
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
-.simple-ui-py-52,
-.simple-ui-hover\:py-52:hover,
-.simple-ui-focus\:py-52:focus,
-.simple-ui-active\:py-52:active,
 .simple-ui-paddingY-52,
 .simple-ui-hover\:paddingY-52:hover,
 .simple-ui-focus\:paddingY-52:focus,
@@ -1053,10 +725,6 @@
 	padding-top: 13rem;
 	padding-bottom: 13rem;
 }
-.simple-ui-py-56,
-.simple-ui-hover\:py-56:hover,
-.simple-ui-focus\:py-56:focus,
-.simple-ui-active\:py-56:active,
 .simple-ui-paddingY-56,
 .simple-ui-hover\:paddingY-56:hover,
 .simple-ui-focus\:paddingY-56:focus,
@@ -1064,10 +732,6 @@
 	padding-top: 14rem;
 	padding-bottom: 14rem;
 }
-.simple-ui-py-60,
-.simple-ui-hover\:py-60:hover,
-.simple-ui-focus\:py-60:focus,
-.simple-ui-active\:py-60:active,
 .simple-ui-paddingY-60,
 .simple-ui-hover\:paddingY-60:hover,
 .simple-ui-focus\:paddingY-60:focus,
@@ -1075,10 +739,6 @@
 	padding-top: 15rem;
 	padding-bottom: 15rem;
 }
-.simple-ui-py-64,
-.simple-ui-hover\:py-64:hover,
-.simple-ui-focus\:py-64:focus,
-.simple-ui-active\:py-64:active,
 .simple-ui-paddingY-64,
 .simple-ui-hover\:paddingY-64:hover,
 .simple-ui-focus\:paddingY-64:focus,
@@ -1086,10 +746,6 @@
 	padding-top: 16rem;
 	padding-bottom: 16rem;
 }
-.simple-ui-py-72,
-.simple-ui-hover\:py-72:hover,
-.simple-ui-focus\:py-72:focus,
-.simple-ui-active\:py-72:active,
 .simple-ui-paddingY-72,
 .simple-ui-hover\:paddingY-72:hover,
 .simple-ui-focus\:paddingY-72:focus,
@@ -1097,10 +753,6 @@
 	padding-top: 18rem;
 	padding-bottom: 18rem;
 }
-.simple-ui-py-80,
-.simple-ui-hover\:py-80:hover,
-.simple-ui-focus\:py-80:focus,
-.simple-ui-active\:py-80:active,
 .simple-ui-paddingY-80,
 .simple-ui-hover\:paddingY-80:hover,
 .simple-ui-focus\:paddingY-80:focus,
@@ -1108,10 +760,6 @@
 	padding-top: 20rem;
 	padding-bottom: 20rem;
 }
-.simple-ui-py-96,
-.simple-ui-hover\:py-96:hover,
-.simple-ui-focus\:py-96:focus,
-.simple-ui-active\:py-96:active,
 .simple-ui-paddingY-96,
 .simple-ui-hover\:paddingY-96:hover,
 .simple-ui-focus\:paddingY-96:focus,
@@ -1119,1963 +767,983 @@
 	padding-top: 24rem;
 	padding-bottom: 24rem;
 }
-.simple-ui-pt-0,
-.simple-ui-hover\:pt-0:hover,
-.simple-ui-focus\:pt-0:focus,
-.simple-ui-active\:pt-0:active,
+
 .simple-ui-paddingTop-0,
 .simple-ui-hover\:paddingTop-0:hover,
 .simple-ui-focus\:paddingTop-0:focus,
-.simple-ui-active\:paddingTop-0:active,
-.simple-ui-paddingT-0,
-.simple-ui-hover\:paddingT-0:hover,
-.simple-ui-focus\:paddingT-0:focus,
-.simple-ui-active\:paddingT-0 :active {
+.simple-ui-active\:paddingTop-0:active {
 	padding-top: 0px;
 }
-.simple-ui-pt-px,
-.simple-ui-hover\:pt-px:hover,
-.simple-ui-focus\:pt-px:focus,
-.simple-ui-active\:pt-px:active,
+
 .simple-ui-paddingTop-px,
 .simple-ui-hover\:paddingTop-px:hover,
 .simple-ui-focus\:paddingTop-px:focus,
-.simple-ui-active\:paddingTop-px:active,
-.simple-ui-paddingT-px,
-.simple-ui-hover\:paddingT-px:hover,
-.simple-ui-focus\:paddingT-px:focus,
-.simple-ui-active\:paddingT-px :active {
+.simple-ui-active\:paddingTop-px:active {
 	padding-top: 1px;
 }
-.simple-ui-pt-0\.5,
-.simple-ui-hover\:pt-0\.5:hover,
-.simple-ui-focus\:pt-0\.5:focus,
-.simple-ui-active\:pt-0\.5:active,
+
 .simple-ui-paddingTop-0\.5,
 .simple-ui-hover\:paddingTop-0\.5:hover,
 .simple-ui-focus\:paddingTop-0\.5:focus,
-.simple-ui-active\:paddingTop-0\.5:active,
-.simple-ui-paddingT-0\.5,
-.simple-ui-hover\:paddingT-0\.5:hover,
-.simple-ui-focus\:paddingT-0\.5:focus,
-.simple-ui-active\:paddingT-0\.5 :active {
+.simple-ui-active\:paddingTop-0\.5:active {
 	padding-top: 0.125rem;
 }
-.simple-ui-pt-1,
-.simple-ui-hover\:pt-1:hover,
-.simple-ui-focus\:pt-1:focus,
-.simple-ui-active\:pt-1:active,
+
 .simple-ui-paddingTop-1,
 .simple-ui-hover\:paddingTop-1:hover,
 .simple-ui-focus\:paddingTop-1:focus,
-.simple-ui-active\:paddingTop-1:active,
-.simple-ui-paddingT-1,
-.simple-ui-hover\:paddingT-1:hover,
-.simple-ui-focus\:paddingT-1:focus,
-.simple-ui-active\:paddingT-1 :active {
+.simple-ui-active\:paddingTop-1:active {
 	padding-top: 0.25rem;
 }
-.simple-ui-pt-1\.5,
-.simple-ui-hover\:pt-1\.5:hover,
-.simple-ui-focus\:pt-1\.5:focus,
-.simple-ui-active\:pt-1\.5:active,
+
 .simple-ui-paddingTop-1\.5,
 .simple-ui-hover\:paddingTop-1\.5:hover,
 .simple-ui-focus\:paddingTop-1\.5:focus,
-.simple-ui-active\:paddingTop-1\.5:active,
-.simple-ui-paddingT-1\.5,
-.simple-ui-hover\:paddingT-1\.5:hover,
-.simple-ui-focus\:paddingT-1\.5:focus,
-.simple-ui-active\:paddingT-1\.5 :active {
+.simple-ui-active\:paddingTop-1\.5:active {
 	padding-top: 0.375rem;
 }
-.simple-ui-pt-2,
-.simple-ui-hover\:pt-2:hover,
-.simple-ui-focus\:pt-2:focus,
-.simple-ui-active\:pt-2:active,
+
 .simple-ui-paddingTop-2,
 .simple-ui-hover\:paddingTop-2:hover,
 .simple-ui-focus\:paddingTop-2:focus,
-.simple-ui-active\:paddingTop-2:active,
-.simple-ui-paddingT-2,
-.simple-ui-hover\:paddingT-2:hover,
-.simple-ui-focus\:paddingT-2:focus,
-.simple-ui-active\:paddingT-2 :active {
+.simple-ui-active\:paddingTop-2:active {
 	padding-top: 0.5rem;
 }
-.simple-ui-pt-2\.5,
-.simple-ui-hover\:pt-2\.5:hover,
-.simple-ui-focus\:pt-2\.5:focus,
-.simple-ui-active\:pt-2\.5:active,
+
 .simple-ui-paddingTop-2\.5,
 .simple-ui-hover\:paddingTop-2\.5:hover,
 .simple-ui-focus\:paddingTop-2\.5:focus,
-.simple-ui-active\:paddingTop-2\.5:active,
-.simple-ui-paddingT-2\.5,
-.simple-ui-hover\:paddingT-2\.5:hover,
-.simple-ui-focus\:paddingT-2\.5:focus,
-.simple-ui-active\:paddingT-2\.5 :active {
+.simple-ui-active\:paddingTop-2\.5:active {
 	padding-top: 0.625rem;
 }
-.simple-ui-pt-3,
-.simple-ui-hover\:pt-3:hover,
-.simple-ui-focus\:pt-3:focus,
-.simple-ui-active\:pt-3:active,
+
 .simple-ui-paddingTop-3,
 .simple-ui-hover\:paddingTop-3:hover,
 .simple-ui-focus\:paddingTop-3:focus,
-.simple-ui-active\:paddingTop-3:active,
-.simple-ui-paddingT-3,
-.simple-ui-hover\:paddingT-3:hover,
-.simple-ui-focus\:paddingT-3:focus,
-.simple-ui-active\:paddingT-3 :active {
+.simple-ui-active\:paddingTop-3:active {
 	padding-top: 0.75rem;
 }
-.simple-ui-pt-3\.5,
-.simple-ui-hover\:pt-3\.5:hover,
-.simple-ui-focus\:pt-3\.5:focus,
-.simple-ui-active\:pt-3\.5:active,
+
 .simple-ui-paddingTop-3\.5,
 .simple-ui-hover\:paddingTop-3\.5:hover,
 .simple-ui-focus\:paddingTop-3\.5:focus,
-.simple-ui-active\:paddingTop-3\.5:active,
-.simple-ui-paddingT-3\.5,
-.simple-ui-hover\:paddingT-3\.5:hover,
-.simple-ui-focus\:paddingT-3\.5:focus,
-.simple-ui-active\:paddingT-3\.5 :active {
+.simple-ui-active\:paddingTop-3\.5:active {
 	padding-top: 0.875rem;
 }
-.simple-ui-pt-4,
-.simple-ui-hover\:pt-4:hover,
-.simple-ui-focus\:pt-4:focus,
-.simple-ui-active\:pt-4:active,
+
 .simple-ui-paddingTop-4,
 .simple-ui-hover\:paddingTop-4:hover,
 .simple-ui-focus\:paddingTop-4:focus,
-.simple-ui-active\:paddingTop-4:active,
-.simple-ui-paddingT-4,
-.simple-ui-hover\:paddingT-4:hover,
-.simple-ui-focus\:paddingT-4:focus,
-.simple-ui-active\:paddingT-4 :active {
+.simple-ui-active\:paddingTop-4:active {
 	padding-top: 1rem;
 }
-.simple-ui-pt-5,
-.simple-ui-hover\:pt-5:hover,
-.simple-ui-focus\:pt-5:focus,
-.simple-ui-active\:pt-5:active,
+
 .simple-ui-paddingTop-5,
 .simple-ui-hover\:paddingTop-5:hover,
 .simple-ui-focus\:paddingTop-5:focus,
-.simple-ui-active\:paddingTop-5:active,
-.simple-ui-paddingT-5,
-.simple-ui-hover\:paddingT-5:hover,
-.simple-ui-focus\:paddingT-5:focus,
-.simple-ui-active\:paddingT-5 :active {
+.simple-ui-active\:paddingTop-5:active {
 	padding-top: 1.25rem;
 }
-.simple-ui-pt-6,
-.simple-ui-hover\:pt-6:hover,
-.simple-ui-focus\:pt-6:focus,
-.simple-ui-active\:pt-6:active,
+
 .simple-ui-paddingTop-6,
 .simple-ui-hover\:paddingTop-6:hover,
 .simple-ui-focus\:paddingTop-6:focus,
-.simple-ui-active\:paddingTop-6:active,
-.simple-ui-paddingT-6,
-.simple-ui-hover\:paddingT-6:hover,
-.simple-ui-focus\:paddingT-6:focus,
-.simple-ui-active\:paddingT-6 :active {
+.simple-ui-active\:paddingTop-6:active {
 	padding-top: 1.5rem;
 }
-.simple-ui-pt-7,
-.simple-ui-hover\:pt-7:hover,
-.simple-ui-focus\:pt-7:focus,
-.simple-ui-active\:pt-7:active,
+
 .simple-ui-paddingTop-7,
 .simple-ui-hover\:paddingTop-7:hover,
 .simple-ui-focus\:paddingTop-7:focus,
-.simple-ui-active\:paddingTop-7:active,
-.simple-ui-paddingT-7,
-.simple-ui-hover\:paddingT-7:hover,
-.simple-ui-focus\:paddingT-7:focus,
-.simple-ui-active\:paddingT-7 :active {
+.simple-ui-active\:paddingTop-7:active {
 	padding-top: 1.75rem;
 }
-.simple-ui-pt-8,
-.simple-ui-hover\:pt-8:hover,
-.simple-ui-focus\:pt-8:focus,
-.simple-ui-active\:pt-8:active,
+
 .simple-ui-paddingTop-8,
 .simple-ui-hover\:paddingTop-8:hover,
 .simple-ui-focus\:paddingTop-8:focus,
-.simple-ui-active\:paddingTop-8:active,
-.simple-ui-paddingT-8,
-.simple-ui-hover\:paddingT-8:hover,
-.simple-ui-focus\:paddingT-8:focus,
-.simple-ui-active\:paddingT-8 :active {
+.simple-ui-active\:paddingTop-8:active {
 	padding-top: 2rem;
 }
-.simple-ui-pt-9,
-.simple-ui-hover\:pt-9:hover,
-.simple-ui-focus\:pt-9:focus,
-.simple-ui-active\:pt-9:active,
+
 .simple-ui-paddingTop-9,
 .simple-ui-hover\:paddingTop-9:hover,
 .simple-ui-focus\:paddingTop-9:focus,
-.simple-ui-active\:paddingTop-9:active,
-.simple-ui-paddingT-9,
-.simple-ui-hover\:paddingT-9:hover,
-.simple-ui-focus\:paddingT-9:focus,
-.simple-ui-active\:paddingT-9 :active {
+.simple-ui-active\:paddingTop-9:active {
 	padding-top: 2.25rem;
 }
-.simple-ui-pt-10,
-.simple-ui-hover\:pt-10:hover,
-.simple-ui-focus\:pt-10:focus,
-.simple-ui-active\:pt-10:active,
+
 .simple-ui-paddingTop-10,
 .simple-ui-hover\:paddingTop-10:hover,
 .simple-ui-focus\:paddingTop-10:focus,
-.simple-ui-active\:paddingTop-10:active,
-.simple-ui-paddingT-10,
-.simple-ui-hover\:paddingT-10:hover,
-.simple-ui-focus\:paddingT-10:focus,
-.simple-ui-active\:paddingT-10 :active {
+.simple-ui-active\:paddingTop-10:active {
 	padding-top: 2.5rem;
 }
-.simple-ui-pt-11,
-.simple-ui-hover\:pt-11:hover,
-.simple-ui-focus\:pt-11:focus,
-.simple-ui-active\:pt-11:active,
+
 .simple-ui-paddingTop-11,
 .simple-ui-hover\:paddingTop-11:hover,
 .simple-ui-focus\:paddingTop-11:focus,
-.simple-ui-active\:paddingTop-11:active,
-.simple-ui-paddingT-11,
-.simple-ui-hover\:paddingT-11:hover,
-.simple-ui-focus\:paddingT-11:focus,
-.simple-ui-active\:paddingT-11 :active {
+.simple-ui-active\:paddingTop-11:active {
 	padding-top: 2.75rem;
 }
-.simple-ui-pt-12,
-.simple-ui-hover\:pt-12:hover,
-.simple-ui-focus\:pt-12:focus,
-.simple-ui-active\:pt-12:active,
+
 .simple-ui-paddingTop-12,
 .simple-ui-hover\:paddingTop-12:hover,
 .simple-ui-focus\:paddingTop-12:focus,
-.simple-ui-active\:paddingTop-12:active,
-.simple-ui-paddingT-12,
-.simple-ui-hover\:paddingT-12:hover,
-.simple-ui-focus\:paddingT-12:focus,
-.simple-ui-active\:paddingT-12 :active {
+.simple-ui-active\:paddingTop-12:active {
 	padding-top: 3rem;
 }
-.simple-ui-pt-14,
-.simple-ui-hover\:pt-14:hover,
-.simple-ui-focus\:pt-14:focus,
-.simple-ui-active\:pt-14:active,
+
 .simple-ui-paddingTop-14,
 .simple-ui-hover\:paddingTop-14:hover,
 .simple-ui-focus\:paddingTop-14:focus,
-.simple-ui-active\:paddingTop-14:active,
-.simple-ui-paddingT-14,
-.simple-ui-hover\:paddingT-14:hover,
-.simple-ui-focus\:paddingT-14:focus,
-.simple-ui-active\:paddingT-14 :active {
+.simple-ui-active\:paddingTop-14:active {
 	padding-top: 3.5rem;
 }
-.simple-ui-pt-16,
-.simple-ui-hover\:pt-16:hover,
-.simple-ui-focus\:pt-16:focus,
-.simple-ui-active\:pt-16:active,
+
 .simple-ui-paddingTop-16,
 .simple-ui-hover\:paddingTop-16:hover,
 .simple-ui-focus\:paddingTop-16:focus,
-.simple-ui-active\:paddingTop-16:active,
-.simple-ui-paddingT-16,
-.simple-ui-hover\:paddingT-16:hover,
-.simple-ui-focus\:paddingT-16:focus,
-.simple-ui-active\:paddingT-16 :active {
+.simple-ui-active\:paddingTop-16:active {
 	padding-top: 4rem;
 }
-.simple-ui-pt-20,
-.simple-ui-hover\:pt-20:hover,
-.simple-ui-focus\:pt-20:focus,
-.simple-ui-active\:pt-20:active,
+
 .simple-ui-paddingTop-20,
 .simple-ui-hover\:paddingTop-20:hover,
 .simple-ui-focus\:paddingTop-20:focus,
-.simple-ui-active\:paddingTop-20:active,
-.simple-ui-paddingT-20,
-.simple-ui-hover\:paddingT-20:hover,
-.simple-ui-focus\:paddingT-20:focus,
-.simple-ui-active\:paddingT-20 :active {
+.simple-ui-active\:paddingTop-20:active {
 	padding-top: 5rem;
 }
-.simple-ui-pt-24,
-.simple-ui-hover\:pt-24:hover,
-.simple-ui-focus\:pt-24:focus,
-.simple-ui-active\:pt-24:active,
+
 .simple-ui-paddingTop-24,
 .simple-ui-hover\:paddingTop-24:hover,
 .simple-ui-focus\:paddingTop-24:focus,
-.simple-ui-active\:paddingTop-24:active,
-.simple-ui-paddingT-24,
-.simple-ui-hover\:paddingT-24:hover,
-.simple-ui-focus\:paddingT-24:focus,
-.simple-ui-active\:paddingT-24 :active {
+.simple-ui-active\:paddingTop-24:active {
 	padding-top: 6rem;
 }
-.simple-ui-pt-28,
-.simple-ui-hover\:pt-28:hover,
-.simple-ui-focus\:pt-28:focus,
-.simple-ui-active\:pt-28:active,
+
 .simple-ui-paddingTop-28,
 .simple-ui-hover\:paddingTop-28:hover,
 .simple-ui-focus\:paddingTop-28:focus,
-.simple-ui-active\:paddingTop-28:active,
-.simple-ui-paddingT-28,
-.simple-ui-hover\:paddingT-28:hover,
-.simple-ui-focus\:paddingT-28:focus,
-.simple-ui-active\:paddingT-28 :active {
+.simple-ui-active\:paddingTop-28:active {
 	padding-top: 7rem;
 }
-.simple-ui-pt-32,
-.simple-ui-hover\:pt-32:hover,
-.simple-ui-focus\:pt-32:focus,
-.simple-ui-active\:pt-32:active,
+
 .simple-ui-paddingTop-32,
 .simple-ui-hover\:paddingTop-32:hover,
 .simple-ui-focus\:paddingTop-32:focus,
-.simple-ui-active\:paddingTop-32:active,
-.simple-ui-paddingT-32,
-.simple-ui-hover\:paddingT-32:hover,
-.simple-ui-focus\:paddingT-32:focus,
-.simple-ui-active\:paddingT-32 :active {
+.simple-ui-active\:paddingTop-32:active {
 	padding-top: 8rem;
 }
-.simple-ui-pt-36,
-.simple-ui-hover\:pt-36:hover,
-.simple-ui-focus\:pt-36:focus,
-.simple-ui-active\:pt-36:active,
+
 .simple-ui-paddingTop-36,
 .simple-ui-hover\:paddingTop-36:hover,
 .simple-ui-focus\:paddingTop-36:focus,
-.simple-ui-active\:paddingTop-36:active,
-.simple-ui-paddingT-36,
-.simple-ui-hover\:paddingT-36:hover,
-.simple-ui-focus\:paddingT-36:focus,
-.simple-ui-active\:paddingT-36 :active {
+.simple-ui-active\:paddingTop-36:active {
 	padding-top: 9rem;
 }
-.simple-ui-pt-40,
-.simple-ui-hover\:pt-40:hover,
-.simple-ui-focus\:pt-40:focus,
-.simple-ui-active\:pt-40:active,
+
 .simple-ui-paddingTop-40,
 .simple-ui-hover\:paddingTop-40:hover,
 .simple-ui-focus\:paddingTop-40:focus,
-.simple-ui-active\:paddingTop-40:active,
-.simple-ui-paddingT-40,
-.simple-ui-hover\:paddingT-40:hover,
-.simple-ui-focus\:paddingT-40:focus,
-.simple-ui-active\:paddingT-40 :active {
+.simple-ui-active\:paddingTop-40:active {
 	padding-top: 10rem;
 }
-.simple-ui-pt-44,
-.simple-ui-hover\:pt-44:hover,
-.simple-ui-focus\:pt-44:focus,
-.simple-ui-active\:pt-44:active,
+
 .simple-ui-paddingTop-44,
 .simple-ui-hover\:paddingTop-44:hover,
 .simple-ui-focus\:paddingTop-44:focus,
-.simple-ui-active\:paddingTop-44:active,
-.simple-ui-paddingT-44,
-.simple-ui-hover\:paddingT-44:hover,
-.simple-ui-focus\:paddingT-44:focus,
-.simple-ui-active\:paddingT-44 :active {
+.simple-ui-active\:paddingTop-44:active {
 	padding-top: 11rem;
 }
-.simple-ui-pt-48,
-.simple-ui-hover\:pt-48:hover,
-.simple-ui-focus\:pt-48:focus,
-.simple-ui-active\:pt-48:active,
+
 .simple-ui-paddingTop-48,
 .simple-ui-hover\:paddingTop-48:hover,
 .simple-ui-focus\:paddingTop-48:focus,
-.simple-ui-active\:paddingTop-48:active,
-.simple-ui-paddingT-48,
-.simple-ui-hover\:paddingT-48:hover,
-.simple-ui-focus\:paddingT-48:focus,
-.simple-ui-active\:paddingT-48 :active {
+.simple-ui-active\:paddingTop-48:active {
 	padding-top: 12rem;
 }
-.simple-ui-pt-52,
-.simple-ui-hover\:pt-52:hover,
-.simple-ui-focus\:pt-52:focus,
-.simple-ui-active\:pt-52:active,
+
 .simple-ui-paddingTop-52,
 .simple-ui-hover\:paddingTop-52:hover,
 .simple-ui-focus\:paddingTop-52:focus,
-.simple-ui-active\:paddingTop-52:active,
-.simple-ui-paddingT-52,
-.simple-ui-hover\:paddingT-52:hover,
-.simple-ui-focus\:paddingT-52:focus,
-.simple-ui-active\:paddingT-52 :active {
+.simple-ui-active\:paddingTop-52:active {
 	padding-top: 13rem;
 }
-.simple-ui-pt-56,
-.simple-ui-hover\:pt-56:hover,
-.simple-ui-focus\:pt-56:focus,
-.simple-ui-active\:pt-56:active,
+
 .simple-ui-paddingTop-56,
 .simple-ui-hover\:paddingTop-56:hover,
 .simple-ui-focus\:paddingTop-56:focus,
-.simple-ui-active\:paddingTop-56:active,
-.simple-ui-paddingT-56,
-.simple-ui-hover\:paddingT-56:hover,
-.simple-ui-focus\:paddingT-56:focus,
-.simple-ui-active\:paddingT-56 :active {
+.simple-ui-active\:paddingTop-56:active {
 	padding-top: 14rem;
 }
-.simple-ui-pt-60,
-.simple-ui-hover\:pt-60:hover,
-.simple-ui-focus\:pt-60:focus,
-.simple-ui-active\:pt-60:active,
+
 .simple-ui-paddingTop-60,
 .simple-ui-hover\:paddingTop-60:hover,
 .simple-ui-focus\:paddingTop-60:focus,
-.simple-ui-active\:paddingTop-60:active,
-.simple-ui-paddingT-60,
-.simple-ui-hover\:paddingT-60:hover,
-.simple-ui-focus\:paddingT-60:focus,
-.simple-ui-active\:paddingT-60 :active {
+.simple-ui-active\:paddingTop-60:active {
 	padding-top: 15rem;
 }
-.simple-ui-pt-64,
-.simple-ui-hover\:pt-64:hover,
-.simple-ui-focus\:pt-64:focus,
-.simple-ui-active\:pt-64:active,
+
 .simple-ui-paddingTop-64,
 .simple-ui-hover\:paddingTop-64:hover,
 .simple-ui-focus\:paddingTop-64:focus,
-.simple-ui-active\:paddingTop-64:active,
-.simple-ui-paddingT-64,
-.simple-ui-hover\:paddingT-64:hover,
-.simple-ui-focus\:paddingT-64:focus,
-.simple-ui-active\:paddingT-64 :active {
+.simple-ui-active\:paddingTop-64:active {
 	padding-top: 16rem;
 }
-.simple-ui-pt-72,
-.simple-ui-hover\:pt-72:hover,
-.simple-ui-focus\:pt-72:focus,
-.simple-ui-active\:pt-72:active,
+
 .simple-ui-paddingTop-72,
 .simple-ui-hover\:paddingTop-72:hover,
 .simple-ui-focus\:paddingTop-72:focus,
-.simple-ui-active\:paddingTop-72:active,
-.simple-ui-paddingT-72,
-.simple-ui-hover\:paddingT-72:hover,
-.simple-ui-focus\:paddingT-72:focus,
-.simple-ui-active\:paddingT-72 :active {
+.simple-ui-active\:paddingTop-72:active {
 	padding-top: 18rem;
 }
-.simple-ui-pt-80,
-.simple-ui-hover\:pt-80:hover,
-.simple-ui-focus\:pt-80:focus,
-.simple-ui-active\:pt-80:active,
+
 .simple-ui-paddingTop-80,
 .simple-ui-hover\:paddingTop-80:hover,
 .simple-ui-focus\:paddingTop-80:focus,
-.simple-ui-active\:paddingTop-80:active,
-.simple-ui-paddingT-80,
-.simple-ui-hover\:paddingT-80:hover,
-.simple-ui-focus\:paddingT-80:focus,
-.simple-ui-active\:paddingT-80 :active {
+.simple-ui-active\:paddingTop-80:active {
 	padding-top: 20rem;
 }
-.simple-ui-pt-96,
-.simple-ui-hover\:pt-96:hover,
-.simple-ui-focus\:pt-96:focus,
-.simple-ui-active\:pt-96:active,
+
 .simple-ui-paddingTop-96,
 .simple-ui-hover\:paddingTop-96:hover,
 .simple-ui-focus\:paddingTop-96:focus,
-.simple-ui-active\:paddingTop-96:active,
-.simple-ui-paddingT-96,
-.simple-ui-hover\:paddingT-96:hover,
-.simple-ui-focus\:paddingT-96:focus,
-.simple-ui-active\:paddingT-96 :active {
+.simple-ui-active\:paddingTop-96:active {
 	padding-top: 24rem;
 }
-.simple-ui-pr-0,
-.simple-ui-hover\:pr-0:hover,
-.simple-ui-focus\:pr-0:focus,
-.simple-ui-active\:pr-0:active,
+
 .simple-ui-paddingRight-0,
 .simple-ui-hover\:paddingRight-0:hover,
 .simple-ui-focus\:paddingRight-0:focus,
-.simple-ui-active\:paddingRight-0:active,
-.simple-ui-paddingR-0,
-.simple-ui-hover\:paddingR-0:hover,
-.simple-ui-focus\:paddingR-0:focus,
-.simple-ui-active\:paddingR-0 :active {
+.simple-ui-active\:paddingRight-0:active {
 	padding-right: 0px;
 }
-.simple-ui-pr-px,
-.simple-ui-hover\:pr-px:hover,
-.simple-ui-focus\:pr-px:focus,
-.simple-ui-active\:pr-px:active,
+
 .simple-ui-paddingRight-px,
 .simple-ui-hover\:paddingRight-px:hover,
 .simple-ui-focus\:paddingRight-px:focus,
-.simple-ui-active\:paddingRight-px:active,
-.simple-ui-paddingR-px,
-.simple-ui-hover\:paddingR-px:hover,
-.simple-ui-focus\:paddingR-px:focus,
-.simple-ui-active\:paddingR-px :active {
+.simple-ui-active\:paddingRight-px:active {
 	padding-right: 1px;
 }
-.simple-ui-pr-0\.5,
-.simple-ui-hover\:pr-0\.5:hover,
-.simple-ui-focus\:pr-0\.5:focus,
-.simple-ui-active\:pr-0\.5:active,
+
 .simple-ui-paddingRight-0\.5,
 .simple-ui-hover\:paddingRight-0\.5:hover,
 .simple-ui-focus\:paddingRight-0\.5:focus,
-.simple-ui-active\:paddingRight-0\.5:active,
-.simple-ui-paddingR-0\.5,
-.simple-ui-hover\:paddingR-0\.5:hover,
-.simple-ui-focus\:paddingR-0\.5:focus,
-.simple-ui-active\:paddingR-0\.5 :active {
+.simple-ui-active\:paddingRight-0\.5:active {
 	padding-right: 0.125rem;
 }
-.simple-ui-pr-1,
-.simple-ui-hover\:pr-1:hover,
-.simple-ui-focus\:pr-1:focus,
-.simple-ui-active\:pr-1:active,
+
 .simple-ui-paddingRight-1,
 .simple-ui-hover\:paddingRight-1:hover,
 .simple-ui-focus\:paddingRight-1:focus,
-.simple-ui-active\:paddingRight-1:active,
-.simple-ui-paddingR-1,
-.simple-ui-hover\:paddingR-1:hover,
-.simple-ui-focus\:paddingR-1:focus,
-.simple-ui-active\:paddingR-1 :active {
+.simple-ui-active\:paddingRight-1:active {
 	padding-right: 0.25rem;
 }
-.simple-ui-pr-1\.5,
-.simple-ui-hover\:pr-1\.5:hover,
-.simple-ui-focus\:pr-1\.5:focus,
-.simple-ui-active\:pr-1\.5:active,
+
 .simple-ui-paddingRight-1\.5,
 .simple-ui-hover\:paddingRight-1\.5:hover,
 .simple-ui-focus\:paddingRight-1\.5:focus,
-.simple-ui-active\:paddingRight-1\.5:active,
-.simple-ui-paddingR-1\.5,
-.simple-ui-hover\:paddingR-1\.5:hover,
-.simple-ui-focus\:paddingR-1\.5:focus,
-.simple-ui-active\:paddingR-1\.5 :active {
+.simple-ui-active\:paddingRight-1\.5:active {
 	padding-right: 0.375rem;
 }
-.simple-ui-pr-2,
-.simple-ui-hover\:pr-2:hover,
-.simple-ui-focus\:pr-2:focus,
-.simple-ui-active\:pr-2:active,
+
 .simple-ui-paddingRight-2,
 .simple-ui-hover\:paddingRight-2:hover,
 .simple-ui-focus\:paddingRight-2:focus,
-.simple-ui-active\:paddingRight-2:active,
-.simple-ui-paddingR-2,
-.simple-ui-hover\:paddingR-2:hover,
-.simple-ui-focus\:paddingR-2:focus,
-.simple-ui-active\:paddingR-2 :active {
+.simple-ui-active\:paddingRight-2:active {
 	padding-right: 0.5rem;
 }
-.simple-ui-pr-2\.5,
-.simple-ui-hover\:pr-2\.5:hover,
-.simple-ui-focus\:pr-2\.5:focus,
-.simple-ui-active\:pr-2\.5:active,
+
 .simple-ui-paddingRight-2\.5,
 .simple-ui-hover\:paddingRight-2\.5:hover,
 .simple-ui-focus\:paddingRight-2\.5:focus,
-.simple-ui-active\:paddingRight-2\.5:active,
-.simple-ui-paddingR-2\.5,
-.simple-ui-hover\:paddingR-2\.5:hover,
-.simple-ui-focus\:paddingR-2\.5:focus,
-.simple-ui-active\:paddingR-2\.5 :active {
+.simple-ui-active\:paddingRight-2\.5:active {
 	padding-right: 0.625rem;
 }
-.simple-ui-pr-3,
-.simple-ui-hover\:pr-3:hover,
-.simple-ui-focus\:pr-3:focus,
-.simple-ui-active\:pr-3:active,
+
 .simple-ui-paddingRight-3,
 .simple-ui-hover\:paddingRight-3:hover,
 .simple-ui-focus\:paddingRight-3:focus,
-.simple-ui-active\:paddingRight-3:active,
-.simple-ui-paddingR-3,
-.simple-ui-hover\:paddingR-3:hover,
-.simple-ui-focus\:paddingR-3:focus,
-.simple-ui-active\:paddingR-3 :active {
+.simple-ui-active\:paddingRight-3:active {
 	padding-right: 0.75rem;
 }
-.simple-ui-pr-3\.5,
-.simple-ui-hover\:pr-3\.5:hover,
-.simple-ui-focus\:pr-3\.5:focus,
-.simple-ui-active\:pr-3\.5:active,
+
 .simple-ui-paddingRight-3\.5,
 .simple-ui-hover\:paddingRight-3\.5:hover,
 .simple-ui-focus\:paddingRight-3\.5:focus,
-.simple-ui-active\:paddingRight-3\.5:active,
-.simple-ui-paddingR-3\.5,
-.simple-ui-hover\:paddingR-3\.5:hover,
-.simple-ui-focus\:paddingR-3\.5:focus,
-.simple-ui-active\:paddingR-3\.5 :active {
+.simple-ui-active\:paddingRight-3\.5:active {
 	padding-right: 0.875rem;
 }
-.simple-ui-pr-4,
-.simple-ui-hover\:pr-4:hover,
-.simple-ui-focus\:pr-4:focus,
-.simple-ui-active\:pr-4:active,
+
 .simple-ui-paddingRight-4,
 .simple-ui-hover\:paddingRight-4:hover,
 .simple-ui-focus\:paddingRight-4:focus,
-.simple-ui-active\:paddingRight-4:active,
-.simple-ui-paddingR-4,
-.simple-ui-hover\:paddingR-4:hover,
-.simple-ui-focus\:paddingR-4:focus,
-.simple-ui-active\:paddingR-4 :active {
+.simple-ui-active\:paddingRight-4:active {
 	padding-right: 1rem;
 }
-.simple-ui-pr-5,
-.simple-ui-hover\:pr-5:hover,
-.simple-ui-focus\:pr-5:focus,
-.simple-ui-active\:pr-5:active,
+
 .simple-ui-paddingRight-5,
 .simple-ui-hover\:paddingRight-5:hover,
 .simple-ui-focus\:paddingRight-5:focus,
-.simple-ui-active\:paddingRight-5:active,
-.simple-ui-paddingR-5,
-.simple-ui-hover\:paddingR-5:hover,
-.simple-ui-focus\:paddingR-5:focus,
-.simple-ui-active\:paddingR-5 :active {
+.simple-ui-active\:paddingRight-5:active {
 	padding-right: 1.25rem;
 }
-.simple-ui-pr-6,
-.simple-ui-hover\:pr-6:hover,
-.simple-ui-focus\:pr-6:focus,
-.simple-ui-active\:pr-6:active,
+
 .simple-ui-paddingRight-6,
 .simple-ui-hover\:paddingRight-6:hover,
 .simple-ui-focus\:paddingRight-6:focus,
-.simple-ui-active\:paddingRight-6:active,
-.simple-ui-paddingR-6,
-.simple-ui-hover\:paddingR-6:hover,
-.simple-ui-focus\:paddingR-6:focus,
-.simple-ui-active\:paddingR-6 :active {
+.simple-ui-active\:paddingRight-6:active {
 	padding-right: 1.5rem;
 }
-.simple-ui-pr-7,
-.simple-ui-hover\:pr-7:hover,
-.simple-ui-focus\:pr-7:focus,
-.simple-ui-active\:pr-7:active,
+
 .simple-ui-paddingRight-7,
 .simple-ui-hover\:paddingRight-7:hover,
 .simple-ui-focus\:paddingRight-7:focus,
-.simple-ui-active\:paddingRight-7:active,
-.simple-ui-paddingR-7,
-.simple-ui-hover\:paddingR-7:hover,
-.simple-ui-focus\:paddingR-7:focus,
-.simple-ui-active\:paddingR-7 :active {
+.simple-ui-active\:paddingRight-7:active {
 	padding-right: 1.75rem;
 }
-.simple-ui-pr-8,
-.simple-ui-hover\:pr-8:hover,
-.simple-ui-focus\:pr-8:focus,
-.simple-ui-active\:pr-8:active,
+
 .simple-ui-paddingRight-8,
 .simple-ui-hover\:paddingRight-8:hover,
 .simple-ui-focus\:paddingRight-8:focus,
-.simple-ui-active\:paddingRight-8:active,
-.simple-ui-paddingR-8,
-.simple-ui-hover\:paddingR-8:hover,
-.simple-ui-focus\:paddingR-8:focus,
-.simple-ui-active\:paddingR-8 :active {
+.simple-ui-active\:paddingRight-8:active {
 	padding-right: 2rem;
 }
-.simple-ui-pr-9,
-.simple-ui-hover\:pr-9:hover,
-.simple-ui-focus\:pr-9:focus,
-.simple-ui-active\:pr-9:active,
+
 .simple-ui-paddingRight-9,
 .simple-ui-hover\:paddingRight-9:hover,
 .simple-ui-focus\:paddingRight-9:focus,
-.simple-ui-active\:paddingRight-9:active,
-.simple-ui-paddingR-9,
-.simple-ui-hover\:paddingR-9:hover,
-.simple-ui-focus\:paddingR-9:focus,
-.simple-ui-active\:paddingR-9 :active {
+.simple-ui-active\:paddingRight-9:active {
 	padding-right: 2.25rem;
 }
-.simple-ui-pr-10,
-.simple-ui-hover\:pr-10:hover,
-.simple-ui-focus\:pr-10:focus,
-.simple-ui-active\:pr-10:active,
+
 .simple-ui-paddingRight-10,
 .simple-ui-hover\:paddingRight-10:hover,
 .simple-ui-focus\:paddingRight-10:focus,
-.simple-ui-active\:paddingRight-10:active,
-.simple-ui-paddingR-10,
-.simple-ui-hover\:paddingR-10:hover,
-.simple-ui-focus\:paddingR-10:focus,
-.simple-ui-active\:paddingR-10 :active {
+.simple-ui-active\:paddingRight-10:active {
 	padding-right: 2.5rem;
 }
-.simple-ui-pr-11,
-.simple-ui-hover\:pr-11:hover,
-.simple-ui-focus\:pr-11:focus,
-.simple-ui-active\:pr-11:active,
+
 .simple-ui-paddingRight-11,
 .simple-ui-hover\:paddingRight-11:hover,
 .simple-ui-focus\:paddingRight-11:focus,
-.simple-ui-active\:paddingRight-11:active,
-.simple-ui-paddingR-11,
-.simple-ui-hover\:paddingR-11:hover,
-.simple-ui-focus\:paddingR-11:focus,
-.simple-ui-active\:paddingR-11 :active {
+.simple-ui-active\:paddingRight-11:active {
 	padding-right: 2.75rem;
 }
-.simple-ui-pr-12,
-.simple-ui-hover\:pr-12:hover,
-.simple-ui-focus\:pr-12:focus,
-.simple-ui-active\:pr-12:active,
+
 .simple-ui-paddingRight-12,
 .simple-ui-hover\:paddingRight-12:hover,
 .simple-ui-focus\:paddingRight-12:focus,
-.simple-ui-active\:paddingRight-12:active,
-.simple-ui-paddingR-12,
-.simple-ui-hover\:paddingR-12:hover,
-.simple-ui-focus\:paddingR-12:focus,
-.simple-ui-active\:paddingR-12 :active {
+.simple-ui-active\:paddingRight-12:active {
 	padding-right: 3rem;
 }
-.simple-ui-pr-14,
-.simple-ui-hover\:pr-14:hover,
-.simple-ui-focus\:pr-14:focus,
-.simple-ui-active\:pr-14:active,
+
 .simple-ui-paddingRight-14,
 .simple-ui-hover\:paddingRight-14:hover,
 .simple-ui-focus\:paddingRight-14:focus,
-.simple-ui-active\:paddingRight-14:active,
-.simple-ui-paddingR-14,
-.simple-ui-hover\:paddingR-14:hover,
-.simple-ui-focus\:paddingR-14:focus,
-.simple-ui-active\:paddingR-14 :active {
+.simple-ui-active\:paddingRight-14:active {
 	padding-right: 3.5rem;
 }
-.simple-ui-pr-16,
-.simple-ui-hover\:pr-16:hover,
-.simple-ui-focus\:pr-16:focus,
-.simple-ui-active\:pr-16:active,
+
 .simple-ui-paddingRight-16,
 .simple-ui-hover\:paddingRight-16:hover,
 .simple-ui-focus\:paddingRight-16:focus,
-.simple-ui-active\:paddingRight-16:active,
-.simple-ui-paddingR-16,
-.simple-ui-hover\:paddingR-16:hover,
-.simple-ui-focus\:paddingR-16:focus,
-.simple-ui-active\:paddingR-16 :active {
+.simple-ui-active\:paddingRight-16:active {
 	padding-right: 4rem;
 }
-.simple-ui-pr-20,
-.simple-ui-hover\:pr-20:hover,
-.simple-ui-focus\:pr-20:focus,
-.simple-ui-active\:pr-20:active,
+
 .simple-ui-paddingRight-20,
 .simple-ui-hover\:paddingRight-20:hover,
 .simple-ui-focus\:paddingRight-20:focus,
-.simple-ui-active\:paddingRight-20:active,
-.simple-ui-paddingR-20,
-.simple-ui-hover\:paddingR-20:hover,
-.simple-ui-focus\:paddingR-20:focus,
-.simple-ui-active\:paddingR-20 :active {
+.simple-ui-active\:paddingRight-20:active {
 	padding-right: 5rem;
 }
-.simple-ui-pr-24,
-.simple-ui-hover\:pr-24:hover,
-.simple-ui-focus\:pr-24:focus,
-.simple-ui-active\:pr-24:active,
+
 .simple-ui-paddingRight-24,
 .simple-ui-hover\:paddingRight-24:hover,
 .simple-ui-focus\:paddingRight-24:focus,
-.simple-ui-active\:paddingRight-24:active,
-.simple-ui-paddingR-24,
-.simple-ui-hover\:paddingR-24:hover,
-.simple-ui-focus\:paddingR-24:focus,
-.simple-ui-active\:paddingR-24 :active {
+.simple-ui-active\:paddingRight-24:active {
 	padding-right: 6rem;
 }
-.simple-ui-pr-28,
-.simple-ui-hover\:pr-28:hover,
-.simple-ui-focus\:pr-28:focus,
-.simple-ui-active\:pr-28:active,
+
 .simple-ui-paddingRight-28,
 .simple-ui-hover\:paddingRight-28:hover,
 .simple-ui-focus\:paddingRight-28:focus,
-.simple-ui-active\:paddingRight-28:active,
-.simple-ui-paddingR-28,
-.simple-ui-hover\:paddingR-28:hover,
-.simple-ui-focus\:paddingR-28:focus,
-.simple-ui-active\:paddingR-28 :active {
+.simple-ui-active\:paddingRight-28:active {
 	padding-right: 7rem;
 }
-.simple-ui-pr-32,
-.simple-ui-hover\:pr-32:hover,
-.simple-ui-focus\:pr-32:focus,
-.simple-ui-active\:pr-32:active,
+
 .simple-ui-paddingRight-32,
 .simple-ui-hover\:paddingRight-32:hover,
 .simple-ui-focus\:paddingRight-32:focus,
-.simple-ui-active\:paddingRight-32:active,
-.simple-ui-paddingR-32,
-.simple-ui-hover\:paddingR-32:hover,
-.simple-ui-focus\:paddingR-32:focus,
-.simple-ui-active\:paddingR-32 :active {
+.simple-ui-active\:paddingRight-32:active {
 	padding-right: 8rem;
 }
-.simple-ui-pr-36,
-.simple-ui-hover\:pr-36:hover,
-.simple-ui-focus\:pr-36:focus,
-.simple-ui-active\:pr-36:active,
+
 .simple-ui-paddingRight-36,
 .simple-ui-hover\:paddingRight-36:hover,
 .simple-ui-focus\:paddingRight-36:focus,
-.simple-ui-active\:paddingRight-36:active,
-.simple-ui-paddingR-36,
-.simple-ui-hover\:paddingR-36:hover,
-.simple-ui-focus\:paddingR-36:focus,
-.simple-ui-active\:paddingR-36 :active {
+.simple-ui-active\:paddingRight-36:active {
 	padding-right: 9rem;
 }
-.simple-ui-pr-40,
-.simple-ui-hover\:pr-40:hover,
-.simple-ui-focus\:pr-40:focus,
-.simple-ui-active\:pr-40:active,
+
 .simple-ui-paddingRight-40,
 .simple-ui-hover\:paddingRight-40:hover,
 .simple-ui-focus\:paddingRight-40:focus,
-.simple-ui-active\:paddingRight-40:active,
-.simple-ui-paddingR-40,
-.simple-ui-hover\:paddingR-40:hover,
-.simple-ui-focus\:paddingR-40:focus,
-.simple-ui-active\:paddingR-40 :active {
+.simple-ui-active\:paddingRight-40:active {
 	padding-right: 10rem;
 }
-.simple-ui-pr-44,
-.simple-ui-hover\:pr-44:hover,
-.simple-ui-focus\:pr-44:focus,
-.simple-ui-active\:pr-44:active,
+
 .simple-ui-paddingRight-44,
 .simple-ui-hover\:paddingRight-44:hover,
 .simple-ui-focus\:paddingRight-44:focus,
-.simple-ui-active\:paddingRight-44:active,
-.simple-ui-paddingR-44,
-.simple-ui-hover\:paddingR-44:hover,
-.simple-ui-focus\:paddingR-44:focus,
-.simple-ui-active\:paddingR-44 :active {
+.simple-ui-active\:paddingRight-44:active {
 	padding-right: 11rem;
 }
-.simple-ui-pr-48,
-.simple-ui-hover\:pr-48:hover,
-.simple-ui-focus\:pr-48:focus,
-.simple-ui-active\:pr-48:active,
+
 .simple-ui-paddingRight-48,
 .simple-ui-hover\:paddingRight-48:hover,
 .simple-ui-focus\:paddingRight-48:focus,
-.simple-ui-active\:paddingRight-48:active,
-.simple-ui-paddingR-48,
-.simple-ui-hover\:paddingR-48:hover,
-.simple-ui-focus\:paddingR-48:focus,
-.simple-ui-active\:paddingR-48 :active {
+.simple-ui-active\:paddingRight-48:active {
 	padding-right: 12rem;
 }
-.simple-ui-pr-52,
-.simple-ui-hover\:pr-52:hover,
-.simple-ui-focus\:pr-52:focus,
-.simple-ui-active\:pr-52:active,
+
 .simple-ui-paddingRight-52,
 .simple-ui-hover\:paddingRight-52:hover,
 .simple-ui-focus\:paddingRight-52:focus,
-.simple-ui-active\:paddingRight-52:active,
-.simple-ui-paddingR-52,
-.simple-ui-hover\:paddingR-52:hover,
-.simple-ui-focus\:paddingR-52:focus,
-.simple-ui-active\:paddingR-52 :active {
+.simple-ui-active\:paddingRight-52:active {
 	padding-right: 13rem;
 }
-.simple-ui-pr-56,
-.simple-ui-hover\:pr-56:hover,
-.simple-ui-focus\:pr-56:focus,
-.simple-ui-active\:pr-56:active,
+
 .simple-ui-paddingRight-56,
 .simple-ui-hover\:paddingRight-56:hover,
 .simple-ui-focus\:paddingRight-56:focus,
-.simple-ui-active\:paddingRight-56:active,
-.simple-ui-paddingR-56,
-.simple-ui-hover\:paddingR-56:hover,
-.simple-ui-focus\:paddingR-56:focus,
-.simple-ui-active\:paddingR-56 :active {
+.simple-ui-active\:paddingRight-56:active {
 	padding-right: 14rem;
 }
-.simple-ui-pr-60,
-.simple-ui-hover\:pr-60:hover,
-.simple-ui-focus\:pr-60:focus,
-.simple-ui-active\:pr-60:active,
+
 .simple-ui-paddingRight-60,
 .simple-ui-hover\:paddingRight-60:hover,
 .simple-ui-focus\:paddingRight-60:focus,
-.simple-ui-active\:paddingRight-60:active,
-.simple-ui-paddingR-60,
-.simple-ui-hover\:paddingR-60:hover,
-.simple-ui-focus\:paddingR-60:focus,
-.simple-ui-active\:paddingR-60 :active {
+.simple-ui-active\:paddingRight-60:active {
 	padding-right: 15rem;
 }
-.simple-ui-pr-64,
-.simple-ui-hover\:pr-64:hover,
-.simple-ui-focus\:pr-64:focus,
-.simple-ui-active\:pr-64:active,
+
 .simple-ui-paddingRight-64,
 .simple-ui-hover\:paddingRight-64:hover,
 .simple-ui-focus\:paddingRight-64:focus,
-.simple-ui-active\:paddingRight-64:active,
-.simple-ui-paddingR-64,
-.simple-ui-hover\:paddingR-64:hover,
-.simple-ui-focus\:paddingR-64:focus,
-.simple-ui-active\:paddingR-64 :active {
+.simple-ui-active\:paddingRight-64:active {
 	padding-right: 16rem;
 }
-.simple-ui-pr-72,
-.simple-ui-hover\:pr-72:hover,
-.simple-ui-focus\:pr-72:focus,
-.simple-ui-active\:pr-72:active,
+
 .simple-ui-paddingRight-72,
 .simple-ui-hover\:paddingRight-72:hover,
 .simple-ui-focus\:paddingRight-72:focus,
-.simple-ui-active\:paddingRight-72:active,
-.simple-ui-paddingR-72,
-.simple-ui-hover\:paddingR-72:hover,
-.simple-ui-focus\:paddingR-72:focus,
-.simple-ui-active\:paddingR-72 :active {
+.simple-ui-active\:paddingRight-72:active {
 	padding-right: 18rem;
 }
-.simple-ui-pr-80,
-.simple-ui-hover\:pr-80:hover,
-.simple-ui-focus\:pr-80:focus,
-.simple-ui-active\:pr-80:active,
+
 .simple-ui-paddingRight-80,
 .simple-ui-hover\:paddingRight-80:hover,
 .simple-ui-focus\:paddingRight-80:focus,
-.simple-ui-active\:paddingRight-80:active,
-.simple-ui-paddingR-80,
-.simple-ui-hover\:paddingR-80:hover,
-.simple-ui-focus\:paddingR-80:focus,
-.simple-ui-active\:paddingR-80 :active {
+.simple-ui-active\:paddingRight-80:active {
 	padding-right: 20rem;
 }
-.simple-ui-pr-96,
-.simple-ui-hover\:pr-96:hover,
-.simple-ui-focus\:pr-96:focus,
-.simple-ui-active\:pr-96:active,
+
 .simple-ui-paddingRight-96,
 .simple-ui-hover\:paddingRight-96:hover,
 .simple-ui-focus\:paddingRight-96:focus,
-.simple-ui-active\:paddingRight-96:active,
-.simple-ui-paddingR-96,
-.simple-ui-hover\:paddingR-96:hover,
-.simple-ui-focus\:paddingR-96:focus,
-.simple-ui-active\:paddingR-96 :active {
+.simple-ui-active\:paddingRight-96:active {
 	padding-right: 24rem;
 }
-.simple-ui-pb-0,
-.simple-ui-hover\:pb-0:hover,
-.simple-ui-focus\:pb-0:focus,
-.simple-ui-active\:pb-0:active,
+
 .simple-ui-paddingBottom-0,
 .simple-ui-hover\:paddingBottom-0:hover,
 .simple-ui-focus\:paddingBottom-0:focus,
-.simple-ui-active\:paddingBottom-0:active,
-.simple-ui-paddingB-0,
-.simple-ui-hover\:paddingB-0:hover,
-.simple-ui-focus\:paddingB-0:focus,
-.simple-ui-active\:paddingB-0 :active {
+.simple-ui-active\:paddingBottom-0:active {
 	padding-bottom: 0px;
 }
-.simple-ui-pb-px,
-.simple-ui-hover\:pb-px:hover,
-.simple-ui-focus\:pb-px:focus,
-.simple-ui-active\:pb-px:active,
+
 .simple-ui-paddingBottom-px,
 .simple-ui-hover\:paddingBottom-px:hover,
 .simple-ui-focus\:paddingBottom-px:focus,
-.simple-ui-active\:paddingBottom-px:active,
-.simple-ui-paddingB-px,
-.simple-ui-hover\:paddingB-px:hover,
-.simple-ui-focus\:paddingB-px:focus,
-.simple-ui-active\:paddingB-px :active {
+.simple-ui-active\:paddingBottom-px:active {
 	padding-bottom: 1px;
 }
-.simple-ui-pb-0\.5,
-.simple-ui-hover\:pb-0\.5:hover,
-.simple-ui-focus\:pb-0\.5:focus,
-.simple-ui-active\:pb-0\.5:active,
+
 .simple-ui-paddingBottom-0\.5,
 .simple-ui-hover\:paddingBottom-0\.5:hover,
 .simple-ui-focus\:paddingBottom-0\.5:focus,
-.simple-ui-active\:paddingBottom-0\.5:active,
-.simple-ui-paddingB-0\.5,
-.simple-ui-hover\:paddingB-0\.5:hover,
-.simple-ui-focus\:paddingB-0\.5:focus,
-.simple-ui-active\:paddingB-0\.5 :active {
+.simple-ui-active\:paddingBottom-0\.5:active {
 	padding-bottom: 0.125rem;
 }
-.simple-ui-pb-1,
-.simple-ui-hover\:pb-1:hover,
-.simple-ui-focus\:pb-1:focus,
-.simple-ui-active\:pb-1:active,
+
 .simple-ui-paddingBottom-1,
 .simple-ui-hover\:paddingBottom-1:hover,
 .simple-ui-focus\:paddingBottom-1:focus,
-.simple-ui-active\:paddingBottom-1:active,
-.simple-ui-paddingB-1,
-.simple-ui-hover\:paddingB-1:hover,
-.simple-ui-focus\:paddingB-1:focus,
-.simple-ui-active\:paddingB-1 :active {
+.simple-ui-active\:paddingBottom-1:active {
 	padding-bottom: 0.25rem;
 }
-.simple-ui-pb-1\.5,
-.simple-ui-hover\:pb-1\.5:hover,
-.simple-ui-focus\:pb-1\.5:focus,
-.simple-ui-active\:pb-1\.5:active,
+
 .simple-ui-paddingBottom-1\.5,
 .simple-ui-hover\:paddingBottom-1\.5:hover,
 .simple-ui-focus\:paddingBottom-1\.5:focus,
-.simple-ui-active\:paddingBottom-1\.5:active,
-.simple-ui-paddingB-1\.5,
-.simple-ui-hover\:paddingB-1\.5:hover,
-.simple-ui-focus\:paddingB-1\.5:focus,
-.simple-ui-active\:paddingB-1\.5 :active {
+.simple-ui-active\:paddingBottom-1\.5:active {
 	padding-bottom: 0.375rem;
 }
-.simple-ui-pb-2,
-.simple-ui-hover\:pb-2:hover,
-.simple-ui-focus\:pb-2:focus,
-.simple-ui-active\:pb-2:active,
+
 .simple-ui-paddingBottom-2,
 .simple-ui-hover\:paddingBottom-2:hover,
 .simple-ui-focus\:paddingBottom-2:focus,
-.simple-ui-active\:paddingBottom-2:active,
-.simple-ui-paddingB-2,
-.simple-ui-hover\:paddingB-2:hover,
-.simple-ui-focus\:paddingB-2:focus,
-.simple-ui-active\:paddingB-2 :active {
+.simple-ui-active\:paddingBottom-2:active {
 	padding-bottom: 0.5rem;
 }
-.simple-ui-pb-2\.5,
-.simple-ui-hover\:pb-2\.5:hover,
-.simple-ui-focus\:pb-2\.5:focus,
-.simple-ui-active\:pb-2\.5:active,
+
 .simple-ui-paddingBottom-2\.5,
 .simple-ui-hover\:paddingBottom-2\.5:hover,
 .simple-ui-focus\:paddingBottom-2\.5:focus,
-.simple-ui-active\:paddingBottom-2\.5:active,
-.simple-ui-paddingB-2\.5,
-.simple-ui-hover\:paddingB-2\.5:hover,
-.simple-ui-focus\:paddingB-2\.5:focus,
-.simple-ui-active\:paddingB-2\.5 :active {
+.simple-ui-active\:paddingBottom-2\.5:active {
 	padding-bottom: 0.625rem;
 }
-.simple-ui-pb-3,
-.simple-ui-hover\:pb-3:hover,
-.simple-ui-focus\:pb-3:focus,
-.simple-ui-active\:pb-3:active,
+
 .simple-ui-paddingBottom-3,
 .simple-ui-hover\:paddingBottom-3:hover,
 .simple-ui-focus\:paddingBottom-3:focus,
-.simple-ui-active\:paddingBottom-3:active,
-.simple-ui-paddingB-3,
-.simple-ui-hover\:paddingB-3:hover,
-.simple-ui-focus\:paddingB-3:focus,
-.simple-ui-active\:paddingB-3 :active {
+.simple-ui-active\:paddingBottom-3:active {
 	padding-bottom: 0.75rem;
 }
-.simple-ui-pb-3\.5,
-.simple-ui-hover\:pb-3\.5:hover,
-.simple-ui-focus\:pb-3\.5:focus,
-.simple-ui-active\:pb-3\.5:active,
+
 .simple-ui-paddingBottom-3\.5,
 .simple-ui-hover\:paddingBottom-3\.5:hover,
 .simple-ui-focus\:paddingBottom-3\.5:focus,
-.simple-ui-active\:paddingBottom-3\.5:active,
-.simple-ui-paddingB-3\.5,
-.simple-ui-hover\:paddingB-3\.5:hover,
-.simple-ui-focus\:paddingB-3\.5:focus,
-.simple-ui-active\:paddingB-3\.5 :active {
+.simple-ui-active\:paddingBottom-3\.5:active {
 	padding-bottom: 0.875rem;
 }
-.simple-ui-pb-4,
-.simple-ui-hover\:pb-4:hover,
-.simple-ui-focus\:pb-4:focus,
-.simple-ui-active\:pb-4:active,
+
 .simple-ui-paddingBottom-4,
 .simple-ui-hover\:paddingBottom-4:hover,
 .simple-ui-focus\:paddingBottom-4:focus,
-.simple-ui-active\:paddingBottom-4:active,
-.simple-ui-paddingB-4,
-.simple-ui-hover\:paddingB-4:hover,
-.simple-ui-focus\:paddingB-4:focus,
-.simple-ui-active\:paddingB-4 :active {
+.simple-ui-active\:paddingBottom-4:active {
 	padding-bottom: 1rem;
 }
-.simple-ui-pb-5,
-.simple-ui-hover\:pb-5:hover,
-.simple-ui-focus\:pb-5:focus,
-.simple-ui-active\:pb-5:active,
+
 .simple-ui-paddingBottom-5,
 .simple-ui-hover\:paddingBottom-5:hover,
 .simple-ui-focus\:paddingBottom-5:focus,
-.simple-ui-active\:paddingBottom-5:active,
-.simple-ui-paddingB-5,
-.simple-ui-hover\:paddingB-5:hover,
-.simple-ui-focus\:paddingB-5:focus,
-.simple-ui-active\:paddingB-5 :active {
+.simple-ui-active\:paddingBottom-5:active {
 	padding-bottom: 1.25rem;
 }
-.simple-ui-pb-6,
-.simple-ui-hover\:pb-6:hover,
-.simple-ui-focus\:pb-6:focus,
-.simple-ui-active\:pb-6:active,
+
 .simple-ui-paddingBottom-6,
 .simple-ui-hover\:paddingBottom-6:hover,
 .simple-ui-focus\:paddingBottom-6:focus,
-.simple-ui-active\:paddingBottom-6:active,
-.simple-ui-paddingB-6,
-.simple-ui-hover\:paddingB-6:hover,
-.simple-ui-focus\:paddingB-6:focus,
-.simple-ui-active\:paddingB-6 :active {
+.simple-ui-active\:paddingBottom-6:active {
 	padding-bottom: 1.5rem;
 }
-.simple-ui-pb-7,
-.simple-ui-hover\:pb-7:hover,
-.simple-ui-focus\:pb-7:focus,
-.simple-ui-active\:pb-7:active,
+
 .simple-ui-paddingBottom-7,
 .simple-ui-hover\:paddingBottom-7:hover,
 .simple-ui-focus\:paddingBottom-7:focus,
-.simple-ui-active\:paddingBottom-7:active,
-.simple-ui-paddingB-7,
-.simple-ui-hover\:paddingB-7:hover,
-.simple-ui-focus\:paddingB-7:focus,
-.simple-ui-active\:paddingB-7 :active {
+.simple-ui-active\:paddingBottom-7:active {
 	padding-bottom: 1.75rem;
 }
-.simple-ui-pb-8,
-.simple-ui-hover\:pb-8:hover,
-.simple-ui-focus\:pb-8:focus,
-.simple-ui-active\:pb-8:active,
+
 .simple-ui-paddingBottom-8,
 .simple-ui-hover\:paddingBottom-8:hover,
 .simple-ui-focus\:paddingBottom-8:focus,
-.simple-ui-active\:paddingBottom-8:active,
-.simple-ui-paddingB-8,
-.simple-ui-hover\:paddingB-8:hover,
-.simple-ui-focus\:paddingB-8:focus,
-.simple-ui-active\:paddingB-8 :active {
+.simple-ui-active\:paddingBottom-8:active {
 	padding-bottom: 2rem;
 }
-.simple-ui-pb-9,
-.simple-ui-hover\:pb-9:hover,
-.simple-ui-focus\:pb-9:focus,
-.simple-ui-active\:pb-9:active,
+
 .simple-ui-paddingBottom-9,
 .simple-ui-hover\:paddingBottom-9:hover,
 .simple-ui-focus\:paddingBottom-9:focus,
-.simple-ui-active\:paddingBottom-9:active,
-.simple-ui-paddingB-9,
-.simple-ui-hover\:paddingB-9:hover,
-.simple-ui-focus\:paddingB-9:focus,
-.simple-ui-active\:paddingB-9 :active {
+.simple-ui-active\:paddingBottom-9:active {
 	padding-bottom: 2.25rem;
 }
-.simple-ui-pb-10,
-.simple-ui-hover\:pb-10:hover,
-.simple-ui-focus\:pb-10:focus,
-.simple-ui-active\:pb-10:active,
+
 .simple-ui-paddingBottom-10,
 .simple-ui-hover\:paddingBottom-10:hover,
 .simple-ui-focus\:paddingBottom-10:focus,
-.simple-ui-active\:paddingBottom-10:active,
-.simple-ui-paddingB-10,
-.simple-ui-hover\:paddingB-10:hover,
-.simple-ui-focus\:paddingB-10:focus,
-.simple-ui-active\:paddingB-10 :active {
+.simple-ui-active\:paddingBottom-10:active {
 	padding-bottom: 2.5rem;
 }
-.simple-ui-pb-11,
-.simple-ui-hover\:pb-11:hover,
-.simple-ui-focus\:pb-11:focus,
-.simple-ui-active\:pb-11:active,
+
 .simple-ui-paddingBottom-11,
 .simple-ui-hover\:paddingBottom-11:hover,
 .simple-ui-focus\:paddingBottom-11:focus,
-.simple-ui-active\:paddingBottom-11:active,
-.simple-ui-paddingB-11,
-.simple-ui-hover\:paddingB-11:hover,
-.simple-ui-focus\:paddingB-11:focus,
-.simple-ui-active\:paddingB-11 :active {
+.simple-ui-active\:paddingBottom-11:active {
 	padding-bottom: 2.75rem;
 }
-.simple-ui-pb-12,
-.simple-ui-hover\:pb-12:hover,
-.simple-ui-focus\:pb-12:focus,
-.simple-ui-active\:pb-12:active,
+
 .simple-ui-paddingBottom-12,
 .simple-ui-hover\:paddingBottom-12:hover,
 .simple-ui-focus\:paddingBottom-12:focus,
-.simple-ui-active\:paddingBottom-12:active,
-.simple-ui-paddingB-12,
-.simple-ui-hover\:paddingB-12:hover,
-.simple-ui-focus\:paddingB-12:focus,
-.simple-ui-active\:paddingB-12 :active {
+.simple-ui-active\:paddingBottom-12:active {
 	padding-bottom: 3rem;
 }
-.simple-ui-pb-14,
-.simple-ui-hover\:pb-14:hover,
-.simple-ui-focus\:pb-14:focus,
-.simple-ui-active\:pb-14:active,
+
 .simple-ui-paddingBottom-14,
 .simple-ui-hover\:paddingBottom-14:hover,
 .simple-ui-focus\:paddingBottom-14:focus,
-.simple-ui-active\:paddingBottom-14:active,
-.simple-ui-paddingB-14,
-.simple-ui-hover\:paddingB-14:hover,
-.simple-ui-focus\:paddingB-14:focus,
-.simple-ui-active\:paddingB-14 :active {
+.simple-ui-active\:paddingBottom-14:active {
 	padding-bottom: 3.5rem;
 }
-.simple-ui-pb-16,
-.simple-ui-hover\:pb-16:hover,
-.simple-ui-focus\:pb-16:focus,
-.simple-ui-active\:pb-16:active,
+
 .simple-ui-paddingBottom-16,
 .simple-ui-hover\:paddingBottom-16:hover,
 .simple-ui-focus\:paddingBottom-16:focus,
-.simple-ui-active\:paddingBottom-16:active,
-.simple-ui-paddingB-16,
-.simple-ui-hover\:paddingB-16:hover,
-.simple-ui-focus\:paddingB-16:focus,
-.simple-ui-active\:paddingB-16 :active {
+.simple-ui-active\:paddingBottom-16:active {
 	padding-bottom: 4rem;
 }
-.simple-ui-pb-20,
-.simple-ui-hover\:pb-20:hover,
-.simple-ui-focus\:pb-20:focus,
-.simple-ui-active\:pb-20:active,
+
 .simple-ui-paddingBottom-20,
 .simple-ui-hover\:paddingBottom-20:hover,
 .simple-ui-focus\:paddingBottom-20:focus,
-.simple-ui-active\:paddingBottom-20:active,
-.simple-ui-paddingB-20,
-.simple-ui-hover\:paddingB-20:hover,
-.simple-ui-focus\:paddingB-20:focus,
-.simple-ui-active\:paddingB-20 :active {
+.simple-ui-active\:paddingBottom-20:active {
 	padding-bottom: 5rem;
 }
-.simple-ui-pb-24,
-.simple-ui-hover\:pb-24:hover,
-.simple-ui-focus\:pb-24:focus,
-.simple-ui-active\:pb-24:active,
+
 .simple-ui-paddingBottom-24,
 .simple-ui-hover\:paddingBottom-24:hover,
 .simple-ui-focus\:paddingBottom-24:focus,
-.simple-ui-active\:paddingBottom-24:active,
-.simple-ui-paddingB-24,
-.simple-ui-hover\:paddingB-24:hover,
-.simple-ui-focus\:paddingB-24:focus,
-.simple-ui-active\:paddingB-24 :active {
+.simple-ui-active\:paddingBottom-24:active {
 	padding-bottom: 6rem;
 }
-.simple-ui-pb-28,
-.simple-ui-hover\:pb-28:hover,
-.simple-ui-focus\:pb-28:focus,
-.simple-ui-active\:pb-28:active,
+
 .simple-ui-paddingBottom-28,
 .simple-ui-hover\:paddingBottom-28:hover,
 .simple-ui-focus\:paddingBottom-28:focus,
-.simple-ui-active\:paddingBottom-28:active,
-.simple-ui-paddingB-28,
-.simple-ui-hover\:paddingB-28:hover,
-.simple-ui-focus\:paddingB-28:focus,
-.simple-ui-active\:paddingB-28 :active {
+.simple-ui-active\:paddingBottom-28:active {
 	padding-bottom: 7rem;
 }
-.simple-ui-pb-32,
-.simple-ui-hover\:pb-32:hover,
-.simple-ui-focus\:pb-32:focus,
-.simple-ui-active\:pb-32:active,
+
 .simple-ui-paddingBottom-32,
 .simple-ui-hover\:paddingBottom-32:hover,
 .simple-ui-focus\:paddingBottom-32:focus,
-.simple-ui-active\:paddingBottom-32:active,
-.simple-ui-paddingB-32,
-.simple-ui-hover\:paddingB-32:hover,
-.simple-ui-focus\:paddingB-32:focus,
-.simple-ui-active\:paddingB-32 :active {
+.simple-ui-active\:paddingBottom-32:active {
 	padding-bottom: 8rem;
 }
-.simple-ui-pb-36,
-.simple-ui-hover\:pb-36:hover,
-.simple-ui-focus\:pb-36:focus,
-.simple-ui-active\:pb-36:active,
+
 .simple-ui-paddingBottom-36,
 .simple-ui-hover\:paddingBottom-36:hover,
 .simple-ui-focus\:paddingBottom-36:focus,
-.simple-ui-active\:paddingBottom-36:active,
-.simple-ui-paddingB-36,
-.simple-ui-hover\:paddingB-36:hover,
-.simple-ui-focus\:paddingB-36:focus,
-.simple-ui-active\:paddingB-36 :active {
+.simple-ui-active\:paddingBottom-36:active {
 	padding-bottom: 9rem;
 }
-.simple-ui-pb-40,
-.simple-ui-hover\:pb-40:hover,
-.simple-ui-focus\:pb-40:focus,
-.simple-ui-active\:pb-40:active,
+
 .simple-ui-paddingBottom-40,
 .simple-ui-hover\:paddingBottom-40:hover,
 .simple-ui-focus\:paddingBottom-40:focus,
-.simple-ui-active\:paddingBottom-40:active,
-.simple-ui-paddingB-40,
-.simple-ui-hover\:paddingB-40:hover,
-.simple-ui-focus\:paddingB-40:focus,
-.simple-ui-active\:paddingB-40 :active {
+.simple-ui-active\:paddingBottom-40:active {
 	padding-bottom: 10rem;
 }
-.simple-ui-pb-44,
-.simple-ui-hover\:pb-44:hover,
-.simple-ui-focus\:pb-44:focus,
-.simple-ui-active\:pb-44:active,
+
 .simple-ui-paddingBottom-44,
 .simple-ui-hover\:paddingBottom-44:hover,
 .simple-ui-focus\:paddingBottom-44:focus,
-.simple-ui-active\:paddingBottom-44:active,
-.simple-ui-paddingB-44,
-.simple-ui-hover\:paddingB-44:hover,
-.simple-ui-focus\:paddingB-44:focus,
-.simple-ui-active\:paddingB-44 :active {
+.simple-ui-active\:paddingBottom-44:active {
 	padding-bottom: 11rem;
 }
-.simple-ui-pb-48,
-.simple-ui-hover\:pb-48:hover,
-.simple-ui-focus\:pb-48:focus,
-.simple-ui-active\:pb-48:active,
+
 .simple-ui-paddingBottom-48,
 .simple-ui-hover\:paddingBottom-48:hover,
 .simple-ui-focus\:paddingBottom-48:focus,
-.simple-ui-active\:paddingBottom-48:active,
-.simple-ui-paddingB-48,
-.simple-ui-hover\:paddingB-48:hover,
-.simple-ui-focus\:paddingB-48:focus,
-.simple-ui-active\:paddingB-48 :active {
+.simple-ui-active\:paddingBottom-48:active {
 	padding-bottom: 12rem;
 }
-.simple-ui-pb-52,
-.simple-ui-hover\:pb-52:hover,
-.simple-ui-focus\:pb-52:focus,
-.simple-ui-active\:pb-52:active,
+
 .simple-ui-paddingBottom-52,
 .simple-ui-hover\:paddingBottom-52:hover,
 .simple-ui-focus\:paddingBottom-52:focus,
-.simple-ui-active\:paddingBottom-52:active,
-.simple-ui-paddingB-52,
-.simple-ui-hover\:paddingB-52:hover,
-.simple-ui-focus\:paddingB-52:focus,
-.simple-ui-active\:paddingB-52 :active {
+.simple-ui-active\:paddingBottom-52:active {
 	padding-bottom: 13rem;
 }
-.simple-ui-pb-56,
-.simple-ui-hover\:pb-56:hover,
-.simple-ui-focus\:pb-56:focus,
-.simple-ui-active\:pb-56:active,
+
 .simple-ui-paddingBottom-56,
 .simple-ui-hover\:paddingBottom-56:hover,
 .simple-ui-focus\:paddingBottom-56:focus,
-.simple-ui-active\:paddingBottom-56:active,
-.simple-ui-paddingB-56,
-.simple-ui-hover\:paddingB-56:hover,
-.simple-ui-focus\:paddingB-56:focus,
-.simple-ui-active\:paddingB-56 :active {
+.simple-ui-active\:paddingBottom-56:active {
 	padding-bottom: 14rem;
 }
-.simple-ui-pb-60,
-.simple-ui-hover\:pb-60:hover,
-.simple-ui-focus\:pb-60:focus,
-.simple-ui-active\:pb-60:active,
+
 .simple-ui-paddingBottom-60,
 .simple-ui-hover\:paddingBottom-60:hover,
 .simple-ui-focus\:paddingBottom-60:focus,
-.simple-ui-active\:paddingBottom-60:active,
-.simple-ui-paddingB-60,
-.simple-ui-hover\:paddingB-60:hover,
-.simple-ui-focus\:paddingB-60:focus,
-.simple-ui-active\:paddingB-60 :active {
+.simple-ui-active\:paddingBottom-60:active {
 	padding-bottom: 15rem;
 }
-.simple-ui-pb-64,
-.simple-ui-hover\:pb-64:hover,
-.simple-ui-focus\:pb-64:focus,
-.simple-ui-active\:pb-64:active,
+
 .simple-ui-paddingBottom-64,
 .simple-ui-hover\:paddingBottom-64:hover,
 .simple-ui-focus\:paddingBottom-64:focus,
-.simple-ui-active\:paddingBottom-64:active,
-.simple-ui-paddingB-64,
-.simple-ui-hover\:paddingB-64:hover,
-.simple-ui-focus\:paddingB-64:focus,
-.simple-ui-active\:paddingB-64 :active {
+.simple-ui-active\:paddingBottom-64:active {
 	padding-bottom: 16rem;
 }
-.simple-ui-pb-72,
-.simple-ui-hover\:pb-72:hover,
-.simple-ui-focus\:pb-72:focus,
-.simple-ui-active\:pb-72:active,
+
 .simple-ui-paddingBottom-72,
 .simple-ui-hover\:paddingBottom-72:hover,
 .simple-ui-focus\:paddingBottom-72:focus,
-.simple-ui-active\:paddingBottom-72:active,
-.simple-ui-paddingB-72,
-.simple-ui-hover\:paddingB-72:hover,
-.simple-ui-focus\:paddingB-72:focus,
-.simple-ui-active\:paddingB-72 :active {
+.simple-ui-active\:paddingBottom-72:active {
 	padding-bottom: 18rem;
 }
-.simple-ui-pb-80,
-.simple-ui-hover\:pb-80:hover,
-.simple-ui-focus\:pb-80:focus,
-.simple-ui-active\:pb-80:active,
+
 .simple-ui-paddingBottom-80,
 .simple-ui-hover\:paddingBottom-80:hover,
 .simple-ui-focus\:paddingBottom-80:focus,
-.simple-ui-active\:paddingBottom-80:active,
-.simple-ui-paddingB-80,
-.simple-ui-hover\:paddingB-80:hover,
-.simple-ui-focus\:paddingB-80:focus,
-.simple-ui-active\:paddingB-80 :active {
+.simple-ui-active\:paddingBottom-80:active {
 	padding-bottom: 20rem;
 }
-.simple-ui-pb-96,
-.simple-ui-hover\:pb-96:hover,
-.simple-ui-focus\:pb-96:focus,
-.simple-ui-active\:pb-96:active,
+
 .simple-ui-paddingBottom-96,
 .simple-ui-hover\:paddingBottom-96:hover,
 .simple-ui-focus\:paddingBottom-96:focus,
-.simple-ui-active\:paddingBottom-96:active,
-.simple-ui-paddingB-96,
-.simple-ui-hover\:paddingB-96:hover,
-.simple-ui-focus\:paddingB-96:focus,
-.simple-ui-active\:paddingB-96 :active {
+.simple-ui-active\:paddingBottom-96:active {
 	padding-bottom: 24rem;
 }
-.simple-ui-pl-0,
-.simple-ui-hover\:pl-0:hover,
-.simple-ui-focus\:pl-0:focus,
-.simple-ui-active\:pl-0:active,
+
 .simple-ui-paddingLeft-0,
 .simple-ui-hover\:paddingLeft-0:hover,
 .simple-ui-focus\:paddingLeft-0:focus,
-.simple-ui-active\:paddingLeft-0:active,
-.simple-ui-paddingL-0,
-.simple-ui-hover\:paddingL-0:hover,
-.simple-ui-focus\:paddingL-0:focus,
-.simple-ui-active\:paddingL-0 :active {
+.simple-ui-active\:paddingLeft-0:active {
 	padding-left: 0px;
 }
-.simple-ui-pl-px,
-.simple-ui-hover\:pl-px:hover,
-.simple-ui-focus\:pl-px:focus,
-.simple-ui-active\:pl-px:active,
+
 .simple-ui-paddingLeft-px,
 .simple-ui-hover\:paddingLeft-px:hover,
 .simple-ui-focus\:paddingLeft-px:focus,
-.simple-ui-active\:paddingLeft-px:active,
-.simple-ui-paddingL-px,
-.simple-ui-hover\:paddingL-px:hover,
-.simple-ui-focus\:paddingL-px:focus,
-.simple-ui-active\:paddingL-px :active {
+.simple-ui-active\:paddingLeft-px:active {
 	padding-left: 1px;
 }
-.simple-ui-pl-0\.5,
-.simple-ui-hover\:pl-0\.5:hover,
-.simple-ui-focus\:pl-0\.5:focus,
-.simple-ui-active\:pl-0\.5:active,
+
 .simple-ui-paddingLeft-0\.5,
 .simple-ui-hover\:paddingLeft-0\.5:hover,
 .simple-ui-focus\:paddingLeft-0\.5:focus,
-.simple-ui-active\:paddingLeft-0\.5:active,
-.simple-ui-paddingL-0\.5,
-.simple-ui-hover\:paddingL-0\.5:hover,
-.simple-ui-focus\:paddingL-0\.5:focus,
-.simple-ui-active\:paddingL-0\.5 :active {
+.simple-ui-active\:paddingLeft-0\.5:active {
 	padding-left: 0.125rem;
 }
-.simple-ui-pl-1,
-.simple-ui-hover\:pl-1:hover,
-.simple-ui-focus\:pl-1:focus,
-.simple-ui-active\:pl-1:active,
+
 .simple-ui-paddingLeft-1,
 .simple-ui-hover\:paddingLeft-1:hover,
 .simple-ui-focus\:paddingLeft-1:focus,
-.simple-ui-active\:paddingLeft-1:active,
-.simple-ui-paddingL-1,
-.simple-ui-hover\:paddingL-1:hover,
-.simple-ui-focus\:paddingL-1:focus,
-.simple-ui-active\:paddingL-1 :active {
+.simple-ui-active\:paddingLeft-1:active {
 	padding-left: 0.25rem;
 }
-.simple-ui-pl-1\.5,
-.simple-ui-hover\:pl-1\.5:hover,
-.simple-ui-focus\:pl-1\.5:focus,
-.simple-ui-active\:pl-1\.5:active,
+
 .simple-ui-paddingLeft-1\.5,
 .simple-ui-hover\:paddingLeft-1\.5:hover,
 .simple-ui-focus\:paddingLeft-1\.5:focus,
-.simple-ui-active\:paddingLeft-1\.5:active,
-.simple-ui-paddingL-1\.5,
-.simple-ui-hover\:paddingL-1\.5:hover,
-.simple-ui-focus\:paddingL-1\.5:focus,
-.simple-ui-active\:paddingL-1\.5 :active {
+.simple-ui-active\:paddingLeft-1\.5:active {
 	padding-left: 0.375rem;
 }
-.simple-ui-pl-2,
-.simple-ui-hover\:pl-2:hover,
-.simple-ui-focus\:pl-2:focus,
-.simple-ui-active\:pl-2:active,
+
 .simple-ui-paddingLeft-2,
 .simple-ui-hover\:paddingLeft-2:hover,
 .simple-ui-focus\:paddingLeft-2:focus,
-.simple-ui-active\:paddingLeft-2:active,
-.simple-ui-paddingL-2,
-.simple-ui-hover\:paddingL-2:hover,
-.simple-ui-focus\:paddingL-2:focus,
-.simple-ui-active\:paddingL-2 :active {
+.simple-ui-active\:paddingLeft-2:active {
 	padding-left: 0.5rem;
 }
-.simple-ui-pl-2\.5,
-.simple-ui-hover\:pl-2\.5:hover,
-.simple-ui-focus\:pl-2\.5:focus,
-.simple-ui-active\:pl-2\.5:active,
+
 .simple-ui-paddingLeft-2\.5,
 .simple-ui-hover\:paddingLeft-2\.5:hover,
 .simple-ui-focus\:paddingLeft-2\.5:focus,
-.simple-ui-active\:paddingLeft-2\.5:active,
-.simple-ui-paddingL-2\.5,
-.simple-ui-hover\:paddingL-2\.5:hover,
-.simple-ui-focus\:paddingL-2\.5:focus,
-.simple-ui-active\:paddingL-2\.5 :active {
+.simple-ui-active\:paddingLeft-2\.5:active {
 	padding-left: 0.625rem;
 }
-.simple-ui-pl-3,
-.simple-ui-hover\:pl-3:hover,
-.simple-ui-focus\:pl-3:focus,
-.simple-ui-active\:pl-3:active,
+
 .simple-ui-paddingLeft-3,
 .simple-ui-hover\:paddingLeft-3:hover,
 .simple-ui-focus\:paddingLeft-3:focus,
-.simple-ui-active\:paddingLeft-3:active,
-.simple-ui-paddingL-3,
-.simple-ui-hover\:paddingL-3:hover,
-.simple-ui-focus\:paddingL-3:focus,
-.simple-ui-active\:paddingL-3 :active {
+.simple-ui-active\:paddingLeft-3:active {
 	padding-left: 0.75rem;
 }
-.simple-ui-pl-3\.5,
-.simple-ui-hover\:pl-3\.5:hover,
-.simple-ui-focus\:pl-3\.5:focus,
-.simple-ui-active\:pl-3\.5:active,
+
 .simple-ui-paddingLeft-3\.5,
 .simple-ui-hover\:paddingLeft-3\.5:hover,
 .simple-ui-focus\:paddingLeft-3\.5:focus,
-.simple-ui-active\:paddingLeft-3\.5:active,
-.simple-ui-paddingL-3\.5,
-.simple-ui-hover\:paddingL-3\.5:hover,
-.simple-ui-focus\:paddingL-3\.5:focus,
-.simple-ui-active\:paddingL-3\.5 :active {
+.simple-ui-active\:paddingLeft-3\.5:active {
 	padding-left: 0.875rem;
 }
-.simple-ui-pl-4,
-.simple-ui-hover\:pl-4:hover,
-.simple-ui-focus\:pl-4:focus,
-.simple-ui-active\:pl-4:active,
+
 .simple-ui-paddingLeft-4,
 .simple-ui-hover\:paddingLeft-4:hover,
 .simple-ui-focus\:paddingLeft-4:focus,
-.simple-ui-active\:paddingLeft-4:active,
-.simple-ui-paddingL-4,
-.simple-ui-hover\:paddingL-4:hover,
-.simple-ui-focus\:paddingL-4:focus,
-.simple-ui-active\:paddingL-4 :active {
+.simple-ui-active\:paddingLeft-4:active {
 	padding-left: 1rem;
 }
-.simple-ui-pl-5,
-.simple-ui-hover\:pl-5:hover,
-.simple-ui-focus\:pl-5:focus,
-.simple-ui-active\:pl-5:active,
+
 .simple-ui-paddingLeft-5,
 .simple-ui-hover\:paddingLeft-5:hover,
 .simple-ui-focus\:paddingLeft-5:focus,
-.simple-ui-active\:paddingLeft-5:active,
-.simple-ui-paddingL-5,
-.simple-ui-hover\:paddingL-5:hover,
-.simple-ui-focus\:paddingL-5:focus,
-.simple-ui-active\:paddingL-5 :active {
+.simple-ui-active\:paddingLeft-5:active {
 	padding-left: 1.25rem;
 }
-.simple-ui-pl-6,
-.simple-ui-hover\:pl-6:hover,
-.simple-ui-focus\:pl-6:focus,
-.simple-ui-active\:pl-6:active,
+
 .simple-ui-paddingLeft-6,
 .simple-ui-hover\:paddingLeft-6:hover,
 .simple-ui-focus\:paddingLeft-6:focus,
-.simple-ui-active\:paddingLeft-6:active,
-.simple-ui-paddingL-6,
-.simple-ui-hover\:paddingL-6:hover,
-.simple-ui-focus\:paddingL-6:focus,
-.simple-ui-active\:paddingL-6 :active {
+.simple-ui-active\:paddingLeft-6:active {
 	padding-left: 1.5rem;
 }
-.simple-ui-pl-7,
-.simple-ui-hover\:pl-7:hover,
-.simple-ui-focus\:pl-7:focus,
-.simple-ui-active\:pl-7:active,
+
 .simple-ui-paddingLeft-7,
 .simple-ui-hover\:paddingLeft-7:hover,
 .simple-ui-focus\:paddingLeft-7:focus,
-.simple-ui-active\:paddingLeft-7:active,
-.simple-ui-paddingL-7,
-.simple-ui-hover\:paddingL-7:hover,
-.simple-ui-focus\:paddingL-7:focus,
-.simple-ui-active\:paddingL-7 :active {
+.simple-ui-active\:paddingLeft-7:active {
 	padding-left: 1.75rem;
 }
-.simple-ui-pl-8,
-.simple-ui-hover\:pl-8:hover,
-.simple-ui-focus\:pl-8:focus,
-.simple-ui-active\:pl-8:active,
+
 .simple-ui-paddingLeft-8,
 .simple-ui-hover\:paddingLeft-8:hover,
 .simple-ui-focus\:paddingLeft-8:focus,
-.simple-ui-active\:paddingLeft-8:active,
-.simple-ui-paddingL-8,
-.simple-ui-hover\:paddingL-8:hover,
-.simple-ui-focus\:paddingL-8:focus,
-.simple-ui-active\:paddingL-8 :active {
+.simple-ui-active\:paddingLeft-8:active {
 	padding-left: 2rem;
 }
-.simple-ui-pl-9,
-.simple-ui-hover\:pl-9:hover,
-.simple-ui-focus\:pl-9:focus,
-.simple-ui-active\:pl-9:active,
+
 .simple-ui-paddingLeft-9,
 .simple-ui-hover\:paddingLeft-9:hover,
 .simple-ui-focus\:paddingLeft-9:focus,
-.simple-ui-active\:paddingLeft-9:active,
-.simple-ui-paddingL-9,
-.simple-ui-hover\:paddingL-9:hover,
-.simple-ui-focus\:paddingL-9:focus,
-.simple-ui-active\:paddingL-9 :active {
+.simple-ui-active\:paddingLeft-9:active {
 	padding-left: 2.25rem;
 }
-.simple-ui-pl-10,
-.simple-ui-hover\:pl-10:hover,
-.simple-ui-focus\:pl-10:focus,
-.simple-ui-active\:pl-10:active,
+
 .simple-ui-paddingLeft-10,
 .simple-ui-hover\:paddingLeft-10:hover,
 .simple-ui-focus\:paddingLeft-10:focus,
-.simple-ui-active\:paddingLeft-10:active,
-.simple-ui-paddingL-10,
-.simple-ui-hover\:paddingL-10:hover,
-.simple-ui-focus\:paddingL-10:focus,
-.simple-ui-active\:paddingL-10 :active {
+.simple-ui-active\:paddingLeft-10:active {
 	padding-left: 2.5rem;
 }
-.simple-ui-pl-11,
-.simple-ui-hover\:pl-11:hover,
-.simple-ui-focus\:pl-11:focus,
-.simple-ui-active\:pl-11:active,
+
 .simple-ui-paddingLeft-11,
 .simple-ui-hover\:paddingLeft-11:hover,
 .simple-ui-focus\:paddingLeft-11:focus,
-.simple-ui-active\:paddingLeft-11:active,
-.simple-ui-paddingL-11,
-.simple-ui-hover\:paddingL-11:hover,
-.simple-ui-focus\:paddingL-11:focus,
-.simple-ui-active\:paddingL-11 :active {
+.simple-ui-active\:paddingLeft-11:active {
 	padding-left: 2.75rem;
 }
-.simple-ui-pl-12,
-.simple-ui-hover\:pl-12:hover,
-.simple-ui-focus\:pl-12:focus,
-.simple-ui-active\:pl-12:active,
+
 .simple-ui-paddingLeft-12,
 .simple-ui-hover\:paddingLeft-12:hover,
 .simple-ui-focus\:paddingLeft-12:focus,
-.simple-ui-active\:paddingLeft-12:active,
-.simple-ui-paddingL-12,
-.simple-ui-hover\:paddingL-12:hover,
-.simple-ui-focus\:paddingL-12:focus,
-.simple-ui-active\:paddingL-12 :active {
+.simple-ui-active\:paddingLeft-12:active {
 	padding-left: 3rem;
 }
-.simple-ui-pl-14,
-.simple-ui-hover\:pl-14:hover,
-.simple-ui-focus\:pl-14:focus,
-.simple-ui-active\:pl-14:active,
+
 .simple-ui-paddingLeft-14,
 .simple-ui-hover\:paddingLeft-14:hover,
 .simple-ui-focus\:paddingLeft-14:focus,
-.simple-ui-active\:paddingLeft-14:active,
-.simple-ui-paddingL-14,
-.simple-ui-hover\:paddingL-14:hover,
-.simple-ui-focus\:paddingL-14:focus,
-.simple-ui-active\:paddingL-14 :active {
+.simple-ui-active\:paddingLeft-14:active {
 	padding-left: 3.5rem;
 }
-.simple-ui-pl-16,
-.simple-ui-hover\:pl-16:hover,
-.simple-ui-focus\:pl-16:focus,
-.simple-ui-active\:pl-16:active,
+
 .simple-ui-paddingLeft-16,
 .simple-ui-hover\:paddingLeft-16:hover,
 .simple-ui-focus\:paddingLeft-16:focus,
-.simple-ui-active\:paddingLeft-16:active,
-.simple-ui-paddingL-16,
-.simple-ui-hover\:paddingL-16:hover,
-.simple-ui-focus\:paddingL-16:focus,
-.simple-ui-active\:paddingL-16 :active {
+.simple-ui-active\:paddingLeft-16:active {
 	padding-left: 4rem;
 }
-.simple-ui-pl-20,
-.simple-ui-hover\:pl-20:hover,
-.simple-ui-focus\:pl-20:focus,
-.simple-ui-active\:pl-20:active,
+
 .simple-ui-paddingLeft-20,
 .simple-ui-hover\:paddingLeft-20:hover,
 .simple-ui-focus\:paddingLeft-20:focus,
-.simple-ui-active\:paddingLeft-20:active,
-.simple-ui-paddingL-20,
-.simple-ui-hover\:paddingL-20:hover,
-.simple-ui-focus\:paddingL-20:focus,
-.simple-ui-active\:paddingL-20 :active {
+.simple-ui-active\:paddingLeft-20:active {
 	padding-left: 5rem;
 }
-.simple-ui-pl-24,
-.simple-ui-hover\:pl-24:hover,
-.simple-ui-focus\:pl-24:focus,
-.simple-ui-active\:pl-24:active,
+
 .simple-ui-paddingLeft-24,
 .simple-ui-hover\:paddingLeft-24:hover,
 .simple-ui-focus\:paddingLeft-24:focus,
-.simple-ui-active\:paddingLeft-24:active,
-.simple-ui-paddingL-24,
-.simple-ui-hover\:paddingL-24:hover,
-.simple-ui-focus\:paddingL-24:focus,
-.simple-ui-active\:paddingL-24 :active {
+.simple-ui-active\:paddingLeft-24:active {
 	padding-left: 6rem;
 }
-.simple-ui-pl-28,
-.simple-ui-hover\:pl-28:hover,
-.simple-ui-focus\:pl-28:focus,
-.simple-ui-active\:pl-28:active,
+
 .simple-ui-paddingLeft-28,
 .simple-ui-hover\:paddingLeft-28:hover,
 .simple-ui-focus\:paddingLeft-28:focus,
-.simple-ui-active\:paddingLeft-28:active,
-.simple-ui-paddingL-28,
-.simple-ui-hover\:paddingL-28:hover,
-.simple-ui-focus\:paddingL-28:focus,
-.simple-ui-active\:paddingL-28 :active {
+.simple-ui-active\:paddingLeft-28:active {
 	padding-left: 7rem;
 }
-.simple-ui-pl-32,
-.simple-ui-hover\:pl-32:hover,
-.simple-ui-focus\:pl-32:focus,
-.simple-ui-active\:pl-32:active,
+
 .simple-ui-paddingLeft-32,
 .simple-ui-hover\:paddingLeft-32:hover,
 .simple-ui-focus\:paddingLeft-32:focus,
-.simple-ui-active\:paddingLeft-32:active,
-.simple-ui-paddingL-32,
-.simple-ui-hover\:paddingL-32:hover,
-.simple-ui-focus\:paddingL-32:focus,
-.simple-ui-active\:paddingL-32 :active {
+.simple-ui-active\:paddingLeft-32:active {
 	padding-left: 8rem;
 }
-.simple-ui-pl-36,
-.simple-ui-hover\:pl-36:hover,
-.simple-ui-focus\:pl-36:focus,
-.simple-ui-active\:pl-36:active,
+
 .simple-ui-paddingLeft-36,
 .simple-ui-hover\:paddingLeft-36:hover,
 .simple-ui-focus\:paddingLeft-36:focus,
-.simple-ui-active\:paddingLeft-36:active,
-.simple-ui-paddingL-36,
-.simple-ui-hover\:paddingL-36:hover,
-.simple-ui-focus\:paddingL-36:focus,
-.simple-ui-active\:paddingL-36 :active {
+.simple-ui-active\:paddingLeft-36:active {
 	padding-left: 9rem;
 }
-.simple-ui-pl-40,
-.simple-ui-hover\:pl-40:hover,
-.simple-ui-focus\:pl-40:focus,
-.simple-ui-active\:pl-40:active,
+
 .simple-ui-paddingLeft-40,
 .simple-ui-hover\:paddingLeft-40:hover,
 .simple-ui-focus\:paddingLeft-40:focus,
-.simple-ui-active\:paddingLeft-40:active,
-.simple-ui-paddingL-40,
-.simple-ui-hover\:paddingL-40:hover,
-.simple-ui-focus\:paddingL-40:focus,
-.simple-ui-active\:paddingL-40 :active {
+.simple-ui-active\:paddingLeft-40:active {
 	padding-left: 10rem;
 }
-.simple-ui-pl-44,
-.simple-ui-hover\:pl-44:hover,
-.simple-ui-focus\:pl-44:focus,
-.simple-ui-active\:pl-44:active,
+
 .simple-ui-paddingLeft-44,
 .simple-ui-hover\:paddingLeft-44:hover,
 .simple-ui-focus\:paddingLeft-44:focus,
-.simple-ui-active\:paddingLeft-44:active,
-.simple-ui-paddingL-44,
-.simple-ui-hover\:paddingL-44:hover,
-.simple-ui-focus\:paddingL-44:focus,
-.simple-ui-active\:paddingL-44 :active {
+.simple-ui-active\:paddingLeft-44:active {
 	padding-left: 11rem;
 }
-.simple-ui-pl-48,
-.simple-ui-hover\:pl-48:hover,
-.simple-ui-focus\:pl-48:focus,
-.simple-ui-active\:pl-48:active,
+
 .simple-ui-paddingLeft-48,
 .simple-ui-hover\:paddingLeft-48:hover,
 .simple-ui-focus\:paddingLeft-48:focus,
-.simple-ui-active\:paddingLeft-48:active,
-.simple-ui-paddingL-48,
-.simple-ui-hover\:paddingL-48:hover,
-.simple-ui-focus\:paddingL-48:focus,
-.simple-ui-active\:paddingL-48 :active {
+.simple-ui-active\:paddingLeft-48:active {
 	padding-left: 12rem;
 }
-.simple-ui-pl-52,
-.simple-ui-hover\:pl-52:hover,
-.simple-ui-focus\:pl-52:focus,
-.simple-ui-active\:pl-52:active,
+
 .simple-ui-paddingLeft-52,
 .simple-ui-hover\:paddingLeft-52:hover,
 .simple-ui-focus\:paddingLeft-52:focus,
-.simple-ui-active\:paddingLeft-52:active,
-.simple-ui-paddingL-52,
-.simple-ui-hover\:paddingL-52:hover,
-.simple-ui-focus\:paddingL-52:focus,
-.simple-ui-active\:paddingL-52 :active {
+.simple-ui-active\:paddingLeft-52:active {
 	padding-left: 13rem;
 }
-.simple-ui-pl-56,
-.simple-ui-hover\:pl-56:hover,
-.simple-ui-focus\:pl-56:focus,
-.simple-ui-active\:pl-56:active,
+
 .simple-ui-paddingLeft-56,
 .simple-ui-hover\:paddingLeft-56:hover,
 .simple-ui-focus\:paddingLeft-56:focus,
-.simple-ui-active\:paddingLeft-56:active,
-.simple-ui-paddingL-56,
-.simple-ui-hover\:paddingL-56:hover,
-.simple-ui-focus\:paddingL-56:focus,
-.simple-ui-active\:paddingL-56 :active {
+.simple-ui-active\:paddingLeft-56:active {
 	padding-left: 14rem;
 }
-.simple-ui-pl-60,
-.simple-ui-hover\:pl-60:hover,
-.simple-ui-focus\:pl-60:focus,
-.simple-ui-active\:pl-60:active,
+
 .simple-ui-paddingLeft-60,
 .simple-ui-hover\:paddingLeft-60:hover,
 .simple-ui-focus\:paddingLeft-60:focus,
-.simple-ui-active\:paddingLeft-60:active,
-.simple-ui-paddingL-60,
-.simple-ui-hover\:paddingL-60:hover,
-.simple-ui-focus\:paddingL-60:focus,
-.simple-ui-active\:paddingL-60 :active {
+.simple-ui-active\:paddingLeft-60:active {
 	padding-left: 15rem;
 }
-.simple-ui-pl-64,
-.simple-ui-hover\:pl-64:hover,
-.simple-ui-focus\:pl-64:focus,
-.simple-ui-active\:pl-64:active,
+
 .simple-ui-paddingLeft-64,
 .simple-ui-hover\:paddingLeft-64:hover,
 .simple-ui-focus\:paddingLeft-64:focus,
-.simple-ui-active\:paddingLeft-64:active,
-.simple-ui-paddingL-64,
-.simple-ui-hover\:paddingL-64:hover,
-.simple-ui-focus\:paddingL-64:focus,
-.simple-ui-active\:paddingL-64 :active {
+.simple-ui-active\:paddingLeft-64:active {
 	padding-left: 16rem;
 }
-.simple-ui-pl-72,
-.simple-ui-hover\:pl-72:hover,
-.simple-ui-focus\:pl-72:focus,
-.simple-ui-active\:pl-72:active,
+
 .simple-ui-paddingLeft-72,
 .simple-ui-hover\:paddingLeft-72:hover,
 .simple-ui-focus\:paddingLeft-72:focus,
-.simple-ui-active\:paddingLeft-72:active,
-.simple-ui-paddingL-72,
-.simple-ui-hover\:paddingL-72:hover,
-.simple-ui-focus\:paddingL-72:focus,
-.simple-ui-active\:paddingL-72 :active {
+.simple-ui-active\:paddingLeft-72:active {
 	padding-left: 18rem;
 }
-.simple-ui-pl-80,
-.simple-ui-hover\:pl-80:hover,
-.simple-ui-focus\:pl-80:focus,
-.simple-ui-active\:pl-80:active,
+
 .simple-ui-paddingLeft-80,
 .simple-ui-hover\:paddingLeft-80:hover,
 .simple-ui-focus\:paddingLeft-80:focus,
-.simple-ui-active\:paddingLeft-80:active,
-.simple-ui-paddingL-80,
-.simple-ui-hover\:paddingL-80:hover,
-.simple-ui-focus\:paddingL-80:focus,
-.simple-ui-active\:paddingL-80 :active {
+.simple-ui-active\:paddingLeft-80:active {
 	padding-left: 20rem;
 }
-.simple-ui-pl-96,
-.simple-ui-hover\:pl-96:hover,
-.simple-ui-focus\:pl-96:focus,
-.simple-ui-active\:pl-96:active,
+
 .simple-ui-paddingLeft-96,
 .simple-ui-hover\:paddingLeft-96:hover,
 .simple-ui-focus\:paddingLeft-96:focus,
-.simple-ui-active\:paddingLeft-96:active,
-.simple-ui-paddingL-96,
-.simple-ui-hover\:paddingL-96:hover,
-.simple-ui-focus\:paddingL-96:focus,
-.simple-ui-active\:paddingL-96 :active {
+.simple-ui-active\:paddingLeft-96:active {
 	padding-left: 24rem;
 }
