@@ -1,6 +1,5 @@
 export interface MaxHeightProps {
 	maxHeight?: MaxHeightValues;
-	maxH?: MaxHeightValues;
 }
 
 export type MaxHeightValues =

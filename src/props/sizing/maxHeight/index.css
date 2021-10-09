@@ -1,406 +1,258 @@
-.simple-ui-maxH-0,
-.simple-ui-hover\:maxH-0:hover,
-.simple-ui-active\:maxH-0:active,
-.simple-ui-focus\:maxH-0:focus,
 .simple-ui-maxHeight-0,
 .simple-ui-hover\:maxHeight-0:hover,
 .simple-ui-active\:maxHeight-0:active,
-.simple-ui-focus\:maxHeight-0 :focus {
+.simple-ui-focus\:maxHeight-0:focus {
 	height: 0px;
 }
 
-.simple-ui-maxH-px,
-.simple-ui-hover\:maxH-px:hover,
-.simple-ui-active\:maxH-px:active,
-.simple-ui-focus\:maxH-px:focus,
 .simple-ui-maxHeight-px,
 .simple-ui-hover\:maxHeight-px:hover,
 .simple-ui-active\:maxHeight-px:active,
-.simple-ui-focus\:maxHeight-px :focus {
+.simple-ui-focus\:maxHeight-px:focus {
 	height: 1px;
 }
 
-.simple-ui-maxH-0\.5,
-.simple-ui-hover\:maxH-0\.5:hover,
-.simple-ui-active\:maxH-0\.5:active,
-.simple-ui-focus\:maxH-0\.5:focus,
 .simple-ui-maxHeight-0\.5,
 .simple-ui-hover\:maxHeight-0\.5:hover,
 .simple-ui-active\:maxHeight-0\.5:active,
-.simple-ui-focus\:maxHeight-0\.5 :focus {
+.simple-ui-focus\:maxHeight-0\.5:focus {
 	height: 0.125rem;
 }
 
-.simple-ui-maxH-1,
-.simple-ui-hover\:maxH-1:hover,
-.simple-ui-active\:maxH-1:active,
-.simple-ui-focus\:maxH-1:focus,
 .simple-ui-maxHeight-1,
 .simple-ui-hover\:maxHeight-1:hover,
 .simple-ui-active\:maxHeight-1:active,
-.simple-ui-focus\:maxHeight-1 :focus {
+.simple-ui-focus\:maxHeight-1:focus {
 	height: 0.25rem;
 }
 
-.simple-ui-maxH-1\.5,
-.simple-ui-hover\:maxH-1\.5:hover,
-.simple-ui-active\:maxH-1\.5:active,
-.simple-ui-focus\:maxH-1\.5:focus,
 .simple-ui-maxHeight-1\.5,
 .simple-ui-hover\:maxHeight-1\.5:hover,
 .simple-ui-active\:maxHeight-1\.5:active,
-.simple-ui-focus\:maxHeight-1\.5 :focus {
+.simple-ui-focus\:maxHeight-1\.5:focus {
 	height: 0.375rem;
 }
 
-.simple-ui-maxH-2,
-.simple-ui-hover\:maxH-2:hover,
-.simple-ui-active\:maxH-2:active,
-.simple-ui-focus\:maxH-2:focus,
 .simple-ui-maxHeight-2,
 .simple-ui-hover\:maxHeight-2:hover,
 .simple-ui-active\:maxHeight-2:active,
-.simple-ui-focus\:maxHeight-2 :focus {
+.simple-ui-focus\:maxHeight-2:focus {
 	height: 0.5rem;
 }
 
-.simple-ui-maxH-2\.5,
-.simple-ui-hover\:maxH-2\.5:hover,
-.simple-ui-active\:maxH-2\.5:active,
-.simple-ui-focus\:maxH-2\.5:focus,
 .simple-ui-maxHeight-2\.5,
 .simple-ui-hover\:maxHeight-2\.5:hover,
 .simple-ui-active\:maxHeight-2\.5:active,
-.simple-ui-focus\:maxHeight-2\.5 :focus {
+.simple-ui-focus\:maxHeight-2\.5:focus {
 	height: 0.625rem;
 }
 
-.simple-ui-maxH-3,
-.simple-ui-hover\:maxH-3:hover,
-.simple-ui-active\:maxH-3:active,
-.simple-ui-focus\:maxH-3:focus,
 .simple-ui-maxHeight-3,
 .simple-ui-hover\:maxHeight-3:hover,
 .simple-ui-active\:maxHeight-3:active,
-.simple-ui-focus\:maxHeight-3 :focus {
+.simple-ui-focus\:maxHeight-3:focus {
 	height: 0.75rem;
 }
 
-.simple-ui-maxH-3\.5,
-.simple-ui-hover\:maxH-3\.5:hover,
-.simple-ui-active\:maxH-3\.5:active,
-.simple-ui-focus\:maxH-3\.5:focus,
 .simple-ui-maxHeight-3\.5,
 .simple-ui-hover\:maxHeight-3\.5:hover,
 .simple-ui-active\:maxHeight-3\.5:active,
-.simple-ui-focus\:maxHeight-3\.5 :focus {
+.simple-ui-focus\:maxHeight-3\.5:focus {
 	height: 0.875rem;
 }
 
-.simple-ui-maxH-4,
-.simple-ui-hover\:maxH-4:hover,
-.simple-ui-active\:maxH-4:active,
-.simple-ui-focus\:maxH-4:focus,
 .simple-ui-maxHeight-4,
 .simple-ui-hover\:maxHeight-4:hover,
 .simple-ui-active\:maxHeight-4:active,
-.simple-ui-focus\:maxHeight-4 :focus {
+.simple-ui-focus\:maxHeight-4:focus {
 	height: 1rem;
 }
 
-.simple-ui-maxH-5,
-.simple-ui-hover\:maxH-5:hover,
-.simple-ui-active\:maxH-5:active,
-.simple-ui-focus\:maxH-5:focus,
 .simple-ui-maxHeight-5,
 .simple-ui-hover\:maxHeight-5:hover,
 .simple-ui-active\:maxHeight-5:active,
-.simple-ui-focus\:maxHeight-5 :focus {
+.simple-ui-focus\:maxHeight-5:focus {
 	height: 1.25rem;
 }
 
-.simple-ui-maxH-6,
-.simple-ui-hover\:maxH-6:hover,
-.simple-ui-active\:maxH-6:active,
-.simple-ui-focus\:maxH-6:focus,
 .simple-ui-maxHeight-6,
 .simple-ui-hover\:maxHeight-6:hover,
 .simple-ui-active\:maxHeight-6:active,
-.simple-ui-focus\:maxHeight-6 :focus {
+.simple-ui-focus\:maxHeight-6:focus {
 	height: 1.5rem;
 }
 
-.simple-ui-maxH-7,
-.simple-ui-hover\:maxH-7:hover,
-.simple-ui-active\:maxH-7:active,
-.simple-ui-focus\:maxH-7:focus,
 .simple-ui-maxHeight-7,
 .simple-ui-hover\:maxHeight-7:hover,
 .simple-ui-active\:maxHeight-7:active,
-.simple-ui-focus\:maxHeight-7 :focus {
+.simple-ui-focus\:maxHeight-7:focus {
 	height: 1.75rem;
 }
 
-.simple-ui-maxH-8,
-.simple-ui-hover\:maxH-8:hover,
-.simple-ui-active\:maxH-8:active,
-.simple-ui-focus\:maxH-8:focus,
 .simple-ui-maxHeight-8,
 .simple-ui-hover\:maxHeight-8:hover,
 .simple-ui-active\:maxHeight-8:active,
-.simple-ui-focus\:maxHeight-8 :focus {
+.simple-ui-focus\:maxHeight-8:focus {
 	height: 2rem;
 }
 
-.simple-ui-maxH-9,
-.simple-ui-hover\:maxH-9:hover,
-.simple-ui-active\:maxH-9:active,
-.simple-ui-focus\:maxH-9:focus,
 .simple-ui-maxHeight-9,
 .simple-ui-hover\:maxHeight-9:hover,
 .simple-ui-active\:maxHeight-9:active,
-.simple-ui-focus\:maxHeight-9 :focus {
+.simple-ui-focus\:maxHeight-9:focus {
 	height: 2.25rem;
 }
 
-.simple-ui-maxH-10,
-.simple-ui-hover\:maxH-10:hover,
-.simple-ui-active\:maxH-10:active,
-.simple-ui-focus\:maxH-10:focus,
 .simple-ui-maxHeight-10,
 .simple-ui-hover\:maxHeight-10:hover,
 .simple-ui-active\:maxHeight-10:active,
-.simple-ui-focus\:maxHeight-10 :focus {
+.simple-ui-focus\:maxHeight-10:focus {
 	height: 2.5rem;
 }
 
-.simple-ui-maxH-11,
-.simple-ui-hover\:maxH-11:hover,
-.simple-ui-active\:maxH-11:active,
-.simple-ui-focus\:maxH-11:focus,
 .simple-ui-maxHeight-11,
 .simple-ui-hover\:maxHeight-11:hover,
 .simple-ui-active\:maxHeight-11:active,
-.simple-ui-focus\:maxHeight-11 :focus {
+.simple-ui-focus\:maxHeight-11:focus {
 	height: 2.75rem;
 }
 
-.simple-ui-maxH-12,
-.simple-ui-hover\:maxH-12:hover,
-.simple-ui-active\:maxH-12:active,
-.simple-ui-focus\:maxH-12:focus,
 .simple-ui-maxHeight-12,
 .simple-ui-hover\:maxHeight-12:hover,
 .simple-ui-active\:maxHeight-12:active,
-.simple-ui-focus\:maxHeight-12 :focus {
+.simple-ui-focus\:maxHeight-12:focus {
 	height: 3rem;
 }
 
-.simple-ui-maxH-14,
-.simple-ui-hover\:maxH-14:hover,
-.simple-ui-active\:maxH-14:active,
-.simple-ui-focus\:maxH-14:focus,
 .simple-ui-maxHeight-14,
 .simple-ui-hover\:maxHeight-14:hover,
 .simple-ui-active\:maxHeight-14:active,
-.simple-ui-focus\:maxHeight-14 :focus {
+.simple-ui-focus\:maxHeight-14:focus {
 	height: 3.5rem;
 }
 
-.simple-ui-maxH-16,
-.simple-ui-hover\:maxH-16:hover,
-.simple-ui-active\:maxH-16:active,
-.simple-ui-focus\:maxH-16:focus,
 .simple-ui-maxHeight-16,
 .simple-ui-hover\:maxHeight-16:hover,
 .simple-ui-active\:maxHeight-16:active,
-.simple-ui-focus\:maxHeight-16 :focus {
+.simple-ui-focus\:maxHeight-16:focus {
 	height: 4rem;
 }
 
-.simple-ui-maxH-20,
-.simple-ui-hover\:maxH-20:hover,
-.simple-ui-active\:maxH-20:active,
-.simple-ui-focus\:maxH-20:focus,
 .simple-ui-maxHeight-20,
 .simple-ui-hover\:maxHeight-20:hover,
 .simple-ui-active\:maxHeight-20:active,
-.simple-ui-focus\:maxHeight-20 :focus {
+.simple-ui-focus\:maxHeight-20:focus {
 	height: 5rem;
 }
 
-.simple-ui-maxH-24,
-.simple-ui-hover\:maxH-24:hover,
-.simple-ui-active\:maxH-24:active,
-.simple-ui-focus\:maxH-24:focus,
 .simple-ui-maxHeight-24,
 .simple-ui-hover\:maxHeight-24:hover,
 .simple-ui-active\:maxHeight-24:active,
-.simple-ui-focus\:maxHeight-24 :focus {
+.simple-ui-focus\:maxHeight-24:focus {
 	height: 6rem;
 }
 
-.simple-ui-maxH-28,
-.simple-ui-hover\:maxH-28:hover,
-.simple-ui-active\:maxH-28:active,
-.simple-ui-focus\:maxH-28:focus,
 .simple-ui-maxHeight-28,
 .simple-ui-hover\:maxHeight-28:hover,
 .simple-ui-active\:maxHeight-28:active,
-.simple-ui-focus\:maxHeight-28 :focus {
+.simple-ui-focus\:maxHeight-28:focus {
 	height: 7rem;
 }
 
-.simple-ui-maxH-32,
-.simple-ui-hover\:maxH-32:hover,
-.simple-ui-active\:maxH-32:active,
-.simple-ui-focus\:maxH-32:focus,
 .simple-ui-maxHeight-32,
 .simple-ui-hover\:maxHeight-32:hover,
 .simple-ui-active\:maxHeight-32:active,
-.simple-ui-focus\:maxHeight-32 :focus {
+.simple-ui-focus\:maxHeight-32:focus {
 	height: 8rem;
 }
 
-.simple-ui-maxH-36,
-.simple-ui-hover\:maxH-36:hover,
-.simple-ui-active\:maxH-36:active,
-.simple-ui-focus\:maxH-36:focus,
 .simple-ui-maxHeight-36,
 .simple-ui-hover\:maxHeight-36:hover,
 .simple-ui-active\:maxHeight-36:active,
-.simple-ui-focus\:maxHeight-36 :focus {
+.simple-ui-focus\:maxHeight-36:focus {
 	height: 9rem;
 }
 
-.simple-ui-maxH-40,
-.simple-ui-hover\:maxH-40:hover,
-.simple-ui-active\:maxH-40:active,
-.simple-ui-focus\:maxH-40:focus,
 .simple-ui-maxHeight-40,
 .simple-ui-hover\:maxHeight-40:hover,
 .simple-ui-active\:maxHeight-40:active,
-.simple-ui-focus\:maxHeight-40 :focus {
+.simple-ui-focus\:maxHeight-40:focus {
 	height: 10rem;
 }
 
-.simple-ui-maxH-44,
-.simple-ui-hover\:maxH-44:hover,
-.simple-ui-active\:maxH-44:active,
-.simple-ui-focus\:maxH-44:focus,
 .simple-ui-maxHeight-44,
 .simple-ui-hover\:maxHeight-44:hover,
 .simple-ui-active\:maxHeight-44:active,
-.simple-ui-focus\:maxHeight-44 :focus {
+.simple-ui-focus\:maxHeight-44:focus {
 	height: 11rem;
 }
 
-.simple-ui-maxH-48,
-.simple-ui-hover\:maxH-48:hover,
-.simple-ui-active\:maxH-48:active,
-.simple-ui-focus\:maxH-48:focus,
 .simple-ui-maxHeight-48,
 .simple-ui-hover\:maxHeight-48:hover,
 .simple-ui-active\:maxHeight-48:active,
-.simple-ui-focus\:maxHeight-48 :focus {
+.simple-ui-focus\:maxHeight-48:focus {
 	height: 12rem;
 }
 
-.simple-ui-maxH-52,
-.simple-ui-hover\:maxH-52:hover,
-.simple-ui-active\:maxH-52:active,
-.simple-ui-focus\:maxH-52:focus,
 .simple-ui-maxHeight-52,
 .simple-ui-hover\:maxHeight-52:hover,
 .simple-ui-active\:maxHeight-52:active,
-.simple-ui-focus\:maxHeight-52 :focus {
+.simple-ui-focus\:maxHeight-52:focus {
 	height: 13rem;
 }
 
-.simple-ui-maxH-56,
-.simple-ui-hover\:maxH-56:hover,
-.simple-ui-active\:maxH-56:active,
-.simple-ui-focus\:maxH-56:focus,
 .simple-ui-maxHeight-56,
 .simple-ui-hover\:maxHeight-56:hover,
 .simple-ui-active\:maxHeight-56:active,
-.simple-ui-focus\:maxHeight-56 :focus {
+.simple-ui-focus\:maxHeight-56:focus {
 	height: 14rem;
 }
 
-.simple-ui-maxH-60,
-.simple-ui-hover\:maxH-60:hover,
-.simple-ui-active\:maxH-60:active,
-.simple-ui-focus\:maxH-60:focus,
 .simple-ui-maxHeight-60,
 .simple-ui-hover\:maxHeight-60:hover,
 .simple-ui-active\:maxHeight-60:active,
-.simple-ui-focus\:maxHeight-60 :focus {
+.simple-ui-focus\:maxHeight-60:focus {
 	height: 15rem;
 }
 
-.simple-ui-maxH-64,
-.simple-ui-hover\:maxH-64:hover,
-.simple-ui-active\:maxH-64:active,
-.simple-ui-focus\:maxH-64:focus,
 .simple-ui-maxHeight-64,
 .simple-ui-hover\:maxHeight-64:hover,
 .simple-ui-active\:maxHeight-64:active,
-.simple-ui-focus\:maxHeight-64 :focus {
+.simple-ui-focus\:maxHeight-64:focus {
 	height: 16rem;
 }
 
-.simple-ui-maxH-72,
-.simple-ui-hover\:maxH-72:hover,
-.simple-ui-active\:maxH-72:active,
-.simple-ui-focus\:maxH-72:focus,
 .simple-ui-maxHeight-72,
 .simple-ui-hover\:maxHeight-72:hover,
 .simple-ui-active\:maxHeight-72:active,
-.simple-ui-focus\:maxHeight-72 :focus {
+.simple-ui-focus\:maxHeight-72:focus {
 	height: 18rem;
 }
 
-.simple-ui-maxH-80,
-.simple-ui-hover\:maxH-80:hover,
-.simple-ui-active\:maxH-80:active,
-.simple-ui-focus\:maxH-80:focus,
 .simple-ui-maxHeight-80,
 .simple-ui-hover\:maxHeight-80:hover,
 .simple-ui-active\:maxHeight-80:active,
-.simple-ui-focus\:maxHeight-80 :focus {
+.simple-ui-focus\:maxHeight-80:focus {
 	height: 20rem;
 }
 
-.simple-ui-maxH-96,
-.simple-ui-hover\:maxH-96:hover,
-.simple-ui-active\:maxH-96:active,
-.simple-ui-focus\:maxH-96:focus,
 .simple-ui-maxHeight-96,
 .simple-ui-hover\:maxHeight-96:hover,
 .simple-ui-active\:maxHeight-96:active,
-.simple-ui-focus\:maxHeight-96 :focus {
+.simple-ui-focus\:maxHeight-96:focus {
 	height: 24rem;
 }
 
-.simple-ui-maxH-full,
-.simple-ui-hover\:maxH-full:hover,
-.simple-ui-active\:maxH-full:active,
-.simple-ui-focus\:maxH-full:focus,
 .simple-ui-maxHeight-full,
 .simple-ui-hover\:maxHeight-full:hover,
 .simple-ui-active\:maxHeight-full:active,
-.simple-ui-focus\:maxHeight-full :focus {
+.simple-ui-focus\:maxHeight-full:focus {
 	height: 100%;
 }
 
-.simple-ui-maxH-screen,
-.simple-ui-hover\:maxH-screen:hover,
-.simple-ui-active\:maxH-screen:active,
-.simple-ui-focus\:maxH-screen:focus,
 .simple-ui-maxHeight-screen,
 .simple-ui-hover\:maxHeight-screen:hover,
 .simple-ui-active\:maxHeight-screen:active,
-.simple-ui-focus\:maxHeight-screen :focus {
+.simple-ui-focus\:maxHeight-screen:focus {
 	height: 100vh;
 }
