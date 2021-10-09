@@ -8,7 +8,7 @@ import "../props/sizing/height/index.css";
 import "../props/sizing/minHeight/index.css";
 import "../props/sizing/maxHeight/index.css";
 import "../props/background/color/index.css";
-import "../props/background/gradientcolor/index.css";
+import "../props/background/gradientColor/index.css";
 import "../props/text/colors/index.css";
 import "../props/text/fontSize/index.css";
 import "../props/text/fontWeight/index.css";
@@ -63,6 +63,7 @@ import "../props/transition/transitionDuration/index.css";
 import "../props/transition/transitionTiming/index.css";
 import "../props/transition/transitionDelay/index.css";
 import "../props/transition/animation/index.css";
+import "../props/effects/boxShadow/index.css";
 
 import { DefaultTheme, SimpleThemeConfig } from "../theme";
 
