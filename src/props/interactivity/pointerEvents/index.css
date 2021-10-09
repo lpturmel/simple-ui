@@ -1,0 +1,12 @@
+.simple-ui-pointerEvents-none,
+.simple-ui-hover\:pointerEvents-none:hover,
+.simple-ui-focus\:pointerEvents-none:focus,
+.simple-ui-active\:pointerEvents-none:active {
+	pointer-events: none;
+}
+.simple-ui-pointerEvents-auto,
+.simple-ui-hover\:pointerEvents-auto:hover,
+.simple-ui-focus\:pointerEvents-auto:focus,
+.simple-ui-active\:pointerEvents-auto:active {
+	pointer-events: auto;
+}
