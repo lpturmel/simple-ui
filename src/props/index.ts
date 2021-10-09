@@ -76,6 +76,7 @@ import { AppearanceProps } from "./interactivity/appearance";
 import { CursorProps } from "./interactivity/cursor";
 import { OutlineProps } from "./interactivity/outline";
 import { PointerEventsProps } from "./interactivity/pointerEvents";
+import { ResizeProps } from "./interactivity/resize";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -93,6 +94,7 @@ type MainProps<T = {}> =
 		CursorProps &
 		OutlineProps &
 		PointerEventsProps &
+		ResizeProps &
 		// effects
 		BoxShadowProps &
 		OpacityProps &
