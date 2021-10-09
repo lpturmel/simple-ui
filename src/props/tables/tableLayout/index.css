@@ -1,0 +1,12 @@
+.simple-ui-tableLayout-auto,
+.simple-ui-hover\:tableLayout-auto:hover,
+.simple-ui-focus\:tableLayout-auto:focus,
+.simple-ui-active\:tableLayout-auto:active {
+	table-layout: auto;
+}
+.simple-ui-tableLayout-fixed,
+.simple-ui-hover\:tableLayout-fixed:hover,
+.simple-ui-focus\:tableLayout-fixed:focus,
+.simple-ui-active\:tableLayout-fixed:active {
+	table-layout: fixed;
+}
