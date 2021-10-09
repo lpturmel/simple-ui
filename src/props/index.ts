@@ -79,6 +79,7 @@ import { PointerEventsProps } from "./interactivity/pointerEvents";
 import { ResizeProps } from "./interactivity/resize";
 import { UserSelectProps } from "./interactivity/userSelect";
 import { BackgroundColorProps } from "./background/color";
+import { PlaceholderColorProps } from "./typography/placeholderColor";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -174,5 +175,7 @@ type MainProps<T = {}> =
 		RotateProps &
 		TranslateProps &
 		SkewProps &
+		// Typography
+		PlaceholderColorProps &
 		T;
 export default MainProps;
