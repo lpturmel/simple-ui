@@ -73,6 +73,7 @@ import { RotateProps } from "./transforms/rotate";
 import { TranslateProps } from "./transforms/translate";
 import { SkewProps } from "./transforms/skew";
 import { AppearanceProps } from "./interactivity/appearance";
+import { CursorProps } from "./interactivity/cursor";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -87,6 +88,7 @@ type MainProps<T = {}> =
 		StateProps &
 		// interactivity
 		AppearanceProps &
+		CursorProps &
 		// effects
 		BoxShadowProps &
 		OpacityProps &
