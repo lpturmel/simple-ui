@@ -1,6 +1,6 @@
 {
 	"name": "simple-ui-solid",
-	"version": "0.0.19",
+	"version": "0.0.21",
 	"description": "SolidJS Component Library",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -11,12 +11,11 @@
 		"build": "vite build",
 		"serve": "vite preview",
 		"storybook": "start-storybook -p 6006",
-		"build-babel-deprecated": "babel src --extensions .ts,.tsx -d dist/ --source-maps --ignore '**/*.stories.tsx'",
+		"build-babel": "babel src --extensions .ts,.tsx -d dist/ --source-maps --ignore '**/*.stories.tsx'",
 		"build-storybook": "build-storybook",
 		"build-types": "tsc --emitDeclarationOnly --declaration --declarationDir dist/ --excludeFiles src/**/*.stories.tsx",
-		"build-swc": "npx swc src --extensions .ts,.tsx -d dist/ -s --ignore **/*.stories.tsx",
 		"build-css": "node ./scripts/package-css.js",
-		"build-lib": "yarn build-swc && yarn build-types && yarn build-css"
+		"build-lib": "yarn build-babel && yarn build-types && yarn build-css"
 	},
 	"license": "MIT",
 	"devDependencies": {
@@ -27,8 +26,6 @@
 		"@storybook/addon-essentials": "^6.3.4",
 		"@storybook/addon-links": "^6.3.4",
 		"@storybook/html": "^6.3.4",
-		"@swc/cli": "^0.1.51",
-		"@swc/core": "^1.2.94",
 		"@types/node": "^16.7.10",
 		"babel-loader": "^8.2.2",
 		"babel-preset-solid": "^1.1.2",
