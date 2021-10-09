@@ -63,6 +63,7 @@ import { GradientColorProps } from "./background/gradientColor";
 import { BoxShadowProps } from "./effects/boxShadow";
 import { OpacityProps } from "./effects/opacity";
 import { MixBlendProps } from "./effects/mixBlend";
+import { BackgroundBlendProps } from "./effects/backgroundBlend";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -79,6 +80,7 @@ type MainProps<T = {}> =
 		BoxShadowProps &
 		OpacityProps &
 		MixBlendProps &
+		BackgroundBlendProps &
 		// Sizing
 		WidthProps &
 		MinWidthProps &
