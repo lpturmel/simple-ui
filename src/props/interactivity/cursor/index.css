@@ -1,0 +1,48 @@
+.simple-ui-cursor-auto,
+.simple-ui-hover\:cursor-auto:hover,
+.simple-ui-focus\:cursor-auto:focus,
+.simple-ui-active\:cursor-auto:active {
+	cursor: auto;
+}
+.simple-ui-cursor-default,
+.simple-ui-hover\:cursor-default:hover,
+.simple-ui-focus\:cursor-default:focus,
+.simple-ui-active\:cursor-default:active {
+	cursor: default;
+}
+.simple-ui-cursor-pointer,
+.simple-ui-hover\:cursor-pointer:hover,
+.simple-ui-focus\:cursor-pointer:focus,
+.simple-ui-active\:cursor-pointer:active {
+	cursor: pointer;
+}
+.simple-ui-cursor-wait,
+.simple-ui-hover\:cursor-wait:hover,
+.simple-ui-focus\:cursor-wait:focus,
+.simple-ui-active\:cursor-wait:active {
+	cursor: wait;
+}
+.simple-ui-cursor-text,
+.simple-ui-hover\:cursor-text:hover,
+.simple-ui-focus\:cursor-text:focus,
+.simple-ui-active\:cursor-text:active {
+	cursor: text;
+}
+.simple-ui-cursor-move,
+.simple-ui-hover\:cursor-move:hover,
+.simple-ui-focus\:cursor-move:focus,
+.simple-ui-active\:cursor-move:active {
+	cursor: move;
+}
+.simple-ui-cursor-help,
+.simple-ui-hover\:cursor-help:hover,
+.simple-ui-focus\:cursor-help:focus,
+.simple-ui-active\:cursor-help:active {
+	cursor: help;
+}
+.simple-ui-cursor-not-allowed,
+.simple-ui-hover\:cursor-not-allowed:hover,
+.simple-ui-focus\:cursor-not-allowed:focus,
+.simple-ui-active\:cursor-not-allowed:active {
+	cursor: not-allowed;
+}
