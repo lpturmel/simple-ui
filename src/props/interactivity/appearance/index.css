@@ -1,0 +1,6 @@
+.simple-ui-appearance-none,
+.simple-ui-hover\:appearance-none:hover,
+.simple-ui-focus\:appearance-none:focus,
+.simple-ui-active\:appearance-none:active {
+	appearance: none;
+}
