@@ -72,6 +72,7 @@ import { ScaleProps } from "./transforms/scale";
 import { RotateProps } from "./transforms/rotate";
 import { TranslateProps } from "./transforms/translate";
 import { SkewProps } from "./transforms/skew";
+import { AppearanceProps } from "./interactivity/appearance";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -84,6 +85,8 @@ type MainProps<T = {}> =
 		ColorProps &
 		// Misc
 		StateProps &
+		// interactivity
+		AppearanceProps &
 		// effects
 		BoxShadowProps &
 		OpacityProps &
