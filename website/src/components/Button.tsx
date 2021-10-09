@@ -1,6 +1,5 @@
 import { Button, VStack } from "simple-ui-solid";
 import { Component } from "solid-js";
-import Layout from "./Layout";
 import Prism from "prismjs";
 
 Prism.highlightAll();
