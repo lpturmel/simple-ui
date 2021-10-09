@@ -18,12 +18,12 @@ const UnderConstruction: Component = (props) => {
 					CONSTRUCTION{" "}
 				</p>
 			</VStack>
-			<VStack w="full" spacingY={8}>
+			<VStack width="full" spacingY={8}>
 				<a href="https://github.com/lpturmel/simple-ui" target="_blank">
 					<Button
-						bg="blue.500"
-						_hover={{ bg: "blue.600" }}
-						_active={{ bg: "blue.700" }}
+						backgroundColor="blue.500"
+						_hover={{ backgroundColor: "blue.600" }}
+						_active={{ backgroundColor: "blue.700" }}
 					>
 						{" "}
 						See Progress on GitHub
@@ -32,7 +32,7 @@ const UnderConstruction: Component = (props) => {
 				<HStack
 					position="relative"
 					style={{ height: "0.75rem", width: "300px" }}
-					bg="gray.100"
+					backgroundColor="gray.100"
 					borderRadius="sm"
 				>
 					<HStack
@@ -40,8 +40,8 @@ const UnderConstruction: Component = (props) => {
 						transition="all"
 						transitionDuration={500}
 						style={{ width: barWidth() }}
-						h="full"
-						bg="blue.200"
+						height="full"
+						backgroundColor="blue.200"
 						borderRadius="sm"
 					/>
 					<HStack
