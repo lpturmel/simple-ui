@@ -1,1034 +1,586 @@
-.simple-ui-bg-black,
-.simple-ui-hover\:bg-black:hover,
-.simple-ui-active\:bg-black:active,
-.simple-ui-focus\:bg-black:focus,
-.simple-ui-backgroundColor-black,
-.simple-ui-hover\:backgroundColor-black:hover,
-.simple-ui-active\:backgroundColor-black:active,
-.simple-ui-focus\:backgroundColor-black:focus {
-	background-color: var(--simple-ui-colors-black);
-}
-.simple-ui-bg-blue-50,
-.simple-ui-hover\:bg-blue-50:hover,
-.simple-ui-active\:bg-blue-50:active,
-.simple-ui-focus\:bg-blue-50:focus,
-.simple-ui-backgroundColor-blue-50,
-.simple-ui-hover\:backgroundColor-blue-50:hover,
-.simple-ui-active\:backgroundColor-blue-50:active,
-.simple-ui-focus\:backgroundColor-blue-50:focus {
-	background-color: var(--simple-ui-colors-blue-50);
-}
-.simple-ui-bg-blue-100,
-.simple-ui-hover\:bg-blue-100:hover,
-.simple-ui-active\:bg-blue-100:active,
-.simple-ui-focus\:bg-blue-100:focus,
-.simple-ui-backgroundColor-blue-100,
-.simple-ui-hover\:backgroundColor-blue-100:hover,
-.simple-ui-active\:backgroundColor-blue-100:active,
-.simple-ui-focus\:backgroundColor-blue-100:focus {
-	background-color: var(--simple-ui-colors-blue-100);
-}
-.simple-ui-bg-blue-200,
-.simple-ui-hover\:bg-blue-200:hover,
-.simple-ui-active\:bg-blue-200:active,
-.simple-ui-focus\:bg-blue-200:focus,
-.simple-ui-backgroundColor-blue-200,
-.simple-ui-hover\:backgroundColor-blue-200:hover,
-.simple-ui-active\:backgroundColor-blue-200:active,
-.simple-ui-focus\:backgroundColor-blue-200:focus {
-	background-color: var(--simple-ui-colors-blue-200);
-}
-.simple-ui-bg-blue-300,
-.simple-ui-hover\:bg-blue-300:hover,
-.simple-ui-active\:bg-blue-300:active,
-.simple-ui-focus\:bg-blue-300:focus,
-.simple-ui-backgroundColor-blue-300,
-.simple-ui-hover\:backgroundColor-blue-300:hover,
-.simple-ui-active\:backgroundColor-blue-300:active,
-.simple-ui-focus\:backgroundColor-blue-300:focus {
-	background-color: var(--simple-ui-colors-blue-300);
-}
-.simple-ui-bg-blue-400,
-.simple-ui-hover\:bg-blue-400:hover,
-.simple-ui-active\:bg-blue-400:active,
-.simple-ui-focus\:bg-blue-400:focus,
-.simple-ui-backgroundColor-blue-400,
-.simple-ui-hover\:backgroundColor-blue-400:hover,
-.simple-ui-active\:backgroundColor-blue-400:active,
-.simple-ui-focus\:backgroundColor-blue-400:focus {
-	background-color: var(--simple-ui-colors-blue-400);
-}
-.simple-ui-bg-blue-500,
-.simple-ui-hover\:bg-blue-500:hover,
-.simple-ui-active\:bg-blue-500:active,
-.simple-ui-focus\:bg-blue-500:focus,
-.simple-ui-backgroundColor-blue-500,
-.simple-ui-hover\:backgroundColor-blue-500:hover,
-.simple-ui-active\:backgroundColor-blue-500:active,
-.simple-ui-focus\:backgroundColor-blue-500:focus {
-	background-color: var(--simple-ui-colors-blue-500);
-}
-.simple-ui-bg-blue-600,
-.simple-ui-hover\:bg-blue-600:hover,
-.simple-ui-active\:bg-blue-600:active,
-.simple-ui-focus\:bg-blue-600:focus,
-.simple-ui-backgroundColor-blue-600,
-.simple-ui-hover\:backgroundColor-blue-600:hover,
-.simple-ui-active\:backgroundColor-blue-600:active,
-.simple-ui-focus\:backgroundColor-blue-600:focus {
-	background-color: var(--simple-ui-colors-blue-600);
-}
-.simple-ui-bg-blue-700,
-.simple-ui-hover\:bg-blue-700:hover,
-.simple-ui-active\:bg-blue-700:active,
-.simple-ui-focus\:bg-blue-700:focus,
-.simple-ui-backgroundColor-blue-700,
-.simple-ui-hover\:backgroundColor-blue-700:hover,
-.simple-ui-active\:backgroundColor-blue-700:active,
-.simple-ui-focus\:backgroundColor-blue-700:focus {
-	background-color: var(--simple-ui-colors-blue-700);
-}
-.simple-ui-bg-blue-800,
-.simple-ui-hover\:bg-blue-800:hover,
-.simple-ui-active\:bg-blue-800:active,
-.simple-ui-focus\:bg-blue-800:focus,
-.simple-ui-backgroundColor-blue-800,
-.simple-ui-hover\:backgroundColor-blue-800:hover,
-.simple-ui-active\:backgroundColor-blue-800:active,
-.simple-ui-focus\:backgroundColor-blue-800:focus {
-	background-color: var(--simple-ui-colors-blue-800);
-}
-.simple-ui-bg-blue-900,
-.simple-ui-hover\:bg-blue-900:hover,
-.simple-ui-active\:bg-blue-900:active,
-.simple-ui-focus\:bg-blue-900:focus,
-.simple-ui-backgroundColor-blue-900,
-.simple-ui-hover\:backgroundColor-blue-900:hover,
-.simple-ui-active\:backgroundColor-blue-900:active,
-.simple-ui-focus\:backgroundColor-blue-900:focus {
-	background-color: var(--simple-ui-colors-blue-900);
-}
-.simple-ui-bg-cyan-50,
-.simple-ui-hover\:bg-cyan-50:hover,
-.simple-ui-active\:bg-cyan-50:active,
-.simple-ui-focus\:bg-cyan-50:focus,
-.simple-ui-backgroundColor-cyan-50,
-.simple-ui-hover\:backgroundColor-cyan-50:hover,
-.simple-ui-active\:backgroundColor-cyan-50:active,
-.simple-ui-focus\:backgroundColor-cyan-50:focus {
-	background-color: var(--simple-ui-colors-cyan-50);
-}
-.simple-ui-bg-cyan-100,
-.simple-ui-hover\:bg-cyan-100:hover,
-.simple-ui-active\:bg-cyan-100:active,
-.simple-ui-focus\:bg-cyan-100:focus,
-.simple-ui-backgroundColor-cyan-100,
-.simple-ui-hover\:backgroundColor-cyan-100:hover,
-.simple-ui-active\:backgroundColor-cyan-100:active,
-.simple-ui-focus\:backgroundColor-cyan-100:focus {
-	background-color: var(--simple-ui-colors-cyan-100);
-}
-.simple-ui-bg-cyan-200,
-.simple-ui-hover\:bg-cyan-200:hover,
-.simple-ui-active\:bg-cyan-200:active,
-.simple-ui-focus\:bg-cyan-200:focus,
-.simple-ui-backgroundColor-cyan-200,
-.simple-ui-hover\:backgroundColor-cyan-200:hover,
-.simple-ui-active\:backgroundColor-cyan-200:active,
-.simple-ui-focus\:backgroundColor-cyan-200:focus {
-	background-color: var(--simple-ui-colors-cyan-200);
-}
-.simple-ui-bg-cyan-300,
-.simple-ui-hover\:bg-cyan-300:hover,
-.simple-ui-active\:bg-cyan-300:active,
-.simple-ui-focus\:bg-cyan-300:focus,
-.simple-ui-backgroundColor-cyan-300,
-.simple-ui-hover\:backgroundColor-cyan-300:hover,
-.simple-ui-active\:backgroundColor-cyan-300:active,
-.simple-ui-focus\:backgroundColor-cyan-300:focus {
-	background-color: var(--simple-ui-colors-cyan-300);
-}
-.simple-ui-bg-cyan-400,
-.simple-ui-hover\:bg-cyan-400:hover,
-.simple-ui-active\:bg-cyan-400:active,
-.simple-ui-focus\:bg-cyan-400:focus,
-.simple-ui-backgroundColor-cyan-400,
-.simple-ui-hover\:backgroundColor-cyan-400:hover,
-.simple-ui-active\:backgroundColor-cyan-400:active,
-.simple-ui-focus\:backgroundColor-cyan-400:focus {
-	background-color: var(--simple-ui-colors-cyan-400);
-}
-.simple-ui-bg-cyan-500,
-.simple-ui-hover\:bg-cyan-500:hover,
-.simple-ui-active\:bg-cyan-500:active,
-.simple-ui-focus\:bg-cyan-500:focus,
-.simple-ui-backgroundColor-cyan-500,
-.simple-ui-hover\:backgroundColor-cyan-500:hover,
-.simple-ui-active\:backgroundColor-cyan-500:active,
-.simple-ui-focus\:backgroundColor-cyan-500:focus {
-	background-color: var(--simple-ui-colors-cyan-500);
-}
-.simple-ui-bg-cyan-600,
-.simple-ui-hover\:bg-cyan-600:hover,
-.simple-ui-active\:bg-cyan-600:active,
-.simple-ui-focus\:bg-cyan-600:focus,
-.simple-ui-backgroundColor-cyan-600,
-.simple-ui-hover\:backgroundColor-cyan-600:hover,
-.simple-ui-active\:backgroundColor-cyan-600:active,
-.simple-ui-focus\:backgroundColor-cyan-600:focus {
-	background-color: var(--simple-ui-colors-cyan-600);
-}
-.simple-ui-bg-cyan-700,
-.simple-ui-hover\:bg-cyan-700:hover,
-.simple-ui-active\:bg-cyan-700:active,
-.simple-ui-focus\:bg-cyan-700:focus,
-.simple-ui-backgroundColor-cyan-700,
-.simple-ui-hover\:backgroundColor-cyan-700:hover,
-.simple-ui-active\:backgroundColor-cyan-700:active,
-.simple-ui-focus\:backgroundColor-cyan-700:focus {
-	background-color: var(--simple-ui-colors-cyan-700);
-}
-.simple-ui-bg-cyan-800,
-.simple-ui-hover\:bg-cyan-800:hover,
-.simple-ui-active\:bg-cyan-800:active,
-.simple-ui-focus\:bg-cyan-800:focus,
-.simple-ui-backgroundColor-cyan-800,
-.simple-ui-hover\:backgroundColor-cyan-800:hover,
-.simple-ui-active\:backgroundColor-cyan-800:active,
-.simple-ui-focus\:backgroundColor-cyan-800:focus {
-	background-color: var(--simple-ui-colors-cyan-800);
-}
-.simple-ui-bg-cyan-900,
-.simple-ui-hover\:bg-cyan-900:hover,
-.simple-ui-active\:bg-cyan-900:active,
-.simple-ui-focus\:bg-cyan-900:focus,
-.simple-ui-backgroundColor-cyan-900,
-.simple-ui-hover\:backgroundColor-cyan-900:hover,
-.simple-ui-active\:backgroundColor-cyan-900:active,
-.simple-ui-focus\:backgroundColor-cyan-900:focus {
-	background-color: var(--simple-ui-colors-cyan-900);
-}
-
-.simple-ui-bg-gray-50,
-.simple-ui-hover\:bg-gray-50:hover,
-.simple-ui-active\:bg-gray-50:active,
-.simple-ui-focus\:bg-gray-50:focus,
-.simple-ui-backgroundColor-gray-50,
-.simple-ui-hover\:backgroundColor-gray-50:hover,
-.simple-ui-active\:backgroundColor-gray-50:active,
-.simple-ui-focus\:backgroundColor-gray-50:focus {
-	background-color: var(--simple-ui-colors-gray-50);
-}
-.simple-ui-bg-gray-100,
-.simple-ui-hover\:bg-gray-100:hover,
-.simple-ui-active\:bg-gray-100:active,
-.simple-ui-focus\:bg-gray-100:focus,
-.simple-ui-backgroundColor-gray-100,
-.simple-ui-hover\:backgroundColor-gray-100:hover,
-.simple-ui-active\:backgroundColor-gray-100:active,
-.simple-ui-focus\:backgroundColor-gray-100:focus {
-	background-color: var(--simple-ui-colors-gray-100);
-}
-.simple-ui-bg-gray-200,
-.simple-ui-hover\:bg-gray-200:hover,
-.simple-ui-active\:bg-gray-200:active,
-.simple-ui-focus\:bg-gray-200:focus,
-.simple-ui-backgroundColor-gray-200,
-.simple-ui-hover\:backgroundColor-gray-200:hover,
-.simple-ui-active\:backgroundColor-gray-200:active,
-.simple-ui-focus\:backgroundColor-gray-200:focus {
-	background-color: var(--simple-ui-colors-gray-200);
-}
-.simple-ui-bg-gray-300,
-.simple-ui-hover\:bg-gray-300:hover,
-.simple-ui-active\:bg-gray-300:active,
-.simple-ui-focus\:bg-gray-300:focus,
-.simple-ui-backgroundColor-gray-300,
-.simple-ui-hover\:backgroundColor-gray-300:hover,
-.simple-ui-active\:backgroundColor-gray-300:active,
-.simple-ui-focus\:backgroundColor-gray-300:focus {
-	background-color: var(--simple-ui-colors-gray-300);
-}
-.simple-ui-bg-gray-400,
-.simple-ui-hover\:bg-gray-400:hover,
-.simple-ui-active\:bg-gray-400:active,
-.simple-ui-focus\:bg-gray-400:focus,
-.simple-ui-backgroundColor-gray-400,
-.simple-ui-hover\:backgroundColor-gray-400:hover,
-.simple-ui-active\:backgroundColor-gray-400:active,
-.simple-ui-focus\:backgroundColor-gray-400:focus {
-	background-color: var(--simple-ui-colors-gray-400);
-}
-.simple-ui-bg-gray-500,
-.simple-ui-hover\:bg-gray-500:hover,
-.simple-ui-active\:bg-gray-500:active,
-.simple-ui-focus\:bg-gray-500:focus,
-.simple-ui-backgroundColor-gray-500,
-.simple-ui-hover\:backgroundColor-gray-500:hover,
-.simple-ui-active\:backgroundColor-gray-500:active,
-.simple-ui-focus\:backgroundColor-gray-500:focus {
-	background-color: var(--simple-ui-colors-gray-500);
-}
-.simple-ui-bg-gray-600,
-.simple-ui-hover\:bg-gray-600:hover,
-.simple-ui-active\:bg-gray-600:active,
-.simple-ui-focus\:bg-gray-600:focus,
-.simple-ui-backgroundColor-gray-600,
-.simple-ui-hover\:backgroundColor-gray-600:hover,
-.simple-ui-active\:backgroundColor-gray-600:active,
-.simple-ui-focus\:backgroundColor-gray-600:focus {
-	background-color: var(--simple-ui-colors-gray-600);
-}
-.simple-ui-bg-gray-700,
-.simple-ui-hover\:bg-gray-700:hover,
-.simple-ui-active\:bg-gray-700:active,
-.simple-ui-focus\:bg-gray-700:focus,
-.simple-ui-backgroundColor-gray-700,
-.simple-ui-hover\:backgroundColor-gray-700:hover,
-.simple-ui-active\:backgroundColor-gray-700:active,
-.simple-ui-focus\:backgroundColor-gray-700:focus {
-	background-color: var(--simple-ui-colors-gray-700);
-}
-.simple-ui-bg-gray-800,
-.simple-ui-hover\:bg-gray-800:hover,
-.simple-ui-active\:bg-gray-800:active,
-.simple-ui-focus\:bg-gray-800:focus,
-.simple-ui-backgroundColor-gray-800,
-.simple-ui-hover\:backgroundColor-gray-800:hover,
-.simple-ui-active\:backgroundColor-gray-800:active,
-.simple-ui-focus\:backgroundColor-gray-800:focus {
-	background-color: var(--simple-ui-colors-gray-800);
-}
-.simple-ui-bg-gray-900,
-.simple-ui-hover\:bg-gray-900:hover,
-.simple-ui-active\:bg-gray-900:active,
-.simple-ui-focus\:bg-gray-900:focus,
-.simple-ui-backgroundColor-gray-900,
-.simple-ui-hover\:backgroundColor-gray-900:hover,
-.simple-ui-active\:backgroundColor-gray-900:active,
-.simple-ui-focus\:backgroundColor-gray-900:focus {
-	background-color: var(--simple-ui-colors-gray-900);
-}
-.simple-ui-bg-green-50,
-.simple-ui-hover\:bg-green-50:hover,
-.simple-ui-active\:bg-green-50:active,
-.simple-ui-focus\:bg-green-50:focus,
-.simple-ui-backgroundColor-green-50,
-.simple-ui-hover\:backgroundColor-green-50:hover,
-.simple-ui-active\:backgroundColor-green-50:active,
-.simple-ui-focus\:backgroundColor-green-50:focus {
-	background-color: var(--simple-ui-colors-green-50);
-}
-.simple-ui-bg-green-100,
-.simple-ui-hover\:bg-green-100:hover,
-.simple-ui-active\:bg-green-100:active,
-.simple-ui-focus\:bg-green-100:focus,
-.simple-ui-backgroundColor-green-100,
-.simple-ui-hover\:backgroundColor-green-100:hover,
-.simple-ui-active\:backgroundColor-green-100:active,
-.simple-ui-focus\:backgroundColor-green-100:focus {
-	background-color: var(--simple-ui-colors-green-100);
-}
-.simple-ui-bg-green-200,
-.simple-ui-hover\:bg-green-200:hover,
-.simple-ui-active\:bg-green-200:active,
-.simple-ui-focus\:bg-green-200:focus,
-.simple-ui-backgroundColor-green-200,
-.simple-ui-hover\:backgroundColor-green-200:hover,
-.simple-ui-active\:backgroundColor-green-200:active,
-.simple-ui-focus\:backgroundColor-green-200:focus {
-	background-color: var(--simple-ui-colors-green-200);
-}
-.simple-ui-bg-green-300,
-.simple-ui-hover\:bg-green-300:hover,
-.simple-ui-active\:bg-green-300:active,
-.simple-ui-focus\:bg-green-300:focus,
-.simple-ui-backgroundColor-green-300,
-.simple-ui-hover\:backgroundColor-green-300:hover,
-.simple-ui-active\:backgroundColor-green-300:active,
-.simple-ui-focus\:backgroundColor-green-300:focus {
-	background-color: var(--simple-ui-colors-green-300);
-}
-.simple-ui-bg-green-400,
-.simple-ui-hover\:bg-green-400:hover,
-.simple-ui-active\:bg-green-400:active,
-.simple-ui-focus\:bg-green-400:focus,
-.simple-ui-backgroundColor-green-400,
-.simple-ui-hover\:backgroundColor-green-400:hover,
-.simple-ui-active\:backgroundColor-green-400:active,
-.simple-ui-focus\:backgroundColor-green-400:focus {
-	background-color: var(--simple-ui-colors-green-400);
-}
-.simple-ui-bg-green-500,
-.simple-ui-hover\:bg-green-500:hover,
-.simple-ui-active\:bg-green-500:active,
-.simple-ui-focus\:bg-green-500:focus,
-.simple-ui-backgroundColor-green-500,
-.simple-ui-hover\:backgroundColor-green-500:hover,
-.simple-ui-active\:backgroundColor-green-500:active,
-.simple-ui-focus\:backgroundColor-green-500:focus {
-	background-color: var(--simple-ui-colors-green-500);
-}
-.simple-ui-bg-green-600,
-.simple-ui-hover\:bg-green-600:hover,
-.simple-ui-active\:bg-green-600:active,
-.simple-ui-focus\:bg-green-600:focus,
-.simple-ui-backgroundColor-green-600,
-.simple-ui-hover\:backgroundColor-green-600:hover,
-.simple-ui-active\:backgroundColor-green-600:active,
-.simple-ui-focus\:backgroundColor-green-600:focus {
-	background-color: var(--simple-ui-colors-green-600);
-}
-.simple-ui-bg-green-700,
-.simple-ui-hover\:bg-green-700:hover,
-.simple-ui-active\:bg-green-700:active,
-.simple-ui-focus\:bg-green-700:focus,
-.simple-ui-backgroundColor-green-700,
-.simple-ui-hover\:backgroundColor-green-700:hover,
-.simple-ui-active\:backgroundColor-green-700:active,
-.simple-ui-focus\:backgroundColor-green-700:focus {
-	background-color: var(--simple-ui-colors-green-700);
-}
-.simple-ui-bg-green-800,
-.simple-ui-hover\:bg-green-800:hover,
-.simple-ui-active\:bg-green-800:active,
-.simple-ui-focus\:bg-green-800:focus,
-.simple-ui-backgroundColor-green-800,
-.simple-ui-hover\:backgroundColor-green-800:hover,
-.simple-ui-active\:backgroundColor-green-800:active,
-.simple-ui-focus\:backgroundColor-green-800:focus {
-	background-color: var(--simple-ui-colors-green-800);
-}
-.simple-ui-bg-green-900,
-.simple-ui-hover\:bg-green-900:hover,
-.simple-ui-active\:bg-green-900:active,
-.simple-ui-focus\:bg-green-900:focus,
-.simple-ui-backgroundColor-green-900,
-.simple-ui-hover\:backgroundColor-green-900:hover,
-.simple-ui-active\:backgroundColor-green-900:active,
-.simple-ui-focus\:backgroundColor-green-900:focus {
-	background-color: var(--simple-ui-colors-green-900);
-}
-
-.simple-ui-bg-orange-50,
-.simple-ui-hover\:bg-orange-50:hover,
-.simple-ui-active\:bg-orange-50:active,
-.simple-ui-focus\:bg-orange-50:focus,
-.simple-ui-backgroundColor-orange-50,
-.simple-ui-hover\:backgroundColor-orange-50:hover,
-.simple-ui-active\:backgroundColor-orange-50:active,
-.simple-ui-focus\:backgroundColor-orange-50:focus {
-	background-color: var(--simple-ui-colors-orange-50);
-}
-.simple-ui-bg-orange-100,
-.simple-ui-hover\:bg-orange-100:hover,
-.simple-ui-active\:bg-orange-100:active,
-.simple-ui-focus\:bg-orange-100:focus,
-.simple-ui-backgroundColor-orange-100,
-.simple-ui-hover\:backgroundColor-orange-100:hover,
-.simple-ui-active\:backgroundColor-orange-100:active,
-.simple-ui-focus\:backgroundColor-orange-100:focus {
-	background-color: var(--simple-ui-colors-orange-100);
-}
-.simple-ui-bg-orange-200,
-.simple-ui-hover\:bg-orange-200:hover,
-.simple-ui-active\:bg-orange-200:active,
-.simple-ui-focus\:bg-orange-200:focus,
-.simple-ui-backgroundColor-orange-200,
-.simple-ui-hover\:backgroundColor-orange-200:hover,
-.simple-ui-active\:backgroundColor-orange-200:active,
-.simple-ui-focus\:backgroundColor-orange-200:focus {
-	background-color: var(--simple-ui-colors-orange-200);
-}
-.simple-ui-bg-orange-300,
-.simple-ui-hover\:bg-orange-300:hover,
-.simple-ui-active\:bg-orange-300:active,
-.simple-ui-focus\:bg-orange-300:focus,
-.simple-ui-backgroundColor-orange-300,
-.simple-ui-hover\:backgroundColor-orange-300:hover,
-.simple-ui-active\:backgroundColor-orange-300:active,
-.simple-ui-focus\:backgroundColor-orange-300:focus {
-	background-color: var(--simple-ui-colors-orange-300);
-}
-.simple-ui-bg-orange-400,
-.simple-ui-hover\:bg-orange-400:hover,
-.simple-ui-active\:bg-orange-400:active,
-.simple-ui-focus\:bg-orange-400:focus,
-.simple-ui-backgroundColor-orange-400,
-.simple-ui-hover\:backgroundColor-orange-400:hover,
-.simple-ui-active\:backgroundColor-orange-400:active,
-.simple-ui-focus\:backgroundColor-orange-400:focus {
-	background-color: var(--simple-ui-colors-orange-400);
-}
-.simple-ui-bg-orange-500,
-.simple-ui-hover\:bg-orange-500:hover,
-.simple-ui-active\:bg-orange-500:active,
-.simple-ui-focus\:bg-orange-500:focus,
-.simple-ui-backgroundColor-orange-500,
-.simple-ui-hover\:backgroundColor-orange-500:hover,
-.simple-ui-active\:backgroundColor-orange-500:active,
-.simple-ui-focus\:backgroundColor-orange-500:focus {
-	background-color: var(--simple-ui-colors-orange-500);
-}
-.simple-ui-bg-orange-600,
-.simple-ui-hover\:bg-orange-600:hover,
-.simple-ui-active\:bg-orange-600:active,
-.simple-ui-focus\:bg-orange-600:focus,
-.simple-ui-backgroundColor-orange-600,
-.simple-ui-hover\:backgroundColor-orange-600:hover,
-.simple-ui-active\:backgroundColor-orange-600:active,
-.simple-ui-focus\:backgroundColor-orange-600:focus {
-	background-color: var(--simple-ui-colors-orange-600);
-}
-.simple-ui-bg-orange-700,
-.simple-ui-hover\:bg-orange-700:hover,
-.simple-ui-active\:bg-orange-700:active,
-.simple-ui-focus\:bg-orange-700:focus,
-.simple-ui-backgroundColor-orange-700,
-.simple-ui-hover\:backgroundColor-orange-700:hover,
-.simple-ui-active\:backgroundColor-orange-700:active,
-.simple-ui-focus\:backgroundColor-orange-700:focus {
-	background-color: var(--simple-ui-colors-orange-700);
-}
-.simple-ui-bg-orange-800,
-.simple-ui-hover\:bg-orange-800:hover,
-.simple-ui-active\:bg-orange-800:active,
-.simple-ui-focus\:bg-orange-800:focus,
-.simple-ui-backgroundColor-orange-800,
-.simple-ui-hover\:backgroundColor-orange-800:hover,
-.simple-ui-active\:backgroundColor-orange-800:active,
-.simple-ui-focus\:backgroundColor-orange-800:focus {
-	background-color: var(--simple-ui-colors-orange-800);
-}
-.simple-ui-bg-orange-900,
-.simple-ui-hover\:bg-orange-900:hover,
-.simple-ui-active\:bg-orange-900:active,
-.simple-ui-focus\:bg-orange-900:focus,
-.simple-ui-backgroundColor-orange-900,
-.simple-ui-hover\:backgroundColor-orange-900:hover,
-.simple-ui-active\:backgroundColor-orange-900:active,
-.simple-ui-focus\:backgroundColor-orange-900:focus {
-	background-color: var(--simple-ui-colors-orange-900);
-}
-.simple-ui-bg-pink-50,
-.simple-ui-hover\:bg-pink-50:hover,
-.simple-ui-active\:bg-pink-50:active,
-.simple-ui-focus\:bg-pink-50:focus,
-.simple-ui-backgroundColor-pink-50,
-.simple-ui-hover\:backgroundColor-pink-50:hover,
-.simple-ui-active\:backgroundColor-pink-50:active,
-.simple-ui-focus\:backgroundColor-pink-50:focus {
-	background-color: var(--simple-ui-colors-pink-50);
-}
-.simple-ui-bg-pink-100,
-.simple-ui-hover\:bg-pink-100:hover,
-.simple-ui-active\:bg-pink-100:active,
-.simple-ui-focus\:bg-pink-100:focus,
-.simple-ui-backgroundColor-pink-100,
-.simple-ui-hover\:backgroundColor-pink-100:hover,
-.simple-ui-active\:backgroundColor-pink-100:active,
-.simple-ui-focus\:backgroundColor-pink-100:focus {
-	background-color: var(--simple-ui-colors-pink-100);
-}
-.simple-ui-bg-pink-200,
-.simple-ui-hover\:bg-pink-200:hover,
-.simple-ui-active\:bg-pink-200:active,
-.simple-ui-focus\:bg-pink-200:focus,
-.simple-ui-backgroundColor-pink-200,
-.simple-ui-hover\:backgroundColor-pink-200:hover,
-.simple-ui-active\:backgroundColor-pink-200:active,
-.simple-ui-focus\:backgroundColor-pink-200:focus {
-	background-color: var(--simple-ui-colors-pink-200);
-}
-.simple-ui-bg-pink-300,
-.simple-ui-hover\:bg-pink-300:hover,
-.simple-ui-active\:bg-pink-300:active,
-.simple-ui-focus\:bg-pink-300:focus,
-.simple-ui-backgroundColor-pink-300,
-.simple-ui-hover\:backgroundColor-pink-300:hover,
-.simple-ui-active\:backgroundColor-pink-300:active,
-.simple-ui-focus\:backgroundColor-pink-300:focus {
-	background-color: var(--simple-ui-colors-pink-300);
-}
-.simple-ui-bg-pink-400,
-.simple-ui-hover\:bg-pink-400:hover,
-.simple-ui-active\:bg-pink-400:active,
-.simple-ui-focus\:bg-pink-400:focus,
-.simple-ui-backgroundColor-pink-400,
-.simple-ui-hover\:backgroundColor-pink-400:hover,
-.simple-ui-active\:backgroundColor-pink-400:active,
-.simple-ui-focus\:backgroundColor-pink-400:focus {
-	background-color: var(--simple-ui-colors-pink-400);
-}
-.simple-ui-bg-pink-500,
-.simple-ui-hover\:bg-pink-500:hover,
-.simple-ui-active\:bg-pink-500:active,
-.simple-ui-focus\:bg-pink-500:focus,
-.simple-ui-backgroundColor-pink-500,
-.simple-ui-hover\:backgroundColor-pink-500:hover,
-.simple-ui-active\:backgroundColor-pink-500:active,
-.simple-ui-focus\:backgroundColor-pink-500:focus {
-	background-color: var(--simple-ui-colors-pink-500);
-}
-.simple-ui-bg-pink-600,
-.simple-ui-hover\:bg-pink-600:hover,
-.simple-ui-active\:bg-pink-600:active,
-.simple-ui-focus\:bg-pink-600:focus,
-.simple-ui-backgroundColor-pink-600,
-.simple-ui-hover\:backgroundColor-pink-600:hover,
-.simple-ui-active\:backgroundColor-pink-600:active,
-.simple-ui-focus\:backgroundColor-pink-600:focus {
-	background-color: var(--simple-ui-colors-pink-600);
-}
-.simple-ui-bg-pink-700,
-.simple-ui-hover\:bg-pink-700:hover,
-.simple-ui-active\:bg-pink-700:active,
-.simple-ui-focus\:bg-pink-700:focus,
-.simple-ui-backgroundColor-pink-700,
-.simple-ui-hover\:backgroundColor-pink-700:hover,
-.simple-ui-active\:backgroundColor-pink-700:active,
-.simple-ui-focus\:backgroundColor-pink-700:focus {
-	background-color: var(--simple-ui-colors-pink-700);
-}
-.simple-ui-bg-pink-800,
-.simple-ui-hover\:bg-pink-800:hover,
-.simple-ui-active\:bg-pink-800:active,
-.simple-ui-focus\:bg-pink-800:focus,
-.simple-ui-backgroundColor-pink-800,
-.simple-ui-hover\:backgroundColor-pink-800:hover,
-.simple-ui-active\:backgroundColor-pink-800:active,
-.simple-ui-focus\:backgroundColor-pink-800:focus {
-	background-color: var(--simple-ui-colors-pink-800);
-}
-.simple-ui-bg-pink-900,
-.simple-ui-hover\:bg-pink-900:hover,
-.simple-ui-active\:bg-pink-900:active,
-.simple-ui-focus\:bg-pink-900:focus,
-.simple-ui-backgroundColor-pink-900,
-.simple-ui-hover\:backgroundColor-pink-900:hover,
-.simple-ui-active\:backgroundColor-pink-900:active,
-.simple-ui-focus\:backgroundColor-pink-900:focus {
-	background-color: var(--simple-ui-colors-pink-900);
-}
-.simple-ui-bg-purple-50,
-.simple-ui-hover\:bg-purple-50:hover,
-.simple-ui-active\:bg-purple-50:active,
-.simple-ui-focus\:bg-purple-50:focus,
-.simple-ui-backgroundColor-purple-50,
-.simple-ui-hover\:backgroundColor-purple-50:hover,
-.simple-ui-active\:backgroundColor-purple-50:active,
-.simple-ui-focus\:backgroundColor-purple-50:focus {
-	background-color: var(--simple-ui-colors-purple-50);
-}
-.simple-ui-bg-purple-100,
-.simple-ui-hover\:bg-purple-100:hover,
-.simple-ui-active\:bg-purple-100:active,
-.simple-ui-focus\:bg-purple-100:focus,
-.simple-ui-backgroundColor-purple-100,
-.simple-ui-hover\:backgroundColor-purple-100:hover,
-.simple-ui-active\:backgroundColor-purple-100:active,
-.simple-ui-focus\:backgroundColor-purple-100:focus {
-	background-color: var(--simple-ui-colors-purple-100);
-}
-.simple-ui-bg-purple-200,
-.simple-ui-hover\:bg-purple-200:hover,
-.simple-ui-active\:bg-purple-200:active,
-.simple-ui-focus\:bg-purple-200:focus,
-.simple-ui-backgroundColor-purple-200,
-.simple-ui-hover\:backgroundColor-purple-200:hover,
-.simple-ui-active\:backgroundColor-purple-200:active,
-.simple-ui-focus\:backgroundColor-purple-200:focus {
-	background-color: var(--simple-ui-colors-purple-200);
-}
-.simple-ui-bg-purple-300,
-.simple-ui-hover\:bg-purple-300:hover,
-.simple-ui-active\:bg-purple-300:active,
-.simple-ui-focus\:bg-purple-300:focus,
-.simple-ui-backgroundColor-purple-300,
-.simple-ui-hover\:backgroundColor-purple-300:hover,
-.simple-ui-active\:backgroundColor-purple-300:active,
-.simple-ui-focus\:backgroundColor-purple-300:focus {
-	background-color: var(--simple-ui-colors-purple-300);
-}
-.simple-ui-bg-purple-400,
-.simple-ui-hover\:bg-purple-400:hover,
-.simple-ui-active\:bg-purple-400:active,
-.simple-ui-focus\:bg-purple-400:focus,
-.simple-ui-backgroundColor-purple-400,
-.simple-ui-hover\:backgroundColor-purple-400:hover,
-.simple-ui-active\:backgroundColor-purple-400:active,
-.simple-ui-focus\:backgroundColor-purple-400:focus {
-	background-color: var(--simple-ui-colors-purple-400);
-}
-.simple-ui-bg-purple-500,
-.simple-ui-hover\:bg-purple-500:hover,
-.simple-ui-active\:bg-purple-500:active,
-.simple-ui-focus\:bg-purple-500:focus,
-.simple-ui-backgroundColor-purple-500,
-.simple-ui-hover\:backgroundColor-purple-500:hover,
-.simple-ui-active\:backgroundColor-purple-500:active,
-.simple-ui-focus\:backgroundColor-purple-500:focus {
-	background-color: var(--simple-ui-colors-purple-500);
-}
-.simple-ui-bg-purple-600,
-.simple-ui-hover\:bg-purple-600:hover,
-.simple-ui-active\:bg-purple-600:active,
-.simple-ui-focus\:bg-purple-600:focus,
-.simple-ui-backgroundColor-purple-600,
-.simple-ui-hover\:backgroundColor-purple-600:hover,
-.simple-ui-active\:backgroundColor-purple-600:active,
-.simple-ui-focus\:backgroundColor-purple-600:focus {
-	background-color: var(--simple-ui-colors-purple-600);
-}
-.simple-ui-bg-purple-700,
-.simple-ui-hover\:bg-purple-700:hover,
-.simple-ui-active\:bg-purple-700:active,
-.simple-ui-focus\:bg-purple-700:focus,
-.simple-ui-backgroundColor-purple-700,
-.simple-ui-hover\:backgroundColor-purple-700:hover,
-.simple-ui-active\:backgroundColor-purple-700:active,
-.simple-ui-focus\:backgroundColor-purple-700:focus {
-	background-color: var(--simple-ui-colors-purple-700);
-}
-.simple-ui-bg-purple-800,
-.simple-ui-hover\:bg-purple-800:hover,
-.simple-ui-active\:bg-purple-800:active,
-.simple-ui-focus\:bg-purple-800:focus,
-.simple-ui-backgroundColor-purple-800,
-.simple-ui-hover\:backgroundColor-purple-800:hover,
-.simple-ui-active\:backgroundColor-purple-800:active,
-.simple-ui-focus\:backgroundColor-purple-800:focus {
-	background-color: var(--simple-ui-colors-purple-800);
-}
-.simple-ui-bg-purple-900,
-.simple-ui-hover\:bg-purple-900:hover,
-.simple-ui-active\:bg-purple-900:active,
-.simple-ui-focus\:bg-purple-900:focus,
-.simple-ui-backgroundColor-purple-900,
-.simple-ui-hover\:backgroundColor-purple-900:hover,
-.simple-ui-active\:backgroundColor-purple-900:active,
-.simple-ui-focus\:backgroundColor-purple-900:focus {
-	background-color: var(--simple-ui-colors-purple-900);
-}
-.simple-ui-bg-red-50,
-.simple-ui-hover\:bg-red-50:hover,
-.simple-ui-active\:bg-red-50:active,
-.simple-ui-focus\:bg-red-50:focus,
-.simple-ui-backgroundColor-red-50,
-.simple-ui-hover\:backgroundColor-red-50:hover,
-.simple-ui-active\:backgroundColor-red-50:active,
-.simple-ui-focus\:backgroundColor-red-50:focus {
-	background-color: var(--simple-ui-colors-red-50);
-}
-.simple-ui-bg-red-100,
-.simple-ui-hover\:bg-red-100:hover,
-.simple-ui-active\:bg-red-100:active,
-.simple-ui-focus\:bg-red-100:focus,
-.simple-ui-backgroundColor-red-100,
-.simple-ui-hover\:backgroundColor-red-100:hover,
-.simple-ui-active\:backgroundColor-red-100:active,
-.simple-ui-focus\:backgroundColor-red-100:focus {
-	background-color: var(--simple-ui-colors-red-100);
-}
-.simple-ui-bg-red-200,
-.simple-ui-hover\:bg-red-200:hover,
-.simple-ui-active\:bg-red-200:active,
-.simple-ui-focus\:bg-red-200:focus,
-.simple-ui-backgroundColor-red-200,
-.simple-ui-hover\:backgroundColor-red-200:hover,
-.simple-ui-active\:backgroundColor-red-200:active,
-.simple-ui-focus\:backgroundColor-red-200:focus {
-	background-color: var(--simple-ui-colors-red-200);
-}
-.simple-ui-bg-red-300,
-.simple-ui-hover\:bg-red-300:hover,
-.simple-ui-active\:bg-red-300:active,
-.simple-ui-focus\:bg-red-300:focus,
-.simple-ui-backgroundColor-red-300,
-.simple-ui-hover\:backgroundColor-red-300:hover,
-.simple-ui-active\:backgroundColor-red-300:active,
-.simple-ui-focus\:backgroundColor-red-300:focus {
-	background-color: var(--simple-ui-colors-red-300);
-}
-.simple-ui-bg-red-400,
-.simple-ui-hover\:bg-red-400:hover,
-.simple-ui-active\:bg-red-400:active,
-.simple-ui-focus\:bg-red-400:focus,
-.simple-ui-backgroundColor-red-400,
-.simple-ui-hover\:backgroundColor-red-400:hover,
-.simple-ui-active\:backgroundColor-red-400:active,
-.simple-ui-focus\:backgroundColor-red-400:focus {
-	background-color: var(--simple-ui-colors-red-400);
-}
-.simple-ui-bg-red-500,
-.simple-ui-hover\:bg-red-500:hover,
-.simple-ui-active\:bg-red-500:active,
-.simple-ui-focus\:bg-red-500:focus,
-.simple-ui-backgroundColor-red-500,
-.simple-ui-hover\:backgroundColor-red-500:hover,
-.simple-ui-active\:backgroundColor-red-500:active,
-.simple-ui-focus\:backgroundColor-red-500:focus {
-	background-color: var(--simple-ui-colors-red-500);
-}
-.simple-ui-bg-red-600,
-.simple-ui-hover\:bg-red-600:hover,
-.simple-ui-active\:bg-red-600:active,
-.simple-ui-focus\:bg-red-600:focus,
-.simple-ui-backgroundColor-red-600,
-.simple-ui-hover\:backgroundColor-red-600:hover,
-.simple-ui-active\:backgroundColor-red-600:active,
-.simple-ui-focus\:backgroundColor-red-600:focus {
-	background-color: var(--simple-ui-colors-red-600);
-}
-.simple-ui-bg-red-700,
-.simple-ui-hover\:bg-red-700:hover,
-.simple-ui-active\:bg-red-700:active,
-.simple-ui-focus\:bg-red-700:focus,
-.simple-ui-backgroundColor-red-700,
-.simple-ui-hover\:backgroundColor-red-700:hover,
-.simple-ui-active\:backgroundColor-red-700:active,
-.simple-ui-focus\:backgroundColor-red-700:focus {
-	background-color: var(--simple-ui-colors-red-700);
-}
-.simple-ui-bg-red-800,
-.simple-ui-hover\:bg-red-800:hover,
-.simple-ui-active\:bg-red-800:active,
-.simple-ui-focus\:bg-red-800:focus,
-.simple-ui-backgroundColor-red-800,
-.simple-ui-hover\:backgroundColor-red-800:hover,
-.simple-ui-active\:backgroundColor-red-800:active,
-.simple-ui-focus\:backgroundColor-red-800:focus {
-	background-color: var(--simple-ui-colors-red-800);
-}
-.simple-ui-bg-red-900,
-.simple-ui-hover\:bg-red-900:hover,
-.simple-ui-active\:bg-red-900:active,
-.simple-ui-focus\:bg-red-900:focus,
-.simple-ui-backgroundColor-red-900,
-.simple-ui-hover\:backgroundColor-red-900:hover,
-.simple-ui-active\:backgroundColor-red-900:active,
-.simple-ui-focus\:backgroundColor-red-900:focus {
-	background-color: var(--simple-ui-colors-red-900);
-}
-.simple-ui-bg-teal-50,
-.simple-ui-hover\:bg-teal-50:hover,
-.simple-ui-active\:bg-teal-50:active,
-.simple-ui-focus\:bg-teal-50:focus,
-.simple-ui-backgroundColor-teal-50,
-.simple-ui-hover\:backgroundColor-teal-50:hover,
-.simple-ui-active\:backgroundColor-teal-50:active,
-.simple-ui-focus\:backgroundColor-teal-50:focus {
-	background-color: var(--simple-ui-colors-teal-50);
-}
-.simple-ui-bg-teal-100,
-.simple-ui-hover\:bg-teal-100:hover,
-.simple-ui-active\:bg-teal-100:active,
-.simple-ui-focus\:bg-teal-100:focus,
-.simple-ui-backgroundColor-teal-100,
-.simple-ui-hover\:backgroundColor-teal-100:hover,
-.simple-ui-active\:backgroundColor-teal-100:active,
-.simple-ui-focus\:backgroundColor-teal-100:focus {
-	background-color: var(--simple-ui-colors-teal-100);
-}
-.simple-ui-bg-teal-200,
-.simple-ui-hover\:bg-teal-200:hover,
-.simple-ui-active\:bg-teal-200:active,
-.simple-ui-focus\:bg-teal-200:focus,
-.simple-ui-backgroundColor-teal-200,
-.simple-ui-hover\:backgroundColor-teal-200:hover,
-.simple-ui-active\:backgroundColor-teal-200:active,
-.simple-ui-focus\:backgroundColor-teal-200:focus {
-	background-color: var(--simple-ui-colors-teal-200);
-}
-.simple-ui-bg-teal-300,
-.simple-ui-hover\:bg-teal-300:hover,
-.simple-ui-active\:bg-teal-300:active,
-.simple-ui-focus\:bg-teal-300:focus,
-.simple-ui-backgroundColor-teal-300,
-.simple-ui-hover\:backgroundColor-teal-300:hover,
-.simple-ui-active\:backgroundColor-teal-300:active,
-.simple-ui-focus\:backgroundColor-teal-300:focus {
-	background-color: var(--simple-ui-colors-teal-300);
-}
-.simple-ui-bg-teal-400,
-.simple-ui-hover\:bg-teal-400:hover,
-.simple-ui-active\:bg-teal-400:active,
-.simple-ui-focus\:bg-teal-400:focus,
-.simple-ui-backgroundColor-teal-400,
-.simple-ui-hover\:backgroundColor-teal-400:hover,
-.simple-ui-active\:backgroundColor-teal-400:active,
-.simple-ui-focus\:backgroundColor-teal-400:focus {
-	background-color: var(--simple-ui-colors-teal-400);
-}
-.simple-ui-bg-teal-500,
-.simple-ui-hover\:bg-teal-500:hover,
-.simple-ui-active\:bg-teal-500:active,
-.simple-ui-focus\:bg-teal-500:focus,
-.simple-ui-backgroundColor-teal-500,
-.simple-ui-hover\:backgroundColor-teal-500:hover,
-.simple-ui-active\:backgroundColor-teal-500:active,
-.simple-ui-focus\:backgroundColor-teal-500:focus {
-	background-color: var(--simple-ui-colors-teal-500);
-}
-.simple-ui-bg-teal-600,
-.simple-ui-hover\:bg-teal-600:hover,
-.simple-ui-active\:bg-teal-600:active,
-.simple-ui-focus\:bg-teal-600:focus,
-.simple-ui-backgroundColor-teal-600,
-.simple-ui-hover\:backgroundColor-teal-600:hover,
-.simple-ui-active\:backgroundColor-teal-600:active,
-.simple-ui-focus\:backgroundColor-teal-600:focus {
-	background-color: var(--simple-ui-colors-teal-600);
-}
-.simple-ui-bg-teal-700,
-.simple-ui-hover\:bg-teal-700:hover,
-.simple-ui-active\:bg-teal-700:active,
-.simple-ui-focus\:bg-teal-700:focus,
-.simple-ui-backgroundColor-teal-700,
-.simple-ui-hover\:backgroundColor-teal-700:hover,
-.simple-ui-active\:backgroundColor-teal-700:active,
-.simple-ui-focus\:backgroundColor-teal-700:focus {
-	background-color: var(--simple-ui-colors-teal-700);
-}
-.simple-ui-bg-teal-800,
-.simple-ui-hover\:bg-teal-800:hover,
-.simple-ui-active\:bg-teal-800:active,
-.simple-ui-focus\:bg-teal-800:focus,
-.simple-ui-backgroundColor-teal-800,
-.simple-ui-hover\:backgroundColor-teal-800:hover,
-.simple-ui-active\:backgroundColor-teal-800:active,
-.simple-ui-focus\:backgroundColor-teal-800:focus {
-	background-color: var(--simple-ui-colors-teal-800);
-}
-.simple-ui-bg-teal-900,
-.simple-ui-hover\:bg-teal-900:hover,
-.simple-ui-active\:bg-teal-900:active,
-.simple-ui-focus\:bg-teal-900:focus,
-.simple-ui-backgroundColor-teal-900,
-.simple-ui-hover\:backgroundColor-teal-900:hover,
-.simple-ui-active\:backgroundColor-teal-900:active,
-.simple-ui-focus\:backgroundColor-teal-900:focus {
-	background-color: var(--simple-ui-colors-teal-900);
-}
-
-.simple-ui-bg-transparent,
-.simple-ui-hover\:bg-transparent:hover,
-.simple-ui-active\:bg-transparent:active,
-.simple-ui-focus\:bg-transparent:focus,
 .simple-ui-backgroundColor-transparent,
 .simple-ui-hover\:backgroundColor-transparent:hover,
-.simple-ui-active\:backgroundColor-transparent:active,
-.simple-ui-focus\:backgroundColor-transparent:focus {
-	background-color: var(--simple-ui-colors-transparent tran);
+.simple-ui-focus\:backgroundColor-transparent:focus,
+.simple-ui-active\:backgroundColor-transparent:active {
+  background-color: transparent;
 }
-
-.simple-ui-bg-white,
-.simple-ui-hover\:bg-white:hover,
-.simple-ui-active\:bg-white:active,
-.simple-ui-focus\:bg-white:focus,
+.simple-ui-backgroundColor-current,
+.simple-ui-hover\:backgroundColor-current:hover,
+.simple-ui-focus\:backgroundColor-current:focus,
+.simple-ui-active\:backgroundColor-current:active {
+  background-color: currentColor;
+}
+.simple-ui-backgroundColor-black,
+.simple-ui-hover\:backgroundColor-black:hover,
+.simple-ui-focus\:backgroundColor-black:focus,
+.simple-ui-active\:backgroundColor-black:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(0, 0, 0, var(--simple-ui-bg-opacity));
+}
 .simple-ui-backgroundColor-white,
 .simple-ui-hover\:backgroundColor-white:hover,
-.simple-ui-active\:backgroundColor-white:active,
-.simple-ui-focus\:backgroundColor-white:focus {
-	background-color: var(--simple-ui-colors-white);
+.simple-ui-focus\:backgroundColor-white:focus,
+.simple-ui-active\:backgroundColor-white:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--simple-ui-bg-opacity));
 }
-.simple-ui-bg-yellow-50,
-.simple-ui-hover\:bg-yellow-50:hover,
-.simple-ui-active\:bg-yellow-50:active,
-.simple-ui-focus\:bg-yellow-50:focus,
+.simple-ui-backgroundColor-gray-50,
+.simple-ui-hover\:backgroundColor-gray-50:hover,
+.simple-ui-focus\:backgroundColor-gray-50:focus,
+.simple-ui-active\:backgroundColor-gray-50:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(249, 250, 251, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-gray-100,
+.simple-ui-hover\:backgroundColor-gray-100:hover,
+.simple-ui-focus\:backgroundColor-gray-100:focus,
+.simple-ui-active\:backgroundColor-gray-100:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(243, 244, 246, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-gray-200,
+.simple-ui-hover\:backgroundColor-gray-200:hover,
+.simple-ui-focus\:backgroundColor-gray-200:focus,
+.simple-ui-active\:backgroundColor-gray-200:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(229, 231, 235, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-gray-300,
+.simple-ui-hover\:backgroundColor-gray-300:hover,
+.simple-ui-focus\:backgroundColor-gray-300:focus,
+.simple-ui-active\:backgroundColor-gray-300:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(209, 213, 219, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-gray-400,
+.simple-ui-hover\:backgroundColor-gray-400:hover,
+.simple-ui-focus\:backgroundColor-gray-400:focus,
+.simple-ui-active\:backgroundColor-gray-400:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(156, 163, 175, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-gray-500,
+.simple-ui-hover\:backgroundColor-gray-500:hover,
+.simple-ui-focus\:backgroundColor-gray-500:focus,
+.simple-ui-active\:backgroundColor-gray-500:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(107, 114, 128, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-gray-600,
+.simple-ui-hover\:backgroundColor-gray-600:hover,
+.simple-ui-focus\:backgroundColor-gray-600:focus,
+.simple-ui-active\:backgroundColor-gray-600:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(75, 85, 99, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-gray-700,
+.simple-ui-hover\:backgroundColor-gray-700:hover,
+.simple-ui-focus\:backgroundColor-gray-700:focus,
+.simple-ui-active\:backgroundColor-gray-700:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(55, 65, 81, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-gray-800,
+.simple-ui-hover\:backgroundColor-gray-800:hover,
+.simple-ui-focus\:backgroundColor-gray-800:focus,
+.simple-ui-active\:backgroundColor-gray-800:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(31, 41, 55, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-gray-900,
+.simple-ui-hover\:backgroundColor-gray-900:hover,
+.simple-ui-focus\:backgroundColor-gray-900:focus,
+.simple-ui-active\:backgroundColor-gray-900:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(17, 24, 39, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-red-50,
+.simple-ui-hover\:backgroundColor-red-50:hover,
+.simple-ui-focus\:backgroundColor-red-50:focus,
+.simple-ui-active\:backgroundColor-red-50:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(254, 242, 242, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-red-100,
+.simple-ui-hover\:backgroundColor-red-100:hover,
+.simple-ui-focus\:backgroundColor-red-100:focus,
+.simple-ui-active\:backgroundColor-red-100:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(254, 226, 226, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-red-200,
+.simple-ui-hover\:backgroundColor-red-200:hover,
+.simple-ui-focus\:backgroundColor-red-200:focus,
+.simple-ui-active\:backgroundColor-red-200:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(254, 202, 202, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-red-300,
+.simple-ui-hover\:backgroundColor-red-300:hover,
+.simple-ui-focus\:backgroundColor-red-300:focus,
+.simple-ui-active\:backgroundColor-red-300:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(252, 165, 165, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-red-400,
+.simple-ui-hover\:backgroundColor-red-400:hover,
+.simple-ui-focus\:backgroundColor-red-400:focus,
+.simple-ui-active\:backgroundColor-red-400:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(248, 113, 113, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-red-500,
+.simple-ui-hover\:backgroundColor-red-500:hover,
+.simple-ui-focus\:backgroundColor-red-500:focus,
+.simple-ui-active\:backgroundColor-red-500:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(239, 68, 68, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-red-600,
+.simple-ui-hover\:backgroundColor-red-600:hover,
+.simple-ui-focus\:backgroundColor-red-600:focus,
+.simple-ui-active\:backgroundColor-red-600:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(220, 38, 38, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-red-700,
+.simple-ui-hover\:backgroundColor-red-700:hover,
+.simple-ui-focus\:backgroundColor-red-700:focus,
+.simple-ui-active\:backgroundColor-red-700:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(185, 28, 28, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-red-800,
+.simple-ui-hover\:backgroundColor-red-800:hover,
+.simple-ui-focus\:backgroundColor-red-800:focus,
+.simple-ui-active\:backgroundColor-red-800:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(153, 27, 27, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-red-900,
+.simple-ui-hover\:backgroundColor-red-900:hover,
+.simple-ui-focus\:backgroundColor-red-900:focus,
+.simple-ui-active\:backgroundColor-red-900:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(127, 29, 29, var(--simple-ui-bg-opacity));
+}
 .simple-ui-backgroundColor-yellow-50,
 .simple-ui-hover\:backgroundColor-yellow-50:hover,
-.simple-ui-active\:backgroundColor-yellow-50:active,
-.simple-ui-focus\:backgroundColor-yellow-50:focus {
-	background-color: var(--simple-ui-colors-yellow-50);
+.simple-ui-focus\:backgroundColor-yellow-50:focus,
+.simple-ui-active\:backgroundColor-yellow-50:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(255, 251, 235, var(--simple-ui-bg-opacity));
 }
-.simple-ui-bg-yellow-100,
-.simple-ui-hover\:bg-yellow-100:hover,
-.simple-ui-active\:bg-yellow-100:active,
-.simple-ui-focus\:bg-yellow-100:focus,
 .simple-ui-backgroundColor-yellow-100,
 .simple-ui-hover\:backgroundColor-yellow-100:hover,
-.simple-ui-active\:backgroundColor-yellow-100:active,
-.simple-ui-focus\:backgroundColor-yellow-100:focus {
-	background-color: var(--simple-ui-colors-yellow-100);
+.simple-ui-focus\:backgroundColor-yellow-100:focus,
+.simple-ui-active\:backgroundColor-yellow-100:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(254, 243, 199, var(--simple-ui-bg-opacity));
 }
-.simple-ui-bg-yellow-200,
-.simple-ui-hover\:bg-yellow-200:hover,
-.simple-ui-active\:bg-yellow-200:active,
-.simple-ui-focus\:bg-yellow-200:focus,
 .simple-ui-backgroundColor-yellow-200,
 .simple-ui-hover\:backgroundColor-yellow-200:hover,
-.simple-ui-active\:backgroundColor-yellow-200:active,
-.simple-ui-focus\:backgroundColor-yellow-200:focus {
-	background-color: var(--simple-ui-colors-yellow-200);
+.simple-ui-focus\:backgroundColor-yellow-200:focus,
+.simple-ui-active\:backgroundColor-yellow-200:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(253, 230, 138, var(--simple-ui-bg-opacity));
 }
-.simple-ui-bg-yellow-300,
-.simple-ui-hover\:bg-yellow-300:hover,
-.simple-ui-active\:bg-yellow-300:active,
-.simple-ui-focus\:bg-yellow-300:focus,
 .simple-ui-backgroundColor-yellow-300,
 .simple-ui-hover\:backgroundColor-yellow-300:hover,
-.simple-ui-active\:backgroundColor-yellow-300:active,
-.simple-ui-focus\:backgroundColor-yellow-300:focus {
-	background-color: var(--simple-ui-colors-yellow-300);
+.simple-ui-focus\:backgroundColor-yellow-300:focus,
+.simple-ui-active\:backgroundColor-yellow-300:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(252, 211, 77, var(--simple-ui-bg-opacity));
 }
-.simple-ui-bg-yellow-400,
-.simple-ui-hover\:bg-yellow-400:hover,
-.simple-ui-active\:bg-yellow-400:active,
-.simple-ui-focus\:bg-yellow-400:focus,
 .simple-ui-backgroundColor-yellow-400,
 .simple-ui-hover\:backgroundColor-yellow-400:hover,
-.simple-ui-active\:backgroundColor-yellow-400:active,
-.simple-ui-focus\:backgroundColor-yellow-400:focus {
-	background-color: var(--simple-ui-colors-yellow-400);
+.simple-ui-focus\:backgroundColor-yellow-400:focus,
+.simple-ui-active\:backgroundColor-yellow-400:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(251, 191, 36, var(--simple-ui-bg-opacity));
 }
-.simple-ui-bg-yellow-500,
-.simple-ui-hover\:bg-yellow-500:hover,
-.simple-ui-active\:bg-yellow-500:active,
-.simple-ui-focus\:bg-yellow-500:focus,
 .simple-ui-backgroundColor-yellow-500,
 .simple-ui-hover\:backgroundColor-yellow-500:hover,
-.simple-ui-active\:backgroundColor-yellow-500:active,
-.simple-ui-focus\:backgroundColor-yellow-500:focus {
-	background-color: var(--simple-ui-colors-yellow-500);
+.simple-ui-focus\:backgroundColor-yellow-500:focus,
+.simple-ui-active\:backgroundColor-yellow-500:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(245, 158, 11, var(--simple-ui-bg-opacity));
 }
-.simple-ui-bg-yellow-600,
-.simple-ui-hover\:bg-yellow-600:hover,
-.simple-ui-active\:bg-yellow-600:active,
-.simple-ui-focus\:bg-yellow-600:focus,
 .simple-ui-backgroundColor-yellow-600,
 .simple-ui-hover\:backgroundColor-yellow-600:hover,
-.simple-ui-active\:backgroundColor-yellow-600:active,
-.simple-ui-focus\:backgroundColor-yellow-600:focus {
-	background-color: var(--simple-ui-colors-yellow-600);
+.simple-ui-focus\:backgroundColor-yellow-600:focus,
+.simple-ui-active\:backgroundColor-yellow-600:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(217, 119, 6, var(--simple-ui-bg-opacity));
 }
-.simple-ui-bg-yellow-700,
-.simple-ui-hover\:bg-yellow-700:hover,
-.simple-ui-active\:bg-yellow-700:active,
-.simple-ui-focus\:bg-yellow-700:focus,
 .simple-ui-backgroundColor-yellow-700,
 .simple-ui-hover\:backgroundColor-yellow-700:hover,
-.simple-ui-active\:backgroundColor-yellow-700:active,
-.simple-ui-focus\:backgroundColor-yellow-700:focus {
-	background-color: var(--simple-ui-colors-yellow-700);
+.simple-ui-focus\:backgroundColor-yellow-700:focus,
+.simple-ui-active\:backgroundColor-yellow-700:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(180, 83, 9, var(--simple-ui-bg-opacity));
 }
-.simple-ui-bg-yellow-800,
-.simple-ui-hover\:bg-yellow-800:hover,
-.simple-ui-active\:bg-yellow-800:active,
-.simple-ui-focus\:bg-yellow-800:focus,
 .simple-ui-backgroundColor-yellow-800,
 .simple-ui-hover\:backgroundColor-yellow-800:hover,
-.simple-ui-active\:backgroundColor-yellow-800:active,
-.simple-ui-focus\:backgroundColor-yellow-800:focus {
-	background-color: var(--simple-ui-colors-yellow-800);
+.simple-ui-focus\:backgroundColor-yellow-800:focus,
+.simple-ui-active\:backgroundColor-yellow-800:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(146, 64, 14, var(--simple-ui-bg-opacity));
 }
-.simple-ui-bg-yellow-900,
-.simple-ui-hover\:bg-yellow-900:hover,
-.simple-ui-active\:bg-yellow-900:active,
-.simple-ui-focus\:bg-yellow-900:focus,
 .simple-ui-backgroundColor-yellow-900,
 .simple-ui-hover\:backgroundColor-yellow-900:hover,
-.simple-ui-active\:backgroundColor-yellow-900:active,
-.simple-ui-focus\:backgroundColor-yellow-900:focus {
-	background-color: var(--simple-ui-colors-yellow-900);
+.simple-ui-focus\:backgroundColor-yellow-900:focus,
+.simple-ui-active\:backgroundColor-yellow-900:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(120, 53, 15, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-green-50,
+.simple-ui-hover\:backgroundColor-green-50:hover,
+.simple-ui-focus\:backgroundColor-green-50:focus,
+.simple-ui-active\:backgroundColor-green-50:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(236, 253, 245, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-green-100,
+.simple-ui-hover\:backgroundColor-green-100:hover,
+.simple-ui-focus\:backgroundColor-green-100:focus,
+.simple-ui-active\:backgroundColor-green-100:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(209, 250, 229, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-green-200,
+.simple-ui-hover\:backgroundColor-green-200:hover,
+.simple-ui-focus\:backgroundColor-green-200:focus,
+.simple-ui-active\:backgroundColor-green-200:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(167, 243, 208, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-green-300,
+.simple-ui-hover\:backgroundColor-green-300:hover,
+.simple-ui-focus\:backgroundColor-green-300:focus,
+.simple-ui-active\:backgroundColor-green-300:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(110, 231, 183, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-green-400,
+.simple-ui-hover\:backgroundColor-green-400:hover,
+.simple-ui-focus\:backgroundColor-green-400:focus,
+.simple-ui-active\:backgroundColor-green-400:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(52, 211, 153, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-green-500,
+.simple-ui-hover\:backgroundColor-green-500:hover,
+.simple-ui-focus\:backgroundColor-green-500:focus,
+.simple-ui-active\:backgroundColor-green-500:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(16, 185, 129, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-green-600,
+.simple-ui-hover\:backgroundColor-green-600:hover,
+.simple-ui-focus\:backgroundColor-green-600:focus,
+.simple-ui-active\:backgroundColor-green-600:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(5, 150, 105, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-green-700,
+.simple-ui-hover\:backgroundColor-green-700:hover,
+.simple-ui-focus\:backgroundColor-green-700:focus,
+.simple-ui-active\:backgroundColor-green-700:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(4, 120, 87, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-green-800,
+.simple-ui-hover\:backgroundColor-green-800:hover,
+.simple-ui-focus\:backgroundColor-green-800:focus,
+.simple-ui-active\:backgroundColor-green-800:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(6, 95, 70, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-green-900,
+.simple-ui-hover\:backgroundColor-green-900:hover,
+.simple-ui-focus\:backgroundColor-green-900:focus,
+.simple-ui-active\:backgroundColor-green-900:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(6, 78, 59, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-blue-50,
+.simple-ui-hover\:backgroundColor-blue-50:hover,
+.simple-ui-focus\:backgroundColor-blue-50:focus,
+.simple-ui-active\:backgroundColor-blue-50:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(239, 246, 255, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-blue-100,
+.simple-ui-hover\:backgroundColor-blue-100:hover,
+.simple-ui-focus\:backgroundColor-blue-100:focus,
+.simple-ui-active\:backgroundColor-blue-100:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(219, 234, 254, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-blue-200,
+.simple-ui-hover\:backgroundColor-blue-200:hover,
+.simple-ui-focus\:backgroundColor-blue-200:focus,
+.simple-ui-active\:backgroundColor-blue-200:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(191, 219, 254, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-blue-300,
+.simple-ui-hover\:backgroundColor-blue-300:hover,
+.simple-ui-focus\:backgroundColor-blue-300:focus,
+.simple-ui-active\:backgroundColor-blue-300:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(147, 197, 253, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-blue-400,
+.simple-ui-hover\:backgroundColor-blue-400:hover,
+.simple-ui-focus\:backgroundColor-blue-400:focus,
+.simple-ui-active\:backgroundColor-blue-400:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(96, 165, 250, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-blue-500,
+.simple-ui-hover\:backgroundColor-blue-500:hover,
+.simple-ui-focus\:backgroundColor-blue-500:focus,
+.simple-ui-active\:backgroundColor-blue-500:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(59, 130, 246, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-blue-600,
+.simple-ui-hover\:backgroundColor-blue-600:hover,
+.simple-ui-focus\:backgroundColor-blue-600:focus,
+.simple-ui-active\:backgroundColor-blue-600:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(37, 99, 235, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-blue-700,
+.simple-ui-hover\:backgroundColor-blue-700:hover,
+.simple-ui-focus\:backgroundColor-blue-700:focus,
+.simple-ui-active\:backgroundColor-blue-700:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(29, 78, 216, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-blue-800,
+.simple-ui-hover\:backgroundColor-blue-800:hover,
+.simple-ui-focus\:backgroundColor-blue-800:focus,
+.simple-ui-active\:backgroundColor-blue-800:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(30, 64, 175, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-blue-900,
+.simple-ui-hover\:backgroundColor-blue-900:hover,
+.simple-ui-focus\:backgroundColor-blue-900:focus,
+.simple-ui-active\:backgroundColor-blue-900:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(30, 58, 138, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-indigo-50,
+.simple-ui-hover\:backgroundColor-indigo-50:hover,
+.simple-ui-focus\:backgroundColor-indigo-50:focus,
+.simple-ui-active\:backgroundColor-indigo-50:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(238, 242, 255, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-indigo-100,
+.simple-ui-hover\:backgroundColor-indigo-100:hover,
+.simple-ui-focus\:backgroundColor-indigo-100:focus,
+.simple-ui-active\:backgroundColor-indigo-100:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(224, 231, 255, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-indigo-200,
+.simple-ui-hover\:backgroundColor-indigo-200:hover,
+.simple-ui-focus\:backgroundColor-indigo-200:focus,
+.simple-ui-active\:backgroundColor-indigo-200:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(199, 210, 254, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-indigo-300,
+.simple-ui-hover\:backgroundColor-indigo-300:hover,
+.simple-ui-focus\:backgroundColor-indigo-300:focus,
+.simple-ui-active\:backgroundColor-indigo-300:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(165, 180, 252, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-indigo-400,
+.simple-ui-hover\:backgroundColor-indigo-400:hover,
+.simple-ui-focus\:backgroundColor-indigo-400:focus,
+.simple-ui-active\:backgroundColor-indigo-400:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(129, 140, 248, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-indigo-500,
+.simple-ui-hover\:backgroundColor-indigo-500:hover,
+.simple-ui-focus\:backgroundColor-indigo-500:focus,
+.simple-ui-active\:backgroundColor-indigo-500:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(99, 102, 241, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-indigo-600,
+.simple-ui-hover\:backgroundColor-indigo-600:hover,
+.simple-ui-focus\:backgroundColor-indigo-600:focus,
+.simple-ui-active\:backgroundColor-indigo-600:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(79, 70, 229, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-indigo-700,
+.simple-ui-hover\:backgroundColor-indigo-700:hover,
+.simple-ui-focus\:backgroundColor-indigo-700:focus,
+.simple-ui-active\:backgroundColor-indigo-700:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(67, 56, 202, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-indigo-800,
+.simple-ui-hover\:backgroundColor-indigo-800:hover,
+.simple-ui-focus\:backgroundColor-indigo-800:focus,
+.simple-ui-active\:backgroundColor-indigo-800:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(55, 48, 163, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-indigo-900,
+.simple-ui-hover\:backgroundColor-indigo-900:hover,
+.simple-ui-focus\:backgroundColor-indigo-900:focus,
+.simple-ui-active\:backgroundColor-indigo-900:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(49, 46, 129, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-purple-50,
+.simple-ui-hover\:backgroundColor-purple-50:hover,
+.simple-ui-focus\:backgroundColor-purple-50:focus,
+.simple-ui-active\:backgroundColor-purple-50:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(245, 243, 255, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-purple-100,
+.simple-ui-hover\:backgroundColor-purple-100:hover,
+.simple-ui-focus\:backgroundColor-purple-100:focus,
+.simple-ui-active\:backgroundColor-purple-100:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(237, 233, 254, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-purple-200,
+.simple-ui-hover\:backgroundColor-purple-200:hover,
+.simple-ui-focus\:backgroundColor-purple-200:focus,
+.simple-ui-active\:backgroundColor-purple-200:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(221, 214, 254, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-purple-300,
+.simple-ui-hover\:backgroundColor-purple-300:hover,
+.simple-ui-focus\:backgroundColor-purple-300:focus,
+.simple-ui-active\:backgroundColor-purple-300:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(196, 181, 253, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-purple-400,
+.simple-ui-hover\:backgroundColor-purple-400:hover,
+.simple-ui-focus\:backgroundColor-purple-400:focus,
+.simple-ui-active\:backgroundColor-purple-400:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(167, 139, 250, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-purple-500,
+.simple-ui-hover\:backgroundColor-purple-500:hover,
+.simple-ui-focus\:backgroundColor-purple-500:focus,
+.simple-ui-active\:backgroundColor-purple-500:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(139, 92, 246, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-purple-600,
+.simple-ui-hover\:backgroundColor-purple-600:hover,
+.simple-ui-focus\:backgroundColor-purple-600:focus,
+.simple-ui-active\:backgroundColor-purple-600:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(124, 58, 237, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-purple-700,
+.simple-ui-hover\:backgroundColor-purple-700:hover,
+.simple-ui-focus\:backgroundColor-purple-700:focus,
+.simple-ui-active\:backgroundColor-purple-700:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(109, 40, 217, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-purple-800,
+.simple-ui-hover\:backgroundColor-purple-800:hover,
+.simple-ui-focus\:backgroundColor-purple-800:focus,
+.simple-ui-active\:backgroundColor-purple-800:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(91, 33, 182, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-purple-900,
+.simple-ui-hover\:backgroundColor-purple-900:hover,
+.simple-ui-focus\:backgroundColor-purple-900:focus,
+.simple-ui-active\:backgroundColor-purple-900:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(76, 29, 149, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-pink-50,
+.simple-ui-hover\:backgroundColor-pink-50:hover,
+.simple-ui-focus\:backgroundColor-pink-50:focus,
+.simple-ui-active\:backgroundColor-pink-50:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(253, 242, 248, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-pink-100,
+.simple-ui-hover\:backgroundColor-pink-100:hover,
+.simple-ui-focus\:backgroundColor-pink-100:focus,
+.simple-ui-active\:backgroundColor-pink-100:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(252, 231, 243, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-pink-200,
+.simple-ui-hover\:backgroundColor-pink-200:hover,
+.simple-ui-focus\:backgroundColor-pink-200:focus,
+.simple-ui-active\:backgroundColor-pink-200:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(251, 207, 232, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-pink-300,
+.simple-ui-hover\:backgroundColor-pink-300:hover,
+.simple-ui-focus\:backgroundColor-pink-300:focus,
+.simple-ui-active\:backgroundColor-pink-300:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(249, 168, 212, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-pink-400,
+.simple-ui-hover\:backgroundColor-pink-400:hover,
+.simple-ui-focus\:backgroundColor-pink-400:focus,
+.simple-ui-active\:backgroundColor-pink-400:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(244, 114, 182, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-pink-500,
+.simple-ui-hover\:backgroundColor-pink-500:hover,
+.simple-ui-focus\:backgroundColor-pink-500:focus,
+.simple-ui-active\:backgroundColor-pink-500:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(236, 72, 153, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-pink-600,
+.simple-ui-hover\:backgroundColor-pink-600:hover,
+.simple-ui-focus\:backgroundColor-pink-600:focus,
+.simple-ui-active\:backgroundColor-pink-600:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(219, 39, 119, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-pink-700,
+.simple-ui-hover\:backgroundColor-pink-700:hover,
+.simple-ui-focus\:backgroundColor-pink-700:focus,
+.simple-ui-active\:backgroundColor-pink-700:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(190, 24, 93, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-pink-800,
+.simple-ui-hover\:backgroundColor-pink-800:hover,
+.simple-ui-focus\:backgroundColor-pink-800:focus,
+.simple-ui-active\:backgroundColor-pink-800:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(157, 23, 77, var(--simple-ui-bg-opacity));
+}
+.simple-ui-backgroundColor-pink-900,
+.simple-ui-hover\:backgroundColor-pink-900:hover,
+.simple-ui-focus\:backgroundColor-pink-900:focus,
+.simple-ui-active\:backgroundColor-pink-900:active {
+  --simple-ui-bg-opacity: 1;
+  background-color: rgba(131, 24, 67, var(--simple-ui-bg-opacity));
 }
