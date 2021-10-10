@@ -2,4 +2,4 @@ export interface BackgroundAttachmentProps {
   backgroundAttachment?: BackgroundAttachmentValues;
 }
 
-export type BackgroundAttachmentValues = "fixed" | "local" | "scroll";
+export type BackgroundAttachmentValues = "bg-fixed" | "bg-local" | "bg-scroll";
