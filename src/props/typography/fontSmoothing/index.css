@@ -1,0 +1,14 @@
+.simple-ui-fontSmoothing-antialiased,
+.simple-ui-hover\:fontSmoothing-antialiased:hover,
+.simple-ui-focus\:fontSmoothing-antialiased:focus,
+.simple-ui-active\:fontSmoothing-antialiased:active {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: gray;
+}
+.simple-ui-fontSmoothing-subpixel-antialiased,
+.simple-ui-hover\:fontSmoothing-subpixel-antialiased:hover,
+.simple-ui-focus\:fontSmoothing-subpixel-antialiased:focus,
+.simple-ui-active\:fontSmoothing-subpixel-antialiased:active {
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+}
