@@ -96,6 +96,8 @@ import { BackgroundOriginProps } from "./background/origin";
 import { BackgroundPositionProps } from "./background/position";
 import { BackgroundRepeatProps } from "./background/repeat";
 import { BackgroundSizeProps } from "./background/size";
+import { FontFamilyProps } from "./typography/fontFamily";
+import { FontSmoothingProps } from "./typography/fontSmoothing";
 
 type MainProps<T = {}> =
   // Spacing
@@ -209,5 +211,7 @@ type MainProps<T = {}> =
     SkewProps &
     // Typography
     PlaceholderColorProps &
-    T;
+    FontFamilyProps &
+    FontSizeProps &
+    FontSmoothingProps;
 export default MainProps;
