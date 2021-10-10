@@ -11,8 +11,8 @@ export const Divider: Component<DividerProps> = (props) => {
 	const simpleProps = mapPropsToCss(mergedProps, true);
 
 	return (
-		<div {...props} class={simpleProps}>
-			{props.children}
-		</div>
+		<>
+			<hr class={simpleProps} />
+		</>
 	);
 };
