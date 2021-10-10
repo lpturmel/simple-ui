@@ -1,0 +1,91 @@
+.simple-ui-fontSize-text-xs,
+.simple-ui-hover\:fontSize-text-xs:hover,
+.simple-ui-focus\:fontSize-text-xs:focus,
+.simple-ui-active\:fontSize-text-xs:active {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.simple-ui-fontSize-text-sm,
+.simple-ui-hover\:fontSize-text-sm:hover,
+.simple-ui-focus\:fontSize-text-sm:focus,
+.simple-ui-active\:fontSize-text-sm:active {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.simple-ui-fontSize-text-base,
+.simple-ui-hover\:fontSize-text-base:hover,
+.simple-ui-focus\:fontSize-text-base:focus,
+.simple-ui-active\:fontSize-text-base:active {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.simple-ui-fontSize-text-lg,
+.simple-ui-hover\:fontSize-text-lg:hover,
+.simple-ui-focus\:fontSize-text-lg:focus,
+.simple-ui-active\:fontSize-text-lg:active {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.simple-ui-fontSize-text-xl,
+.simple-ui-hover\:fontSize-text-xl:hover,
+.simple-ui-focus\:fontSize-text-xl:focus,
+.simple-ui-active\:fontSize-text-xl:active {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.simple-ui-fontSize-text-2xl,
+.simple-ui-hover\:fontSize-text-2xl:hover,
+.simple-ui-focus\:fontSize-text-2xl:focus,
+.simple-ui-active\:fontSize-text-2xl:active {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.simple-ui-fontSize-text-3xl,
+.simple-ui-hover\:fontSize-text-3xl:hover,
+.simple-ui-focus\:fontSize-text-3xl:focus,
+.simple-ui-active\:fontSize-text-3xl:active {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.simple-ui-fontSize-text-4xl,
+.simple-ui-hover\:fontSize-text-4xl:hover,
+.simple-ui-focus\:fontSize-text-4xl:focus,
+.simple-ui-active\:fontSize-text-4xl:active {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.simple-ui-fontSize-text-5xl,
+.simple-ui-hover\:fontSize-text-5xl:hover,
+.simple-ui-focus\:fontSize-text-5xl:focus,
+.simple-ui-active\:fontSize-text-5xl:active {
+  font-size: 3rem;
+  line-height: 1;
+}
+.simple-ui-fontSize-text-6xl,
+.simple-ui-hover\:fontSize-text-6xl:hover,
+.simple-ui-focus\:fontSize-text-6xl:focus,
+.simple-ui-active\:fontSize-text-6xl:active {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+.simple-ui-fontSize-text-7xl,
+.simple-ui-hover\:fontSize-text-7xl:hover,
+.simple-ui-focus\:fontSize-text-7xl:focus,
+.simple-ui-active\:fontSize-text-7xl:active {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+.simple-ui-fontSize-text-8xl,
+.simple-ui-hover\:fontSize-text-8xl:hover,
+.simple-ui-focus\:fontSize-text-8xl:focus,
+.simple-ui-active\:fontSize-text-8xl:active {
+  font-size: 6rem;
+  line-height: 1;
+}
+.simple-ui-fontSize-text-9xl,
+.simple-ui-hover\:fontSize-text-9xl:hover,
+.simple-ui-focus\:fontSize-text-9xl:focus,
+.simple-ui-active\:fontSize-text-9xl:active {
+  font-size: 8rem;
+  line-height: 1;
+}
