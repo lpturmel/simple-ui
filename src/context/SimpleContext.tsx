@@ -10,6 +10,14 @@ import "../props/sizing/minHeight/index.css";
 import "../props/sizing/maxHeight/index.css";
 import "../props/background/color/index.css";
 import "../props/background/gradientColor/index.css";
+import "../props/background/attachment/index.css";
+import "../props/background/clip/index.css";
+import "../props/background/image/index.css";
+import "../props/background/opacity/index.css";
+import "../props/background/origin/index.css";
+import "../props/background/position/index.css";
+import "../props/background/repeat/index.css";
+import "../props/background/size/index.css";
 import "../props/text/colors/index.css";
 import "../props/text/fontSize/index.css";
 import "../props/text/fontWeight/index.css";
@@ -36,6 +44,15 @@ import "../props/layout/overflow/index.css";
 import "../props/layout/absolutePosition/index.css";
 import "../props/layout/clear/index.css";
 import "../props/layout/zIndex/index.css";
+import "../props/layout/boxDecorationBreak/index.css";
+import "../props/layout/boxSizing/index.css";
+import "../props/layout/container/index.css";
+import "../props/layout/floats/index.css";
+import "../props/layout/isolation/index.css";
+import "../props/layout/objectFit/index.css";
+import "../props/layout/objectPosition/index.css";
+import "../props/layout/overscrollBehavior/index.css";
+import "../props/layout/visibility/index.css";
 import "../props/flex/flex/index.css";
 import "../props/flex/flexDirection/index.css";
 import "../props/flex/flexGrow/index.css";
@@ -85,29 +102,29 @@ import "../props/interactivity/userSelect/index.css";
 import { DefaultTheme, SimpleThemeConfig } from "../theme";
 
 interface IProviderStore {
-	theme: SimpleThemeConfig | null;
-	defaultTheme: SimpleThemeConfig;
+  theme: SimpleThemeConfig | null;
+  defaultTheme: SimpleThemeConfig;
 }
 
 const [state, setState] = createStore<IProviderStore>({
-	theme: null,
-	defaultTheme: DefaultTheme,
+  theme: null,
+  defaultTheme: DefaultTheme,
 });
 export const SimpleContext = createContext<
-	[Store<IProviderStore>, SetStoreFunction<IProviderStore>]
+  [Store<IProviderStore>, SetStoreFunction<IProviderStore>]
 >([state, setState]);
 
 interface SimpleProviderProps {
-	theme?: SimpleThemeConfig;
+  theme?: SimpleThemeConfig;
 }
 export const SimpleProvider: Component<SimpleProviderProps> = (props) => {
-	if (props.theme) {
-		setState("theme", () => props.theme);
-	}
-	return (
-		<SimpleContext.Provider value={[state, setState]}>
-			<div id="simple-ui-portal" />
-			{props.children}
-		</SimpleContext.Provider>
-	);
+  if (props.theme) {
+    setState("theme", () => props.theme);
+  }
+  return (
+    <SimpleContext.Provider value={[state, setState]}>
+      <div id="simple-ui-portal" />
+      {props.children}
+    </SimpleContext.Provider>
+  );
 };
