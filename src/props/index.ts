@@ -80,102 +80,134 @@ import { ResizeProps } from "./interactivity/resize";
 import { UserSelectProps } from "./interactivity/userSelect";
 import { BackgroundColorProps } from "./background/color";
 import { PlaceholderColorProps } from "./typography/placeholderColor";
+import { BoxDecorationBreakProps } from "./layout/boxDecorationBreak";
+import { BoxSizingProps } from "./layout/boxSizing";
+import { FloatsProps } from "./layout/floats";
+import { IsolationProps } from "./layout/isolation";
+import { ObjectFitProps } from "./layout/objectFit";
+import { ObjectPositionProps } from "./layout/objectPosition";
+import { OverscrollBehaviorProps } from "./layout/overscrollBehavior";
+import { VisibilityProps } from "./layout/visibility";
+import { BackgroundAttachmentProps } from "./background/attachment";
+import { BackgroundClipProps } from "./background/clip";
+import { BackgroundImageProps } from "./background/image";
+import { BackgroundOpacityProps } from "./background/opacity";
+import { BackgroundOriginProps } from "./background/origin";
+import { BackgroundPositionProps } from "./background/position";
+import { BackgroundRepeatProps } from "./background/repeat";
+import { BackgroundSizeProps } from "./background/size";
 
 type MainProps<T = {}> =
-	// Spacing
-	PaddingProps &
-		MarginProps &
-		SpacingProps &
-		// Typography
-		FontSizeProps &
-		FontWeightProps &
-		ColorProps &
-		// Misc
-		StateProps &
-		// interactivity
-		AppearanceProps &
-		CursorProps &
-		OutlineProps &
-		PointerEventsProps &
-		ResizeProps &
-		UserSelectProps &
-		// effects
-		BoxShadowProps &
-		OpacityProps &
-		MixBlendProps &
-		BackgroundBlendProps &
-		// Sizing
-		WidthProps &
-		MinWidthProps &
-		MaxWidthProps &
-		HeightProps &
-		MinHeightProps &
-		MaxHeightProps &
-		// Backgrounds
-		GradientColorProps &
-		BackgroundColorProps &
-		// Borders
-		BorderRadiusProps &
-		BorderWidthProps &
-		BorderColorProps &
-		BorderStyleProps &
-		BorderOpacityProps &
-		DivideWidthProps &
-		DivideColorProps &
-		DivideOpacityProps &
-		DivideStyleProps &
-		RingWidthProps &
-		RingColorProps &
-		RingOpacityProps &
-		RingOffsetWidthProps &
-		RingOffsetColorProps &
-		// Transition & animations
-		TransitionProps &
-		TransitionDurationProps &
-		TransitionTimingProps &
-		TransitionDelayProps &
-		AnimateProps &
-		//
-		DisplayProps &
-		PositionProps &
-		FlexProps &
-		FlexDirectionProps &
-		FlexGrowProps &
-		FlexShrinkProps &
-		FlexWrapProps &
-		OrderProps &
-		JustifyContentProps &
-		JustifyItemsProps &
-		JustifySelfProps &
-		AlignContentProps &
-		AlignItemsProps &
-		AlignSelfProps &
-		PlaceContentProps &
-		PlaceItemsProps &
-		PlaceSelfProps &
-		GridTemplateColumnProps &
-		GridColSpanProps &
-		GridTemplateRowsProps &
-		GridRowSpanProps &
-		GridFlowProps &
-		AutoColumnsProps &
-		AutoRowsProps &
-		GapProps &
-		OverflowProps &
-		AbsolutePositionProps &
-		ClearProps &
-		ZindexProps &
-		// Tables
-		BorderCollapseProps &
-		TableLayoutProps &
-		// Transforms
-		TransformProps &
-		OriginProps &
-		ScaleProps &
-		RotateProps &
-		TranslateProps &
-		SkewProps &
-		// Typography
-		PlaceholderColorProps &
-		T;
+  // Spacing
+  PaddingProps &
+    MarginProps &
+    SpacingProps &
+    // Typography
+    FontSizeProps &
+    FontWeightProps &
+    ColorProps &
+    // Misc
+    StateProps &
+    // interactivity
+    AppearanceProps &
+    CursorProps &
+    OutlineProps &
+    PointerEventsProps &
+    ResizeProps &
+    UserSelectProps &
+    // effects
+    BoxShadowProps &
+    OpacityProps &
+    MixBlendProps &
+    BackgroundBlendProps &
+    // Sizing
+    WidthProps &
+    MinWidthProps &
+    MaxWidthProps &
+    HeightProps &
+    MinHeightProps &
+    MaxHeightProps &
+    // Backgrounds
+    GradientColorProps &
+    BackgroundColorProps &
+    BackgroundAttachmentProps &
+    BackgroundClipProps &
+    BackgroundImageProps &
+    BackgroundOpacityProps &
+    BackgroundOriginProps &
+    BackgroundPositionProps &
+    BackgroundRepeatProps &
+    BackgroundSizeProps &
+    // Borders
+    BorderRadiusProps &
+    BorderWidthProps &
+    BorderColorProps &
+    BorderStyleProps &
+    BorderOpacityProps &
+    DivideWidthProps &
+    DivideColorProps &
+    DivideOpacityProps &
+    DivideStyleProps &
+    RingWidthProps &
+    RingColorProps &
+    RingOpacityProps &
+    RingOffsetWidthProps &
+    RingOffsetColorProps &
+    // Transition & animations
+    TransitionProps &
+    TransitionDurationProps &
+    TransitionTimingProps &
+    TransitionDelayProps &
+    AnimateProps &
+    //
+    DisplayProps &
+    PositionProps &
+    FlexProps &
+    FlexDirectionProps &
+    FlexGrowProps &
+    FlexShrinkProps &
+    FlexWrapProps &
+    OrderProps &
+    JustifyContentProps &
+    JustifyItemsProps &
+    JustifySelfProps &
+    AlignContentProps &
+    AlignItemsProps &
+    AlignSelfProps &
+    PlaceContentProps &
+    PlaceItemsProps &
+    PlaceSelfProps &
+    GridTemplateColumnProps &
+    GridColSpanProps &
+    GridTemplateRowsProps &
+    GridRowSpanProps &
+    GridFlowProps &
+    AutoColumnsProps &
+    AutoRowsProps &
+    GapProps &
+    OverflowProps &
+    AbsolutePositionProps &
+    ClearProps &
+    ZindexProps &
+    BoxDecorationBreakProps &
+    BoxSizingProps &
+    FloatsProps &
+    IsolationProps &
+    ObjectFitProps &
+    ObjectPositionProps &
+    OverscrollBehaviorProps &
+    VisibilityProps &
+    // Tables
+    BorderCollapseProps &
+    TableLayoutProps &
+    // Transforms
+    TransformProps &
+    OriginProps &
+    ScaleProps &
+    RotateProps &
+    TranslateProps &
+    SkewProps &
+    // Typography
+    PlaceholderColorProps &
+    T;
 export default MainProps;
