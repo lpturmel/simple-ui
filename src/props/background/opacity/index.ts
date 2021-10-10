@@ -1,20 +1,20 @@
 export interface BackgroundOpacityProps {
-  bgOpacity?: BackgroundOpacityValues;
+  backgroundOpacity?: BackgroundOpacityValues;
 }
 
 export type BackgroundOpacityValues =
-  | 0
-  | 0.05
-  | 0.1
-  | 0.2
-  | 0.25
-  | 0.3
-  | 0.4
-  | 0.5
-  | 0.6
-  | 0.7
-  | 0.75
-  | 0.8
-  | 0.9
-  | 0.95
-  | 1;
+  | "bg-opacity-0"
+  | "bg-opacity-5"
+  | "bg-opacity-10"
+  | "bg-opacity-20"
+  | "bg-opacity-25"
+  | "bg-opacity-30"
+  | "bg-opacity-40"
+  | "bg-opacity-50"
+  | "bg-opacity-60"
+  | "bg-opacity-70"
+  | "bg-opacity-75"
+  | "bg-opacity-80"
+  | "bg-opacity-90"
+  | "bg-opacity-95"
+  | "bg-opacity-100";
