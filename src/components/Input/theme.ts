@@ -12,7 +12,7 @@ const InputOptions: ThemeComponentOptions = {
 			borderColor: "transparent",
 			borderWidth: 0,
 		},
-		borderRadius: "lg",
+		borderRadius: "md",
 		height: 10,
 		appearance: "none",
 		placeholderColor: "gray.400",
