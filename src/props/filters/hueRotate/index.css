@@ -1,0 +1,66 @@
+.simple-ui-hueRotate--180,
+.simple-ui-hover\:hueRotate--180:hover,
+.simple-ui-focus\:hueRotate--180:focus,
+.simple-ui-active\:hueRotate--180:active {
+	--simple-ui-hue-rotate: hue-rotate(-180deg);
+}
+.simple-ui-hueRotate--90,
+.simple-ui-hover\:hueRotate--90:hover,
+.simple-ui-focus\:hueRotate--90:focus,
+.simple-ui-active\:hueRotate--90:active {
+	--simple-ui-hue-rotate: hue-rotate(-90deg);
+}
+.simple-ui-hueRotate--60,
+.simple-ui-hover\:hueRotate--60:hover,
+.simple-ui-focus\:hueRotate--60:focus,
+.simple-ui-active\:hueRotate--60:active {
+	--simple-ui-hue-rotate: hue-rotate(-60deg);
+}
+.simple-ui-hueRotate--30,
+.simple-ui-hover\:hueRotate--30:hover,
+.simple-ui-focus\:hueRotate--30:focus,
+.simple-ui-active\:hueRotate--30:active {
+	--simple-ui-hue-rotate: hue-rotate(-30deg);
+}
+.simple-ui-hueRotate--15,
+.simple-ui-hover\:hueRotate--15:hover,
+.simple-ui-focus\:hueRotate--15:focus,
+.simple-ui-active\:hueRotate--15:active {
+	--simple-ui-hue-rotate: hue-rotate(-15deg);
+}
+.simple-ui-hueRotate-0,
+.simple-ui-hover\:hueRotate-0:hover,
+.simple-ui-focus\:hueRotate-0:focus,
+.simple-ui-active\:hueRotate-0:active {
+	--simple-ui-hue-rotate: hue-rotate(0deg);
+}
+.simple-ui-hueRotate-15,
+.simple-ui-hover\:hueRotate-15:hover,
+.simple-ui-focus\:hueRotate-15:focus,
+.simple-ui-active\:hueRotate-15:active {
+	--simple-ui-hue-rotate: hue-rotate(15deg);
+}
+.simple-ui-hueRotate-30,
+.simple-ui-hover\:hueRotate-30:hover,
+.simple-ui-focus\:hueRotate-30:focus,
+.simple-ui-active\:hueRotate-30:active {
+	--simple-ui-hue-rotate: hue-rotate(30deg);
+}
+.simple-ui-hueRotate-60,
+.simple-ui-hover\:hueRotate-60:hover,
+.simple-ui-focus\:hueRotate-60:focus,
+.simple-ui-active\:hueRotate-60:active {
+	--simple-ui-hue-rotate: hue-rotate(60deg);
+}
+.simple-ui-hueRotate-90,
+.simple-ui-hover\:hueRotate-90:hover,
+.simple-ui-focus\:hueRotate-90:focus,
+.simple-ui-active\:hueRotate-90:active {
+	--simple-ui-hue-rotate: hue-rotate(90deg);
+}
+.simple-ui-hueRotate-180,
+.simple-ui-hover\:hueRotate-180:hover,
+.simple-ui-focus\:hueRotate-180:focus,
+.simple-ui-active\:hueRotate-180:active {
+	--simple-ui-hue-rotate: hue-rotate(180deg);
+}
