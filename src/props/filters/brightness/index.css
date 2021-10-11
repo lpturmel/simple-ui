@@ -1,0 +1,66 @@
+.simple-ui-brightness-0,
+.simple-ui-hover\:brightness-0:hover,
+.simple-ui-focus\:brightness-0:focus,
+.simple-ui-active\:brightness-0:active {
+	--simple-ui-brightness: brightness(0);
+}
+.simple-ui-brightness-50,
+.simple-ui-hover\:brightness-50:hover,
+.simple-ui-focus\:brightness-50:focus,
+.simple-ui-active\:brightness-50:active {
+	--simple-ui-brightness: brightness(0.5);
+}
+.simple-ui-brightness-75,
+.simple-ui-hover\:brightness-75:hover,
+.simple-ui-focus\:brightness-75:focus,
+.simple-ui-active\:brightness-75:active {
+	--simple-ui-brightness: brightness(0.75);
+}
+.simple-ui-brightness-90,
+.simple-ui-hover\:brightness-90:hover,
+.simple-ui-focus\:brightness-90:focus,
+.simple-ui-active\:brightness-90:active {
+	--simple-ui-brightness: brightness(0.9);
+}
+.simple-ui-brightness-95,
+.simple-ui-hover\:brightness-95:hover,
+.simple-ui-focus\:brightness-95:focus,
+.simple-ui-active\:brightness-95:active {
+	--simple-ui-brightness: brightness(0.95);
+}
+.simple-ui-brightness-100,
+.simple-ui-hover\:brightness-100:hover,
+.simple-ui-focus\:brightness-100:focus,
+.simple-ui-active\:brightness-100:active {
+	--simple-ui-brightness: brightness(1);
+}
+.simple-ui-brightness-105,
+.simple-ui-hover\:brightness-105:hover,
+.simple-ui-focus\:brightness-105:focus,
+.simple-ui-active\:brightness-105:active {
+	--simple-ui-brightness: brightness(1.05);
+}
+.simple-ui-brightness-110,
+.simple-ui-hover\:brightness-110:hover,
+.simple-ui-focus\:brightness-110:focus,
+.simple-ui-active\:brightness-110:active {
+	--simple-ui-brightness: brightness(1.1);
+}
+.simple-ui-brightness-125,
+.simple-ui-hover\:brightness-125:hover,
+.simple-ui-focus\:brightness-125:focus,
+.simple-ui-active\:brightness-125:active {
+	--simple-ui-brightness: brightness(1.25);
+}
+.simple-ui-brightness-150,
+.simple-ui-hover\:brightness-150:hover,
+.simple-ui-focus\:brightness-150:focus,
+.simple-ui-active\:brightness-150:active {
+	--simple-ui-brightness: brightness(1.5);
+}
+.simple-ui-brightness-200,
+.simple-ui-hover\:brightness-200:hover,
+.simple-ui-focus\:brightness-200:focus,
+.simple-ui-active\:brightness-200:active {
+	--simple-ui-brightness: brightness(2);
+}
