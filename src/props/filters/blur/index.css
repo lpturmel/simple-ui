@@ -1,0 +1,48 @@
+.simple-ui-blur-none,
+.simple-ui-hover\:blur-none:hover,
+.simple-ui-focus\:blur-none:focus,
+.simple-ui-active\:blur-none:active {
+	--simple-ui-blur: blur(0);
+}
+.simple-ui-blur-xs,
+.simple-ui-hover\:blur-xs:hover,
+.simple-ui-focus\:blur-xs:focus,
+.simple-ui-active\:blur-xs:active {
+	--simple-ui-blur: blur(4px);
+}
+.simple-ui-blur-sm,
+.simple-ui-hover\:blur-sm:hover,
+.simple-ui-focus\:blur-sm:focus,
+.simple-ui-active\:blur-sm:active {
+	--simple-ui-blur: blur(8px);
+}
+.simple-ui-blur-md,
+.simple-ui-hover\:blur-md:hover,
+.simple-ui-focus\:blur-md:focus,
+.simple-ui-active\:blur-md:active {
+	--simple-ui-blur: blur(12px);
+}
+.simple-ui-blur-lg,
+.simple-ui-hover\:blur-lg:hover,
+.simple-ui-focus\:blur-lg:focus,
+.simple-ui-active\:blur-lg:active {
+	--simple-ui-blur: blur(16px);
+}
+.simple-ui-blur-xl,
+.simple-ui-hover\:blur-xl:hover,
+.simple-ui-focus\:blur-xl:focus,
+.simple-ui-active\:blur-xl:active {
+	--simple-ui-blur: blur(24px);
+}
+.simple-ui-blur-2xl,
+.simple-ui-hover\:blur-2xl:hover,
+.simple-ui-focus\:blur-2xl:focus,
+.simple-ui-active\:blur-2xl:active {
+	--simple-ui-blur: blur(40px);
+}
+.simple-ui-blur-3xl,
+.simple-ui-hover\:blur-3xl:hover,
+.simple-ui-focus\:blur-3xl:focus,
+.simple-ui-active\:blur-3xl:active {
+	--simple-ui-blur: blur(64px);
+}
