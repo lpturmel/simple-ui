@@ -1,0 +1,16 @@
+.simple-ui-filter-all,
+.simple-ui-hover\:filter-all:hover,
+.simple-ui-focus\:filter-all:focus,
+.simple-ui-active\:filter-all:active {
+	filter: var(--simple-ui-blur) var(--simple-ui-brightness)
+		var(--simple-ui-contrast) var(--simple-ui-grayscale)
+		var(--simple-ui-hue-rotate) var(--simple-ui-invert)
+		var(--simple-ui-saturate) var(--simple-ui-sepia)
+		var(--simple-ui-drop-shadow);
+}
+.simple-ui-filter-none,
+.simple-ui-hover\:filter-none:hover,
+.simple-ui-focus\:filter-none:focus,
+.simple-ui-active\:filter-none:active {
+	filter: none;
+}
