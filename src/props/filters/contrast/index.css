@@ -1,0 +1,42 @@
+.simple-ui-contrast-0,
+.simple-ui-hover\:contrast-0:hover,
+.simple-ui-focus\:contrast-0:focus,
+.simple-ui-active\:contrast-0:active {
+	--simple-ui-contrast: contrast(0);
+}
+.simple-ui-contrast-50,
+.simple-ui-hover\:contrast-50:hover,
+.simple-ui-focus\:contrast-50:focus,
+.simple-ui-active\:contrast-50:active {
+	--simple-ui-contrast: contrast(0.5);
+}
+.simple-ui-contrast-75,
+.simple-ui-hover\:contrast-75:hover,
+.simple-ui-focus\:contrast-75:focus,
+.simple-ui-active\:contrast-75:active {
+	--simple-ui-contrast: contrast(0.75);
+}
+.simple-ui-contrast-100,
+.simple-ui-hover\:contrast-100:hover,
+.simple-ui-focus\:contrast-100:focus,
+.simple-ui-active\:contrast-100:active {
+	--simple-ui-contrast: contrast(1);
+}
+.simple-ui-contrast-125,
+.simple-ui-hover\:contrast-125:hover,
+.simple-ui-focus\:contrast-125:focus,
+.simple-ui-active\:contrast-125:active {
+	--simple-ui-contrast: contrast(1.25);
+}
+.simple-ui-contrast-150,
+.simple-ui-hover\:contrast-150:hover,
+.simple-ui-focus\:contrast-150:focus,
+.simple-ui-active\:contrast-150:active {
+	--simple-ui-contrast: contrast(1.5);
+}
+.simple-ui-contrast-200,
+.simple-ui-hover\:contrast-200:hover,
+.simple-ui-focus\:contrast-200:focus,
+.simple-ui-active\:contrast-200:active {
+	--simple-ui-contrast: contrast(2);
+}
