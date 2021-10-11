@@ -107,6 +107,7 @@ import "../props/filters/grayscale/index.css";
 import "../props/filters/hueRotate/index.css";
 import "../props/filters/invert/index.css";
 import "../props/filters/saturate/index.css";
+import "../props/filters/sepia/index.css";
 
 import { DefaultTheme, SimpleThemeConfig } from "../theme";
 
