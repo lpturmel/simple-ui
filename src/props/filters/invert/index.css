@@ -1,0 +1,12 @@
+.simple-ui-invert-0,
+.simple-ui-hover\:invert-0:hover,
+.simple-ui-focus\:invert-0:focus,
+.simple-ui-active\:invert-0:active {
+	--simple-ui-invert: invert(0);
+}
+.simple-ui-invert-1,
+.simple-ui-hover\:invert-1:hover,
+.simple-ui-focus\:invert-1:focus,
+.simple-ui-active\:invert-1:active {
+	--simple-ui-invert: invert(1);
+}
