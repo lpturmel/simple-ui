@@ -98,33 +98,34 @@ import "../props/interactivity/cursor/index.css";
 import "../props/interactivity/pointerEvents/index.css";
 import "../props/interactivity/resize/index.css";
 import "../props/interactivity/userSelect/index.css";
+import "../props/filters/filter/index.css";
 
 import { DefaultTheme, SimpleThemeConfig } from "../theme";
 
 interface IProviderStore {
-  theme: SimpleThemeConfig | null;
-  defaultTheme: SimpleThemeConfig;
+	theme: SimpleThemeConfig | null;
+	defaultTheme: SimpleThemeConfig;
 }
 
 const [state, setState] = createStore<IProviderStore>({
-  theme: null,
-  defaultTheme: DefaultTheme,
+	theme: null,
+	defaultTheme: DefaultTheme,
 });
 export const SimpleContext = createContext<
-  [Store<IProviderStore>, SetStoreFunction<IProviderStore>]
+	[Store<IProviderStore>, SetStoreFunction<IProviderStore>]
 >([state, setState]);
 
 interface SimpleProviderProps {
-  theme?: SimpleThemeConfig;
+	theme?: SimpleThemeConfig;
 }
 export const SimpleProvider: Component<SimpleProviderProps> = (props) => {
-  if (props.theme) {
-    setState("theme", () => props.theme);
-  }
-  return (
-    <SimpleContext.Provider value={[state, setState]}>
-      <div id="simple-ui-portal" />
-      {props.children}
-    </SimpleContext.Provider>
-  );
+	if (props.theme) {
+		setState("theme", () => props.theme);
+	}
+	return (
+		<SimpleContext.Provider value={[state, setState]}>
+			<div id="simple-ui-portal" />
+			{props.children}
+		</SimpleContext.Provider>
+	);
 };
