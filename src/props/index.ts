@@ -98,6 +98,7 @@ import { BackgroundRepeatProps } from "./background/repeat";
 import { BackgroundSizeProps } from "./background/size";
 import { FilterProps } from "./filters/filter";
 import { BlurProps } from "./filters/blur";
+import { BrightnessProps } from "./filters/brightness";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -107,6 +108,7 @@ type MainProps<T = {}> =
 		// Filters
 		FilterProps &
 		BlurProps &
+		BrightnessProps &
 		// Typography
 		FontSizeProps &
 		FontWeightProps &
