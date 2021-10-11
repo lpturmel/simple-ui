@@ -1,0 +1,12 @@
+.simple-ui-grayscale-0,
+.simple-ui-hover\:grayscale-0:hover,
+.simple-ui-focus\:grayscale-0:focus,
+.simple-ui-active\:grayscale-0:active {
+	--simple-ui-grayscale: grayscale(0);
+}
+.simple-ui-grayscale-1,
+.simple-ui-hover\:grayscale-1:hover,
+.simple-ui-focus\:grayscale-1:focus,
+.simple-ui-active\:grayscale-1:active {
+	--simple-ui-grayscale: grayscale(1);
+}
