@@ -101,6 +101,7 @@ import "../props/interactivity/userSelect/index.css";
 import "../props/filters/filter/index.css";
 import "../props/filters/blur/index.css";
 import "../props/filters/brightness/index.css";
+import "../props/filters/contrast/index.css";
 
 import { DefaultTheme, SimpleThemeConfig } from "../theme";
 
