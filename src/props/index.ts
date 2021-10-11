@@ -103,6 +103,7 @@ import { ContrastProps } from "./filters/contrast";
 import { DropShadowProps } from "./filters/dropShadow";
 import { GrayscaleProps } from "./filters/grayscale";
 import { HueRotateProps } from "./filters/hueRotate";
+import { InvertProps } from "./filters/invert";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -117,6 +118,7 @@ type MainProps<T = {}> =
 		DropShadowProps &
 		GrayscaleProps &
 		HueRotateProps &
+		InvertProps &
 		// Typography
 		FontSizeProps &
 		FontWeightProps &
