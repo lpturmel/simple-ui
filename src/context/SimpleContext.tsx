@@ -99,6 +99,7 @@ import "../props/interactivity/pointerEvents/index.css";
 import "../props/interactivity/resize/index.css";
 import "../props/interactivity/userSelect/index.css";
 import "../props/filters/filter/index.css";
+import "../props/filters/blur/index.css";
 
 import { DefaultTheme, SimpleThemeConfig } from "../theme";
 
