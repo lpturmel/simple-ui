@@ -101,6 +101,7 @@ import { BlurProps } from "./filters/blur";
 import { BrightnessProps } from "./filters/brightness";
 import { ContrastProps } from "./filters/contrast";
 import { DropShadowProps } from "./filters/dropShadow";
+import { GrayscaleProps } from "./filters/grayscale";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -113,6 +114,7 @@ type MainProps<T = {}> =
 		BrightnessProps &
 		ContrastProps &
 		DropShadowProps &
+		GrayscaleProps &
 		// Typography
 		FontSizeProps &
 		FontWeightProps &
