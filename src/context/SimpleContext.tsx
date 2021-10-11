@@ -105,6 +105,7 @@ import "../props/filters/contrast/index.css";
 import "../props/filters/dropShadow/index.css";
 import "../props/filters/grayscale/index.css";
 import "../props/filters/hueRotate/index.css";
+import "../props/filters/invert/index.css";
 
 import { DefaultTheme, SimpleThemeConfig } from "../theme";
 
