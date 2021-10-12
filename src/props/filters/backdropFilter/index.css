@@ -1,0 +1,16 @@
+.simple-ui-backdropFilter-all,
+.simple-ui-hover\:backdropFilter-all:hover,
+.simple-ui-focus\:backdropFilter-all:focus,
+.simple-ui-active\:backdropFilter-all:active {
+	backdrop-filter: var(--simple-ui-backdrop-blur)
+		var(--simple-ui-backdrop-brightness) var(--simple-ui-backdrop-contrast)
+		var(--simple-ui-backdrop-grayscale) var(--simple-ui-backdrop-hue-rotate)
+		var(--simple-ui-backdrop-invert) var(--simple-ui-backdrop-opacity)
+		var(--simple-ui-backdrop-saturate) var(--simple-ui-backdrop-sepia);
+}
+.simple-ui-backdropFilter-none,
+.simple-ui-hover\:backdropFilter-none:hover,
+.simple-ui-focus\:backdropFilter-none:focus,
+.simple-ui-active\:backdropFilter-none:active {
+	backdrop-filter: none;
+}
