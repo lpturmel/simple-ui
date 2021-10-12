@@ -109,6 +109,7 @@ import "../props/filters/invert/index.css";
 import "../props/filters/saturate/index.css";
 import "../props/filters/sepia/index.css";
 import "../props/filters/backdropFilter/index.css";
+import "../props/filters/backdropBlur/index.css";
 
 import { DefaultTheme, SimpleThemeConfig } from "../theme";
 
