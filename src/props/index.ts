@@ -107,6 +107,7 @@ import { InvertProps } from "./filters/invert";
 import { SaturateProps } from "./filters/saturate";
 import { SepiaProps } from "./filters/sepia";
 import { BackdropFilterProps } from "./filters/backdropFilter";
+import { BackdropBlurProps } from "./filters/backdropBlur";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -125,6 +126,7 @@ type MainProps<T = {}> =
 		SaturateProps &
 		SepiaProps &
 		BackdropFilterProps &
+		BackdropBlurProps &
 		// Typography
 		FontSizeProps &
 		FontWeightProps &
