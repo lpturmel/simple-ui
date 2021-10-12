@@ -115,6 +115,7 @@ import "../props/filters/backdropContrast/index.css";
 import "../props/filters/backdropGrayscale/index.css";
 import "../props/filters/backdropHueRotate/index.css";
 import "../props/filters/backdropInvert/index.css";
+import "../props/filters/backdropOpacity/index.css";
 
 import { DefaultTheme, SimpleThemeConfig } from "../theme";
 
