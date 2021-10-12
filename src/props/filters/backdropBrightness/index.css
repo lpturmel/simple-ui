@@ -1,0 +1,66 @@
+.simple-ui-backdropBrightness-0,
+.simple-ui-hover\:backdropBrightness-0:hover,
+.simpl-ui-focus\:backdropBrightness-0:focus,
+.simple-ui-active\:backdropBrightness-0:active {
+	--simple-ui-backdrop-brightness: brightness(0);
+}
+.simple-ui-backdropBrightness-50,
+.simple-ui-hover\:backdropBrightness-50:hover,
+.simpl-ui-focus\:backdropBrightness-50:focus,
+.simple-ui-active\:backdropBrightness-50:active {
+	--simple-ui-backdrop-brightness: brightness(0.5);
+}
+.simple-ui-backdropBrightness-75,
+.simple-ui-hover\:backdropBrightness-75:hover,
+.simpl-ui-focus\:backdropBrightness-75:focus,
+.simple-ui-active\:backdropBrightness-75:active {
+	--simple-ui-backdrop-brightness: brightness(0.75);
+}
+.simple-ui-backdropBrightness-90,
+.simple-ui-hover\:backdropBrightness-90:hover,
+.simpl-ui-focus\:backdropBrightness-90:focus,
+.simple-ui-active\:backdropBrightness-90:active {
+	--simple-ui-backdrop-brightness: brightness(0.9);
+}
+.simple-ui-backdropBrightness-95,
+.simple-ui-hover\:backdropBrightness-95:hover,
+.simpl-ui-focus\:backdropBrightness-95:focus,
+.simple-ui-active\:backdropBrightness-95:active {
+	--simple-ui-backdrop-brightness: brightness(0.95);
+}
+.simple-ui-backdropBrightness-100,
+.simple-ui-hover\:backdropBrightness-100:hover,
+.simpl-ui-focus\:backdropBrightness-100:focus,
+.simple-ui-active\:backdropBrightness-100:active {
+	--simple-ui-backdrop-brightness: brightness(1);
+}
+.simple-ui-backdropBrightness-105,
+.simple-ui-hover\:backdropBrightness-105:hover,
+.simpl-ui-focus\:backdropBrightness-105:focus,
+.simple-ui-active\:backdropBrightness-105:active {
+	--simple-ui-backdrop-brightness: brightness(1.05);
+}
+.simple-ui-backdropBrightness-110,
+.simple-ui-hover\:backdropBrightness-110:hover,
+.simpl-ui-focus\:backdropBrightness-110:focus,
+.simple-ui-active\:backdropBrightness-110:active {
+	--simple-ui-backdrop-brightness: brightness(1.1);
+}
+.simple-ui-backdropBrightness-125,
+.simple-ui-hover\:backdropBrightness-125:hover,
+.simpl-ui-focus\:backdropBrightness-125:focus,
+.simple-ui-active\:backdropBrightness-125:active {
+	--simple-ui-backdrop-brightness: brightness(1.25);
+}
+.simple-ui-backdropBrightness-150,
+.simple-ui-hover\:backdropBrightness-150:hover,
+.simpl-ui-focus\:backdropBrightness-150:focus,
+.simple-ui-active\:backdropBrightness-150:active {
+	--simple-ui-backdrop-brightness: brightness(1.5);
+}
+.simple-ui-backdropBrightness-200,
+.simple-ui-hover\:backdropBrightness-200:hover,
+.simpl-ui-focus\:backdropBrightness-200:focus,
+.simple-ui-active\:backdropBrightness-200:active {
+	--simple-ui-backdrop-brightness: brightness(2);
+}
