@@ -111,6 +111,7 @@ import "../props/filters/sepia/index.css";
 import "../props/filters/backdropFilter/index.css";
 import "../props/filters/backdropBlur/index.css";
 import "../props/filters/backdropBrightness/index.css";
+import "../props/filters/backdropContrast/index.css";
 
 import { DefaultTheme, SimpleThemeConfig } from "../theme";
 
