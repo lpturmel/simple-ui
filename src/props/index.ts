@@ -145,10 +145,6 @@ type MainProps<T = {}> =
 		BackdropOpacityProps &
 		BackdropSaturateProps &
 		BackdropSepiaProps &
-		// Typography
-		FontSizeProps &
-		FontWeightProps &
-		ColorProps &
 		// Misc
 		StateProps &
 		// interactivity
@@ -251,6 +247,9 @@ type MainProps<T = {}> =
 		TranslateProps &
 		SkewProps &
 		// Typography
+		FontSizeProps &
+		FontWeightProps &
+		ColorProps &
 		PlaceholderColorProps &
 		FontFamilyProps &
 		FontSizeProps &
