@@ -1,18 +1,18 @@
-.simple-ui-bg-fixed,
-.simple-ui-hover\:bg-fixed:hover,
-.simple-ui-focus\:bg-fixed:focus,
-.simple-ui-active\:bg-fixed:active {
+.simple-ui-backgroundAttachment-bg-fixed,
+.simple-ui-hover\:backgroundAttachment-bg-fixed:hover,
+.simple-ui-focus\:backgroundAttachment-bg-fixed:focus,
+.simple-ui-active\:backgroundAttachment-bg-fixed:active {
   background-attachment: fixed;
 }
-.simple-ui-bg-local,
-.simple-ui-hover\:bg-local:hover,
-.simple-ui-focus\:bg-local:focus,
-.simple-ui-active\:bg-local:active {
+.simple-ui-backgroundAttachment-bg-local,
+.simple-ui-hover\:backgroundAttachment-bg-local:hover,
+.simple-ui-focus\:backgroundAttachment-bg-local:focus,
+.simple-ui-active\:backgroundAttachment-bg-local:active {
   background-attachment: local;
 }
-.simple-ui-bg-scroll,
-.simple-ui-hover\:bg-scroll:hover,
-.simple-ui-focus\:bg-scroll:focus,
-.simple-ui-active\:bg-scroll:active {
+.simple-ui-backgroundAttachment-bg-scroll,
+.simple-ui-hover\:backgroundAttachment-bg-scroll:hover,
+.simple-ui-focus\:backgroundAttachment-bg-scroll:focus,
+.simple-ui-active\:backgroundAttachment-bg-scroll:active {
   background-attachment: scroll;
 }

@@ -3,12 +3,12 @@ export interface BackgroundImageProps {
 }
 
 export type BackgroundImageValues =
-  | "none"
-  | "to-t"
-  | "to-tr"
-  | "to-r"
-  | "to-br"
-  | "to-b"
-  | "to-bl"
-  | "to-l"
-  | "to-tl";
+  | "bg-gradient-none"
+  | "bg-gradient-to-t"
+  | "bg-gradient-to-tr"
+  | "bg-gradient-to-r"
+  | "bg-gradient-to-br"
+  | "bg-gradient-to-b"
+  | "bg-gradient-to-bl"
+  | "bg-gradient-to-l"
+  | "bg-gradient-to-tl";

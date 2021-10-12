@@ -96,6 +96,8 @@ import { BackgroundOriginProps } from "./background/origin";
 import { BackgroundPositionProps } from "./background/position";
 import { BackgroundRepeatProps } from "./background/repeat";
 import { BackgroundSizeProps } from "./background/size";
+import { FontFamilyProps } from "./typography/fontFamily";
+import { FontSmoothingProps } from "./typography/fontSmoothing";
 import { FilterProps } from "./filters/filter";
 import { BlurProps } from "./filters/blur";
 import { BrightnessProps } from "./filters/brightness";
@@ -250,5 +252,8 @@ type MainProps<T = {}> =
 		SkewProps &
 		// Typography
 		PlaceholderColorProps &
+		FontFamilyProps &
+		FontSizeProps &
+		FontSmoothingProps &
 		T;
 export default MainProps;
