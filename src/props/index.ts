@@ -111,6 +111,7 @@ import { BackdropBlurProps } from "./filters/backdropBlur";
 import { BackdropBrightnessProps } from "./filters/backdropBrightness";
 import { BackdropContrastProps } from "./filters/backdropContrast";
 import { BackdropGrayscaleProps } from "./filters/backdropGrayscale";
+import { BackdropHueRotateProps } from "./filters/backdropHueRotate";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -133,6 +134,7 @@ type MainProps<T = {}> =
 		BackdropBrightnessProps &
 		BackdropContrastProps &
 		BackdropGrayscaleProps &
+		BackdropHueRotateProps &
 		// Typography
 		FontSizeProps &
 		FontWeightProps &
