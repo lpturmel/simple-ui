@@ -1,0 +1,90 @@
+.simple-ui-backdropOpacity-0,
+.simple-ui-hover\:backdropOpacity-0:hover,
+.simple-ui-focus\:backdropOpacity-0:focus,
+.simple-ui-active\:backdropOpacity-0:active {
+	--simple-ui-backdrop-opacity: opacity(0);
+}
+.simple-ui-backdropOpacity-5,
+.simple-ui-hover\:backdropOpacity-5:hover,
+.simple-ui-focus\:backdropOpacity-5:focus,
+.simple-ui-active\:backdropOpacity-5:active {
+	--simple-ui-backdrop-opacity: opacity(0.05);
+}
+.simple-ui-backdropOpacity-10,
+.simple-ui-hover\:backdropOpacity-10:hover,
+.simple-ui-focus\:backdropOpacity-10:focus,
+.simple-ui-active\:backdropOpacity-10:active {
+	--simple-ui-backdrop-opacity: opacity(0.1);
+}
+.simple-ui-backdropOpacity-20,
+.simple-ui-hover\:backdropOpacity-20:hover,
+.simple-ui-focus\:backdropOpacity-20:focus,
+.simple-ui-active\:backdropOpacity-20:active {
+	--simple-ui-backdrop-opacity: opacity(0.2);
+}
+.simple-ui-backdropOpacity-25,
+.simple-ui-hover\:backdropOpacity-25:hover,
+.simple-ui-focus\:backdropOpacity-25:focus,
+.simple-ui-active\:backdropOpacity-25:active {
+	--simple-ui-backdrop-opacity: opacity(0.25);
+}
+.simple-ui-backdropOpacity-30,
+.simple-ui-hover\:backdropOpacity-30:hover,
+.simple-ui-focus\:backdropOpacity-30:focus,
+.simple-ui-active\:backdropOpacity-30:active {
+	--simple-ui-backdrop-opacity: opacity(0.3);
+}
+.simple-ui-backdropOpacity-40,
+.simple-ui-hover\:backdropOpacity-40:hover,
+.simple-ui-focus\:backdropOpacity-40:focus,
+.simple-ui-active\:backdropOpacity-40:active {
+	--simple-ui-backdrop-opacity: opacity(0.4);
+}
+.simple-ui-backdropOpacity-50,
+.simple-ui-hover\:backdropOpacity-50:hover,
+.simple-ui-focus\:backdropOpacity-50:focus,
+.simple-ui-active\:backdropOpacity-50:active {
+	--simple-ui-backdrop-opacity: opacity(0.5);
+}
+.simple-ui-backdropOpacity-60,
+.simple-ui-hover\:backdropOpacity-60:hover,
+.simple-ui-focus\:backdropOpacity-60:focus,
+.simple-ui-active\:backdropOpacity-60:active {
+	--simple-ui-backdrop-opacity: opacity(0.6);
+}
+.simple-ui-backdropOpacity-70,
+.simple-ui-hover\:backdropOpacity-70:hover,
+.simple-ui-focus\:backdropOpacity-70:focus,
+.simple-ui-active\:backdropOpacity-70:active {
+	--simple-ui-backdrop-opacity: opacity(0.7);
+}
+.simple-ui-backdropOpacity-75,
+.simple-ui-hover\:backdropOpacity-75:hover,
+.simple-ui-focus\:backdropOpacity-75:focus,
+.simple-ui-active\:backdropOpacity-75:active {
+	--simple-ui-backdrop-opacity: opacity(0.75);
+}
+.simple-ui-backdropOpacity-80,
+.simple-ui-hover\:backdropOpacity-80:hover,
+.simple-ui-focus\:backdropOpacity-80:focus,
+.simple-ui-active\:backdropOpacity-80:active {
+	--simple-ui-backdrop-opacity: opacity(0.8);
+}
+.simple-ui-backdropOpacity-90,
+.simple-ui-hover\:backdropOpacity-90:hover,
+.simple-ui-focus\:backdropOpacity-90:focus,
+.simple-ui-active\:backdropOpacity-90:active {
+	--simple-ui-backdrop-opacity: opacity(0.9);
+}
+.simple-ui-backdropOpacity-95,
+.simple-ui-hover\:backdropOpacity-95:hover,
+.simple-ui-focus\:backdropOpacity-95:focus,
+.simple-ui-active\:backdropOpacity-95:active {
+	--simple-ui-backdrop-opacity: opacity(0.95);
+}
+.simple-ui-backdropOpacity-100,
+.simple-ui-hover\:backdropOpacity-100:hover,
+.simple-ui-focus\:backdropOpacity-100:focus,
+.simple-ui-active\:backdropOpacity-100:active {
+	--simple-ui-backdrop-opacity: opacity(1);
+}
