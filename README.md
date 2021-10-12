@@ -33,6 +33,7 @@ Classes with the component prefix `simple-ui-` that are not used will be removed
 | --------- | ------ |
 | HStack | ✅ Done |
 | VStack | ✅ Done |
+| Divider | ✅ Done |
 | Button | ⏳ In Progress |
 | Input | ⏳ In Progress |
 | Select | ⏳ In Progress |
