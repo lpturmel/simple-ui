@@ -14,6 +14,7 @@ import "../props/typography/letterSpacing/index.css";
 import "../props/typography/lineHeight/index.css";
 import "../props/typography/listStyle/index.css";
 import "../props/typography/listPosition/index.css";
+import "../props/typography/textAlign/index.css";
 import "../props/sizing/width/index.css";
 import "../props/sizing/minWidth/index.css";
 import "../props/sizing/maxWidth/index.css";
