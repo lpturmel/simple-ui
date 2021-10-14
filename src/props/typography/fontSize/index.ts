@@ -5,7 +5,7 @@ export interface FontSizeProps {
 export type FontSizeValues =
 	| "xs"
 	| "sm"
-	| "base"
+	| "md"
 	| "lg"
 	| "xl"
 	| "2xl"

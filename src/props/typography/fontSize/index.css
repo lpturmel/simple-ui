@@ -12,10 +12,10 @@
 	font-size: 0.875rem;
 	line-height: 1.25rem;
 }
-.simple-ui-fontSize-base,
-.simple-ui-hover\:fontSize-base:hover,
-.simple-ui-focus\:fontSize-base:focus,
-.simple-ui-active\:fontSize-base:active {
+.simple-ui-fontSize-md,
+.simple-ui-hover\:fontSize-md:hover,
+.simple-ui-focus\:fontSize-md:focus,
+.simple-ui-active\:fontSize-md:active {
 	font-size: 1rem;
 	line-height: 1.5rem;
 }
