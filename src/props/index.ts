@@ -129,6 +129,7 @@ import { TextAlignProps } from "./typography/textAlign";
 import { TextOpacityProps } from "./typography/textOpacity";
 import { TextDecorationProps } from "./typography/textDecoration";
 import { TextTransformProps } from "./typography/textTransform";
+import { TextOverflowProps } from "./typography/textOverflow";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -276,5 +277,6 @@ type MainProps<T = {}> =
 		TextOpacityProps &
 		TextDecorationProps &
 		TextTransformProps &
+		TextOverflowProps &
 		T;
 export default MainProps;
