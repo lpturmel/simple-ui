@@ -9,6 +9,7 @@ import "../props/typography/fontStyle/index.css";
 import "../props/typography/fontVariant/index.css";
 import "../props/typography/textColor/index.css";
 import "../props/typography/fontSize/index.css";
+import "../props/typography/letterSpacing/index.css";
 import "../props/sizing/width/index.css";
 import "../props/sizing/minWidth/index.css";
 import "../props/sizing/maxWidth/index.css";
