@@ -2,6 +2,7 @@ import ButtonOptions from "../components/Button/theme";
 import DividerOptions from "../components/Divider/theme";
 import HStackOptions from "../components/HStack/theme";
 import InputOptions from "../components/Input/theme";
+import LinkOptions from "../components/Link/theme";
 import ModalBodyOptions from "../components/Modal/ModalBody/theme";
 import ModalContentOptions from "../components/Modal/ModalContent/theme";
 import ModalFooterOptions from "../components/Modal/ModalFooter/theme";
@@ -26,6 +27,7 @@ export interface SimpleComponentList {
 	ModalHeader?: ThemeComponentOptions;
 	ModalOverlay?: ThemeComponentOptions;
 	Text?: ThemeComponentOptions;
+	Link?: ThemeComponentOptions;
 }
 
 export interface ThemeComponentOptions {
@@ -84,6 +86,9 @@ export const DefaultTheme: SimpleThemeConfig = {
 		},
 		Text: {
 			...TextOptions,
+		},
+		Link: {
+			...LinkOptions,
 		},
 	},
 };
