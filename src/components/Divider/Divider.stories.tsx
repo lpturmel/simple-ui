@@ -1,4 +1,5 @@
 import { SimpleProvider } from "../../context/SimpleContext";
+import StoryWrapper from "../../StoryWrapper";
 import { Divider } from "./Divider";
 
 export default {
@@ -8,6 +9,8 @@ export default {
 
 export const Default = () => (
 	<SimpleProvider>
-		<Divider />
+		<StoryWrapper>
+			<Divider />
+		</StoryWrapper>
 	</SimpleProvider>
 );

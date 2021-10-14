@@ -1,3 +1,5 @@
+import { SimpleProvider } from "../..";
+import StoryWrapper from "../../StoryWrapper";
 import Select from "./Select";
 
 export default {
@@ -6,7 +8,11 @@ export default {
 };
 
 export const Default = () => (
-	<Select defaultValue="Pick an option">
-		<option>Test</option>
-	</Select>
+	<SimpleProvider>
+		<StoryWrapper>
+			<Select defaultValue="Pick an option">
+				<option>Test</option>
+			</Select>
+		</StoryWrapper>
+	</SimpleProvider>
 );

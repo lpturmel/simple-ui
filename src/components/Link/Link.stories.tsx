@@ -1,3 +1,5 @@
+import { SimpleProvider } from "../..";
+import StoryWrapper from "../../StoryWrapper";
 import { Link } from "./Link";
 
 export default {
@@ -5,4 +7,10 @@ export default {
 	title: "UI/Link",
 };
 
-export const Default = () => <Link>Some Link</Link>;
+export const Default = () => (
+	<SimpleProvider>
+		<StoryWrapper>
+			<Link>Some Link</Link>
+		</StoryWrapper>
+	</SimpleProvider>
+);

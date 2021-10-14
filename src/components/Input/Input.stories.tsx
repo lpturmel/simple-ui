@@ -1,3 +1,5 @@
+import { SimpleProvider } from "../..";
+import StoryWrapper from "../../StoryWrapper";
 import { VStack } from "../VStack";
 import { Input } from "./Input";
 
@@ -7,7 +9,11 @@ export default {
 };
 
 export const Default = () => (
-	<VStack height={"full"} backgroundColor="white" padding={4}>
-		<Input placeholder="Outline" />
-	</VStack>
+	<SimpleProvider>
+		<StoryWrapper>
+			<VStack height={"full"} backgroundColor="white" padding={4}>
+				<Input placeholder="Outline" />
+			</VStack>
+		</StoryWrapper>
+	</SimpleProvider>
 );
