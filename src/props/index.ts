@@ -1,11 +1,15 @@
-import { ColorProps } from "./text/colors/colors";
+import { ColorProps } from "./typography/textColor/colors";
+import { FontVariantProps } from "./typography/fontVariant";
+import { FontSizeProps } from "./typography/fontSize";
+import { FontFamilyProps } from "./typography/fontFamily";
+import { FontSmoothingProps } from "./typography/fontSmoothing";
+import { FontStyleProps } from "./typography/fontStyle";
+import { FontWeightProps } from "./typography/fontWeight";
 import { MarginProps } from "./spacing/margin";
 import { PaddingProps } from "./spacing/padding";
-import { FontSizeProps } from "./text/fontSize";
 import { StateProps } from "./states";
 import { WidthProps } from "./sizing/width/width";
 import { HeightProps } from "./sizing/height/height";
-import { FontWeightProps } from "./text/fontWeight";
 import { BorderRadiusProps } from "./borders/borderRadius";
 import { SpacingProps } from "./spacing/spaceBetween";
 import { DisplayProps } from "./layout/display";
@@ -96,9 +100,6 @@ import { BackgroundOriginProps } from "./background/origin";
 import { BackgroundPositionProps } from "./background/position";
 import { BackgroundRepeatProps } from "./background/repeat";
 import { BackgroundSizeProps } from "./background/size";
-import { FontFamilyProps } from "./typography/fontFamily";
-import { FontSmoothingProps } from "./typography/fontSmoothing";
-import { FontStyleProps } from "./typography/fontStyle";
 import { FilterProps } from "./filters/filter";
 import { BlurProps } from "./filters/blur";
 import { BrightnessProps } from "./filters/brightness";
@@ -119,7 +120,6 @@ import { BackdropInvertProps } from "./filters/backdropInvert";
 import { BackdropOpacityProps } from "./filters/backdropOpacity";
 import { BackdropSaturateProps } from "./filters/backdropSaturate";
 import { BackdropSepiaProps } from "./filters/backdropSepia";
-import { FontVariantProps } from "./typography/fontVariant";
 
 type MainProps<T = {}> =
 	// Spacing
