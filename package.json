@@ -1,6 +1,6 @@
 {
 	"name": "simple-ui-solid",
-	"version": "0.0.21",
+	"version": "0.1.0",
 	"description": "SolidJS Component Library",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
