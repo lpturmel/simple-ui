@@ -123,6 +123,8 @@ import { BackdropSepiaProps } from "./filters/backdropSepia";
 import { LetterSpacingProps } from "./typography/letterSpacing";
 import { LineHeightProps } from "./typography/lineHeight";
 import { ListStyleProps } from "./typography/listStyle";
+import { ListPositionProps } from "./typography/listPosition";
+import { PlaceholderOpacityProps } from "./typography/placeholderOpacity";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -264,5 +266,7 @@ type MainProps<T = {}> =
 		LetterSpacingProps &
 		LineHeightProps &
 		ListStyleProps &
+		ListPositionProps &
+		PlaceholderOpacityProps &
 		T;
 export default MainProps;
