@@ -5,6 +5,7 @@ import "../props/typography/placeholderColor/index.css";
 import "../props/typography/fontFamily/index.css";
 import "../props/typography/fontSize/index.css";
 import "../props/typography/fontSmoothing/index.css";
+import "../props/typography/fontStyle/index.css";
 import "../props/sizing/width/index.css";
 import "../props/sizing/minWidth/index.css";
 import "../props/sizing/maxWidth/index.css";
