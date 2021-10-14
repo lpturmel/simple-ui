@@ -21,6 +21,7 @@ import "../props/typography/textTransform/index.css";
 import "../props/typography/textOverflow/index.css";
 import "../props/typography/verticalAlign/index.css";
 import "../props/typography/whitespace/index.css";
+import "../props/typography/wordBreak/index.css";
 import "../props/sizing/width/index.css";
 import "../props/sizing/minWidth/index.css";
 import "../props/sizing/maxWidth/index.css";
