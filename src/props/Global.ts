@@ -48,17 +48,32 @@ export function mergeProps(
 	props: PropsWithChildren<MainProps>
 ) {
 	const [context] = useContext(SimpleContext);
-	const defaultStyles = context.defaultTheme.defaultProps;
-	const componentDefaultProps =
-		context.defaultTheme.Components?.[ComponentKey]?.defaultProps;
 
-	const componentThemeProps =
-		context.theme?.Components?.[ComponentKey]?.defaultProps;
+	const defaultStyles = context.defaultTheme.defaultProps;
+	const currentColorMode = context.colorMode;
+
+	const componentDefaultProps = {
+		...context.defaultTheme.Components?.[ComponentKey]?.defaultProps,
+		...(currentColorMode === "light"
+			? context.defaultTheme?.Components?.[ComponentKey]?.light
+			: context.defaultTheme?.Components?.[ComponentKey]?.dark),
+	};
+
+	const componentThemeProps = {
+		...context.theme?.Components?.[ComponentKey]?.defaultProps,
+		...(currentColorMode === "light"
+			? context.theme?.Components?.[ComponentKey]?.light
+			: context.theme?.Components?.[ComponentKey]?.dark),
+	};
 
 	const parsedProps = {
+		// Styles that apply to all components
 		...defaultStyles,
+		// Component specific defaults
 		...componentDefaultProps,
+		// Component theming
 		...componentThemeProps,
+		// Inline props
 		...props,
 	};
 
