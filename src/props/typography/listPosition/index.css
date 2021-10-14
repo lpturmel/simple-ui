@@ -1,0 +1,12 @@
+.simple-ui-listPosition-inside,
+.simple-ui-hover\:listPosition-inside:hover,
+.simple-ui-focus\:listPosition-inside:focus,
+.simple-ui-active\:listPosition-inside:active {
+	list-style-position: inside;
+}
+.simple-ui-listPosition-outside,
+.simple-ui-hover\:listPosition-outside:hover,
+.simple-ui-focus\:listPosition-outside:focus,
+.simple-ui-active\:listPosition-outside:active {
+	list-style-position: outside;
+}
