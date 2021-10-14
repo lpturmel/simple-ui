@@ -8,6 +8,7 @@ import ModalFooterOptions from "../components/Modal/ModalFooter/theme";
 import ModalHeaderOptions from "../components/Modal/ModalHeader/theme";
 import ModalOverlayOptions from "../components/Modal/ModalOverlay/theme";
 import ModalOptions from "../components/Modal/theme";
+import TextOptions from "../components/Text/theme";
 import VStackOptions from "../components/VStack/theme";
 import MainProps from "../props";
 
@@ -24,6 +25,7 @@ export interface SimpleComponentList {
 	ModalFooter?: ThemeComponentOptions;
 	ModalHeader?: ThemeComponentOptions;
 	ModalOverlay?: ThemeComponentOptions;
+	Text?: ThemeComponentOptions;
 }
 
 export interface ThemeComponentOptions {
@@ -79,6 +81,9 @@ export const DefaultTheme: SimpleThemeConfig = {
 		},
 		ModalBody: {
 			...ModalBodyOptions,
+		},
+		Text: {
+			...TextOptions,
 		},
 	},
 };
