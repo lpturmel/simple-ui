@@ -1,0 +1,19 @@
+.simple-ui-wordBreak-normal,
+.simple-ui-hover\:wordBreak-normal:hover,
+.simple-ui-focus\:wordBreak-normal:focus,
+.simple-ui-active\:wordBreak-normal:active {
+	overflow-wrap: normal;
+	word-break: normal;
+}
+.simple-ui-wordBreak-words,
+.simple-ui-hover\:wordBreak-words:hover,
+.simple-ui-focus\:wordBreak-words:focus,
+.simple-ui-active\:wordBreak-words:active {
+	overflow-wrap: break-word;
+}
+.simple-ui-wordBreak-all,
+.simple-ui-hover\:wordBreak-all:hover,
+.simple-ui-focus\:wordBreak-all:focus,
+.simple-ui-active\:wordBreak-all:active {
+	word-break: break-all;
+}
