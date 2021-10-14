@@ -142,11 +142,13 @@ import { DefaultTheme, SimpleThemeConfig } from "../theme";
 interface IProviderStore {
 	theme: SimpleThemeConfig | null;
 	defaultTheme: SimpleThemeConfig;
+	colorMode: "dark" | "light";
 }
 
 const [state, setState] = createStore<IProviderStore>({
 	theme: null,
 	defaultTheme: DefaultTheme,
+	colorMode: "dark",
 });
 export const SimpleContext = createContext<
 	[Store<IProviderStore>, SetStoreFunction<IProviderStore>]
@@ -158,6 +160,11 @@ interface SimpleProviderProps {
 export const SimpleProvider: Component<SimpleProviderProps> = (props) => {
 	if (props.theme) {
 		setState("theme", () => props.theme);
+		setState("colorMode", () =>
+			props.theme?.defaultColorMode
+				? props.theme?.defaultColorMode
+				: "dark"
+		);
 	}
 	return (
 		<SimpleContext.Provider value={[state, setState]}>
