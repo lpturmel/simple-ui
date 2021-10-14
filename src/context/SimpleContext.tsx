@@ -18,6 +18,7 @@ import "../props/typography/textAlign/index.css";
 import "../props/typography/textOpacity/index.css";
 import "../props/typography/textDecoration/index.css";
 import "../props/typography/textTransform/index.css";
+import "../props/typography/textOverflow/index.css";
 import "../props/sizing/width/index.css";
 import "../props/sizing/minWidth/index.css";
 import "../props/sizing/maxWidth/index.css";
