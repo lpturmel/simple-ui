@@ -18,9 +18,10 @@ This project is heavily inspired by [Chakra-ui](https://github.com/chakra-ui/cha
 
 Everything is subject to change at this point
 
-This library utilizes CSS templates in order to map JSX props into styling. I wanted little to no overhead regarding Component rendering hence not using emotion/CSS in JS. This comes with the tradeoff of huge CSS files (mostly templates). Similarly to TailwindCSS the plan is to use the custom CLI to purge unused CSS classes within the SolidJS ***build*** package.
+This library utilizes CSS templates in order to map JSX props into styling. I wanted little to no overhead regarding Component rendering hence not using emotion/CSS in JS. This comes with the tradeoff of huge CSS files (mostly templates). Similarly to TailwindCSS the plan is to use the custom CLI to purge unused CSS classes within the SolidJS **_build_** package.
 
 Classes with the component prefix `simple-ui-` that are not used will be removed from the final bundle:
+
 ```CSS
 .simple-ui-borderRadius-none {
 	border-radius: 0px;
@@ -29,22 +30,25 @@ Classes with the component prefix `simple-ui-` that are not used will be removed
 
 ## Component Progress
 
-| Component | Status |
-| --------- | ------ |
-| HStack | ✅ Done |
-| VStack | ✅ Done |
-| Divider | ✅ Done |
-| Button | ⏳ In Progress |
-| Input | ⏳ In Progress |
-| Select | ⏳ In Progress |
-| Modal | ⏳ In Progress |
+| Component | Status         |
+| --------- | -------------- |
+| HStack    | ✅ Done        |
+| VStack    | ✅ Done        |
+| Divider   | ✅ Done        |
+| Link      | ✅ Done        |
+| Text      | ✅ Done        |
+| Button    | ⏳ In Progress |
+| Input     | ⏳ In Progress |
+| Select    | ⏳ In Progress |
+| Modal     | ⏳ In Progress |
 
 ## Feature Progress (planned)
 
-| Feature | Status |
-| --------- | ------ |
-| Theming | ⏳ In Progress |
-| Variants | ⏳ In Progress |
-| CSS purging | ⏳ In Progress |
-| Dark vs light | ❌  Not started |
-| Doc website | ⏳ In Progress |
+| Feature       | Status                |
+| ------------- | --------------------- |
+| CSS templates | ✅ Done (need review) |
+| Theming       | ⏳ In Progress        |
+| Variants      | ⏳ In Progress        |
+| CSS purging   | ⏳ In Progress        |
+| Dark vs light | ⏳ In Progress        |
+| Doc website   | ⏳ In Progress        |
