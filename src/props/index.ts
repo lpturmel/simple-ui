@@ -127,6 +127,7 @@ import { ListPositionProps } from "./typography/listPosition";
 import { PlaceholderOpacityProps } from "./typography/placeholderOpacity";
 import { TextAlignProps } from "./typography/textAlign";
 import { TextOpacityProps } from "./typography/textOpacity";
+import { TextDecorationProps } from "./typography/textDecoration";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -272,5 +273,6 @@ type MainProps<T = {}> =
 		PlaceholderOpacityProps &
 		TextAlignProps &
 		TextOpacityProps &
+		TextDecorationProps &
 		T;
 export default MainProps;
