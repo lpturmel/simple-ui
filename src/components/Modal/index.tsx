@@ -1,4 +1,4 @@
-import { Accessor, Component, JSX } from "solid-js";
+import { Accessor, Component, createEffect, createSignal, JSX } from "solid-js";
 import { Portal } from "solid-js/web";
 import { ICreateControls } from "../..";
 import MainProps from "../../props";
@@ -10,9 +10,12 @@ export interface ModalProps
 	controls: ICreateControls;
 }
 export const Modal: Component<ModalProps> = (props) => {
-	const mergedProps = mergeProps("Modal", props);
+	const [simpleProps, setSimpleProps] = createSignal<string>("");
 
-	const simpleProps = mapPropsToCss(mergedProps, true);
+	createEffect(() => {
+		const mergedProps = mergeProps("Modal", props);
+		setSimpleProps(mapPropsToCss(mergedProps, true));
+	});
 
 	document.addEventListener("keydown", (e) => {
 		if (e.key === "Escape") {
@@ -25,7 +28,7 @@ export const Modal: Component<ModalProps> = (props) => {
 			{props.isOpen() && (
 				<Portal mount={document.getElementById("simple-ui-portal")!}>
 					{" "}
-					<div class={simpleProps}>{props.children}</div>
+					<div class={simpleProps()}>{props.children}</div>
 				</Portal>
 			)}
 		</>

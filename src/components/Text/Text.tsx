@@ -1,4 +1,4 @@
-import { Component, JSX } from "solid-js";
+import { Component, createEffect, createSignal, JSX } from "solid-js";
 import MainProps from "../../props";
 import { mapPropsToCss, mergeProps } from "../../props/Global";
 
@@ -6,12 +6,14 @@ export interface TextProps
 	extends MainProps<JSX.HTMLAttributes<HTMLParagraphElement>> {}
 
 export const Text: Component<TextProps> = (props) => {
-	const mergedProps = mergeProps("Text", props);
+	const [simpleProps, setSimpleProps] = createSignal<string>("");
 
-	const simpleProps = mapPropsToCss(mergedProps, true);
-
+	createEffect(() => {
+		const mergedProps = mergeProps("Text", props);
+		setSimpleProps(mapPropsToCss(mergedProps, true));
+	});
 	return (
-		<p {...props} class={simpleProps}>
+		<p {...props} class={simpleProps()}>
 			{props.children}
 		</p>
 	);

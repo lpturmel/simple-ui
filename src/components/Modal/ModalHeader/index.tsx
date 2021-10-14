@@ -1,15 +1,18 @@
-import { Component, JSX } from "solid-js";
+import { Component, createEffect, createSignal, JSX } from "solid-js";
 import MainProps from "../../../props";
 import { mapPropsToCss, mergeProps } from "../../../props/Global";
 
 export interface ModalHeaderProps
 	extends MainProps<JSX.HTMLAttributes<HTMLDivElement>> {}
 export const ModalHeader: Component<ModalHeaderProps> = (props) => {
-	const mergedProps = mergeProps("ModalHeader", props);
+	const [simpleProps, setSimpleProps] = createSignal<string>("");
 
-	const simpleProps = mapPropsToCss(mergedProps, true);
+	createEffect(() => {
+		const mergedProps = mergeProps("ModalHeader", props);
+		setSimpleProps(mapPropsToCss(mergedProps, true));
+	});
 	return (
-		<div class={simpleProps}>
+		<div class={simpleProps()}>
 			{props.children}
 			<button>X</button>
 		</div>

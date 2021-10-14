@@ -1,4 +1,4 @@
-import { Component, JSX } from "solid-js";
+import { Component, createEffect, createSignal, JSX } from "solid-js";
 import MainProps from "../../props";
 import { mapPropsToCss, mergeProps } from "../../props/Global";
 
@@ -6,12 +6,14 @@ export interface HStackProps
 	extends MainProps<JSX.HTMLAttributes<HTMLDivElement>> {}
 
 export const HStack: Component<HStackProps> = (props) => {
-	const mergedProps = mergeProps("HStack", props);
+	const [simpleProps, setSimpleProps] = createSignal<string>("");
 
-	const simpleProps = mapPropsToCss(mergedProps, true);
-
+	createEffect(() => {
+		const mergedProps = mergeProps("HStack", props);
+		setSimpleProps(mapPropsToCss(mergedProps, true));
+	});
 	return (
-		<div {...props} class={simpleProps}>
+		<div {...props} class={simpleProps()}>
 			{props.children}
 		</div>
 	);
