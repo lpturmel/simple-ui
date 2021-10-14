@@ -31,21 +31,37 @@ export interface SimpleComponentList {
 }
 
 export interface ThemeComponentOptions {
+	/**
+	 * Props applied to the component regardless of current color mode
+	 */
 	defaultProps?: MainProps;
 	/**
 	 * TODO
 	 */
 	variants?: unknown;
+	/**
+	 * Props applied when light mode is enabled
+	 */
+	light?: MainProps;
+	/**
+	 * Props applied when dark mode is enabled
+	 */
+	dark?: MainProps;
 }
 export interface SimpleThemeConfig {
 	Components?: SimpleComponentList;
 	/**
-	 * Style that applies to every element initially
+	 * Style that applies to every component initially
 	 */
 	defaultProps?: MainProps;
+	/**
+	 * The color mode to set initially (defaults to dark)
+	 */
+	defaultColorMode?: "dark" | "light";
 }
 
 export const DefaultTheme: SimpleThemeConfig = {
+	defaultColorMode: "dark",
 	defaultProps: {
 		borderStyle: "solid",
 		borderWidth: 0,
