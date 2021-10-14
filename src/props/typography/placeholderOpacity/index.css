@@ -1,0 +1,90 @@
+.simple-ui-placeholderOpacity-0,
+.simple-ui-hover\:placeholderOpacity-0:hover,
+.simple-ui-focus\:placeholderOpacity-0:focus,
+.simple-ui-active\:placeholderOpacity-0:active {
+	--simple-ui-placeholder-opacity: 0;
+}
+.simple-ui-placeholderOpacity-5,
+.simple-ui-hover\:placeholderOpacity-5:hover,
+.simple-ui-focus\:placeholderOpacity-5:focus,
+.simple-ui-active\:placeholderOpacity-5:active {
+	--simple-ui-placeholder-opacity: 0.05;
+}
+.simple-ui-placeholderOpacity-10,
+.simple-ui-hover\:placeholderOpacity-10:hover,
+.simple-ui-focus\:placeholderOpacity-10:focus,
+.simple-ui-active\:placeholderOpacity-10:active {
+	--simple-ui-placeholder-opacity: 0.1;
+}
+.simple-ui-placeholderOpacity-20,
+.simple-ui-hover\:placeholderOpacity-20:hover,
+.simple-ui-focus\:placeholderOpacity-20:focus,
+.simple-ui-active\:placeholderOpacity-20:active {
+	--simple-ui-placeholder-opacity: 0.2;
+}
+.simple-ui-placeholderOpacity-25,
+.simple-ui-hover\:placeholderOpacity-25:hover,
+.simple-ui-focus\:placeholderOpacity-25:focus,
+.simple-ui-active\:placeholderOpacity-25:active {
+	--simple-ui-placeholder-opacity: 0.25;
+}
+.simple-ui-placeholderOpacity-30,
+.simple-ui-hover\:placeholderOpacity-30:hover,
+.simple-ui-focus\:placeholderOpacity-30:focus,
+.simple-ui-active\:placeholderOpacity-30:active {
+	--simple-ui-placeholder-opacity: 0.3;
+}
+.simple-ui-placeholderOpacity-40,
+.simple-ui-hover\:placeholderOpacity-40:hover,
+.simple-ui-focus\:placeholderOpacity-40:focus,
+.simple-ui-active\:placeholderOpacity-40:active {
+	--simple-ui-placeholder-opacity: 0.4;
+}
+.simple-ui-placeholderOpacity-50,
+.simple-ui-hover\:placeholderOpacity-50:hover,
+.simple-ui-focus\:placeholderOpacity-50:focus,
+.simple-ui-active\:placeholderOpacity-50:active {
+	--simple-ui-placeholder-opacity: 0.5;
+}
+.simple-ui-placeholderOpacity-60,
+.simple-ui-hover\:placeholderOpacity-60:hover,
+.simple-ui-focus\:placeholderOpacity-60:focus,
+.simple-ui-active\:placeholderOpacity-60:active {
+	--simple-ui-placeholder-opacity: 0.6;
+}
+.simple-ui-placeholderOpacity-70,
+.simple-ui-hover\:placeholderOpacity-70:hover,
+.simple-ui-focus\:placeholderOpacity-70:focus,
+.simple-ui-active\:placeholderOpacity-70:active {
+	--simple-ui-placeholder-opacity: 0.7;
+}
+.simple-ui-placeholderOpacity-75,
+.simple-ui-hover\:placeholderOpacity-75:hover,
+.simple-ui-focus\:placeholderOpacity-75:focus,
+.simple-ui-active\:placeholderOpacity-75:active {
+	--simple-ui-placeholder-opacity: 0.75;
+}
+.simple-ui-placeholderOpacity-80,
+.simple-ui-hover\:placeholderOpacity-80:hover,
+.simple-ui-focus\:placeholderOpacity-80:focus,
+.simple-ui-active\:placeholderOpacity-80:active {
+	--simple-ui-placeholder-opacity: 0.8;
+}
+.simple-ui-placeholderOpacity-90,
+.simple-ui-hover\:placeholderOpacity-90:hover,
+.simple-ui-focus\:placeholderOpacity-90:focus,
+.simple-ui-active\:placeholderOpacity-90:active {
+	--simple-ui-placeholder-opacity: 0.9;
+}
+.simple-ui-placeholderOpacity-95,
+.simple-ui-hover\:placeholderOpacity-95:hover,
+.simple-ui-focus\:placeholderOpacity-95:focus,
+.simple-ui-active\:placeholderOpacity-95:active {
+	--simple-ui-placeholder-opacity: 0.95;
+}
+.simple-ui-placeholderOpacity-100,
+.simple-ui-hover\:placeholderOpacity-100:hover,
+.simple-ui-focus\:placeholderOpacity-100:focus,
+.simple-ui-active\:placeholderOpacity-100:active {
+	--simple-ui-placeholder-opacity: 1;
+}
