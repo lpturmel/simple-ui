@@ -1,0 +1,18 @@
+.simple-ui-textDecoration-underline,
+.simple-ui-hover\:textDecoration-underline:hover,
+.simple-ui-focus\:textDecoration-underline:focus,
+.simple-ui-active\:textDecoration-underline:active {
+	text-decoration: underline;
+}
+.simple-ui-textDecoration-line-through,
+.simple-ui-hover\:textDecoration-line-through:hover,
+.simple-ui-focus\:textDecoration-line-through:focus,
+.simple-ui-active\:textDecoration-line-through:active {
+	text-decoration: line-through;
+}
+.simple-ui-textDecoration-no-underline,
+.simple-ui-hover\:textDecoration-no-underline:hover,
+.simple-ui-focus\:textDecoration-no-underline:focus,
+.simple-ui-active\:textDecoration-no-underline:active {
+	text-decoration: none;
+}
