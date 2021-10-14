@@ -1,4 +1,4 @@
-import { Button, HStack, VStack } from "simple-ui-solid";
+import { Button, HStack, Link, Text, VStack } from "simple-ui-solid";
 import { Component, createEffect, createSignal } from "solid-js";
 
 const UnderConstruction: Component = (props) => {
@@ -12,14 +12,20 @@ const UnderConstruction: Component = (props) => {
 			spacingY={16}
 		>
 			<VStack gap={2} fontWeight="bold">
-				<p style={{ "font-size": "2.5rem", margin: 0 }}> UNDER </p>
-				<p style={{ "font-size": "2.2rem", margin: 0 }}>
+				<Text fontSize="4xl" margin={0}>
+					{" "}
+					UNDER{" "}
+				</Text>
+				<Text fontSize="4xl" margin={0}>
 					{" "}
 					CONSTRUCTION{" "}
-				</p>
+				</Text>
 			</VStack>
 			<VStack width="full" spacingY={8}>
-				<a href="https://github.com/lpturmel/simple-ui" target="_blank">
+				<Link
+					href="https://github.com/lpturmel/simple-ui"
+					target="_blank"
+				>
 					<Button
 						backgroundColor="blue.500"
 						_hover={{ backgroundColor: "blue.600" }}
@@ -28,10 +34,12 @@ const UnderConstruction: Component = (props) => {
 						{" "}
 						See Progress on GitHub
 					</Button>
-				</a>
+				</Link>
 				<HStack
 					position="relative"
-					style={{ height: "0.75rem", width: "300px" }}
+					height={3}
+					width={80}
+					// style={{ height: "0.75rem" }}
 					backgroundColor="gray.100"
 					borderRadius="sm"
 				>

@@ -596,10 +596,10 @@ semver@^6.3.0:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
 
-simple-ui-solid@^0.0.21:
-  version "0.0.21"
-  resolved "https://registry.yarnpkg.com/simple-ui-solid/-/simple-ui-solid-0.0.21.tgz#39c7a45f85e538c52e3d327c2b26205747a0326b"
-  integrity sha512-3D1edsKHCIA5eU9Anzk1fUdFuaxuMF10SmYXvlQFVA+jnl2zsDLgHSV48G9IdDkoowwdZa1VS6JftJfyWvmluA==
+simple-ui-solid@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/simple-ui-solid/-/simple-ui-solid-0.1.0.tgz#52a702b9dbbd71de19f05dd25cf73e78928cec24"
+  integrity sha512-FOlDPfq5Yxki7UVnrbdBfdNcRXqVb8aDTcCmZ2ZxrsPx+qA+vKMK80y77n6iQgsu7P/3JJtQrynUO4jffbOeLQ==
 
 solid-app-router@^0.1.7:
   version "0.1.7"
