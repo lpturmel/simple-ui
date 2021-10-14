@@ -14,4 +14,6 @@ export * from "./components/Modal/ModalContent";
 export * from "./components/Modal/ModalFooter";
 
 export * from "./apis/createControls";
+export * from "./apis/useColorMode";
+
 export { SimpleProvider } from "./context/SimpleContext";
