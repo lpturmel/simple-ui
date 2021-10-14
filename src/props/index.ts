@@ -125,6 +125,7 @@ import { LineHeightProps } from "./typography/lineHeight";
 import { ListStyleProps } from "./typography/listStyle";
 import { ListPositionProps } from "./typography/listPosition";
 import { PlaceholderOpacityProps } from "./typography/placeholderOpacity";
+import { TextAlignProps } from "./typography/textAlign";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -268,5 +269,6 @@ type MainProps<T = {}> =
 		ListStyleProps &
 		ListPositionProps &
 		PlaceholderOpacityProps &
+		TextAlignProps &
 		T;
 export default MainProps;
