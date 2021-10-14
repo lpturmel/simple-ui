@@ -5,6 +5,10 @@ export interface ICreateControls {
 	close: () => void;
 	open: () => void;
 }
+/**
+ * Api designed to work with the Modal component providing a boolean accessor and two functions to control the state
+ *
+ */
 export const createControls = (): ICreateControls => {
 	const [isOpen, setIsOpen] = createSignal(false);
 
