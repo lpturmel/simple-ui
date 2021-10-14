@@ -98,6 +98,7 @@ import { BackgroundRepeatProps } from "./background/repeat";
 import { BackgroundSizeProps } from "./background/size";
 import { FontFamilyProps } from "./typography/fontFamily";
 import { FontSmoothingProps } from "./typography/fontSmoothing";
+import { FontStyleProps } from "./typography/fontStyle";
 import { FilterProps } from "./filters/filter";
 import { BlurProps } from "./filters/blur";
 import { BrightnessProps } from "./filters/brightness";
@@ -254,5 +255,6 @@ type MainProps<T = {}> =
 		FontFamilyProps &
 		FontSizeProps &
 		FontSmoothingProps &
+		FontStyleProps &
 		T;
 export default MainProps;
