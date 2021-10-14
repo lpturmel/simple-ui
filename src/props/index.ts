@@ -121,6 +121,7 @@ import { BackdropOpacityProps } from "./filters/backdropOpacity";
 import { BackdropSaturateProps } from "./filters/backdropSaturate";
 import { BackdropSepiaProps } from "./filters/backdropSepia";
 import { LetterSpacingProps } from "./typography/letterSpacing";
+import { LineHeightProps } from "./typography/lineHeight";
 
 type MainProps<T = {}> =
 	// Spacing
@@ -260,5 +261,6 @@ type MainProps<T = {}> =
 		FontStyleProps &
 		FontVariantProps &
 		LetterSpacingProps &
+		LineHeightProps &
 		T;
 export default MainProps;
