@@ -1,0 +1,54 @@
+.simple-ui-fontWeight-thin,
+.simple-ui-hover\:fontWeight-thin:hover,
+.simple-ui-focus\:fontWeight-thin:focus,
+.simple-ui-active\:fontWeight-thin:active {
+	font-weight: 100;
+}
+.simple-ui-fontWeight-extralight,
+.simple-ui-hover\:fontWeight-extralight:hover,
+.simple-ui-focus\:fontWeight-extralight:focus,
+.simple-ui-active\:fontWeight-extralight:active {
+	font-weight: 200;
+}
+.simple-ui-fontWeight-light,
+.simple-ui-hover\:fontWeight-light:hover,
+.simple-ui-focus\:fontWeight-light:focus,
+.simple-ui-active\:fontWeight-light:active {
+	font-weight: 300;
+}
+.simple-ui-fontWeight-normal,
+.simple-ui-hover\:fontWeight-normal:hover,
+.simple-ui-focus\:fontWeight-normal:focus,
+.simple-ui-active\:fontWeight-normal:active {
+	font-weight: 400;
+}
+.simple-ui-fontWeight-medium,
+.simple-ui-hover\:fontWeight-medium:hover,
+.simple-ui-focus\:fontWeight-medium:focus,
+.simple-ui-active\:fontWeight-medium:active {
+	font-weight: 500;
+}
+.simple-ui-fontWeight-semibold,
+.simple-ui-hover\:fontWeight-semibold:hover,
+.simple-ui-focus\:fontWeight-semibold:focus,
+.simple-ui-active\:fontWeight-semibold:active {
+	font-weight: 600;
+}
+.simple-ui-fontWeight-bold,
+.simple-ui-hover\:fontWeight-bold:hover,
+.simple-ui-focus\:fontWeight-bold:focus,
+.simple-ui-active\:fontWeight-bold:active {
+	font-weight: 700;
+}
+.simple-ui-fontWeight-extrabold,
+.simple-ui-hover\:fontWeight-extrabold:hover,
+.simple-ui-focus\:fontWeight-extrabold:focus,
+.simple-ui-active\:fontWeight-extrabold:active {
+	font-weight: 800;
+}
+.simple-ui-fontWeight-black,
+.simple-ui-hover\:fontWeight-black:hover,
+.simple-ui-focus\:fontWeight-black:focus,
+.simple-ui-active\:fontWeight-black:active {
+	font-weight: 900;
+}
