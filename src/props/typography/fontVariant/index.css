@@ -1,0 +1,54 @@
+.simple-ui-fontVariant-normal-nums,
+.simple-ui-hover\:fontVariant-normal-nums:hover,
+.simple-ui-focus\:fontVariant-normal-nums:focus,
+.simple-ui-active\:fontVariant-normal-nums:active {
+	font-variant-numeric: normal;
+}
+.simple-ui-fontVariant-ordinal,
+.simple-ui-hover\:fontVariant-ordinal:hover,
+.simple-ui-focus\:fontVariant-ordinal:focus,
+.simple-ui-active\:fontVariant-ordinal:active {
+	font-variant-numeric: ordinal;
+}
+.simple-ui-fontVariant-slashed-zero,
+.simple-ui-hover\:fontVariant-slashed-zero:hover,
+.simple-ui-focus\:fontVariant-slashed-zero:focus,
+.simple-ui-active\:fontVariant-slashed-zero:active {
+	font-variant-numeric: slashed-zero;
+}
+.simple-ui-fontVariant-lining-nums,
+.simple-ui-hover\:fontVariant-lining-nums:hover,
+.simple-ui-focus\:fontVariant-lining-nums:focus,
+.simple-ui-active\:fontVariant-lining-nums:active {
+	font-variant-numeric: lining-nums;
+}
+.simple-ui-fontVariant-oldstyle-nums,
+.simple-ui-hover\:fontVariant-oldstyle-nums:hover,
+.simple-ui-focus\:fontVariant-oldstyle-nums:focus,
+.simple-ui-active\:fontVariant-oldstyle-nums:active {
+	font-variant-numeric: oldstyle-nums;
+}
+.simple-ui-fontVariant-proportional-nums,
+.simple-ui-hover\:fontVariant-proportional-nums:hover,
+.simple-ui-focus\:fontVariant-proportional-nums:focus,
+.simple-ui-active\:fontVariant-proportional-nums:active {
+	font-variant-numeric: proportional-nums;
+}
+.simple-ui-fontVariant-tabular-nums,
+.simple-ui-hover\:fontVariant-tabular-nums:hover,
+.simple-ui-focus\:fontVariant-tabular-nums:focus,
+.simple-ui-active\:fontVariant-tabular-nums:active {
+	font-variant-numeric: tabular-nums;
+}
+.simple-ui-fontVariant-diagonal-fractions,
+.simple-ui-hover\:fontVariant-diagonal-fractions:hover,
+.simple-ui-focus\:fontVariant-diagonal-fractions:focus,
+.simple-ui-active\:fontVariant-diagonal-fractions:active {
+	font-variant-numeric: diagonal-fractions;
+}
+.simple-ui-fontVariant-stacked-fractions,
+.simple-ui-hover\:fontVariant-stacked-fractions:hover,
+.simple-ui-focus\:fontVariant-stacked-fractions:focus,
+.simple-ui-active\:fontVariant-stacked-fractions:active {
+	font-variant-numeric: stacked-fractions;
+}
