@@ -16,6 +16,9 @@ const StoryWrapper: Component = (props) => {
 					backgroundColor: "gray.600",
 					backgroundOpacity: 20,
 				}}
+				_active={{
+					backgroundColor: "gray.700",
+				}}
 				width={10}
 				height={10}
 				onClick={() => toggleColorMode()}
