@@ -1,0 +1,30 @@
+.simple-ui-whitespace-normal,
+.simple-ui-hover\:whitespace-normal:hover,
+.simple-ui-focus\:whitespace-normal:focus,
+.simple-ui-active\:whitespace-normal:active {
+	white-space: normal;
+}
+.simple-ui-whitespace-nowrap,
+.simple-ui-hover\:whitespace-nowrap:hover,
+.simple-ui-focus\:whitespace-nowrap:focus,
+.simple-ui-active\:whitespace-nowrap:active {
+	white-space: nowrap;
+}
+.simple-ui-whitespace-pre,
+.simple-ui-hover\:whitespace-pre:hover,
+.simple-ui-focus\:whitespace-pre:focus,
+.simple-ui-active\:whitespace-pre:active {
+	white-space: pre;
+}
+.simple-ui-whitespace-pre-line,
+.simple-ui-hover\:whitespace-pre-line:hover,
+.simple-ui-focus\:whitespace-pre-line:focus,
+.simple-ui-active\:whitespace-pre-line:active {
+	white-space: pre-line;
+}
+.simple-ui-whitespace-pre-wrap,
+.simple-ui-hover\:whitespace-pre-wrap:hover,
+.simple-ui-focus\:whitespace-pre-wrap:focus,
+.simple-ui-active\:whitespace-pre-wrap:active {
+	white-space: pre-wrap;
+}
