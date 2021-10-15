@@ -12,9 +12,16 @@ const ModalContentOptions: ThemeComponentOptions = {
 		padding: 2,
 		marginTop: 16,
 		marginBottom: 16,
-		backgroundColor: "gray.100",
 		borderRadius: "md",
 		zIndex: 50,
+	},
+	light: {
+		color: "black",
+		backgroundColor: "white",
+	},
+	dark: {
+		color: "white",
+		backgroundColor: "gray.800",
 	},
 };
 
