@@ -11,10 +11,5 @@ export const ModalHeader: Component<ModalHeaderProps> = (props) => {
 		const mergedProps = mergeProps("ModalHeader", props);
 		setSimpleProps(mapPropsToCss(mergedProps, true));
 	});
-	return (
-		<div class={simpleProps()}>
-			{props.children}
-			<button>X</button>
-		</div>
-	);
+	return <div class={simpleProps()}>{props.children}</div>;
 };
