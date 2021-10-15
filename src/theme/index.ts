@@ -36,9 +36,11 @@ export interface ThemeComponentOptions {
 	 */
 	defaultProps?: MainProps;
 	/**
-	 * TODO
+	 * Define isolated styles to apply via the variant prop
 	 */
-	variants?: unknown;
+	variant?: {
+		[key: string]: MainProps;
+	};
 	/**
 	 * Props applied when light mode is enabled
 	 */
