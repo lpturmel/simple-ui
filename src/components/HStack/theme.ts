@@ -6,6 +6,12 @@ const HStackOptions: ThemeComponentOptions = {
 		flexDirection: "row",
 		alignItems: "center",
 	},
+	light: {
+		backgroundColor: "white",
+	},
+	dark: {
+		backgroundColor: "gray.800",
+	},
 };
 
 export default HStackOptions;
