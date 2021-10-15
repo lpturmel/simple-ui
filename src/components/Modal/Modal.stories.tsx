@@ -19,14 +19,7 @@ const controls = createControls();
 export const Default = () => (
 	<SimpleProvider>
 		<StoryWrapper>
-			<Button
-				onClick={controls.open}
-				backgroundColor="blue.200"
-				paddingX={4}
-				paddingY={2}
-			>
-				Open Modal
-			</Button>
+			<Button onClick={controls.open}>Open Modal</Button>
 			<Modal isOpen={controls.isOpen} controls={controls}>
 				<ModalOverlay />
 				<ModalContent>
@@ -47,13 +40,10 @@ export const Default = () => (
 					</ModalBody>
 					<ModalFooter>
 						<HStack width="full" justifyContent="end" spacingX={2}>
-							<Button
-								backgroundColor="gray.400"
-								onClick={controls.close}
-							>
+							<Button variant="ghost" onClick={controls.close}>
 								Cancel
 							</Button>
-							<Button backgroundColor="blue.400">Save</Button>
+							<Button variant="lightHighContrast">Save</Button>
 						</HStack>
 					</ModalFooter>
 				</ModalContent>
