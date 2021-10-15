@@ -1,11 +1,18 @@
 import { Component } from "solid-js";
 import { Button, useColorMode } from ".";
-
+import { HStack } from ".";
 const StoryWrapper: Component = (props) => {
 	const [colorMode, toggleColorMode] = useColorMode();
 
 	return (
-		<>
+		<HStack
+			position="relative"
+			padding={16}
+			spacingX={8}
+			width="full"
+			height="screen"
+			alignItems="start"
+		>
 			<Button
 				paddingTop={0}
 				paddingBottom={0}
@@ -29,7 +36,7 @@ const StoryWrapper: Component = (props) => {
 				{colorMode() === "dark" ? "🔅" : "🌑"}
 			</Button>
 			{props.children}
-		</>
+		</HStack>
 	);
 };
 export default StoryWrapper;
