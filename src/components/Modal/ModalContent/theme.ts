@@ -14,6 +14,7 @@ const ModalContentOptions: ThemeComponentOptions = {
 		marginBottom: 16,
 		borderRadius: "md",
 		zIndex: 50,
+		animate: "fadein",
 	},
 	light: {
 		color: "black",

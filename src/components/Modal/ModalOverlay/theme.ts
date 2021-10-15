@@ -8,6 +8,7 @@ const ModalOverlayOptions: ThemeComponentOptions = {
 		height: "screen",
 		width: "screen",
 		zIndex: 10,
+		animate: "fadein",
 	},
 };
 
