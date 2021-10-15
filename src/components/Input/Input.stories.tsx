@@ -11,9 +11,7 @@ export default {
 export const Default = () => (
 	<SimpleProvider>
 		<StoryWrapper>
-			<VStack height={"full"} backgroundColor="white" padding={4}>
-				<Input placeholder="Outline" />
-			</VStack>
+			<Input placeholder="Outline" />
 		</StoryWrapper>
 	</SimpleProvider>
 );
