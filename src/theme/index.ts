@@ -38,7 +38,7 @@ export interface ThemeComponentOptions {
 	/**
 	 * Define isolated styles to apply via the variant prop
 	 */
-	variant?: {
+	variants?: {
 		[key: string]: MainProps;
 	};
 	/**
