@@ -51,12 +51,19 @@ export function mergeProps(
 
 	const defaultStyles = context.defaultTheme.defaultProps;
 	const currentColorMode = context.colorMode;
+	const defaultThemeVariantStyles =
+		context.defaultTheme.Components?.[ComponentKey]?.variants?.[
+			props.variant!
+		];
+	const customThemeVariantStyles =
+		context.theme?.Components?.[ComponentKey]?.variants?.[props.variant!];
 
 	const componentDefaultProps = {
 		...context.defaultTheme.Components?.[ComponentKey]?.defaultProps,
 		...(currentColorMode === "light"
 			? context.defaultTheme?.Components?.[ComponentKey]?.light
 			: context.defaultTheme?.Components?.[ComponentKey]?.dark),
+		...defaultThemeVariantStyles,
 	};
 
 	const componentThemeProps = {
@@ -64,6 +71,7 @@ export function mergeProps(
 		...(currentColorMode === "light"
 			? context.theme?.Components?.[ComponentKey]?.light
 			: context.theme?.Components?.[ComponentKey]?.dark),
+		...customThemeVariantStyles,
 	};
 
 	const parsedProps = {
@@ -126,6 +134,25 @@ export type SimpleRemValues =
 export type SimpleColorValues =
 	| "black"
 	| "white"
+	| "blackalpha"
+	| "blackalpha.100"
+	| "blackalpha.200"
+	| "blackalpha.300"
+	| "blackalpha.400"
+	| "blackalpha.500"
+	| "blackalpha.600"
+	| "blackalpha.700"
+	| "blackalpha.800"
+	| "blackalpha.900"
+	| "whitealpha.100"
+	| "whitealpha.200"
+	| "whitealpha.300"
+	| "whitealpha.400"
+	| "whitealpha.500"
+	| "whitealpha.600"
+	| "whitealpha.700"
+	| "whitealpha.800"
+	| "whitealpha.900"
 	| "red.100"
 	| "red.200"
 	| "red.300"
