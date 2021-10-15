@@ -1,6 +1,7 @@
 import { SimpleProvider } from "../../context/SimpleContext";
 import StoryWrapper from "../../StoryWrapper";
 import { SimpleThemeConfig } from "../../theme";
+import { HStack } from "../HStack";
 import { Button } from "./Button";
 
 export default {
@@ -15,6 +16,16 @@ export const Default = () => {
 		<SimpleProvider theme={theme}>
 			<StoryWrapper>
 				<Button>Button</Button>
+			</StoryWrapper>
+		</SimpleProvider>
+	);
+};
+
+export const Outlined = () => {
+	return (
+		<SimpleProvider theme={theme}>
+			<StoryWrapper>
+				<Button variant="outlined">Button</Button>
 			</StoryWrapper>
 		</SimpleProvider>
 	);
