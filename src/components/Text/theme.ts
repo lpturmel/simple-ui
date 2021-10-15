@@ -6,6 +6,12 @@ const TextOptions: ThemeComponentOptions = {
 		marginTop: 0,
 		marginBottom: 0,
 	},
+	light: {
+		color: "black",
+	},
+	dark: {
+		color: "white",
+	},
 };
 
 export default TextOptions;
