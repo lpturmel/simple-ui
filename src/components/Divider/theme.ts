@@ -2,11 +2,16 @@ import { ThemeComponentOptions } from "../../theme";
 
 const DividerOptions: ThemeComponentOptions = {
 	defaultProps: {
-		borderColor: "gray.200",
 		width: "full",
 		opacity: 60,
 		borderWidthBottom: 1,
 		zIndex: 10,
+	},
+	light: {
+		borderColor: "gray.200",
+	},
+	dark: {
+		borderColor: "whitealpha.300",
 	},
 };
 
