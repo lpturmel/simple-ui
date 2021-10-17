@@ -134,7 +134,6 @@ export type SimpleRemValues =
 export type SimpleColorValues =
 	| "black"
 	| "white"
-	| "blackalpha"
 	| "blackalpha.100"
 	| "blackalpha.200"
 	| "blackalpha.300"
