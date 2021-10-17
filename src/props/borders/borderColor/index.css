@@ -24,6 +24,129 @@
 	--simple-ui-border-opacity: 1;
 	border-color: rgba(255, 255, 255, var(--simple-ui-border-opacity));
 }
+
+.simple-ui-borderColor-whitealpha-50,
+.simple-ui-hover\:borderColor-whitealpha-50:hover,
+.simple-ui-focus\:borderColor-whitealpha-50:focus,
+.simple-ui-active\:borderColor-whitealpha-50:active {
+	border-color: rgba(255, 255, 255, 0.04);
+}
+.simple-ui-borderColor-whitealpha-100,
+.simple-ui-hover\:borderColor-whitealpha-100:hover,
+.simple-ui-focus\:borderColor-whitealpha-100:focus,
+.simple-ui-active\:borderColor-whitealpha-100:active {
+	border-color: rgba(255, 255, 255, 0.06);
+}
+.simple-ui-borderColor-whitealpha-200,
+.simple-ui-hover\:borderColor-whitealpha-200:hover,
+.simple-ui-focus\:borderColor-whitealpha-200:focus,
+.simple-ui-active\:borderColor-whitealpha-200:active {
+	border-color: rgba(255, 255, 255, 0.08);
+}
+.simple-ui-borderColor-whitealpha-300,
+.simple-ui-hover\:borderColor-whitealpha-300:hover,
+.simple-ui-focus\:borderColor-whitealpha-300:focus,
+.simple-ui-active\:borderColor-whitealpha-300:active {
+	border-color: rgba(255, 255, 255, 0.16);
+}
+.simple-ui-borderColor-whitealpha-400,
+.simple-ui-hover\:borderColor-whitealpha-400:hover,
+.simple-ui-focus\:borderColor-whitealpha-400:focus,
+.simple-ui-active\:borderColor-whitealpha-400:active {
+	border-color: rgba(255, 255, 255, 0.24);
+}
+.simple-ui-borderColor-whitealpha-500,
+.simple-ui-hover\:borderColor-whitealpha-500:hover,
+.simple-ui-focus\:borderColor-whitealpha-500:focus,
+.simple-ui-active\:borderColor-whitealpha-500:active {
+	border-color: rgba(255, 255, 255, 0.36);
+}
+.simple-ui-borderColor-whitealpha-600,
+.simple-ui-hover\:borderColor-whitealpha-600:hover,
+.simple-ui-focus\:borderColor-whitealpha-600:focus,
+.simple-ui-active\:borderColor-whitealpha-600:active {
+	border-color: rgba(255, 255, 255, 0.48);
+}
+.simple-ui-borderColor-whitealpha-700,
+.simple-ui-hover\:borderColor-whitealpha-700:hover,
+.simple-ui-focus\:borderColor-whitealpha-700:focus,
+.simple-ui-active\:borderColor-whitealpha-700:active {
+	border-color: rgba(255, 255, 255, 0.64);
+}
+.simple-ui-borderColor-whitealpha-800,
+.simple-ui-hover\:borderColor-whitealpha-800:hover,
+.simple-ui-focus\:borderColor-whitealpha-800:focus,
+.simple-ui-active\:borderColor-whitealpha-800:active {
+	border-color: rgba(255, 255, 255, 0.8);
+}
+.simple-ui-borderColor-whitealpha-900,
+.simple-ui-hover\:borderColor-whitealpha-900:hover,
+.simple-ui-focus\:borderColor-whitealpha-900:focus,
+.simple-ui-active\:borderColor-whitealpha-900:active {
+	border-color: rgba(255, 255, 255, 0.92);
+}
+
+.simple-ui-borderColor-blackalpha-50,
+.simple-ui-hover\:borderColor-blackalpha-50:hover,
+.simple-ui-focus\:borderColor-blackalpha-50:focus,
+.simple-ui-active\:borderColor-blackalpha-50:active {
+	border-color: rgba(0, 0, 0, 0.04);
+}
+.simple-ui-borderColor-blackalpha-100,
+.simple-ui-hover\:borderColor-blackalpha-100:hover,
+.simple-ui-focus\:borderColor-blackalpha-100:focus,
+.simple-ui-active\:borderColor-blackalpha-100:active {
+	border-color: rgba(0, 0, 0, 0.06);
+}
+.simple-ui-borderColor-blackalpha-200,
+.simple-ui-hover\:borderColor-blackalpha-200:hover,
+.simple-ui-focus\:borderColor-blackalpha-200:focus,
+.simple-ui-active\:borderColor-blackalpha-200:active {
+	border-color: rgba(0, 0, 0, 0.08);
+}
+.simple-ui-borderColor-blackalpha-300,
+.simple-ui-hover\:borderColor-blackalpha-300:hover,
+.simple-ui-focus\:borderColor-blackalpha-300:focus,
+.simple-ui-active\:borderColor-blackalpha-300:active {
+	border-color: rgba(0, 0, 0, 0.16);
+}
+.simple-ui-borderColor-blackalpha-400,
+.simple-ui-hover\:borderColor-blackalpha-400:hover,
+.simple-ui-focus\:borderColor-blackalpha-400:focus,
+.simple-ui-active\:borderColor-blackalpha-400:active {
+	border-color: rgba(0, 0, 0, 0.24);
+}
+.simple-ui-borderColor-blackalpha-500,
+.simple-ui-hover\:borderColor-blackalpha-500:hover,
+.simple-ui-focus\:borderColor-blackalpha-500:focus,
+.simple-ui-active\:borderColor-blackalpha-500:active {
+	border-color: rgba(0, 0, 0, 0.36);
+}
+.simple-ui-borderColor-blackalpha-600,
+.simple-ui-hover\:borderColor-blackalpha-600:hover,
+.simple-ui-focus\:borderColor-blackalpha-600:focus,
+.simple-ui-active\:borderColor-blackalpha-600:active {
+	border-color: rgba(0, 0, 0, 0.48);
+}
+.simple-ui-borderColor-blackalpha-700,
+.simple-ui-hover\:borderColor-blackalpha-700:hover,
+.simple-ui-focus\:borderColor-blackalpha-700:focus,
+.simple-ui-active\:borderColor-blackalpha-700:active {
+	border-color: rgba(0, 0, 0, 0.64);
+}
+.simple-ui-borderColor-blackalpha-800,
+.simple-ui-hover\:borderColor-blackalpha-800:hover,
+.simple-ui-focus\:borderColor-blackalpha-800:focus,
+.simple-ui-active\:borderColor-blackalpha-800:active {
+	border-color: rgba(0, 0, 0, 0.8);
+}
+.simple-ui-borderColor-blackalpha-900,
+.simple-ui-hover\:borderColor-blackalpha-900:hover,
+.simple-ui-focus\:borderColor-blackalpha-900:focus,
+.simple-ui-active\:borderColor-blackalpha-900:active {
+	border-color: rgba(0, 0, 0, 0.92);
+}
+
 .simple-ui-borderColor-gray-50,
 .simple-ui-hover\:borderColor-gray-50:hover,
 .simple-ui-focus\:borderColor-gray-50:focus,
