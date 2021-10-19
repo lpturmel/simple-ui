@@ -12,13 +12,13 @@
 
 ## Intro
 
-This project is heavily inspired by [Chakra-ui](https://github.com/chakra-ui/chakra-ui)
+This project is heavily inspired by [Chakra-ui](https://github.com/chakra-ui/chakra-ui) & [TailwindCSS](https://github.com/tailwindlabs/tailwindcss)
 
 🗒 Since I rely a lot on these components to speed up my React development, I decided to map some of their components/derive ideas to Solid
 
 Everything is subject to change at this point
 
-This library utilizes CSS templates in order to map JSX props into styling. I wanted little to no overhead regarding Component rendering hence not using emotion/CSS in JS. This comes with the tradeoff of huge CSS files (mostly templates). Similarly to TailwindCSS the plan is to use the custom CLI to purge unused CSS classes within the SolidJS **_build_** package.
+This library utilizes most of TailwindCSS's templates in order to map JSX props into styling. I wanted little to no overhead regarding Component rendering hence not using emotion/CSS in JS. This comes with the tradeoff of huge CSS files (mostly templates). Similarly to Tailwind, the plan is to use purge the unused CSS within the SolidJS **_build_** package. This will be done with a custom CLI command that will parse the code to find used props and associate the css class to be kept in the final bundle. The parser is written in rust
 
 Classes with the component prefix `simple-ui-` that are not used will be removed from the final bundle:
 
@@ -44,11 +44,12 @@ Classes with the component prefix `simple-ui-` that are not used will be removed
 
 ## Feature Progress (planned)
 
-| Feature       | Status                |
-| ------------- | --------------------- |
-| CSS templates | ✅ Done (need review) |
-| Theming       | ⏳ In Progress        |
-| Variants      | ⏳ In Progress        |
-| CSS purging   | ⏳ In Progress        |
-| Dark vs light | ⏳ In Progress        |
-| Doc website   | ⏳ In Progress        |
+| Feature               | Status                |
+| --------------------- | --------------------- |
+| TailwindCSS templates | ✅ Done (need review) |
+| Rust parser           | ⏳ In Progress        |
+| Theming               | ⏳ In Progress        |
+| Variants              | ⏳ In Progress        |
+| CSS purging           | ⏳ In Progress        |
+| Dark vs light         | ⏳ In Progress        |
+| Doc website           | ⏳ In Progress        |
