@@ -11,13 +11,9 @@ export default {
 export const Default = () => (
 	<SimpleProvider>
 		<StoryWrapper>
-			<VStack spacingY={4} width="2/12" class="max-w-2">
-				<Button paddingX={4} paddingY={2}>
-					VStack Child 1
-				</Button>
-				<Button paddingX={4} paddingY={2}>
-					VStack Child 2
-				</Button>
+			<VStack class="space-y-4 w-2/12">
+				<Button>VStack Child 1</Button>
+				<Button>VStack Child 2</Button>
 			</VStack>
 		</StoryWrapper>
 	</SimpleProvider>
