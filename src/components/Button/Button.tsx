@@ -1,6 +1,6 @@
 import { Component, createEffect, createSignal, JSX } from "solid-js";
+import { mergeClasses } from "../../props/global";
 import MainProps from "../../props";
-import { mapPropsToCss, mergeProps } from "../../props/Global";
 
 export interface ButtonProps
 	extends MainProps<JSX.ButtonHTMLAttributes<HTMLButtonElement>> {}
@@ -9,8 +9,7 @@ export const Button: Component<ButtonProps> = (props) => {
 	const [simpleProps, setSimpleProps] = createSignal<string>("");
 
 	createEffect(() => {
-		const mergedProps = mergeProps("Button", props);
-		setSimpleProps(mapPropsToCss(mergedProps, true));
+		setSimpleProps(mergeClasses("Button", props));
 	});
 
 	return (
