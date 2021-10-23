@@ -1,5 +1,6 @@
 import { render } from "solid-js/web";
 import "../src/index.css";
+import "tailwindcss/tailwind.css";
 
 let disposeStory;
 
@@ -14,6 +15,5 @@ export const decorators = [
 		root.appendChild(solid);
 		disposeStory = render(Story, solid);
 		return solid;
-		//return createRoot(() => Story()); // do not work correctly https://github.com/solidjs/solid/issues/553
 	},
 ];
