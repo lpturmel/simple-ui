@@ -2,7 +2,7 @@ import { Accessor, Component, createEffect, createSignal, JSX } from "solid-js";
 import { Portal } from "solid-js/web";
 import { ICreateControls } from "../..";
 import MainProps from "../../props";
-import { mapPropsToCss, mergeProps } from "../../props/Global";
+import { mergeClasses } from "../../props/global";
 
 export interface ModalProps
 	extends MainProps<JSX.HTMLAttributes<HTMLDivElement>> {
@@ -13,8 +13,7 @@ export const Modal: Component<ModalProps> = (props) => {
 	const [simpleProps, setSimpleProps] = createSignal<string>("");
 
 	createEffect(() => {
-		const mergedProps = mergeProps("Modal", props);
-		setSimpleProps(mapPropsToCss(mergedProps, true));
+		setSimpleProps(mergeClasses("Modal", props));
 	});
 
 	document.addEventListener("keydown", (e) => {
