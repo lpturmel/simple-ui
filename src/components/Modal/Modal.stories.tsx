@@ -39,7 +39,7 @@ export const Default = () => (
 						nostrud ad veniam.
 					</ModalBody>
 					<ModalFooter>
-						<HStack width="full" justifyContent="end" spacingX={2}>
+						<HStack class="w-full justify-end space-x-2">
 							<Button variant="ghost" onClick={controls.close}>
 								Cancel
 							</Button>

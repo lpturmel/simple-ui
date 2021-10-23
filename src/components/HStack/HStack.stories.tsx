@@ -11,7 +11,7 @@ export default {
 export const Default = () => (
 	<SimpleProvider>
 		<StoryWrapper>
-			<HStack padding={4} spacingX={4}>
+			<HStack class="p-4 space-x-8">
 				<Button color="white">Button</Button>
 				<Button color="white">Button</Button>
 			</HStack>

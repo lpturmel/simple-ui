@@ -1,6 +1,5 @@
 import { SimpleProvider } from "../..";
 import StoryWrapper from "../../StoryWrapper";
-import { VStack } from "../VStack";
 import { Input } from "./Input";
 
 export default {
