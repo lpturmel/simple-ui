@@ -1,6 +1,6 @@
 import { Component, createEffect, createSignal, JSX } from "solid-js";
 import MainProps from "../../props";
-import { mapPropsToCss, mergeProps } from "../../props/Global";
+import { mergeClasses } from "../../props/global";
 
 export interface SelectProps
 	extends MainProps<JSX.SelectHTMLAttributes<HTMLSelectElement>> {
@@ -12,8 +12,7 @@ const Select: Component<SelectProps> = (props) => {
 	const [simpleProps, setSimpleProps] = createSignal<string>("");
 
 	createEffect(() => {
-		const mergedProps = mergeProps("Select", props);
-		setSimpleProps(mapPropsToCss(mergedProps, true));
+		setSimpleProps(mergeClasses("Select", props));
 	});
 
 	const _handleBlur = (
