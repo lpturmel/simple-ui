@@ -30,32 +30,38 @@ export interface SimpleComponentList {
 	Link?: ThemeComponentOptions;
 }
 
+export interface ComponentDefinition {
+	/**
+	 * Props applied when light mode is enabled
+	 */
+	light?: string;
+	/**
+	 * Props applied when dark mode is enabled
+	 */
+	dark?: string;
+	/**
+	 * Style to apply
+	 */
+	class?: string;
+}
 export interface ThemeComponentOptions {
 	/**
 	 * Props applied to the component regardless of current color mode
 	 */
-	defaultProps?: MainProps;
+	default?: ComponentDefinition;
 	/**
 	 * Define isolated styles to apply via the variant prop
 	 */
 	variants?: {
-		[key: string]: MainProps;
+		[key: string]: ComponentDefinition;
 	};
-	/**
-	 * Props applied when light mode is enabled
-	 */
-	light?: MainProps;
-	/**
-	 * Props applied when dark mode is enabled
-	 */
-	dark?: MainProps;
 }
 export interface SimpleThemeConfig {
 	Components?: SimpleComponentList;
 	/**
 	 * Style that applies to every component initially
 	 */
-	defaultProps?: MainProps;
+	defaultProps?: ComponentDefinition;
 	/**
 	 * The color mode to set initially (defaults to dark)
 	 */
@@ -65,8 +71,8 @@ export interface SimpleThemeConfig {
 export const DefaultTheme: SimpleThemeConfig = {
 	defaultColorMode: "dark",
 	defaultProps: {
-		borderStyle: "solid",
-		borderWidth: 0,
+		// borderStyle: "solid",
+		// borderWidth: 0,
 	},
 	Components: {
 		Button: {
