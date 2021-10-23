@@ -1,6 +1,6 @@
 import { Component, createEffect, createSignal, JSX } from "solid-js";
 import MainProps from "../../../props";
-import { mapPropsToCss, mergeProps } from "../../../props/Global";
+import { mergeClasses } from "../../../props/global";
 
 export interface ModalFooterProps
 	extends MainProps<JSX.HTMLAttributes<HTMLDivElement>> {}
@@ -8,8 +8,7 @@ export const ModalFooter: Component<ModalFooterProps> = (props) => {
 	const [simpleProps, setSimpleProps] = createSignal<string>("");
 
 	createEffect(() => {
-		const mergedProps = mergeProps("ModalFooter", props);
-		setSimpleProps(mapPropsToCss(mergedProps, true));
+		setSimpleProps(mergeClasses("ModalFooter", props));
 	});
 
 	return <div class={simpleProps()}>{props.children}</div>;
