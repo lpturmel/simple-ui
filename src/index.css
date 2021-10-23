@@ -35,15 +35,3 @@ button {
 	border-style: solid;
 	box-sizing: border-box;
 }
-:root {
-	--simple-ui-ring-offset-shadow: 0 0 #0000;
-	--simple-ui-ring-shadow: 0 0 #0000;
-	--simple-ui-shadow: 0 0 #0000;
-	--simple-ui-ring-inset: var(--simple-ui-empty, /*!*/ /*!*/);
-	--simple-ui-ring-offset-width: 0px;
-	--simple-ui-ring-offset-color: #fff;
-	--simple-ui-ring-color: rgba(59, 130, 246, 0.5);
-	--simple-ui-ring-offset-shadow: 0 0 #0000;
-	--simple-ui-ring-shadow: 0 0 #0000;
-	--simple-ui-shadow: 0 0 #0000;
-}
