@@ -1,6 +1,6 @@
 import { Component, createEffect, createSignal, JSX } from "solid-js";
 import MainProps from "../../props";
-import { mapPropsToCss, mergeProps } from "../../props/Global";
+import { mergeClasses } from "../../props/global";
 
 export interface VStackProps
 	extends MainProps<JSX.HTMLAttributes<HTMLDivElement>> {}
@@ -8,8 +8,7 @@ export const VStack: Component<VStackProps> = (props) => {
 	const [simpleProps, setSimpleProps] = createSignal<string>("");
 
 	createEffect(() => {
-		const mergedProps = mergeProps("VStack", props);
-		setSimpleProps(mapPropsToCss(mergedProps, true));
+		setSimpleProps(mergeClasses("VStack", props));
 	});
 	return (
 		<div {...props} class={simpleProps()}>
