@@ -13,12 +13,12 @@ const env = {
 	region: process.env.CDK_DEFAULT_REGION,
 };
 
-new HostingStack(app, "FrontendStack-staging", {
+new HostingStack(app, "SimpleUi-FrontendStack-staging", {
 	stage: "staging",
 	env,
 });
 
-new HostingStack(app, "FrontendStack-prod", {
+new HostingStack(app, "SimpleUi-FrontendStack-prod", {
 	stage: "prod",
 	env,
 });

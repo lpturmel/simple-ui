@@ -9,8 +9,8 @@
 		"watch": "tsc -w",
 		"test": "jest",
 		"cdk": "cdk",
-		"deploy-frontend-staging": "cdk deploy FrontendStack-staging --profile lpturmel",
-		"deploy-frontend-prod": "cdk deploy FrontendStack-prod --profile lpturmel"
+		"deploy-frontend-staging": "cdk deploy SimpleUi-FrontendStack-staging --profile lpturmel",
+		"deploy-frontend-prod": "cdk deploy SimpleUi-FrontendStack-prod --profile lpturmel"
 	},
 	"devDependencies": {
 		"@aws-cdk/assert": "1.126.0",
