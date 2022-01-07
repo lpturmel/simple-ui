@@ -4,10 +4,10 @@ import Prism from "prismjs";
 
 Prism.highlightAll();
 
-const ButtonComponent: Component = (props) => {
+const ButtonComponent: Component = () => {
 	const code = `<Button>Button</Button>`;
 	return (
-		<VStack spacingY={4} alignItems="start">
+		<VStack class="space-y-4 items-start">
 			<Button>Button</Button>
 			<pre>
 				<code class="prism-code language-js">{code}</code>

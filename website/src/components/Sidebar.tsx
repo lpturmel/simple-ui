@@ -4,14 +4,7 @@ import SidebarItem from "./SidebarItem";
 
 const Sidebar: Component = (props) => {
 	return (
-		<VStack
-			paddingY={4}
-			paddingX={8}
-			height="full"
-			width="1/6"
-			maxWidth="sm"
-			overflowY="auto"
-		>
+		<VStack class="py-4 px-8 h-full w-1/6 max-w-sm overflow-y-auto">
 			<SidebarItem path="/docs/button" title="Button" />
 			{/* <SidebarItem path="/docs/hstack" title="HStack" />
 			<SidebarItem path="/docs/vstack" title="VStack" />

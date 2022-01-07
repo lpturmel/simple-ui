@@ -1,74 +1,50 @@
-import { Button, HStack, Link, Text, VStack } from "simple-ui-solid";
+import {
+	Button,
+	HStack,
+	Link,
+	useColorMode,
+	VStack,
+	Text,
+} from "simple-ui-solid";
 import { Component, createEffect, createSignal } from "solid-js";
 
 const UnderConstruction: Component = (props) => {
+	const [colorMode, setColorMode] = useColorMode();
 	const [barWidth, setBarWidth] = createSignal("0%");
 
-	createEffect(() => setTimeout(() => setBarWidth("10%"), 800));
+	createEffect(() => setTimeout(() => setBarWidth("60%"), 800));
 	return (
-		<VStack
-			style={{ height: "75vh" }}
-			justifyContent="center"
-			spacingY={16}
-		>
-			<VStack gap={2} fontWeight="bold">
-				<Text fontSize="4xl" margin={0}>
-					{" "}
-					UNDER{" "}
-				</Text>
-				<Text fontSize="4xl" margin={0}>
-					{" "}
-					CONSTRUCTION{" "}
-				</Text>
+		<VStack class="p-60 space-y-16 h-screen">
+			<Button
+				onClick={() =>
+					setColorMode(colorMode() === "light" ? "dark" : "light")
+				}
+			>
+				{colorMode()}
+			</Button>
+			<VStack class="font-bold space-y-2">
+				<Text class="text-4xl m-0"> UNDER </Text>
+				<Text class="text-4xl m-0"> CONSTRUCTION </Text>
 			</VStack>
-			<VStack width="full" spacingY={8}>
+			<VStack class="w-full space-y-8">
 				<Link
 					href="https://github.com/lpturmel/simple-ui"
 					target="_blank"
 				>
-					<Button
-						backgroundColor="blue.500"
-						_hover={{ backgroundColor: "blue.600" }}
-						_active={{ backgroundColor: "blue.700" }}
-					>
-						{" "}
+					<Button class="bg-blue-500 hover:bg-blue-600 active:bg-blue-700 text-white text-lg">
 						See Progress on GitHub
 					</Button>
 				</Link>
-				<HStack
-					position="relative"
-					height={3}
-					width={80}
-					// style={{ height: "0.75rem" }}
-					backgroundColor="gray.100"
-					borderRadius="sm"
-				>
+				<HStack class="relative h-3 w-80 bg-gray-100 rounded-sm">
 					<HStack
-						transitionTiming="ease-linear"
-						transition="all"
-						transitionDuration={500}
 						style={{ width: barWidth() }}
-						height="full"
-						backgroundColor="blue.200"
-						borderRadius="sm"
+						class="ease-linear transition-all duration-500 h-full bg-blue-300 rounded-sm"
 					/>
-					<HStack
-						fontSize="sm"
-						fontWeight="semibold"
-						position="absolute"
-						left={0}
-						top={4}
-					>
-						0%
+					<HStack class="text-sm font-semibold absolute left-0 top-4 ">
+						<Text>0%</Text>
 					</HStack>
-					<HStack
-						fontSize="sm"
-						fontWeight="semibold"
-						position="absolute"
-						right={0}
-						top={4}
-					>
-						100%
+					<HStack class="text-sm font-semibold absolute right-0 top-4">
+						<Text>100%</Text>
 					</HStack>
 				</HStack>
 			</VStack>

@@ -1,5 +1,4 @@
-import { useContext } from "solid-js";
-import MainProps from ".";
+import { useContext } from "solid-js"; import MainProps from ".";
 import { SimpleContext } from "../context/SimpleContext";
 import { ComponentDefinition, SimpleComponentList } from "../theme";
 

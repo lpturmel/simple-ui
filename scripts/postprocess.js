@@ -18,10 +18,16 @@ function fromDir(startPath, filter, callback) {
 		} else if (filter.test(filename)) callback(filename);
 	}
 }
+// Copy CSS files from /src to /dist
+// fromDir("./src/", /\.css$/, function (filename) {
+// 	const dest = "dist" + filename.substring(3, filename.length);
 
-fromDir("./src/", /\.css$/, function (filename) {
-	const dest = "dist" + filename.substring(3, filename.length);
+// 	console.log("-- Copied: ", filename);
+// 	fs.copyFileSync(filename, dest);
+// });
 
-	console.log("-- found: ", filename);
-	fs.copyFileSync(filename, dest);
+// Delete stories.d.ts files
+fromDir("./dist/", /\.stories.d.ts$/, function (filename) {
+	console.log("-- Deleting: ", filename);
+	fs.unlinkSync(filename);
 });

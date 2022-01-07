@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 
 const Home: Component = (props) => {
 	return (
-		<VStack height="screen">
+		<VStack class="h-screen">
 			<Navbar />
 			<p>The component library meant for Solid Development</p>
 			<Link href="docs/button">

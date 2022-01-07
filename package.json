@@ -1,6 +1,6 @@
 {
 	"name": "simple-ui-solid",
-	"version": "0.1.0",
+	"version": "0.1.7",
 	"description": "SolidJS Component Library",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -14,8 +14,11 @@
 		"build-babel": "babel src --extensions .ts,.tsx -d dist/ --source-maps --ignore '**/*.stories.tsx'",
 		"build-storybook": "build-storybook",
 		"build-types": "tsc --emitDeclarationOnly --declaration --declarationDir dist/ --excludeFiles src/**/*.stories.tsx",
-		"build-css": "node ./scripts/package-css.js",
-		"build-lib": "yarn build-babel && yarn build-types && yarn build-css"
+		"build-css": "./node_modules/.bin/postcss src/index.css -o ./dist/index.css && purgecss --css ./dist/index.css  --content src/**/*.tsx src/**/*.ts -o ./dist/index.css",
+		"postcss": "npx postcss src/index.css -o ./dist/index.css",
+		"purgecss": "npx purgecss --css ./dist/index.css  --content src/components/**/*.tsx src/components/**/*.ts -o ./dist/index.css",
+		"postprocess": "node ./scripts/postprocess.js",
+		"build-lib": "yarn build-babel && yarn build-types && yarn postcss && yarn purgecss && yarn postprocess"
 	},
 	"license": "MIT",
 	"devDependencies": {
@@ -32,9 +35,11 @@
 		"babel-loader": "^8.2.2",
 		"babel-preset-solid": "^1.1.2",
 		"postcss": "^8.3.11",
+		"postcss-cli": "^9.0.1",
 		"postcss-loader": "^6.2.0",
+		"postcss-minify": "^1.1.0",
 		"storybook-dark-mode": "^1.0.8",
-        "tailwindcss": "^2.2.17",
+		"tailwindcss": "^2.2.17",
 		"typescript": "^4.4.2",
 		"vite": "^2.4.0",
 		"vite-plugin-solid": "^2.0.0"
@@ -57,5 +62,8 @@
 	"peerDependencies": {
 		"solid-js": "^1.1.1",
 		"tailwindcss": "^2.2.17"
+	},
+	"dependencies": {
+		"global": "^4.4.0"
 	}
 }

@@ -3,12 +3,9 @@ import { ThemeComponentOptions } from "../../theme";
 const VStackOptions: ThemeComponentOptions = {
 	default: {
 		class: "flex flex-col items-center",
+		light: "bg-white",
+		dark: "bg-gray-800",
 	},
-	// defaultProps: {
-	// 	display: "flex",
-	// 	flexDirection: "col",
-	// 	alignItems: "center",
-	// },
 };
 
 export default VStackOptions;

@@ -26,7 +26,6 @@ export const Modal: Component<ModalProps> = (props) => {
 		<>
 			{props.isOpen() && (
 				<Portal mount={document.getElementById("simple-ui-portal")!}>
-					{" "}
 					<div class={simpleProps()}>{props.children}</div>
 				</Portal>
 			)}

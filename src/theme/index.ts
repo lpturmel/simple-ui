@@ -11,7 +11,6 @@ import ModalOverlayOptions from "../components/Modal/ModalOverlay/theme";
 import ModalOptions from "../components/Modal/theme";
 import TextOptions from "../components/Text/theme";
 import VStackOptions from "../components/VStack/theme";
-import MainProps from "../props";
 
 export interface SimpleComponentList {
 	Button?: ThemeComponentOptions;
