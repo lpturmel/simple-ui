@@ -2,7 +2,7 @@ import { ThemeComponentOptions } from "../../theme";
 
 const VStackOptions: ThemeComponentOptions = {
 	default: {
-		class: "flex flex-col items-center",
+		class: "flex flex-col",
 		light: "bg-white",
 		dark: "bg-gray-800",
 	},
