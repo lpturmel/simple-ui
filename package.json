@@ -1,6 +1,6 @@
 {
 	"name": "simple-ui-solid",
-	"version": "0.1.7",
+	"version": "0.1.9",
 	"description": "SolidJS Component Library",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -16,9 +16,9 @@
 		"build-types": "tsc --emitDeclarationOnly --declaration --declarationDir dist/ --excludeFiles src/**/*.stories.tsx",
 		"build-css": "./node_modules/.bin/postcss src/index.css -o ./dist/index.css && purgecss --css ./dist/index.css  --content src/**/*.tsx src/**/*.ts -o ./dist/index.css",
 		"postcss": "npx postcss src/index.css -o ./dist/index.css",
-		"purgecss": "npx purgecss --css ./dist/index.css  --content src/components/**/*.tsx src/components/**/*.ts -o ./dist/index.css",
+		"tailwind": "tailwindcss --postcss ./postcss.config.js --config ./tailwind.config.js -o dist/index.css",
 		"postprocess": "node ./scripts/postprocess.js",
-		"build-lib": "yarn build-babel && yarn build-types && yarn postcss && yarn purgecss && yarn postprocess"
+		"build-lib": "yarn build-babel && yarn build-types && yarn tailwind && yarn postprocess"
 	},
 	"license": "MIT",
 	"devDependencies": {
@@ -31,15 +31,15 @@
 		"@storybook/addon-postcss": "^2.0.0",
 		"@storybook/html": "^6.3.4",
 		"@types/node": "^16.7.10",
-		"autoprefixer": "^10.3.7",
+		"autoprefixer": "^10.4.1",
 		"babel-loader": "^8.2.2",
 		"babel-preset-solid": "^1.1.2",
-		"postcss": "^8.3.11",
+		"postcss": "^8.4.5",
 		"postcss-cli": "^9.0.1",
 		"postcss-loader": "^6.2.0",
 		"postcss-minify": "^1.1.0",
 		"storybook-dark-mode": "^1.0.8",
-		"tailwindcss": "^2.2.17",
+		"tailwindcss": "^3.0.11",
 		"typescript": "^4.4.2",
 		"vite": "^2.4.0",
 		"vite-plugin-solid": "^2.0.0"
